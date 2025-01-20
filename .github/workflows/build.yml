@@ -16,7 +16,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build AdGuard Filters
         run: |
-          bash scripts/fetch-filters.sh
-          bash scripts/build-filters.sh
+          date +%s > timestamp
+          git config --global user.name "${{ env.GIT_USER }}"
+          git config --global user.email "${{ env.GIT_EMAIL }}"
           git commit -m "Update AdGuard filters $(date +'%Y-%m-%d %H:%M:%S') RPC"
           git push
