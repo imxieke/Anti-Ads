@@ -1,0 +1,1 @@
+google.com,duckduckgo.com,bing.com##a[href*="csdn.net"]:upward(div):style(opacity:0.00!important;)

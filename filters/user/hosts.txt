@@ -1,0 +1,9 @@
+! ThunderSpeed DNS Verification Cheat
+||hub5btmain.sandai.net^
+||hub5emu.sandai.net^
+||upgrade.xl9.xunlei.com^
+
+! 163
+||analytics.163.com^
+||crash.163.com^
+||iad.g.163.com^

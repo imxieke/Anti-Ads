@@ -1,0 +1,4 @@
+wikinews.org
+m.wikinews.org
+zh.wikinews.org
+zh.m.wikinews.org

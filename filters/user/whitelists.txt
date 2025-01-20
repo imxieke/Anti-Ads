@@ -1,0 +1,377 @@
+! Auto Number Verification
+! https://github.com/privacy-protection-tools/anti-AD/issues/547
+! https://github.com/privacy-protection-tools/anti-AD/issues/866
+! https://github.com/privacy-protection-tools/anti-AD/issues/971
+
+@@||auth.wosms.cn^
+@@||config.cmpassport.com^
+@@||enrichgw.10010.com^
+@@||hmrz.wo.cn^
+@@||id.mail.wo.cn^
+@@||id6.me^
+@@||log.cmpassport.com^
+@@||log1.cmpassport.com^
+@@||mdn.open.wo.cn^
+@@||mob.com^
+@@||nishub1.10010.com^
+@@||opencloud.wostore.cn^
+@@||ye.dun.163yun.com^
+
+! Encrypted DNS servers
+@@||apidns.kwd.inkuai.com^
+@@||dns.iqiyi.com^
+@@||dns.jd.com^
+@@||dns.qiyipic.iqiyi.com^
+@@||dns.weibo.cn^
+@@||dns.weixin.qq.com^
+@@||dns.weixin.qq.com^.cn^
+@@||doh.dns.apple.com^
+@@||doh.iqiyi.com^
+@@||doh.ptqy.gitv.tv^
+@@||dotserver.douyucdn.cn^
+@@||hdns.ksyun.com^
+@@||httpdns-api.aliyuncs.com^
+@@||httpdns-browser.platform.dbankcloud.cn^
+@@||httpdns-sc.aliyuncs.com^
+@@||httpdns-sdk.n.netease.com^
+@@||httpdns.alicdn.com^
+@@||httpdns.baidu.com^
+@@||httpdns.baidubce.com^
+@@||httpdns.bcelive.com^
+@@||httpdns.bilivideo.com^
+@@||httpdns.browser.miui.com^
+@@||httpdns.c.cdnhwc2.com^
+@@||httpdns.cctv.com^
+@@||httpdns.danuoyi.tbcache.com^
+@@||httpdns.gslb.yy.com^
+@@||httpdns.huaweicloud.com^
+@@||httpdns.kg.qq.com^
+@@||httpdns.kwd.inkuai.com^
+@@||httpdns.meituan.com^
+@@||httpdns.music.163.com^
+@@||httpdns.n.netease.com^
+@@||httpdns.n.shifen.com^
+@@||httpdns.ocloud.heytapmobi.com^
+@@||httpdns.ocloud.oppomobile.com^
+@@||httpdns.platform.dbankcloud.cn^
+@@||httpdns.platform.dbankcloud.com^
+@@||httpdns.pro^
+@@||httpdns.push.heytapmobi.com^
+@@||httpdns.push.oppomobile.com^
+@@||httpdns.volcengineapi.com^
+@@||httpdns.yunxindns.com^
+@@||httpdns.zybang.com^
+@@||httpdns1.cc.cdnhwc5.com^
+@@||httpsdns.baidu.com^
+@@||lofter.httpdns.c.163.com^
+@@||music.httpdns.c.163.com^
+
+! PCDN domains
+! 适用于用户自己允许
+! @@||bsccdn.net^
+! @@||dyp2p-ali.douyucdn.cn^
+! @@||dyp2p-hw.douyucdn.cn^
+! @@||kuiniuca.com^
+! @@||onethingpcs.com^
+! @@||p2p-ali.douyucdn.cn^
+! @@||p2p.huya.com^
+! @@||p2p.qq.com^
+! @@||p2pchunk-hw.douyucdn.cn^
+! @@||p2pchunk-table.douyucdn.cn^
+! @@||p2pchunk-ws.douyucdn.cn^
+! @@||p2perrorlog.douyucdn.cn^
+! @@||p2plive-ali.douyucdn.cn^
+! @@||p2plive-ws.douyucdn.cn^
+! @@||p2plog.douyucdn.cn^
+! @@||p2ptun.qq.com^
+! @@||p2pupdate.gamedl.qq.com^
+! @@||p2pupgrade.gamedl.qq.com^
+! @@||p2pvod-ws.douyucdn.cn^
+! @@||pcdn.yximgs.com^
+! @@||pkoplink.com^
+! @@||saxysec.com^
+! @@||stun.douyucdn.cn^
+! @@||stun.hitv.com^
+! @@||stun1.douyucdn.cn^
+! @@||szbdyd.com^
+! @@||uhabo.com^
+! @@||xycdn.com^
+
+! Xiaomi
+@@||weatherapi.market.xioami.com^
+!小爱音箱配网
+@@||tracker.ai.xiaomi.com^
+!小米主题
+@@||zhuti.xiaomi.com^
+
+!网易
+@@||cstaticdun.126.net^
+@@||dl.reg.163.com^
+@@||webzjcaptcha.reg.163.com^
+!QQ音乐PC端登录
+@@||c.y.qq.com^
+!阿里验证
+@@||acs.m.taobao.com^
+!淘宝特卖网
+@@||gma.alicdn.com^
+!腾讯视频图片资源
+@@||puui.qpic.cn^
+!腾讯网图片资源
+@@||inews.gtimg.com^
+!小黑盒验证
+@@||fp-it.fengkongcloud.com^
+!部分微信小程序登录
+@@||cnlogin.cainiao.com^
+!百度智能云
+@@||console.bce.baidu.com^$domain=console.bce.baidu.com
+@@||login.bce.baidu.com^$domain=login.bce.baidu.com
+!腾讯系 头像
+@@||qlogo.cn^
+!B站弹幕
+@@||broadcastlv.chat.bilibili.com^
+!JD试用商品详情
+@@||wl.jd.com^
+!微信
+@@||shminorshort.weixin.qq.com^
+@@||support.weixin.qq.com^
+@@||minorshort.weixin.qq.com^
+!Bootcdn
+@@||cdn.bootcdn.net^
+!饿了么小程序
+@@||waimai-guide.ele.me^
+!小米隐私政策撤回同意
+@@||data.sec.miui.com^
+!腾讯游戏登录
+@@||ap6.ssl.msdk.qq.com^
+!ofiii
+@@||cdi.ofiii.com^
+@@||fino.svc.litv.tv^
+!携程移动端主页
+@@||m.ctrip.com^
+!华为账号登录
+@@||oauth-login-drcn.platform.dbankcloud.com^
+!c5饰品交易平台
+@@||img.zbt.com*/market-$script
+
+! @@||115.com^
+! @@||api-m.paypal.com^
+! @@||api.douban.com^
+! @@||api.ithome.com^
+! @@||api.sec.miui.com^
+! @@||artery.douban.com^
+! @@||cdnres.115.com^
+! @@||console.cloud.google.com^
+! @@||d.pcs.baidu.com^
+! @@||dcbpm.suning.cn
+! @@||dev.tencent.com^
+! @@||dyn.ithome.com^
+! @@||e.crashlytics.com^
+! @@||ecpm.tanx.com^
+! @@||fhnfile.oss-cn-shenzhen.aliyuncs.com^
+! @@||forge.speedtest.cn
+! @@||frodo.douban.com^
+! @@||g.alicdn.com^
+! @@||gss0.bdstatic.com^
+! @@||gss1.bdstatic.com^
+! @@||home.115.com^
+! @@||ibsbjstar.ccb.com.cn
+! @@||id.sonyentertainmentnetwork.com^
+! @@||img.alicdn.com^
+! @@||mmbiz.qpic.cn
+! @@||mobile-login-2.xunlei.com^
+! @@||mobile-login-3.xunlei.com^
+! @@||mobile-login.xunlei.com^
+! @@||mp.weixin.qq.com^
+! @@||mygw.alipay.com^
+! @@||oa-panther.data.aliyun.com^
+! @@||pan.baidu.com^
+! @@||passport.baidu.com^
+! @@||promotion.aliyun.com^
+! @@||sdup.update.360safe.com^
+! @@||temai.m.taobao.com^
+! @@||tv.aiseet.atianqi.com^
+! @@||uplb.115.com^
+! @@||vv.play.aiseet.atianqi.com^
+! @@||webapi.115.com^
+! @@||account.zhihu.com^
+! @@||acs.cp12.ott.cibntv.net
+! @@||act.vip.iqiyi.com^
+! @@||al.autohome.com.cn
+! @@||alogs.umeng.com^
+! @@||amonsul.douban.com^
+! @@||analytics-api.smzdm.com^
+! @@||api-t.iqiyi.com^
+! @@||api.car.autohome.com.cn
+! @@||api.douban.com^
+! @@||api.k.sohu.com^
+! @@||api.smzdm.com^
+! @@||api.sports.163.com^
+! @@||api.twitter.com^
+! @@||api.yuedu.iqiyi.com^
+! @@||api.zhihu.com^
+! @@||apisgame.iqiyi.com^
+! @@||appcloud.zhihu.com^
+! @@||appdownload.youku.com^
+! @@||baidustatic.com$domain=xoyo.com
+! @@||c-uaa.if.iqiyi.com^
+! @@||c.m.163.com^
+! @@||cache.video.iqiyi.com^
+! @@||caps.twitter.com^
+! @@||cards.iqiyi.com^
+! @@||cdndata.video.iqiyi.com^
+! @@||cmonitor.iqiyi.com^
+! @@||cmts.iqiyi.com^
+! @@||cmx.autohome.com.cn
+! @@||comic.iqiyi.com^
+! @@||comment-api.smzdm.com^
+! @@||comment-card.iqiyi.com^
+! @@||comment.api.163.com^
+! @@||community.iqiyi.com^
+! @@||cook.iqiyi.com^
+! @@||crash.163.com^
+! @@||cs-feige.iqiyi.com^
+! @@||device.qq.com^
+! @@||df.tanx.com^
+! @@||drive.google.com^
+! @@||du-feige.iqiyi.com^
+! @@||e-p4p.163.com^
+! @@||ef-dongfeng.tanx.com^
+! @@||emoticon-sns.iqiyi.com^
+! @@||erebor.douban.com^
+! @@||frodo.douban.com^
+! @@||g1.163.com^
+! @@||game.163.com^
+! @@||haojia-api.smzdm.com^
+! @@||iface2.iqiyi.com^
+! @@||iface2.iqiyi.com/fusion
+! @@||ifs.tanx.com^
+! @@||image.gamersky.com^
+! @@||image.xingyan.panda.tv^
+! @@||img1.doubanio.com^
+! @@||img1.mydrivers.com^
+! @@||img3.doubanio.com^
+! @@||imgcache.qq.com^
+! @@||imgs.gamersky.com^
+! @@||iqid.iqiyi.com^
+! @@||iyes.youku.com^
+! @@||ka.163.com^
+! @@||kprules.b0.upaiyun.com^
+! @@||l-rcd.iqiyi.com^
+! @@||lens.zhihu.com^
+! @@||lx.hi.163.com^
+! @@||m.ads.sohu.com^
+! @@||m.atm.youku.com^
+! @@||mail.sohu.com/fe/
+! @@||messaging.zhihu.com^
+! @@||mime.baidu.com^
+! @@||mobads.baidu.com^
+! @@||msg.iqiyi.com^
+! @@||n.3g.163.com^
+! @@||nex.163.com^
+! @@||nl-rcd.iqiyi.com^
+! @@||note.youdao.com^
+! @@||paopao.iqiyi.com^
+! @@||passport.iqiyi.com^
+! @@||passport.mydrivers.com^
+! @@||photos.googleapis.com^
+! @@||pic.yefu365.com^
+! @@||puma-api.iqiyi.com^
+! @@||pv.sohu.com^
+! @@||qbwup.imtt.qq.com^
+! @@||qici.iqiyi.com^
+! @@||qnmob3.doubanio.com^
+! @@||qosp.iqiyi.com^
+! @@||rd.autohome.com.cn
+! @@||rdx.autohome.com.cn
+! @@||res-danmu.youku.com^
+! @@||s.youtube.com/api/
+! @@||search.video.iqiyi.com^
+! @@||serv.vip.iqiyi.com^
+! @@||sns-follow.iqiyi.com^
+! @@||sns-paopao.iqiyi.com^
+! @@||static-s.iqiyi.com^
+! @@||static.zhihu.com^
+! @@||subscription.iqiyi.com^
+! @@||sugar.zhihu.com^
+! @@||time.video.iqiyi.com^
+! @@||uop.umeng.com^
+! @@||vals.atm.youku.com/dot/video?
+! @@||vthumb.youku.com^
+! @@||www.google.com^
+! @@||www.macx.cn
+! @@||z.m.tv.sohu.com^
+! @@||zhihu-web-analytics.zhihu.com^
+! @@|||126.com^
+! @@|||163.com^
+! @@|||asr-aicloud.alibaba.com^
+! @@|||btrace.qq.com^
+! @@|||cdn.jsdelivr.net
+! @@|||clients6.google.com^
+! @@|||doubanio.com^
+! @@|||g-aicloud.alibaba.com^
+! @@|||mkey.163.com^
+! @@|||music.163.com^
+! @@|||netease.com^
+! @@|||p.kuaidi100.com^
+! @@|||p2p.huya.com^
+! @@|||s3.amazonaws.com^
+! @@|||sinaimg.cn
+! @@|||twitter.com^
+! @@|||v.smtcdns.net^
+
+! brave.com specfic filters
+@@||ads.brave.software^$first-party
+@@||ads-admin.bravesoftware.com^$first-party
+@@||ads.bravesoftware.com^$first-party
+@@||ads-admin.brave.com^$first-party
+@@||ads-admin.brave.software^$first-party
+@@||ads.brave.com^$first-party
+@@||brave.com^$image,stylesheet,first-party
+@@||go-updater.brave.com^
+
+! search.brave.com specfic filters
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L207
+search.brave.com#@#+js(no-fetch-if, body:browser)
+search.brave.com###search-ad
+! stats.brave.com
+@@||stats.brave.com^$ghide
+@@||stats.brave.com^$first-party
+! community.brave.com
+@@||community.brave.com^$ghide
+
+! Fix localhost block on Trezor Bridge/Connect
+! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
+@@||127.0.0.1^$domain=trezor.io
+
+! https://github.com/brave/brave-browser/issues/43050
+@@||127.0.0.1^$domain=pcsupport.lenovo.com
+
+!!! START OF UBO EXCEPTIONS
+! https://github.com/uBlockOrigin/uAssets/issues/23456
+@@||127.0.0.1^$xhr,domain=figma.com
+!
+! https://github.com/uBlockOrigin/uAssets/issues/19005
+@@||127.0.0.1^$xhr,domain=battlelog.battlefield.com
+!
+! https://github.com/uBlockOrigin/uAssets/pull/20768
+@@||127.0.0.1^$3p,domain=musicbrainz.org
+!
+! https://github.com/uBlockOrigin/uAssets/pull/22475
+@@||127.0.0.1^$domain=client.foldingathome.org
+!
+! https://github.com/uBlockOrigin/uAssets/issues/21960
+@@||127.0.0.1^$domain=mega.nz
+!
+! https://github.com/uBlockOrigin/uAssets/commit/b0e28ffe
+@@||127.0.0.1^$domain=intel.cn|intel.co.id|intel.co.jp|intel.co.kr|intel.com|intel.com.br|intel.com.tw|intel.de|intel.fr|intel.la|intel.vn
+!
+! https://github.com/uBlockOrigin/uAssets/issues/23388
+@@||localhost^$domain=deutsche-rentenversicherung.de
+@@||127.0.0.1^$domain=bund.de|organspende-register.de|bayernportal.de|mv-serviceportal.de
+!
+! https://github.com/uBlockOrigin/uAssets/pull/24488
+@@||localhost^$websocket,domain=www.faceit.com
+!!! END OF UBO EXCEPTIONS
+
+! Trusted open-in-app notices
+alltrails.com##+js(trusted-set-local-storage-item, banner-dismissal-date, $now$)

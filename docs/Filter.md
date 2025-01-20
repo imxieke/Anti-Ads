@@ -1,0 +1,10 @@
+## Category
+- hosts
+- annoyance
+- social
+- tracking
+- privacy
+- cookie
+- security
+- notifications
+- fonts

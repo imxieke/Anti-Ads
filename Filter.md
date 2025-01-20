@@ -1,0 +1,40 @@
+## Adblock Rules
+- 同类型进行合并并过滤重复项
+- 冗余测试
+- https://accounts.adblockplus.org/zh_CN/redundancy_check
+- 合并后推送到 jsdelivr
+- 分类
+  - 广告 advert
+  - 挖矿 miner
+  - 隐私 privacy
+    - 追踪 tracking
+    - 社交 social
+  - 安全 security
+  - 功能型 features
+
+## 特殊
+- https://github.com/Loyalsoldier/cn-blocked-domain
+- https://github.com/googlehosts/hosts
+- https://github.com/Tartarus2014/Surge-Script
+- https://github.com/limbopro/Profiles
+- https://github.com/Hackl0us/SS-Rule-Snippet
+- https://github.com/CloudGateRules/Shadowrocket
+- https://github.com/h2y/Shadowrocket-ADBlock-Rules
+- https://github.com/CloudGateRules/CloudGate
+- https://github.com/Loyalsoldier/v2ray-rules-dat
+- https://github.com/ACL4SSR/ACL4SSR/tree/master
+- https://github.com/jmdugan/blocklists
+- https://github.com/nickspaargaren/no-google
+- https://github.com/app2smile/rules
+- https://github.com/SukkaW/Surge
+- https://github.com/felixonmars/dnsmasq-china-list
+- https://github.com/Loyalsoldier/v2ray-rules-dat
+- https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
+- https://github.com/Loyalsoldier/clash-rules
+- https://github.com/limbopro/Adblock4limbo
+- https://github.com/DoingDog/rconvert
+- https://github.com/blackmatrix7/ios_rule_script
+- https://github.com/StevenBlack/hosts 屏蔽站点(非广告)
+- https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist 屏蔽人工智能相关的站点及页面
+- https://github.com/gfwlist/gfwlist
+- https://github.com/limbopro/Adblock4limbo

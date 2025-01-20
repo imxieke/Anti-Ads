@@ -1,0 +1,2 @@
+sohu.com##div[id^="COUPLET"]
+sohu.com##div[id^="beans"]

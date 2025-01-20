@@ -1,0 +1,7 @@
+! 卡饭
+bbs.kafan.cn###autopbn
+bbs.kafan.cn###scrolltop
+bbs.kafan.cn##.bm_h
+bbs.kafan.cn##.ptn.xg2
+bbs.kafan.cn##.a_pt
+bbs.kafan.cn##.a_pb

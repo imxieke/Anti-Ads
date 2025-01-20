@@ -1,0 +1,69 @@
+! Specific filters (Tracking or ads) for Brave
+||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
+||[::]^$third-party,domain=~0.0.0.0|~[::ffff:0:0]
+||[::ffff:0:0]^$third-party,domain=~0.0.0.0|~[::]
+||localhost^$third-party,domain=~127.0.0.1|~[::1]|~[::ffff:7f00:1]
+||127.0.0.1^$third-party,domain=~localhost|~[::1]|~[::ffff:7f00:1]
+||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
+||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
+
+! 防止斗鱼直播切回标签页会重新加载
+douyu.com##+js(aeld,visibilitychange)
+
+! 1688
+ ! js加载死循环造成的卡死
+||g.alicdn.com/zgc/aem-od-assets-logger/*/index.js$script,domain=1688.com
+
+! 无追搜索
+wuzhuiso.com##.extension-tip.res-list
+wuzhuiso.com##.download-browser
+
+! NGA
+bbs.nga.cn##.hld__docker
+
+! CNN
+cnn.com##.user-msg
+
+! HBR
+hbr.org##.backdrop-darker > .row
+
+! 京东
+jd.com##.side__ad.side__ad-left
+jd.com##.side__ad.side__ad-right
+jd.com##.activity-top
+
+! statista
+statista.com###statisticSlideIn
+statista.com###caRequestPopup
+statista.com##.modal-dialog--caRequest.modal-dialog
+
+! 2animx.com
+2animx.com###index_left
+2animx.com###index_right
+2animx.com##div[class*="footer"]
+
+! hentai.tv
+hentai.tv###wpd-bubble-count
+
+! weibo.com
+weibo.com##.yawf-dialog-outer
+
+! feikuai.tv
+feikuai.tv##.popupShow.none.popup-tips.popup
+
+! dushe9.app
+dushe9.app###modal-anc
+dushe9.app##.iziModal-overlay
+
+! zlibrary
+zlibrary-cn.se##.support-us-headline
+
+! torkitty.net
+torkitty.net##.modal-body
+torkitty.net##.modal.in.nordvpn-popup--v12.nordvpn-popup.fade
+
+! https://hentaihub.xxx
+hentaihub.xxx##.vrav_a_pc
+
+! https://www.meiyd12.tv
+www.meiyd12.tv##.module-player.module > .is_pc.ksdfk_ues.module-wrapper.wudfg-iejfd

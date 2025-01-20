@@ -1,0 +1,29 @@
+! Title: Allow nonintrusive Advertising without third-party tracking
+! Description: Allow nonintrusive advertising without third-party tracking.
+! Updated: %TIMESTAMP%
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/imxieke/Anti-Ads
+! License: http://creativecommons.org/licenses/by/3.0/
+! Reporting Issues: https://github.com/imxieke/Anti-Ads/issues
+!
+!///////////////////////////////////////////////////////////////////
+!//                       .::::.
+!//                     .::::::::.
+!//                    :::::::::::
+!//                 ..:::::::::::'
+!//              '::::::::::::'
+!//                .::::::::::
+!//           '::::::::::::::..
+!//                ..::::::::::::.
+!//              ``::::::::::::::::
+!//               ::::``:::::::::'        .:::.
+!//              ::::'   ':::::'       .::::::::.
+!//            .::::'      ::::     .:::::::'::::.
+!//           .:::'       :::::  .:::::::::' ':::::.
+!//          .::'        :::::.:::::::::'      ':::::.
+!//         .::'         ::::::::::::::'         ``::::.
+!//     ...:::           ::::::::::::'              ``::.
+!//    ```` ':.          ':::::::::'                  ::::..
+!//                       '.:::::'                    ':'````..
+!//         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+!///////////////////////////////////////////////////////////////////

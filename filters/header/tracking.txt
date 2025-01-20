@@ -1,0 +1,29 @@
+! Title: Tracking Protection Filters
+! Description: The most comprehensive list of various online counters and web analytics tools,removing tracking parameters from URLs.
+! Updated: %TIMESTAMP%
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/imxieke/Anti-Ads
+! License: http://creativecommons.org/licenses/by/3.0/
+! Reporting Issues: https://github.com/imxieke/Anti-Ads/issues
+!
+!///////////////////////////////////////////////////////////////////
+!//                       .::::.
+!//                     .::::::::.
+!//                    :::::::::::
+!//                 ..:::::::::::'
+!//              '::::::::::::'
+!//                .::::::::::
+!//           '::::::::::::::..
+!//                ..::::::::::::.
+!//              ``::::::::::::::::
+!//               ::::``:::::::::'        .:::.
+!//              ::::'   ':::::'       .::::::::.
+!//            .::::'      ::::     .:::::::'::::.
+!//           .:::'       :::::  .:::::::::' ':::::.
+!//          .::'        :::::.:::::::::'      ':::::.
+!//         .::'         ::::::::::::::'         ``::::.
+!//     ...:::           ::::::::::::'              ``::.
+!//    ```` ':.          ':::::::::'                  ::::..
+!//                       '.:::::'                    ':'````..
+!//         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+!///////////////////////////////////////////////////////////////////

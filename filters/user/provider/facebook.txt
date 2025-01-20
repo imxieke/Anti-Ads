@@ -1,0 +1,41 @@
+! Facebook
+||facebook.com/ajax/qm/
+||facebook.com/ajax/$ping
+/ajax/bz$domain=facebook.com|messenger.com|instagram.com
+||facebook.com/sem_pixel/*
+||facebook.com/ajax/ssinfeed/
+||facebook.com/adnw_instream_logging/
+||facebook.com/xsemc/
+||facebook.com/video/unified_cvc/
+||facebook.com/frx/dismiss/survey/
+||facebook.com/ajax/webstorage/process_keys/
+||facebook.com/ajax/bnzai
+||facebook.com/ajax/bulk-route-definitions/
+||facebook.com/ajax/fantail/
+||facebook.com/search/async/
+||facebook.com/nw/
+||facebook.com/video/autoplay/
+||facebook.com^*/cms-logging-controller/
+||facebook.com/tealium/
+||facebook.com^*/destinationcmsid/
+||facebook.com/react_composer/logging/
+||facebook.com/frx/log_tag_selected/
+||pixel.facebook.com^
+||fbcdn.net/hads-ak-$image,important
+||facebook.com/security/hsts-pixel.gif$image,important
+/nux/log/*$xhr,domain=facebook.com
+/record_basic_metrics.php$xhr,domain=facebook.com
+/nfx_client_log$xhr,domain=facebook.com
+! https://github.com/DandelionSprout/adfilt/blob/70ef78576643fc8ebb5960854087175e3ce50dfb/LegitimateURLShortener.txt#L10
+$removeparam=fbclid
+||facebook.com/l.php$document,xhr,important
+||l.facebook.com^$document,xhr,important
+||l.messenger.com^$document,xhr,important
+||lm.facebook.com^$document,xhr,important
+||lm.messenger.com^$document,xhr,important
+||messenger.com/l.php^$document,xhr,important
+@@||facebook.com/common/referer_frame.php$subdocument,1p
+||connect.facebook.net^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+! Facebook Plugins (3rd-party embedded plugins)
+||facebook.com/plugins/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com

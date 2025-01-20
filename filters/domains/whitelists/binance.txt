@@ -1,0 +1,5 @@
+www.binance.com
+api.binance.com
+labs.binance.com
+launchpad.binance.com
+binance.zendesk.com

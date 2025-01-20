@@ -1,0 +1,6 @@
+api.onedrive.com
+onedrive.live.com
+admin.onedrive.com
+mail.onedrive.com
+api.onedrive.live.com
+cid-36f4d1230f8a673c.onedrive.live.com

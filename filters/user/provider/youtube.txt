@@ -1,0 +1,70 @@
+! Youtube Distractions
+! Sign in / Menu Header
+m.youtube.com##.mobile-topbar-header-sign-in-button
+m.youtube.com##.mobile-topbar-header-content > ytm-menu
+! Header v3
+m.youtube.com##ytm-topbar-menu-button-renderer
+! Bottom slide in
+m.youtube.com##.pivot-bar-slide-in
+! comments
+m.youtube.com##ytm-comments-entry-point-header-renderer
+! metadata
+m.youtube.com##ytm-slim-video-metadata-section-renderer
+
+
+! Youtube recommendations
+! Up next
+m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+! home feed
+! m.youtube.com##ytm-rich-grid-renderer > .rich-grid-renderer-contents
+! top bar
+m.youtube.com##.chip-bar
+! welcome text (non-logged in)
+m.youtube.com##.feed-nudge-wrapper:has-text(Try searching to get started)
+! End Card
+m.youtube.com##.ytm-player-endscreen
+
+! Youtube Shorts
+! Main page
+youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+m.youtube.com##.rich-section-content
+! Trending page
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+! Search/Trending page (Android)
+youtube.com##ytm-reel-shelf-renderer
+youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
+youtube.com##ytm-media-item:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
+! side shorts
+youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
+! shorts icons (desktop and mobile)
+youtube.com##.pivot-shorts.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="Shorts"]
+
+! -YouTube Web Test-
+!
+youtube.com##.ad-container
+youtube.com##.video-ads
+youtube.com###player-ads
+youtube.com##.ytp-ad-progress-list
+=adunit&$domain=youtube.com
+youtube.com###masthead-ad
+youtube.com##.ytd-search-pyv-renderer
+youtube.com##.pyv-afc-ads-container
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has( > div#contents > ytd-promoted-sparkles-text-search-renderer )
+www.youtube.com##ytd-carousel-ad-renderer
+www.youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+www.youtube.com###video-masthead
+youtube.com##.ytp-ad-overlay-container
+youtube.com#@#.overlay-ads
+youtube.com#@#.ddb
+youtube.com##.ytp-ad-progress
+youtube.com###ad-image\:22
+youtube.com##.ytd-action-companion-ad-renderer
+@@||youtube.com/yt/advertise/medias/images/$image
+@@||youtube.com/yt/css/*-advertise.css
+@@||youtube.com/yt/js/www-advertise.min.js$domain=youtube.com
+@@||youtube.com^*_adsense_$xmlhttprequest
