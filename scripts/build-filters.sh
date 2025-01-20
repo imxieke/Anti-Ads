@@ -2,7 +2,7 @@
 ###
 # @Author: Cloudflying
 # @Date: 2023-04-05 12:51:13
-# @LastEditTime: 2025-01-20 16:59:52
+# @LastEditTime: 2025-01-20 17:08:13
 # @LastEditors: Cloudflying
 # @Description: Build,Filter And Merge Filter Rules
 ###
@@ -16,7 +16,7 @@ DATE=$(date "+%Y-%m-%d")
 
 UPDATE_DATE=$(date "+%Y-%m-%d %H:%M:%S")
 
-mkdir -p ${ROOT_PATH}/dists
+mkdir -p ${ROOT_PATH}/filters
 
 # 文件太多了 需要合并 五个就差不多了
 
@@ -40,8 +40,8 @@ filters=(
 cd ${FILTERS_PATH}
 
 for filter in ${filters[*]}; do
-  cat ${ROOT_PATH}/filters/header/${filter}.txt >${ROOT_PATH}/dists/${filter}.txt
-  sed -i "s#%TIMESTAMP%#${UPDATE_DATE} RPC#g" ${ROOT_PATH}/dists/${filter}.txt
+  cat ${ROOT_PATH}/filters/header/${filter}.txt >${ROOT_PATH}/filters/${filter}.txt
+  sed -i "s#%TIMESTAMP%#${UPDATE_DATE} RPC#g" ${ROOT_PATH}/filters/${filter}.txt
 
   if [[ -f "${ROOT_PATH}/filters/user/${filter}.txt" ]]; then
     cat "${ROOT_PATH}/filters/user/${filter}.txt" >${FILTERS_PATH}/${filter}/custom.txt
@@ -51,5 +51,5 @@ for filter in ${filters[*]}; do
     cat ${ROOT_PATH}/filters/user/provider/*.txt >>${FILTERS_PATH}/${filter}/custom.txt
   fi
 
-  cat ${FILTERS_PATH}/${filter}/*.txt | grep -E -v '^!|^\[' | sed "s#\n##g" | sed "s#\r##g" | sort --ignore-case --ignore-leading-blanks --uniq | uniq >>${ROOT_PATH}/dists/${filter}.txt
+  cat ${FILTERS_PATH}/${filter}/*.txt | grep -E -v '^!|^\[' | sed "s#\n##g" | sed "s#\r##g" | sort --ignore-case --ignore-leading-blanks --uniq | uniq >>${ROOT_PATH}/filters/${filter}.txt
 done
