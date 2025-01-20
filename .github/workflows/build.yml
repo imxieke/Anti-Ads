@@ -22,6 +22,8 @@ jobs:
           persist-credentials: false
       - name: Build AdGuard Filters
         run: |
+          bash scripts/fetch-filters.sh
+          bash scripts/build-filters.sh
           date +%s > timestamp
           git config user.name "${{ vars.GIT_USER }}"
           git config user.email "${{ vars.GIT_EMAIL }}"
