@@ -2,8 +2,8 @@
 ###
 # @Author: Cloudflying
 # @Date: 2023-04-05 12:51:13
- # @LastEditTime: 2025-01-20 17:17:26
- # @LastEditors: Cloudflying
+# @LastEditTime: 2025-01-20 19:47:21
+# @LastEditors: Cloudflying
 # @Description: Build,Filter And Merge Filter Rules
 ###
 
@@ -38,6 +38,7 @@ filters=(
 cd ${FILTERS_PATH}
 
 for filter in ${filters[*]}; do
+  echo "Build ${filter} Filter"
   cat ${ROOT_PATH}/filters/header/${filter}.txt >${ROOT_PATH}/filters/${filter}.txt
   sed -i "s#%TIMESTAMP%#${UPDATE_DATE} RPC#g" ${ROOT_PATH}/filters/${filter}.txt
 
