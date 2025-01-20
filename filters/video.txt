@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-01-20 19:34:40 RPC
+! Updated: 2025-01-20 19:50:15 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27,3 +27,234 @@
 !//                       '.:::::'                    ':'````..
 !//         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 !///////////////////////////////////////////////////////////////////
+##a.disabled
+##div.h5-ext-layer
+##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
+*.gif|$image,domain=91meijutv.com|bimiacg4.net|dk95.com|tvyb03.com|tvyun03.com
+/^http:\/\/v\.aty\.sohu\.com\/v\?cat=.*fee=0/>>>http://v.aty.sohu.com/v?cat=&act=&autoPlay=1&fee=1>>>>keyword=sohu
+/^https:\/\/s\.ssl\.qhimg\.com\/ssl\/721b2caa3e5a13b7,\S*,0ca713dbc85cee84\.js$/>>>https://1111.51xiaolu.com/360video.min.js>>>>keyword=0ca713dbc85cee84
+17173.com###vjs-ad-on-pause
+1905.com##.pauseInfoWrap:remove()
+88mv.org,91meijutv.com,olevod.com,tvyb03.com,tvyun03.com##a[target=_blank][href^=http]
+91meijutv.com##.dplayer-web-fullscreen-fix #player-sidebar
+91meijutv.com,gdzidong.com,yimj.cc##.dplayer-web-fullscreen-fix #player-sidebar-is
+@@http://s1.pplive.cn/sta.js
+@@||dd.browser.360.cn/static
+@@||js.tv.itc.cn/gg.seed.js
+@@||log.mmstat.com/eg.js^$script
+@@||shop.letv.com^
+@@||tb.mgtv.com/sdk/*/ad-sdk.js^$script
+@@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
+acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
+age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
+apisgame.iqiyi.com
+atm.youku.com
+banana.le.com
+bilibili.com##.ad-report, .ad-floor
+bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
+bimiacg4.net##+js(acis,Object.defineProperty,location.href)
+bimiacg4.net##.tuiguang,#bkcl
+bjcathay.com
+btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
+cad.youku.com
+cctv.com###bgAd_div
+cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+cm.l.qq.com
+dandanzan.*,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
+ddys.*###sajdhfbjwhe:remove()
+ddys.*##+js(set, Object.prototype.ads, null)
+ddys.*##.cfa_popup:remove()
+ddys.*##main.site-main > div:first-child:remove()
+de.as.pptv.com
+dm84.*###qrcode
+dm84.*##.container:style(max-width: 60vw!important)
+dm84.*##.p_box:style(height:33vw!important;padding-top:0!important)
+douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
+douyu.com,huya.com##a[href^="https://g.wan."]
+g.huya.com
+gdt.qq.com
+huya.com###hy-ad,#hy-ab,#huya-ab
+huya.com##a[href^="https://wan."]
+ipinyou.com
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
+iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
+iqiyi.com##.black-screen[data-cupid=adblock-blackscreen], .qy-plist-ad
+iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
+iqiyi.com##a[href^="https://ads."]
+iwan-s.video.qq.com
+jads.co
+le.com##+js(set, isAdLoaded, true)
+le.com##.min_pause_img
+litix.io
+m.huya.com##.ssr-wrapper>:not(.live-wrap)
+m.huya.com##.video-con:style(height:100vh!important;padding:0!important;position:static!important;)
+m.huya.com##video:style(object-fit:fill!important)
+miaozhen.com
+news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
+olevod.com###adsMaskBox
+olevod.com##.pc-ads
+pptv.com##.advView-two,#p-mark
+pub.funshion.com
+qdm8.com###gongao
+qq.com##+js(json-prune, ads ad material.video)
+rrys2019.com##.float_middel_ad_bk,#float_ad
+show.ssports.com
+sobot.com
+static.g.iqiyi.com
+statwup.huya.com
+stgowan.com
+synacast.com
+t7z.cupid.iqiyi.com
+tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
+v.qq.com##.quick_games.quick_item, div.game-switch-ad
+v.qq.com##.video-card-module > .card-wrap
+v.qq.com,news.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
+v.qq.com,news.qq.com##+js(no-xhr-if, snowflake.qq.com)
+v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
+va.huya.com
+wan.douyu.com
+www.bilibili.com##.pop-live-small-mode
+www.douyu.com##.ChargeTask+div, .HeaderGif-right, .HeaderGif-left
+www.douyu.com##.is-fullScreenPage .ToTopBtn, .multiBitRate-da4b60
+www.huya.com###public-screen-ab
+www.huya.com##.huya-ab
+www.huya.com##.player-banner-gift,#player-marquee-wrap
+www.huya.com##.room-footer,#player-subscribe-wap,#player-gift-wrap
+www.huya.com##.sidebar-banner, a.J_g_resource
+www.iyf.tv##.dabf,div.pggf,vg-pause-f
+www.ted.com##.gm-fp-body .justify-center.tracking-tightest
+yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
+yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
+youku.com##[style*="width: 400px;"],[style*="width: 361px;"]
+z4a.net
+|http://html.atm.youku.com/html?p=
+|http://mark.l.qq.com/fcgi-bin/get_video_mark_all*&strAdParam=
+|http://nc.youku.com/user/~ajax/qrcodeLogin.html?
+|http://passport-log.youku.com/logsys/logstorage/
+|http://passport.youku.com/index_loginregGuide/$subdocument
+|http://static.youku.com/v*/index/js/ikuAdapterNew.js
+|http://static.youku.com/v*/index/js/tdstat.js
+|http://static.youku.com/v1.*/index/js/ikuAdapterNew.js
+|http://yk.pp.navi.youku.com/playpolicy/get.json?
+|https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
+|https://tellme.pw/go/jav$popup
+||127.0.0.1^$script,domain=iqiyi.com
+||17173.com/batch_show?ads=
+||17173.com/if/$script,subdocument
+||3a119.com/js/tw.js
+||407mp3.com/js/
+||6080w.com/template/mov/js/300.js
+||66zhibo.net/d/66zhibo/66zhibo
+||680ts.com/js/bpolknm.js
+||680ts.com/js/jquery.js
+||680ts.com/js/tpolknm.js
+||a.msstatic.com/huya/main3/assets/css/room/gift.$script
+||a.msstatic.com/huya/main3/assets/img/room/gift/$important
+||a.msstatic.com/huya/main3/assets/modules/gift/$script
+||a.msstatic.com/huya/main3/components/GiftDrawEffect/$script
+||a.msstatic.com/huya/main3/components/OnTVLottery/$script
+||aixifan.com/static/*/appGuide/
+||alicdn.com/*yksdk/*sdk.js$script,domain=youku.com
+||alicdn.com/awsc/et/
+||api.bilibili.com/x/click-interface/click/$xhr
+||api.bilibili.com/x/web-show/res/locs?$~script
+||asimgs.pplive.cn/imgs
+||aty.sohu.com/
+||beacon.cdn.qq.com/*/beacon_web.min.js^$script
+||beacon.qq.com^$ping
+||btsow.motorcycles/app/jav$image
+||business.msstatic.com/advertiser/$image
+||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
+||cdn.huya.com/leaf/$xhr
+||cibntv.net/youku/$media
+||da.mgtv.com/mediafiles/wiad_creative/$image
+||dd-static.jd.com^$image,domain=subaibaiys.com
+||douyucdn.cn/adxdsp/$image
+||float.sandai.net
+||g.pptv.com/game/$subdocument
+||g.youyou234.com^
+||go.sohu.com/
+||google.*/pagead/
+||gstatic.com/shopping?
+||gtimg.com/qqlive/
+||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
+||hdslb.com/bfs/cm/cm-sdk/static/js/pc.js^$script
+||hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js^$script
+||hdslb.com/bfs/seed/log/report/log-reporter.js^$script
+||iqiyipic.com/image/20*_100000$image
+||irs01.net/
+||letvimg.com/*_gugwl/$image
+||letvimg.com/lc*_iscms/202$image
+||live-cover.msstatic.com/huyalive/*/format,webp/$image
+||log1.17173.com/
+||mall.video.qq.com/m/activity/h5/$subdocument
+||mark.l.qq.com/fcgi-bin/get_video_mark_all?$script
+||mediamax.suning.com/adssp/sdk/$script
+||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
+||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
+||miguvideo.com/mgs/common/miguplayerPlugins/prd/WWWggView.js^$script
+||msstatic.com/huya/main3/assets/modules/CommercialAdSdk/$script
+||news.ssp.qq.com/app
+||onetrust.
+||osswc.pplive.cn/cccms/$image
+||ott.cibntv.net/*/letv-wzgug/$media
+||p.gshtrl.top
+||pptstatic.iyf.tv/upload/video/202$image
+||qq.com/livemsg?
+||qunale888.com/files/h5/
+||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
+||relive.vodfile.m1905.com/video/qiantie202$media
+||res.ab.qq.com/tab/$script
+||res.iyoowi.com/iy/iy.js?cid=
+||res.iyoowi.com/iy/iy.js?cid=[Adblock Plus 2.0]
+||security.iqiyi.com/static/cook/v1/cooksdk.js
+||shark2.douyucdn.cn/front-publish/live-*-gift-$script
+||shark2.douyucdn.cn/front-publish/live-cloud-game-master/
+||shark2.douyucdn.cn/front-publish/live-game-guess-master/
+||shark2.douyucdn.cn/front-publish/live-luckybaggift-activity-master/
+||shark2.douyucdn.cn/front-publish/live-master/js/player_first/qvbp2p_douyu$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/activity_
+||shark2.douyucdn.cn/front-publish/live-master/js/room/CloseVideoAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/FreeTimeAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/HappyLottery_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/ScreenBannerAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/SetofGiftPop_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/SuspendedBallAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/topBanner_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/Xinghai$script
+||ssp.qq.com/ad^$xhr
+||ssports.iqiyi.com/app/$media,object-subrequest
+||ssports.iqiyi.com/json/shop/shopInfo
+||static.iqiyi.com/js/common/mars_v.js^$script
+||static.olelive.com/uploads/file/$image
+||static.youku.com/*/index/js/iresearch.js
+||static.youku.com/*/js/cps.js
+||staticfile.qq.com/datong/$script
+||staticfile.qq.com/qimei/$script
+||stc.iqiyipic.com/js/sdkpack/barrage
+||stc.iqiyipic.com/js/sdkpack/vippay.js
+||toutiaoimg.com/origin/$image,domain=agedm.org
+||trace.qq.com^$image,ping
+||tracker.$xhr,websocket,script,ping
+||tt27.tv/js/jsg/对联广告.js
+||tv.sohu.com/upload/csad/admaster/$image
+||tx-live-cover.msstatic.com/huyalive/*/format,webp/$image
+||v.qq.com/cache/wuji/object^$script
+||v.qq.com/pwa-sw.js^$script
+||v.qq.com/thumbplayer-offline-log.html^$subdocument
+||valipl.cp31.ott.cibntv.net/$media
+||vfiles.gtimg.cn/tvideo/js/new_ping_video.js^$script
+||video.da.mgtv.com/$media
+||video.iqiyi.com/ws$websocket
+||vip.com/cm/youku?
+||vodxc.tv/xcimg/js/Img.Load.js
+||webconf.douyucdn.cn/resource/common/config/inter_com_w_ad_gift.json$script
+||webconf.douyucdn.cn/resource/common/gift$script
+||webrtc.github.io^$script,3p
+||wj.fspcdn.com/mat/
+||www.1905.com/uploadfile/2024/0401/20240401094429405834.jpg^$image
+||www.iqiyi.com/service-worker.js
+||www.yatu.tv:2082/image/*.gif^$image
+||www.yatu.tv:2082/m/images/$image
+||yoyi.com.cn^3p
+搜狐网络科技.中国[Adblock Plus 2.0]
