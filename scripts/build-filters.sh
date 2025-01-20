@@ -2,8 +2,8 @@
 ###
 # @Author: Cloudflying
 # @Date: 2023-04-05 12:51:13
-# @LastEditTime: 2025-01-20 17:08:13
-# @LastEditors: Cloudflying
+ # @LastEditTime: 2025-01-20 17:17:26
+ # @LastEditors: Cloudflying
 # @Description: Build,Filter And Merge Filter Rules
 ###
 
@@ -24,9 +24,7 @@ filters=(
   advert
   annoyance
   cookie
-  features
   fonts
-  friendly
   # hosts
   miner
   mobile
