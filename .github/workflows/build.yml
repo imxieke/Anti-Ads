@@ -17,7 +17,7 @@ jobs:
       - name: Build AdGuard Filters
         run: |
           date +%s > timestamp
-          git config --global user.name "${{ env.GIT_USER }}"
-          git config --global user.email "${{ env.GIT_EMAIL }}"
+          git config --global user.name "${{ vars.GIT_USER }}"
+          git config --global user.email "${{ vars.GIT_EMAIL }}"
           git commit -m "Update AdGuard filters $(date +'%Y-%m-%d %H:%M:%S') RPC"
           git push
