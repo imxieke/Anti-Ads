@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-21 16:24:49 RPC
+! Updated: 2025-01-22 00:25:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12052,6 +12052,7 @@ aviasales.ru##.ticket-sharing-desktop__list-item > button
 aviasales.ru##div[class^="Share_container"]
 aviasales.ru#?#.ticket-sharing-desktop__list-item:has(> button)
 aviata.kz##.flex > div.group:has(> div > div > ul > li > a[href^="https://t.me/share/"])
+avira.com,byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,iphoneitalia.com,malaymail.com,maxabout.com,motorsport-xl.de,ncbi.nlm.nih.gov,news24.com,novosti.rs,nu.nl,politico.eu,tennismagazin.de,thepostmillennial.com##.social-sharing
 avisosdeocasion.com###btnCompartir
 avlab.pl#?#.avlab-col-left > .elementor > .elementor-section-wrap .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget-share-buttons:upward(2)
 avoinna24.fi#@#.fb-button
@@ -12892,7 +12893,6 @@ buzzfeednews.com##ul[data-bfa="@l:Article-Top-Share;"]
 buzzorange.com##.share_group_m
 bygg.no##.article-share-icons
 byggahus.se##.dropdownShare
-byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,iphoneitalia.com,malaymail.com,maxabout.com,motorsport-xl.de,ncbi.nlm.nih.gov,news24.com,novosti.rs,nu.nl,politico.eu,tennismagazin.de,thepostmillennial.com##.social-sharing
 byjusexamprep.com##div[class^="post_articleMain"] > div.db-l.fixed
 bykvu.com##.article-share-box
 bylancer.com##.share-buttons-icons
@@ -17613,6 +17613,7 @@ journal.tinkoff.ru##div[class^="_sharer_"]
 journal.tinkoff.ru##div[data-test-element="ui-kit_sharer"]
 journaldugeek.com###js-single-content > .single__share > :not(.single__share__alert)
 journaldugeek.com##.socialbar__container > .single__share > :not(.comments)
+journaldunet.com##.api_share
 journals.aps.org,theintercept.com###share-menu-button
 journals.asm.org##.share-dropblock
 journals.asm.org,science.org##.share__block
@@ -19396,6 +19397,7 @@ mir24.tv##.social-cell
 miraimedia.asahi.com##.p-single-share
 mirf.ru##.content_footer_social
 mirf.ru##.head_post_desc_social
+mirf.ru##.news-share-btn
 mirror.co.uk##.header__nav__share--active
 mirror.co.uk##.mod-socialFollow
 mirror.co.uk,birminghammail.co.uk,plymouthherald.co.uk,chroniclelive.co.uk###social-follow
@@ -20968,6 +20970,7 @@ overwatch.blizzard.com##blz-button-group.blog-socials > blz-button:not(.blog-com
 overwolf.com##.creator-social
 ovninavi.com,theplaylist.net,grandprix247.com,info-war.gr,whitemad.pl,sanatatak.com,comicbooks.world,digitalmusicnews.com,scotsman.com,kochfreunde.com##.cb-social-sharing
 ownly.jp##.cs-social-share-wrap
+oxfam.org##footer > div.container:has(> div.social-icons-share)
 oxu.az##.subscribe-single-block
 oxu.az##body .social-block2
 oyunceviri.net##.widget_jnews_facebook_page
@@ -23026,6 +23029,7 @@ sonarsource.com##div[class]:has(> a[href^="https://www.facebook.com/sharer/"])
 sondakika.com##.sd-share
 sondakika.com##.socialMediaScope
 song.link##button[aria-label="Share this page"]
+songofamerica.net,texastribune.org,tg24.sky.it,paddle.com,euronews.com##.c-social-share
 songtexte.com##.mobileShare
 sonic.gmo##.articleBoxContentShare
 sonic.gmo##.headerShare
@@ -23885,7 +23889,6 @@ testvelocidad.eu##.sB
 tetsudo-ch.com##.sns_big
 teve2.com.tr##.social-media-blocks
 texal.jp,techdim.com,coolztricks.com,janefriedman.com##.wplogout-social-wrapper
-texastribune.org,tg24.sky.it,paddle.com,euronews.com##.c-social-share
 texterra.ru##.article-info-old__share
 texterra.ru##.share-blog
 teyit.org,gcup.spb.ru,amomeupet.org,rpgfan.com,techrepublic.com,9gag.com,aviasales.ru,huffingtonpost.jp,foxsports.com.mx,elfinanciero.com.mx,kursiv.media,talk.tw,designboom.com,elle.fr,mangacross.jp,manga-meets.jp,peopletalk.ru,foodallergy.org,sharecuts.cn,wtop.com,thegrammarexchange.infopop.cc,open.online,m.tecmundo.com.br,redbull.com,coindesk.com,playbuzz.com,huffingtonpost.co.uk,m.huffpost.com,digital-photography-school.com,tomshardware.com##.share-bar

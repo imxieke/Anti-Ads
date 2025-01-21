@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-21 16:24:49 RPC
+! Updated: 2025-01-22 00:25:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19733,6 +19733,7 @@ timesofindia.indiatimes.com#?#.clearfix > div[class]:has(> ul[class] > li > h6 +
 timesofindia.indiatimes.com#@#style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 timesofindia.indiatimes.com,m.timesofindia.com##div[id^="inpage_interstitial"]
 timesofisrael.com##.b320x50
+timesofisrael.com##.StickyBanner__parent
 ting55.com##[class^="ad"],.had,[height="83"]
 ting56.com##div.h1000,div#banner,div.h_p_0,div.w300
 ting89.com##.ad8
@@ -33459,6 +33460,7 @@ _zhike.htm
 ||d.eu.criteo.com^$important
 ||d.fjqinan.com/app/semob5.16.12_161250_R19355_121098028_build58080_2.1.0.2367.apk
 ||d.ifengimg.com^$important
+||d.kugou.com^
 ||d.la1-c2-iad.salesforceliveagent.com^$important
 ||d.la3-c2-ia2.salesforceliveagent.com^$important
 ||d.ligatus.com^$important
@@ -43736,6 +43738,8 @@ _zhike.htm
 ||nb.zol.com.cn/detail_*.html
 ||nb40.com/js/foot.js
 ||nba.emohe.com^
+||nbcollect.kugou.com^
+||nbcollectretry.kugou.com^
 ||nbcu.demdex.net^$important
 ||nbcu.tags.crwdcntrl.net^$important
 ||nbcudisplay.s.moatpixel.com^$important
