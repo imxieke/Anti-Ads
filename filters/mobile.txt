@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-21 00:24:14 RPC
+! Updated: 2025-01-21 09:25:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11262,10 +11262,13 @@ ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
 ikjzd.com##.wv-right-content > .imgTop-right
 ikjzd.com##a[href*="/redirect-ad-url?"]
 iko-yo.net##.ad--rectangle
+iko-yo.net##.ad--rectangle--list
+iko-yo.net##.card--icon-text--app-link
 iko-yo.net##.p-app-link
 iko-yo.net##main > div.box:has(> div[id^="div-gpt-sp"])
 iko-yo.net##main > section.box:has(> div#taboola-below-article-thumbnails)
 iko-yo.net##main > section.box:has(> ul.box__items--column > li > div[id^="div-gpt-sp"])
+iko-yo.net##section.box:has(> ul > li > div[id^="div-gpt-"])
 ilacfiyati.com##.right_bottom_fixed
 ilfattoquotidiano.it###adk-interstitial-list
 ilgiorno.it##div[style="min-height:100px"]
