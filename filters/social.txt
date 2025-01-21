@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-21 09:25:41 RPC
+! Updated: 2025-01-21 16:24:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11410,7 +11410,6 @@ alanam.com#?#.entry-content > div.film-content:has(> div.film-share)
 alaqsavoice.ps##.social-style-2
 alarabiya.net##.google-news-callout
 alarabiya.net,ansa.it,batman-news.com,bbcamerica.com,bit.pt,bitmag.com.br,catholic.org,cheapies.nz,flashbak.com,fox10phoenix.com,francetvinfo.fr,fromthegrapevine.com,fstoppers.com,geeksaresexy.net,grindtv.com,macstories.net,medicalxpress.com,mmoga.co.uk,mmoga.com,mmoga.de,mmoga.es,mmoga.fr,mmoga.se,phys.org,pulsenews.co.kr,shazam.com,silicon.co.uk,silicon.de,silicon.es,skatehut.co.uk,symmetrymagazine.org,techxplore.com,telanganatoday.com,tribuneindia.com,unz.com,verisigninc.com,wonderwall.com##.follow
-alarabiya.net,ansa.it,batman-news.com,bbcamerica.com,bit.pt,bitmag.com.br,catholic.org,cheapies.nz,flashbak.com,fox10phoenix.com,francetvinfo.fr,fromthegrapevine.com,fstoppers.com,geeksaresexy.net,grindtv.com,macstories.net,mmoga.co.uk,mmoga.com,mmoga.de,mmoga.es,mmoga.fr,mmoga.se,phys.org,pulsenews.co.kr,shazam.com,silicon.co.uk,silicon.de,silicon.es,skatehut.co.uk,symmetrymagazine.org,techxplore.com,telanganatoday.com,tribuneindia.com,unz.com,verisigninc.com,wonderwall.com##.follow
 alarabiya.net,ausgamers.com,cgtn.com,cloudwards.net,crypto.news,magazine.artstation.com,notateslaapp.com,republicworld.com,timeslive.co.za,trueachievements.com,truetrophies.com##.follow-us
 alarabiya.net,timeextension.com##.share-this
 alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,cochraneeagle.ca,delta-optimist.com,lakelandtoday.ca,moosejawtoday.com,mountainviewtoday.ca,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,rmoutlook.com,squamishchief.com,stalbertgazette.com,theorca.ca,timescolonist.com,tricitynews.com,vancouverisawesome.com,westernwheel.ca##.sc
@@ -12450,7 +12449,6 @@ bizmates.jp##.p-post__sns
 biznesradar.pl,handelszeitung.ch##iframe[src^="//www.facebook.com/plugins/likebox.php"]
 biznews.com,evreporter.com##.obfx-sharing
 bl.uk###twitterwrapper
-blackamericaweb.com,cassiuslife.com,gosunoob.com,insideclimatenews.org,joblo.com,mycleo.tv,tvone.tv,ultiworld.com##.social-menu
 blackamericaweb.com,cassiuslife.com,gosunoob.com,joblo.com,mycleo.tv,tvone.tv,ultiworld.com##.social-menu
 blacksea-cbc.net#@#.social-media-share
 blacksilk.sclub.com.tw##div[onmouseover^="SHARE_"]
@@ -13701,6 +13699,7 @@ cracxpro.com,techsini.com##.onp-sl-overlap-box
 crai-supermercati.it##.tm-grid-expand > div[class="uk-width-1-2@m"]:has(.addtoany_shortcode)
 crash.net,ttnews.com##.block-better-social-sharing-buttons
 crazyegg.com##.single-post__social
+crazylabs.com##.post-share-title
 crazymailing.com##.fb_block
 crea.bunshun.jp##.module-sns-share
 crealitycloud.com##.right-share-box
@@ -14297,6 +14296,7 @@ dni.ru##.sotial
 dnn.de##.pdb-parts-gallerydetailnavigation-share
 dnn.de##.pdb-share-container > div:not(.pdb-share-container-item_normal)
 dnoticias.pt##.article--aside_share
+dnpphoto.jp##.search_result_box_sns
 do-slez.com#@#.img-share
 dobreprogramy.pl###phContentLeft_SocialControl_socialBox
 dobreprogramy.pl###phContent_SocialControlTop_socialBox
@@ -19863,7 +19863,7 @@ nana-music.com##.share-btn__list
 nana-music.com##button[class*="__share-button-"]
 nandemoiiyoch.com##div[id^="sns-"]
 nanjde.blog.jp##.plugin-twitter_profile
-nanjgamers.blog.jp##.sns_button_page
+nanjgamers.blog.jp,twintailsokuhou.blog.jp##.sns_button_page
 nanjgod.blog.jp#?#.article-body + div.article-footer:has(> div.article-social-btn)
 nanjgod.blog.jp#?#.container-inner > nav.section-box:has(> ul > li.article-facebook-share)
 nanoha-vivid.tv,vk.sportsbull.jp,yutura.net,mainichi.jp,ucuzabilet.com,programiz.com,viasatsport.se##.social-area
@@ -25234,6 +25234,7 @@ videocardz.com##.socialbar-sidebar
 videocardz.com##.twitter-follow-button
 videochums.com###social aside:has(> ul > li > a[href^="https://twitter.com/intent/"])
 videogamer.com##.footer-social
+videogameschronicle.com##.vgc-branding__container > ul
 videogameschronicle.com##.vgc-socialshare
 videohelp.com##a[href*="http://assets.pinterest.com/js/pinmarklet.js"]
 videohelp.com#?#.rowbackground > b:contains(Share software)

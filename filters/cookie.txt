@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-01-21 09:25:41 RPC
+! Updated: 2025-01-21 16:24:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25911,8 +25911,6 @@ acp.pt#$#body { overflow: auto !important; }
 acp.pt#@#.cookies-wrapper
 acquabella-construplas.com###ico_wrapper
 acquavivalive.it##.biscotto
-acquesi.it##.submenulayer-mobile
-acquesi.it##body,html:style(height: auto !important; overflow: auto !important)
 acquire.io##.home-announcement
 acquire.io,dfine.at,esim.guru##.cookie-popup_component
 acretrader.com##acre-cookie-consent
@@ -26879,12 +26877,11 @@ amundi.pl###disclaimer_amundi
 amurmedia.ru##.position-fixed.bottom-0
 amuse.io##.cookie-notice-banner
 amw.com.pl##.cookies
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*##+js(set-cookie, isAnalyticsCookiesAccepted, false)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*##+js(set-cookie, isCookieConsentAccepted, true, , reload, 1)
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*#%#//scriptlet('set-cookie-reload', 'isAnalyticsCookiesAccepted', 'false')
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*#%#//scriptlet('set-cookie-reload', 'isCookieConsentAccepted', 'true')
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*#%#//scriptlet('set-cookie-reload', 'isMarketingCookiesAccepted', 'false')
-amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.es,amway.no,amway.nl,amway.co.uk,amway.com.tr,amway.pt,amway.be,amway.sk,amway.de,amway.ch,amway.gr,amway.ie,amway.se,amway.pl,amway.bg,amway.hr,amway.dk,amway.cz,amway.si,amway.ro,amway.fr,amway.fi,amway.it##+js(set, amw.isAnalyticsCookiesAccepted, false)
-amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.es,amway.no,amway.nl,amway.co.uk,amway.com.tr,amway.pt,amway.be,amway.sk,amway.de,amway.ch,amway.gr,amway.ie,amway.se,amway.pl,amway.bg,amway.hr,amway.dk,amway.cz,amway.si,amway.ro,amway.fr,amway.fi,amway.it##+js(set, amw.isCookieConsentAccepted, true)
-amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.es,amway.no,amway.nl,amway.co.uk,amway.com.tr,amway.pt,amway.be,amway.sk,amway.de,amway.ch,amway.gr,amway.ie,amway.se,amway.pl,amway.bg,amway.hr,amway.dk,amway.cz,amway.si,amway.ro,amway.fr,amway.fi,amway.it##+js(set, amw.isMarketingCookiesAccepted, false)
 amway.com,amway.ua,areanorth.co.uk,day-tours-from-avignon.com,hari.ca##.disclaimer-container
 amway.it#%#//scriptlet('trusted-click-element', '.bottom_btn_wrapper > div#preferences_prompt_submit')
 anaciroma.it##.w2t-banner
@@ -28440,8 +28437,6 @@ bati-orient-import.com###overlayCookie2015
 batida.de,kuemmerling.de,lutter-und-wegner.de,menger-krug.de##.active.legacy
 batterie24.de##body .page-wrap--cookie-permission
 batterilagret.se,canal.be,samsung.com,vaillant.de,xlbygg.se#@#.cookiewarning:not(body):not(html)
-batteryempire.cz###js-modern-cookie-modal-wrapper
-batteryempire.cz##body,html:style(overflow: auto !important; position: initial !important;)
 batteryempire.cz#$##js-modern-cookie-modal-wrapper { display: none !important; }
 batteryequivalents.com,cafe-zimmermann.com,instituto-camoes.pt##.activebar-container
 battle-of-glory.com##.ui-pnotify.background-transparent
@@ -28966,9 +28961,6 @@ biedronka.pl###cookiepopupdiv
 biegnaszczyt.pl##+js(set-cookie, cr, true)
 bielawa.pl###wiadomosccookie
 bien-dans-mon-train.com##.cookiecall
-bienmanger.com###bloc-bm-cookies-consent
-bienmanger.com##.modal-backdrop
-bienmanger.com##body,html:style(overflow: auto !important; position: initial !important;)
 big5sportinggoods.com##.consent, #consent
 bigbang.si###cookies
 bigbank.lt##.sticky
@@ -29041,9 +29033,8 @@ bilyoner.com#%#//scriptlet('set-local-storage-item', 'desktop/isCookiePrefBanner
 bim.com.tr##.cookie-window-select
 bim.yaskawa.com##.pop
 bimbim.com##.notifier-message
+bimedis.com##+js(set-cookie, accept_cookies, 1)
 bimedis.com##.b-cookie-text
-bimedis.com##.v-dialog__content
-bimedis.com##.v-overlay
 bimedis.ru##.v-dialog__content
 bimi.es##.consentBoxes
 bimmercode.app,haus-gartenportal.de,davidesperalta.com###cookies-note
@@ -30256,6 +30247,9 @@ calorielijst.nl,koolhydratentabel.nl,receptentabel.nl##.noblur
 calovo.com##.ga-opt-in
 calovo.de##.ga-opt-in
 calpacifichomes.com###acknowledgeCookiesAndPrivacyModal
+calvinklein.*##+js(set-cookie, PVH_COOKIES_GDPR, Accept)
+calvinklein.*##+js(set-cookie, PVH_COOKIES_GDPR_ANALYTICS, Reject)
+calvinklein.*##+js(set-cookie, PVH_COOKIES_GDPR_SOCIALMEDIA, Reject)
 calvinklein.*#$#* div[class*="CookieNotice_CookieNoticeOverlay___"] { display: none !important; }
 calvinklein.*#$#body[class*="CookieNotice_CookieNoticeOpen"] { overflow: auto!important; }
 calvinklein.co.uk#@#.cookie-notice:not(body):not(html)
@@ -30263,7 +30257,6 @@ calvinklein.de#@#.cookie-notice:not(body):not(html)
 calvinklein.se,calvinklein.fi,calvinklein.sk,calvinklein.si,calvinklein.ch,calvinklein.ru,calvinklein.com,calvinklein.pt,calvinklein.pl,calvinklein.at,calvinklein.nl,calvinklein.hu,calvinklein.lu,calvinklein.lt,calvinklein.lv,calvinklein.it,calvinklein.ie,calvinklein.hr,calvinklein.fr,calvinklein.es,calvinklein.ee,calvinklein.de,calvinklein.dk,calvinklein.cz,calvinklein.bg,calvinklein.be,calvinklein.co.uk##+js(set-cookie, PVH_COOKIES_GDPR, Accept)
 calvinklein.se,calvinklein.fi,calvinklein.sk,calvinklein.si,calvinklein.ch,calvinklein.ru,calvinklein.com,calvinklein.pt,calvinklein.pl,calvinklein.at,calvinklein.nl,calvinklein.hu,calvinklein.lu,calvinklein.lt,calvinklein.lv,calvinklein.it,calvinklein.ie,calvinklein.hr,calvinklein.fr,calvinklein.es,calvinklein.ee,calvinklein.de,calvinklein.dk,calvinklein.cz,calvinklein.bg,calvinklein.be,calvinklein.co.uk##+js(set-cookie, PVH_COOKIES_GDPR_ANALYTICS, Reject)
 calvinklein.se,calvinklein.fi,calvinklein.sk,calvinklein.si,calvinklein.ch,calvinklein.ru,calvinklein.com,calvinklein.pt,calvinklein.pl,calvinklein.at,calvinklein.nl,calvinklein.hu,calvinklein.lu,calvinklein.lt,calvinklein.lv,calvinklein.it,calvinklein.ie,calvinklein.hr,calvinklein.fr,calvinklein.es,calvinklein.ee,calvinklein.de,calvinklein.dk,calvinklein.cz,calvinklein.bg,calvinklein.be,calvinklein.co.uk##+js(set-cookie, PVH_COOKIES_GDPR_SOCIALMEDIA, Reject)
-calvinklein.se,calvinklein.fi,calvinklein.sk,calvinklein.si,calvinklein.ch,calvinklein.ru,calvinklein.com,calvinklein.pt,calvinklein.pl,calvinklein.at,calvinklein.nl,calvinklein.hu,calvinklein.lu,calvinklein.lt,calvinklein.lv,calvinklein.it,calvinklein.ie,calvinklein.hr,calvinklein.fr,calvinklein.es,calvinklein.ee,calvinklein.de,calvinklein.dk,calvinklein.cz,calvinklein.bg,calvinklein.be,calvinklein.co.uk##.ck-modal--cookieModalMain
 calzedoniagroup.com,altamiraweb.com###divprivacycookies
 cam.start.canon##+js(set-cookie, user_accepts_cookies, true)
 cam.start.canon#%#//scriptlet('set-cookie', 'user_accepts_cookies', 'false')
@@ -30361,9 +30354,6 @@ candela.com#$##cliSettingsPopup { display: none !important; }
 candela.com#$#.cli-barmodal-open { overflow: auto !important; }
 candela.com#$#.cli-modal-backdrop { display: none !important; }
 candidates.jobandtalent.com##div[data-testid="container"][class$="_1yBAN"]
-candriam.de,candriam.at,candriam.com,candriam.cl,candriam.ch,candriam.se,candriam.pt,candriam.no,candriam.lu,candriam.nl,candriam.it,candriam.ie,candriam.co.uk,candriam.fr,candriam.fi,candriam.sk,candriam.dk,candriam.es###cookie_disclaimer
-candriam.de,candriam.at,candriam.com,candriam.cl,candriam.ch,candriam.se,candriam.pt,candriam.no,candriam.lu,candriam.nl,candriam.it,candriam.ie,candriam.co.uk,candriam.fr,candriam.fi,candriam.sk,candriam.dk,candriam.es##.modal-backdrop
-candriam.de,candriam.at,candriam.com,candriam.cl,candriam.ch,candriam.se,candriam.pt,candriam.no,candriam.lu,candriam.nl,candriam.it,candriam.ie,candriam.co.uk,candriam.fr,candriam.fi,candriam.sk,candriam.dk,candriam.es##body,html:style(overflow: auto !important; position: initial !important;)
 candy-store.cz#$#.focus-cookiebara { display: none !important; }
 candy-store.cz#$#body { overflow: auto !important; }
 candycastle.nl##.cookiesC
@@ -32363,8 +32353,6 @@ d-secour.de###importantMessages
 d2iq.com##.banner-alert
 d4t4solutions.com###privacy-overlay
 da-imnetz.de,fnp.de,wetterauer-zeitung.de##.id-CookieConsent
-daa-sh.de,daa-muenchen.de,daa-bremen.de,daa-augsburg.de,cyberone.de,daa-duisburg.de,daa-aachen.de,daa-hochrhein.de,daa-freiburg.de,daa-reutlingen.de,daa-aalen.de,daa-mainz.de,fachschule-sozialpaedagogik-dresden.de,daa-kassel.de,daa-ingolstadt.de,daa-landau.de,fachschule-sozialpaedagogik-berlin.de,logopaedieschule-osnabrueck.de,daa-pforzheim.de,daa-kempten.de,daa-albstadt.de,daa.de,daa-saarbruecken.de,daa-nordrhein.de,daa-moenchengladbach.de,ths-software.de,daa-friedberg.de,daa-trier.de,daa-bamberg.de,daa-wiesbaden.de,daa-goeppingen.de,daa.de,daa-coburg.de,daa-singen.de,daa-kirchheim.de,daa-giessen.de,daa-koblenz.de,daa-betzdorf.de,altenpflegeschule-st-ingbert.de,lasso.de###cookienotice_box
-daa-sh.de,daa-muenchen.de,daa-bremen.de,daa-augsburg.de,cyberone.de,daa-duisburg.de,daa-aachen.de,daa-hochrhein.de,daa-freiburg.de,daa-reutlingen.de,daa-aalen.de,daa-mainz.de,fachschule-sozialpaedagogik-dresden.de,daa-kassel.de,daa-ingolstadt.de,daa-landau.de,fachschule-sozialpaedagogik-berlin.de,logopaedieschule-osnabrueck.de,daa-pforzheim.de,daa-kempten.de,daa-albstadt.de,daa.de,daa-saarbruecken.de,daa-nordrhein.de,daa-moenchengladbach.de,ths-software.de,daa-friedberg.de,daa-trier.de,daa-bamberg.de,daa-wiesbaden.de,daa-goeppingen.de,daa.de,daa-coburg.de,daa-singen.de,daa-kirchheim.de,daa-giessen.de,daa-koblenz.de,daa-betzdorf.de,altenpflegeschule-st-ingbert.de,lasso.de##body,html:style(overflow: auto !important; position: initial !important;)
 daab.de###damn_background_overlay, #damn_cookieconsent_banner
 daad.de#$#.cookie-backdrop { display: none !important; }
 daad.de#$#.cookie-consent { display: none !important; }
@@ -32664,7 +32652,6 @@ defiexplore.com###privacy-popup
 definition-of.com,thefreedictionary.com##body > div[style="z-index:9900;position:relative"]:not([class]):not([id])
 degiro.*##+js(trusted-click-element, #CybotCookiebotDialogBodyButtonDecline, , 1500)
 degiro.*##+js(trusted-click-element, #CybotCookiebotDialogBodyButtonDecline, , 2500)
-degiro.co.uk,degiro.cz,degiro.ch,degiro.dk,degiro.gr,degiro.fr,degiro.ie,degiro.it,degiro.nl,degiro.co.no,degiro.hu,degiro.at,degiro.pl,degiro.fi,degiro.se,degiro.es,degiro.de##body,html:style(overflow: auto !important; position: initial !important;)
 degisimmedya.com##.cerez.fixed-bottom
 degoosta.com##.mpp-is-open.mpp-box
 degum.de###cookiemanager
@@ -33887,9 +33874,7 @@ easyparts.nl,easyparts-rollerteile.de#$#body { overflow: visible !important; }
 easyphp.org#%#//scriptlet('set-cookie-reload', 'cookie-consent', '0')
 easyphp.org#@##cookie-consent
 easyschrank.ch##.visio-analytics-cookie-notice
-easyticket.de###cookie_consent_popup_background
-easyticket.de##.popup_wrapper
-easyticket.de##body,html:style(overflow: auto !important; position: initial !important;)
+easyticket.de##+js(set-cookie, consent, functional)
 easyticket.de#$#div[id^="cookie_consent_popup_"] { display: none !important; }
 easyticket.de#$#html.popup_visible_cookie_consent_popup > body { overflow: auto !important; margin-right: 0 !important; }
 easyticket.de#$#html.popup_visible_cookie_consent_popup { overflow: auto !important; }
@@ -34223,7 +34208,6 @@ elanco.com###ribbon
 elasticemail.com###elastic-cookie-notice
 elasticemail.com##.elastic-cookie-notice
 elate.com.tw##.personal_statement
-elavon.dk,elavon.no,elavon.se,elavon.de##body,html:style(overflow: auto !important; position: initial !important;)
 elavon.ie##.cookiePolicy
 elavon.ie##body,html:style(height: auto !important; overflow: auto !important)
 elavon.pl#$#.cookiePolicy:not(body):not(html) { display: none !important; }
@@ -34637,10 +34621,6 @@ enwi-hz.de#@##cookieBar
 enzahome.com.tr###kvkkFooter
 enzahome.com.tr##.kvkkFixed
 enzopennetta.it##.popmake
-eobuv.com,eobuv.cz,eobuwie.com.pl,ecipele.hr,eavalyne.lt,efootwear.eu,eschuhe.ch,eskor.se,chaussures.fr,ecipo.hu,eobuv.com.ua,eobuv.sk,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.de,obuvki.bg,zapatos.es##.e-consents-alert__wrapper
-eobuv.com,eobuv.cz,eobuwie.com.pl,ecipele.hr,eavalyne.lt,efootwear.eu,eschuhe.ch,eskor.se,chaussures.fr,ecipo.hu,eobuv.com.ua,eobuv.sk,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.de,obuvki.bg,zapatos.es##.e-screen-overlay
-eobuv.com,eobuv.cz,eobuwie.com.pl,ecipele.hr,eavalyne.lt,efootwear.eu,eschuhe.ch,eskor.se,chaussures.fr,ecipo.hu,eobuv.com.ua,eobuv.sk,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.de,obuvki.bg,zapatos.es##.with-blurred-background
-eobuv.com,eobuv.cz,eobuwie.com.pl,ecipele.hr,eavalyne.lt,efootwear.eu,eschuhe.ch,eskor.se,chaussures.fr,ecipo.hu,eobuv.com.ua,eobuv.sk,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.de,obuvki.bg,zapatos.es##body,html:style(overflow: auto !important; position: initial !important;)
 eobuv.com,eschuhe.at,eapavi.lv,eobutev.si,eobuv.com.ua,eavalyne.lt#$##marketing-approvals { display: none !important; }
 eobuv.com,eschuhe.at,eapavi.lv,eobutev.si,eobuv.com.ua,eavalyne.lt#$#html[class="_no-scroll-modal"] { overflow: auto !important; position: static !important; }
 eobuwie.com.pl##.modal-consents
@@ -34787,8 +34767,6 @@ erzgebirgskreis.de##.fnn-cookiemanager
 esa.int###cookie_loc
 esanum.de##esn-cookie-disclaimer
 esanum.fr##esn-cookie-disclaimer
-esatto.se##.iQaTEm
-esatto.se##body,html:style(height: auto !important; overflow: auto !important)
 esbank.pl###cookie_info_es
 escac.com##.ccookiepopupwrapbanner
 escapefromtarkov.com###legalLightBlock
@@ -35103,11 +35081,7 @@ everysize.com##.cookie
 everything5pounds.com##.__ADORIC__[style*="fixed"]
 everywhere.game##+js(set-local-storage-item, acceptCookie, 0)
 everywhere.game##main > div > div + div ~ div:last-child
-evium.de##+js(rc, cdk-overlay-container, , stay)
-evium.de##.cdk-global-overlay-wrapper
-evium.de##.cdk-overlay-backdrop
-evium.de##.cdk-overlay-container
-evium.de##body,html:style(overflow: auto !important; position: initial !important;)
+evium.de##+js(set-local-storage-item, tracking-state-v2, deny)
 evium.de,u-bordeaux.fr,flyingblue.fr,ppk.pzu.pl#$#.cdk-overlay-container { display: none !important; }
 evium.de,u-bordeaux.fr,flyingblue.fr,ppk.pzu.pl#$#html { overflow: auto !important; position: static !important; }
 evivanlanschot.nl##+js(set-cookie, acceptCookies, 0)
@@ -35129,7 +35103,6 @@ evropochta.by##+js(set-local-storage-item, saveCookie, true)
 evropochta.by#%#//scriptlet('set-local-storage-item', 'otherCookie', 'false')
 evropochta.by#%#//scriptlet('set-local-storage-item', 'saveCookie', 'true')
 evs.com##.language-switcher
-evzuttya.com.ua,eobuv.com,eobuv.cz,eobuwie.com.pl,ecipele.hr,eavalyne.lt,efootwear.eu,eschuhe.ch,eskor.se,chaussures.fr,ecipo.hu,eobuv.com.ua,eobuv.sk,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.de,obuvki.bg,zapatos.es##.modal-consents
 ew.com#$#html { overflow: auto !important; }
 ew.com#@##onetrust-consent-sdk
 ew.com,twojapogoda.pl,costco.ca,southernliving.com,thesprucecrafts.com,marthastewart.com,rtl.nl,elle.com,a1.ro,mojkatalog.rs#$##onetrust-consent-sdk { display: none !important; }
@@ -36623,6 +36596,7 @@ galaxy-centrum.pl#%#//scriptlet("set-cookie", "cookies-shown", "true")
 galaxy.com##+js(set-cookie, bannerDissmissal, true, ,reload, 1)
 galaxy.com##+js(set-local-storage-item, terms, true)
 galaxykayaks.ro##+js(set-cookie, cookies_and_content_security_policy, false)
+galaxykayaks.ro,parking.praha.eu##+js(set-cookie, cookies_and_content_security_policy, false)
 galeria-kaufhof.de##div[data-sticky-msg-id="cookies"]
 galeria-kaufhof.de##react-root[data-component="PRIVACY_SETTINGS"]
 galeriabaltycka.pl##.mdl-modal__backdrop, #mdl-overlay
@@ -36973,8 +36947,6 @@ germany.travel#$#.consent { display: none !important; }
 germany.travel#$#html > body.consent-overlay { overflow: auto !important; }
 germinalbio.it##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 geschwindigkeit.*,meter.net,netmeter.co.uk,predkosc.pl,rychlost.sk,speedmeter.hu,testdebit.fr,testvelocidad.es,testvelocita.it,xn--zcka2bjc9dzp.jp###eu-cookies2
-gesipa.fr,gesipa.de,gesipa.co.uk,gesipa.es,gesipa.at,gesipa.pl,gesipa.nl,gesipausa.com,gesipa.cz,gesipa.mx,gesipa.com.tr,gesipa.ro,sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com,kreuzfahrten.de###klaro
-gesipa.fr,gesipa.de,gesipa.co.uk,gesipa.es,gesipa.at,gesipa.pl,gesipa.nl,gesipausa.com,gesipa.cz,gesipa.mx,gesipa.com.tr,gesipa.ro,sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com,kreuzfahrten.de##body,html:style(overflow: auto !important; position: initial !important;)
 gessteel.com,institutrocafort.com,masllombart.com###banerRoot
 gestaltamwerk.de##.alertbanner
 gestionaleopen.org###gdpr
@@ -37526,8 +37498,6 @@ grammophon-platten.de###hinweise
 gramwzielone.pl###gwz-cookies
 grand-hotel-dieu.com##.jinLyg
 grand-seiko.com##.blk-Cookie
-grandado.com##.css-126xj0f
-grandado.com##body:style(overflow: auto !important; position: initial !important;)
 grandado.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 grandado.com#$?#body > div.MuiModal-root:has(> div.MuiDialog-container a[href="/pages/privacy-policy"]) { display: none !important; }
 grandeavenue.fr##.fixedBanner
@@ -37688,8 +37658,8 @@ growney.de##.block-07-cookie-banner
 growney.de##div[id^="cookie-banner-"]
 growthtechnology.com###popupbanner
 grrif.ch###RGPD
-grubytom.pl,kotas.com.br,kuchniapupila.pl,allnutrition.pl,elenovo.pl,facetaria.pl,cool-mania.de,inkbook.pl,rheumaliga.ch,medicshop.pl,cobbo.pl,pakomat.pl,rolnet.pl,petrostar.pl,atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
-grubytom.pl,kotas.com.br,kuchniapupila.pl,allnutrition.pl,elenovo.pl,facetaria.pl,cool-mania.de,inkbook.pl,rheumaliga.ch,medicshop.pl,cobbo.pl,pakomat.pl,rolnet.pl,petrostar.pl,atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl,giga-hamburg.de,gerth.de#$##cc--main { display: none !important; }
+grubytom.pl,kotas.com.br,kuchniapupila.pl,allnutrition.pl,elenovo.pl,facetaria.pl,cool-mania.de,inkbook.pl,rheumaliga.ch,medicshop.pl,cobbo.pl,pakomat.pl,rolnet.pl,petrostar.pl,atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl,erzeszow.pl#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
+grubytom.pl,kotas.com.br,kuchniapupila.pl,allnutrition.pl,elenovo.pl,facetaria.pl,cool-mania.de,inkbook.pl,rheumaliga.ch,medicshop.pl,cobbo.pl,pakomat.pl,rolnet.pl,petrostar.pl,atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl,giga-hamburg.de,gerth.de,erzeszow.pl#$##cc--main { display: none !important; }
 gruenderservice.at##+js(rc, hasPopup, body, stay)
 gruenderservice.at#@##cookiehint
 gruene-bundestag.de##.cn-wrapper
@@ -37807,7 +37777,7 @@ gustosaricerca.it###holdon-overlay
 gut-leben-in-deutschland.de#%#//scriptlet('set-local-storage-item', 'gut-leben-cookie-banner-hidden', 'true')
 gut-riedelsbach.de###bb_cookieconsent
 gutefrage.net##+js(trusted-click-element, a.cmptxt_btn_yes, , 1500)
-guter-gerlach.de,amzs.si,bsh-group.com,carefully.be,cellardoor.co,dansaccent.be,de-de.eundl.de,deineapotheke.at,delo.si,droptica.com,droptica.pl,elmleblanc-optibox.fr,elring.ae,elring.cn,elring.com,elring.com.tr,elring.de,elring.fr,elring.it,elring.pl,elring.pt,elring.ru,epilog.net,equi-elite.com,eurosupps.nl,exakta.se,exaktacreative.se,exaktasoftware.se,frankenbrunnen.de,g-star.com,gamersgate.com,gramatica-alemana.es,gsk-gebro.at,harry-gerlach.de,heinz.st,hetwkz.nl,home-connect.com,icscards.nl,immohal.de,internetlekarna.cz,jobs2work.be,jobs2work.nl,kiron.ngo,kozijnen-hijnekamp.nl,lekarenvkocke.sk,lekarna-bella.cz,lekarna-oaza.cz,lekarnalemon.cz,lekarnasvjosefa.cz,leoni.com,leoni.ro,lowrider.at,lsi-bochum.de,magdeleyns.be,mbusassep.com,memo-book.pl,mesto.de,miethke.com,mikrocop.com,mobile-fueling.de,monservicechauffage.fr,myschlossberg.com,nalewkababuni.pl,neff-home.com,neff.ru,nissantechmate.com,omniwood.be,pin-freunde.de,polarisdealersolutions.com,profilo.com,qinetiq.com,random-group.olafneumann.org,recallinformatica.com.br,rexrothonair.com,rodekruis.be,rule34.paheal.net,sandboxservices.be,schulze-immobilien.de,share-your-photo.com,skb-leasing.si,slimbee.cz,sr-ramenendeuren.be,stoertebeker-brauquartier.com,stoertebeker-eph.com,stoertebeker.com,subaruretailersolutions.com,taschenhirn.de,topographic-map.com,truphone.com,uhrzeit123.de,umcutrecht.nl,unileverfoodsolutionslatam.com,veiligverkeer.be,verumvinum.se,voltadol.at,voordeeluitjes.nl,vorteile.net,vsv.be,womex.com,workshopsveiligverkeer.be,worldcard.n##*:style(filter: none !important)
+guter-gerlach.de,amzs.si,bsh-group.com,carefully.be,cellardoor.co,dansaccent.be,de-de.eundl.de,deineapotheke.at,delo.si,droptica.com,droptica.pl,elmleblanc-optibox.fr,elring.ae,elring.cn,elring.com,elring.com.tr,elring.de,elring.fr,elring.it,elring.pl,elring.pt,elring.ru,epilog.net,equi-elite.com,eurosupps.nl,exakta.se,exaktacreative.se,exaktasoftware.se,frankenbrunnen.de,g-star.com,gamersgate.com,gramatica-alemana.es,gsk-gebro.at,harry-gerlach.de,heinz.st,hetwkz.nl,home-connect.com,icscards.nl,immohal.de,internetlekarna.cz,jobs2work.be,jobs2work.nl,kiron.ngo,kozijnen-hijnekamp.nl,lekarenvkocke.sk,lekarna-bella.cz,lekarna-oaza.cz,lekarnalemon.cz,lekarnasvjosefa.cz,leoni.com,leoni.ro,lowrider.at,lsi-bochum.de,magdeleyns.be,mbusassep.com,memo-book.pl,mesto.de,miethke.com,mikrocop.com,mobile-fueling.de,monservicechauffage.fr,myschlossberg.com,nalewkababuni.pl,neff-home.com,neff.ru,nissantechmate.com,omniwood.be,pin-freunde.de,polarisdealersolutions.com,profilo.com,qinetiq.com,random-group.olafneumann.org,recallinformatica.com.br,rexrothonair.com,rodekruis.be,rule34.paheal.net,sandboxservices.be,schulze-immobilien.de,share-your-photo.com,skb-leasing.si,slimbee.cz,sr-ramenendeuren.be,stoertebeker-brauquartier.com,stoertebeker-eph.com,stoertebeker.com,subaruretailersolutions.com,taschenhirn.de,truphone.com,uhrzeit123.de,umcutrecht.nl,unileverfoodsolutionslatam.com,veiligverkeer.be,verumvinum.se,voltadol.at,voordeeluitjes.nl,vorteile.net,vsv.be,womex.com,workshopsveiligverkeer.be,worldcard.n##*:style(filter: none !important)
 gutfried.de###fog
 guthaben.de##.cookie
 gutscheine.de##div[data-ssr-consent]
@@ -38299,9 +38269,7 @@ hey.car##.iUYzcs
 hey.car##.kigihv-0.fZYjaO
 hey.car#%#//scriptlet("set-constant", "_PRELOADED_STATE__.cookieDashboard.hasSavedCookieSettings", "true")
 heycar.co.uk###app div[class*="ConsentManager"]
-heycar.co.uk##.Consent_cookieModal__IcNAf
 heycar.co.uk##.iwIYCG
-heycar.co.uk##body,html:style(overflow: auto !important; position: initial !important;)
 heycar.co.uk#$#body { overflow: auto !important; }
 heycar.co.uk#$#div[class^="Consent_cookieModal_"] { display: none !important; }
 heygen.com##.cw-cookie_banner
@@ -38458,8 +38426,6 @@ hobbyfarms.com##.cookieTkd
 hobbyzone.pl###id-cookiewarn
 hochparterre.ch##.cookie
 hochschule-stralsund.de###piwik-flyin
-hockerty.ch,hockerty.de,hockerty.es,hockerty.at,hockerty.it,hockerty.fr###cookies-popup
-hockerty.ch,hockerty.de,hockerty.es,hockerty.at,hockerty.it,hockerty.fr##body:style(height: auto !important; overflow: auto !important)
 hocomo.pl#%#//scriptlet('trusted-set-cookie', 'cookie-consent', '%7B%22marketing%22%3Afalse%2C%22advertisement%22%3Afalse%7D')
 hoechsmann.com###fancybox-container-cookiewall
 hoeffner.de###cookieAcceptation
@@ -38532,8 +38498,6 @@ hometogo.de#%#//scriptlet('trusted-click-element', 'div[data-test="cookie-consen
 hometogo.fr##.react-onclickoutside
 hometree.co.uk##.ht-nav-cookienotification
 homify.ae,homify.ca,homify.cl,homify.co.id,homify.co.kr,homify.co.th,homify.co.uk,homify.co.za,homify.com,homify.com.ar,homify.com.br,homify.com.co,homify.com.eg,homify.com.mx,homify.com.my,homify.com.tr,homify.com.ve,homify.de,homify.es,homify.fr,homify.hk,homify.in,homify.it,homify.jp,homify.nl,homify.pe,homify.pk,homify.pl,homify.pt,homify.ru,homify.sa,homify.sg,homify.tw,homify.ua,homify.vn#@##cookie-banner
-homify.ae,homify.ca,homify.cl,homify.co.id,homify.co.kr,homify.co.th,homify.co.uk,homify.co.za,homify.com.ar,homify.com.br,homify.com.co,homify.com.eg,homify.com.mx,homify.com.my,homify.com.tr,homify.com.ve,homify.com,homify.de,homify.es,homify.fr,homify.hk,homify.in,homify.it,homify.jp,homify.nl,homify.pe,homify.pk,homify.pl,homify.pt,homify.ru,homify.sa,homify.sg,homify.tw,homify.ua,homify.vn###cookie-banner.cookie-banner
-homify.ae,homify.ca,homify.cl,homify.co.id,homify.co.kr,homify.co.th,homify.co.uk,homify.co.za,homify.com.ar,homify.com.br,homify.com.co,homify.com.eg,homify.com.mx,homify.com.my,homify.com.tr,homify.com.ve,homify.com,homify.de,homify.es,homify.fr,homify.hk,homify.in,homify.it,homify.jp,homify.nl,homify.pe,homify.pk,homify.pl,homify.pt,homify.ru,homify.sa,homify.sg,homify.tw,homify.ua,homify.vn##body,html:style(overflow: auto !important; position: initial !important;)
 hommeprive.com###idxrcookies
 honda-automoveis.pt##.rigor-cookies
 honda.com.br##.info-notification
@@ -39644,10 +39608,6 @@ investpay.ru##.main-user-consent-request
 investtech.com###cookieConsentDialogue
 invezz.com##div[x-data="XCookieConsent()"]
 invisalign.*##div[class^="ConciergePopup"]
-invisalign.de,invisalign.eu,invisalign.com.cy,invisalign.cz,invisalign.dk,invisalign.fi,invisalign.co.uk,invisalign.gr,invisalign.ie,invisalign.it,invisalign.ru,invisalign.fr,invisalign.nl,invisalign.no,invisalign.pl,invisalign.pt,invisalign.ch,invisalign.se,invisalign.sk##div[class^="ConciergePopup"]
-invisalign.de,invisalign.eu,invisalign.com.cy,invisalign.cz,invisalign.dk,invisalign.fi,invisalign.co.uk,invisalign.gr,invisalign.ie,invisalign.it,invisalign.ru,invisalign.fr,invisalign.nl,invisalign.no,invisalign.pl,invisalign.pt,invisalign.ch,invisalign.se,invisalign.sk##html:style(position: static !important; overflow: auto !important; width: auto !important;)
-invisalign.es##div[class^="CookiePopup"]
-invisalign.es##html:style(position: static !important; overflow: auto !important; width: auto !important;)
 invisible.co##div[aria-label="Cookie banner"]
 invisible.co,eramba.org##+js(set-cookie, localConsent, false)
 invita.dk##.notificationbar
@@ -39888,6 +39848,7 @@ ivyexec.com##+js(set-cookie, COOKIE-POLICY-ACCEPT, true)
 iwanttfc.com##.ng-confirm-box
 iwanttfc.com##.ng-confirm-cookie-policy
 iwatetabi.jp,pastoralraum-huerntal.ch###js-cookie-banner
+iway.ch,medit.com,ausfraukesfeder.de,upreply.de,restaurantsbrighton.co.uk,phpconference.com,mixingmonster.com,elektrotechnik-schabus.de,online.ch,media-consulting.ch,grafische-visualisierung.de,asfour.ch,achtsamerleben.de,foto-shooting.ch,savvista.com,marketing-strategen.com,aeotec.com,itv4.de,imprimare3d.com,juwelier-dringo.de,pulpe.eu,ilonpolku.fi,oculyze.net,mikanews.de,bitreporter.de,zertificon.com,kieruneknorwegia.pl,mannschaft.com,windowspower.de,bbfun.de,schreiners-it.de,infobroker.de,1000-haushaltstipps.de,theoblog.de,notebook-doktor.de,base-chat.de,campingbuddies.de,saunahuus.de,krefindo.de,tuhlteim.de,getaawp.com,wrestling-point.de,englishradar.com,wt-onlineakademie.de,readyforboarding.pl,thegeekfreaks.de,picockpit.com,der-windows-papst.de,kjr-pi.de,splendid-internet.de,do.de,compact-online.de,fuckyeah.shop,kiyoua-news.de,tourismus-uckermark.de,angelmagazin.de,technik-hauptstadt.de,tuhlteim-pedia.de,fobizz.com,fabian-heinz-webdesign.de,jpgames.de,kulturpass-kino.de,aspies.de,frixtender.de,brauerei-strate.de,hookahx.de,frickeldave.de,leben-mit-ohne.de,ilyabiz.com,neuneinhalb.org,baycix.de,basta.berlin,herrlichergarten.de,spieltraum-berlin.de,patria.net,blog.ipc-computer.de,gaming-grounds.de,ekiwi-blog.de,erp-up.de,philosophia-perennis.com,tecsafe.de,devm.io,schnittmuster-datenbank.de,rosgovas.com,blu-ray-rezensionen.net,bricksforge.io,lenovocampus.de,rotlichtaus.de,louisreynier.com,stricken-online.com,haarausfall-stopp.com,cargoe.at,pandore-gendarmerie.org,pureselfmade.com,fild.de,m-m-m.de,yogainspires.co.uk,youngimages.de,katzenbaumdesign.de,goerlach-gmbh.com,lichtempfindlich.org,gasthaus-schmidmayer.de,narrwalla.de,efg-passau.de,gefahrgutjaeger.de,locafrique-sf.com,financeads.com,tutonaut.de,freegossip.gr,ltmemory.de,randombrick.de,playcentral.de,nachbelichtet.com,philosophenlexikon.de,schulebruetten.ch,almacenessanagustin.com,autoverwertung-berk.de,gosch.de,ousuca.com,stw-langenfeld.de,yurishop.it,europace.de,autobrinkmann.de,move-ment.at,techniknews.net,epages.com,thinkingwithyou.com,mfu-pilotenclub.at,artkon.de,running-green.de,danielederosa.de,ivfp.de,bs-achern.de,swiss-commerce.ch,asga.ch,ellasblog.de,gamenite.de,mmo-sankar.de,istaf-indoor.de,iqskitchen.de,ekiwi.de,nordlicht-ev.de,zimmerwetter.de,pinel-netzwerk.de,bierspot.de,lightcon.com,roschmann.de,egon-w-kreutzer.de,terra-natur.com,devowl.io,cleverpush.com,subitec.com,kwerfeldein.de,tecalliance.net,viel-unterwegs.de,madame-lenormand.de,4kfilme.de,gymnasium-hochdahl.de,popp.eu,maniac.de,supertipp-online.de,winlocal.de,schiffe-und-kreuzfahrten.de,guiademayores.com,jankarres.de,nahrungsmittel-intoleranz.com,branson-germany.de,miriamkreativ.de,zaunbau-koch.de,bsk-consulting.de,windata.de,prodopa.de,zahnarzt-kuboth.de,audiovision.de,brachmannofficial.com,compari.net,computer-und-technik-im-wohnmobil.de,seifriz-preis.de,suitapp.de,rossoft.co.uk,wind-craft.eu,manyanet.org,mack-design.com,pocket-pirates-prt.de,tanzschulebogner.de,toplink.de,vg-veitsbronn-seukendorf.de,skiweltcup.tv,desser.co.uk,symposium.org,manneskraft-gesteigert.com,barracred.com.br,tv-sport.de,boheme-schwabing.de,spherity.com,tc-equipment.de,webfactory-i4.de,webtimiser.de,wp-ninjas.de,profiel.de,goeltzschtal-reisen.de,everbloom.eu,myclim8.com,smiley.blue,tulipize.com,burzaucebnic.sk,komm-mit.com,istdasvegan.eu,openforests.com,industriemedien.at,torinostoria.com,igvm.de,pinel.de,music-service-geiger.de,insidetrading.de,ls-service.at,blogyourthing.com,bildung-ab-50.de,teilzeitreisender.de,vivoil.com,borderline-plattform.de,accace.ro,lang-ag.com,reise-zikaden.de,nmmn.com,exitroom.berlin,weiterbildungsfinder.de,erfurt-touristinformation.de,elisazunder.de,visconti.partners,plr-paket.de,spytunes.com,schneelaeuferzunft.de,flaviamelissa.com.br,flughafen.tips,webtapete.de,erbsenprinzessin.com,cranimax.com,ac-grimmen.de,floristasgarcia.es,monikabirknerfreedombusiness.de,lattinepersonalizzate.it,olmatic.de,die-werbeschmiede.de,supereight.net,visitmedia.de,egro-direktwerbung.de,alleingeborener-zwilling.com,actrento.com,antik-shop.de,accace.cz,happiness-bundles.com,classic-emaille.de,fakturia.de,beeze.de,brunozimmer.de,derhoerbuchblog.de,udo-lermann.de,ciss.de,volksfest-nuernberg.de,ubisys.de,wildbits.de,softedu.pl,maxkoch.de,mario-kaps.de,salzstreuner.de,goessential.com,tiesse.com,compagniefruitiere.fr,motivationstipp.de,holzkisten-fabrik.de,dasmagazin.de,akademie-management.de,salzerkfz.de,m38a1.de,thomasschlechter.de,smorfianapoletanaweb.it,vzm.de,proofing.de,kbmv-matting.de,vitalplus.com,karver-systems.com,boeser-chinese.de,reinhardstrempel.de,bewusstes-zentrum.de,bewusstes-zentrum.de,wildpark-ortenburg.de,24hessen.de,janamaenz.photography,prodottidellapiazza.it,continentale-hannover.de,accace.sk,wzl-zwickau.de,tkm-systemtechnik.de,drive4brands.de,brancaia.com,trirhena-consulting.de,pferde-hunde-therapie.de,ffzblossin.de,coyagaming.de,cocktailsworld.net,forum-koepenick.de,immobilien-skiba.de,penzkofer-bau.de,penzkofer-bau.de,fitnesscenter-schardt.de,abcteile24.de,wohnmobilcenter-drechsler.de,crossculture-academy.com,blhv.de,blindbild.com,zouboulis.com,esderaiz.com,ichbindochnichthierumbeliebtzusein.com,von-zinsen-leben.de,c-parts.de,accademiainformatica.com,lobetalarbeit.de,hannover-living.de,tsg6209weinheim.de,stefaniegoldmarie.com,dictum-shop.de,oakbeardcare.com,patchbox.com,lazyinvestors.de,frohreich.de,transport-versicherungen.info,mummelito.de,reisekontakte.at,ojas.de,stadt-schoeneck.de,piazzadeimestieri.it,fasteninfos.de,brodbeck-dd.de,hundewelpe.de,jadent.de,duft-werk.de,wunderpen.com,crazeuk.com,drhorvath.de,weingut-knipser.de,donostiroller.com,roemermann.com,bestwig.de,tango-flores.de,china-central-consultants.com,lacasadavantialsole.org,naturseifen-moosmed.de,akzent-magazin.com,wp-loft.de,welte-glasuren.com,balsamico.shop,sl-landschaftsgestaltung.de,betec.de,alquilerordenadores.com,bayern-kreativ.de,tim-ehling.com,signisalc.org,coworkingrepublic.com,dacsa.com,plzenoviny.cz,odw-journal.de,kasteninblau.de,lichttraeumer.de,missinfogeek.net,automatiksysteme.com,adzurro.de,vectorsoft.de,suedafrika-wein.de,noaf.de,hundgemacht.net,testefiorite.it,klsys.com,feuerhexen.de,lemarit.com,lameerooftop.com,ideentitaet.com,kaiser-mania.de,accace.com,naku.at,goldpreis24.de,ejwleo.de,josefbergs.com,caucasus-naturefund.org,energiemetropole-leipzig.de,von-neindorff-stiftung.de,locandazita.com,samadhi-vegetarian.de,host.pl,pentadoc-radar.com,kd-slovenija.de,accace.hu,stilweb.it,wolfgangallgaeuer.com,kohlkg.de,rechtsanwalt-nierfeld.de,karlhoeffkes.de,verstehepferde.de,socceressen.de,dcore.de,edr-software.com,denk-doch-mal.de,meinstream.net,stefan-froescher.eu,zabel-group.de,photofloh.de,annabeauty-stuttgart.de,swg-chemnitz.de,klicks-kaufen.de,levne-sauny.cz,versicherungsmakler-leistenschneider.de,arsdigita.de,flugschule-hochries.de,osmc.de,zumkutscher.de,evkirche-eilsen.de,thingybob.de,inicionet.com,feucht-obsttechnik.de,weimar-touristinformation.de,yplay.de,vcfrankfurt.de,derklassiker.de,lepetitmarchedauvergne.fr,gooloo.de,pizzeria-algusto.de,presto-personaldienste.de,wallygusto.de,frigge-dinstak.de,klangmassage-moser.de,grupo-loma.com,samenbank-berlin.de,flow-in-yoga.de,lb-consultores.com,b757.info,luegeten.ch,hof-droste.de,aachen50plus.de,arabesque-essen.de,grid.de,canvascga.com,mallorca-unternehmen.com,hauspanorama.de,vienna-interiors.at,music-on-net.de,baumarkt-vogl.at,knoblauch.de,rissland-kunststoffe.de,fahrstil.cc,hallesches-fotoatelier.de,dollenberg-isolierung.de,timo-bernhard.de,feuerwehr-oberau.de,kuechenboerse.de,erlebnispark-ziegenhagen.de,frauzuckerbroetchen.com,hopfner.info,tiermasseur-mannsberger.at,gcol.de,blueoceangaming.com,pinel-medizin.de,knauer-galabau.de,zahnarzt-dr-henkel.de,tonispizza-rastatt.de,wichmann.biz,schuetzendepot.de,horizonte.com,dayspamainz.de,gerdes-reisen.de,dg-pw.de,brill-art.de,carbon.ag,199-euro-computer.de,pndracingteam.net,sv-langenfeld.de,steinway-park-seesen.de,sonderversum.com,forwardis.com,verein-fairbund.de,hs-soft.com,hans-engelke.de,vapecoco.com,imprints.de,rolandgermany.com,fschemie-goettingen.de,hypnose.ac,estudio-nous.com,kunstmuseum-heidenheim.de,htvb.org,ridee.bike,zur-glocke.com,hotelkristall.it,babiceurican.cz,farbenherz.com,it-koehler.com,bklm-ahaus.de,gesundheitsladen-online.de,createchange.me##+js(set, realCookieBanner, undefined)
 iwsc.net##[class^="l-cookies_"]
 ixbt.com###accept_cookie_policy_wrapper
 ixbt.com##.gdpr-root
@@ -40052,7 +40013,7 @@ jfe-eng.co.jp###cookietarget
 jgl.eu###ng-cc
 jibjab.com##+js(set-local-storage-item, cookie_banner:hidden, true)
 jica.go.jp###cookie_bnr
-jice.or.jp,daisharin.co.jp,houseofrose.co.jp,exgen.co.jp###name-ga-cookie-accept-bar
+jice.or.jp,daisharin.co.jp,houseofrose.co.jp,exgen.co.jp,morimatsu-group.co.jp,asahi-kg.co.jp,asahi-agria.co.jp###name-ga-cookie-accept-bar
 jif.com###jms__cookie-consent__screen
 jigsawplanet.com##.ts-msg
 jigsawplanet.com##.ts-msg.ts-type0
@@ -40076,8 +40037,6 @@ jksrestaurants.com##.Cookie-message
 jku.at##+js(set-cookie, CookieConsent, OK)
 jku.at##.ccpopup
 jlcpcb.com##.jlc-wm-cookie-policy
-jll.de,jll.fr,jll.fi,jll.cz,jll.be,jll.it,jll.lu,jll-mena.com,jll.co.uk,jll.nl,jll.pl,jll.co.il,jll.ro,jll.ru,jll.pt,jll.sk,jll.co.za,jll.es,jll.ch,jll.com.tr,jll.com.au,joneslanglasalle.com.cn,jllsweden.se,jll.com.tw,jll.co.id,joneslanglasalle.co.jp,jll.co.kr,jll.com.mo,jll.com.my,jll.nz,jll.com.ph,jll.com.sg,jll.com.lk,jll.co.th,joneslanglasalle.com.vn,jll.com.mx,jll.com,jll.com.co,jll.pe,jll.com.ar,jll.cl,jll.com.br,jll.ca##.ensNotifyBannerWrapper
-jll.de,jll.fr,jll.fi,jll.cz,jll.be,jll.it,jll.lu,jll-mena.com,jll.co.uk,jll.nl,jll.pl,jll.co.il,jll.ro,jll.ru,jll.pt,jll.sk,jll.co.za,jll.es,jll.ch,jll.com.tr,jll.com.au,joneslanglasalle.com.cn,jllsweden.se,jll.com.tw,jll.co.id,joneslanglasalle.co.jp,jll.co.kr,jll.com.mo,jll.com.my,jll.nz,jll.com.ph,jll.com.sg,jll.com.lk,jll.co.th,joneslanglasalle.com.vn,jll.com.mx,jll.com,jll.com.co,jll.pe,jll.com.ar,jll.cl,jll.com.br,jll.ca##body,html:style(height: auto !important; overflow: auto !important)
 jma.or.jp##.modal_content
 jman.tv###ActionBar
 jmmgc.com###cnotice
@@ -41027,9 +40986,7 @@ krasnoeibeloe.ru#?##age_popup_container > div.popup_bottom_bl > div.popup_bottom
 krasserstoff.com###messageboard
 krasserstoff.com##.messageboard__container
 krautreporter.de##.js-flash-messages-container
-krav-maga-online.de##.v--modal-background-click
-krav-maga-online.de##.v--modal-overlay
-krav-maga-online.de##body,html:style(overflow: auto !important; position: initial !important;)
+krav-maga-online.de##+js(set-cookie, consent_cookie, declined)
 kreafunk.com##.l-notifications
 krebsinformationsdienst.de###quickhint-wrapper
 krediidiraportid.ee##.kred-cookiemessage
@@ -41693,8 +41650,6 @@ lekarna-bella.cz##.modal-backdrop
 lekarna-bella.cz##body:style(overflow: auto !important; position: initial !important;)
 lekarna.cz###popup-customer-data
 lekarna.cz##.inconsent-cc
-lekarnalemon.cz##.modal
-lekarnalemon.cz##.modal-backdrop
 lekarnalemon.cz#%#//scriptlet('trusted-set-cookie-reload', 'cookiesSettings', '%7B%22necessary%22%3Atrue%7D')
 lekarnalemon.cz#@#.cookie-confirm
 lekarzebezkolejki.pl,ktomalek.pl##.ui-dialog[aria-describedby="cookies"]
@@ -41750,10 +41705,6 @@ leoprinting.nl##.mainstick
 leouve.com.br###alert-privacy-policy
 leparisien.fr###topcookie
 lepavelillois.com###stickyHeader
-lepermislibre.fr##.chakra-modal__content-container
-lepermislibre.fr##.chakra-modal__overlay
-lepermislibre.fr##.chakra-slide
-lepermislibre.fr##body,html:style(overflow: auto !important; position: initial !important;)
 lepiantagionidelcaffe.com##.o-popup--cookies
 lepoint.fr##.bandeau-cookies
 lepointdevente.com###modal-background
@@ -41767,7 +41718,7 @@ leroymerlin.ro##.loader
 leroymerlin.ro#$#.container-cookie { display: none !important; }
 leroymerlin.ro#$#body { height: unset !important; overflow: auto !important; }
 leroymerlin.ro#@#.container-cookie
-leroymerlin.ro,fortune.com,remarkable.com,anwb.nl,craftserve.pl,comune.palermo.it,abconcerts.be,adidas.at,adidas.be,adidas.ca,adidas.ch,adidas.cl,adidas.co,adidas.co.in,adidas.co.kr,adidas.co.nz,adidas.co.th,adidas.co.uk,adidas.com,adidas.com.ar,adidas.com.au,adidas.com.br,adidas.com.my,adidas.com.ph,adidas.com.tr,adidas.com.vn,adidas.cz,adidas.de,adidas.dk,adidas.es,adidas.fi,adidas.fr,adidas.gr,adidas.ie,adidas.it,adidas.mx,adidas.nl,adidas.no,adidas.pe,adidas.pl,adidas.pt,adidas.ru,adidas.se,adidas.sk,aerotime.aero,akku-shop.nl,akkushop-austria.at,akkushop-b2b.de,akkushop-schweiz.ch,akkushop-turkiye.com.tr,akkushop.de,akkushop.dk,allegro.cz,allegro.pl,allegrolokalnie.pl,amd-moebel.de,anadibank.com,anderleven.nl,animail.se,arbeitsagentur.de,arkenzoo.se,atomichub.io,aubi-plus.de,automathoogeveen.nl,autonet.ro,back2front.be,backmarket.at,backmarket.be,backmarket.co.uk,backmarket.com,backmarket.de,backmarket.es,backmarket.fi,backmarket.fr,backmarket.gr,backmarket.ie,backmarket.it,backmarket.pt,backmarket.se,backmarket.sk,bajapress.com,batterie-boutique.fr,bbc.com,becker-antriebe.shop,bimedis.com,bioplanete.com,bitbrain.com,bloosz.nl,bluelightcard.co.uk,boohoo.com,borgch.nl,brabus.com,bremerhaven.de,bsh-group.com,cadcompany.nl,calvinklein.at,calvinklein.be,calvinklein.bg,calvinklein.ch,calvinklein.co.uk,calvinklein.com,calvinklein.cz,calvinklein.de,calvinklein.dk,calvinklein.ee,calvinklein.es,calvinklein.fi,calvinklein.fr,calvinklein.hr,calvinklein.hu,calvinklein.ie,calvinklein.it,calvinklein.lt,calvinklein.lu,calvinklein.lv,calvinklein.nl,calvinklein.pl,calvinklein.pt,calvinklein.ru,calvinklein.se,calvinklein.si,calvinklein.sk,capaciteitentestoefenen.com,cbp4you.fr,cgi.com,choircompany.nl,congresoaep.org,coseleurope.eu,creative-looks.nl,czc.cz,dagje-texel.nl,damsgaardscaravancenter.dk,datakauppa.fi,de-de.eundl.de,deutsche-alpenstrasse.de,deutschesapothekenportal.de,dewit-elektro.nl,dnb.no,dragnsurvey.com,drumplezier.nl,dunelm.com,educhel.ru,eduface.ru,edumsko.ru,ellisphere.fr,endgamegear-shop.co.uk,endgamegear.be,endgamegear.ch,endgamegear.com,endgamegear.de,endgamegear.es,endgamegear.fr,endgamegear.lu,endgamegear.nl,endgamegear.pt,enesco.co.uk,enluse.com,eon.pl,erfurter-bahn.de,esv.info,exali.de,fanipogody.pl,fashion-trends.nl,festo.com,fil-luge.org,finantia.com,finantia.es,finnkino.fi,fitx.de,flierefluiterraalte.nl,focusonreproduction.eu,fortressgroup.nl,fransdegrebber.nl,freixenet-onlineshop.de,fussballgucken.info,gamersgate.com,gasterijkruisberg.nl,get-in-engineering.de,gov.lv,hawle.de,heinz.st,hellenicbank.com,hetwkz.nl,home-connect.com,hscollective.org,huispromotie.nl,iclas.org,icould.com,icverpleegkundige.com,improvethenews.org,imoradar24.ro,imu.nl,interestingengineering.com,inwerk.de,ionos.de,ionos.fr,isx.nl,ivaucher.pt,jenrmarketing.nl,kangasalansanomat.fi,keravanenergia.fi,kinky.nl,kitakerjaremote.com,komerso.pl,konstnarsnamnden.se,krungsri.com,kupbilecik.com,kupbilecik.de,kupbilecik.pl,kurierzamojski.pl,lastenbesparen.com,ledlenser.com,lektury.gov.pl,liberbank.es,litebit.eu,lulus.com,manutd.com,masmovil.es,maxi-pet.ro,mcnetiq.nl,mega-image.ro,mehilainen.fi,miltenyibiotec.com,moneyluckfreedom.com,musti.no,mustijamirri.fi,my.acea.it,mycall.no,myfabrics.co.uk,mystats.nl,naamelijk.nl,neff-home.com,neff.ru,neuseeland-haus.de,nickyverbeek.nl,nobilia.de,noblechairs.de,nokia.com,nonsolocap.it,northernpowergrid.com,oddo.fr,oekolandbau.de,ogloszenia.plock.pl,okto.tv,omviajesyrelatos.com,only-fitness.nl,openfoodnetwork.org.uk,otpportalok.hu,outdooractive.com,palladiumboots.de,paruvendu.fr,patient.info,pensjonistforbundet.no,petenkoiratarvike.com,pickup.de,planeo.de,profilo.com,proteineshakes.nl,pyroweb.de,readly.com,realgap.co.uk,regione.puglia.it,renewal.ru,neplp.lv,riga.lv,rocrivor.nl,rodekruis.be,runningheroes.com,schoenherr.eu,schroders.com,schuurman-schoenen.nl,seatgeek.com,senec.com,sentres.com,sevdesk.at,sevdesk.de,shop.halebop.se,shopilya.com,skinnyminds.nl,slankmetlinda.nl,smartphonehoesjes.nl,snp.nl,socialpress.pl,spotlightstores.com,stoffe.de,stromnetz.berlin,stwbs.de,subaruretailersolutions.com,successinsights.nl,swatch.com,swedbank.com,swisscom.ch,t-mobile.com,t-mobile.nl,taschenhirn.de,taxiboeken.be,techbone.net,technotrafficcontrol.nl,tele2.nl,telecomitalia.it,terc.hu,thebackmarket.nl,theblueschronicles.com,thebureauinvestigates.com,thehuddle.nl,thematchahouse.com,tme.eu,tommy.com,toni-maccaroni.de,topannonces.fr,topographic-map.com,toyota.astra.co.id,tyg.se,ufz.de,uktv.co.uk,umcutrecht.nl,understandingsociety.ac.uk,uniroyal.pl,urbanarrow.com,uwfysiotherapeut.com,veiligverkeer.be,vetzoo.no,vetzoo.se,vivamanchester.co.uk,volkswagen-newsroom.com,vsv.be,waitrose.com,warta.pl,wel-com.nl,wentronic.com,wentronic.pl,wesocialmen.com,wikifolio.com,workshopsveiligverkeer.be,wtk.pl,wu.ac.at,wwz.ch,yoigo.com,yvonnebennetti.com,zapatos.es,zwic.nl,kavosdraugas.lt##body:style(overflow: auto !important;)
+leroymerlin.ro,fortune.com,remarkable.com,anwb.nl,craftserve.pl,comune.palermo.it,abconcerts.be,adidas.at,adidas.be,adidas.ca,adidas.ch,adidas.cl,adidas.co,adidas.co.in,adidas.co.kr,adidas.co.nz,adidas.co.th,adidas.co.uk,adidas.com,adidas.com.ar,adidas.com.au,adidas.com.br,adidas.com.my,adidas.com.ph,adidas.com.tr,adidas.com.vn,adidas.cz,adidas.de,adidas.dk,adidas.es,adidas.fi,adidas.fr,adidas.gr,adidas.ie,adidas.it,adidas.mx,adidas.nl,adidas.no,adidas.pe,adidas.pl,adidas.pt,adidas.ru,adidas.se,adidas.sk,aerotime.aero,akku-shop.nl,akkushop-austria.at,akkushop-b2b.de,akkushop-schweiz.ch,akkushop-turkiye.com.tr,akkushop.de,akkushop.dk,allegro.cz,allegro.pl,allegrolokalnie.pl,amd-moebel.de,anadibank.com,anderleven.nl,animail.se,arbeitsagentur.de,arkenzoo.se,atomichub.io,aubi-plus.de,automathoogeveen.nl,autonet.ro,back2front.be,backmarket.at,backmarket.be,backmarket.co.uk,backmarket.com,backmarket.de,backmarket.es,backmarket.fi,backmarket.fr,backmarket.gr,backmarket.ie,backmarket.it,backmarket.pt,backmarket.se,backmarket.sk,bajapress.com,batterie-boutique.fr,bbc.com,becker-antriebe.shop,bimedis.com,bioplanete.com,bitbrain.com,bloosz.nl,bluelightcard.co.uk,boohoo.com,borgch.nl,brabus.com,bremerhaven.de,bsh-group.com,cadcompany.nl,calvinklein.at,calvinklein.be,calvinklein.bg,calvinklein.ch,calvinklein.co.uk,calvinklein.com,calvinklein.cz,calvinklein.de,calvinklein.dk,calvinklein.ee,calvinklein.es,calvinklein.fi,calvinklein.fr,calvinklein.hr,calvinklein.hu,calvinklein.ie,calvinklein.it,calvinklein.lt,calvinklein.lu,calvinklein.lv,calvinklein.nl,calvinklein.pl,calvinklein.pt,calvinklein.ru,calvinklein.se,calvinklein.si,calvinklein.sk,capaciteitentestoefenen.com,cbp4you.fr,cgi.com,choircompany.nl,congresoaep.org,coseleurope.eu,creative-looks.nl,czc.cz,dagje-texel.nl,damsgaardscaravancenter.dk,datakauppa.fi,de-de.eundl.de,deutsche-alpenstrasse.de,deutschesapothekenportal.de,dewit-elektro.nl,dnb.no,dragnsurvey.com,drumplezier.nl,dunelm.com,educhel.ru,eduface.ru,edumsko.ru,ellisphere.fr,endgamegear-shop.co.uk,endgamegear.be,endgamegear.ch,endgamegear.com,endgamegear.de,endgamegear.es,endgamegear.fr,endgamegear.lu,endgamegear.nl,endgamegear.pt,enesco.co.uk,enluse.com,eon.pl,erfurter-bahn.de,esv.info,exali.de,fanipogody.pl,fashion-trends.nl,festo.com,fil-luge.org,finantia.com,finantia.es,finnkino.fi,fitx.de,flierefluiterraalte.nl,focusonreproduction.eu,fortressgroup.nl,fransdegrebber.nl,freixenet-onlineshop.de,fussballgucken.info,gamersgate.com,gasterijkruisberg.nl,get-in-engineering.de,gov.lv,hawle.de,heinz.st,hellenicbank.com,hetwkz.nl,home-connect.com,hscollective.org,huispromotie.nl,iclas.org,icould.com,icverpleegkundige.com,improvethenews.org,imoradar24.ro,imu.nl,interestingengineering.com,inwerk.de,ionos.de,ionos.fr,isx.nl,ivaucher.pt,jenrmarketing.nl,kangasalansanomat.fi,keravanenergia.fi,kinky.nl,kitakerjaremote.com,komerso.pl,konstnarsnamnden.se,krungsri.com,kupbilecik.com,kupbilecik.de,kupbilecik.pl,kurierzamojski.pl,lastenbesparen.com,ledlenser.com,lektury.gov.pl,liberbank.es,litebit.eu,lulus.com,manutd.com,masmovil.es,maxi-pet.ro,mcnetiq.nl,mega-image.ro,mehilainen.fi,miltenyibiotec.com,moneyluckfreedom.com,musti.no,mustijamirri.fi,my.acea.it,mycall.no,myfabrics.co.uk,mystats.nl,naamelijk.nl,neff-home.com,neff.ru,neuseeland-haus.de,nickyverbeek.nl,nobilia.de,noblechairs.de,nokia.com,nonsolocap.it,northernpowergrid.com,oddo.fr,oekolandbau.de,ogloszenia.plock.pl,okto.tv,omviajesyrelatos.com,only-fitness.nl,openfoodnetwork.org.uk,otpportalok.hu,outdooractive.com,palladiumboots.de,paruvendu.fr,patient.info,pensjonistforbundet.no,petenkoiratarvike.com,pickup.de,planeo.de,profilo.com,proteineshakes.nl,pyroweb.de,readly.com,realgap.co.uk,regione.puglia.it,renewal.ru,neplp.lv,riga.lv,rocrivor.nl,rodekruis.be,runningheroes.com,schoenherr.eu,schroders.com,schuurman-schoenen.nl,seatgeek.com,senec.com,sentres.com,sevdesk.at,sevdesk.de,shop.halebop.se,shopilya.com,skinnyminds.nl,slankmetlinda.nl,smartphonehoesjes.nl,snp.nl,socialpress.pl,spotlightstores.com,stoffe.de,stromnetz.berlin,stwbs.de,subaruretailersolutions.com,successinsights.nl,swatch.com,swedbank.com,swisscom.ch,t-mobile.com,t-mobile.nl,taschenhirn.de,taxiboeken.be,techbone.net,technotrafficcontrol.nl,tele2.nl,telecomitalia.it,terc.hu,thebackmarket.nl,theblueschronicles.com,thebureauinvestigates.com,thehuddle.nl,thematchahouse.com,tme.eu,tommy.com,toni-maccaroni.de,topannonces.fr,toyota.astra.co.id,tyg.se,ufz.de,uktv.co.uk,umcutrecht.nl,understandingsociety.ac.uk,uniroyal.pl,urbanarrow.com,uwfysiotherapeut.com,veiligverkeer.be,vetzoo.no,vetzoo.se,vivamanchester.co.uk,volkswagen-newsroom.com,vsv.be,waitrose.com,warta.pl,wel-com.nl,wentronic.com,wentronic.pl,wesocialmen.com,wikifolio.com,workshopsveiligverkeer.be,wtk.pl,wu.ac.at,wwz.ch,yoigo.com,yvonnebennetti.com,zapatos.es,zwic.nl,kavosdraugas.lt##body:style(overflow: auto !important;)
 leroyseafood.com##.js-cookie-root
 les-aides.fr###mask, #consents
 les-aides.fr##.mask
@@ -42971,9 +42922,6 @@ maxdome.de###mx-js-bar
 maxi-pet.ro##.cookies-eu-box
 maxi-retail.ru##.NotificationCookie_cookie__1jdBx
 maxi-retail.ru##div[class^="NotificationCookie"]
-maxi.rs##.iVyhzP
-maxi.rs##.kezQbY
-maxi.rs##body,html:style(overflow: auto !important; position: initial !important;)
 maxicoffee.com##.cookie-statement
 maxict.nl##.wallpop-overlay
 maxifoot.fr###mfcok1
@@ -43175,7 +43123,6 @@ medimops.de#%#(function(){var a={timestamp:(new Date).getTime(),choice:2,version
 medipolis-intensivshop.de###cookiesMessageContainer
 medischcontact.nl##.cc-popup
 medistore.at##.consent_box_wrapper
-medit.com,ausfraukesfeder.de,upreply.de,restaurantsbrighton.co.uk,phpconference.com,mixingmonster.com,elektrotechnik-schabus.de,online.ch,media-consulting.ch,grafische-visualisierung.de,asfour.ch,achtsamerleben.de,foto-shooting.ch,savvista.com,marketing-strategen.com,aeotec.com,itv4.de,imprimare3d.com,juwelier-dringo.de,pulpe.eu,ilonpolku.fi,oculyze.net,mikanews.de,bitreporter.de,zertificon.com,kieruneknorwegia.pl,mannschaft.com,windowspower.de,bbfun.de,schreiners-it.de,infobroker.de,1000-haushaltstipps.de,theoblog.de,notebook-doktor.de,base-chat.de,campingbuddies.de,saunahuus.de,krefindo.de,tuhlteim.de,getaawp.com,wrestling-point.de,englishradar.com,wt-onlineakademie.de,readyforboarding.pl,thegeekfreaks.de,picockpit.com,der-windows-papst.de,kjr-pi.de,splendid-internet.de,do.de,compact-online.de,fuckyeah.shop,kiyoua-news.de,tourismus-uckermark.de,angelmagazin.de,technik-hauptstadt.de,tuhlteim-pedia.de,fobizz.com,fabian-heinz-webdesign.de,jpgames.de,kulturpass-kino.de,aspies.de,frixtender.de,brauerei-strate.de,hookahx.de,frickeldave.de,leben-mit-ohne.de,ilyabiz.com,neuneinhalb.org,baycix.de,basta.berlin,herrlichergarten.de,spieltraum-berlin.de,patria.net,blog.ipc-computer.de,gaming-grounds.de,ekiwi-blog.de,erp-up.de,philosophia-perennis.com,tecsafe.de,devm.io,schnittmuster-datenbank.de,rosgovas.com,blu-ray-rezensionen.net,bricksforge.io,lenovocampus.de,rotlichtaus.de,louisreynier.com,stricken-online.com,haarausfall-stopp.com,cargoe.at,pandore-gendarmerie.org,pureselfmade.com,fild.de,m-m-m.de,yogainspires.co.uk,youngimages.de,katzenbaumdesign.de,goerlach-gmbh.com,lichtempfindlich.org,gasthaus-schmidmayer.de,narrwalla.de,efg-passau.de,gefahrgutjaeger.de,locafrique-sf.com,financeads.com,tutonaut.de,freegossip.gr,ltmemory.de,randombrick.de,playcentral.de,nachbelichtet.com,philosophenlexikon.de,schulebruetten.ch,almacenessanagustin.com,autoverwertung-berk.de,gosch.de,ousuca.com,stw-langenfeld.de,yurishop.it,europace.de,autobrinkmann.de,move-ment.at,techniknews.net,epages.com,thinkingwithyou.com,mfu-pilotenclub.at,artkon.de,running-green.de,danielederosa.de,ivfp.de,bs-achern.de,swiss-commerce.ch,asga.ch,ellasblog.de,gamenite.de,mmo-sankar.de,istaf-indoor.de,iqskitchen.de,ekiwi.de,nordlicht-ev.de,zimmerwetter.de,pinel-netzwerk.de,bierspot.de,lightcon.com,roschmann.de,egon-w-kreutzer.de,terra-natur.com,devowl.io,cleverpush.com,subitec.com,kwerfeldein.de,tecalliance.net,viel-unterwegs.de,madame-lenormand.de,4kfilme.de,gymnasium-hochdahl.de,popp.eu,maniac.de,supertipp-online.de,winlocal.de,schiffe-und-kreuzfahrten.de,guiademayores.com,jankarres.de,nahrungsmittel-intoleranz.com,branson-germany.de,miriamkreativ.de,zaunbau-koch.de,bsk-consulting.de,windata.de,prodopa.de,zahnarzt-kuboth.de,audiovision.de,brachmannofficial.com,compari.net,computer-und-technik-im-wohnmobil.de,seifriz-preis.de,suitapp.de,rossoft.co.uk,wind-craft.eu,manyanet.org,mack-design.com,pocket-pirates-prt.de,tanzschulebogner.de,toplink.de,vg-veitsbronn-seukendorf.de,skiweltcup.tv,desser.co.uk,symposium.org,manneskraft-gesteigert.com,barracred.com.br,tv-sport.de,boheme-schwabing.de,spherity.com,tc-equipment.de,webfactory-i4.de,webtimiser.de,wp-ninjas.de,profiel.de,goeltzschtal-reisen.de,everbloom.eu,myclim8.com,smiley.blue,tulipize.com,burzaucebnic.sk,komm-mit.com,istdasvegan.eu,openforests.com,industriemedien.at,torinostoria.com,igvm.de,pinel.de,music-service-geiger.de,insidetrading.de,ls-service.at,blogyourthing.com,bildung-ab-50.de,teilzeitreisender.de,vivoil.com,borderline-plattform.de,accace.ro,lang-ag.com,reise-zikaden.de,nmmn.com,exitroom.berlin,weiterbildungsfinder.de,erfurt-touristinformation.de,elisazunder.de,visconti.partners,plr-paket.de,spytunes.com,schneelaeuferzunft.de,flaviamelissa.com.br,flughafen.tips,webtapete.de,erbsenprinzessin.com,cranimax.com,ac-grimmen.de,floristasgarcia.es,monikabirknerfreedombusiness.de,lattinepersonalizzate.it,olmatic.de,die-werbeschmiede.de,supereight.net,visitmedia.de,egro-direktwerbung.de,alleingeborener-zwilling.com,actrento.com,antik-shop.de,accace.cz,happiness-bundles.com,classic-emaille.de,fakturia.de,beeze.de,brunozimmer.de,derhoerbuchblog.de,udo-lermann.de,ciss.de,volksfest-nuernberg.de,ubisys.de,wildbits.de,softedu.pl,maxkoch.de,mario-kaps.de,salzstreuner.de,goessential.com,tiesse.com,compagniefruitiere.fr,motivationstipp.de,holzkisten-fabrik.de,dasmagazin.de,akademie-management.de,salzerkfz.de,m38a1.de,thomasschlechter.de,smorfianapoletanaweb.it,vzm.de,proofing.de,kbmv-matting.de,vitalplus.com,karver-systems.com,boeser-chinese.de,reinhardstrempel.de,bewusstes-zentrum.de,bewusstes-zentrum.de,wildpark-ortenburg.de,24hessen.de,janamaenz.photography,prodottidellapiazza.it,continentale-hannover.de,accace.sk,wzl-zwickau.de,tkm-systemtechnik.de,drive4brands.de,brancaia.com,trirhena-consulting.de,pferde-hunde-therapie.de,ffzblossin.de,coyagaming.de,cocktailsworld.net,forum-koepenick.de,immobilien-skiba.de,penzkofer-bau.de,penzkofer-bau.de,fitnesscenter-schardt.de,abcteile24.de,wohnmobilcenter-drechsler.de,crossculture-academy.com,blhv.de,blindbild.com,zouboulis.com,esderaiz.com,ichbindochnichthierumbeliebtzusein.com,von-zinsen-leben.de,c-parts.de,accademiainformatica.com,lobetalarbeit.de,hannover-living.de,tsg6209weinheim.de,stefaniegoldmarie.com,dictum-shop.de,oakbeardcare.com,patchbox.com,lazyinvestors.de,frohreich.de,transport-versicherungen.info,mummelito.de,reisekontakte.at,ojas.de,stadt-schoeneck.de,piazzadeimestieri.it,fasteninfos.de,brodbeck-dd.de,hundewelpe.de,jadent.de,duft-werk.de,wunderpen.com,crazeuk.com,drhorvath.de,weingut-knipser.de,donostiroller.com,roemermann.com,bestwig.de,tango-flores.de,china-central-consultants.com,lacasadavantialsole.org,naturseifen-moosmed.de,akzent-magazin.com,wp-loft.de,welte-glasuren.com,balsamico.shop,sl-landschaftsgestaltung.de,betec.de,alquilerordenadores.com,bayern-kreativ.de,tim-ehling.com,signisalc.org,coworkingrepublic.com,dacsa.com,plzenoviny.cz,odw-journal.de,kasteninblau.de,lichttraeumer.de,missinfogeek.net,automatiksysteme.com,adzurro.de,vectorsoft.de,suedafrika-wein.de,noaf.de,hundgemacht.net,testefiorite.it,klsys.com,feuerhexen.de,lemarit.com,lameerooftop.com,ideentitaet.com,kaiser-mania.de,accace.com,naku.at,goldpreis24.de,ejwleo.de,josefbergs.com,caucasus-naturefund.org,energiemetropole-leipzig.de,von-neindorff-stiftung.de,locandazita.com,samadhi-vegetarian.de,host.pl,pentadoc-radar.com,kd-slovenija.de,accace.hu,stilweb.it,wolfgangallgaeuer.com,kohlkg.de,rechtsanwalt-nierfeld.de,karlhoeffkes.de,verstehepferde.de,socceressen.de,dcore.de,edr-software.com,denk-doch-mal.de,meinstream.net,stefan-froescher.eu,zabel-group.de,photofloh.de,annabeauty-stuttgart.de,swg-chemnitz.de,klicks-kaufen.de,levne-sauny.cz,versicherungsmakler-leistenschneider.de,arsdigita.de,flugschule-hochries.de,osmc.de,zumkutscher.de,evkirche-eilsen.de,thingybob.de,inicionet.com,feucht-obsttechnik.de,weimar-touristinformation.de,yplay.de,vcfrankfurt.de,derklassiker.de,lepetitmarchedauvergne.fr,gooloo.de,pizzeria-algusto.de,presto-personaldienste.de,wallygusto.de,frigge-dinstak.de,klangmassage-moser.de,grupo-loma.com,samenbank-berlin.de,flow-in-yoga.de,lb-consultores.com,b757.info,luegeten.ch,hof-droste.de,aachen50plus.de,arabesque-essen.de,grid.de,canvascga.com,mallorca-unternehmen.com,hauspanorama.de,vienna-interiors.at,music-on-net.de,baumarkt-vogl.at,knoblauch.de,rissland-kunststoffe.de,fahrstil.cc,hallesches-fotoatelier.de,dollenberg-isolierung.de,timo-bernhard.de,feuerwehr-oberau.de,kuechenboerse.de,erlebnispark-ziegenhagen.de,frauzuckerbroetchen.com,hopfner.info,tiermasseur-mannsberger.at,gcol.de,blueoceangaming.com,pinel-medizin.de,knauer-galabau.de,zahnarzt-dr-henkel.de,tonispizza-rastatt.de,wichmann.biz,schuetzendepot.de,horizonte.com,dayspamainz.de,gerdes-reisen.de,dg-pw.de,brill-art.de,carbon.ag,199-euro-computer.de,pndracingteam.net,sv-langenfeld.de,steinway-park-seesen.de,sonderversum.com,forwardis.com,verein-fairbund.de,hs-soft.com,hans-engelke.de,vapecoco.com,imprints.de,rolandgermany.com,fschemie-goettingen.de,hypnose.ac,estudio-nous.com,kunstmuseum-heidenheim.de,htvb.org,ridee.bike,zur-glocke.com,hotelkristall.it,babiceurican.cz,farbenherz.com,it-koehler.com,bklm-ahaus.de,gesundheitsladen-online.de,createchange.me##+js(set, realCookieBanner, undefined)
 medium.com##div > .branch-journeys-top
 medizin-transparent.at###mt-cookie-banner
 medizin.uni-halle.de#%#(function(){-1===document.cookie.indexOf("CookieConsent")&&(document.cookie='CookieConsent=mandatory|osm; path=/;')})();
@@ -44309,8 +44256,6 @@ mubi.com##.el38f2b0
 mubi.com#%#//scriptlet('set-cookie', 'mubi-cookie-consent', 'true')
 mubi.pl##.cookies, header ~ div[aria-label*="Cookie"]
 mubi.pl##div[aria-label="Cookie Agreement"]
-mudanzavila.es##.cookies-modal
-mudanzavila.es##body,html:style(overflow: auto !important; position: initial !important;)
 mudes.org.br##.elementor-popup-modal
 mudita.com##div[class^="cookie-bannercomponent"]
 mudpie.com##.z-30
@@ -45948,10 +45893,6 @@ omni.se#$#.sch-datacontroller--subheader { display: none !important; }
 omnidesk.ru##.t886
 omnifurgone.it##.m1-footer-messages
 omnimoto.it##.m1-footer-messages
-omnipedia.app##.overlay
-omnipedia.app##.sliding-popup-bottom
-omnipedia.app##body:remove-attr(data-eu-cookie-compliance-once)
-omnipedia.app##body:style(overflow: auto !important; position: initial !important;)
 omniplexcinemas.co.uk,omniplex.ie#$#body #cookieConsentBar { display: none !important; }
 omniplexcinemas.co.uk,omniplex.ie#$#body { overflow: auto !important; pointer-events: auto !important; }
 omniplexcinemas.co.uk,omniplex.ie#@##cookieConsentBar
@@ -46688,9 +46629,6 @@ parking-serwis.pl##.top
 parking.hamburg-airport.de##.ipcp-notification-cookie
 parking.hamburg-airport.de##.ipcp-notification-cookie ~ div#notificationBar_modal
 parking.mos.ru###cookies-usage
-parking.praha.eu##.modal-cacsp-backdrop
-parking.praha.eu##.modal-cacsp-position
-parking.praha.eu##html:style(overflow: auto !important; position: initial !important;)
 parking.spb.ru###user-agreement-notify
 parkinson-klinik.de###mycookietip
 parklot.pl#%#//scriptlet('remove-node-text', 'script', 'wp_cookie_info')
@@ -47065,9 +47003,6 @@ pfister.ch##.gTHyyR
 pfisterer.ch,ausschreiben.de,viel-unterwegs.de,zeitgeist-online.de,kern-haus.de,diewebsitemacherei.de,effizienzhaus-online.de,daemmen-und-sanieren.de,maler-vergleich.com,kartonmodellbau.de,wvv.de##.ccm-root
 pflanzen-koelle.de,loewenbraeukeller.com,limango.pl,blau.de,wohnglueck.de###usercentrics-root
 pflanzen-vielfalt.net###clickskeks-popup-outer-holder
-pfleiderer.com##.cc--banner
-pfleiderer.com##.overlay
-pfleiderer.com##body,html:style(overflow: auto !important; position: initial !important;)
 pfr.gov.ru##.user-data-processing-wrapper
 pfr.gov.ru,sfr.gov.ru##.user-data-processing-wrapper
 pfrf.ru##.user-data-processing
@@ -48320,10 +48255,24 @@ pushsquare.com##.dgp-consent
 puzzle-by.krupion.de#$?#ion-modal { remove: true; }
 puzzlegarage.com##.modal--cookies
 puzzlemaster.ca##.toast
-puzzleyou.de,puzzleyou.at,puzzleyou.be,puzzleyou.ch,puzzleyou.co.uk,puzzleyou.com,puzzleyou.cz,puzzleyou.dk,puzzleyou.fi,puzzleyou.fr,puzzleyou.ie,puzzleyou.it,puzzleyou.lu,puzzleyou.pl,puzzleyou.se,puzzleyou.shop,puzzleyou.sk###overlay
-puzzleyou.de,puzzleyou.at,puzzleyou.be,puzzleyou.ch,puzzleyou.co.uk,puzzleyou.com,puzzleyou.cz,puzzleyou.dk,puzzleyou.fi,puzzleyou.fr,puzzleyou.ie,puzzleyou.it,puzzleyou.lu,puzzleyou.pl,puzzleyou.se,puzzleyou.shop,puzzleyou.sk##.cookie-policy-widget
-puzzleyou.de,puzzleyou.at,puzzleyou.be,puzzleyou.ch,puzzleyou.co.uk,puzzleyou.com,puzzleyou.cz,puzzleyou.dk,puzzleyou.fi,puzzleyou.fr,puzzleyou.ie,puzzleyou.it,puzzleyou.lu,puzzleyou.pl,puzzleyou.se,puzzleyou.shop,puzzleyou.sk##.layer
-puzzleyou.de,puzzleyou.at,puzzleyou.be,puzzleyou.ch,puzzleyou.co.uk,puzzleyou.com,puzzleyou.cz,puzzleyou.dk,puzzleyou.fi,puzzleyou.fr,puzzleyou.ie,puzzleyou.it,puzzleyou.lu,puzzleyou.pl,puzzleyou.se,puzzleyou.shop,puzzleyou.sk##body,html:style(overflow: auto !important; position: initial !important;)
+puzzleyou.at##+js(set-cookie, puzzleyou-at_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.be##+js(set-cookie, puzzleyou-be_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.ch##+js(set-cookie, puzzleyou-ch_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.co.uk##+js(set-cookie, puzzleyou-co-uk_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.com##+js(set-cookie, puzzleyou-ca_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.cz##+js(set-cookie, puzzleyou-cz_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.de##+js(set-cookie, puzzleyou-de_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.dk##+js(set-cookie, puzzleyou-dk_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.es##+js(set-cookie, puzzleyou-es_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.fi##+js(set-cookie, puzzleyou-fi_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.fr##+js(set-cookie, puzzleyou-fr_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.ie##+js(set-cookie, puzzleyou-ie_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.it##+js(set-cookie, puzzleyou-it_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.lu##+js(set-cookie, puzzleyou-lu_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.pl##+js(set-cookie, puzzleyou-pl_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.se##+js(set-cookie, puzzleyou-se_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.shop##+js(set-cookie, puzzleyou-no_cookies_consent_allowlist, 0, , reload , 1)
+puzzleyou.sk##+js(set-cookie, puzzleyou-sk_cookies_consent_allowlist, 0, , reload , 1)
 pvpoke-re.com,tagpacker.com,tempmail.zone,mathmammoth.com,cuic.eu,dateks.lv,gezondheidsplein.nl,cetin.cz,softorino.com,aatreeshop.de,speicherguide.de,fotav.hu,dayz.xam.nu,figyelo.hu,ibs-b.hu##.consent
 pvs-studio.com##.personal-data-confirm
 pwabuilder.com###gdprDiv
@@ -48795,9 +48744,6 @@ realme.com#$#.r-cookie { display: none !important; }
 realme.com#$#body { overflow: visible !important; }
 realme.com#%#//scriptlet('set-cookie', 'cookie-privacy-accept', 'true')
 realmroyale.com##.footer + div
-realpeoplemedia.co.uk###gdpr_cookie-mainWrapp
-realpeoplemedia.co.uk###gdpr_cookie-overlay
-realpeoplemedia.co.uk##body,html:style(overflow: auto !important; position: initial !important;)
 realsimple.com#@##onetrust-consent-sdk
 realsimple.com,simplyrecipes.com,shape.com,southernliving.com,thespruceeats.com,seriouseats.com,allrecipes.com,tripsavvy.com,travelandleisure.com,verywellmind.com,foodandwine.com,lifewire.com,verywellhealth.com,health.com,thoughtco.com,marthastewart.com,ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 realt.by###gdpr-portal-root
@@ -49422,8 +49368,6 @@ rotterdam.nl#?#body > div[class^="styles_grid__"]:has(> div[class*="styles_cooki
 rottweil-ammunition.com##.BannerManager
 roughradical.com.pl##div[id^="lgcookieslaw"]
 rougier-ple.fr###attentionCookies
-roundhouse.org.uk##.cookie-policy
-roundhouse.org.uk##body,html:style(overflow: auto !important; position: initial !important;)
 roundshot.com##.data-consent-edge
 routedurhum.com##div[aria-describedby="cookie-box-message"]
 routerchart.com,droidchart.com###cw
@@ -49657,8 +49601,7 @@ safaricom.co.ke##+js(set-cookie, cookieConsent, rejected)
 safc.com##.global-notice-wrap
 safe.global##+js(set-local-storage-item, safe.global, false)
 safe.global##+js(set-local-storage-item, SAFE__analyticsPreference, false)
-safedeliveries.nl###cookiewall
-safedeliveries.nl##body,html:style(overflow: auto !important; position: initial !important;)
+safedeliveries.nl##+js(set-cookie, cookieConsentGranted, 1)
 safedns.com###privacy-policy
 safedrivingforlife.info##.block-tso-cookie-preferences, .notification-banner-container, .shield
 safenames.net,hobbybaecker.de#$#.modal-open { overflow: visible !important; }
@@ -49784,6 +49727,8 @@ sanotechnik.com##.cookies-lightbox
 sanprobi-superformula.pl##body > div:not([id]):not([class])
 sanremo-pizza.com##.v-cookie-notification
 sans.org#@#.gdprNotice
+sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com,kreuzfahrten.de###klaro
+sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com,kreuzfahrten.de##body,html:style(overflow: auto !important; position: initial !important;)
 sanslicark.com##.v-snack
 sanswiss.pl##+js(set-cookie, cookie_info, 1, , reload, 1)
 sanswiss.pl#$#body #cookies_container { display: none !important; }
@@ -50288,6 +50233,7 @@ septima.dk##.septimacc
 serasa.com.br###m-acc-description
 serasa.com.br##+js(set-cookie, S_COOKIES_ACCEPTED, true)
 serasa.com.br##div[aria-labelledby="m-acc-title"]
+serasa.com.br#%#//scriptlet('set-cookie', 'S_COOKIES_ACCEPTED', 'true')
 serasaexperian.com.br##.containerCookie
 serasaexperian.com.br##.cookie_footer
 serato.com###cookie-info-banner
@@ -50675,9 +50621,8 @@ silbonshop.com#$#.modal-backdrop { display: none !important; }
 silbonshop.com#$#body.modal-open { overflow: auto !important; }
 silicagel.de##body > div:not([id]):not([class])
 siliconesandmore.com##.dmws-f-popup-wrap
-silverboats.fi##.modal-backdrop
-silverboats.fi##.modal-privacy-tool
-silverboats.fi##body,html:style(height: auto !important; overflow: auto !important)
+silverboats.fi##+js(set-cookie, AVENIS_PRIVACY_LEVEL_ANALYTICS, 0)
+silverboats.fi##+js(set-cookie, AVENIS_PRIVACY_LEVEL_COMMON, 1)
 silverstonetek.com##.cookie
 sim-networks.com##.sim-cookies-popup
 simba-dickie-group.com##.cookie_block
@@ -51752,10 +51697,6 @@ stern.de#$?#.i-amphtml-scroll-disabled { overflow-x: auto !important; overflow-y
 stern.de#%#//scriptlet('trusted-click-element', '#decline-nid-consent')
 stern.de#@#amp-consent
 sterrenoptv.nl##body > div[class^="app"]
-steuerbot.com##*:style(filter: none !important;opacity:1 !important;pointer-events:auto !important)
-steuerbot.com##.klg0gr3
-steuerbot.com##.klg0gr6
-steuerbot.com##body:style(overflow: auto !important; position: initial !important;)
 steuerbot.com#%#//scriptlet('trusted-set-local-storage-item', 'cookies', '{"essential":true,"performance":false,"marketing":false}')
 steute.de#%#//scriptlet('set-cookie', 'cookie_optin', '1')
 steve.ai,animaker.com,ts.today##.cookie_section
@@ -52281,8 +52222,6 @@ swd-darmstadt.de###cookie-notice
 swd-darmstadt.de##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 swdec.de##.noty_cont, .noty_bar
 sweatco.in##div[class^="Root__CookieBanner"]
-swedbank.ee###cookie-consent
-swedbank.ee##body,html:style(overflow: auto !important; position: initial !important;)
 swedbank.se#$#.cookie-banner { display: none !important; }
 swedbank.se#$#body { overflow: auto !important; }
 swedbank.se#@##component-cookie-banner
@@ -52637,9 +52576,6 @@ tattoodo.com#?##js-root > div > div:has(> button[onclick="acceptCookies()"])
 tavex.pl#$#.modaal-overlay { display: none !important; }
 tavex.pl#$#body { overflow: auto !important; }
 tavex.pl#$#div[data-source="#cookie-initial-modal"] { display: none !important; }
-tavex.pl,tavex.ro,tavex.lv,tavex.fi,tavex.bg,tavex.hu,tavex.se,tavexbullion.co.uk,tavex.rs##.modaal-inline
-tavex.pl,tavex.ro,tavex.lv,tavex.fi,tavex.bg,tavex.hu,tavex.se,tavexbullion.co.uk,tavex.rs##.modaal-overlay
-tavex.pl,tavex.ro,tavex.lv,tavex.fi,tavex.bg,tavex.hu,tavex.se,tavexbullion.co.uk,tavex.rs##body,html:style(overflow: auto !important; position: initial !important;)
 tavid.*,tavex.*,tavexbullion.*#$#.modaal-noscroll { overflow: auto !important; }
 tavid.*,tavex.*,tavexbullion.*#$#.modaal-overlay { display: none !important; }
 tavid.*,tavex.*,tavexbullion.*#$#.modaal-wrapper { display: none !important; }
@@ -53693,8 +53629,6 @@ topfit-badgriesbach.de##.gatewayBar
 topin.cz#%#//scriptlet('trusted-set-cookie', '_GTM_Consent', '{"ad_storage":"denied","analytics_storage":"denied","functionality_storage":"granted","personalization_storage":"denied","security_storage":"granted"}')
 topin.cz#@#.cookies-box
 topocentras.lt###cookie-consent-block
-topographic-map.com###moduleCookies:remove()
-topographic-map.com##body,html:style(overflow: auto !important; position: initial !important;)
 topographic-map.com#$##template { filter: none !important; }
 topographic-map.com#$#body { overflow: auto !important; }
 topographic-map.com#$?##moduleCookies { remove: true; }
@@ -54238,8 +54172,7 @@ tupowstalapolska.pl###menusDiv
 tupperware.com.br##.vtex-cookies
 tupperware.de#@#.cookie-bar:not(body)
 turbocso.hu###auroraOverlay
-turboimagehost.com##.asg-overlay
-turboimagehost.com##body,html:style(overflow: auto !important; position: initial !important;)
+turboimagehost.com##+js(set-cookie, cookiewarn, 1)
 turboimagehost.com#%#//scriptlet('set-cookie', 'cookiewarn', '1')
 turbovpn.com##.privacy_tips
 turbozentrum.de###consentmanager
@@ -54937,9 +54870,6 @@ vadhander.kramfors.se#%#//scriptlet('trusted-set-local-storage-item', 'cookie_co
 vagalume.com.br###privacy-policy-div
 vaillant.be#%#//scriptlet("set-constant", "Object.prototype.cookiewarning", "noopFunc")
 vaillant.be#@##cookiewarning
-vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua##.cookiewarning:not(body):not(html)
-vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua##.modal--theme-default
-vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua##body,html:style(overflow: auto !important; position: initial !important;)
 vaillant.it,vaillant-group.com,vaillant.at,vaillant.de#%#//scriptlet('set-cookie', 'cookie_consent_shown', 'true')
 vaillant.it,vaillant-group.com,vaillant.at,vaillant.de#@##cookiewarning
 vaillant.it,vaillant-group.com,vaillant.at,vaillant.de#@#.cookiewarning:not(body)
@@ -56229,9 +56159,6 @@ wiara.pl##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]
 wibc.com###ed-tos-bubble
 wid.cert-bund.de#$#body { overflow: auto !important; }
 wid.cert-bund.de#$#portal-cookie-dialog { display: none !important; }
-wideroe.no##.cookie-modal-wrapper
-wideroe.no##.modal-backdrop
-wideroe.no##body,html:style(overflow: auto !important; position: initial !important;)
 wideroe.no#$#.cookie-modal-wrapper { display: none !important; }
 wideroe.no#$#body { overflow: auto !important; }
 wideroe.no#@#.cookie-footer
@@ -57116,8 +57043,6 @@ zipfelbund.de,kueren.de,landhaus-thaumiller.de,schraudolf-oberstdorf.de,art-hard
 zipfelbund.de,kueren.de,landhaus-thaumiller.de,schraudolf-oberstdorf.de,art-harder.de,ahrtal-klinik.de,kornau.de,bs-landschaftsarchitekten.de,reifenservice-oberstdorf.de,steinbockhuette.de,baldauf-oberstdorf.de,gaestehaus-schlegel.de,oberstdorf-buchen.de,fewo-heides-haus.de,lingg-oberstdorf.de,hoermann-kleinwalsertal.de,marktbaehnle.de,ferienwohnungen-rotzler.de,erholung-oberstdorf.de,dach-bau.info,landurlaub-allgaeu.de,alte-sennerei.com,haus-bergbluemle.de,golfschwung.com,gasthof-riefenkopf.de,buehler-segelfreunde.de,neumann-grafik.de,breitachklamm.com,oberstdorf.de,ok-bergbahnen.com##body,html:style(overflow: auto !important; position: initial !important;)
 ziptransfers.com##.dvcookie
 zismo.biz###Cookie_message
-zitekick.dk,eltechno.dk##.zk-cookie-container
-zitekick.dk,eltechno.dk##body,html:style(overflow: auto !important; position: initial !important;)
 zivada.pl,ekokoza.*#$##CookiesConfirmation { display: none !important; }
 zivada.pl,ekokoza.*#$#body { overflow: auto !important; }
 zkbs-online.de#$#.mfp-ready { display: none !important; }
@@ -57589,7 +57514,7 @@ _eu_cookie_
 ||cmp.idg.pl^$script
 ||cmp.impress.co.jp^
 ||cmp.infopro-digital.com^
-||cmp.inmobi.com^$domain=foottheball.com|burbuja.info|tvguia.es|sofokleousin.gr|refreszing.pl|forvo.com|barstoolsports.com|playpilot.com|allaboutfpl.com|powergame.gr|hdmotori.it|hdblog.it|pronews.gr|naftemporiki.gr|musor.tv|webnews.it|24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com|typingtest.com|recetasviaje.com|teletexto.com|poki.com|ultimate-guitar.com|puzzle-minesweeper.com|puzzle-chess.com|puzzle-thermometers.com|puzzle-norinori.com|puzzle-slant.com|puzzle-lits.com|puzzle-galaxies.com|puzzle-tents.com|puzzle-battleships.com|puzzle-pipes.com|puzzle-hitori.com|puzzle-heyawake.com|puzzle-shingoki.com|puzzle-masyu.com|puzzle-stitches.com|puzzle-aquarium.com|puzzle-tapa.com|puzzle-star-battle.com|puzzle-kakurasu.com|puzzle-skyscrapers.com|puzzle-futoshiki.com|puzzle-words.com|puzzle-shakashaka.com|puzzle-kakuro.com|puzzle-jigsaw-sudoku.com|puzzle-killer-sudoku.com|puzzle-binairo.com|puzzle-nonograms.com|puzzle-loop.com|puzzle-sudoku.com|puzzle-light-up.com|puzzle-bridges.com|puzzle-shikaku.com|puzzle-nurikabe.com|puzzle-dominosa.com|camelcamelcamel.com|mydramalist.com|recipestravelworld.com|ddwloclawek.pl|ddtorun.pl|wpu24.pl|bleepingcomputer.com|tvrepublika.pl|24jgora.pl|karkonoszego.pl|24wroclaw.pl|zyciekalisza.pl|nswiecie.pl|vimm.net|todotest.com|magazynauto.pl|hwinfo.com|finanzaonline.com|gostyn24.pl|apkmirror.com|niezalezna.pl|bright.nl|thesaurus.net|gorlice24.pl|myabandonware.com|meneame.net|ygeiamou.gr|tustolica.pl|worldhistory.org|agronowiny.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|itopmusics.com|diritto.it|gazetaolsztynska.pl|lowicz24.eu|zambrow.org|tygodnikregionalna.pl|regionalna24.pl|psychic.de|topnewsy.pl|portalparentingowy.pl|lurkers.io|morele.net|nintenderos.com|tudonoticiasbr.com|historycollection.com|megacurioso.net|imolaoggi.it|serwery-minecraft.pl|linuxhandbook.com|pianetabambini.it|savett.cc|tulegnica.pl|telex.hu|1001fonts.com|wetter24.de|gamesource.it|hvg.hu|fantasyfootballscout.co.uk|pmi.it|formu1a.uno|inzynieria.com|filmaffinity.com|ngemu.com|radioem.pl|softpedia.com|gosc.pl|wiara.pl|malygosc.pl|y8.com|baeldung.com|download.net.pl|gotujmy.pl|viva.pl|ilewazy.pl|enternity.gr|financasdeouro.com|beebom.com|spielanime.com|wyborkierowcow.pl|podkarpacielive.pl|razaoautomovel.com|timesofisrael.com|magazine-hd.com|cinemaclock.com|symbaloo.com|techgear.gr|90minut.pl|boredpanda.com|dubznetwork.com|hypando.com.br|centralmediacsoport.hu|ricasdelicias.online|techspot.com|platinmods.com|tetr.io|fark.com|bielskirynek.pl|in.gr|whoscored.com|android.com.pl|neoseeker.com|thejc.com|mymovies.it|natemat.pl|mmacore.tv|efsyn.gr|basketball-reference.com|stathead.com|automap.it|letras.mus.br|blitz.gg|kurnik.pl|pulsgdanska.pl|gsmmaniak.pl|tabletmaniak.pl|fotomaniak.pl|mobimaniak.pl|acermaniak.pl|rtvmaniak.pl|agdmaniak.pl|luxmaniak.pl|blogomaniak.pl|activemaniak.pl|techmaniak.pl|digital-forum.it|onlineradiobox.com|burdaconnect.pl|vogue.gr|autoevolution.com|15min.lt|win7simu.visnalize.com|instrukcjaobslugipdf.pl|capital.ro|manchestereveningnews.co.uk|ototorun.pl|liverpoolecho.co.uk|ents24.com|mrwallpaper.com|sitepoint.com|djmag.com|autopunkt.pl|medal.tv|jastrzebieonline.pl|redflagdeals.com|infinityfree.com|timeanddate.de|wagnardsoft.com|opoka.org.pl|canonrumors.com|whatismyipaddress.com|krknews.pl|filarybiznesu.pl|authentisch-italienisch-kochen.de|sonixgvn.net|jobbmintatv.pro|themarysue.com|imginn.com|op.gg|wdi24.pl|pultusk24.pl|lalaziosiamonoi.it|ingles.com|frenchdictionary.com|comunio.de|realsporter.info|foreca.pl|kwejk.pl|besty.pl|wiocha.pl|swiatzwierzat.pl|digminecraft.com|rockradio.com|yottytech.com|sportal.gr|jbzd.com.pl|modrinth.com|base64encode.org|beautifyjson.org|convzone.com|minifyjson.org|uglifycss.com|uglifyjs.net|urlencoder.org|wprost.pl|prettifyjs.net|inverse.com|bustle.com|zonatmo.com|culturanimation.com|recetasmaria.com|techobras.com|babynombres.com|sombracycling.com|dorzeczy.pl|hardlevel.com.br|olgasmile.com|bbfan.pl|receitasdaora.online|heycar.com|moncloa.com|calibre-ebook.com|download.it|manua.ls|filmomaniak.pl|futurebeat.pl|tuwroclaw.com|wirtualnemedia.pl|psx-place.com|gamepressure.com|gameplay.pl|gry-online.pl|redcafe.net|cafesenior.pl|wpolsce24.tv|wgospodarce.pl|gpcodziennie.pl|panstwo.net|gazetapolska.pl|secretroma.com|thebest.gr|classicalradio.com|medievil.wiki|dotesports.com|upflix.pl|xgp.pl|starachowicki.eu|anime-sama.fr|sercanto.it
+||cmp.inmobi.com^$domain=vozpopuli.com|foottheball.com|burbuja.info|tvguia.es|sofokleousin.gr|refreszing.pl|forvo.com|barstoolsports.com|playpilot.com|allaboutfpl.com|powergame.gr|hdmotori.it|hdblog.it|pronews.gr|naftemporiki.gr|musor.tv|webnews.it|24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|ign.com|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com|typingtest.com|recetasviaje.com|teletexto.com|poki.com|ultimate-guitar.com|puzzle-minesweeper.com|puzzle-chess.com|puzzle-thermometers.com|puzzle-norinori.com|puzzle-slant.com|puzzle-lits.com|puzzle-galaxies.com|puzzle-tents.com|puzzle-battleships.com|puzzle-pipes.com|puzzle-hitori.com|puzzle-heyawake.com|puzzle-shingoki.com|puzzle-masyu.com|puzzle-stitches.com|puzzle-aquarium.com|puzzle-tapa.com|puzzle-star-battle.com|puzzle-kakurasu.com|puzzle-skyscrapers.com|puzzle-futoshiki.com|puzzle-words.com|puzzle-shakashaka.com|puzzle-kakuro.com|puzzle-jigsaw-sudoku.com|puzzle-killer-sudoku.com|puzzle-binairo.com|puzzle-nonograms.com|puzzle-loop.com|puzzle-sudoku.com|puzzle-light-up.com|puzzle-bridges.com|puzzle-shikaku.com|puzzle-nurikabe.com|puzzle-dominosa.com|camelcamelcamel.com|mydramalist.com|recipestravelworld.com|ddwloclawek.pl|ddtorun.pl|wpu24.pl|bleepingcomputer.com|tvrepublika.pl|24jgora.pl|karkonoszego.pl|24wroclaw.pl|zyciekalisza.pl|nswiecie.pl|vimm.net|todotest.com|magazynauto.pl|hwinfo.com|finanzaonline.com|gostyn24.pl|apkmirror.com|niezalezna.pl|bright.nl|thesaurus.net|gorlice24.pl|myabandonware.com|meneame.net|ygeiamou.gr|tustolica.pl|worldhistory.org|agronowiny.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|itopmusics.com|diritto.it|gazetaolsztynska.pl|lowicz24.eu|zambrow.org|tygodnikregionalna.pl|regionalna24.pl|psychic.de|topnewsy.pl|portalparentingowy.pl|lurkers.io|morele.net|nintenderos.com|tudonoticiasbr.com|historycollection.com|megacurioso.net|imolaoggi.it|serwery-minecraft.pl|linuxhandbook.com|pianetabambini.it|savett.cc|tulegnica.pl|telex.hu|1001fonts.com|wetter24.de|gamesource.it|hvg.hu|fantasyfootballscout.co.uk|pmi.it|formu1a.uno|inzynieria.com|filmaffinity.com|ngemu.com|radioem.pl|softpedia.com|gosc.pl|wiara.pl|malygosc.pl|y8.com|baeldung.com|download.net.pl|gotujmy.pl|viva.pl|ilewazy.pl|enternity.gr|financasdeouro.com|beebom.com|spielanime.com|wyborkierowcow.pl|podkarpacielive.pl|razaoautomovel.com|timesofisrael.com|magazine-hd.com|cinemaclock.com|symbaloo.com|techgear.gr|90minut.pl|boredpanda.com|dubznetwork.com|hypando.com.br|centralmediacsoport.hu|ricasdelicias.online|techspot.com|platinmods.com|tetr.io|fark.com|bielskirynek.pl|in.gr|whoscored.com|android.com.pl|neoseeker.com|thejc.com|mymovies.it|natemat.pl|mmacore.tv|efsyn.gr|basketball-reference.com|stathead.com|automap.it|letras.mus.br|blitz.gg|kurnik.pl|pulsgdanska.pl|gsmmaniak.pl|tabletmaniak.pl|fotomaniak.pl|mobimaniak.pl|acermaniak.pl|rtvmaniak.pl|agdmaniak.pl|luxmaniak.pl|blogomaniak.pl|activemaniak.pl|techmaniak.pl|digital-forum.it|onlineradiobox.com|burdaconnect.pl|vogue.gr|autoevolution.com|15min.lt|win7simu.visnalize.com|instrukcjaobslugipdf.pl|capital.ro|manchestereveningnews.co.uk|ototorun.pl|liverpoolecho.co.uk|ents24.com|mrwallpaper.com|sitepoint.com|djmag.com|autopunkt.pl|medal.tv|jastrzebieonline.pl|redflagdeals.com|infinityfree.com|timeanddate.de|wagnardsoft.com|opoka.org.pl|canonrumors.com|whatismyipaddress.com|krknews.pl|filarybiznesu.pl|authentisch-italienisch-kochen.de|sonixgvn.net|jobbmintatv.pro|themarysue.com|imginn.com|op.gg|wdi24.pl|pultusk24.pl|lalaziosiamonoi.it|ingles.com|frenchdictionary.com|comunio.de|realsporter.info|foreca.pl|kwejk.pl|besty.pl|wiocha.pl|swiatzwierzat.pl|digminecraft.com|rockradio.com|yottytech.com|sportal.gr|jbzd.com.pl|modrinth.com|base64encode.org|beautifyjson.org|convzone.com|minifyjson.org|uglifycss.com|uglifyjs.net|urlencoder.org|wprost.pl|prettifyjs.net|inverse.com|bustle.com|zonatmo.com|culturanimation.com|recetasmaria.com|techobras.com|babynombres.com|sombracycling.com|dorzeczy.pl|hardlevel.com.br|olgasmile.com|bbfan.pl|receitasdaora.online|heycar.com|moncloa.com|calibre-ebook.com|download.it|manua.ls|filmomaniak.pl|futurebeat.pl|tuwroclaw.com|wirtualnemedia.pl|psx-place.com|gamepressure.com|gameplay.pl|gry-online.pl|redcafe.net|cafesenior.pl|wpolsce24.tv|wgospodarce.pl|gpcodziennie.pl|panstwo.net|gazetapolska.pl|secretroma.com|thebest.gr|classicalradio.com|medievil.wiki|dotesports.com|upflix.pl|xgp.pl|starachowicki.eu|anime-sama.fr|sercanto.it
 ||cmp.klart.se/messagingNoTcfApi.js
 ||cmp.lavie.fr/js/mp.min.js
 ||cmp.lavie.fr^
@@ -57962,7 +57887,6 @@ _eu_cookie_
 ||famobi.com/assets/js/consent.js
 ||fastcmp.com/fast-cmp$script
 ||fastcmp.com^$third-party
-||fastweb.it/cookie-center/
 ||fastweb.it/cookie-center/$subdocument
 ||fastwebvodafone.it/cookie-center/
 ||fc.vodafone.de^
