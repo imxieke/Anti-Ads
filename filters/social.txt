@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-22 00:25:09 RPC
+! Updated: 2025-01-22 09:27:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3197,6 +3197,7 @@
 ##.c-sns
 ##.c-social-bar
 ##.c-social-box
+##.c-social-buttons--popover.c-social-buttons
 ##.c-social-container
 ##.c-social-likes
 ##.c-social-menu
@@ -18450,6 +18451,7 @@ liginc.co.jp###js-sticky-scroll
 liginc.co.jp##div[class^="single-"][class*="-share"]
 ligovka.ru##.social_blocks
 lihkg.com##.i-share-variant
+lime-shop.com##.ShareBlockWrapper
 limesonline.com##.lms-socialbar
 limo.media##.vertical-sns-button
 limon.kg#?##news_list div.row > div.col-12:has(> div.d-flex > div.social-icons)
@@ -19599,6 +19601,7 @@ motherless.com##li[data-toggle="media-share-container"]
 mothership.sg##[height="73"]
 mothership.sg##[href="https://bit.ly/3KjTj94"]
 mothership.sg##[href="https://bit.ly/3qgqzHg"]
+mothership.sg,overclock3d.net,techtimes.com##.socials
 mothership.sg,techtimes.com##.socials
 motifyublog.com##article .sns
 motilaloswal.com##h1.section-title-mytag + div.icons
@@ -20956,6 +20959,7 @@ outsidethebox.ms##.dwpb-action
 outsidethebox.ms##.fixtop
 ovb-online.de##.id-Actionbox-items > li:not([class*="report"]):not([class*="collapsed"])
 over-blog.com##.m-social-networks
+overclock3d.net##.socials-container
 overclockers.ru##.pip-soci
 overclockers.ru##.soci-link
 overclockers.ru#?#.five.column > div.grid > div.container-block:has(> div#vkRoot)
@@ -23732,6 +23736,8 @@ techgame.pl###share-media
 techgame.pl#@##share-container
 techgenyz.com##.s_so
 techhive.com###primarySocialSharing
+techissuestoday.com##.mar-b-6:has-text(Follow Us)
+techissuestoday.com##.new-x-twiiter
 techjourney.net,manjemedia.com##.cp-floating-social-bar
 techlila.com##.tl-social
 techlila.com##.tl-social-share

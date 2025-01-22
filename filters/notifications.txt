@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-22 00:25:09 RPC
+! Updated: 2025-01-22 09:27:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11101,6 +11101,7 @@ limakcement.com,limakcimento.com###divCerezUyarisi
 limango-travel.de#$#.modal-backdrop.show { display: none !important; }
 limango-travel.de#$#body { overflow: auto !important; padding-right: 0 !important; }
 limango-travel.de#$#modal-container[style="display: block;"] { display: none !important; }
+lime-shop.com##.l-accept-cookies
 limehd.tv#%#//scriptlet('set-cookie', 'cookieIsAgree', 'true')
 lindner-group.com,lindner-norit.com##.cn-layer
 lingea.sk,dict.com##.lck-wrapper
