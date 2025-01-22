@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-22 09:27:28 RPC
+! Updated: 2025-01-22 16:25:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8619,7 +8619,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16148,8 +16148,7 @@ oeeee.com###adImg
 oeeee.com##.homeAD
 oeeee.com##div.module-ad,div.ad-w240,div.ad-w720
 oeofo.com##.banner,.fixediv,.news-banner02
-oferty.praca.gov.pl#$#.cdk-overlay-container:has(img[alt^="Aplikacja ePraca"]) { display: none !important; }
-oferty.praca.gov.pl#$#html.cdk-global-scrollblock { position: static !important; }
+oferty.praca.gov.pl#%#//scriptlet('set-local-storage-item', 'mobileAppDialogVisited', 'true')
 offcn.com###offcn_yx
 offcn.com##.jlstc
 office.com##ohp-mobile-app-banner
@@ -16794,9 +16793,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -17707,6 +17706,7 @@ renwai.ren##div.context_t,div.ad,div.textwidget div[class^="forum-201"]:first-ch
 repaik.com##div.a_cn,DIV.a_mu,.a_pt,.a_pr
 replit.com#?##__next > div[class^="css-"]:has(> div[data-cy="close-banner-btn"])
 report.clinic##.banner_campaign_app
+report.iko-yo.net##.c-ad--container
 report.iko-yo.net#?#main > div.c-container--l:has(> div[id^="gpt_sp"])
 report.netcraft.com##.notification-sidebar
 repubblica.it##div[id^="advHook-"]
@@ -22815,6 +22815,7 @@ _zhike.htm
 ||00oo00.com^
 ||010teacher.com^$third-party
 ||01210sop.xyz^
+||01211sop.xyz^
 ||0123kjz.com^
 ||019103.com^
 ||01u.net/js/tj.js
@@ -30267,6 +30268,7 @@ _zhike.htm
 ||bjcathay.com^
 ||bjdata.ads.oppomobile.com^$important
 ||bjfesdk.douyucdn.cn^$important
+||bjfsk.xyz^
 ||bjgztt.com^
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjimtyv.top^
@@ -39811,6 +39813,7 @@ _zhike.htm
 ||jciwztfj.com^
 ||jclimia.top^
 ||jcodecraeer.com/plus/fuckblok.
+||jcokamia.top^
 ||jcount.com^$important
 ||jcppcmqa.icu^
 ||jcrb.com/ZYW$subdocument
@@ -40018,6 +40021,7 @@ _zhike.htm
 ||jlmhk.com/images/data/
 ||jlpcn.net/img/300p-
 ||jlrfx.com^$script
+||jltwxisa.icu^
 ||jlwz.cn/js/xf*.js
 ||jm.entertainmentcrave.com^$important
 ||jm.moatads.com^$important
@@ -40506,6 +40510,7 @@ _zhike.htm
 ||kbexos.xyz^
 ||kccdk.com/Content/img/*.gif
 ||kclimid.top^
+||kcokamid.top^
 ||kcxmsb.com^
 ||kcxsyz.com^
 ||kd06.com^
@@ -44990,6 +44995,7 @@ _zhike.htm
 ||pa.pinpoll.com^$important
 ||pa.videobeat.net^$important
 ||pa4ye.cyou^
+||pa6.fun^
 ||paas-push-ap.immomo.com^$important
 ||paas-push-api-log.immomo.com^$important
 ||paas-push-api.immomo.com^$important
@@ -46522,6 +46528,7 @@ _zhike.htm
 ||qhemphox.com^
 ||qheose.xyz^
 ||qhestrad.com^
+||qhihoins.com^
 ||qhimg.com/clk.gif?
 ||qhimg.com/js/iwt.js
 ||qhimg.com/ssl/20212c7594890e1c.js
@@ -48073,6 +48080,7 @@ _zhike.htm
 ||scientiamobile.com^$important
 ||scientificshirt.com^
 ||scientificsneeze.com^
+||scigzetg.com^
 ||scihuns.com^
 ||scint-x.com/js/
 ||scintillatingscissors.com^
@@ -52973,6 +52981,7 @@ _zhike.htm
 ||uuu9.tieba.com^$subdocument
 ||uuuutp.com^
 ||uuysiaq.com^
+||uv4.fun^
 ||uvcourse.net^
 ||uvekyvs.icu^
 ||uvklgw.xyz^
@@ -53525,6 +53534,7 @@ _zhike.htm
 ||vt.ipinyou.com^$important
 ||vt.myvisualiq.net^$important
 ||vtbfgnf00.fun^
+||vtdgfisz.icu^
 ||vteam.focus.de^$important
 ||vtjbnb.xyz^
 ||vtlyrj.xyz^

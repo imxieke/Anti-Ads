@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-22 09:27:28 RPC
+! Updated: 2025-01-22 16:25:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5614,6 +5614,7 @@ bundeswehrkarriere.de,beruferadar.de,karrierekaserne.de##.autoprivacy
 bundladen.de,bund.net###m-global-disclaimer
 bunny.net##.bn-cookies-wr
 bunnyhop.de,funktionelles.de,futspo.de###cookie-jar
+bunq.me#%#//scriptlet('set-local-storage-item', 'bunq:CookieConsentStore:isBannerVisible', 'false')
 bunte.de#%#//scriptlet('remove-class', 'sp-message-open', 'html.sp-message-open')
 burg-halle.de##.buha-cookie-banner
 burgan.com.tr###footer_cerez_politikasi
@@ -11941,6 +11942,7 @@ miravia.es#?#body > .container:has(> .cookies)
 miricanvas.com##div[class^="CookieBannerView_"]
 mirkrasok.ru##.module_messages_cookies
 miroc.co.jp#%#//scriptlet('trusted-set-cookie', 'ACCEPT', 'OK')
+mironet.cz###cookiesDialog
 mironet.pl,mironetcz.sk,mironet.cz#$#.cookiesDialog { display: none !important; }
 mironet.pl,mironetcz.sk,mironet.cz#$#.cookiesDialog ~ div.ui-widget-overlay { display: none !important; }
 mironet.pl,mironetcz.sk,mironet.cz#$#body { overflow: auto !important; }
