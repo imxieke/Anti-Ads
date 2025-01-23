@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-23 00:25:50 RPC
+! Updated: 2025-01-23 09:25:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19166,6 +19166,8 @@ sxqjdy.com##.gg2
 sxrb.com##.top_ad,.m_t_l_r_ad_740x100,.m_t_r_ad_240x180,[class^="hangyepindao_right_ad_"],#pic_wu
 sxrom.com##.tmk
 sxyprn.com##.fbd
+syakouba.com###bbs > p[style]:has(> a[target="_blank"]:only-child)
+syakouba.com###meerkat-wrap
 syakouba.com##div[style^="width:320px;height:100px"]
 sydneytoday.com##.mygad
 sydneytoday.com##.news-list > .row > .col-xs-12

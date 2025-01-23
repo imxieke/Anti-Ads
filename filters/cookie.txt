@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-01-23 00:25:50 RPC
+! Updated: 2025-01-23 09:25:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27195,6 +27195,7 @@ app.prende.tv##.cookie--banner
 app.programme.conventus.de##ion-app > #ion-overlay-1
 app.resmio.com##.dAPneM.sc-fFGjHI
 app.resmio.com##.kGlvNA.sc-gxYJeL
+app.respondent.io##.cookie-monster-component
 app.revolut.com##[class^="Overlay__OverlayBase-sc-"]
 app.scre.io#%#//scriptlet('set-local-storage-item', 'cookieConsent', '1')
 app.spendee.com#%#//scriptlet('set-cookie', 'cbpolicy', 'true')
@@ -39264,7 +39265,6 @@ infomir.eu,elektromall.de###cb
 infomir.eu,visitvictoria.com###cb
 infomoney.com.br##cookies-policy
 infoniac.ru##.cookie__message
-infopedia.pt###gpe-cookies-warn
 infopedia.pt###klaro-pe-overlay
 infopedia.pt###klaro-pe-window
 inforete.it##body > div:not([id]):not([class])
@@ -46775,6 +46775,7 @@ pecattus.com.br##.caixa-alert
 pechinchou.com.br##+js(set-local-storage-item, Pechinchou:CookiesModal, true)
 pechinchou.com.br##section[class^="ModalCookies_"]
 pedefacil.pagseguro.com.br##nav[data-testid="accept-cookies-banner"]
+pedialyte.com##.alertbanner
 peek-cloppenburg.de,peek-cloppenburg.pl,peek-cloppenburg.at,peek-cloppenburg.nl##.cw-modal-overlay
 peek-cloppenburg.de,peek-cloppenburg.pl,peek-cloppenburg.at,peek-cloppenburg.nl##body:style(overflow: auto !important; position: initial !important;)
 peer.tv##.rain1-cp-container
@@ -56319,6 +56320,7 @@ woocommerce.com##.wccom-comp-privacy-banner
 woodbrass.com###backgroundcookie
 woodbrass.com##.hidden-sm.hidden-md.row
 wook.pt,brother.com,brother.nl,infopedia.pt###cookieLawBar
+wook.pt,infopedia.pt###gpe-cookies-warn
 woolrich.eu##.firstvisit
 woolsocks.eu##+js(set-cookie, ws-cookie-Techniques, true)
 woolworth.de###CybotCookiebotDialog
@@ -57583,6 +57585,7 @@ _eu_cookie_
 ||consent.trustarc.com/get?name=$subdocument,domain=avantiwestcoast.co.uk|oracle.com
 ||consent.trustarc.com/notice$script,domain=~tripit.com|~concursolutions.com|~fortune.com|~formula1.com
 ||consent.trustarc.com/v2/notice$script
+||consent.trustarc.com^$domain=pedialyte.com|twilio.com
 ||consent.trustarc.com^$domain=twilio.com
 ||consent.trustarc.com^$third-party
 ||consent.truste.com/get?name=notice.js$script

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-23 00:25:50 RPC
+! Updated: 2025-01-23 09:25:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10637,6 +10637,7 @@
 /wp-content/plugins/wp-social-bookmarking-light/*
 /wp-content/plugins/wp-tweet-button/*
 /wp-content/plugins/wpupper-share-buttons/*$~stylesheet
+/wp-content/uploads/pum/*$domain=real-vin.com|thelinuxcode.com
 /wp-social-toolbar/js/scripts.js
 /wp-socializer/*
 /wpsms-public.css
@@ -15778,7 +15779,6 @@ gagadget.com#$#body.social-open { overflow: visible!important; }
 gagadget.com#?#p.h2:has(> small:contains(/Поделиться|Розповісти/))
 gaiax-socialmedialab.jp##.single-socialbt-wrap
 gaishishukatsu.com##.social-buttons-section
-gaitame.com,baycrews.jp,nhk.or.jp##.c-sns
 gala.de##.m-sharing
 gala.fr#@#.share-bottom
 gala.pl##body .socializer-fb-share
@@ -16023,6 +16023,7 @@ ggwp.id##.wrapper-share
 ghacks.net##.ghacks_share_widget
 ghacks.net##.mrf-shareOptionsWrapper
 ghacks.net#@#.synved-social-button
+ghgprotocol.org##.addtoany-block
 ghxi.com##.j-share
 giants.jp##div[class^="share_share-list_"]
 gidasanayim.com##.sosyalmediaicons
@@ -19425,6 +19426,7 @@ mitsui-shopping-park.com##.gt_sns
 mitsui-shopping-park.com##.MG_sns
 mittelbayerische.de##.sharing-box
 mittelbayerische.de,caseking.de##.share-whatsapp
+miw.jp,versa.iol.pt,pik.bg,willyoupressthebutton.com,selfie.iol.pt,tvi.iol.pt,cnnportugal.iol.pt,front-end-tools.com,jp.sharp,interior.ru,maclife.de,animeindo.cc,dandanzan.cc,hellomagazine.com,spaziogames.it,themeparktourist.com,ntv.ru,mail.ru,lady.mail.ru,caytvhaber.com,wirtualnemedia.pl,dtf.ru,vc.ru,hitc.com##.shares
 mix.tokyo#?#section.m-detailSection:has(> h4:contains(このアイテムをシェアする))
 mixcloud.com##.social.gplus
 mixcloud.com##.social.pinterest
@@ -23584,6 +23586,7 @@ symantec.com##.action-links
 symantec.com##[data-share-config="controller.shareConfig"]
 synapse-magazine.jp,straightpress.jp##div[class*="article__head__sns-btns"]
 syosetu.com###sns_button
+syosetu.com,gaitame.com,baycrews.jp,nhk.or.jp##.c-sns
 syracuse.com##.sharebar-beta
 syri.net##.whatsapp-link
 sys-team-admin.ru##img[src="/images/reposti.jpg"]
@@ -25159,7 +25162,6 @@ vermelho.org.br##.menu-social-networks
 vermelho.org.br##.page--share-wrapper
 vernaruto.tv##.anime-cover > .general-content:has(> .share)
 vernaruto.tv##.sidebar > .widget:has(> .share)
-versa.iol.pt,pik.bg,willyoupressthebutton.com,selfie.iol.pt,tvi.iol.pt,cnnportugal.iol.pt,front-end-tools.com,jp.sharp,interior.ru,maclife.de,animeindo.cc,dandanzan.cc,hellomagazine.com,spaziogames.it,themeparktourist.com,ntv.ru,mail.ru,lady.mail.ru,caytvhaber.com,wirtualnemedia.pl,dtf.ru,vc.ru,hitc.com##.shares
 versii.if.ua###lightb_fb_page_like_baner
 versii.if.ua##.overlay_fon
 versiya.info#?#div[class="sidebar"]:has(> div#fb-root)
@@ -26591,7 +26593,6 @@ _social_footer_
 ||public.imyfone.com/assets/js/media_share/
 ||rbk.ru/*/xtcore.js
 ||reactandshare.com^$third-party
-||real-vin.com/wp-content/uploads/pum/
 ||realtime-chart.mofi.xyz/image/twitter.png
 ||reddit.com/api/info.json?$third-party
 ||reddit.com/button.js?$third-party

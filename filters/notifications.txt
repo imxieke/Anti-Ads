@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-23 00:25:50 RPC
+! Updated: 2025-01-23 09:25:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9868,7 +9868,6 @@ infoldgames.com##div[class^="CookieTips_"]
 infomir.eu,elektromall.de###cb
 infomoney.com.br##cookies-policy
 infoniac.ru##.cookie__message
-infopedia.pt###gpe-cookies-warn
 informationweek.com##.announcement
 infostrow.pl,halowawa.pl#$##rodo-modal { display: none !important; }
 infostrow.pl,halowawa.pl#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
@@ -18007,6 +18006,7 @@ woocommerce.com###a8c-cookie-banner
 woocommerce.com##.wccom-comp-privacy-banner
 woodbrass.com###backgroundcookie
 wook.pt,brother.com,brother.nl,infopedia.pt###cookieLawBar
+wook.pt,infopedia.pt###gpe-cookies-warn
 woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 wooniezie.nl##.cookie-policy-bar-bottom
 wordfence.com##.wf-cookie-consent-container
