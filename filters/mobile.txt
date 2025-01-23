@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-23 16:25:18 RPC
+! Updated: 2025-01-24 00:26:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7565,6 +7565,7 @@ depor.com#$#.st-sidebar__container { margin-top: 0 !important; }
 der-postillon.com##.iqadtile-wrapper
 despegar.com.ar##.go-to-app-ab-ag
 despegar.com.mx###download-app-banner-large
+desport.ru##div[class^="PopupAppDesktop_"]
 detail.chiebukuro.yahoo.co.jp##aside[class*="ClapLv3SubList_Chie-SubList__ListItem--Ad__"]
 detail.chiebukuro.yahoo.co.jp##aside[class^="Detail_chie-Pages__AdNM_"]
 detail.chiebukuro.yahoo.co.jp##aside[style="height: 100px; padding: 2px 0;"]
@@ -7969,6 +7970,7 @@ drive2.ru##.c-block--mh
 drive2.ru##.c-dv-p
 drive2.ru##.c-dv-sns
 drive2.ru##.c-transformers-banner
+drive2.ru##div[data-track]:has(> div[id] > span:empty)
 drive2.ru#?#.l-container > div.c-block--mh:has(> div[id^="adfox_"])
 driveplaza.com#$##main-content { margin-top: -50px !important; }
 driveplaza.com#$#.js-adHead { display: none !important; }

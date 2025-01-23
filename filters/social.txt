@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-23 16:25:18 RPC
+! Updated: 2025-01-24 00:26:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13777,6 +13777,7 @@ ctnews.ru##.social__block-background
 ctrl.blog##.webshare
 ctrl.blog,ein-herz-fuer-kinder.de##.follow-container
 ctv.by##.banner-mir
+ctvnews.ca##.b-share-bar
 ctvnews.ca##.c-teaser
 ctwant.com##.m-sharebar
 cubiq.ru##.share-like > div.row > div:not(.likes)
@@ -14418,6 +14419,7 @@ drinksint.com##.articleTools
 drishtiias.com##.fixedButton_hand.mobile_view_only
 drishtiias.com##.float-sm
 drive.ru#@#.article-social-container
+drive2.ru##div[itemscope] > div[class]:has(> div.o-group > button[data-action="share.share"])
 drive2.ru#$#.c-share { position: absolute!important; left: -3000px!important; }
 driveplaza.com##.c-shareList
 driving.ca,businessinsider.com,sabah.com.tr##.googleplus
@@ -15225,6 +15227,8 @@ fieldandstream.com,popphoto.com,popsci.com##.Article-socialShare
 fifa.com##div[class*="article-section_shareButton_"]
 fifa.com##div[class^="share-button_componentContainer"]
 figma.com###progress-indicator-target + div:has(> div > button[class^="react-share__"])
+figma.com##div[class^="meta_container--rightSide--"] > hr:has(+ [class^="social_links--"])
+figma.com##div[class^="meta_container--rightSide--"] > [class^="social_links--"]
 fikircok.net###mobile-share-boxbottom
 fikriyat.com##.pageSocial > ul > li:not(.print)
 fikriyat.com##.shareFrame > .item:not(.send):not(.share):not(.embedLink)
@@ -23422,6 +23426,9 @@ stuff.co.nz##.free-body.text-block > p.content-item:has-text(Email)
 stuff.co.nz##.sics-component__sharebar
 stuff.co.nz##.stuff-article-sharebar
 stuff.co.nz##.tik4-sharing
+stuff.co.nz#?#.edproj-share-video-wrapper:contains(Share your video)
+stuff.co.nz#?#.edproj-speedhub-wrapper:contains(read now)
+stuff.co.nz#?#.free-body.text-block > p.content-item:contains(Email)
 stuffparentsneed.com##.swp_social_panelSide
 stumagz.com##a[onclick^="shareDialog("]
 stuttgarter-nachrichten.de,citywire.co.uk##.article-social-bottom
