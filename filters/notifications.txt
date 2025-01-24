@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-24 16:24:56 RPC
+! Updated: 2025-01-25 00:24:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4262,6 +4262,7 @@ androidpolice.com#$#body { overflow-y: auto !important; }
 androidpolice.com#$#html { overflow: visible !important; }
 androidpolice.com#$#main ~ .adsninja-ad-zone ~ .adsninja-ad-zone ~ div[class][style*="z-index"] { display: none !important; }
 androidsis.com##.machete_cookie_container
+androprice.com.ua##.f-cookies
 andsafe.de###andsafe-cookie-consent
 andsafe.de###andsafeCookieManager
 anextour.de##cookie-policy.show
@@ -4597,6 +4598,7 @@ atlasvpn.com##div[class^="cookie-consent_"]
 atlatszo.hu###the_popup
 atnews.gr#@##cookie-law-info-bar
 atombank.co.uk##div[class^="cookie-banner__"]
+atozmath.com#%#//scriptlet('set-cookie', 'cookiesconsent', 'ok')
 atptour.com##.atp_apps
 atptour.com##.atp_cookie-message
 atptour.com##[href^="https://www.atptour.com/en/apps"]
@@ -6251,6 +6253,7 @@ coinrequest.io#%#//scriptlet('set-local-storage-item', 'BIT_REQUEST_VUE.cookies_
 cointelegraph.com##.b-privacy-policy
 cointelegraph.com.br##.bottom-zone
 coinunited.io##.home-div-block-app-2
+colamyhome.eu,mobilesolutionmarket.jp,webhallen.com,cloudxpe.com,openeyesfund.com,the-first.co.jp,lordgun.com,inwild.com,runkd.com,creatures.co.jp,yokohamajapan.com,store.mdsol.co.jp,noor-book.com,impactoespananoticias.com,fxpro.*,welcome.city.yokohama.jp,cart.hostinger.com,hogskolanigavle.varbi.com,manual.canon,kia.ru,chiba-tv.com,hab.co.jp,php.co.jp,ftm.nl,radios.co.at,radiosdepuertorico.com,jamaicaradio.net,radios.com.sv,radios.hn,radios.com.pa,radiosaovivo.net,radios.com.bo,radioarg.com,radios.com.co,radios.com.ec,emisoras.com.py,radios.com.pe,surinaamseradio.com,radios.com.uy,radio.co.ve,radiolisten.de,raadiod.com,emisora.org.es,radiofona.com.gr,radios.hr,ieradio.org,latvijasradio.com,radios.lu,radijas.org,radiohallgatas.hu,nederlandseradio.nl,nettradionorge.com,onlineradio.pl,radioonline.com.pt,radiosonline.ch,radiostanice.rs,nettiradiot.org,radio.org.se,internetradiouk.com,bg-radio.org,radio.pp.ru,radio.co.cm,radio.cd,radio.co.ci,radio.com.gh,radio.mg,radio.co.ma,egyptradio.net,radio.org.ng,radio.sn,radiosa.org,radiotunisienne.org,radio.co.ug,radios.hk,onlineradios.in,radioonline.co.id,radioonline.my,radionp.com,radio.net.pk,radio.org.ph,radiosingapore.org,radio.com.lk,vietnamradio.org,radios.org.il,radioth.net,zhibo.fm,radioau.net,radio.org.nz,emisoras.com.gt,radio.org.ro,siradio.si,ceskaradiaonline.cz,ecouterradioenligne.com,radiosonline.be,radios.co.ni,radioalgerie.eu,radios.co.cr,radio.or.ke,radios.tw,radioonline.kr,radio-bd.com,radios.com.do,trinidadradiostations.net,emisora.cl,radio.ht,radio.co.dk,emisoras.com.mx,jpradio.jp,instant.audio,radiosdecuba.com,consenthub.utiq.com,sketchup.com,kisarepo.jp,bitstamp.net,hesburger.*,znews.vn,amomeupet.org,egrp365.ru,sqlservercentral.com,saneibd.com,edukasicampus.net,godiva.co.jp,0patch.com,pvpoke-re.com,radioua.net,greenday.com,linuc.org,clicsante.ca,israelnationalnews.com,serpstat.com,pandavpnpro.com,freeyourmusic.com,liica.co.jp,x5.ru,adshnk.com,parkernathan.com,route-inn.co.jp,pastelink.net,dictum.com,tamtam.chat,ynjn.jp,881903.com,irisohyama.co.jp,olyrix.com,rutube.ru,asm.org,socialcomics.com.br,margarethowell.jp,ascoltareradio.com,wego.jp,storececotec.it,geeksforgeeks.org,dauc.cz,heidisql.com,sueddeutsche.de,plex.tv,tmohentai.com,gorsovet.com.ua##.cookie-consent
 colehaan.co.jp,federalpremium.com##.veil
 coleman.cz##.CookiesPanel
 collaw.edu.au##.notification-alert[data-expire]
@@ -10233,7 +10236,6 @@ jever.de,radeberger.de,hasen-braeu.de##.age-cookie-req__privacy
 jfe-eng.co.jp###cookietarget
 jgl.eu###ng-cc
 jica.go.jp###cookie_bnr
-jice.or.jp,daisharin.co.jp,houseofrose.co.jp,exgen.co.jp,morimatsu-group.co.jp,asahi-kg.co.jp,asahi-agria.co.jp###name-ga-cookie-accept-bar
 jigsawplanet.com##.ts-msg.ts-type0
 jimdo.com##.pp-cookie-banner
 jimdo.com##.tp-cookie-law
@@ -10789,6 +10791,7 @@ kzvmv.de##.stoerer
 l-bank.de#$##bmLayerCookies { display: none !important; }
 l-bank.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 l1nieuws.nl#%#//scriptlet('trusted-click-element', '#consent-plugin button[aria-label^="Accepteer alles"]')
+l2blocker.com,jice.or.jp,daisharin.co.jp,houseofrose.co.jp,exgen.co.jp,morimatsu-group.co.jp,asahi-kg.co.jp,asahi-agria.co.jp###name-ga-cookie-accept-bar
 l2db.info##.access-cookies
 la-palma24.info##.dvcookies
 la3eb.com##div[class^="AllowCookiesDisclaimer"]
@@ -12019,7 +12022,6 @@ mobile.scribblelive.com###scrbbl-notification
 mobile.ulule.com#?#.b-header > div[class^="Container-sc-"]:has(> p[class^="CookieText"])
 mobilenet.cz##.sys-alert
 mobileshop.eu##.fixed-warning
-mobilesolutionmarket.jp,webhallen.com,cloudxpe.com,openeyesfund.com,the-first.co.jp,lordgun.com,inwild.com,runkd.com,creatures.co.jp,yokohamajapan.com,store.mdsol.co.jp,noor-book.com,impactoespananoticias.com,fxpro.*,welcome.city.yokohama.jp,cart.hostinger.com,hogskolanigavle.varbi.com,manual.canon,kia.ru,chiba-tv.com,hab.co.jp,php.co.jp,ftm.nl,radios.co.at,radiosdepuertorico.com,jamaicaradio.net,radios.com.sv,radios.hn,radios.com.pa,radiosaovivo.net,radios.com.bo,radioarg.com,radios.com.co,radios.com.ec,emisoras.com.py,radios.com.pe,surinaamseradio.com,radios.com.uy,radio.co.ve,radiolisten.de,raadiod.com,emisora.org.es,radiofona.com.gr,radios.hr,ieradio.org,latvijasradio.com,radios.lu,radijas.org,radiohallgatas.hu,nederlandseradio.nl,nettradionorge.com,onlineradio.pl,radioonline.com.pt,radiosonline.ch,radiostanice.rs,nettiradiot.org,radio.org.se,internetradiouk.com,bg-radio.org,radio.pp.ru,radio.co.cm,radio.cd,radio.co.ci,radio.com.gh,radio.mg,radio.co.ma,egyptradio.net,radio.org.ng,radio.sn,radiosa.org,radiotunisienne.org,radio.co.ug,radios.hk,onlineradios.in,radioonline.co.id,radioonline.my,radionp.com,radio.net.pk,radio.org.ph,radiosingapore.org,radio.com.lk,vietnamradio.org,radios.org.il,radioth.net,zhibo.fm,radioau.net,radio.org.nz,emisoras.com.gt,radio.org.ro,siradio.si,ceskaradiaonline.cz,ecouterradioenligne.com,radiosonline.be,radios.co.ni,radioalgerie.eu,radios.co.cr,radio.or.ke,radios.tw,radioonline.kr,radio-bd.com,radios.com.do,trinidadradiostations.net,emisora.cl,radio.ht,radio.co.dk,emisoras.com.mx,jpradio.jp,instant.audio,radiosdecuba.com,consenthub.utiq.com,sketchup.com,kisarepo.jp,bitstamp.net,hesburger.*,znews.vn,amomeupet.org,egrp365.ru,sqlservercentral.com,saneibd.com,edukasicampus.net,godiva.co.jp,0patch.com,pvpoke-re.com,radioua.net,greenday.com,linuc.org,clicsante.ca,israelnationalnews.com,serpstat.com,pandavpnpro.com,freeyourmusic.com,liica.co.jp,x5.ru,adshnk.com,parkernathan.com,route-inn.co.jp,pastelink.net,dictum.com,tamtam.chat,ynjn.jp,881903.com,irisohyama.co.jp,olyrix.com,rutube.ru,asm.org,socialcomics.com.br,margarethowell.jp,ascoltareradio.com,wego.jp,storececotec.it,geeksforgeeks.org,dauc.cz,heidisql.com,sueddeutsche.de,plex.tv,tmohentai.com,gorsovet.com.ua##.cookie-consent
 mobilevikings.be#$#.cookieWall { display: none !important; }
 mobilevikings.be#$#.no-scroll { overflow: visible !important; }
 mobility.ch##.c-modal--cookie
@@ -12878,6 +12880,8 @@ nytimes.com#$##fides-overlay { display: none !important; }
 nytimes.com#$##site-content { position: static !important; }
 nytimes.com#$##standalone-footer { display: none !important; }
 nytimes.com#%#//scriptlet('remove-attr', 'inert', '#app')
+nytimes.com#%#//scriptlet('remove-class', 'fides-no-scroll', 'body')
+nytimes.com#%#//scriptlet('trusted-click-element', '#complianceOverlay button[data-tpl-type="Button"]', '', '2500')
 nytimes.com#%#//scriptlet('trusted-click-element', '#fides-banner-container .fides-accept-all-button')
 nytimes.com#?##app > div > div[data-testid="onsite-messaging-unit-gateway"] > #gateway-content:has(> div[class] > div[data-testid="onsite-messaging-unit-complianceGDPR"])
 nytimes.com#?#footer + div > span[data-gtm-trigger="cookie_banner_dismiss"]:upward(1)
@@ -15029,6 +15033,7 @@ sensormatic.com##.universalcookiedisclaimer
 sensorsdata.cn##div[class^="index-module--CookieAuth"]
 sensu.sk,sensu.cz,sensu.pl,ogrodosfera.pl##.cookie-modal-backdrop
 sentinelone.com###cookie-message-panel
+sentione.com##.cookie-policy-bar
 sentry.io#?##gatsby-focus-wrapper > div[class] > div[class]:has(> div > div > p > a[href="https://sentry.io/privacy/"])
 seobility.net##div[id^="cookieoptin"]
 sepe.gob.es##.js-cookies-banner
@@ -18514,7 +18519,7 @@ _eu_cookie_
 ||browserpusher.com^$third-party
 ||btm.bosch.com/rb/cookie/
 ||bundles.efilli.com^$third-party
-||c.evidon.com/sitenotice/evidon-banner.js
+||c.evidon.com/sitenotice/
 ||cappushino.com^$third-party
 ||caratheum.de/js/trendmarke/klaro-no-css.js
 ||carta.ua/assets/js/policy_bottom_banner

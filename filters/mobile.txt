@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-24 16:24:56 RPC
+! Updated: 2025-01-25 00:24:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12710,6 +12710,7 @@ kocpc.com.tw##ads
 kocpc.com.tw##[ad="show"]
 kocpc.com.tw#$##header > nav.floated-navbar { top: 0!important; }
 koding.work#?#.sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
+kodomo-to.net##.res-adsense
 koe-koe.com###chumoku_ad
 koe-koe.com###third_ad
 koe-koe.com##.ad_list
@@ -14723,6 +14724,7 @@ meishij.net##div#bottomdl
 meitu.com###meipaiFixed
 meituan.com##.component-downtip
 meituan.com##div.bottomtip
+meiwasuisan.com##body > .toTheEdge[style]:has(> a[target="_blank"]:only-child)
 meiyouad.com##[href^="http://www.szfeichangyou.com/"],.ads
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
@@ -15437,6 +15439,7 @@ myhomebook.de##.article__content > p > iframe[src^="https://embed.contentvertica
 myk3.com##a[href*="?aid="]
 mylomza.pl##.kampeki
 mymo-ibank.com##.l-footer-aplcation
+mynavi.jp###sp-ad-above-pagenation
 mynet.com##.ad-flying-carpet
 mynet.com##.body-banner-block:not(#style_important)
 mynet.com##.cart-list div.app-news-item
@@ -18548,6 +18551,7 @@ sn-jp.com##main > div[style*="height"]:has(> .parent:only-child > div[class^="ch
 snapchat.com##div[class^="CTAModal_"]
 snapchat.com##div[class^="Footer_baseMobile__"]
 snapdish.jp###popup-download
+snapinst.app##.download-footer > .btn-app
 snapinsta.app##.btn-app
 snapsave.app###snapapp-top
 snaptik.app,cu.tbs.co.jp##.app-wrapper
@@ -19179,6 +19183,9 @@ sxyprn.com##.fbd
 syakouba.com###bbs > p[style]:has(> a[target="_blank"]:only-child)
 syakouba.com###meerkat-wrap
 syakouba.com##div[style^="width:320px;height:100px"]
+syakouba.com##p:has(> a[href^="https://click.dtiserv2.com/"])
+syakouba.com##p:has(> a[href^="https://www.e-nls.com/"])
+syakouba.com##p[style="height:60px"]
 sydneytoday.com##.mygad
 sydneytoday.com##.news-list > .row > .col-xs-12
 sydneytoday.com##div[style$="-144px;top: 115px;"]
@@ -21208,7 +21215,6 @@ woman.at##.ad_con
 woman.excite.co.jp###footer_banner
 woman.excite.co.jp###parts-article-lovebanner
 woman.excite.co.jp#?##articlerank > .mdfdotline:has(> .ad-aside_ranking_list_infeed)
-woman.mynavi.jp###sp-ad-above-pagenation
 woman.mynavi.jp##div[style="margin:20px auto 0;text-align: center; min-height: 345px;"]
 woman.mynavi.jp##div[style="margin:20px auto 0;text-align: center;"]
 woman.ru###div-mob-video
