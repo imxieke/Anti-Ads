@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-01-24 00:26:08 RPC
+! Updated: 2025-01-24 09:26:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -29804,8 +29804,7 @@ britishairways.com#$##ensNotifyBanner[aria-label="Consent Banner"] { display: no
 britishairways.com#$##overlay { display: none !important; }
 britishairways.com#$#body[style^="overflow:"] { overflow: auto !important; }
 britishairways.com#@##cookieModal
-britishcornershop.co.uk,pickyou.ru,myrewardspoints.com###overlay
-britishcornershop.co.uk,pickyou.ru,myrewardspoints.com##body,html:style(overflow: auto !important; position: initial !important;)
+britishcornershop.co.uk##+js(set-cookie, cookieConsentSet, true)
 britishcouncil.org.tr,britishcouncil.org###bc-cookie-banner
 britmodeller.com##.ipsMessage_error
 britrail.net###overlay
@@ -42573,6 +42572,7 @@ makelaarsland.nl#@#.m-cookie-notice
 makemytrip.com##.cookiesModalOuterWrapper
 makeprintable.com##.banner-hints
 makeresearchpay.com##+js(set-cookie, user_cookie_consent, false, , reload, 1)
+makeronline.com##+js(set-cookie, acceptCookie, true)
 makerz.me##+js(set-local-storage-item, makerz_allow_consentmgr, 0)
 makeship.com##.consent-wrapper
 makeup.ru#@#.popup-cookies
@@ -44467,6 +44467,7 @@ myprivacy.dpgmediagroup.net#@#+js(set-cookie, dummy, 1, , reload, 1)
 myproducts.bandce.co.uk##.banner, #banner
 myresume.ru##.rulesInfo
 myrewardscoupons.dei.gr##div[class^="cookies_"]
+myrewardspoints.com##+js(set-cookie, MRP_cookiebanner, 1)
 myriadicity.net,dgsf.org##+js(set-cookie, confirm_cookies, 1)
 myride.lethbridge.ca##.site-message-banner-warning
 myschlossberg.com##.cc-overlay
@@ -47032,6 +47033,7 @@ picfont.com###content_cookie_1
 pickmypostcode.com##.cookie-wrapper
 pickup.de##.cookie-box
 pickup.de##.hfTMvA
+pickyou.ru##+js(set-cookie, is_gdpr, 1)
 pickyourtrail.com###verify-block-header
 picload.org###cookies
 picmonkey.com#%#//scriptlet('set-cookie', 'pm_cookie_consent', '1')
@@ -57032,6 +57034,7 @@ zuckerjagdwurst.com##.index-module--wrapper--5PhqF
 zuckerjagdwurst.com#$##gatsby-focus-wrapper > div[class^="index-module--backdrop"] { display: none!important; }
 zuckerjagdwurst.com#$?##gatsby-focus-wrapper > div[class^="index-module--wrapper"]:has(div:contains(/^Wir verwenden Cookies!$/)) { display: none!important; }
 zuendstoff-clothing.de##.ConsentOverlay, .ModalBackground
+zuerilaufcup.ch##+js(set-cookie, disclaimeragreed, true)
 zumba.com##.privacy-policy
 zumub.com###bottom_cookie
 zurich.co.uk###opnotification
