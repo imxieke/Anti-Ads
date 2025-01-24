@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-24 09:26:01 RPC
+! Updated: 2025-01-24 16:24:56 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2219,7 +2219,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -4708,6 +4708,7 @@ appbank.net##.uz-ny
 appbank.net##div[id^="logly-"]
 appbank.net#?#.entry-content > div.sp.fixed-height:has( > div[id^="div-gpt-ad"])
 appbank.net#?#.entry-content > div.sp.fixed-height:has(> div#elseScript)
+appbrain.com###pwa-install
 appchina.com###yyh-bottom
 appcrawlr.com###top-row.mobile-top-slot
 appinn.com###ranshownow
@@ -16801,7 +16802,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -22825,7 +22826,9 @@ _zhike.htm
 ||01210sop.xyz^
 ||01211sop.xyz^
 ||01221sop.xyz^
+||01231sop.xyz^
 ||0123kjz.com^
+||01240sop.xyz^
 ||019103.com^
 ||01u.net/js/tj.js
 ||01ws5t.cn^
@@ -24170,6 +24173,7 @@ _zhike.htm
 ||6k.com/g1000/$script
 ||6ku.icu^
 ||6ldu6qa.com^
+||6lx.fun^
 ||6oja.cc^$domain=9xav.cc
 ||6pan.cc/ps/vip.jpg
 ||6park.com/img/*0.gif
@@ -30593,6 +30597,7 @@ _zhike.htm
 ||brealtime.com^$important
 ||breezygrove.com^
 ||brephras.com^
+||brerkols.com^
 ||bretterichardson.com^$important
 ||brianwould.com^
 ||brickandmobile.com^$important
@@ -35809,6 +35814,7 @@ _zhike.htm
 ||faloo.com/ou/site/
 ||falsefeet.com^
 ||falseframe.com^
+||fam-8.net^$third-party
 ||familiarrod.com^
 ||familydoctor.com.cn/c/a/000/ggw_
 ||famobi-01.firebaseio.com^$important
@@ -40779,6 +40785,7 @@ _zhike.htm
 ||krpano.org^
 ||krt.asycxtz.cn^
 ||krtlisd.top^
+||kruraits.com^
 ||krutilka.net^
 ||krutilka.net^$important
 ||krutvncd.top^
@@ -41698,6 +41705,7 @@ _zhike.htm
 ||lpqhkj.cn^
 ||lpsxssm.com^
 ||lqlwjr.icu^
+||lqxzx.com^
 ||lrc.nct.nixcdn.com^$important
 ||lrevfhmp.cn^
 ||lrpush.apxlv.com^$important
@@ -46942,6 +46950,7 @@ _zhike.htm
 ||r.trwl1.com/s1/$subdocument
 ||r.turn.com^$important
 ||r.w.inmobi.com^$important
+||r0j.fun^
 ||r1-t.trackedlink.net^$important
 ||r1.ykimg.com^$app=com.huawei.hwvplayer.youku
 ||r2d2.aotter.net^

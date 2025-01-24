@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-24 09:26:01 RPC
+! Updated: 2025-01-24 16:24:56 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5931,7 +5931,6 @@ cenyvaptekah.ru##.alert-first-usage
 cenyvaptekah.ru,lareviewofbooks.org##.Toastify
 cerascreen.de,vamon.de,lockcard.de##.cc-window-wrapper
 cervelo.com#?##__next > div[class^="sc-"]:has(button + button)
-cetas.com.tr,warmhaus.com.tr##.cookie-description
 cfna.com###cookie-message-box-wrapper
 cgi.com#%#//scriptlet('set-cookie', 'cookie-agreed', '2')
 cgi.com#@#.eu-cookie-compliance-banner:not(body):not(html)
@@ -10752,6 +10751,7 @@ kupbilecik.pl#@#.cookie-container
 kuper.ru##div[class^="CookiesConcent_root"]
 kuplio.ro#?#.cookies-law
 kupujemprodajem.com###cookieConsentHolder
+kuraraynoritake.jp,cetas.com.tr,warmhaus.com.tr##.cookie-description
 kurashiru.com###header_app
 kurgo.com##div[class^="PrivacyNotice__PrivacyWrapper-"]
 kurier.at,futurezone.at##.siteCookie

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-24 09:26:01 RPC
+! Updated: 2025-01-24 16:24:56 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12318,8 +12318,8 @@ bestcarweb.jp,biglobe.ne.jp,fhm.com.ph,hankooktire.com,jiji.com,joins.com,op.gg,
 bestfonts.pro#@#.share-wrap
 bestfree.ru##div[id^="share"]
 bestlifeonline.com##.sticky > .social
-bestnewshere.com##.social-sharing-bot
-bestnewshere.com##.social-sharing-top
+bestnewshere.com,mediaweek.com.au##.social-sharing-bot
+bestnewshere.com,mediaweek.com.au##.social-sharing-top
 bestnewshere.com,politicalwire.com##.scriptlesssocialsharing
 bestofthelist.com###cboxOverlay
 bestporn4free.com,camcam.cc###show-sharing-buttons
@@ -21940,6 +21940,7 @@ rbc.ru##.js-social-likes
 rbc.ru##.quiz__result__social
 rbc.ru,rbclife.ru#?#article > div.gutter-b:has(> div.social-sharing)
 rbc.ua##div[class^="social-likes-"]
+rbs.ta36.com##.widget_sns_follow_buttons
 rbth.com##.follows-channel
 rbth.com##.Popup-telegram
 rcnradio.com##.field--name-ds-social-share-button
@@ -25635,6 +25636,7 @@ westkentuckystar.com#@#.share-btn
 westkentuckystar.com#@#.shareBtn
 westkentuckystar.com#@#a[href*="//www.facebook.com/share.php"]
 westkentuckystar.com#@#a[href^="https://twitter.com/share"]
+westword.com##.ContentShareTools
 westword.com##.fdn-site-header-social-icons-block
 wetanz.com,allnations.com.br##.product-social-buttons
 wethegeek.com,criptonoticias.com##.amp-wp-share
