@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-25 09:22:21 RPC
+! Updated: 2025-01-25 16:23:04 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1221,7 +1221,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -1774,6 +1774,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 423down.com#?#.excerpt > li:has(.info .cat a[rel$="tag"]):contains(产品推荐)
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
 423down.com#?#li:-abp-has(> .pic[href^="http"]:not([href*="423down."]))
+4275.com##div[style="width:580px;margin:0 auto;"]
 42xz.com##.xzbox-lf > ul:not(:last-child)
 42xz.com##[onclick*="godownload"]
 42xz.com,aiweibk.com,kuhou.com,pcsoft.com.cn##.gsxz
@@ -2219,7 +2220,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -4978,9 +4979,10 @@ axios-js.com##.vultr-desc
 axjbt.com,avcao.cc#%#//scriptlet('abort-on-property-read', 'myclick')
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
-axutongxue.net###uuuui
 axutongxue.net##body > article[style]
+axutongxue.net##body > div[id]:has(> ul[class] > li > img.icon + a[href])
 axutongxue.net#%#//scriptlet('prevent-setTimeout', 'checkCookie')
+axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"]
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ br
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ div[style="text-align: center;"]
@@ -14017,6 +14019,9 @@ m.sgkrehberi.com###page > .content + div[style="clear:both; height:80px; line-he
 m.shein.com###branch-app
 m.shein.com#$#.journey-contain { display: none !important; }
 m.shein.com#$#body { margin-top: 0px !important; }
+m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'return a.split')
+m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'Math.random', 'parentNode.insertBefore')
+m.shuhaige.net#%#//scriptlet('abort-current-inline-script', 'navigator', 'location.href')
 m.shuquge.com##A.link
 m.sibenik.in###mobile_anchor
 m.sibenik.in##.desktop-floater-wrapper
@@ -16805,9 +16810,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -23286,6 +23291,7 @@ _zhike.htm
 ||1gmzo.icu^
 ||1gtp.icu^
 ||1iohncj.xyz^
+||1iuh5l.com^
 ||1jok.icu^
 ||1ketang.com/Runtime/js/play
 ||1kkk.com/wxh_asy.js?cid=
@@ -23735,6 +23741,7 @@ _zhike.htm
 ||425555a.com^
 ||425e2-836b6.api.pushwoosh.com^$important
 ||426g.com^
+||4275.com/css/91kf.gif
 ||429999d.com^
 ||42ye.com^
 ||4336wang.cn^
@@ -24304,6 +24311,7 @@ _zhike.htm
 ||7k7kimg.cn/cms/cms10/20180706/135219_4911.jpg
 ||7kankan.com/scripts/new/indext
 ||7m.cn/b1/$script
+||7mk.fun^
 ||7mmtv.tv/js/ad_js/
 ||7mmtv.tv/u_banner/
 ||7moor.com^$third-party
@@ -24896,6 +24904,7 @@ _zhike.htm
 ||aaaimg.com/images*.gif
 ||aaalian.com^
 ||aaddzz.com^$important
+||aafns.xyz^
 ||aafuck.xyz^$third-party
 ||aag.yahooapis.jp^
 ||aaid.umeng.com^
@@ -30434,6 +30443,7 @@ _zhike.htm
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
+||bnfectkp.icu^
 ||bngpt.com^$important
 ||bnhorn.xyz^
 ||bnifdlav.top^
@@ -34905,6 +34915,7 @@ _zhike.htm
 ||e0575.com/index.php
 ||e10000.cn/Images/link_td01.gif
 ||e1bl1t39c4.com^$important
+||e1s.fun^
 ||e1zin.icu^
 ||e2.spoutable.com^$important
 ||e23.cn/js/aaa.js
@@ -44304,6 +44315,7 @@ _zhike.htm
 ||nv.vi-serve.com^$important
 ||nvdtdsd.xyz^
 ||nvjqtz.xyz^
+||nvpokyko.icu^
 ||nvsheng.com/js/gg.js
 ||nvvqrv.xyz^
 ||nvwlm.com^$third-party
@@ -44993,6 +45005,7 @@ _zhike.htm
 ||p2p.v.yyclouds.com/crossdomain.xml
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
+||p2v.fun^
 ||p3.adhitzads.com^$important
 ||p31770.clksite.com^$important
 ||p347304.clksite.com^$important
@@ -45379,6 +45392,7 @@ _zhike.htm
 ||petiteumbrella.com^
 ||petitionermaster.appspot.com^$important
 ||petronen.com^$important
+||pevpbx.icu^
 ||pexels.com^*/sponsored-media/
 ||pexels.com^*/sponsored_
 ||pfbmht.icu^
@@ -46470,6 +46484,7 @@ _zhike.htm
 ||qa1.tinypass.com^$important
 ||qaamgo-d.openx.net^$important
 ||qacdf511.cn^
+||qaemphaels.com^
 ||qange.com^
 ||qapm.baidu.com^
 ||qappcenterv6.3g.qq.com^
@@ -53279,6 +53294,7 @@ _zhike.htm
 ||vh.adscale.de^$important
 ||vh8.icu^
 ||vhb-01.wt-eu02.net^$important
+||vhrhnh.icu^
 ||vhsrwd.aip24.pl^$important
 ||vhunantv.admaster.com.cn^$important
 ||vhvwlb.xyz^
@@ -55050,6 +55066,7 @@ _zhike.htm
 ||xukanvyl.com^
 ||xuldtcip.icu^
 ||xulizui6.com^
+||xulkervf.com^
 ||xun.mobi^
 ||xunchn.com^
 ||xunfan.net^
@@ -55231,6 +55248,7 @@ _zhike.htm
 ||ydttxdqe.xyz^
 ||ydwlkj.com^
 ||ydworld.com^$important
+||ydxdg.xyz^
 ||ydybwjpa.xyz^
 ||ydyxtg.tttxf.com^$app=com.biquge.ebook.app
 ||ye120.com/swt.js
