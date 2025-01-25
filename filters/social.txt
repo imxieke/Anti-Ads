@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-25 00:24:26 RPC
+! Updated: 2025-01-25 09:22:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13409,7 +13409,6 @@ cnbctv18.com###showMore
 cnbctv18.com##.google-btn-div
 cnbdaily.com##.gb-container-63330cf4
 cnbdaily.com##.wpjankari-social-wrapper
-cnbeta.com.tw##.share-unit
 cnbnews.com##.viewsubject > ul
 cnet.com##.sharebarContainer > .share-button:not(.emailWrapper):not(.comment-count-redesign)
 cnet.com##[data-meta="footer-section-social"]
@@ -23396,6 +23395,7 @@ streamdb0web.securenetsystems.net##.songShareLink[onclick^="shareApp"]
 streamingrant.com##.plugin-ss-sticky
 streamkiste.tv##.sb
 streamkiste.tv##body > .sb
+streamlabs.com,cnbeta.com.tw##.share-unit
 streamlit.io#?#article > section:has(> h2:contains(/^Share this post$/))
 streetfighter.com##article[class^="bnr_area_bnr_area__"] > section[class^="bnr_area_share__"]
 streetfighter.com##div[class^="column_list_area__sns_"]

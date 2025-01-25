@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-25 00:24:26 RPC
+! Updated: 2025-01-25 09:22:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15151,6 +15151,7 @@ shop.gfk-geomarketing.de,map-sales.de,interkart.de##.modals-overlay
 shop.koestritzer.de##.fb-cookienote
 shop.leet.hu#@#.cookie-alert
 shop.lenovo.ru##.useCookiesInfo
+shop.mango.com##aside[class^="CookiesWrapper_"]
 shop.mango.com##div[class^="CookiesLayout_"]
 shop.nationalgeographic.com###privacy-policy-popup
 shop.okraina.ru##.b1t-o-ch-cookie-info
