@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-01-25 16:23:04 RPC
+! Updated: 2025-01-26 00:23:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3612,7 +3612,6 @@
 ###cookiescript_injected
 ###cookiescript_injectedone
 ###cookiescript_injected_background
-###cookiescript_injected_wrapper
 ###cookiescript_main
 ###cookiescript_wrapper
 ###CookiesCtrl
@@ -20360,12 +20359,8 @@
 ##.un_cookie_policy:not(body):not(html)
 ##.UN_FRAME_gdpr
 ##.uo-first-cookie
-##.up-form-cookie
-##.up2-cookie-div
 ##.UPM__PrivacyRibbon:not(body):not(html)
-##.upsd__lgpd__render
 ##.upsell-gdpr-banner-container
-##.uqv2-consent-popup
 ##.us-eu-cookie-notification-banner
 ##.use-cookie
 ##.use-cookie-block
@@ -20384,8 +20379,6 @@
 ##.useofcookies-tip
 ##.user-alert--cookies
 ##.user-alerts__cookies
-##.user-consent.ui-dialog
-##.user-cookie-consent-section
 ##.user-cookie-notice
 ##.usercentrics-bg
 ##.usercentrics-bg + .cmp-container
@@ -20400,16 +20393,11 @@
 ##.use_cookie
 ##.use_cookies
 ##.use_cookies:not(body):not(html)
-##.using-cookie
-##.using-cookie-block
 ##.uso-cookie
 ##.uso-cookie:not(body):not(html)
-##.utwente-cookiebar
 ##.ut_cookie_privacy_c1
-##.uu5-bricks-cookie-bar-bottom
 ##.uucookies-container
 ##.uucookies-container:not(body):not(html)
-##.uwp-cookie-banner
 ##.ux-accept-cookies
 ##.ux-accept-cookies:not(body):not(html)
 ##.ux-cookie-layer
@@ -20426,14 +20414,12 @@
 ##.v2-cookie-disclaimer
 ##.v2_cookies_container
 ##.validrgpd
-##.valu-cookie-notice
 ##.valu-cookie-notice:not(body):not(html)
 ##.vbcn-backdrop
 ##.vc-cookie-consent
 ##.vc-cookieconsent
 ##.vc-cookieconsent:not(body):not(html)
 ##.ventana-cookies
-##.veriAltBar
 ##.vf-alert-cookies
 ##.vf-banner
 ##.vf-CookieBar
@@ -20487,7 +20473,6 @@
 ##.vw-header--accept-cookies
 ##.vw5-statisticsOptBox
 ##.vw6-boxStatisticsOptBox
-##.vwd4_cookie_policy
 ##.vwd4_cookie_policy:not(body):not(html)
 ##.vw_js_cookie_eu_policy
 ##.vw_system_notification_opt_in
@@ -20506,8 +20491,6 @@
 ##.w-notifications__noty_cookie
 ##.W034_Cookie_Directive
 ##.w18lara_tgplugin_consent_bodyback
-##.w2t-banner
-##.w3_cnil
 ##.w3_cnil:not(body):not(html)
 ##.waconcookiemanagement
 ##.waconcookiemanagement-cookiebar
@@ -20531,7 +20514,6 @@
 ##.warning-policy
 ##.warning-policy:not(body):not(html)
 ##.warning-top--cookies
-##.warning.cookie
 ##.warningCookie
 ##.warningCookieRgpd
 ##.warningCookieRgpd:not(body):not(html)
@@ -20544,13 +20526,8 @@
 ##.warp_cookie_warning_barrier
 ##.wasa_cookies
 ##.wasa_cookies:not(body):not(html)
-##.wbUKCookies
 ##.wbu_cookie-wrapper
 ##.wb_cookie_policy
-##.wc-defaults-gdpr
-##.wc-gdpr-template
-##.wc-gdpr-template-large
-##.wcc-cookie-policy
 ##.wcc-cookie-policy:not(body):not(html)
 ##.wcms-cookie-alert:not(body):not(html)
 ##.wcookies
@@ -21393,7 +21370,6 @@
 ##div.cookie_header
 ##div.cookie_msg
 ##div.cookie_popup
-##div.cookie_text
 ##div.cookie_visible
 ##div.cookie__alert
 ##div.cookie__backdrop
@@ -24813,9 +24789,10 @@
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
+@@||cookie-script.com^$domain=lr-shop-direkt.de
 @@||cookiebot.com/uc.js$domain=adac-shop.de
 @@||cookiebot.com/uc.js$domain=bakingmad.com|cordaid.org|developer.opencv.fr|flughafen-zuerich.ch|gls-info.nl|lidl.gr|otto.fi|stock3.com|zuiderzeemuseum.nl
-@@||cookiebot.com^$domain=apetro.pt|apoteket.se|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|neue.at|nngroup.com|nordiskfilm.com|plaion.com|portofoonwinkel.nl|quandoo.it|refinery29.com|rhein-ruhr.stadtmobil.de|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|tfl.gov.uk|toyota-forklifts.se|vikingline.com|vn.at|warscrap.io|wells.pt|werder.de|werkenbijlidl.nl|wero-wallet.eu|wwf.fi|xn--myeblttle-z2a.de|zugspitze.de
+@@||cookiebot.com^$domain=apetro.pt|apoteket.se|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|neue.at|nngroup.com|nordiskfilm.com|plaion.com|portofoonwinkel.nl|quandoo.it|refinery29.com|rhein-ruhr.stadtmobil.de|robertsspaceindustries.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|tfl.gov.uk|toyota-forklifts.se|vikingline.com|vn.at|warscrap.io|wells.pt|werder.de|werkenbijlidl.nl|wero-wallet.eu|wwf.fi|xn--myeblttle-z2a.de|zugspitze.de
 @@||cookiebot.com^$domain=cinemas.nos.pt
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=danbolig.dk
@@ -25724,7 +25701,7 @@ abc.es,as.com,auto.it,corrieredellosport.it,elcomercio.es,elconfidencial.com,eli
 abc.es,as.com,auto.it,corrieredellosport.it,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@#.didomi-notice-banner
 abc.net.au##div[data-component="CookieBanner"]
 abc.net.au##[data-component="CookieBanner"]
-abc.net.au,amie.so,app.daily.dev,axial.acs.org,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,consoles.radioplayer.cloud,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,itzipitzipizza.dk,kilobaser.com,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,my.plaid.com,oddschecker.com,onceupon.photo,qured.us,skyvegas.com,socratesdergi.com,start.ru,strava.com,sweatco.in,thebarbary.co.uk,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
+abc.net.au,amie.so,app.daily.dev,axial.acs.org,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,consoles.radioplayer.cloud,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,itzipitzipizza.dk,jetty.com,kilobaser.com,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,my.plaid.com,oddschecker.com,onceupon.photo,qured.us,skyvegas.com,socratesdergi.com,start.ru,strava.com,sweatco.in,thebarbary.co.uk,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
 abc11.com##.Tooltip--fixed-bottom
 abchomeopathy.com###cookieQ
 abcmouse.com,shopalike.nl,vimeo.com##.gdpr_banner
@@ -25800,6 +25777,7 @@ abraxas.ch##.c-disclaimer--default
 abrdn.com##.cookie-policy-modal
 abril.com.br##.LGPD-notice
 abruzzo24ore.tv,capoluogo.com,economia24ore.it,energiarinnovabile.org,gossip24ore.it,il24ore.it,ilmeteo24ore.it,matrimony.it,occhioallook.it,recensioni.tv,tuttosport24ore.it##._CL_main
+abs-cbn.com##+js(set-local-storage-item, uninavIsAgreeCookie, true)
 abs-cbn.com#%#//scriptlet('set-local-storage-item', 'uninavIsAgreeCookie', 'true')
 abs-cbn.com,tfc.tv##.uninav-cookie-law-container
 abschied-nehmen.info##.tscUiNotificationWrapper
@@ -26569,6 +26547,7 @@ alle.com##.bnjRmV
 allecco.pl#@#.cookies-info:not(html):not(body)
 allecco.pl#@#.cookies-popup
 allegorithmic.com###root > div > div > .ui.container > .ui.inverted.segment
+allegro.*##+js(set-cookie, gdpr_permission_given, 0)
 allegro.cz,allegro.pl,allegrolokalnie.pl###opbox-gdpr-consents-modal
 allegro.eu##.idm-cookie-overlay
 allegro.eu##.idm-cookie-overlay, .idm-cookie-policy
@@ -27280,7 +27259,7 @@ aral.de#$#header.nv-global-header[role="banner"] {padding-top: 0!important; }
 aral.de,bp.com,castrol.com##.nv-cookie-notification
 aral.de,castrol.com,bp.com##.nr-cookie-notification__wall
 aramido.de##.banner
-aramon.com,bat.com,bata.com.au,calimove.com,castroniaviacatania.com,cerler.com,formigal-panticosa.com,giftsfactory.ru,iffy.cert.hr,ihk-akademie-mittelfranken.de,ihk-nuernberg.de,javalambre-valdelinares.com,kadewe.de,muenchen.rotary.de,nanu-nana.at,nanu-nana.de,nuk.de,pizzahut.co.uk,shokobrand.ru,testmy.net,top-dots.com,vbo.be,vtech-hub.de,xn--allestrungen-9ib.de,xn--gnstiger-reisen-zvb.de,zif-berlin.org###overlay
+aramon.com,bat.com,bata.com.au,calimove.com,castroniaviacatania.com,cerler.com,delivery-app.de,formigal-panticosa.com,giftsfactory.ru,iffy.cert.hr,ihk-akademie-mittelfranken.de,ihk-nuernberg.de,javalambre-valdelinares.com,kadewe.de,muenchen.rotary.de,nanu-nana.at,nanu-nana.de,nuk.de,pizzahut.co.uk,shokobrand.ru,testmy.net,top-dots.com,vbo.be,vtech-hub.de,xn--allestrungen-9ib.de,xn--gnstiger-reisen-zvb.de,zif-berlin.org###overlay
 aranafansub.moe##body > div[id][class]
 aranypiac.hu#%#//scriptlet('trusted-click-element', 'button.cookie-alert__btn-set', '', '1500')
 aranypiac.hu#@#.cookie-alert

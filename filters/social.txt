@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-25 16:23:04 RPC
+! Updated: 2025-01-26 00:23:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25846,6 +25846,7 @@ wsj.com#?#.article-body-tools div[data-headlessui-state] > button[type="button"]
 wsu.edu##.spine-share-tab
 wtatennis.com##.social-share-expand
 wtools.io,camslib.com##button[data-target="#shareModal"]
+wttw.com##.wttw-social
 wtwc40.com,cwbaltimore.com,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,kbsi23.com,kdsm17.com,raleighcw.com,star64.tv,wcti12.com,wpgh53.com,wtto21.com,wutv29.com##.social-share-tiles
 wunderweib.de##.bx-social-share
 wunderweib.de##.social-bar-sticky
