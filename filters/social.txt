@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-26 00:23:06 RPC
+! Updated: 2025-01-26 09:35:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8098,6 +8098,7 @@
 ##.social-media-footer
 ##.social-media-head-icons
 ##.social-media-header
+##.social-media-horizontal
 ##.social-media-iframe
 ##.social-media-li
 ##.social-media-list-container
