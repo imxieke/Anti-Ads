@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-26 16:21:55 RPC
+! Updated: 2025-01-27 00:21:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2127,6 +2127,7 @@
 /firebase-messaging.js$script,domain=tribunnews.com
 /flying_push.js
 /fp_cookie.
+/fs-cc.js
 /g4cookies.
 /gdpr-cookie-consent-public.min.js$domain=applexgen.com|juegoscocinarpasteleria.org
 /gdpr-cookie-min.
@@ -2222,6 +2223,7 @@
 /push/sbscr.js
 /push/sbscrp.js
 /push/subscribe.js
+/pushengine.js
 /pushes/firebase.js
 /pushes/notification.js
 /PushexSDK.js
@@ -10023,11 +10025,11 @@ investimenti.bnpparibas.it#$#.siteDisclaimer { display: none !important; }
 investimenti.bnpparibas.it#$#body { overflow: auto !important; padding-right: 0 !important; }
 investing.com###consentWrapper
 investing.com###sideNotificationZone
-investing.com##.bottom-0.fixed
 investing.com##.consentBarWrapper
 investing.com##.preloaded_lightbox
 investing.com,wacom.com,hilton.co.kr,hilton.com,hilton.com.cn,hilton.com.tr,hilton.ru,hiltonhotels.com,hiltonhotels.de,hiltonhotels.it,hiltonhotels.jp,sap.com,sourceforge.net##.truste_box_overlay
 investing.com,wacom.com,hilton.co.kr,hilton.com,hilton.com.cn,hilton.com.tr,hilton.ru,hiltonhotels.com,hiltonhotels.de,hiltonhotels.it,hiltonhotels.jp,sap.com,sourceforge.net##.truste_overlay
+investing.com,waifulabs.com##.bottom-0.fixed
 investintech.com###geoPolicy
 investmap.pl#%#//scriptlet('set-cookie', 'rodov2', '1')
 investmentwatchblog.com###custom_html-14

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-26 16:21:55 RPC
+! Updated: 2025-01-27 00:21:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8552,9 +8552,9 @@ eromanga-pon.com##.ad_big
 eromanga-school.com##.ad-top-sp
 eromanga-select.com,doujin-night.com##.sp_adwidget
 eromanga-sora.com#?#.enhanced-text-widget:has(> div.textwidget > div#spwrapper)
+eromanga-yasan.com###spcontent
 eromanga-yasan.com###spwrapper
-eromanga-yasan.com,eromanga-ace.com###spcontent
-eromanga-yasan.com,eromanga-ace.com##.adontitle
+eromanga-yasan.com##.adontitle
 eromanga001.com,hentai-books.com##.sp-mieru
 eromoji.com##.abanner
 eromoji.com##.fam_sp_rec
