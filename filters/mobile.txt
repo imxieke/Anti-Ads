@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-26 09:35:39 RPC
+! Updated: 2025-01-26 16:21:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1221,7 +1221,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -8627,7 +8627,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -24187,6 +24187,7 @@ _zhike.htm
 ||6ku.icu^
 ||6ldu6qa.com^
 ||6lx.fun^
+||6oj.fun^
 ||6oja.cc^$domain=9xav.cc
 ||6pan.cc/ps/vip.jpg
 ||6park.com/img/*0.gif
@@ -34308,6 +34309,7 @@ _zhike.htm
 ||dkasdeerw.xyz^
 ||dkasffredf.xyz^
 ||dkhffh.xyz^
+||dklnxtcj.icu^
 ||dkpartners.backstopsolutions.com^$important
 ||dkqapp.cn^
 ||dkstrtss.xyz^
@@ -37565,6 +37567,7 @@ _zhike.htm
 ||h2.msn.com^$important
 ||h2hfinishes.com.au^$important
 ||h2sry.site^
+||h3d.fun^
 ||h5.appadhoc.com^$important
 ||h5.isnssdk.com^
 ||h5.m.youku.com/act/armorVideogj.html?_wvUseWKWebView=YES&from=bofangye_gj&poplayer_mtid=400$app=com.youku.phone
@@ -39576,6 +39579,7 @@ _zhike.htm
 ||iridescentvista.com^
 ||iridiumsergeiprogenitor.info^
 ||irismedia.g2afse.com^$important
+||irkrellw.com^
 ||irkrors.com^
 ||irmbyu.xyz^
 ||iroko.gocarrot.com^$important
@@ -52410,6 +52414,7 @@ _zhike.htm
 ||txmeeqz.icu^
 ||txn.ingest.crittercism.com^$important
 ||txn.ingest.eu.crittercism.com^$important
+||txnczz.icu^
 ||txshuku.com/js/
 ||txtimpact.com^$important
 ||txzqw.*/js/float.js
@@ -55056,6 +55061,7 @@ _zhike.htm
 ||xuakn.icu^
 ||xuanlimin.top^
 ||xuanxuan520.com^
+||xudaiklj.com^
 ||xudarl.xyz^
 ||xue.zbyw.cn^
 ||xueaaaw.cn^
