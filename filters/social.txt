@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-27 16:27:39 RPC
+! Updated: 2025-01-28 00:26:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13181,6 +13181,7 @@ changelog.com,shuba.life,stopgame.ru,engadget.com,kp.ru,techtudo.com.br##button[
 channel.fancl.jp###follow_area
 channel.nikkei.co.jp##.ncl-share-box
 channel4it.com##.social-modal
+channelnewsasia.com##.trigger-popup--share
 channelnewsasia.com,todayonline.com##.a2a-share-link.a2a_kit
 chanto.jp.net##.c-share-list
 character.ai##div[id^="share-button-"]
@@ -13202,6 +13203,7 @@ chebo.pro##.image-hover-share
 chebo.pro#?#.p_bold > span.rating:contains(Поделитесь)
 check-host.net#%#//scriptlet('remove-node-text', '#text', '/Поделиться|Share on/')
 cheesequeen.co.kr#@#.sns_list
+cheezburger.com##.chz-share
 cheezburger.com##.js-share-pinterest
 cheezburger.com##.nw-sharing-buttons
 cheezburger.com##.tb-share
@@ -14102,6 +14104,7 @@ desmoinesregister.com##.site-nav-social-item
 desmoinesregister.com##.story-taboola-related-module
 desmoinesregister.com##.util-bar-module-share
 destructoid.com###post_sharethis
+destructoid.com##.wp-block-gamurs-footer-nav__website-info__socials
 detail.chiebukuro.yahoo.co.jp##button[data-cl-params$="share"]
 detector.media###artSocBLK
 detector.media##.artSocSticky
@@ -14848,7 +14851,6 @@ enterprisezine.jp##.c-article_sns
 enterprisezine.jp##button[class="c-article_popup_btn"]
 enterprisezine.jp,astv.ru,dp.ru,metanit.com,gorod48.ru##.socialBlock
 enthub.it,travel.yandex.ru,teletype.in##button[title="Поделиться"]
-entrackr.com,pciconcursos.com.br,kaago.com,kakaku.com##.sharelink
 entrepreneur.com##li[data-ga-label^="share-"]
 enttechub.com###s9-share-floating
 environmentenergyleader.com,philosophia-perennis.com##.et_social_mobile
@@ -18559,6 +18561,7 @@ lne.es##.redes_pie
 lne.es##a[href^="https://www.ultimedia.com/api/meta/share"]
 localplace.jp##.matome-sns-btn
 locals.com##.support-now
+localsamosa.com,entrackr.com,pciconcursos.com.br,kaago.com,kakaku.com##.sharelink
 locari.jp##.socialize-buttons
 locipo.jp##div[class^="share_"]
 locksmithledger.com##.ebm-share-wrapper

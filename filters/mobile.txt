@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-27 16:27:39 RPC
+! Updated: 2025-01-28 00:26:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1054,8 +1054,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 159i.com,movieffm.net#@#.adsBox
 15min.lt##.mobile-ad-placeholder
 15min.lt#$#.ads { position: absolute!important; left: -3000px!important; }
-15min.lt#@#.ads
-15min.lt#@#.widget.ads
 15w.com###rec
 160.com###w-advertisement
 160.com###w-btn-advertisement
@@ -2754,7 +2752,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||126.net/images/blank.gif
 @@||127.0.0.1/admin/admin_ad.php?$domain=127.0.0.1
 @@||159i.com/a_d/$media
-@@||15min.lt^$generichide
 @@||163.com/user/event?id=
 @@||16668tu.com/css/ad.css
 @@||17173im.allyes.com^
@@ -3723,7 +3720,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||pub.alimama.com/common/adzone/
 @@||pub.network^$script,domain=creaders.net
-@@||pubads.g.doubleclick.net/activity;$domain=15min.lt
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
@@ -3806,9 +3802,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||seasungame.com/ad/
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=wtf.nl
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=league-funny.com
-@@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1$domain=15min.lt
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=15min.lt
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=espn.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=mobile.donanimhaber.com
@@ -5928,6 +5922,7 @@ blu-ray.com##img[width="148"][height="52"]
 blublu365.com##body > a[target="_blank"][href*="apps"]
 blueidea.com##.listcontent
 blutspendedienst.com#%#//scriptlet("set-cookie-reload", "smartbanner_exited", "1")
+bm.best-hit.tv##div[style="padding:20px 0; text-align:center;"]
 bm.best-hit.tv##iframe[style^="width:320px;height:100px;"]
 bmcx.com##div[id^="ggwz"]
 bmd.hk##[src^="/Ad/"],[src^="Ad/"],[src^="../Ad/"]
@@ -11905,6 +11900,7 @@ izi.ua#?#div.ek-body__section > div.ek-box:has(> div[class*="TestAppMain__root"]
 izle7.com###mobil-ads-comments-after
 izlesene.com##[id^="ad_320_100_container_"]
 j-antenna.net##._X_article_space_
+j-baseball.club##.list-group > div[style^="width:100%;"]
 j-cast.com##.services-app
 j-sen.jp#?#.page-container > div > div.card:has(> img[src^="/assets/images/sp/common/go_to_app"])
 j3pz.com##.hidden-xs
@@ -16405,6 +16401,7 @@ osusume.mynavi.jp##div[data-myanalysis="home-widget"]
 osusume.mynavi.jp##div[data-myanalysis="sidemenu-ad"]
 otakotaku.com##div[id^="im-ADS_"]
 otakuma.net###affiliate-list
+otakuma.net###main-article-single > div[align="center"]:has(> a[href^="https://hb.afl.rakuten.co.jp/"])
 otakuma.net##body .banner-adsense
 otona-life.com##.ad_minh_sp
 otonanswer.jp##.side-box-repeat > div[style="min-height: 280px;"]
@@ -18766,6 +18763,7 @@ sozcu.com.tr#?#.ad-mobile
 sozi.cn##DIV[id^="Javascript"]
 sp.baseball.findfriends.jp##.AppInstWrap
 sp.bokete.jp##img[src="/images/banner_over_w640.png"]
+sp.fortune.auone.jp###c-smart-app-banner
 sp.live.nicovideo.jp##div[class^="___program-information_"] > div[class^="___launcher_"]
 sp.m.jiji.com#?#.spView > div[style^="margin"] > div[id^="div-gpt-ad"]:upward(1)
 sp.macour.jp##.ad_macour
@@ -25143,6 +25141,7 @@ _zhike.htm
 ||ad-center.com^$important
 ||ad-channel.wikawika.xyz^
 ||ad-check.disconnect.me^$important
+||ad-cheers.com^
 ||ad-creatives-public.commondatastorage.googleapis.com^
 ||ad-creatives-public.commondatastorage.googleapis.com^$important
 ||ad-dc2.adtech.de^$important
@@ -25165,6 +25164,7 @@ _zhike.htm
 ||ad-mediation.tuanguwen.com^$important
 ||ad-miner.com^$important
 ||ad-monitor.kargo.com^$important
+||ad-nex.com^
 ||ad-pay.de^$important
 ||ad-rotator.com^$important
 ||ad-s1.media6degrees.com^$important
@@ -25176,6 +25176,7 @@ _zhike.htm
 ||ad-souk.com^$important
 ||ad-space.net^$important
 ||ad-specs.guoshipartners.com^$important
+||ad-spire.net^
 ||ad-splash-tracking.hktvmall.com^
 ||ad-splash.hktvmall.com^
 ||ad-stir.com^
@@ -25784,6 +25785,7 @@ _zhike.htm
 ||adm.cnzz.net^$third-party
 ||adm.dynamicyield.com^$important
 ||adm.fwmrm.net^$important
+||adm.shinobi.jp^$3p
 ||adm.vrtzads.com^$important
 ||adm3.autoimg.cn^$important
 ||admagnet.net^$important
@@ -39603,6 +39605,7 @@ _zhike.htm
 ||is.yllix.com^$important
 ||is686.com^
 ||is686.com^$third-party
+||isboost.co.jp^
 ||iscrv.com^
 ||isdspeed.qq.com^
 ||isgame.ds.duapps.com^$important
@@ -46979,6 +46982,8 @@ _zhike.htm
 ||r.trwl1.com/s1/$subdocument
 ||r.turn.com^$important
 ||r.w.inmobi.com^$important
+||r0.mail.ru^
+||r0.mradx.net^
 ||r0j.fun^
 ||r1-t.trackedlink.net^$important
 ||r1.ykimg.com^$app=com.huawei.hwvplayer.youku
@@ -49275,6 +49280,7 @@ _zhike.htm
 ||smaato-server.thinknearhub.com^$important
 ||smaato.com^$important
 ||smaato.net^$important
+||smac-ad.com^$3p
 ||smaclick.com^
 ||smaclick.com^$important
 ||smaero.jp/advimg/
@@ -53746,6 +53752,7 @@ _zhike.htm
 ||wapuad.com^
 ||wapx.cn^
 ||wapx.com^
+||waqool.com^
 ||warlog.info^$important
 ||warlog.ru^$important
 ||warmafterthought.com^
