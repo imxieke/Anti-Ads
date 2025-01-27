@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-27 09:27:38 RPC
+! Updated: 2025-01-27 16:27:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2220,7 +2220,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8380,7 +8380,7 @@ electrical4u.com###custom_html-24
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##div[class^="page-sidebar-"]
+element-plus.org##div[class*="-sidebar-"]
 elespanol.com###homeMobileAdvertising2
 elespanol.com###sticky_container
 elespectador.com#?#.swiper-slide:has(> div.Widget-fullHeight > div[id^="Personalizado"])
@@ -8627,7 +8627,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -23813,6 +23813,7 @@ _zhike.htm
 ||4we.icu^
 ||4wm.fun^
 ||4wu3gf.cn^
+||4zn.fun^
 ||5.ccutu.com^
 ||5.gzfenda.com^
 ||50.17.161.250/appodeal/
@@ -24456,6 +24457,7 @@ _zhike.htm
 ||8s8s.com/data/banner/
 ||8sc13bd.appsdeku.com^$important
 ||8seaa.com/template/assets1/js/vue.js
+||8sh.fun^
 ||8suis.top^
 ||8t9he.cyou^
 ||8u0.fun^
@@ -38142,6 +38144,7 @@ _zhike.htm
 ||hosting.effiliation.com^$important
 ||hosting.sproutbuilder.com^$important
 ||hosting24.com^
+||hostolhg.com^
 ||hot-mob.com^
 ||hot-mob.com^$important
 ||hot2.53.localytics.com^$important
@@ -43746,6 +43749,7 @@ _zhike.htm
 ||nabucuo.com^
 ||nadvideo.baidu.com^
 ||nadvideo2.baidu.com^
+||naettarq.com^
 ||nagpurtoday.in/wp-content/uploads/2024/06/Untitled-design-2.gif
 ||nagvaxvy.com^
 ||nah9v7mdppff.com^$important
@@ -55130,6 +55134,7 @@ _zhike.htm
 ||xxsmad2.com^
 ||xxsmad3.com^
 ||xxsmad4.com^
+||xxsmad5.com^
 ||xxss6677.com^
 ||xxx839.com/*/ads^
 ||xxxcounter.com^$important
