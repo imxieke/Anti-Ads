@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-28 09:27:55 RPC
+! Updated: 2025-01-28 16:24:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1219,7 +1219,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -2218,7 +2218,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8622,7 +8622,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -9445,7 +9445,6 @@ game735.com##div[id^="ysmAD"]
 game735.com#$#div[id^="gklobl"] { height: 1px!important; }
 game735.com#?#div[style^="text-align: center;"]:has(> em:contains(ADVERTISEMENT))
 game8.jp###g8-ad-placement-sp_under_archive_ab
-game8.jp##+js(remove-node-text, script, html-load.com)
 game8.jp##.a-underIndex
 game8.jp##.ad-skyflag-wrapper
 game8.jp##.l-jack__top
@@ -19198,6 +19197,7 @@ symbolab.com###itunesLink
 syndication-bleacherreport-com.cdn.ampproject.org,nbcnewyork.com,foursquare.com,wsj.com###branch-banner-iframe
 syndication.bleacherreport.com##.commentsUpsell.content
 syndication.bleacherreport.com,nbcdfw.com,actionnetwork.com###branch-amp-journey
+syosetu.com,game8.jp##+js(remove-node-text, script, html-load.com)
 sysin.org##img[src^="/img/promotion"]
 syukatsu-kaigi.jp##.js-dynamic-link-banner
 sz.net.cn##[class^="duilian_"],DIV[class^="ad_"],div.A54,DIV.ad,DIV.ad66,DIV.banner_bar,DIV.gg_border,DIV[class^="c_ad"],DIV[class^="content c_ad"],DIV.MainR_ad3,DIV[style="width:420px; height:90px; float:left"],DIV[style=" height:90px; width:536px; float:left; padding-left:4px;"]
@@ -23739,6 +23739,7 @@ _zhike.htm
 ||425555a.com^
 ||425e2-836b6.api.pushwoosh.com^$important
 ||426g.com^
+||4275.com/css/91kf.
 ||4275.com/css/91kf.gif
 ||429999d.com^
 ||42ye.com^
@@ -28962,6 +28963,8 @@ _zhike.htm
 ||as.weixin.qq.com^
 ||as.y.atwola.com^$important
 ||as00.estara.com^$important
+||as01271kkp.xyz^
+||as01280kkp.xyz^
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
 ||as2.wenku.baidu.com/$subdocument
@@ -31836,6 +31839,7 @@ _zhike.htm
 ||chaospace.fun/wp-content/uploads/*/tg-
 ||chaoxing.com^$domain=igangju.com
 ||chaoyumiao.com^
+||chaqraex.com^
 ||chargecracker.com^
 ||charles.huqindustries.co.uk^$important
 ||charm.inmobi.com^$important
@@ -35937,6 +35941,7 @@ _zhike.htm
 ||fcanafta.tt.omtrdc.net^$important
 ||fcanr.tracking.miui.com^$important
 ||fcapi.jpush.cn^
+||fcbdpock.icu^
 ||fcd.autoads.asia^$important
 ||fclick.baidu.com^
 ||fcm.baidu.com^
@@ -37785,6 +37790,7 @@ _zhike.htm
 ||hdc.maxli.cn^
 ||hdchina.*/styles/topshow/AD/
 ||hdickeu.top^
+||hdinmiu.top^
 ||hdipsumu.top^
 ||hdjthzg.cn^
 ||hdo.to^$important
@@ -38238,7 +38244,7 @@ _zhike.htm
 ||htimiyu.top^
 ||htlb.casalemedia.com^$important
 ||htlbid.com^$important
-||html-load.com^$script,domain=game8.jp
+||html-load.com^$script,domain=game8.jp|syosetu.com
 ||html.696157.com^
 ||html.polyad.net^$important
 ||html.shibeiou.com^
@@ -45975,6 +45981,7 @@ _zhike.htm
 ||ppunion.com^
 ||ppxndfgf.icu^
 ||ppys.com/detail
+||pqfpvb.icu^
 ||pqzjki.cn^
 ||pr-gmtdmp.mookie1.com^$important
 ||pr-iq.adtech.de^$important
@@ -47023,6 +47030,7 @@ _zhike.htm
 ||rainyhand.com^
 ||rainyrule.com^
 ||rainystretch.com^
+||rajxjj.icu^
 ||rakuten-sec.co.jp/web/images/banners/ads_mobile_un-limit/
 ||rakuten-static.com^$domain=cwyuni.tw
 ||rakutenmarketing.com^
@@ -50834,6 +50842,7 @@ _zhike.htm
 ||t2.picb.cc/2022/08/07/6rpRKd.jpg
 ||t2.picb.cc^$image,domain=dmxq1.com
 ||t2click.com^
+||t2s.fun^
 ||t3-testing.marinsm.com^$important
 ||t3.chartboost.com^$important
 ||t3.marinsm.com^$important
@@ -52299,6 +52308,7 @@ _zhike.htm
 ||tudown.com^
 ||tudxhzj.cn^
 ||tufzdj.xyz^
+||tuhmkjce.icu^
 ||tui.cnzz.net^$third-party
 ||tui.gtimg.com//res/
 ||tui.taobao.com^$important
@@ -53242,6 +53252,7 @@ _zhike.htm
 ||vectorsdk.map.qq.com^$important
 ||veeseo.com^$important
 ||vegaingi.com^
+||veilengh.com^
 ||veille-referencement.com^$important
 ||veirregnant.club^$important
 ||vejhln.xyz^
