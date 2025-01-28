@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-28 00:26:00 RPC
+! Updated: 2025-01-28 09:27:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16518,6 +16518,7 @@ happymail.co.jp,androidjiten.com##.article_social__title
 happymod.com#?#.new-div-box > div.new-div-box:has(> div[class] > div.addthis_inline_share_toolbox)
 happymonday.ua##.share-article__main-links-wrap
 happytv.rs##.share-action-posts
+harborsweets.com##.footer-top-bar
 hard-drive.net##.hd-discord
 hardreset.info#$##modal-facebook { display: none !important; }
 hardreset.info#$#.modal-backdrop { display: none !important; }
