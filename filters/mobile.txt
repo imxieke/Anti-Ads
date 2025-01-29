@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-29 16:25:47 RPC
+! Updated: 2025-01-30 00:27:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8637,6 +8637,7 @@ euronews.com##.amp-flying-carpet-text-border
 euronews.com##amp-fx-flying-carpet
 europaplus.ru##div[id^="AdwolfBanner240x400"]
 europe1.fr##.section-app
+eurosport.com##div[data-testid="organism-smart-banner"]
 eveeve.jp##.m-headerOpenApp
 event.biotherm.com.tw#@##ad1
 event.biotherm.com.tw#@##ad2
@@ -16059,6 +16060,7 @@ now.com#%#//scriptlet('set-constant', 'preBid.getPrerollVASTUrl', 'noopFunc')
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nowfeed2all.eu###fanback,[src^="http://c4.zedo.com/jsc/"]
+nowiveseeneverything.club#?#div[data-test-id="article-content"] > div[class*=" "]:has(> aside[style*="min-height:"]:only-child > div[class]:contains(/^Advertisement$/))
 nownews.com###ads-footer-bar
 nownews.com###crazy-video
 nownews.com###idle-layer

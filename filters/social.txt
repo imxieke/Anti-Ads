@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-29 16:25:47 RPC
+! Updated: 2025-01-30 00:27:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15217,6 +15217,7 @@ femina.hu##.viber
 fenzin.org##.share_socials
 ferra.ru##.wrapper > div.social
 ferret-plus.com##.js-sns-share-action-button:not(.static-button-rss):not(.static-button-link)
+festival-life.com,sippo.asahi.com##.share-sticky
 fetcherx.com,voltimum.com.tr,nippononline.ru,honor.ru,sportsgrid.com,gazeteduvar.com.tr#@#.social-block
 fetchtube.com##.sv-download-ads
 fetchtube.com##.sv-predownload-button > span[style="color:green;text-align:center"]
@@ -19146,6 +19147,7 @@ mediazonaby.com##.js-share-pull
 mediazonaby.com##.mz-layout-theme__content > section.mz-layout-theme__meta:has(> div.mz-layout-theme__socials)
 mediazonaby.com##.mz-social-share
 medical-tribune.co.jp###article-sns-share
+medicaldoc.jp##.share_section
 medicalxpress.com##.article-interaction > *:not([data-target="#feedback-to-editors"]):not(section)
 medicalxpress.com,phys.org,techxplore.com###js-soc-panel
 medicalxpress.com,techxplore.com,phys.org###js-soc-panel
@@ -19203,6 +19205,7 @@ megogo.ru##div[class^="ShareWidgetStyled__SocialWrap"]
 megomult.ru###fancybox-overlay
 megomult.ru##.fancybox-wrap
 meiahora.com.br##.content-shares
+meikogijuku.jp##.sns-title
 mein-eigenheim.de##a[title$="teilen"]
 mein-schoener-garten.de###content .socials
 meinanzeiger.de###sidebar > .teaserBox > div[class="box coverage"]
@@ -22863,7 +22866,6 @@ sinonim.org#?#div.main > div:has(> .ya-share2)
 sinoptik.ua#?#.root-overlay > div:has(> button:contains(ся погодо))
 sinoptik.ua#?#p:first-child + div + div:contains(ся погодо)
 sippo.asahi.com##.c-share-sticky__title
-sippo.asahi.com##.share-sticky
 sippo.asahi.com,tsn.ua##.c-share-sticky
 sirabee.com,smart-flash.jp,amp-pcwelt-de.cdn.ampproject.org##.socialButton:not(.feedback)
 sirogohan.com##.recipe-snslist
