@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-29 09:27:32 RPC
+! Updated: 2025-01-29 16:25:47 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1219,7 +1219,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -2218,7 +2218,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16810,7 +16810,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -22877,6 +22877,7 @@ _zhike.htm
 ||0575bbs.com/updateimeags/
 ||0579.cn/SHow/Showplacenew.aspx
 ||0591101.com^
+||0592.mobi^
 ||0593info.com^
 ||0594003.com^
 ||0594529.com^
@@ -24199,6 +24200,7 @@ _zhike.htm
 ||6park.com/parks/$script
 ||6park.com^$subdocument,badfilter
 ||6pznpz.com^
+||6qo.fun^
 ||6qyxeob.xyz^
 ||6rooms.com/$image,domain=~6.cn
 ||6slb0.cyou^
@@ -25604,6 +25606,7 @@ _zhike.htm
 ||adcycle.com^$important
 ||add.newmedia.cz^$important
 ||addabai.com^
+||addalzq.com^
 ||addapptr.com^
 ||addapptr.com^$important
 ||addash.co^$important
@@ -28970,6 +28973,7 @@ _zhike.htm
 ||as00.estara.com^$important
 ||as01271kkp.xyz^
 ||as01280kkp.xyz^
+||as01281kkp.xyz^
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
 ||as2.wenku.baidu.com/$subdocument
@@ -30134,6 +30138,7 @@ _zhike.htm
 ||bh.contextweb.com^$important
 ||bh100.com.cn^
 ||bhakte.com^
+||bhanphevg.com^
 ||bhaoea.cn^
 ||bhclicks.com^$important
 ||bhcumsc.com^
@@ -39888,6 +39893,7 @@ _zhike.htm
 ||jdfzfd.xyz^
 ||jdickea.top^
 ||jdiekknmcb.com^
+||jdinmia.top^
 ||jdipsuma.top^
 ||jditera.top^
 ||jdomsia.top^
@@ -47255,6 +47261,7 @@ _zhike.htm
 ||rejectfairies.com^
 ||rejxv.adsbtrk.com^$important
 ||rek.mobi^$important
+||reke.at.sohu.com^
 ||reklam.rfsl.se^$important
 ||reklama.mironet.cz^$important
 ||reklama.reflektor.cz^$important
@@ -53140,6 +53147,7 @@ _zhike.htm
 ||v4.moatads.com^$important
 ||v4dwkcv.com/html/click/
 ||v4dwkcv.com^
+||v4p.fun^
 ||v5.chartboost.com^$important
 ||v5ad.com^
 ||v6analytics.htmedia.in.edgekey.net^$important
@@ -53512,6 +53520,7 @@ _zhike.htm
 ||vms.netseer.com^$important
 ||vmvps.com/aoyohost-com-bann
 ||vmweb.net^$important
+||vmxvcjuf.icu^
 ||vmzqwz.cn^
 ||vn-gmtdmp.mookie1.com^$important
 ||vn-platform.bidgear.com^$important
@@ -53613,6 +53622,7 @@ _zhike.htm
 ||vt.ipinyou.com^$important
 ||vt.myvisualiq.net^$important
 ||vtbfgnf00.fun^
+||vtbkhl.icu^
 ||vtdgfisz.icu^
 ||vteam.focus.de^$important
 ||vtjbnb.xyz^
