@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-01-29 00:24:38 RPC
+! Updated: 2025-01-29 09:27:32 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23909,6 +23909,7 @@
 2fast4buds.com##.popup_secure
 2gis.*###root > div[dir="ltr"] > div[class] > div[class] > footer:has(a[href^="https://law.2gis."])
 2gis.*##div[style="height:100%"] > div._121zpzx > div._e27xbxx > div._1jefphjl
+2gis.ae##._1jefphjl
 2gis.cl###root > div[dir="ltr"] > div[class] > div[class] > div#confirm + div
 2gis.com.cy###confirm ~ div
 2gis.com.cy##._1hywetf
@@ -32990,6 +32991,7 @@ digitalparking.city##+js(set-local-storage-item, cookies-accepted, true)
 digitalrealty.com###__next > aside
 digitalrisks.co.uk###app > div > .fixed.left
 digitalshoping.com##.banner, #banner
+digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it##body #iubenda-cs-banner
 digitenne.nl##body > div:not([id]):not([class])
 digitfoto.de###cookieds
 digitfoto.de###cookieds, #cookiedsdetails, #bodygrau
@@ -41660,6 +41662,7 @@ lingea.sk,dict.com##.lck-wrapper
 lingq.com##.gdpr-notice
 link-descarga.site,crhoy.com,tuhentaionline.com,dle.rae.es###cajacookies
 link.co##div[data-js-id="LinkCookieSettingsNotification"]
+link.com##.LinkNotificationCenter
 link.springer.com##.cc-banner:remove()
 link1one.com,claimercorner.xyz,faucetzoid.online###gath3r-optin-dialog
 linkaband.com##app-cookie-modal
@@ -46330,7 +46333,6 @@ pasinigioielli.com##.modals-wrapper
 pasivka.com.ua#@##cookies-modal
 passbase.com###gdpr-modal
 passeidireto.com##pd-cookie-banner
-passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it##body #iubenda-cs-banner
 passmyparcel.com##.banner, #banner
 passport-photo.online,mojmaxtv.hrvatskitelekom.hr##+js(set-local-storage-item, cookieAccepted, true)
 passport.vivo.com##.cookie-dialog

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-29 00:24:38 RPC
+! Updated: 2025-01-29 09:27:32 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17734,6 +17734,7 @@ republicworld.com,republicbharat.com###hellobar-bar
 republicworld.com,www-republicworld-com.cdn.ampproject.org##div[class^="ads_"]
 researchgate.net##.lite-page__footer-native-app
 resemara.xbiz.jp,revolve-ysy.jp##.bfb_imgBanner
+retail.ru##.markup__commercial
 retrip.jp##footer-induction:has( > div[class]:only-child > section:only-child > ul > li:only-child > a[href*="redirect_app"])
 retrip.jp,rtrp.jp#$##page[style^="padding-top"] { padding-top: 45px!important; }
 retrip.jp,rtrp.jp#$#header-induction { display: none!important; }
