@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-30 16:24:18 RPC
+! Updated: 2025-01-31 00:25:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26790,6 +26790,7 @@ _social_footer_
 ||yimg.jp/images/news-web/all/images/sns_$domain=news.yahoo.co.jp
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
+||z-library.sk/components/z-social-sharing.js
 ||zextit.com/partners/$third-party
 ~2x2tv.ru,~teamspeak.com,~moneycanbuylipstick.com,~babeljs.io,~slashdot.org##.nav-social:not(body):not(html)
 ~accounts.stella-it.com,~nikkansports.com,~la7.it,~bluedart.com,~thehackernews.com##.social-box

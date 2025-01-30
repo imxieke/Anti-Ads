@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-30 16:24:18 RPC
+! Updated: 2025-01-31 00:25:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -22636,6 +22636,7 @@ zol.com.cn##span[class^="down-dxlt"]
 zol.com.cn$$a[href="click.taobao.com"]
 zol.com.cn$$a[href="e.cn.miaozhen.com"]
 zol.com.cn$$section[id="relevant-product-module"]
+zolla.com##.isDownloadApp
 zomato.com###oamV2
 zomato.com#?##root > div[class] > div[class] > div[class]:has(> p:contains(This page looks better in the app))
 zomato.com#?##root > div[class] > div[class]:has(> div[class] > div[class] > div[class] > h2:contains(Get the Zomato App))
