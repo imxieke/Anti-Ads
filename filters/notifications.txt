@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-30 09:25:52 RPC
+! Updated: 2025-01-30 16:24:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18407,6 +18407,7 @@ _eu_cookie_
 ||app.adjust.net.in/smart_banner
 ||app.easy.tools/cookies/scripts/$domain=upolujebooka.pl
 ||app.enzuzo.com/*/static/js/*enzuzo-cookiebar.js
+||app.enzuzo.com/scripts/cookiebar/
 ||app.prive.eu/consent
 ||app.secureprivacy.ai^$third-party
 ||app.usercentrics.eu/browser-ui/*/PrivacyButton-$domain=lootboy.de,important

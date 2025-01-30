@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-30 09:25:52 RPC
+! Updated: 2025-01-30 16:24:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1219,7 +1219,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -2218,7 +2218,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8622,7 +8622,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16813,9 +16813,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -24331,6 +24331,7 @@ _zhike.htm
 ||7scs.com/Public/img/list-
 ||7search.com^$important
 ||7solo.biz^$important
+||7tc.fun^
 ||7vviw.cyou^
 ||7x24s.com^
 ||7x7n.com/static/image/888.jpg
@@ -30484,6 +30485,7 @@ _zhike.htm
 ||boce.com/statics/img/img27b.png
 ||bodelen.com^$important
 ||bodgg.com^
+||bodhalqg.com^
 ||bodis.com^$important
 ||bogtrmjz.xyz^
 ||boilingbeetle.com^
@@ -36966,6 +36968,7 @@ _zhike.htm
 ||ggxt.net^
 ||ggxwb.miguvideo.com^
 ||ghabnq.xyz^
+||ghairqin.com^
 ||gheqien.com^
 ||gherkax.com^
 ||gheslosy.com^
@@ -40497,6 +40500,7 @@ _zhike.htm
 ||k1qa.midasplayer.com^$important
 ||k2n0f.cn^$third-party
 ||k366.com/images/smxs^
+||k42.fun^
 ||k54nw.pw^
 ||k5uj.icu^
 ||k618.cn/sytab/
@@ -40580,6 +40584,7 @@ _zhike.htm
 ||kdbhvi.xyz^
 ||kdh8.com^
 ||kdicked.top^
+||kdinmid.top^
 ||kdipsumd.top^
 ||kdjdpyrt.xyz^
 ||kdmmm.cn^
@@ -52439,6 +52444,7 @@ _zhike.htm
 ||twrank.com^$third-party
 ||twunbbs.com/images/
 ||twurseri.top^
+||twxftd.icu^
 ||twzui6.com^
 ||tx-ad.a.yximgs.com^
 ||tx-kmpaudio.pull.yximgs.com^
@@ -54812,6 +54818,7 @@ _zhike.htm
 ||xdytt.com/b_*.js
 ||xe2c.com^
 ||xebohjhh.xyz^
+||xedlxeuz.icu^
 ||xedpzh.xyz^
 ||xehodv.xyz^
 ||xemtylecacuoc.bong99.com^$important
