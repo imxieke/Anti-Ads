@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-30 00:27:21 RPC
+! Updated: 2025-01-30 09:25:52 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8579,7 +8579,6 @@ esports.net##.parallax-container
 espreso.co.rs###installAndroidApp
 esquire.com#?#section > div[class*="css"]:has(> div.ad-container)
 esquirehk.com##.ad_top,.ad_lrec
-essenjet.com###mobileApp
 estadao.com.br##.area-flying-carpet-wrapper
 estadao.com.br##.house-ads-container
 estadao.com.br##.jc-sticky-ad-wrapper
@@ -15994,6 +15993,8 @@ niwodai.com###fol_div1
 njuskalo.hr##.SmartAppBanner
 nknews.jp###im_overlay
 nknews.jp###im_panel_b
+nknews.org##a[href^="https://www.nknews.org/pro/mobile-apps/"] > img
+nknews.org,essenjet.com###mobileApp
 nlab.itmedia.co.jp##div[id^="_popin_recommend"]
 nlc.gov.cn###lovexin12xx
 nld.com.vn##.div-download-app
