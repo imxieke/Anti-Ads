@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-01-31 09:27:35 RPC
+! Updated: 2025-01-31 16:25:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2218,7 +2218,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -5965,6 +5965,8 @@ bolavip.com##.amp-ad-placeholder
 bolavip.com##.primis-placeholder-mobile
 bolavip.com##.video-player-placeholder
 bolavip.com#$##top-sticky { display: none!important; }
+bolavip.com#$#.bg-adContainerHeaderMobile { display: none !important; }
+bolavip.com#$#.bg-adContainerHeaderMobile ~ header[class*="top-"][class*="px"] { top: 0 !important; }
 bolavip.com#$#.header-top-sticky { top: 0!important; }
 boldsky.com###outbrain_nano
 boldsky.com##.io-block > li:not(data-wow-delay)[class="clearfix"]
@@ -9368,6 +9370,9 @@ fxingw.com##[href="http://app.fxingw.com/download/"],[class$="ad"]
 fxpan.com##.loading
 fxstreet.com##.fxs_stickyAd-mobile
 fxstreet.com##div[data-gtmid="crypto-app-notif"]
+fxstreet.es##.fxs_stickyAd-mobile
+fxstreet.es#$#.fxs_bgHeader { top: 0 !important; }
+fxstreet.es#$#.fxs_header_sponsor { display: none !important; }
 fxykx.com##a[href*="zyttx.com/"]
 fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
@@ -16813,9 +16818,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -27633,6 +27638,7 @@ _zhike.htm
 ||am.adlooxtracking.com^$important
 ||am.cupid.iqiyi.com/am
 ||am.szhome.com^
+||am0.fun^
 ||am01.adlooxtracking.com^$important
 ||am02.adlooxtracking.com^$important
 ||am03.adlooxtracking.com^$important
@@ -30051,6 +30057,7 @@ _zhike.htm
 ||beetleend.com^
 ||befyah.icu^
 ||beginnerpancake.com^
+||begoihuh.com^
 ||begun.ru^
 ||beha.ksmobile.com^$important
 ||behacdn.ksmobile.net^
@@ -46443,6 +46450,7 @@ _zhike.htm
 ||pvpdbth.xyz^
 ||pvtest.zol.com.cn^
 ||pw.lpsxssm.com^$third-party
+||pw2.fun^
 ||pw2ct1.asia^
 ||pw321.com/bulu/
 ||pw321.com^
@@ -47548,6 +47556,7 @@ _zhike.htm
 ||rmioswx.icu^
 ||rmpad.imtt.qq.com^
 ||rms.meituan.com/diancan/api/queryAdBoard
+||rmtxdn.icu^
 ||rmx-match.dotomi.com^$important
 ||rndcdb.xyz^
 ||rndskittytor.com^
@@ -50444,6 +50453,7 @@ _zhike.htm
 ||strikead.com^$important
 ||strikeadcdn.s3.amazonaws.com^$important
 ||strikeiron.com^$important
+||strilqoill.com^
 ||stringsmile.com^
 ||strip.chat/widgets/$domain=tktube.com
 ||strip.taobaocdn.com/tfscom/$subdocument

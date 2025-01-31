@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-31 09:27:35 RPC
+! Updated: 2025-01-31 16:25:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12624,6 +12624,7 @@ bokumachi-anime.com,kaiju-no8.net,mdzol.com,adrenaline.com.br##.news__share
 bola.net###kl-social-share
 bola.okezone.com##ul[class$="share"]
 bolasport.com,motorplus-online.com,gridoto.com##.read_content--share
+bolavip.com##.article-head-social-links
 bolavip.com##.footer__footer-top__social-links
 bolavip.com##.whatsapp-link
 bolavip.com,carwale.com##.article-social-links
@@ -15762,6 +15763,7 @@ fxmag.pl##.Social-title
 fxstreet.com###fxs_socialmedia_bar_header
 fxstreet.com##.fxs_bg_light_5_clr
 fxstreet.com##.fxs_socialmedia_bar_default
+fxstreet.es##.fxs_socialmedia_bar_default
 g-enews.com##.vlt_share
 g-journal.jp,biz-journal.jp###vertical_sns
 g-witch.net##.detail__desc
@@ -19625,7 +19627,6 @@ motherless.com##li[data-toggle="media-share-container"]
 mothership.sg##[height="73"]
 mothership.sg##[href="https://bit.ly/3KjTj94"]
 mothership.sg##[href="https://bit.ly/3qgqzHg"]
-mothership.sg,overclock3d.net,techtimes.com##.socials
 motifyublog.com##article .sns
 motilaloswal.com##h1.section-title-mytag + div.icons
 motilaloswal.com##h1.section-title-mytag + div.icons ~ br
