@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-01-31 00:25:51 RPC
+! Updated: 2025-01-31 09:27:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15358,6 +15358,8 @@ firstpost.com##.yt-ch
 firstpost.com,tunecore.co.jp,radiolab.org##button[aria-label="share"]
 firstpost.com,tv8.it,regionalwolfenbuettel.de,regionalgoslar.de,regionalwolfsburg.de,regionalbraunschweig.de##.shareicon
 firstshowing.net##.topsoc
+firstthings.com##.share_container
+firstthings.com,mothership.sg,overclock3d.net,techtimes.com##.socials
 firstwefeast.com,careeraddict.com##.article-share-container
 fischundfleisch.com##.mobile-share-buttons
 fishingby.com###fby-nav-soc-list

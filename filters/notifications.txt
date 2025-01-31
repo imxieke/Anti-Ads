@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-01-31 00:25:51 RPC
+! Updated: 2025-01-31 09:27:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6601,6 +6601,7 @@ cybermodding.it###hi-eu-opt-in
 cyberport.de#$##gdpr_cookie_notice { display: none !important; }
 cyberport.de#%#//scriptlet('prevent-element-src-loading', 'script', 'cdn.consentmanager.net')
 cyberscan.io##.cs-cookie-overlay
+cybershoke.net###application > div.modal-enter-done:has(> div > img[src$="/cookie.svg"])
 cylance.com###gdpr-wrp
 cylance.com##.cylance-mod-cookiebanner
 cylance.com##.js-cookiePolicy
@@ -9766,6 +9767,7 @@ imd-berlin.de,sera.de#$##cookieman-modal ~ div.modal-backdrop { display: none !i
 imd-berlin.de,sera.de#$#body { overflow: auto !important; }
 imdb.com,vagrantup.com,terraform.io,hashicorp.com,vaultproject.io##div[data-testid="consent-banner"]
 imei24.com###cons
+imgur.com###getAppButton
 imgur.com##.SmartAppBanner-wrapper
 imgur.io##.Ad
 imgur.io##.get-app-block
@@ -14661,6 +14663,7 @@ ruby.mobidev.biz###sj-dialog-614546461
 ruecken-zentrum.de###bho_infobar
 ruegenwalder.de##div[id^="csdialog"]
 rueschenbeck.de##.cookie-outer-wrapper
+rugbypass.com###app-install
 ruggable.de,talentdays.pl#$##headlessui-portal-root { display: none !important; }
 ruggable.de,talentdays.pl#$#body { overflow: auto !important; padding-right: 0 !important; }
 ruggable.de,talentdays.pl#$#html { overflow: auto !important; padding-right: 0 !important; }
