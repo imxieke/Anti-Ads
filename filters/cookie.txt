@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-01 09:39:38 RPC
+! Updated: 2025-02-01 16:22:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -30982,8 +30982,7 @@ claro.com.co,claro.com.ec,claro.com.hn,claro.com.ni,claro.com.sv,claro.cr###them
 clarochile.cl##.cookieModal
 claseazul.com##.cas-cookie
 clasebcn.com###cookies
-clasohlson.com##.cookie-bar-overlay
-clasohlson.com##body,html:style(overflow: auto !important; position: initial !important;)
+clasohlson.com##+js(set-cookie, cookie-notification, ACCEPTED)
 clasohlson.com#$#.cookie-bar { display: none !important; }
 clasohlson.com#$#.cookie-bar-overlay { display: none !important; }
 clasohlson.com#$#body { overflow: auto !important; }
@@ -31840,7 +31839,6 @@ cplusplus.com##body > div:not([id]):not([class])
 cplusplus.com##div[style="background:#eed;padding:10px;margin:0;text-align:center;border-bottom:1px solid #446"]
 cpmstar.com,artiway.com.tr,octoparse.jp,octoparse.com###snackbar
 cquand.fr##footer > div
-crackoverflow.com##+js(aeld, DOMContentLoaded, checkCookieConsent)
 crackwatch.com##.Overlay
 craft-conf.com###headlessui-dialog-17
 craft-conf.com###headlessui-dialog-overlay-19
@@ -37197,6 +37195,7 @@ gpm-ipma.de,aok.de#$#body { overflow: visible !important; }
 gps-viewer.com##.popup
 gpstraining.co.uk###cookies
 gptgirlfriend.online##body > div[class] .fixed:has( .hidden > img[alt="Cookie Icon"])
+gpuscout.nl##+js(set-local-storage-item, cookieConsent, true)
 gpz-opskrba.hr###gdc-shade
 gq-magazine.co.uk#@##onetrust-consent-sdk
 gq.com##.page > div[class*="MessageBanner"]
@@ -39938,8 +39937,6 @@ just-eat.co.uk,just-eat.dk,just-eat.es,just-eat.ie,just-eat.fr,just-eat.no,juste
 just-eat.co.uk,just-eat.dk,just-eat.es,just-eat.ie,just-eat.fr,just-eat.no,justeat.it,lieferando.de,lieferando.at,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, customerCookieConsent, %5B%7B%22consentTypeId%22%3A103%2C%22consentTypeName%22%3A%22necessary%22%2C%22isAccepted%22%3Atrue%7D%2C%7B%22consentTypeId%22%3A104%2C%22consentTypeName%22%3A%22functional%22%2C%22isAccepted%22%3Atrue%7D%2C%7B%22consentTypeId%22%3A105%2C%22consentTypeName%22%3A%22analytical%22%2C%22isAccepted%22%3Afalse%7D%2C%7B%22consentTypeId%22%3A106%2C%22consentTypeName%22%3A%22personalized%22%2C%22isAccepted%22%3Afalse%7D%5D, 1year)
 just-eat.co.uk,just-eat.dk,just-eat.es,just-eat.ie,just-eat.fr,just-eat.no,justeat.it,lieferando.de,lieferando.at,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, je-cookieConsent, necessary, 1year)
 just-eat.co.uk,just-eat.es,justeat.it##div[data-cookie-consent-overlay]
-just-eat.dk##._1eRs3w
-just-eat.dk##body,html:style(height: auto !important; overflow: auto !important)
 just-eat.dk##div[data-qa="granular-privacy-settings"]
 just-eat.dk#$#body { overflow: auto !important; touch-action: unset !important; }
 just-eat.dk#$#div[data-qa="granular-privacy-settings"] { display: none !important; }
@@ -40606,8 +40603,7 @@ kotrak.com##.configMessages
 koucla.it##.xcb
 koupelny-sen.cz###cookie
 koupitvstupenku.cz###sprivacy
-kovopolotovary.cz##.fancybox__container
-kovopolotovary.cz##body,html:style(overflow: auto !important; position: initial !important;)
+kovopolotovary.cz,kovopolotovary.sk##+js(set-cookie, web-cookies, 2)
 kox-direct.de###wsModalAgreementPrivacy
 kozterkep.hu###cookie-consent
 kozy.pl###claw
@@ -41359,8 +41355,6 @@ leselupe.de##body > div:not([id]):not([class])
 lesen.mk-elona.de##.privacy-notification
 lesinfos.ma###bottomBar
 lesjours.fr##.tarteaucitron-alert-big-bottom
-leslipfrancais.fr###nq_cnilbanner_container
-leslipfrancais.fr##+js(rc, no-scroll, body, stay)
 lesmobiles.com##.popin-cnil
 lesmoutonsrebelles.com,onlinestreet.de#$?#body { overflow: auto !important; position: static !important; }
 lesoriginelles.fr###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
@@ -44027,6 +44021,7 @@ mybiclighter.com###cookies
 mybodepro.com##.ui-widget, .ui-widget-overlay
 mybustracker.co.uk###zoneCookie
 mycall.no##.modal--consent
+mycan.ceramicartsnetwork.org###nuCookieConsentAlert
 mycard2go.com#@#.cookiebar
 mycards.hdfcbank.com##.hdfc-page > div[style*="center"]
 mycards.hdfcbank.com##.r-1p0dtai
@@ -44207,15 +44202,10 @@ nac-philippines.org###sgcboxWrapper
 nacesty.cz###term-of-use
 nacesty.cz##div.popup-shade
 nachhilfeunterricht.de###pp
-nacidoparaserciclista.com,bonosbienestar.com,hennamorena.com,fiamtorino.eu##.cookiesplus-modal
-nacidoparaserciclista.com,bonosbienestar.com,hennamorena.com,fiamtorino.eu##.fancybox-overlay
-nacidoparaserciclista.com,bonosbienestar.com,hennamorena.com,fiamtorino.eu##body,html:style(overflow: auto !important; position: initial !important;)
 nacka.se##.c-message
 nacongaming.com#%#//scriptlet("set-constant", "tarteaucitron.cookie", "undefined")
 nadeta.cz#$##inshopCookies { display: none !important; }
 nadeta.cz#$#body.mdc-dialog-scroll-lock { overflow: auto !important; }
-nadeta.cz,zonerpress.cz###inshopCookies
-nadeta.cz,zonerpress.cz##body,html:style(overflow: auto !important; position: initial !important;)
 nadia.gov.gr##+js(set-cookie, consent-status, 1)
 naf.no###cookie-consent
 nageurs.com##body > div:not([id]):not([class])
@@ -44602,8 +44592,6 @@ newscatcherapi.com##.fs-consent_banner
 newscientist.com##.prompt
 newscientist.com##.prompt--modal.section
 newsday.com##.policy-alert
-newsello.pl###ns_cookie_accepted
-newsello.pl##body,html:style(overflow: auto !important; position: initial !important;)
 newser.com###divCM
 newsflare.com##.nf-cookie-consent
 newsletter2go.it###hidecookien2go
@@ -44796,7 +44784,6 @@ nn.de#%#//scriptlet('trusted-click-element', '#cmpwrapper >>> a.cmptxt_btn_custo
 noah.si##.kuki
 noahcompendium.co.uk##.overlays
 nobistex.com###sw_cookies
-noblechairs.de##.ck-user-cookie-consent-modal
 noblechairs.de#$#.modal-open { overflow: visible !important; }
 noblechairs.de#$#ck-user-cookie-consent-modal + .modal-backdrop { display: none !important; }
 noblechairs.de#$#ck-user-cookie-consent-modal { display: none !important; }
@@ -47164,8 +47151,6 @@ pornpics.com###cookie-contract
 pornxs.com###cookiePolicyNoticeBox
 pornxs.com##.notify_cookie
 porovnej24.cz##.cookie-agreement-large
-porp.pl##+js(rc, blurred-page, ,stay)
-porp.pl##.cookies-banner-bg
 porque.com.br###termos_analytics
 porsche-toledo.com###popupbox
 porsche.com##.pocs-legal-disclaimer
@@ -48646,8 +48631,6 @@ riassuntini.com##.banner.section.white-bg
 ricaud.com##.hamon
 riccos-camera.de###cookieholder
 ricelake.com##snack-bar-container
-riceundspice.de##+js(rc, disabled, body, stay)
-riceundspice.de##.cookie-wrapper
 ricmais.com.br###privacy_site
 ricochet.com###ricochet-cookie-bar
 ricola.com##.ricola-cookie-info
@@ -53134,9 +53117,7 @@ track-trace.com#$#.tingle-modal[style="z-index: 1100;"] { display: none!importan
 track-trace.com#$#body { position: absolute!important; }
 track24.ru,wakacje.pl,argyle.com,mous.co,treetotub.com,lff.bayern.de,playfulpromises.com,zyro.com,ignshop.hu,download.pixelexperience.org,waterdrop.com,exvital.de,mobile01.com,duckduckgo.merchmadeeasy.com,bear-family.com,r-pur.com,wstream.video##div[aria-label="cookieconsent"]
 tracker.com##.ccModal
-tracker.fressnapf.de##.page-overlay
 tracker.fressnapf.de##.provider-cookies-modal > .page-overlay
-tracker.fressnapf.de##body:style(overflow: auto !important; position: initial !important;)
 trackingmore.com##.public-cookie
 traconelectric.com##.cookie-row
 tradablebits.com,makezine.com,chartable.com###cookie-footer
@@ -56407,6 +56388,8 @@ zomato.com#?##root > div[class]:has(> div[class] > div[class] > a[href="/cookiep
 zombiearmy.com##.warning
 zone.msn.com###cdmDiv
 zone5g.com##body > div:not([id]):not([class])
+zonerpress.cz##+js(set-cookie, adsCookies, false)
+zonerpress.cz##+js(set-cookie, inshopCookiesSet, true)
 zonky.cz##.cookie-consent-shown .application > .flex
 zonmw.nl##.header-notice
 zoo-food.com###policy

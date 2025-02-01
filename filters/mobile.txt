@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-01 09:39:38 RPC
+! Updated: 2025-02-01 16:22:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2221,7 +2221,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -6823,7 +6823,7 @@ cn-healthcare.com##.fh_ad_wrap
 cn.bing.com###id_qrcode_popup_positioner
 cn.bing.com##.b_bza_pole
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*Jr8IbslwuuoZ9kr8cTrXXkY8lfZL5p8v2TTht91DQxXZU9AB6BpwzkAAU2AAAAAElFTkSuQmCC))
+cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*hgAbj3WJSu83ynLkuUc6pXNStPcP2lmm6yyOWqGmKXKfgGsPJ4MmXjD6wAAAABJRU5ErkJggg))
 cn.bing.com,www.bing.com,www4.bing.com$$div[class="BottomAppPro"]
 cn.msn.com##DIV.topAd.cf,DIV.ad,div.left_Bg,div.right_Bg,div.bottomAd.cf
 cn3x.com.cn##.gg1,[class^="list_gg"]
@@ -8575,7 +8575,6 @@ erry.one,hikaritube.com,poyopara.com#?#iframe[src^="https://pokoran.com/ad/"]:up
 erry.one,sugirl.info,nukistream.com###sp_cont_head
 ertk.net,edh.tw##.ad-banner
 esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id] > :nth-child(n+2)
-eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 esmchina.com##div#mytd2,div.Text_AD_Box
 esnai.com##.tlgg
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
@@ -16519,8 +16518,10 @@ paopaoche.net##.down_btn2.green
 paopaoku.com##.bdCont,.admt6,#otherWindow
 paoshuba.cc##.con_ad,.ad250left
 papa8888.com,papashequ.com##div.wp.a_h,div.wp.a_mu
+papalah.com##.sponsor-outer
 papalah.com##.video-ads,.ads-leaderboard
 papalah.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
+papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 papara.com###smart
 parcelsapp.com##.badges
 parismatch.com##.lmn-habmob
@@ -16821,9 +16822,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -23325,6 +23326,7 @@ _zhike.htm
 ||1phads.com^$important
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
+||1qv.fun^
 ||1qwe3r.com^
 ||1r49n.cn^
 ||1s8pj.cn^$third-party
@@ -28988,6 +28990,7 @@ _zhike.htm
 ||as01271kkp.xyz^
 ||as01280kkp.xyz^
 ||as01281kkp.xyz^
+||as02010kkp.xyz^
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
 ||as2.wenku.baidu.com/$subdocument
@@ -34671,6 +34674,7 @@ _zhike.htm
 ||drtrs55.fun^
 ||drumcash.com^$important
 ||drupalchina.cn/sites/default/files/d
+||drustren.com^
 ||drvsky.com/js/jolimark.gif
 ||drydrum.com^
 ||ds-aksb-a.akamaihd.net^$important
@@ -41789,6 +41793,7 @@ _zhike.htm
 ||lsnzxzy1.com/Runtime/js/psData.js
 ||lsp-prod.cmgdigital.com^$important
 ||lstat.youku.com^
+||lsxvnzif.icu^
 ||lsyliel.top^
 ||lt.c.appier.net^$important
 ||ltbyw.top/data/images/*.gif
@@ -41867,6 +41872,7 @@ _zhike.htm
 ||lwmbc.cn^
 ||lwprdv.xyz^
 ||lwrohd.xyz^
+||lwtupzua.icu^
 ||lwtxt.net/gaogao/
 ||lwurserl.top^
 ||lwvrv.icu^
@@ -44928,6 +44934,7 @@ _zhike.htm
 ||ouyaoxiazai.com/static/img/cqthree.gif
 ||ov8ct.icu^
 ||ovalweek.com^
+||oveakmqk.com^
 ||ovejqw.xyz^
 ||overconfidentfood.com^
 ||overkick.com^
@@ -51141,6 +51148,7 @@ _zhike.htm
 ||tb1.bdstatic.com/tb/cms/frs/bg/$image
 ||tb1u.com^$third-party
 ||tb58.net/plugin.php?id=tb58_
+||tbbfdr.icu^
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbm.snssdk.com^
 ||tbsone.imtt.qq.com^
