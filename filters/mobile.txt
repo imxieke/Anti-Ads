@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-01 16:22:13 RPC
+! Updated: 2025-02-02 00:22:12 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9780,6 +9780,8 @@ giga.de#$#body.mobile { padding-top: 0!important; }
 giga.de#?#.alice-teaser-list-item:has(> div[id^="giga.de_gruen_startseite_teaser"]:only-child)
 giga.de,chatgptdemo.info,chat.chatgptdemo.net,mega4upload.com,rarefivem.com,baby-calendar.jp##a[href^="https://play.google.com/store/apps"]
 gigafile.nu##.pr_area_sp
+gigafile.nu#$##area-footer { bottom: 0 !important; }
+gigafile.nu#$##gigafilefly-slot-ol { display: none !important; }
 gigafile.nu#$##sp_container > div#main_panel.container[style^="height:"]{ height: 0!important; }
 gigazine.net###latest > div#LB:has(> div[id^="div-gpt-"])
 gigazine.net###LB[style^="position:"][style*="top"]
@@ -37013,6 +37015,7 @@ _zhike.htm
 ||giftedglue.com^
 ||gig-v4.pops.fastly-insights.com^$important
 ||giga.de/static-local/dist/theme/assets/js/module/giga-*.mobile-stopper.js
+||gigafile.nu/images/banner/kbus_375x100.png
 ||gimy.*/images/eee*.png
 ||ginf.adfurikun.jp^$important
 ||gionee.analytics.glance.inmobi.com^$important

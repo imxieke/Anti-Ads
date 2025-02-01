@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-01 16:22:13 RPC
+! Updated: 2025-02-02 00:22:12 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25094,6 +25094,8 @@ userecho.com,hpplus.jp##.module-share
 userello.ru##.social-on-page
 usermag.co##.available-content > .pencraft:has(> div[class]:only-child > button > .lucide-share)
 userstyles.org###share_div
+userstyles.org##.style-image_shareStyleButtonWrapper__PwC0C
+userstyles.org##div[class^="style-image_shareStyleButtonWrapper_"]
 ushilapychvost.ru,dooralei.ru,mt.360tv.ru##.m-item-post-sharing
 usionline.com##.single-post__socials
 usj.co.jp#@#a[href^="line://msg/"]
