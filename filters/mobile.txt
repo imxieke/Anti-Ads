@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-02 09:36:58 RPC
+! Updated: 2025-02-02 16:22:50 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1222,7 +1222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -2221,7 +2221,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16826,7 +16826,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -36045,6 +36045,7 @@ _zhike.htm
 ||feptbh.xyz^
 ||feqii.com^
 ||fernwaycloud.com^
+||feronyv.com^
 ||ferriesendless.com^
 ||fertilefeeling.com^
 ||fetch.yourblocksite.com^$important
@@ -38710,6 +38711,7 @@ _zhike.htm
 ||ie8eamus.com^$important
 ||ieapak.xyz^
 ||iecmca.xyz^
+||iedullkg.com^
 ||iee5.com^
 ||ieforex.com/r/cms/www/red/red2/images/*0.
 ||iemhotqk.com^
@@ -47636,6 +47638,7 @@ _zhike.htm
 ||rri.appodeal.com^$important
 ||rrjc.com/home/seo/ad/
 ||rrkouuz.icu^
+||rrxapb.icu^
 ||rryy99.com/statics/js/stat.js
 ||rs-xpromotion.appspot.com^$important
 ||rs.adledge.com^$important
@@ -56042,6 +56045,7 @@ _zhike.htm
 ||zk.91post.com^
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
 ||zkads.cc^
+||zkdefuiz.icu^
 ||zkrdzn.xyz^
 ||zkvivi.com/skin/wxc.js
 ||zlbkj.com^
