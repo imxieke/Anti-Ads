@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-03 09:27:54 RPC
+! Updated: 2025-02-03 16:26:04 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11919,6 +11919,7 @@ askerlik.org##.pinterest > a[title^="Pinterest"]
 askmefast.com##div[style="clear:both;position:absolute;top:20px;left:0px"]
 askvg.com#?##content > .post > p:has(> strong:contains(/^Share this article:$/))
 asn24.ru###asd_share_buttons
+asoview.com,event.rakuten.co.jp,sedesign.co.jp,couple-game.net###sns-share
 aspicjapan.org##.p_share
 aspicyperspective.com,budgetbytes.com,butterwithasideofbread.com,downshiftology.com,handletheheat.com,therecipecritic.com##.wprm-call-to-action
 aspor.com.tr##.shareFrame > .item:not(.embed-link)
@@ -13348,6 +13349,7 @@ clevelandclinic.org##div[data-identity="social-share-links"]
 cleverst.com#?##sidebar > aside.widget:has(> div.textwidget > div.custom-widget-title > div.custom-widget-text:contains(Facebook))
 click2houston.com,clickondetroit.com,wsls.com##.vf-share-bar-square > ul > li[class*="share"]:not(.comments)
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.share-tools-buttons-top
+clickhouse.com##.items-center.justify-between.gap-4:has(path[d*="15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0"])
 clickpb.com.br##.pg-newDetail__share
 cliclavoro.gov.it##.tcl-sharer
 clinique.com.tr##.js-social-share
@@ -15013,7 +15015,6 @@ evaveda.com###text-15.widget-container
 evaveda.com###text-4.widget-container
 evening.kodansha.co.jp,morning.kodansha.co.jp,afternoon.kodansha.co.jp###ssSh18v1
 eveningtimes.co.uk##.custom-sharing
-event.rakuten.co.jp,sedesign.co.jp,couple-game.net###sns-share
 eventernote.com##.gb_social
 evernote.com##.social-overlay-open
 every-tuesday.com##.etwp-socialNav
@@ -21740,6 +21741,7 @@ pulzo.com##.container-socialNetworks
 pulzo.com##.ulShare
 punchdrink.com##.nav-main__share
 punchdrink.com##.ups-footer__social
+puntodebreak.com##div[class$="-social"]
 puppet.com##.pm-social--share
 purepc.pl##.article-options2 > span.soc_fbc
 purepc.pl##a[href^="https://plus.google.com/share"]
