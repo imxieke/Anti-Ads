@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-03 16:26:04 RPC
+! Updated: 2025-02-04 00:24:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8296,6 +8296,7 @@ edu.sh.gov.cn#@#.short-ad
 educity.cn##.content_relate:nth-child(5)
 edutt.com##.foot-fixed
 eefocus.com##.detailpage-rolling-ad
+eegg.fun##iframe[id^="rlad_"][src^="/ad_html/"]
 eelly.com##.top-picture
 eenadu.net##.add-block
 eenadu.net##.n-ads
@@ -12827,6 +12828,7 @@ kurashi-no.jp##.Ad_Rectangle
 kurashi-no.jp##div[id^="kurashino1_SP_article_"][style*="min-height: 280px"]
 kurashi-no.jp##div[style$="height: 250px; margin-bottom: 32px;"]
 kurashi-no.jp,minpachi.com##.ad_overlay
+kurashinista.jp###sp_column_header_ad
 kurashiru.com###footer_app
 kurashiru.com###footer_banner_app
 kurashiru.com##.AdsWrapper
