@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-04 00:24:45 RPC
+! Updated: 2025-02-04 09:26:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13751,6 +13751,7 @@ crowdstrike.com##.blog_main_navigation_top
 crtm.es###redesSociales
 cruisecritic.com.au#?#.chakra-skeleton ul[role="list"]:has(> li[class] > button.chakra-button > i + span)
 cruisemapper.com,fakt.pl##.shareWidget
+crunchyroll.com##button[data-t="share-btn"]
 crunchyroll.com,sueddeutsche.de##.twitter-share-button
 crypto-insiders.de,crypto-insiders.es,crypto-insiders.nl##.exp-sharing
 crypto-news-flash.com##.nso_single_social
@@ -14193,6 +14194,7 @@ dictionary.goo.ne.jp##.right_side_sns
 dictionary.goo.ne.jp##.social-button-wide
 did2memo.net###fixed-social-buttons
 diena.lv##.article__sidebar > section > div:has(> div[id^="share"])
+diez.hn,footboom.com,bashinform.ru,archive.vanityfair.com,tubefilter.com,101.ru,glavcom.ua,javhdx.tv##body .socials
 digi24.ro#?#.col-4 > h2:contains(Urmărește-ne și pe)
 digiday.jp##.single-post-sharing
 digikey.com##div[data-testid="share-popup-trigger"]
@@ -15502,7 +15504,6 @@ football-tribe.com##.sharetools-menu
 football24.ua##.share-soc-icons
 footboom.com##.news-afterwords__socials
 footboom.com##div[class^="shs-"]
-footboom.com,bashinform.ru,archive.vanityfair.com,tubefilter.com,101.ru,glavcom.ua,javhdx.tv##body .socials
 footwearnews.com##.btn-whatsapp
 footwearnews.com,indiewire.com##[class^="_socialMedia_"]
 foozine.com##.google-news-card
@@ -16417,9 +16418,12 @@ h-ken.net##.snsButtonList
 h1g.jp##.sns-btn-all
 h2ch.com##tbody > tr > td[valign="top"] + td[width="320px"]
 haaretz.co.il##article header > div > div > div > button[font-size="-2"]:not([elementurl])
+haaretz.com##a[data-test="mailButton"]
 haaretz.com##button[data-test="redditButton"]
 haaretz.com##button[title^="Share in"]
 haaretz.com##div[data-test="shareBar"]
+haaretz.com##section[data-test="articleLayoutRow"] button > svg[data-test^="IconLinkCircle"]
+haaretz.com##section[data-test="articleLayoutRow"] button > svg[data-test^="IconShare"]
 haaretz.com##ul.nav > li[title="Reddit"]
 haaretz.com##ul.nav > li[title="StumbleUpon"]
 haber2000.com##.sosyal2
@@ -18345,6 +18349,7 @@ lemarbet.com##.items-social-buttons
 lematin.ch##button[class^="ActivityButton_"]
 lematin.ch##button[data-testid="ButtonShare"]
 lemillericette.it##.code-block-10
+lemon8-app.com##.article-info > div:has(> svg > path[d*="172A12"])
 lemon8-app.com##svg[class^="nav-bar"][class$="-share"]
 lemonde.fr##.fixed-header-sharing-buttons
 lemonde.fr##.meta__social > li.meta__icon--dropdown
