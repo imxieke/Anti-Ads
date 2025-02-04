@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-04 16:25:06 RPC
+! Updated: 2025-02-05 00:25:19 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13972,6 +13972,7 @@ dcinside.com##.btn_snsmore
 dcnenkin.jp##.column_share
 dcnews.ro##.siteAccessibility
 dcode.fr#?##right > .heading_bar:contains(Share)
+dcrainmaker.com,elements.visualcapitalist.com,marktechpost.com,msmagazine.com,podwatch.io,stuffparentsneed.com##.swp_social_panel
 dcrainmaker.com,msmagazine.com##.swp_floating_horizontal_wrapper
 ddizi.im##.social-a
 ddizi.vip,ddizi.pw,ddizi1.org,ddizi.co##.tw-color
@@ -14685,7 +14686,6 @@ elektrikforum.de,bauexpertenforum.de,modernboard.de,usp-forum.de,win-10-forum.de
 eleman.net###facebox
 eleman.net###facebox_overlay
 elementor.com##.elementor-element-16a16aaa
-elements.visualcapitalist.com,marktechpost.com,msmagazine.com,podwatch.io,stuffparentsneed.com##.swp_social_panel
 elenaruvel.com##.slb
 elespanol.com##.article__footer-nav
 elespanol.com##.share_articulo
@@ -22871,7 +22871,7 @@ sin-space.jp,preply.com##.share-btn-container
 sina.com.cn,hankyung.com##.tool-share
 sinarharian.com.my##a[class*="addthis"]
 sinch.com,rikujyokyogi.co.jp,lor-clinica.com,jdpower.com,hastac.org##.addtoany_list
-sinema.cx,hdfilmizleamk.net,malatyam.com,pembetv18.*,sinekolik.com,filmseyretizlet.com,elzemfilm.org,haberiskelesi.com,efullizle.com,divx720pfilmizle.org,nehir.net,jokerfilmizle.com,arzum.com.tr,malatyahaber.com,720pizle.vip,hdizlefilmleri.com,hdfilmcix.net,afyonhaberturk.com,denizli20haber.com,egegundem.com.tr,diziizle.blog,medyapress.net,vkfilmizle.net,roketdizi.co,nedir.org,kariyer.net,sinemakolik.net,keyfgazetesi.com,sonsaat.com.tr,okudunmuhaberi.com,mavididim.com.tr,filmw.net,filmkapani.com,bilimhaber.net,balikesirhaber.net,gruppal.com,kentvizyonhaber.com,muglagazetesi.com.tr,apron24.com,enzahome.com.tr,habernida.com,full1080pfilmizle.com,istanbultakipte.com,dizilost.com,filmdizievi1.com,sondakika.com.tc,sivashaber.com,anlasevgimi.com,ademocut.com,akdenizhaber.com.tr,donanimhaber.com,kimdirkim.com##.paylas
+sinema.cx,hdfilmizleamk.net,malatyam.com,pembetv18.*,sinekolik.com,filmseyretizlet.com,elzemfilm.org,haberiskelesi.com,efullizle.com,divx720pfilmizle.org,nehir.net,jokerfilmizle.com,arzum.com.tr,malatyahaber.com,720pizle.vip,hdizlefilmleri.com,hdfilmcix.net,afyonhaberturk.com,denizli20haber.com,egegundem.com.tr,diziizle.blog,medyapress.net,vkfilmizle.net,nedir.org,kariyer.net,sinemakolik.net,keyfgazetesi.com,sonsaat.com.tr,okudunmuhaberi.com,mavididim.com.tr,filmw.net,filmkapani.com,bilimhaber.net,balikesirhaber.net,gruppal.com,kentvizyonhaber.com,muglagazetesi.com.tr,apron24.com,enzahome.com.tr,habernida.com,full1080pfilmizle.com,istanbultakipte.com,dizilost.com,filmdizievi1.com,sondakika.com.tc,sivashaber.com,anlasevgimi.com,ademocut.com,akdenizhaber.com.tr,donanimhaber.com,kimdirkim.com##.paylas
 sinemalar.com##a[onclick^="facebookShare"]
 sinemia.com##.box-left > .movie-share-area
 sinemia.com##.post-sidebar > .like-us-new
@@ -24301,6 +24301,7 @@ tienphong.vn##.article-mobile-pin-social ul > li > a.sendsocial
 tiermaker.com##.follow-button
 tiermaker.com#?##footer > div > h5:contains(/^Follow$/)
 tiktok.com###tiktok-share
+tiktok.com##button[data-e2e="share-btn"]
 tiktok.com##button[type="button"]:has(> span[data-e2e="share-icon"])
 tiktok.com##div[class*="DivShareActions"]
 tiktok.com##div[class*="DivShareActions"] + div[data-e2e="challenge-more"]

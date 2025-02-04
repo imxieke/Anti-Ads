@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-04 16:25:06 RPC
+! Updated: 2025-02-05 00:25:19 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11536,6 +11536,7 @@ ip138.com###banana
 ipad.hotnews.ro###ci-div-banner
 ipaddressguide.com##img[alt="iptools android app"]
 ipaddressguide.com##img[alt="iptools apple app"]
+ipaidia.gr##.inarticle-add-mob
 ipc.me##[style^="height:280px;width:336px;"],[id^="BAIDU_SSP__"],[id^="tanxssp-outer-conmm_"],.adsbygoogle,.d300
 ipcelou.com##.MODBanana
 ipcfun.com###crumb_r
