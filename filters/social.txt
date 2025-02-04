@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-04 09:26:38 RPC
+! Updated: 2025-02-04 16:25:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11609,6 +11609,7 @@ android.jlelse.eu,codeburst.io##a[href*="/share/twitter?source="]
 android.jlelse.eu,codeburst.io#?#div:has(> a[href*="/share/twitter?source="]) + div:has(> button > svg > path)
 androidauthority.com###text-44
 androidauthority.com##.single_share_block
+androidauthority.com##main button[type="button"]:has(+ div[class] > .viafoura > div[data-widget="sharebar"])
 androidcentral.com,crackberry.com,imore.com,teslacentral.com,vrheads.com,windowscentral.com##.mn_mbn_share
 androidcentral.com,tomsguide.com,livescience.com,whathifi.com##.socialite-widget-ul
 androidcentral.com,windowscentral.com##.fb_like_and_share
@@ -12952,6 +12953,7 @@ calculator-online.net##.all_share
 calculator-online.net##form a[href="#modal1"] + div[class="col s12 center padding_b_10"]
 calculator-online.net#?#.col:has(> div > div ~ img.facebook)
 calculatorsoup.com##.shareContainerLarge
+call-to-beauty.com,niigata-u.ac.jp,magazine.kinto-jp.com##div[class$="_share"]
 calltouch.ru##.rate__info > div.rate__info__item:has(> div.essb_links)
 calorie.slism.jp##.articleSnsTopSblog
 calorizator.ru###social_group
@@ -20377,7 +20379,6 @@ niezalezna.pl###articleBody > center > a[href][onclick^="fbshare"]
 niezalezna.pl##.sm_icons
 nightout.ru##.social-like-share
 niigata-nippo.co.jp##.article-footer-sns
-niigata-u.ac.jp,magazine.kinto-jp.com##div[class$="_share"]
 nikcenter.org##div[class^="col-"] > div[class^="social-activity-"]
 nikkei-cnbc.co.jp##.side_facebook
 nikkei-cnbc.co.jp##.side_twitter

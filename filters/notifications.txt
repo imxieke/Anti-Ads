@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-04 09:26:38 RPC
+! Updated: 2025-02-04 16:25:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11473,7 +11473,6 @@ mamikreisel.de##.container .js-notification-info
 mammothbikes.com###capaAvisoPoliticaCookies
 mammut.com##.mm-cookie-bar
 manching.de##div[id^="digipublica-cookie-"]
-manda.co.jp,nipponsteel.com,novakidschool.com,novakid.*,bookmark.jpf.go.jp,atmmarketplace.com,zombit.info,digi.ro,freetour.com,digionline.ro,datatech.icu,occto.or.jp,rode.com,blockaway.net,nact.jp,gagaoolala.com,glasschain.org,tidesmarine.com,rentafont.com.ua,croxyproxy.net,croxyproxy.com,knoema.com,srilankan.com,werbemittel24.com,livemint.com,hindustantimes.com,bloomreach.com,esenbogaairport.com,fizzicseducation.com.au,branah.com,shellshock.io,fonts2u.com,otzyvua.net,velonews.com,wikihow.tech,bagdatbaharat.com.tr,escortbook.com,looper.com,fromdoctopdf.com,learnersdictionary.com,spanishdict.com,merriam-webster.com,digi24.ro,antena3.ro,wikihow.com.tr,wikihow.cz,wikihow.it,wikihow.jp,wikihow.vn,wikihow.com,mobil.se,periscope-solutions.com,kyokuyo.co.jp###gdpr
 mangaart.jp,quickshop.gr,polregio.pl,nyman.media,kdl.ru,delonghi.ru,grupoautentica.com.br,garantibbva.com.tr,ustabilir.com,streema.com,schlaganfall-hilfe.de,tinyurl.com,istanbulhospital.com.tr,roma.bakecaincontrii.com##.alert
 mangaplus.shueisha.co.jp##div[class^="styles-module_container_"] > div[class^="styles-module_yellow_"]
 mangaplus.shueisha.co.jp##img[src^="/img/img_gdpr_"] + div[class^="styles-module_body_"]
@@ -12651,6 +12650,7 @@ nieruchomosci-online.pl#$##ci-wrapper { display: none !important; }
 nieruchomosci-online.pl#$#html { overflow: auto !important; }
 niesamowitapolska.eu##.jb-cookie
 nightcafe.studio#%#//scriptlet('trusted-set-local-storage-item', 'acceptsNonCriticalCookies', 'denied')
+nike.com#%#//scriptlet('trusted-click-element', '.custom-radio-field label[for$="-declineLabel"], button[data-testid="confirm-choice-button"]')
 nike.com#%#//scriptlet('trusted-click-element', 'button[aria-label="Accept All"]')
 nike.com.br##div[data-testid="banner-cookies-terms"]
 nikkatsu.com,copywritely.com,getscreen.me,sitechecker.pro##.footer__cookie
@@ -15000,6 +15000,7 @@ senedd.tv#$#.modal-backdrop { display: none !important; }
 senedd.tv#$#body { overflow: auto !important; }
 senetic.de,senetic.pl###rodoRow
 senftenberger-see.de,klinikum-niederlausitz.de##.vcModalTarget
+seniorhome-mado.com,tube8.com,miekinia.pl,redtube.com,youporn.com,aklarsanalmarket.com,autochladek.cz##div[id^="cookie_"]
 senler.ru##.S-Notifications
 sensormatic.com##.universalcookiedisclaimer
 sensorsdata.cn##div[class^="index-module--CookieAuth"]
@@ -15174,6 +15175,7 @@ shutterstock.com##div[data-automation="Eu_banner_container"]
 shuttle.rs,free.navalny.com,tv-in-diretta.it,energydashboard.co.uk,oekolandbau.de,augenheilkunde.de#%#//scriptlet('set-cookie', 'CookieConsent', 'false')
 siamsport.co.th###popup-ss
 siberianhealth.com##.top-informer-container
+siecobywatelska.pl###fupi_cookie_notice
 siemens-home.bsh-group.*##body div.o-cookielaw
 siemens-home.bsh-group.com#$#.cookielaw-modal-layer { display: none!important; }
 siemens-home.bsh-group.com#$#body.cookielaw-blur-background > :not([data-t-decorator="CookieLaw"]) { filter: none!important; }
@@ -16903,7 +16905,6 @@ tu-darmstadt.de#?#.fancybox-overlay:has(div#cookie-modal)
 tu-dresden.de###privacy-statement
 tuasaude.com##.consent-bar-wrapper
 tube8.com##.accept-cookies-wrapper
-tube8.com,miekinia.pl,redtube.com,youporn.com,aklarsanalmarket.com,autochladek.cz##div[id^="cookie_"]
 tube8.com,youporn.com,redtube.com###cookie_consent_wrapper
 tubelion.com###cookies-policy-block
 tudors.com##.cookietudors
@@ -17602,6 +17603,7 @@ vrtranspoint.fi#@##cookie-popup
 vrxdb.com###jet-engine-frontend-js + .elementor-popup-modal[style=""] > div.dialog-lightbox-widget-content
 vs.lv,minutesports.fr,dailystar.co.uk#%#//scriptlet('trusted-click-element', 'button[mode="primary"]')
 vsk.ru##.confidentiality
+vsrap.shop#%#//scriptlet('trusted-set-local-storage-item', 'mw_1012', '{"VALUE":"Y","TIMESTAMP":"","SHOW_ALWAYS":"N"}')
 vstroyka-solo.ru###cookieNoticePopup
 vtb.ru###cookiemsgoffpls
 vtb.ru,hex-rays.com,press.pl,oplacalny-software.pl,plfoto.com###cookies-box
@@ -18171,6 +18173,7 @@ yagsepetim.com,enucuztoptan.com,uraw.com.tr##.notification[data-options*="cookie
 yahoo.com###guce-inline-consent-iframe
 yahoo.com##.js-applet.windowshade .fixed-win.Px-10.Bd-1
 yale.com.tr###cookie-legal-notice
+yamaichi.co.jp,manda.co.jp,nipponsteel.com,novakidschool.com,novakid.*,bookmark.jpf.go.jp,atmmarketplace.com,zombit.info,digi.ro,freetour.com,digionline.ro,datatech.icu,occto.or.jp,rode.com,blockaway.net,nact.jp,gagaoolala.com,glasschain.org,tidesmarine.com,rentafont.com.ua,croxyproxy.net,croxyproxy.com,knoema.com,srilankan.com,werbemittel24.com,livemint.com,hindustantimes.com,bloomreach.com,esenbogaairport.com,fizzicseducation.com.au,branah.com,shellshock.io,fonts2u.com,otzyvua.net,velonews.com,wikihow.tech,bagdatbaharat.com.tr,escortbook.com,looper.com,fromdoctopdf.com,learnersdictionary.com,spanishdict.com,merriam-webster.com,digi24.ro,antena3.ro,wikihow.com.tr,wikihow.cz,wikihow.it,wikihow.jp,wikihow.vn,wikihow.com,mobil.se,periscope-solutions.com,kyokuyo.co.jp###gdpr
 yamal-media.ru,galaxystore.samsung.com,start.ru,betway.com,amie.so,m.soundcloud.com##div[class^="CookieBanner_"]
 yandex.com##.Distribution-Popup
 yapimerkezi.com.tr###div_cerez

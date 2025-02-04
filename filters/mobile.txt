@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-04 09:26:38 RPC
+! Updated: 2025-02-04 16:25:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1356,6 +1356,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 21uscity.com##[class^="ad"],[height="60"]
 21yq.com###AD1
 21yq.com##div[style^="width:980px;height:80px;"]
+22.do##.detail-wrap > div.page-banner:has(> div.row a > img[src="/assets/images/mail/googleplay.png"])
 2200book.com##div.read_banner
 2234.cn##.btngs
 2234.cn##.pc-down_url_left > .pull-left
@@ -2221,7 +2222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8629,7 +8630,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -9392,6 +9393,7 @@ fzlbase.com##.block-long,.ad-6,.ad-5,.ad-R
 fznews.com.cn##.kuang100_right
 g-journal.jp##div[style*="min-height: 250px;"]
 g-journal.jp,tocana.jp,biz-journal.jp##.adsenseArea
+g-mh.org,godamh.com##.adshow
 g-mh.org,godamh.com,manhuafree.com###PwaBarButton
 g-years.com##.textMes,[height="70"],[id^="div-gpt-ad-"],[height="60"]
 g-years.com,ghoffice.cc,gpsuu.com,mydigit.cn###main > .textMes
@@ -31335,6 +31337,7 @@ _zhike.htm
 ||cdhfvrug.xyz^
 ||cdickef.top^
 ||cdilm.cn^
+||cdinmaf.top^
 ||cdipsumf.top^
 ||cdlc.iadvize.com^$important
 ||cdlekgr.icu^
@@ -33275,6 +33278,7 @@ _zhike.htm
 ||crnmyrk.icu^
 ||crodfnyk.xyz^
 ||croissed.info^$important
+||crolerl.com^
 ||cronbaytech.g2afse.com^$important
 ||crookedcreature.com^
 ||cross-promo.mwx.ext.mobilityware.com^$important
@@ -34150,6 +34154,7 @@ _zhike.htm
 ||dh.xfplay.com/home/home_game_new_*.json
 ||dhapp.qianhaitech.cn/api/ad^
 ||dheirzeh.com^
+||dhemixu.com^
 ||dhg-logging.us-east-1.elasticbeanstalk.com^$important
 ||dhgdp.cn^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
@@ -34916,6 +34921,7 @@ _zhike.htm
 ||dzwww.com/images/ad_down.js
 ||dzwww.com/k.js
 ||dzz8.com/public/ptcms/s_wap_novelsearch_chapter_read.js
+||dzzdspiu.icu^
 ||e-10399.adzerk.net^$important
 ||e-adimages.scrippsnetworks.com^$important
 ||e-bannerx.com^$important
@@ -37192,6 +37198,7 @@ _zhike.htm
 ||gocm.c.appier.net^$important
 ||gocp.stroeermediabrands.de^$important
 ||gocye.com^$third-party
+||godamanga.online/ad/
 ||godloveme.cn^
 ||godlu.com^
 ||godlygeese.com^
@@ -38913,6 +38920,7 @@ _zhike.htm
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||ilyonanalytics.herokuapp.com^$important
 ||ilzies.com^
+||im.1vkx.cn/uploads/images/*.gif$third-party
 ||im.adtech.de^$important
 ||im.ov.yahoo.co.jp^
 ||im286.net/286/
@@ -50559,8 +50567,6 @@ _zhike.htm
 ||suibiankan.co/Runtime/Js/
 ||suibianlu.com/zb_users/ad/
 ||suibianlu.com/zb_users/theme/tx_fzy/script/zhao.js
-||suidodo.com/public/*/plugins/
-||suidodo.com/public/1/assets/js/custom/tt.
 ||suimeng.com/js/$document
 ||suite-analytics.socialbakers.com^$important
 ||suite-builder.socialbakers.com^$important
@@ -50805,6 +50811,8 @@ _zhike.htm
 ||syxgsq.com.cn^
 ||syzjxz2018.cn^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
+||szaction.cc/public/*/assets/js/custom/tt.
+||szaction.cc/public/*/plugins/
 ||szapaqi.cn^
 ||szbxw.cn^
 ||szfcol.com/images/wxright240.jpg
@@ -51178,6 +51186,7 @@ _zhike.htm
 ||tcfgtd.xyz^
 ||tcheck.outbrainimg.com^$important
 ||tcheeter.com^
+||tciqgx.xyz^
 ||tck.synerise.com^$important
 ||tclimii.top^
 ||tcmap.com.cn/js/b_
@@ -53705,6 +53714,7 @@ _zhike.htm
 ||vxdrfr.xyz^
 ||vxotu.com/i/*.gif
 ||vxpdfb.xyz^
+||vxpnld.icu^
 ||vyk.admaster.com.cn^$important
 ||vyrpoe.cn^
 ||vz-cdn.trafficjunky.net^$important
