@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-05 00:25:19 RPC
+! Updated: 2025-02-05 09:27:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12964,6 +12964,7 @@ cambridge.org##.socialFooter
 cambridgeindependent.co.uk##.SocialArticleIcons + hr
 cameralabs.org##.albomsocial > a[rel="nofollow"]
 cameralabs.org##.data-social
+camhub.cc##.col > div.btn-holder:has(> a.btn > i > svg.icon-share)
 caminteresse.fr##.articleSocials
 campaign.line.me##section[id$="-fixed-share"]
 campify.jp##.btn-line-fixed
@@ -13944,6 +13945,7 @@ danas.hr#?#div[class^="css"] > div.cls_frame:has(> div.fb_iframe_widget)
 danas.hr#?#div[class^="css-"]:has(> div[id^="midasWidget"])
 danro.bar,hypebeast.com,yna.co.kr##[class*="-share"]
 dansingerman.com,fark.com,radioguide.fm,rare.us,thetvaddict.com###twitter
+danslescoulisses.com##.social-links
 dantri.com.vn##.cpanel-action > li:not(.line)
 darkreading.com##.sns-sharing
 darkreading.com##.SubscribeBannerTopicPage
@@ -14424,6 +14426,7 @@ dq.h1g.jp###openModal
 dq11.jp,dragonquest.jp,dqx.jp,square-enix.com##.sqex-footer-shares-wrap
 dr-farfar.com##div[class^="essb-sharebooster"]
 dr-stone.jp,bokumachi-anime.com,sololeveling-anime.net,mahoyome.jp,mononoke-movie.com,murabito-a-anime.com##.footer__share
+dr.dk##.dre-sticky-share-band
 dragonball-multiverse.com#@#.social-networks
 dragonbounbd.foroactivo.com#@#.social_btn
 dramacool.*##li[onclick*="'sharer'"]
@@ -18792,7 +18795,6 @@ m.sabah.com.tr##.social-fixed
 m.segye.com##.naver
 m.segye.com,weekly.chosun.com,topclass.chosun.com##.kakao
 m.shop.interpark.com##.shareCol
-m.slashdot.org,ssrn.com,g24.gal,techgear.gr,fortnite.com,firstsportz.com,panini.com.br,theadvocate.com,dagbladet.no,estadao.com.br,techbang.com,punto-informatico.it,lemon8-app.com,kauf-unique.de,rebootonline.com,seireigensouki.com,moriarty-anime.com,pokemon.co.jp,familyminded.com,workandmoney.com,you.regettingold.com,robots.net,cnews.ru,konkret24.tvn24.pl,dailyprogress.com,webtekno.com##.share-container
 m.sobaka.ru##.b-head-share
 m.sobaka.ru##.b-head-share-button
 m.sports.khan.co.kr##.nav_sns
@@ -19182,7 +19184,9 @@ medongroup-spb.ru##.blog-item__soc
 medrxiv.org##.service-links > a[href^="/highwire_log/share/"]
 meduniwien.ac.at,shipmag.it,today.rtl.lu##.socialbar
 meduza.io###DailySubscriber
+meduza.io##.GeneralMaterial-module-share
 meduza.io##.MaterialNote
+meduza.io##.SharePanel-module-root
 meduza.io##.Toolbar
 meduza.io##div[class^="styled__ShareTitle-"]
 meduza.io##div[data-cy="share_buttons"]
@@ -25567,6 +25571,7 @@ watchcartoonsonline.eu###text-2:nth-child(2)
 watchfaces.be###secondary > aside#text-5
 watchguard.com##.addtoany
 watchinamerica.com##.spc-social-block
+watchmojo.com,m.slashdot.org,ssrn.com,g24.gal,techgear.gr,fortnite.com,firstsportz.com,panini.com.br,theadvocate.com,dagbladet.no,estadao.com.br,techbang.com,punto-informatico.it,lemon8-app.com,kauf-unique.de,rebootonline.com,seireigensouki.com,moriarty-anime.com,pokemon.co.jp,familyminded.com,workandmoney.com,you.regettingold.com,robots.net,cnews.ru,konkret24.tvn24.pl,dailyprogress.com,webtekno.com##.share-container
 watchseinfeld.com,eropasture.com##.social_box
 watchseries.cyou#@#.addthis_inline_share_toolbox
 watchserieshd.tv,watchmovie.movie##.video-socialshare-container

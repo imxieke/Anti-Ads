@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-05 00:25:19 RPC
+! Updated: 2025-02-05 09:27:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2391,8 +2391,8 @@
 21vek.by#$##modal-cookie { display: none !important; }
 21vek.by#$#body { overflow: auto !important; }
 23andme.com###js-gdpr-optin
+24sata.hr,lalibre.be,filmstarts.de,nrj-play.fr,movilzona.es,softonic.com#%#//scriptlet('trusted-click-element', '.didomi-consent-popup-actions > button.didomi-components-button:not(.highlight-button)')
 24sata.hr,lalibre.be,index.hr,filmstarts.de,nrj-play.fr,movilzona.es,softonic.com#%#//scriptlet('trusted-click-element', '#didomi-notice-learn-more-button')
-24sata.hr,lalibre.be,index.hr,filmstarts.de,nrj-play.fr,movilzona.es,softonic.com#%#//scriptlet('trusted-click-element', '.didomi-consent-popup-actions > button.didomi-components-button:not(.highlight-button)')
 24tv.ua##.private-policy
 2captcha.com##.app-level-notifications
 2dehands.be,2ememain.be,marktplaats.nl##.gdpr-bottom-banner-container
@@ -6263,6 +6263,7 @@ comarch.pl#%#//scriptlet('trusted-click-element', '.consent-modal__general-btn >
 combi.de#$#.modal--cookie-notice { display: none !important; }
 combi.de#$#body { overflow: auto !important; }
 comcast.com##.c-top-banner
+come-on.de#$?#.cmp-modal-open { overflow: auto !important; }
 come-on.de,fr.de,merkur.de,heidelberg24.de,promipool.de#%#//scriptlet('trusted-click-element', '.cmp-root-container >>> .cmp-button-accept-all')
 comeinunafavola.it##.bandacookies
 comiccave.de#%#//scriptlet('set-cookie', 'mnd-cookie-accepted-comiccavede1', '1')
@@ -9822,6 +9823,8 @@ indeed.com##div[data-gnav-region="GlobalPrivacyControlBanner"]
 independent.com.mt#%#//scriptlet('set-cookie', 'ShowCookiePolicy', 'False')
 independent.ie###gdpr18
 independer.nl##.ind-cbar
+index.hr#%#//scriptlet('trusted-click-element', '#btn-toggle-save','','700')
+index.hr#%#//scriptlet('trusted-click-element', '#didomi-radio-option-disagree-to-all','','500')
 india.com,oneindia.com##.open-app
 indiatimes.com##.cookie_info
 indiatoday.in##.tapBoxCls
