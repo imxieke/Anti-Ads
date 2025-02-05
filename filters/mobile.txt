@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-05 09:27:14 RPC
+! Updated: 2025-02-05 16:23:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1222,7 +1222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -6297,6 +6297,7 @@ camp-fire.jp###main ~ section > div[class]:has(> img[src*="_app"])
 camp-fire.jp##.pc-banner
 campify.jp###text-16
 camscanner.com##.orcode_box
+canal26.com##nav > .top-0.h-10.z-20
 cancam.jp###addToHomeScreen
 cancam.jp#@#.overlay-ad
 candidates.jobandtalent.com##.DownloadAppWidget
@@ -13192,6 +13193,7 @@ linovel.net##div.download-app
 linovelib.com#$##byspider { display: none !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
 linovelib.com#%#//scriptlet('set-constant', 'adblock', '0')
+linovelib.com#@#.ads_box
 linux.cn##.linuxcnad
 linux.cn##a[href^="https://linux.cn/go/"]
 linux.cn##[href^="http://linux.cn/go/"],[href^="https://linux.cn/go/"],.linuxcnad
@@ -16687,6 +16689,7 @@ peachjohn.co.jp##.block-footer-guide--service a[href="/app"]
 peakvisor.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'installAppDialog')
 pechinchou.com.br###ads-download-app-product
 pediy.com##.bbs_footer_advertising_column
+peing.net##body > button.close-button[style^="position: fixed; left: 50%; background: none;"]
 peing.net##div[id^="ad-container"]
 peiyinxiu.com##div.divRecvideo.swiper-correction
 peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/attachment/portal/"]
@@ -16835,7 +16838,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -37842,6 +37845,7 @@ _zhike.htm
 ||hdc.maxli.cn^
 ||hdchina.*/styles/topshow/AD/
 ||hdickeu.top^
+||hdinmau.top^
 ||hdinmiu.top^
 ||hdipsumu.top^
 ||hdjthzg.cn^
@@ -39663,6 +39667,8 @@ _zhike.htm
 ||is-gateway.supersonicads.com^$important
 ||is-tracking-pixel-api-prod.appspot.com^$important
 ||is.yllix.com^$important
+||is02041qqp.xyz^
+||is02050qqp.xyz^
 ||is686.com^
 ||is686.com^$third-party
 ||isboost.co.jp^
@@ -46639,6 +46645,7 @@ _zhike.htm
 ||qh.la/post.php
 ||qh.la/static/js/nrwzl.js
 ||qh.la/static/js/true.js
+||qhaccid.com^
 ||qhatarsl.com^
 ||qhcksjb.com/static/js/lunbo.js
 ||qhdi.com/ttxnb.php
@@ -47657,6 +47664,7 @@ _zhike.htm
 ||rri.appodeal.com^$important
 ||rrjc.com/home/seo/ad/
 ||rrkouuz.icu^
+||rrptnkao.icu^
 ||rrxapb.icu^
 ||rryy99.com/statics/js/stat.js
 ||rs-xpromotion.appspot.com^$important
@@ -48899,6 +48907,7 @@ _zhike.htm
 ||sh5.icu^
 ||sh996.dftoutiao.com^
 ||shadeship.com^
+||shaenphiks.com^
 ||shaggytank.com^
 ||shakegoldfish.com^
 ||shakesea.com^$important

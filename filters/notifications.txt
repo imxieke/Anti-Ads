@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-05 09:27:14 RPC
+! Updated: 2025-02-05 16:23:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7783,7 +7783,6 @@ eundl.de#$##cookie-info ~ .modal-backdrop { display: none !important; }
 eundl.de#$#.modal-open .page-wrapper { -webkit-filter: none !important; -moz-filter: none !important; -o-filter: none !important; filter: none !important; }
 eundl.de#$#.modal-open { overflow: visible !important; }
 eundl.de#@##cookie-info
-eures.praca.gov.pl,johnnyseeds.com##.cookie-bar-container
 euroakademie.de###coockiehinweis
 eurobuch.de###consentBanner1
 eurocolor.com.pl,corporate.ccc.eu,modivo.com,medezin.pl,erbud.pl,nomonday.pl,blik.com###cm-overlay
@@ -13942,6 +13941,7 @@ praca.by#$#body { overflow: auto !important; padding-right: 0 !important; }
 praca.by#@#.cookie-confirm
 praca.gov.pl##.cdk-overlay-container:has( .mat-dialog-content > div > a[href="https://praca.gov.pl"])
 praca.gov.pl##.komunikat-panel-cookies
+praca.gov.pl,johnnyseeds.com##.cookie-bar-container
 pracezdopravy.cz,zdopravy.cz###open_preferences_center
 pracodawcy.pracuj.pl#$##__next > div[class] > div[class] > div[data-library="@grupa-pracuj/cookie-agreements"] { display: none !important; }
 pracodawcy.pracuj.pl#$#body { overflow-y: auto !important; }
