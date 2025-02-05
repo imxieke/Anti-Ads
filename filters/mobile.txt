@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-05 16:23:53 RPC
+! Updated: 2025-02-06 00:24:56 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9312,6 +9312,7 @@ fun48.com###float2016
 fun48.com##.margin-big-bottom
 funabashi-tsushin.com,kashiwa-tsushin.com,katsushika-tsushin.com,matsudo-tsushin.com,misato-gurashi.com##.category2 > a[href*="utm_source="][target="_blank"]
 fund.eastmoney.com##div[data-url^="//same.eastmoney.com/"]
+furunavi.jp##.footer-applink
 fusetter.com##.sp_ad
 fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
 futura-sciences.com,forocoches.com,macg.co##.optidigital-wrapper-div
@@ -27158,6 +27159,8 @@ _zhike.htm
 ||adx-east-bidder.manage.com^$important
 ||adx-eu-bidder.manage.com^$important
 ||adx-open-service.youku.com^
+||adx-os.bridgeoos.com^
+||adx-sg-req.bridgeoos.com^
 ||adx-tk.rayjump.com^
 ||adx-west-bidder.manage.com^$important
 ||adx-winners-ap-southeast-1-rtb.adroll.com^$important
@@ -28262,6 +28265,7 @@ _zhike.htm
 ||api.bluecore.com^$important
 ||api.bounceexchange.com^$important
 ||api.brandify.com^$important
+||api.bridgeoos.com^
 ||api.browser.miui.com/bsr/pref$replace=/"go_supermarket_disable":"false"/"go_supermarket_disable":"true"/
 ||api.browser.miui.com/bsr/resource/popup?
 ||api.brs.intl.miui.com^
@@ -28359,6 +28363,7 @@ _zhike.htm
 ||api.itv.letv.com^$important
 ||api.ivymobile.com^$important
 ||api.keen.io^$important
+||api.kickoffo.site^
 ||api.kiip.me^$important
 ||api.kochava.com^$important
 ||api.kostprice.com/api/amp-widget$domain=m.gadgets.ndtv.com

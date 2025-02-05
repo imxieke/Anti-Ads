@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-05 16:23:53 RPC
+! Updated: 2025-02-06 00:24:56 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12102,6 +12102,7 @@ azpolitika.info##.lrshare_interfacehorizontal > lr > lrc > [class]:not(.lrshare_
 azscore.co.it,azscore.com##.follow-us-container-footer
 b.hatena.ne.jp##.social-buttons-wrapper
 b17.ru##.a_art_share
+b17.ru##span[title="Поделиться"]
 b4bschwaben.de##.nfy-footer-social
 b4bschwaben.de##.nfy-social-media
 b9.com.br##.c-social-midias
@@ -12796,7 +12797,6 @@ buildcomputers.net#?##ContentColumn > .Liner > div[style="width: 100%; box-sizin
 builder.io##.share-icons-column
 bul.az#?#.right-section > div[style^="position:"]:has(.active > h2:contains(Facebook səhifəmiz))
 bulawayo24.com,canalarte1.uol.com.br,canavesenews.it,cleartechnology.nl,dbknews.com,designtaxi.com,foreca.fi,hqbabes.com,hqsluts.com,keepone.net,libsyn.com,m.tribunnews.com,memuplay.com,meteoblue.com,monstercockland.com,seroundtable.com,sohu.com,sputnik-abkhazia.ru,sputnik-georgia.ru,sputnik-ossetia.ru,sputniknewslv.com,themoviedb.org,voltairenet.org,xvideos-br.com,xxxymovies.com###share
-bulawayo24.com,canalarte1.uol.com.br,canavesenews.it,dbknews.com,designtaxi.com,foreca.fi,hqbabes.com,hqsluts.com,keepone.net,libsyn.com,m.tribunnews.com,memuplay.com,meteoblue.com,monstercockland.com,seroundtable.com,sohu.com,sputnik-abkhazia.ru,sputnik-georgia.ru,sputnik-ossetia.ru,sputniknewslv.com,themoviedb.org,voltairenet.org,xvideos-br.com,xxxymovies.com###share
 bulawayo24.com,cnr.cn,foodbeast.com,forbes.ru,iol.pt,levantenews.it,twistedfood.co.uk##.shares
 bulurum.com###socialBox
 buly1803.com#@##social_block
@@ -13207,7 +13207,7 @@ cheats.co#?##sidebar > div:not([class], [id]):has(> div:not([class], [id]) > but
 cheattr.com##.widget-area > #text-13:first-child
 chebo.pro##.image-hover-share
 chebo.pro#?#.p_bold > span.rating:contains(Поделитесь)
-check-host.net#%#//scriptlet('remove-node-text', '#text', '/Поделиться|Share on/')
+check-host.net#%#//scriptlet('remove-node-text', 'span', '/Поделиться|Share on/')
 cheesequeen.co.kr#@#.sns_list
 cheezburger.com##.chz-share
 cheezburger.com##.js-share-pinterest
@@ -20006,7 +20006,6 @@ nba.com###nbaArticleCopySocial
 nba.com##.stats-share-button
 nba.com##div[id^="nbaArticleSocialWrapper"]
 nbcnews.com##.article-social-share-top
-nbcnews.com##.ShareTools
 nbcnews.com##.share__container--article
 nbcnews.com##.stack-list-share > li:first-child
 nbcnews.com##.stack-list-share > li:nth-child(2)
@@ -21485,6 +21484,7 @@ porsche.com##.b-sharepanel
 portableapps.com##.social-bottons
 portafolio.co##.container__boton-whatsapp
 portafolio.co##.share-redes
+portafolio.co##div[class^="share-"]
 portail.free.fr###boutonsdepartage
 portal.munimolina.gob.pe#@##fb-root:not(body):not(html)
 portal.munimolina.gob.pe#@#.fb-page
@@ -25901,6 +25901,7 @@ ww9.bookys-ebooks.com#?#.p-4 > h2.text-lg:contains(Partager)
 wwdjapan.com##.wwdj-entry-social
 wwf.or.jp##.socialBtnArea
 wws-channel.com##li[class*="_sharelist_"]:not(.last)
+www-nbcnews-com.cdn.ampproject.org,nbcnews.com##.ShareTools
 www-news18-com.cdn.ampproject.org##.story-social-share-fix > ul
 www-pocket--lint-com.cdn.ampproject.org##.extras > .social
 www-timesofisrael-com.cdn.ampproject.org##.article-content-container > .social
@@ -25970,6 +25971,7 @@ xn--pckua2a7gp15o89zb.com,bosai-nippon.com,zeromeat.jp,anime.granbluefantasy.jp#
 xn--r8jwklh769h2mc880dk1o431a.com##div[id^="snsbox"]
 xpgamesaves.com,avforums.com##.WidgetFramework_WidgetRenderer_ShareThisPage
 xrite.com,pchela.news,mrsgreenapple.com,siecledigital.fr,riotgames.com,vk.sportsbull.jp,alfalfalfa.com,kto-chto-gde.ru,prozoro.net.ua,focus.ua,skysports.com,vice.com,sovsport.ru##.social-list
+xronos.gr##.addtoany-node
 xsplit.com##._1lC4OG6VwLWAnm-xmny2Fg
 xsport.ua##.social-share-holder
 xsport.ua##.social-sharer-holder

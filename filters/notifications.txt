@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-05 16:23:53 RPC
+! Updated: 2025-02-06 00:24:56 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2171,7 +2171,7 @@
 /mobile-welcome-overlay/*$script
 /MobileDownloadBanner.js
 /modules/kixelltag/views/js/kst-$script
-/modules/x13eucookies/*$domain=gsm24.pl|promees.pl|meblujdom.pl|vita.biz.pl|shopgracz.pl|lanto.pl
+/modules/x13eucookies/*$domain=gsm24.pl|promees.pl|meblujdom.pl|vita.biz.pl|shopgracz.pl|lanto.pl|skiteam.pl
 /mod_consent/js/*$script
 /mod_cookiesaccept/*
 /mod_jbcookies/*
@@ -5152,6 +5152,7 @@ bihealth.org#$#.cookiebanner { display: none!important; }
 bihealth.org#$#html { overflow: visible!important; }
 bihealth.org#@#.cookie-popup:not(body):not(html)
 bihealth.org#@#.cookiebanner:not(body)
+bijouterie-clouzeau.fr,turuncukasa.com##.popin
 bike-discount.de,fahrrad-xxl.de###element_cookie_banner
 bike-forum.cz#%#//scriptlet('trusted-click-element', '.bootstrap-dialog .btn-std')
 bike-onlineshop.de,futspo.de###newCookieJar
@@ -9374,6 +9375,7 @@ hey.car##.kigihv-0.fZYjaO
 hey.car#%#//scriptlet("set-constant", "_PRELOADED_STATE__.cookieDashboard.hasSavedCookieSettings", "true")
 heycar.co.uk#$#body { overflow: auto !important; }
 heycar.co.uk#$#div[class^="Consent_cookieModal_"] { display: none !important; }
+heydude.pl,crocs.pl##.cookie-banner-consent
 heygen.com##.cw-cookie_banner
 heyhaustier.de##.cmplz-soft-cookiewall
 heyprint.pl,treevi.pl###__cp
@@ -9429,7 +9431,7 @@ hitdiscount.by,groshyk.by#@#.cookies-container
 hitman.com##.comp-flash-notice
 hitobuwie.pl###v-cookielaw-background
 hk.on.cc###acceptDisclaimer
-hln.be,myprivacy.dpgmedia.be,myprivacy.dpgmedia.nl#%#//scriptlet('trusted-click-element', '#pg-root-shadow-host >>> button#pg-accept-btn')
+hln.be,myprivacy.dpgmedia.be,myprivacy.dpgmedia.nl#%#//scriptlet('trusted-click-element', '[id^="pg-"][id*="root"][id*="shadow"] >>> button#pg-accept-btn')
 hm.com#$#body.cookie-notification #bar { top: 0!important; }
 hm.com#$#body.cookie-notification { margin-top: 0!important; }
 hm.com#@#.cookie-notification
@@ -9910,7 +9912,7 @@ insomnia.gr###elInsomniaCookieBar
 insource.co.jp##.m_cookieBanner
 instagram.com##._acc8
 instagram.com#$#body { overflow: visible!important; }
-instagram.com#%#//scriptlet('trusted-click-element', 'div[role="dialog"] > div[style] > ._abdc:has(> div[class] a[href^="https://privacycenter.instagram.com/policies/cookies/"]) ~ button._a9_1')
+instagram.com#%#//scriptlet('trusted-click-element', 'div[role="dialog"] div[style] > ._abdc:has(> div[class] a[href^="https://privacycenter.instagram.com/policies/cookies/"]) ~ button._a9_1')
 instagram.com,facebook.com##div[data-cookiebanner="banner"]
 instalguru.com##div[class^="styles__cookie-panel"]
 instalki.pl###ciasteczka
@@ -10368,6 +10370,8 @@ kanalsportowy.pl#$#.app-cmp { display: none !important; }
 kanalsportowy.pl#$#body { overflow: auto !important; }
 kanaries.net##div[aria-label="cookie consent"]
 kanebo-global.com##.tmp-privacyNotice
+kanga.exchange#$#article[class^="Cookies"] { display: none !important; }
+kanga.exchange#$#body { overflow: auto !important; }
 kangu.com.br##.app-cookie-manager
 kankocho.jp##.footer-pilicy-attention
 kantenschutzprofi.shop#@#.cookie-consent-content
@@ -15776,6 +15780,7 @@ stories.bsh-group.com##.cookies_overlay-wrapper
 stories.com#%#document.cookie="newsletter-signup=viewed; path=/;";
 stormmanagement.com##.alert-banner--cookie
 storriss.com,umed.lodz.pl,dccomics.com###consent-modal
+storyboardthat.com##body #cookieConsentContainer
 storyfire.com,s7.ru##.cookie-usage
 storytel.ae,storytel.com.tr,storytel.dk,storytel.es,storytel.fi,storytel.in,storytel.is,storytel.nl,storytel.no,storytel.pl,storytel.ru,storytel.se###cookieWall
 stpetecatalyst.com#%#//scriptlet('trusted-set-cookie', 'newsletter_popup_dismissed', '1')
@@ -16973,7 +16978,6 @@ turkusowawieza.pl,coder.com#%#//scriptlet('set-local-storage-item', 'cookie', 't
 turkuvazkitap.com.tr,muhitkitap.com.tr,support.a1.by,kargomsende.com,aboneturkuvaz.com,omroepbrabant.nl,tdp.com.tr,turkuvazabone.com,turkuvazmatbaacilik.com##.sticky-footer
 turn-on.de#@##onetrust-consent-sdk
 turna.com##.cookie-policy-dialog
-turuncukasa.com##.popin
 tutonaut.de#%#//scriptlet('set-cookie', 'wpl_viewed_cookie', 'yes')
 tutorialsinhand.com##.bottomcontent
 tuttitalia.it,nonsolocap.it###cookieChoiceBdrop
@@ -17022,9 +17026,9 @@ tweakboxapp.com##cookiless-div
 tweakers.net###koekjeBar
 tweakers.net##.notificationsContainer
 tweakers.net##.noTrackingMessage
-tweakers.net#%#//scriptlet('trusted-click-element', '#pg-root-shadow-host >>> button#pg-configure-btn')
-tweakers.net#%#//scriptlet('trusted-click-element', '#pg-root-shadow-host >>> button#pg-reject-btn')
 tweakers.net#%#//scriptlet('trusted-click-element', 'button[data-action="refuseAll"]', '!cookie:SSLB', '800')
+tweakers.net#%#//scriptlet('trusted-click-element', '[id^="pg-"][id*="root"][id*="shadow"] >>> button#pg-configure-btn')
+tweakers.net#%#//scriptlet('trusted-click-element', '[id^="pg-"][id*="root"][id*="shadow"] >>> button#pg-reject-btn')
 tweakers.net#@##cookieContainer
 tweakers.net#@##cookieOverlay
 tweakers.net#@#.cookieNotice:not(body):not(html)
@@ -18547,7 +18551,7 @@ _eu_cookie_
 ||cdn.idealo.com/storage/cmp/consent-management.js
 ||cdn.images.express.co.uk/cmp/cmpui.html
 ||cdn.iubenda.com/cs/iubenda_cs.js$domain=agrigentonotizie.it|anconatoday.it|arezzonotizie.it|avellinotoday.it|baritoday.it|bolognatoday.it|bresciatoday.it|brindisireport.it|cagliaritoday.it|casertanews.it|cataniatoday.it|cesenatoday.it|chietitoday.it|ferraratoday.it|firenzetoday.it|foggiatoday.it|forlitoday.it|frosinonetoday.it|genovatoday.it|ilpescara.it|ilpiacenza.it|latinatoday.it|lecceprima.it|leccotoday.it|livornotoday.it|messinatoday.it|milanotoday.it|modenatoday.it|monzatoday.it|napolitoday.it|novaratoday.it|padovaoggi.it|palermotoday.it|parmatoday.it|perugiatoday.it|pisatoday.it|pordenonetoday.it|quicomo.it|ravennatoday.it|reggiotoday.it|riminitoday.it|salernotoday.it|sondriotoday.it|ternitoday.it|torinotoday.it|trentotoday.it|trevisotoday.it|triesteprima.it|udinetoday.it|veneziatoday.it|veronasera.it|vicenzatoday.it|viterbotoday.it|dragonsecret.it
-||cdn.iubenda.com^$domain=routinehub.co|eprice.it|roma.bakeca.it|gdrplayers.it|centridentisticiprimo.it|grilli.org|oncewerenerd.com|costacruises.eu|ilsussidiario.net|laragione.eu|litter-robot.com|strapstudio.com|elimobile.it|crel.it|viaggiarerent.com|eurospin.it|shoujo-love.net|open3dlab.com|unicusano.it|moveo.telepass.com|bobsbusiness.co.uk|caseecase-roma.it|smartworld.it|scuoladelia.it|studenti.it|pierucciagricoltura.it|newatlas.com|quark.com|frame.work|aranzulla.it|sorrisi.com|automateexcel.com|ticketsms.it|cagliaripad.it|maggiolieditore.it|rivistadomino.it|ikonos.tv|fidelityhouse.eu|asustore.it|connetti.italia.it|comet.it|trony.it|optimaitalia.com|ridevideogame.com|biopills.net|crazygames.pl|giallozafferano.it|hwupgrade.it|rdrbikes.it|formu1a.uno|boilerroom.tv|gta-series.com|zeusnews.it|vgpplay.com|libretro.com|lunarg.com|rausgegangen.de|dire.it|sanihelp.it|textexpander.com|victoriassecretbeauty.it|businessschool.luiss.it|rifiutologia.it|centrocommercialeaura.it|baopublishing.it|karina-lergenmueller.de|torrinomedica.it|policlinicocampusbiomedico.it|policlinicogemelli.it|prospectmagazine.co.uk|drcommodore.it|stilcasa.net|farmaciasanvito.com|webtoppings.bar|homerun.co.uk|assodigitale.it|emisupermercati.it|internazionale.it|easycoop.com|sancarloveterinaria.it|profumeriamancino.com|attivissimo.me|comixrevolution.com|rinascente.it|martysmods.com|inclusiva-mente.it|quotidianodipuglia.it|muscleandstrength.com|manytricks.com|sportler.com|inciso.it|antoninolagana.it|coolors.co|film.it|cash-back.it|apothekeloreto.de
+||cdn.iubenda.com^$domain=routinehub.co|eprice.it|roma.bakeca.it|gdrplayers.it|centridentisticiprimo.it|grilli.org|oncewerenerd.com|costacruises.eu|ilsussidiario.net|laragione.eu|litter-robot.com|strapstudio.com|elimobile.it|crel.it|viaggiarerent.com|eurospin.it|shoujo-love.net|open3dlab.com|unicusano.it|moveo.telepass.com|bobsbusiness.co.uk|caseecase-roma.it|smartworld.it|scuoladelia.it|studenti.it|pierucciagricoltura.it|newatlas.com|quark.com|frame.work|aranzulla.it|sorrisi.com|automateexcel.com|ticketsms.it|cagliaripad.it|maggiolieditore.it|rivistadomino.it|ikonos.tv|fidelityhouse.eu|asustore.it|connetti.italia.it|comet.it|trony.it|optimaitalia.com|ridevideogame.com|biopills.net|crazygames.pl|giallozafferano.it|hwupgrade.it|rdrbikes.it|formu1a.uno|boilerroom.tv|gta-series.com|zeusnews.it|vgpplay.com|libretro.com|lunarg.com|rausgegangen.de|dire.it|sanihelp.it|textexpander.com|victoriassecretbeauty.it|businessschool.luiss.it|rifiutologia.it|centrocommercialeaura.it|baopublishing.it|karina-lergenmueller.de|torrinomedica.it|policlinicocampusbiomedico.it|policlinicogemelli.it|prospectmagazine.co.uk|drcommodore.it|stilcasa.net|farmaciasanvito.com|webtoppings.bar|homerun.co.uk|assodigitale.it|emisupermercati.it|internazionale.it|easycoop.com|sancarloveterinaria.it|profumeriamancino.com|attivissimo.me|comixrevolution.com|rinascente.it|martysmods.com|inclusiva-mente.it|quotidianodipuglia.it|muscleandstrength.com|manytricks.com|sportler.com|inciso.it|antoninolagana.it|coolors.co|film.it|cash-back.it|apothekeloreto.de|incube8games.com
 ||cdn.izinal.com^$third-party
 ||cdn.jsdelivr.net/npm/@lmc-eu/cookie-consent-manager$domain=teamio.com
 ||cdn.myklio.com/consent/brandsdistribution-*/consent.js$domain=brandsdistribution.com
@@ -18625,6 +18629,7 @@ _eu_cookie_
 ||cnnindonesia.com/sw.js
 ||coal.gamemaker.io/sites/*/theme/javascripts/cookie.umd.min.js
 ||cognex.com/api/cognex/cookies/checkcookienotice
+||cointracker.io/*/CookieConsentWrapper.
 ||collector.appconsent.io^
 ||comic.pixiv.net/api/app/gdpr/messages|$xmlhttprequest
 ||comnuan.com/cmnn/cookieBubble.min.js
