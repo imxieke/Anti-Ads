@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-06 09:27:20 RPC
+! Updated: 2025-02-06 16:25:25 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1222,7 +1222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -4220,7 +4220,6 @@ admin5.com##.float_both_index
 admin5.com##.notice
 admin5.com##div.ad3
 adreep.cn,baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn,rznews.cn##.guanggao
-adult-machiko.com##div[class^="ad_"]
 advertisers.js|
 aeink.com##.widget_ui_adsf
 aeink.com##.widget_ui_textads
@@ -5739,6 +5738,7 @@ bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"]
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.to###yytf
 bilinovel.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'pagead2.googlesyndication.com')
+bilinovel.com#@#.ads_box
 bilyoner.com#%#//scriptlet('set-cookie', 'smartbanner-closed', 'true')
 bimiacg.net##.tuiguang
 binance.com##.ng-scope > div.download-fixed
@@ -8253,6 +8253,7 @@ echofm.online###echo-main > div:has(> div[id^="div-gpt-"])
 echofm.online#?#.support:has(> div[class^="sc-"] > div[class^="sc-"] > a[href^="https://apps.apple.com/ru/app/"])
 echofm.online#?#header + div[class^="sc-"] > div[class^="sc-"]:has(> div[class^="sc-"] > a[href="https://echofm.page.link/app"])
 eclat.hpplus.jp###dfp_overlay
+eclat.hpplus.jp,adult-machiko.com##div[class^="ad_"]
 economia.uol.com.br##.campaign-container
 economictimes.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 economictimes.indiatimes.com##.artData > div.disclamerText
@@ -16836,7 +16837,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -32623,7 +32624,6 @@ _zhike.htm
 ||code-server.biz^$important
 ||code.admicro.vn^$important
 ||code.afsanalytics.com^$important
-||code.bizdirlib.com^
 ||code.ditiezu.net^
 ||code.etracker.com^$important
 ||code.hot-mob.com^$important
@@ -32631,6 +32631,7 @@ _zhike.htm
 ||code.revcontent.com^$important
 ||code.tinypass.com^$important
 ||code.tui80.com^
+||code.wenbanzhu.com^
 ||code3.adtlgc.com^$important
 ||codeceo.com/images/*/boxuegu
 ||codeceo.com/images/2020/04/kaikebabanner.png
@@ -35885,6 +35886,7 @@ _zhike.htm
 ||fadedprofit.com^
 ||fadedsnow.com^
 ||fadhvz.xyz^
+||fagrirtn.com^
 ||faintflag.com^
 ||fairfeeling.com^
 ||fairiesbranch.com^
@@ -43886,6 +43888,7 @@ _zhike.htm
 ||navigationshilfe1.t-online.de^$important
 ||navigator.io^$important
 ||navitime.co.jp/static/*/bicycle/banner/app_p1.png
+||navitime.co.jp/static/pc/l/202502041800/img/sp/transfer/searchlist/banner-s-ride-sp-last-train.png
 ||navrcholu.cz^$important
 ||nawpyd.icu^
 ||nb.zol.com.cn/detail_*.html
@@ -44643,6 +44646,7 @@ _zhike.htm
 ||omgthink.com^
 ||omheth.com^
 ||omlube.com^
+||ommatht.com^
 ||omni-ads.omni.news^$important
 ||omnidatasolution.com^$important
 ||omniscientfeeling.com^
@@ -47662,6 +47666,7 @@ _zhike.htm
 ||rprgn.cn^
 ||rq.vserv.mobi^$important
 ||rqd.qq.com^
+||rqhajf.icu^
 ||rqmob.com^
 ||rqnefp.xyz^
 ||rqroytj33.fun^
@@ -51610,6 +51615,7 @@ _zhike.htm
 ||tjmzzk.com^
 ||tjq.com^
 ||tjuspyk.icu^
+||tjvcffap.icu^
 ||tk.504pk.com^
 ||tk001.com/$third-party
 ||tk0x1.com^
@@ -51675,6 +51681,7 @@ _zhike.htm
 ||tnkexchange.com^$important
 ||tnkfactory.com^$important
 ||tnkfactory.com^$third-party
+||tnlixn.icu^
 ||tnmpd.xyz^
 ||tns-counter.ru^$important
 ||tns.simba.taobao.com^
@@ -52217,6 +52224,7 @@ _zhike.htm
 ||treimphens.com^
 ||trekblue.com^$important
 ||trekdata.com^$important
+||trellq.com^
 ||tremendousearthquake.com^
 ||tremendousplastic.com^
 ||tremendoustime.com^
@@ -52612,6 +52620,7 @@ _zhike.htm
 ||u6u.icu^
 ||u78s.top^
 ||u7u9.com^$third-party
+||u7y.pw^
 ||u833ij.com^
 ||u8ad.com^
 ||u9yy.com/js/js/$script
