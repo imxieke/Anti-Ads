@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-06 16:25:25 RPC
+! Updated: 2025-02-07 00:23:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4678,6 +4678,8 @@ apkpure.*##.aegon-link
 apkpure.*##.fast-download-box+ .slide-wrap > .bd > .tempWrap > ul[style^="width:"] > li[style*="display: table-cell;"] > a[href^="https://yaksgames.com/?utm_source"]
 apkpure.*##.safe-link > .dl-ref
 apkpure.*##div[id^="ad-aegon-"]
+apnews.com###mobile-entitlements
+apnews.com##.LeaderBoardAd-Mobile
 apnews.com##.Page-header-leaderboardAd
 apnews.com##.SovrnAd
 apnews.com##div[class*="appDownload-"]
@@ -6748,6 +6750,7 @@ city.living.jp##.ad-area-l
 city.tsuyama.lg.jp##.mb20 > .pos_ac
 cityheaven.net##.adm-layoutshift-loading
 cityheaven.net##.astl
+cityheaven.net##.noguide_banner
 ciudad.com.ar#$##header { height: auto!important; }
 cj0968.com###partner
 cjdby.net##[width="960"][height="30"],.wp.a_t,div.a_p,.a_pr,.ad,.a_t,.a_f
@@ -7831,6 +7834,7 @@ dolap.com#$#.fancybox-lock { overflow: auto !important }
 dolap.com#?#.fancybox-overlay > .fancybox-wrap:has(div.fancybox-inner > div.redirectToDownloadApp)
 domani.shogakukan.co.jp##div[style="display: flex; justify-content: center; align-items: center; min-height: 100px;"]
 domani.shogakukan.co.jp,thesun.co.uk##.billboard
+domclick.ru##div[class*="MobileBanner-mobileBanner"]
 domonet.jp##.banner_contents > a[href="/app/domo/"]
 domonet.jp##main > section.banner_block + section.bnr_block
 donanimhaber.com##.open-with-app-popup
@@ -13071,6 +13075,7 @@ lepoint.fr#%#//scriptlet('remove-class', 'hasStickyHead', 'body.hasStickyHead')
 leqiuba.com###wxad
 lescon.com.tr,telekom.de,openrice.com,pass.telekom.de,lazada.com.ph,lamoda.ru,lazada.co.id,milliyet.com.tr,esky.com.tr,allo.ua,home24.de,cbsnews.com,lieferheld.de##.smart-banner
 lesen.mk-elona.de##.apps-advt
+lesfrontaliers.lu###side-column > div.col-sm-12:has(> div.content > div#iosApp)
 lesports.com###j_a_banner_content,[id^="JS_AD_FLASH_"],#side-downAd,[id^="JS_TL_ad_"]
 lessentiel.lu###app_bar
 letgo.com#?#section[class^="_"] > div[class^="_"]:has(> a[href^="https://letgo.onelink.me/"])
@@ -14682,6 +14687,7 @@ medal.tv#?#article div[class^="sc-"] > div[class^="StyledBox-sc-"] > div[class^=
 media.framu.world##a[href^="https://seeek.world/redirect_app_stores"]
 media.rakuten-sec.net##.top-news-attention
 media.wear.jp##.wear-app-download
+mediacourant.nl##div[id^="ada-inread-"]
 mediafire.com#$#@media (max-width: 768px) { .content > div.center { margin-top: 110px !important; } }
 mediafire.com#%#//scriptlet("set-constant", "InfCustomSTAMobileFunc", "noopFunc")
 mediamarkt.com.tr##body > .ins-preview-wrapper div.ins-notification-content
