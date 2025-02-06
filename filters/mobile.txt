@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-06 00:24:56 RPC
+! Updated: 2025-02-06 09:27:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4358,8 +4358,9 @@ ali213.net#@#.subscribe-container
 alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
-aliexpress.com###mobile-download
-aliexpress.com##body.smartbanner-placeholder::before
+aliexpress.com,aliexpress.us###mobile-download
+aliexpress.com,aliexpress.us#$##header-float-banner { display: none !important; }
+aliexpress.com,aliexpress.us#$#body.smartbanner-placeholder { padding-top: 0 !important; }
 aliexpress.ru##div[class^="PseudoSmartBanner_"]
 alipay.com###J-cooperant-banner
 alist.nn.ci##.ss
@@ -13840,8 +13841,6 @@ m.iqiyi.com#$#.m-iqylink-guide > a { position: absolute !important; left: -3000p
 m.ithome.com##BUTTON[class='open-app']
 m.ithome.com##DIV[class='op']
 m.iyf.tv#%#//scriptlet("adjust-setInterval", "isPeriodic", "", "0.02")
-m.ja.aliexpress.com#$##header-float-banner { display: none !important; }
-m.ja.aliexpress.com#$#body.smartbanner-placeholder { padding-top: 0 !important; }
 m.jbzd.cc,m.jbzdy.cc#%#//scriptlet('set-cookie','play-creation', '1')
 m.jd.com###m_common_tip
 m.jd.com##.j_curtain_yinliu
@@ -28422,6 +28421,7 @@ _zhike.htm
 ||api.monetizer101.com^$important
 ||api.muneris.io^$important
 ||api.my.tv.sohu.com/wm/getads.do
+||api.myadsget.com^
 ||api.nanigans.com^$important
 ||api.native.ai^$important
 ||api.newad.ifeng.com^$important
@@ -28511,6 +28511,7 @@ _zhike.htm
 ||api.stathat.com^$important
 ||api.supersonicads.com^$important
 ||api.survicate.com^$important
+||api.sve.cc^
 ||api.taboola.com/*/recommendations.get^
 ||api.taboola.com/*/recommendations.multiple-get^
 ||api.taboola.com^$important
@@ -28578,6 +28579,7 @@ _zhike.htm
 ||api.xdirectx.com^$important
 ||api.yieldlove-ad-serving.net^$important
 ||api.yieldmagic.com^$important
+||api.youngle.tech^
 ||api.youtu.qq.com^
 ||api.yuedu.iqiyi.com^
 ||api.zcoup.com^$important

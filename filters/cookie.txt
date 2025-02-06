@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-06 00:24:56 RPC
+! Updated: 2025-02-06 09:27:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16712,6 +16712,7 @@
 ##.idgcp__section
 ##.idm-cookie-overlay
 ##.idm-cookie-policy
+##.idxrcookies-block-user-nav::before
 ##.if6_eprivacy.initial
 ##.iframe_cookies
 ##.igrowl-cookie
@@ -37310,6 +37311,8 @@ greenpandagames.com##.snackbar
 greenpeace.fr###discreto.banner .consent
 greenpeace.org###cookiePromptCenter,.modal-backdrop
 greens-efa.eu#%#//scriptlet("set-cookie", "ZEDWCC", "5")
+greenstuffworld.com,kultura.com.pl#$##idxrcookies { display: none !important; }
+greenstuffworld.com,kultura.com.pl#$#body.idxrcookies-block-user-nav { overflow: auto !important; }
 greentechmedia.com##body > div[style*="transp"]
 greenwaypolska.pl##div[id^="the_cookies"]
 greenweez.com#$##staticBackdrop { display: none !important; }
@@ -38120,6 +38123,9 @@ hitman.com##.comp-flash-notice
 hitman.com##div[class*="cookie-banner"]
 hitobuwie.pl###v-cookielaw-background
 hivehome.com##.header-stacked-message
+hix.ai#$##cc-main { display: none !important; }
+hix.ai#$?#.show--consent { overflow: auto !important; }
+hix.ai#$?#body[class*="consent_consent"] { overflow: auto !important; }
 hiya.com##.cookie
 hjheinz.de##body > div:not([id]):not([class])
 hk.fi##.animate.mask
@@ -40746,6 +40752,8 @@ kuki.cz#$#.cookiesModal { display: none !important; }
 kuki.cz#$#.cookiesModal ~ div.modal-backdrop { display: none !important; }
 kuki.cz#$#body { overflow: auto !important; padding-right: 0 !important; }
 kult-portal.com##.infobar
+kultura.com.pl#@##cookieModal
+kultura.com.pl#@##idxrcookies
 kulturbolaget.se##.c-messages
 kulturhusetstadsteatern.se###block-cookieapproval
 kulturkaufhaus.de##.dialogCookieWarning
@@ -55500,8 +55508,6 @@ wholesalescout.co.uk##.mpp-box[class*="right"]
 whos-perfect.de###cookie-consent
 whowhatwear.co.uk###gdpr-consent-form
 whynow.co.uk,yourdigitalrights.org##.react-cookie-law-dialog
-whyopencomputing.com,kultura.com.pl#@##cookieModal
-whyopencomputing.com,kultura.com.pl#@##idxrcookies
 wiara.pl##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 wibc.com###ed-tos-bubble
 wid.cert-bund.de#$#body { overflow: auto !important; }

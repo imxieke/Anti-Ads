@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-06 00:24:56 RPC
+! Updated: 2025-02-06 09:27:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11435,7 +11435,7 @@ alfredopedulla.com##.tw-banner
 algemeiner.com##.socialbot
 algemeiner.com#?#.widget_mostreadwidget ~ div.widget:has(> h2:contains(Facebook))
 algerie-radio.com###block-block-11
-aliexpress.com##div[class^="share-and-wish--share--"]
+aliexpress.com,aliexpress.us##div[class^="share-and-wish--share--"]
 aliradar.com##button[data-ga-p_item-share]
 aljazeera.com##.combined-share
 all-episodes.fun,all-episodes.club##.content > div.citata1
@@ -21796,6 +21796,7 @@ qiita.com#?#div[id^="PersonalArticlePage-"] > .p-items_wrapper + div[class^="css
 qip.ru##.qf_socials
 qobuz.com##.share-popin
 qodeinteractive.com##.qodef-ts-social-item:not(.qodef-colored)
+qodo.ai#?#.blog-article-sidebar-title:has(> strong:only-child:contains(Share))
 qoo10.jp###btn_cart_share
 qoshe.com###hit
 qr.quel.jp###shareoption

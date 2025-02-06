@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-02-06 00:24:56 RPC
+! Updated: 2025-02-06 09:27:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -52,7 +52,7 @@ atm.youku.com
 banana.le.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
-bimiacg4.net##+js(acis,Object.defineProperty,location.href)
+bimiacg4.net##+js(acs,Object.defineProperty,location.href)
 bimiacg4.net##.tuiguang,#bkcl
 bjcathay.com
 btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
@@ -97,6 +97,7 @@ pptv.com##.advView-two,#p-mark
 pub.funshion.com
 qdm8.com###gongao
 qq.com##+js(json-prune, ads ad material.video)
+reke.at.sohu.com
 rrys2019.com##.float_middel_ad_bk,#float_ad
 show.ssports.com
 sobot.com

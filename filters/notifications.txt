@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-06 00:24:56 RPC
+! Updated: 2025-02-06 09:27:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1535,6 +1535,7 @@
 ##.id-CookieConsent
 ##.id-StoryElement-embed--cleverPush
 ##.identity-noticebar
+##.idxrcookies-block-user-nav::before
 ##.imPolicycookiemessage
 ##.info-cookie
 ##.infoCookies
@@ -9055,6 +9056,8 @@ green.ch##div[data-nezzo-cookie]
 greencaffenero.pl###cookie-consent__dialog
 greencell.global###js-modern-cookie-modal
 greens-efa.eu#%#//scriptlet("set-cookie", "ZEDWCC", "5")
+greenstuffworld.com,kultura.com.pl#$##idxrcookies { display: none !important; }
+greenstuffworld.com,kultura.com.pl#$#body.idxrcookies-block-user-nav { overflow: auto !important; }
 greenwaypolska.pl##div[id^="the_cookies"]
 greenweez.com#$##staticBackdrop { display: none !important; }
 greenweez.com#$#body { overflow: visible !important; }
@@ -9430,6 +9433,9 @@ history.com##.policy-container
 hitdiscount.by,groshyk.by#@#.cookies-container
 hitman.com##.comp-flash-notice
 hitobuwie.pl###v-cookielaw-background
+hix.ai#$##cc-main { display: none !important; }
+hix.ai#$?#.show--consent { overflow: auto !important; }
+hix.ai#$?#body[class*="consent_consent"] { overflow: auto !important; }
 hk.on.cc###acceptDisclaimer
 hln.be,myprivacy.dpgmedia.be,myprivacy.dpgmedia.nl#%#//scriptlet('trusted-click-element', '[id^="pg-"][id*="root"][id*="shadow"] >>> button#pg-accept-btn')
 hm.com#$#body.cookie-notification #bar { top: 0!important; }
@@ -10710,6 +10716,8 @@ kugeln.io,nurxxx.mobi##.msgCookie
 kuki.cz#$#.cookiesModal { display: none !important; }
 kuki.cz#$#.cookiesModal ~ div.modal-backdrop { display: none !important; }
 kuki.cz#$#body { overflow: auto !important; padding-right: 0 !important; }
+kultura.com.pl#@##cookieModal
+kultura.com.pl#@##idxrcookies
 kulturkaufhaus.de##.dialogCookieWarning
 kulzer.de###cookie-policy-layer
 kumanda.tv,canlitvizlemeli.com,canlitvizle.*,canlitv.*,sondakika.com,hastane.com.tr,haberler.com###cookiePolicyw
@@ -17882,8 +17890,6 @@ whoisxmlapi.com##.cookie-message-block
 whosampled.com##.spSlot
 whowhatwear.co.uk###gdpr-consent-form
 whynow.co.uk,yourdigitalrights.org##.react-cookie-law-dialog
-whyopencomputing.com,kultura.com.pl#@##cookieModal
-whyopencomputing.com,kultura.com.pl#@##idxrcookies
 wibc.com###ed-tos-bubble
 wid.cert-bund.de#$#body { overflow: auto !important; }
 wid.cert-bund.de#$#portal-cookie-dialog { display: none !important; }
