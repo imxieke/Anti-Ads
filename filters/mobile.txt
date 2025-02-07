@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-07 16:24:48 RPC
+! Updated: 2025-02-08 00:24:16 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14700,7 +14700,7 @@ medal.tv#?#article div[class^="sc-"] > div[class^="StyledBox-sc-"] > div[class^=
 media.framu.world##a[href^="https://seeek.world/redirect_app_stores"]
 media.rakuten-sec.net##.top-news-attention
 media.wear.jp##.wear-app-download
-mediacourant.nl##div[id^="ada-inread-"]
+mediacourant.nl##div[id^="ad"]
 mediafire.com#$#@media (max-width: 768px) { .content > div.center { margin-top: 110px !important; } }
 mediafire.com#%#//scriptlet("set-constant", "InfCustomSTAMobileFunc", "noopFunc")
 mediamarkt.com.tr##body > .ins-preview-wrapper div.ins-notification-content
@@ -15989,6 +15989,7 @@ nikkansports.com##.newsBody > p > span[style="color:#333;font-weight:bold;displa
 nikkansports.com##div[id^="adUnit"]
 nikkansports.com##li[id^="adUnit"]
 nikkansports.com##p[style="margin-bottom: 1em;"] > span[style="color:#333;font-weight:bold;display:block;margin-top:1em;font-size:16px;"]
+nikkansports.com#$#body #ContentsArea { padding-top: 0 !important; }
 nikkei.com##.k-ad__container--mobile
 nikkei.com##.panelIndent > ul.articleBoxList[style="margin-top:12px;margin-bottom:0;"]
 nikkei.com##.prBox
@@ -20995,6 +20996,7 @@ web.goout.jp##.bx-ad.mb-10
 web.goout.jp##.bx-ad.my-10
 web.playerapp.tokyo#?#main > aside:has(> div > a[href^="https://itunes.apple.com/app/"])
 web.quizknock.com###header_iosapp_link
+web.ultra-soccer.jp###under-breadcrumbs-ads
 web.ultra-soccer.jp##div[style$="min-height: calc(100vw * 250 / 300);"]
 web.whatsapp.com###side > div[role="button"]:has(> div:only-child div[class] > span[data-icon="wa-square-icon"] + span)
 web.whatsapp.com#?##app > .app-wrapper-web > div[tabindex] > header ~ div[class]:has(> div[class]:only-child div > button:only-child > div:only-child > div:only-child:contains(Store))
@@ -37127,6 +37129,7 @@ _zhike.htm
 ||glitter.services.disqus.com^$important
 ||glitteringbrook.com^
 ||glittersh.com^
+||glizauvo.net^
 ||globadmedia.com^$important
 ||global.adserver.yahoo.com^$important
 ||global.appnext.com^
@@ -53640,6 +53643,7 @@ _zhike.htm
 ||vnet.cn^*.html
 ||vnet.cn^*.html?$popup,third-party
 ||vns86.oss-*.aliyuncs.com^
+||vntsm.com^
 ||vntsm.com^$important
 ||vnuuh.icu^
 ||voc.com.cn/adsClick/
