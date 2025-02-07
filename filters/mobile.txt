@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-07 09:27:34 RPC
+! Updated: 2025-02-07 16:24:48 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1222,7 +1222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -2706,7 +2706,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/rwd_cap.js$domain=ibf.tw
 @@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
+@@/sensorsdata.$domain=36kr.com|53zaixian.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ads_$domain=ygo-sem.cn
@@ -4979,11 +4979,11 @@ axios-js.com##.recommand
 axios-js.com##.vultr-desc
 axjbt.com,avcao.cc#%#//scriptlet('abort-on-property-read', 'myclick')
 axutongxue.com,axutongxue.net###jjjagl
+axutongxue.com,axutongxue.net##body > div[id]:has(> ul[class] > li > img.icon + a[href])
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
+axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', 'checkCookie')
+axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 axutongxue.net##body > article[style]
-axutongxue.net##body > div[id]:has(> ul[class] > li > img.icon + a[href])
-axutongxue.net#%#//scriptlet('prevent-setTimeout', 'checkCookie')
-axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"]
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ br
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ div[style="text-align: center;"]
@@ -15980,11 +15980,13 @@ niji-gazo.com##div[id*="-ad-block-"]
 niji-gazo.com#@#.ad-block
 nijimen.kusuguru.co.jp##aside[style*="max-height:280px"]
 nijimen.kusuguru.co.jp##aside[style*="max-height:336px"]
+nikkansports.com###headerAdBnr2022
 nikkansports.com###MiddleAD
 nikkansports.com###photoScrollText
 nikkansports.com###ReadMore > p[style="margin-bottom: 1em;"] > span[style$="font-size:16px;"]
 nikkansports.com###TopAD
 nikkansports.com##.newsBody > p > span[style="color:#333;font-weight:bold;display:block;margin-top:1em;font-size:16px;"]
+nikkansports.com##div[id^="adUnit"]
 nikkansports.com##li[id^="adUnit"]
 nikkansports.com##p[style="margin-bottom: 1em;"] > span[style="color:#333;font-weight:bold;display:block;margin-top:1em;font-size:16px;"]
 nikkei.com##.k-ad__container--mobile
@@ -16858,7 +16860,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -17469,6 +17471,9 @@ qu.la##.downcode
 quanji.la###xinxi,#gegz
 quanji.la##[id^="qj960"],[id^="qj300"]
 quanmin.tv##.rbananer,.middleBananer,.starbananer,.star-ad-bottom,.play-bottom-hot,.w-recommend-live_bg,.p-star_adWrap,.p-room_chatad,.p-room_rbanner,.p-room_ad,.w-room-ad-tabs,.fixfooter,.w-room-banner,.w-header_mid-autumn-img,.w-room-footer_novparty-link,.w-room-rbanner
+quark.cn#@#.open-share
+quark.cn#@#.share-btns
+quark.cn#@#.share-save
 qudao.com###wechat
 qudong.com##.advert_bottom
 quifinanza.it##.hp_320x1
@@ -28665,6 +28670,8 @@ _zhike.htm
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.scloud.lfengmobile.com^$important
 ||apk.tw/static/js/showpic.js
+||apk02061oo.xyz^
+||apk02070oo.xyz^
 ||apm.crittercism.com^$important
 ||apn-winners-ap-southeast-1-rtb.adroll.com^$important
 ||apn-winners-eu-west-1-rtb.adroll.com^$important
@@ -35179,6 +35186,7 @@ _zhike.htm
 ||edgy.inmobi.com^$important
 ||edgy.studioservices.inmobi.com^$important
 ||edickew.top^
+||edinmaw.top^
 ||edipsumw.top^
 ||editor.appadhoc.com^$important
 ||edjjpgf.xyz^
@@ -43581,6 +43589,7 @@ _zhike.htm
 ||mtburn.com^$important
 ||mtburn.jp^
 ||mtburn.jp^$important
+||mtfc8.com^
 ||mtgglobals.com^
 ||mthhhuq.cn^
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
@@ -53334,6 +53343,7 @@ _zhike.htm
 ||vatzxd.xyz^
 ||vbaof.admaster.com.cn^$important
 ||vbiakpu.icu^
+||vbllxaaj.icu^
 ||vcardsdkservice.vivo.com.cn^$important
 ||vcdfsf99.fun^
 ||vcdn.adnxs.com^$important
@@ -55191,6 +55201,7 @@ _zhike.htm
 ||xt918.com^
 ||xtcake.com^$third-party
 ||xtcxflak.xyz^
+||xtdvvp.icu^
 ||xtendmedia.com^$important
 ||xtgreat.com^
 ||xtrader-cm.admaster.com.cn^$important
