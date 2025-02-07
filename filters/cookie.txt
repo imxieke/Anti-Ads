@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-07 00:23:51 RPC
+! Updated: 2025-02-07 09:27:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2809,6 +2809,7 @@
 ###cookieinfo--container
 ###cookieinfo-bar-wrapper
 ###cookieinfo-container
+###cookieinfo-container:not(#style_important)
 ###cookieinfo1
 ###cookieinfo2
 ###cookieinfo:not(.modal)
@@ -57795,6 +57796,7 @@ _eu_cookie_
 ||spolecznosci.mgr.consensu.org^$third-party
 ||sport-kanze.de/includes/plugins/jst_eu_cookie/version/*/frontend/js/dist/main.js
 ||sportelloweb.abbanoa.it/public/docroot/eng-commons/js/page-alert.js
+||sportnotizie.it/cookies-policy/
 ||sportrar.tv/js/cookiepop.js
 ||spreadshirt.de/resources/cookie/js/consent.js
 ||spreadshirt.de/resources/onetrust/js/consent.js
