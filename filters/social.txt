@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-08 09:24:44 RPC
+! Updated: 2025-02-08 16:23:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14393,7 +14393,6 @@ doradvokat.com.ua###jp-relatedposts + h3
 doraeiga.com,movie-highspeed.com###shareWrap
 dorama.land##.episode-comments > div.with-aside__aside > div.with-aside__sticky:has(> div.aside-episode-banner)
 doramalive.tv,androidies.ru,animestars.org##.pmovie__share
-doramasmp4.com#?#.card-footer > div.d-flex > a[role="button"]:has(> i.fa-share-alt)
 doramiru.org##section:has(> div > .ya-share2)
 doramy.moy.su##.fancybox-desktop
 dospara.co.jp##.snsButtonElement
@@ -14573,7 +14572,6 @@ ecologiaverde.com##.open-compartir
 ecologiaverde.com,el9nou.cat,elsaltodiario.com,lanacion.com.ar,laverdad.com,psicologia-online.com,qmusica.tv,revistafamilia.ec##.compartir
 econodata.com.br##.compartilhar-button
 economiahoy.mx##.ic-rs
-economics-prorok.com#?##sidebar > ul#widgetlist > li.widget:has(> p:contains(Подписаться))
 economictimes.indiatimes.com##.login-blocker
 economictimes.indiatimes.com##.oneTapCloseBg
 economictimes.indiatimes.com##.one_tap_info

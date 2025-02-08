@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-08 09:24:44 RPC
+! Updated: 2025-02-08 16:23:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2222,7 +2222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8638,7 +8638,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -15982,13 +15982,11 @@ niji-gazo.com##div[id*="-ad-block-"]
 niji-gazo.com#@#.ad-block
 nijimen.kusuguru.co.jp##aside[style*="max-height:280px"]
 nijimen.kusuguru.co.jp##aside[style*="max-height:336px"]
-nikkansports.com###headerAdBnr2022
 nikkansports.com###MiddleAD
 nikkansports.com###photoScrollText
 nikkansports.com###ReadMore > p[style="margin-bottom: 1em;"] > span[style$="font-size:16px;"]
 nikkansports.com###TopAD
 nikkansports.com##.newsBody > p > span[style="color:#333;font-weight:bold;display:block;margin-top:1em;font-size:16px;"]
-nikkansports.com##div[id^="adUnit"]
 nikkansports.com##li[id^="adUnit"]
 nikkansports.com##p[style="margin-bottom: 1em;"] > span[style="color:#333;font-weight:bold;display:block;margin-top:1em;font-size:16px;"]
 nikkansports.com#$#body #ContentsArea { padding-top: 0 !important; }
@@ -16861,9 +16859,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -19873,8 +19871,8 @@ tmall.com###J_Recommend
 tmall.com##.app-download-popup
 tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 tmall.com##.mui-mbarp-qrcode
+tmioe.com##.hfggimg
 tmioe.com##.widget_image_img
-tmioe.com##.zttimg
 tmioe.com##a[href*=".zps.im"]
 tmtpost.com##.open-app
 tnt.com##.tc-smartbanner
@@ -34408,6 +34406,7 @@ _zhike.htm
 ||dkqapp.cn^
 ||dkstrtss.xyz^
 ||dktad.com^
+||dkweuy.com^
 ||dl-adx.op-mobile.opera.com^
 ||dl.cm.ksmobile.com^$important
 ||dl.conviva.com^$important
@@ -44135,6 +44134,7 @@ _zhike.htm
 ||nhentai.com/images/offers/ga/desktop/
 ||nhjn788.fun^
 ||nhjnw78.fun^
+||nhz6q.cn^
 ||ni6cdwf6w5xr.com^$important
 ||niaideren.icu^
 ||nicearticle.cc^
@@ -45433,6 +45433,7 @@ _zhike.htm
 ||pconline.com.cn/_hux_/
 ||pcookie.taobao.com^$important
 ||pcpop.com/pv/pv.js
+||pcqhe.cn^
 ||pcstore.com.tw/adm/psearch_payad_
 ||pcstore.com.tw/css/myacc_init.js
 ||pcvideogs.titan.mgtv.com/pb/*/*/*/*/.mp4?arange=*&pm=*
@@ -46655,6 +46656,7 @@ _zhike.htm
 ||qdhyy.cn^
 ||qdickey.top^
 ||qdimg.com/css/baidu.js|
+||qdinmay.top^
 ||qdipsumy.top^
 ||qdjimo.com/html/js/
 ||qdjsiyt.icu^
@@ -53611,6 +53613,7 @@ _zhike.htm
 ||vjie.com^$third-party
 ||vjksa.com^
 ||vjvj.vj24co.com^
+||vjzqfh.icu^
 ||vjzvgvgz.icu^
 ||vk920.com/img1/
 ||vk922.com/img/
@@ -53967,6 +53970,7 @@ _zhike.htm
 ||wdickee.top^
 ||wdig.vo.llnwd.net^
 ||wdig.vo.llnwd.net^$important
+||wdinmae.top^
 ||wdipsume.top^
 ||wdoshbe.top^
 ||wdxxx.top^
@@ -56110,6 +56114,7 @@ _zhike.htm
 ||zippywind.com^
 ||ziqniduy.com^
 ||zisu.cn.com^
+||ziweuu.com^
 ||ziye8.com^
 ||ziyuanm.com/js/g11.js
 ||zj66.net^
