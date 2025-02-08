@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-08 16:23:24 RPC
+! Updated: 2025-02-09 00:21:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1560,10 +1560,6 @@
 ###social-media-footer
 ###social-media-header
 ###social-media-hub
-###social-media-icons
-###social-media-icons-container
-###social-media-links
-###social-media-menu
 ###social-media-nav
 ###social-media-navigation
 ###social-media-share
@@ -15998,12 +15994,8 @@ genbeta.com,vidaextra.com##.menu-follow
 gencat.cat##.NG__redsocial
 gencgazete.net##.content_inner > div.img1_grid > div[class] > div.social
 gencinsesi.com,sonmansethaber.com##.video_share_item
-gendai.media##.articleShareIcons
-gendai.media##.sns-shares-simple
-gendai.media##.socialButtonArea
-gendai.media##div > div.head-line:contains(SHARE)
+gendai.media##div.mt-8 > section:has(> div > ul > li > button.react-share__ShareButton)
 gendai.media#$##floatingSns { visibility: hidden !important; }
-gendai.media#?#.wrap-w > div.articleBottomArea:has(> div.articleShareIcons)
 gendai.media#@#amp-social-share
 generacionretro.net###makingdifferentpopup
 generacionxbox.com##.piopialobred

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-08 16:23:24 RPC
+! Updated: 2025-02-09 00:21:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9703,16 +9703,6 @@ gelbeseiten.de,news.de##div[data-ref="sticky-ad"]
 gelbooru.com##div[style$="width: 300px;"]
 gelbooru.com##div[style="text-align: center; padding: 10px; border: 1px dotted #aaaaaa; margin: 10px;"]
 gematsu.com#?##sidebar > #section:contains(Advertisement)
-gendai.media###first-rectangle
-gendai.media##.ad-1st-rectangle
-gendai.media##.ad-2nd-rectangle
-gendai.media##aside[style="min-height:100px; margin: 0 auto;"]
-gendai.media##div[style="text-align:center; color:#CCC;font-size:12px;margin:5px;"]
-gendai.media##div[style="text-align:center;color:#aaa;font-size: 12px;margin: 6px;"]
-gendai.media##[style="min-height:250px;"]
-gendai.media#?##MG_sp_sponsor_1:upward(1)
-gendai.media#?#.article_author-small_profileLink:has(+ aside[id^="GB_sp_InFeed"])
-gendai.media#?#.blockContainerRight.sp > div.adRectangleContainer:upward(1)
 genius.com##.android_banner
 genius.com##.apple_music_player_container
 genius.com##.dfp_unit--interscroller
