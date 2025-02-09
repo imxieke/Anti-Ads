@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-09 09:38:14 RPC
+! Updated: 2025-02-09 16:22:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1222,7 +1222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -16849,9 +16849,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -24485,6 +24485,7 @@ _zhike.htm
 ||8en.net^$third-party
 ||8et.icu^
 ||8feichai.com^
+||8ff0.cn^
 ||8fo.icu^
 ||8gl.com.cn^
 ||8gra3.icu^
@@ -30287,6 +30288,7 @@ _zhike.htm
 ||bikepaws.com^
 ||bikesboard.com^
 ||biketo.com/d/file/p/
+||bildrat.com^
 ||bilec.xyz^
 ||bilibili.com/cm/api/*/pc
 ||bilibili.com/html/ads-index.js
@@ -33938,6 +33940,7 @@ _zhike.htm
 ||dd3.insightexpress.com^$important
 ||dd4.insightexpress.com^$important
 ||dd6364.com/js/777/
+||ddc888.com^
 ||dddstew6cw8.fun^
 ||ddgjjj.com^$third-party
 ||ddhjabqe.icu^
@@ -34695,6 +34698,7 @@ _zhike.htm
 ||dragon-guide.net/pic001/pic/shangcheng/
 ||dragzebra.com^
 ||drainpaste.com^
+||draktash.com^
 ||dramaticcondition.com^
 ||dramaticdirection.com^
 ||drandoxo.com^
@@ -51255,6 +51259,7 @@ _zhike.htm
 ||tdhserg.cn^
 ||tdid.adsrvr.org^$important
 ||tdid.m.qq.com^
+||tdinmai.top^
 ||tdipsumi.top^
 ||tdjdpyrt.xyz^
 ||tdljuuw.xyz^
@@ -51693,6 +51698,7 @@ _zhike.htm
 ||tmoclbf.icu^
 ||tmp-heliosiq.adtech.de^$important
 ||tmuseum.com.cn^
+||tmvirr.icu^
 ||tmz.vo.llnwd.net^
 ||tmz.vo.llnwd.net^$important
 ||tnalzli.top^
@@ -52702,6 +52708,7 @@ _zhike.htm
 ||udheansv.com^
 ||udiab1.jianshu.com^
 ||udiab2.jianshu.com^
+||udinmat.top^
 ||udipsumt.top^
 ||udjdpyrt.xyz^
 ||udkpcc.xyz^

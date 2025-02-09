@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-09 09:38:14 RPC
+! Updated: 2025-02-09 16:22:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6921,7 +6921,7 @@ developer.x.com,developer.twitter.com##.u12-data-protection-notice__item
 developers.mews.com,tenpoznan.pl##.cmplz-cookiebanner
 developers.sber.ru###GDPRBanner
 deviantart.com#?##root > div[class]:has(> div[class] > a[href$="/policy/privacy"])
-deviantart.com,dw.com,eurosport.com,nzherald.co.nz,photobucket.com,spiegel.de,tvnz.co.nz###smartbanner
+deviantart.com,dw.com,eurosport.com,kompas.com,nzherald.co.nz,photobucket.com,spiegel.de,tvnz.co.nz###smartbanner
 devicespecifications.com#$#body { overflow: auto !important; }
 devicespecifications.com#$#div[id^="window_cookie_consent_"] { display: none !important; }
 devismart.de##.cookie-popup-gdpr
@@ -18852,7 +18852,7 @@ _eu_cookie_
 ||gravitec.net^$third-party
 ||gravito.net/cmp$script,xmlhttprequest
 ||gsk.baycloud.com/tggsk.js
-||gstatic.com/firebasejs/$domain=joins.com|novayagazeta.eu|packaginginsights.com
+||gstatic.com/firebasejs/$domain=joins.com|kompas.com|novayagazeta.eu|packaginginsights.com
 ||guce.yahoo.com/br/collectConsentInline?brandType=nonEu$subdocument
 ||guildwars2.com/services/2bumpers/gen/cookie-notification-
 ||gvl-dev.setupcmp.com^$third-party
@@ -18919,6 +18919,7 @@ _eu_cookie_
 ||kioxia.com/etc/designs/kioxia/clientlibs_cmn/scripts/cookie_warning.js
 ||koelner-philharmonie.de/static/components/CookieManager/
 ||kogan.com/sw.js
+||kompas.com/firebase-messaging-sw.js
 ||kookietool.de/app/cookie.js
 ||korusigorta.com.tr/Content/cookielawbar/cookie.js
 ||kosik.cz/vue/*/CookieBarModal.
