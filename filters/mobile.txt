@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-10 09:36:03 RPC
+! Updated: 2025-02-10 16:26:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1222,7 +1222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
@@ -2222,7 +2222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8225,7 +8225,6 @@ eastmoney.com##div[data-url*="same.eastmoney.com"]
 eastmoney.com##div[id^="em_important_"]
 eastmoney.com##div[id^="flow-ad-"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
-eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 eastmoney.com##div[style^="position: fixed; z-index:"]
 eastmoney.com##iframe[src*=".eastmoney.com/banner/"]
 eastmoney.com##iframe[src^="//fund.eastmoney.com/trade/hqb_hq.html"]
@@ -8393,7 +8392,7 @@ electrical4u.com###custom_html-24
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##div[class*="-sidebar-"]
+element-plus.org##div[class*="-side-"]
 elespanol.com###homeMobileAdvertising2
 elespanol.com###sticky_container
 elespectador.com#?#.swiper-slide:has(> div.Widget-fullHeight > div[id^="Personalizado"])
@@ -11530,7 +11529,6 @@ inyourarea.co.uk##.post-box
 iour.co##div.moneyarea,A[href^="http://www.sh222333.com"],div[style="height:120px;"]
 ip.cn##.well > p > a
 ip.cn##[href^="https://s.click.taobao.com"],[width="360"]
-ip.sb##.rivencloud_ads
 ip138.com###banana
 ipad.hotnews.ro###ci-div-banner
 ipaddressguide.com##img[alt="iptools android app"]
@@ -12309,8 +12307,8 @@ jq.131458.com##.soso_02
 jq22.com##.fdad
 jqzb.com.cn##.zk_xf
 jr31.xyz##body > div.wp > div.wp > a[rel="nofollow"] > img
-jr34.xyz###hd + .wp
-jr34.xyz##a[href^="ad."]
+jr35.xyz###hd + .wp
+jr35.xyz##a[href^="ad."]
 jreast-timetable.jp,jreast.co.jp###jre_header_appLink
 jrj.com.cn###comment > a:first-child
 jrj.com.cn##.bd.pa10.bgn
@@ -15264,7 +15262,6 @@ msn.cn#%#//scriptlet('json-prune', '*', 'list.*.link.ad list.*.link.kicker')
 msn.cn#%#//scriptlet('json-prune', '*.*', 'adFeedbackData adType adServedUrls')
 msn.cn#%#//scriptlet('json-prune', 'configs.*.properties.slideshowWCSettings.interstitialNativeAds configs.*.properties.fullScreenSlideshowSettings.interstitialNativeAds properties.componentConfigs.slideshowConfigs.interstitialNativeAds properties.componentConfigs.slideshowConfigs.slideshowSettings.interstitialNativeAds')
 msn.com###ahsbanner
-msn.com###displayAdCard
 msn.com###NewsApps
 msn.com###taboola-above-homepage-thumbnails
 msn.com##.ad
@@ -16849,7 +16846,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -16981,7 +16978,6 @@ porn5f.com##.preroll-adv-popup-iframe
 porn5f.com##.preroll-adv-two
 porn5f.com##.video-promote-adv
 porn5f.com#?#.row:has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-title)
-porn87.com##.pc_instant
 pornbest.org#%#//scriptlet('abort-current-inline-script', 'jQuery', 'injectPops')
 pornbest.org#?#.container-fluid > div.row:has(> div.item > div.card > div.card-body > div > span:contains(/^ad$/))
 pornbest.org,pornlulu.com,ptt.sex##.no-gutters
@@ -18218,6 +18214,7 @@ setn.com##.rightFloat
 setn.com##div.meta_ad,div.NewsAttach,ins.adsbygoogle,div[id^="div-gpt-ad"],iframe#setddg,div.ad250
 setn.com##iframe[src^="//rfp.dspcdn.com/tags/"]
 seudinheiro.com###banner-fixed-mobile
+seventeen-web.jp##.sp_headerbanner
 sex-gen.com##.navi
 sex-gen.com##.tb_z
 sex-gen.com##body p[align="center"] > a[target="_blank"]
@@ -20776,7 +20773,6 @@ vsping.com##.cell > span > a[href]:not([href*=".vsping.com"])
 vsping.com##div[style^="border-radius: 10px; box-shadow"]
 vstat.info##.blockscr > div.install
 vtc.vn##.sys-ads
-vuejs.org##.text-ad
 vuetifyjs.com##.v-sponsors
 vulture.com##.nym-ad
 vx666.com##.async[href^="http"]
@@ -23336,7 +23332,6 @@ _zhike.htm
 ||1cecn.icu^
 ||1dki0.icu^
 ||1f3k.com^
-||1f84e33459.com^
 ||1gmzo.icu^
 ||1gtp.icu^
 ||1iohncj.xyz^
@@ -23991,6 +23986,7 @@ _zhike.htm
 ||52waha.com/static/js/func_bbs.js
 ||52wmb.com/2014js/cn_
 ||52xiyou.com^$third-party
+||52xkdy.com/pmc/
 ||52z.com/images/52zgg/
 ||52zpi.com/gg/
 ||52zy.com/other/js/
@@ -24227,8 +24223,6 @@ _zhike.htm
 ||69t49.com/floating/layer.js
 ||6avz.com^
 ||6avz.com^$script,third-party
-||6b70b1086b.com^
-||6b856ee58e.com^
 ||6c.cn^
 ||6cs.icu^
 ||6dad.com^
@@ -30721,6 +30715,7 @@ _zhike.htm
 ||brokerbabe.com^$third-party
 ||bronrt.stsdk.vivo.com.cn^$important
 ||brookssa.com^
+||brornaeq.com^
 ||brort.stsdk.vivo.com.cn^$important
 ||brothersbucket.com^
 ||brotherslocket.com^
@@ -31272,7 +31267,6 @@ _zhike.htm
 ||cb.ksmobile.com^$important
 ||cb.lomark.cn^
 ||cb.mopub.com^$important
-||cb61190372.com^
 ||cbanners.virtuagirlhd.com^$important
 ||cbcgqs.xyz^
 ||cbcnewmedia.pushwoosh.com^$important
@@ -32040,7 +32034,6 @@ _zhike.htm
 ||chinaqking.com/images/newPage/JLW.jpg
 ||chinaqking.com/images/qkw/jobApply1.jpg
 ||chinasexq.com/js/tpgg
-||chinaslauras.com^
 ||chinatimes.com/ads/
 ||chinatimes.com/analytics/
 ||chinatimes.com/Scripts/bennerad.
@@ -34326,7 +34319,6 @@ _zhike.htm
 ||discuss.com.hk/oath/
 ||discuss.com.hk^*_prod.html
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
-||diskaa.com^
 ||disney.demdex.net^$important
 ||dispatch.admixer.co.kr^$important
 ||dispatcher.360in.com^$important
@@ -34834,7 +34826,6 @@ _zhike.htm
 ||duboku.net/static/images/20201111
 ||duboku.net/static/images/yabo
 ||dufile.com/jsa/
-||dugapiece.com^
 ||dui88.com^$important
 ||duiba.com.cn^$important
 ||duiwai.baidu.com^
@@ -35441,7 +35432,6 @@ _zhike.htm
 ||entry.baidu.com^
 ||enuksg.xyz^
 ||enus.douyucdn.cn/venus/release/rn/checkPackage?
-||enviousinevitable.com^
 ||enviousshape.com^
 ||enviousthread.com^
 ||eol.cn/e_busi/
@@ -39848,6 +39838,7 @@ _zhike.htm
 ||iwursero.top^
 ||ix4.icu^
 ||ixbua.xyz^
+||ixkw3.cc/wp-content/themes/wpMyTube/assets/js/mobile.
 ||ixpub.net^*.js
 ||ixstng.cn^
 ||iy.com.cn^$third-party
@@ -41208,6 +41199,7 @@ _zhike.htm
 ||ldaps.taboola.com^$important
 ||ldb.cc/js/top.js
 ||ldgjwdohqbi.xyz^
+||ldinmal.top^
 ||ldipsuml.top^
 ||ldjfsdku.icu^
 ||ldmnq.com^$third-party,badfilter
@@ -44558,6 +44550,7 @@ _zhike.htm
 ||ocx.umeng.com^$important
 ||odamcsk.top^
 ||odb.outbrain.com^$important
+||odinmak.top^
 ||odipsumk.top^
 ||odm.nielsen.com^$important
 ||odr.mookie1.com^$important
@@ -47487,7 +47480,6 @@ _zhike.htm
 ||retargeter.com^$important
 ||retg.adnetwork.vn^$important
 ||retinaesprent.com^
-||retintsmillion.com^
 ||retrefsf.cn^
 ||retrieval-bd.duote.com^
 ||retrievemint.com^
@@ -47585,7 +47577,6 @@ _zhike.htm
 ||rijutv.com/statics/alljs^
 ||rijutv.com/statics/comment/embed.js
 ||rijutv.com/statics/skin/hjtv-wap/js/plus.js?
-||ringingneo.com^
 ||ringola.g2afse.com^$important
 ||ringplant.com^
 ||ringplayground.com^
@@ -49795,7 +49786,6 @@ _zhike.htm
 ||spotx-match.dotomi.com^$important
 ||spotxchange.com^$important
 ||spqi.xyz/static/tmp/
-||sprewcereous.com^
 ||springaftermath.com^
 ||springolive.com^
 ||springserve.com^
@@ -50517,6 +50507,7 @@ _zhike.htm
 ||stragmik.com^
 ||straightnest.com^
 ||straightnest.com^$important
+||strakuty.com^
 ||strangeclocks.com^
 ||strangersponge.com^
 ||strangesink.com^
@@ -50784,7 +50775,6 @@ _zhike.htm
 ||sygic-api.infinario.com^$important
 ||syiae.com^
 ||syislob.top^
-||syiwgwsqwngrdw.xyz^
 ||sykzow.xyz^
 ||syllablesight.com^
 ||symau.cn^
@@ -51180,7 +51170,6 @@ _zhike.htm
 ||tapps.analytics.s3.amazonaws.com^$important
 ||tappx.com^
 ||tappx.com^$important
-||taproximo.com^
 ||tapsell.ir^
 ||tapsense.com^
 ||tapsense.com^$important
@@ -52293,7 +52282,6 @@ _zhike.htm
 ||trimmoits.com^
 ||trinitymirror-d.openx.net^$important
 ||trinitymirror.grapeshot.co.uk^$important
-||trip.com/partners/ad/
 ||triplelift.com^$important
 ||tritebadge.com^
 ||tritethunder.com^
@@ -53903,7 +53891,6 @@ _zhike.htm
 ||warmquiver.com^
 ||warnwing.com^
 ||warp.ly^$important
-||warped-bus.com^
 ||warting.com/plus/hezuo.php?aid=
 ||waryfog.com^
 ||wasabii.com.tw/float/*.js
@@ -54472,7 +54459,6 @@ _zhike.htm
 ||ww7814.win/pic
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^
-||wwads.cn^$third-party
 ||wwc.alicdn.com/avatar/getAvatar.do?userId=
 ||wweisie.top^
 ||wweizae.top^
@@ -55943,6 +55929,7 @@ _zhike.htm
 ||zconfig.alibabausercontent.com^
 ||zcoup.com^
 ||zcoup.com^$important
+||zcrddj.icu^
 ||zcypmsp.icu^
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad

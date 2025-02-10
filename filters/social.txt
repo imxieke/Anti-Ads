@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-10 09:36:03 RPC
+! Updated: 2025-02-10 16:26:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19336,7 +19336,6 @@ mgstage.com###detail_aff_box
 mhealth.ru##.test-result-share
 mhmtyc.com##.widget_sponsor_150 + .widget_sponsor_300:nth-child(4)
 mhns.co.kr##.share_out
-mi-mollet.com,more.hpplus.jp,ar-mag.jp,wgntv.com##.article-footer-share
 mia.az##.y_icons > a[href^="JavaScript"][href*="/share"]
 miamiherald.com##.share-icons > .facebook
 miamiherald.com##.share-icons > .twitter
@@ -22693,6 +22692,8 @@ setn.com###conRt > .fbFancyGroup
 setn.com##.title-right-area > a[href^="https://line.me/"]
 setusoku.com###snsbox03
 seura.fi##.entry-socialmedia-title
+seventeen-web.jp,mi-mollet.com,more.hpplus.jp,ar-mag.jp,wgntv.com##.article-footer-share
+seventeen-web.jp,spice.eplus.jp##.article-side-share
 sewin.net#?##dle-content > div > table > tbody > tr > td:has(> div[class^="ya-share"])
 sex.com#?#div > a[href] > [data-cy-id="share-icon"]:upward(1)
 sexixo.com##.shareVideoPost
@@ -23167,7 +23168,6 @@ speedtest.net##.result-item-share
 speedtest.net##a[title="More share options"]
 speedtest.net#?#.posts > .row > .col-xs-4 > .widget-inline > h2.widget-title:contains(/^Share$/)
 speedtest.net.ua###speedo-share
-spice.eplus.jp##.article-side-share
 spice.eplus.jp##.btn-page-bottom.pull-left
 spice.eplus.jp##.facebook-main-area
 spid.center##._37vAM

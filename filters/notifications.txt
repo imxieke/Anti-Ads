@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-10 09:36:03 RPC
+! Updated: 2025-02-10 16:26:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1691,6 +1691,7 @@
 ##.push-notification-prompt
 ##.push-notifications-primer
 ##.push-overlay
+##.push-sdk-prompt-shell
 ##.push-subscription-alert
 ##.push-subscription-button
 ##.push-subscription-prompt
@@ -12055,6 +12056,7 @@ moebel-kraft.de,sconto.de,hoeffner.de##.consentForm__container
 moebel-und-garten.de,vorname.com,eltern.de##.dsgvo
 moebel.de#$#body { overflow: auto !important; padding-right: 0 !important; }
 moebel.de#$#div[class^="__variable_"] > div.fixed.items-center { display: none !important; }
+moebelix.*,xxxlutz.*#%#//scriptlet('trusted-click-element', 'button[data-purpose="cookieBar.button.accept"]', '', '750')
 moebelix.cz#$##modal { display: none !important; }
 moebelix.cz#$#body { overflow: auto !important; padding-right: 0 !important; }
 moemax.ch#?##root > div[class*=" "]:has(> div[class] > div#jentis_consent)
@@ -15076,6 +15078,7 @@ sevdesk.at,sevdesk.de#%#//scriptlet('set-cookie', 'userConsent', 'false')
 sevdesk.at,sevdesk.de#@#.cookie-banner:not(body):not(html)
 sevenonemedia.de###cookies-dialog
 seventeen-web.jp##.cookie-consent-footer
+seventeen-web.jp##.cookie-inquiry
 sevil.com.tr###stnc-cookiecontract
 sex-infos.ch###privacy-dislamer
 sex-jav.com##.divVR
