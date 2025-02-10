@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-10 16:26:59 RPC
+! Updated: 2025-02-11 00:25:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5288,12 +5288,10 @@
 ##.like-layer
 ##.like-share
 ##.like-slider
-##.LikeBox
 ##.likebox-widget
 ##.likeboxes
 ##.likebtn
-##.LikeButton
-##.LikeContainer
+##.likebutton
 ##.likecount-div
 ##.likedisdiv
 ##.likegate
@@ -12698,6 +12696,7 @@ boursedirect.fr##.content-social
 boursedirect.fr##.slide-share
 bowandtie.ru#$?#.social-likes { remove: true; }
 boxil.jp##.i-btn-block
+boxingnewsonline.net##.profile-share_wrapper
 boxofficemojo.com##.mojo-fb-logo
 boxofficemojo.com##.mojo-tw-logo
 boxofficeturkiye.com##.movie-table__social
@@ -13577,6 +13576,7 @@ computerhoy.com##.block-social-share-links
 computerologia.ru#?#.widget-area > div[class] > aside.widget:has(> div.textwidget > div[id="vk_groups"])
 computerperformance.co.uk##.googlep
 computerperformance.co.uk,gazetemanset.com##.google
+computerra.ru##.single-post__footer
 computeruniverse.net##.product-share-button
 computerworld.com##.social-share-sticky-men
 computerworld.com.au##.art-share > li:not(.print_li):not(.email_li)
@@ -16403,6 +16403,7 @@ guilded.gg##.BlogPostFull-copy-to-clipboard-control
 guilded.gg##.BlogPostFull-copy-to-clipboard-control + .BlogPostHorizontalRule-container
 guilded.gg#@#.icon-reddit
 guinnessworldrecords.com##.page-controls-share
+gulfnews.com##.story-container > div:not(.story-wrapper) > div > span[class]:has(> span > a[href^="https://www.facebook.com/sharer.php?"])
 gumtree.com.au##.vip-ad-social-share
 gunaz.az###terefdarpopup
 gundam-the-origin.net##.sns-container
@@ -18213,6 +18214,7 @@ lab.sonicmoov.com##.f-sns
 lab.syncer.jp##.sb1
 lab.timee.co.jp##.s-blogDetail__contentShare
 labiotech.eu##.inline-block.space-y-8
+labirint.ru##.social_shares__container
 labnol.org##.max-w-xs > div.flex
 labrujulaverde.com##.socialsvgul
 labusa.info##.boldShare

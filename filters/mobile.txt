@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-10 16:26:59 RPC
+! Updated: 2025-02-11 00:25:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12875,6 +12875,7 @@ kzs1w.com,sehuatang.org##div[class^="show-text"]
 kztarif.ru##.stadck-content
 lab.timee.co.jp##.timee-c-appBtn
 lab.timee.co.jp##.timee-s-cta
+labaq.com###article-contents > div[style="margin-left:-10px;text-align:center"]
 labaq.com##div[class] > div > div[style^="text-align:center"]
 labirint.ru###custom_smartbanner
 labirint.ru##.smartbanner__height
@@ -15729,6 +15730,8 @@ news.baidu.com##.recommend-mask
 news.baidu.com##.swipe-backflow-container
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.biglobe.ne.jp###footer-anchor-banner
+news.careerconnection.jp###JP_CNS_SP_article_head
+news.careerconnection.jp###sp_article_inarticle
 news.cgtn.com##.openBtn
 news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
@@ -46102,7 +46105,7 @@ _zhike.htm
 ||pre.ads.justpremium.com^$important
 ||prebid-a.rubiconproject.com^$important
 ||prebid-analytics.tracker.network^$important
-||prebid-cache.ifunny.co^
+||prebid-cache*.ifunny.co^
 ||prebid-eu.creativecdn.com^$important
 ||prebid-match.dotomi.com^$important
 ||prebid-server.rubiconproject.com^$important
