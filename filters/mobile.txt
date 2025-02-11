@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-11 09:27:09 RPC
+! Updated: 2025-02-11 16:25:15 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2000,7 +2000,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52flac.com##.ad250px,.ad710px,.ad300px,.con1
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn511.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn513.cc##.GzList
 52fzwg.com,79tao.com,hqol.cn,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
@@ -2222,7 +2222,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -4575,7 +4575,6 @@ angelweb.cn###G640x60
 angelweb.cn##.gg250x250
 angelweb.cn##.GG960x90
 angelweb.cn##table[height="250"]
-angielskieespresso.pl,allwish.me,teknowebim.com,op.gg,cameralabs.org##a[href^="https://play.google.com/store/apps/details?id="]
 anhuinews.com###ewm
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anifresh.com###minpack-sticker-frame
@@ -6099,6 +6098,7 @@ briian.com##.sidebar-widget-area > #custom_html-6
 briian.com##div[class^="hentry-gad-mobile"]
 broadwayworld.com##.disnep-area > div[style^="width:"]
 brow2ing.com##iframe[src*="//brow2ing.up.seesaa.net/image/loopadspone.html"]
+brow2ing.com##iframe[src^="//brow2ing.up.seesaa.net/"]
 brtn.cn##.business-item,[adview-id]
 brtn.cn,btime.com##.business-box
 brtn.cn,btime.com##.business-item
@@ -7785,6 +7785,8 @@ dmzj.com##div[style^="width:960px;height:60px;"],#app_manhua,DIV[style$="0px;dis
 dn.pt##.t-columns-sys-col-2 > div[class^="t-columns-sys-col-box-"]
 dndiy.net##.w_first_main,[src="http://www.dndiy.net/images/atrtop.gif"],[src="http://www.dndiy.net/ima/article/12s.jpg"]
 dnepr.info##.img-top-abs
+dnes.bg##.top-megaboard
+dnes.bg##div[class^="article-"][class*="-banner"]
 dnevnik.hr##.play-buttons
 dngz.net##.hezuo
 dngz.net##.listright > a[target="_blank"] > img
@@ -12941,6 +12943,9 @@ laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
 laozuo.org##div.dingyue
 laozuo.org##div.widget
+lapaginamillonaria.com###__next > div#top-sticky:has(> div.ad-container)
+lapaginamillonaria.com##.bg-adContainerHeaderMobile
+lapaginamillonaria.com#$#header { top: 0 !important; }
 lapkins.ru##.start .start-ban
 laposte.fr##.component-smartBanner-part
 laravel-news.com##.site-main > div.container > div.callout:first-child
@@ -16853,7 +16858,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -19982,6 +19987,7 @@ toyokeizai.net##.bc_banner
 tporn.xxx###header_ban
 tporn.xxx##.video__und
 tptoon.com##span[style^="position:fixed; bottom:30vh;"]
+track24.net,angielskieespresso.pl,allwish.me,teknowebim.com,op.gg,cameralabs.org##a[href^="https://play.google.com/store/apps/details?id="]
 track24.ru#?#.row > div[class^="col-"]:has(> div > div[class^="col-"] > a[href="https://track24.ru/?g=track24-android-app"])
 track24.ru#?#.theiaStickySidebar > div.ds:has(> h3 > i.icon-android)
 track718.com##.track-adsense-ad
@@ -22649,8 +22655,8 @@ zmovs.com#$#body { position: inherit!important; }
 zmovs.com#?#.player-spot__title:contains(Advertisement)
 zmz2017.com##.information-sub,.adsbygoogle,.couplet,.lx167
 zn-ua.cdn.ampproject.org,zn.ua##div[class^="mix_advert_ads_"]
-zn511.cc###klp_hdp
-zn511.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zn513.cc###klp_hdp
+zn513.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 znak.com##.SVKNative-Widget li[data-unit-type="promo"]
 znds.com###diy_mobanbus_view_right2
 znds.com##.a_czt
@@ -36556,6 +36562,7 @@ _zhike.htm
 ||futuristicfifth.com^
 ||futuristicfold.com^
 ||futuristicframe.com^
+||fuuksew.com^
 ||fuz.cc^$third-party
 ||fuzzyaudio.com^
 ||fuzzybasketball.com^
@@ -44243,6 +44250,7 @@ _zhike.htm
 ||nondescriptsmile.com^
 ||nondescriptstocking.com^
 ||nongjitong.com/adm/
+||nonguds.com^
 ||norma-external-collect.meizu.com^
 ||norma-external-collect.meizu.com^$app=com.xunlei.downloadprovider
 ||norse.mingxiaow.com^
@@ -54935,6 +54943,7 @@ _zhike.htm
 ||xfqynrp.cn^
 ||xfrahb.xyz^
 ||xfvcd.com/js/dd/$script
+||xfxvpt.icu^
 ||xfyjz.cn^$third-party
 ||xfztgxt.com^
 ||xg4ken.com^$important

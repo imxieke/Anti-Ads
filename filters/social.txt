@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-11 09:27:09 RPC
+! Updated: 2025-02-11 16:25:15 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12622,7 +12622,6 @@ bokumachi-anime.com,kaiju-no8.net,mdzol.com,adrenaline.com.br##.news__share
 bola.net###kl-social-share
 bola.okezone.com##ul[class$="share"]
 bolasport.com,motorplus-online.com,gridoto.com##.read_content--share
-bolavip.com##.article-head-social-links
 bolavip.com##.footer__footer-top__social-links
 bolavip.com##.whatsapp-link
 bolavip.com,carwale.com##.article-social-links
@@ -15116,7 +15115,6 @@ facenews.ua##.popup-time-banner
 facethefactsusa.org##.social-profiles
 facetxl.pl,kobietaxl.pl,hardwareluxx.ru,sadeczanin.info,appledaily.com###facebookbox
 facileporno.com,jpopasia.com,png.is,nohat.cc,blogkurdu.net##.btn-twitter
-facta.co.jp,docomo.ne.jp##.sns_block
 factcheckcenter.jp##.jfc__js__snsWrapper
 factinate.com##.fa-share-alt
 factinate.com##.ssk-block
@@ -16518,6 +16516,7 @@ handelsblatt.com##.vhb-share-social-icon
 handelsblatt.com##.vhb-share-social-media-button
 handelsblatt.com##app-icon-link
 handelsblatt.com##app-icon-link > a[href*="share"]
+handelsblatt.com##div[class]:has(> app-icon-link > a[href^="https://twitter.com/intent/tweet?"])
 handelsblatt.com##div[class^="vhb-share-social"]
 handletheheat.com##.creator-recipe-footer
 hands.net##.m-m-share-fixed
@@ -18254,6 +18253,7 @@ lanouvellerepublique.fr##div[class^="shareMenuWrap_"]
 lanuovacalabria.it##img[alt^="Share on "]
 laodong.vn##.art-info > div + a.pr
 laodong.vn##.lst-share > li > a:not(.go-top)
+lapaginamillonaria.com,bolavip.com##.article-head-social-links
 lapancalera.it##.sswfb-buttons
 laprensalara.com.ve##.container-bar
 lapresse.it##.lp-sharing-box
@@ -23676,6 +23676,7 @@ t3n.de##.tg-social-bottom
 ta3.com##.detail_text_socials
 tabechoku.com,jibunde-esute.com##.p-snsShare
 tabigo-media.net##.l-left-side
+tabizine.jp,facta.co.jp,docomo.ne.jp##.sns_block
 tableconvert.com##._share-wrapper
 tabletowo.pl###mob-bot-share
 tabletsesmartphones.org##.compartilhe-post > a[onclick^="return abrirPopup"]
@@ -23895,6 +23896,7 @@ telegraphindia.com##.stickyshare
 telekom.com##a[title="Share"]
 telemarket24.ru##.showShareWindow
 telemundonebraska.com##.whatsappme
+telepolis.pl#@#.social-wrapper
 teleport2001.ru,vashvkus.ru,oricon.co.jp##.block-social-share
 teleprogramma.pro##.dna-share-buttons
 teleprogramma.pro##.facebook-bn_site-overlay
