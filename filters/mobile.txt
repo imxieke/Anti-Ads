@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-11 00:25:13 RPC
+! Updated: 2025-02-11 09:27:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9136,6 +9136,7 @@ foodmate.net,ksbbs.com,kshot.com,oschina.net##.banner_box
 foodmate.net,ting89.com##.ad7
 foodmate.net,weather.com.cn##.ad4
 foodnetwork.com###dfp_smartphone_banner
+foodnetwork.com##.o-Recipe > div[id^="mod-dynamic-bigbox-"]
 foodora.*#%#//scriptlet('set-cookie', 'hideSmartphoneBanner', '1')
 football24.ua,zaxid.net##.mobileBrandingPlace
 footboom.com##.brw
@@ -15402,6 +15403,7 @@ myday.com.tw##.myday_ad_left
 myday.com.tw##.myday_ad_right
 mydealz.de##.browserExtension-promotionBanner
 mydealz.de##.cept-banner-id-204
+mydealz.de##.listLayout-main > div[class^="hide--from"]
 mydigit.cn##.radi
 mydigit.cn##.txtMes
 mydigit.cn##.view-hover[channelid="aitao"]
@@ -48129,6 +48131,7 @@ _zhike.htm
 ||samplesamba.com^
 ||samsungacr.com^$important
 ||samsungads.com^$important
+||san.myadssupport.com^
 ||sana.newsinccom.s3.amazonaws.com^$important
 ||sanalytics.disneyplus.com^$important
 ||sanalytics.tntdrama.com^$important

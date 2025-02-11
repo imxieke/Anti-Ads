@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-11 00:25:13 RPC
+! Updated: 2025-02-11 09:27:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7084,7 +7084,6 @@ documentation.insp.gouv.fr#@#.panel-cookies
 dodopizza.ru#?##react-app > div[class]:has(> .cookie-policy-button)
 dofus-touch.com#%#//scriptlet('trusted-click-element', 'button.ak-accept', '', '500')
 doganholding.com.tr##._cookie
-doj.me,tohoku.ac.jp,colamyhome.eu,mobilesolutionmarket.jp,webhallen.com,cloudxpe.com,openeyesfund.com,the-first.co.jp,lordgun.com,inwild.com,runkd.com,creatures.co.jp,yokohamajapan.com,store.mdsol.co.jp,noor-book.com,impactoespananoticias.com,fxpro.*,welcome.city.yokohama.jp,cart.hostinger.com,hogskolanigavle.varbi.com,manual.canon,kia.ru,chiba-tv.com,hab.co.jp,php.co.jp,ftm.nl,radios.co.at,radiosdepuertorico.com,jamaicaradio.net,radios.com.sv,radios.hn,radios.com.pa,radiosaovivo.net,radios.com.bo,radioarg.com,radios.com.co,radios.com.ec,emisoras.com.py,radios.com.pe,surinaamseradio.com,radios.com.uy,radio.co.ve,radiolisten.de,raadiod.com,emisora.org.es,radiofona.com.gr,radios.hr,ieradio.org,latvijasradio.com,radios.lu,radijas.org,radiohallgatas.hu,nederlandseradio.nl,nettradionorge.com,onlineradio.pl,radioonline.com.pt,radiosonline.ch,radiostanice.rs,nettiradiot.org,radio.org.se,internetradiouk.com,bg-radio.org,radio.pp.ru,radio.co.cm,radio.cd,radio.co.ci,radio.com.gh,radio.mg,radio.co.ma,egyptradio.net,radio.org.ng,radio.sn,radiosa.org,radiotunisienne.org,radio.co.ug,radios.hk,onlineradios.in,radioonline.co.id,radioonline.my,radionp.com,radio.net.pk,radio.org.ph,radiosingapore.org,radio.com.lk,vietnamradio.org,radios.org.il,radioth.net,zhibo.fm,radioau.net,radio.org.nz,emisoras.com.gt,radio.org.ro,siradio.si,ceskaradiaonline.cz,ecouterradioenligne.com,radiosonline.be,radios.co.ni,radioalgerie.eu,radios.co.cr,radio.or.ke,radios.tw,radioonline.kr,radio-bd.com,radios.com.do,trinidadradiostations.net,emisora.cl,radio.ht,radio.co.dk,emisoras.com.mx,jpradio.jp,instant.audio,radiosdecuba.com,consenthub.utiq.com,sketchup.com,kisarepo.jp,bitstamp.net,hesburger.*,znews.vn,amomeupet.org,egrp365.ru,sqlservercentral.com,saneibd.com,edukasicampus.net,godiva.co.jp,0patch.com,pvpoke-re.com,radioua.net,greenday.com,linuc.org,clicsante.ca,israelnationalnews.com,serpstat.com,pandavpnpro.com,freeyourmusic.com,liica.co.jp,x5.ru,adshnk.com,parkernathan.com,route-inn.co.jp,pastelink.net,dictum.com,tamtam.chat,ynjn.jp,881903.com,irisohyama.co.jp,olyrix.com,rutube.ru,asm.org,socialcomics.com.br,margarethowell.jp,ascoltareradio.com,wego.jp,storececotec.it,geeksforgeeks.org,dauc.cz,heidisql.com,sueddeutsche.de,plex.tv,tmohentai.com,gorsovet.com.ua##.cookie-consent
 dojrzewamy.pl###cookemessagehandler
 dojrzewamy.pl###cookies_polityka
 dokariery.pl###zgoda-cookie-sec
@@ -9402,6 +9401,7 @@ highsnobiety.com#%#//scriptlet('trusted-click-element', '.tm-cs-layer--visible b
 highwayoutlet.com.tr###cookie-consentt
 hik-connect.com##.ant-message-notice-content
 hik-connect.com##div[class^="src-pages-cookie-___cookieTip__app-cookie-container"]
+hiksemitech.com##.hik-gdpr
 hikvision.com##.consent-alert-cmp-container
 hilalplay.com###cookie-preferences-modal
 hildegardis-krankenhaus.de,st-agatha-krankenhaus.de#%#//scriptlet("abort-current-inline-script", "document.createElement", "consent.cookiebot.com")
@@ -15644,6 +15644,7 @@ srbijasport.net###cdb-container
 sreality.cz,stream.cz,zbozi.cz,firmy.cz,sauto.cz,sbazar.cz##szn-cwl
 srot-rams.cz###easyCookie
 ssangyong.de,sophos.com###cookie-policy-wrapper
+ssb.ee,doj.me,tohoku.ac.jp,colamyhome.eu,mobilesolutionmarket.jp,webhallen.com,cloudxpe.com,openeyesfund.com,the-first.co.jp,lordgun.com,inwild.com,runkd.com,creatures.co.jp,yokohamajapan.com,store.mdsol.co.jp,noor-book.com,impactoespananoticias.com,fxpro.*,welcome.city.yokohama.jp,cart.hostinger.com,hogskolanigavle.varbi.com,manual.canon,kia.ru,chiba-tv.com,hab.co.jp,php.co.jp,ftm.nl,radios.co.at,radiosdepuertorico.com,jamaicaradio.net,radios.com.sv,radios.hn,radios.com.pa,radiosaovivo.net,radios.com.bo,radioarg.com,radios.com.co,radios.com.ec,emisoras.com.py,radios.com.pe,surinaamseradio.com,radios.com.uy,radio.co.ve,radiolisten.de,raadiod.com,emisora.org.es,radiofona.com.gr,radios.hr,ieradio.org,latvijasradio.com,radios.lu,radijas.org,radiohallgatas.hu,nederlandseradio.nl,nettradionorge.com,onlineradio.pl,radioonline.com.pt,radiosonline.ch,radiostanice.rs,nettiradiot.org,radio.org.se,internetradiouk.com,bg-radio.org,radio.pp.ru,radio.co.cm,radio.cd,radio.co.ci,radio.com.gh,radio.mg,radio.co.ma,egyptradio.net,radio.org.ng,radio.sn,radiosa.org,radiotunisienne.org,radio.co.ug,radios.hk,onlineradios.in,radioonline.co.id,radioonline.my,radionp.com,radio.net.pk,radio.org.ph,radiosingapore.org,radio.com.lk,vietnamradio.org,radios.org.il,radioth.net,zhibo.fm,radioau.net,radio.org.nz,emisoras.com.gt,radio.org.ro,siradio.si,ceskaradiaonline.cz,ecouterradioenligne.com,radiosonline.be,radios.co.ni,radioalgerie.eu,radios.co.cr,radio.or.ke,radios.tw,radioonline.kr,radio-bd.com,radios.com.do,trinidadradiostations.net,emisora.cl,radio.ht,radio.co.dk,emisoras.com.mx,jpradio.jp,instant.audio,radiosdecuba.com,consenthub.utiq.com,sketchup.com,kisarepo.jp,bitstamp.net,hesburger.*,znews.vn,amomeupet.org,egrp365.ru,sqlservercentral.com,saneibd.com,edukasicampus.net,godiva.co.jp,0patch.com,pvpoke-re.com,radioua.net,greenday.com,linuc.org,clicsante.ca,israelnationalnews.com,serpstat.com,pandavpnpro.com,freeyourmusic.com,liica.co.jp,x5.ru,adshnk.com,parkernathan.com,route-inn.co.jp,pastelink.net,dictum.com,tamtam.chat,ynjn.jp,881903.com,irisohyama.co.jp,olyrix.com,rutube.ru,asm.org,socialcomics.com.br,margarethowell.jp,ascoltareradio.com,wego.jp,storececotec.it,geeksforgeeks.org,dauc.cz,heidisql.com,sueddeutsche.de,plex.tv,tmohentai.com,gorsovet.com.ua##.cookie-consent
 ssf-co.com###gdpr-cookie-consent-show-again
 ssk.de#%#//scriptlet('trusted-set-cookie', 'gsbbanner', 'closed')
 ssk.de#@##cookiebanner
