@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-12 16:26:30 RPC
+! Updated: 2025-02-13 00:26:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9104,6 +9104,7 @@ fmdisk.com##div#dl_tips,div#down_box2,img[width="960"][height="90"],ins.adsbygoo
 fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; font-size: 14px; text-align:left;"] > p
 fmovies.co###ics
 fmprc.gov.cn,mfa.gov.cn#@#.adbox2
+fmworld.net##.advertisementright_sp
 fnjiasu.com##.layui-layer
 fnjiasu.com##.sidebar_download
 fnjiasu.com##.swiper-container
@@ -10608,6 +10609,7 @@ highwaybus.com###sp-appbanner
 hihbt.com##.single-content > p > a[target="_blank"]:not([href^="/ac"])
 hihbt.com##aside[id^="advert-"]
 hihbt.com#?#.theiaStickySidebar > .widget_custom_html:has(> .textwidget > p a[target="_blank"][rel="noopener"]:not([href^="/ac"]):not([href^="/asian"]):not([href^="/category"]))
+hikaku.kurashiru.com##aside[class^="wrapper_"]:has(> div[class^="sp-only"])
 hikaritube.com###sp_middle
 hikaritube.com,poyopara.com##.mtb150p
 himado.in#$##contents { padding-top: 0 !important; }
@@ -11787,6 +11789,7 @@ itboth.com,itkeyword.com##.ad_pop_left_txy
 itboth.com,itkeyword.com##a[href*=".aliyun."]
 itc.ua##.entry-content > div.post-txt > p + div.clearfix
 itc.ua##amp-iframe[src^="https://s.adtelligent.com/sync.js"]
+itc.ua##a[href="#"][target="_blank"] > img
 itc.ua,ain.ua##amp-wordpress-embed
 itcast.cn##div#webim,div#kfpopupDiv
 itdog.cn##.card[style="padding: 6px 10px 5px 5px;"]
@@ -15594,6 +15597,7 @@ navitime.co.jp###appliAppeal
 navitime.co.jp###body-left > div.section:has(> a[href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/"])
 navitime.co.jp###daiko-app
 navitime.co.jp###footer-app-dl-frame
+navitime.co.jp###kyujin-banner-offer-container
 navitime.co.jp###smartapp-banner-area
 navitime.co.jp##.app-download-footer-frame
 navitime.co.jp##.appli-japan-travel
@@ -15602,6 +15606,7 @@ navitime.co.jp##.appliButton
 navitime.co.jp##.app_dl_banner_frame
 navitime.co.jp##.footer-invite-app-section
 navitime.co.jp##.inview-m8iDqk1XV9
+navitime.co.jp##.kyujin-control-banner-container
 navitime.co.jp##div[style="height: 280px"]
 navitime.co.jp,kurashiru.com##.header-app-banner
 navitime.com###appli-japan-travel
@@ -41054,6 +41059,7 @@ _zhike.htm
 ||kyislod.top^
 ||kymahuxv.xyz^
 ||kyokglm.icu^
+||kyujin.navitime.co.jp/view/platform/banner?
 ||kyuwkbd.top^
 ||kyuxym.xyz^
 ||kyyfsw.xyz^
@@ -43229,7 +43235,7 @@ _zhike.htm
 ||mobi.yanosik.pl^
 ||mobiads.ru^
 ||mobiadsmedia.affise.com^$important
-||mobiadvert.livesportmedia.eu^
+||mobiadvert*.livesportmedia.eu^
 ||mobicow.com^$important
 ||mobidea.com^$important
 ||mobidriven.com^
@@ -43937,6 +43943,7 @@ _zhike.htm
 ||navigator.io^$important
 ||navitime.co.jp/static/*/bicycle/banner/app_p1.png
 ||navitime.co.jp/static/pc/l/202502041800/img/sp/transfer/searchlist/banner-s-ride-sp-last-train.png
+||navitime.jp/scripts/media/web/infeed/realestate/
 ||navrcholu.cz^$important
 ||nawpyd.icu^
 ||nb.zol.com.cn/detail_*.html

@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-12 16:26:30 RPC
+! Updated: 2025-02-13 00:26:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8485,7 +8485,7 @@ frontpage.fok.nl,linkiesta.it,klusidee.nl,vandale.nl,welklidwoord.be,welklidwoor
 frost.co.uk,turk.net##body .rey-cookieNotice:not(#style_important)
 frozenbyte.com##.moove_gdpr_cookie_info_bar
 frozenway.games,gbi.llc,dilbert.com,balifactoryoutlet.com.au,rinna.co.jp,mydoggieboosters.com,nikhilbharatshikshaparisad.in,7818448870.com,ai-aitech.co.uk,419.consulting,europeanresolverpolicy.com##.widget-cookie-banner
-fruugo.de#%#//scriptlet('set-cookie', 'consents', 'essential')
+fruugo.*#%#//scriptlet('set-cookie', 'consents', 'essential')
 fruugo.se#%#//scriptlet('trusted-click-element', '.js-consent-btn-decline')
 fruugonorge.com#%#//scriptlet('trusted-set-cookie', 'consents', 'essential')
 fsbot.xyz#$##askcookie { display: none !important; }
@@ -8818,6 +8818,7 @@ ghacks.net#%#//scriptlet('remove-class', 'didomi-popup-open', 'body')
 ghacks.net,healthyceleb.com,makeuseof.com,notebookcheck.com##.sncmp-app_gdpr
 ghanaweb.com##body > #bk
 gheed.com#%#//scriptlet('set-cookie-reload', 'ck', 'false')
+ghelamco.com#@##cookieModal
 ghostery.com###ghostery-consent
 ghostery.com##.piwik-notice-container
 ghpage.com##.tds-call-to-action1
@@ -10354,6 +10355,7 @@ kadinlarbilir.com##.cookie-consent-jolt
 kaft.com###cookie-policy-band
 kaggle.com#%#//scriptlet('set-cookie', 'ACCEPTED_COOKIES', 'true')
 kagoshima-kankou.com,crossroadfukuoka.jp,nagasaki-tabinet.com,my-kagawa.jp,iyokannet.jp,niigata-kankou.or.jp,kanko-miyazaki.jp##.common-gdpr-box
+kahhve.com##.gizlilik-politikasi-modal
 kaida-fish.ru##.custom_message
 kaidee.com##div[data-testid="cookie-consent-prompt"]
 kaiser-elektro.de#%#//scriptlet('set-cookie', 'mnd-cookie-accepted-wwwkaiserelektrode1', '1')
@@ -12007,8 +12009,8 @@ mobilbahis7.com##.toast-warning
 mobile-fueling.de#%#//scriptlet('set-cookie', 'cookieControl', 'true')
 mobile-fueling.de#%#//scriptlet('trusted-set-cookie', 'cookieControlPrefs', '["comfort"]')
 mobile-fueling.de#@##gdpr-cookie-message
-mobile.de###mde-consent-modal-container
 mobile.de##.cookie-banner-outer
+mobile.de#%#//scriptlet('trusted-click-element', '.mde-consent-decline-btn','','300')
 mobile.facebook.com#@#div[data-sigil$="m-layer-root"][class$="accelerate"]:has(> div[data-sigil$="m-overlay-layer"] a[data-cookiebanner="accept_button"])
 mobile.here.com##.newbanner
 mobile.lebara.com##.cookie-pop-up-component
@@ -12780,6 +12782,7 @@ notino.pl##.exponea-cookie-bg
 notion.com##section[class^="cookiePreferencesBanner_container"]
 notion.com#%#//scriptlet('trusted-click-element', 'button[aria-label="Reject all cookies"]', '!cookie:notion_check_cookie_consent')
 notion.site,notion.so#%#//scriptlet('set-cookie', 'notion_cookie_consent', '0')
+notoriouscinemas.it,wikiwand.com,nextmobile.ru,mietspiegel-muenchen.de,pik-broker.ru##div[class^="cookie_"]
 nouvelobs.com#%#//scriptlet('trusted-click-element', '.gdpr-glm-wall button#btnAcceptAll')
 novalnet.de###daextlwcnf-cookie-notice-container
 novapdf.com,real.com,backup4all.com###cookie-gdpr
@@ -17934,7 +17937,6 @@ wifishop.nl#$#.modal-backdrop { display: none !important; }
 wifishop.nl#$#.modal-open { overflow: auto !important; }
 wifishop.nl#@#.cookie-container
 wikiloc.com##.cookie-monster__container
-wikiwand.com,nextmobile.ru,mietspiegel-muenchen.de,pik-broker.ru##div[class^="cookie_"]
 wilanow-palac.pl###cookies-info-frame
 wildberries.ru##.fixed-block__cookies
 wilderkaiser.info##.mw-dsgvo-cookie-slidebar_01
@@ -18576,7 +18578,7 @@ _eu_cookie_
 ||cdn.idealo.com/storage/cmp/consent-management.js
 ||cdn.images.express.co.uk/cmp/cmpui.html
 ||cdn.iubenda.com/cs/iubenda_cs.js$domain=agrigentonotizie.it|anconatoday.it|arezzonotizie.it|avellinotoday.it|baritoday.it|bolognatoday.it|bresciatoday.it|brindisireport.it|cagliaritoday.it|casertanews.it|cataniatoday.it|cesenatoday.it|chietitoday.it|ferraratoday.it|firenzetoday.it|foggiatoday.it|forlitoday.it|frosinonetoday.it|genovatoday.it|ilpescara.it|ilpiacenza.it|latinatoday.it|lecceprima.it|leccotoday.it|livornotoday.it|messinatoday.it|milanotoday.it|modenatoday.it|monzatoday.it|napolitoday.it|novaratoday.it|padovaoggi.it|palermotoday.it|parmatoday.it|perugiatoday.it|pisatoday.it|pordenonetoday.it|quicomo.it|ravennatoday.it|reggiotoday.it|riminitoday.it|salernotoday.it|sondriotoday.it|ternitoday.it|torinotoday.it|trentotoday.it|trevisotoday.it|triesteprima.it|udinetoday.it|veneziatoday.it|veronasera.it|vicenzatoday.it|viterbotoday.it|dragonsecret.it
-||cdn.iubenda.com^$domain=altrarunning.eu|routinehub.co|eprice.it|roma.bakeca.it|gdrplayers.it|centridentisticiprimo.it|grilli.org|oncewerenerd.com|costacruises.eu|ilsussidiario.net|laragione.eu|litter-robot.com|strapstudio.com|elimobile.it|crel.it|viaggiarerent.com|eurospin.it|shoujo-love.net|open3dlab.com|unicusano.it|moveo.telepass.com|bobsbusiness.co.uk|caseecase-roma.it|smartworld.it|scuoladelia.it|studenti.it|pierucciagricoltura.it|newatlas.com|quark.com|frame.work|aranzulla.it|sorrisi.com|automateexcel.com|ticketsms.it|cagliaripad.it|maggiolieditore.it|rivistadomino.it|ikonos.tv|fidelityhouse.eu|asustore.it|connetti.italia.it|comet.it|trony.it|optimaitalia.com|ridevideogame.com|biopills.net|crazygames.pl|giallozafferano.it|hwupgrade.it|rdrbikes.it|formu1a.uno|boilerroom.tv|gta-series.com|zeusnews.it|vgpplay.com|libretro.com|lunarg.com|rausgegangen.de|dire.it|sanihelp.it|textexpander.com|victoriassecretbeauty.it|businessschool.luiss.it|rifiutologia.it|centrocommercialeaura.it|baopublishing.it|karina-lergenmueller.de|torrinomedica.it|policlinicocampusbiomedico.it|policlinicogemelli.it|prospectmagazine.co.uk|drcommodore.it|stilcasa.net|farmaciasanvito.com|webtoppings.bar|homerun.co.uk|assodigitale.it|emisupermercati.it|internazionale.it|easycoop.com|sancarloveterinaria.it|profumeriamancino.com|attivissimo.me|comixrevolution.com|rinascente.it|martysmods.com|inclusiva-mente.it|quotidianodipuglia.it|muscleandstrength.com|manytricks.com|sportler.com|inciso.it|antoninolagana.it|coolors.co|film.it|cash-back.it|apothekeloreto.de|incube8games.com|moosend.com
+||cdn.iubenda.com^$domain=altrarunning.eu|routinehub.co|eprice.it|roma.bakeca.it|gdrplayers.it|centridentisticiprimo.it|grilli.org|oncewerenerd.com|costacruises.eu|ilsussidiario.net|laragione.eu|litter-robot.com|strapstudio.com|elimobile.it|crel.it|viaggiarerent.com|eurospin.it|shoujo-love.net|open3dlab.com|unicusano.it|moveo.telepass.com|bobsbusiness.co.uk|caseecase-roma.it|smartworld.it|scuoladelia.it|studenti.it|pierucciagricoltura.it|newatlas.com|quark.com|frame.work|aranzulla.it|sorrisi.com|automateexcel.com|ticketsms.it|cagliaripad.it|maggiolieditore.it|rivistadomino.it|ikonos.tv|fidelityhouse.eu|asustore.it|connetti.italia.it|comet.it|trony.it|optimaitalia.com|ridevideogame.com|biopills.net|crazygames.pl|giallozafferano.it|hwupgrade.it|rdrbikes.it|formu1a.uno|boilerroom.tv|gta-series.com|zeusnews.it|vgpplay.com|libretro.com|lunarg.com|rausgegangen.de|dire.it|sanihelp.it|textexpander.com|victoriassecretbeauty.it|businessschool.luiss.it|rifiutologia.it|centrocommercialeaura.it|baopublishing.it|karina-lergenmueller.de|torrinomedica.it|policlinicocampusbiomedico.it|policlinicogemelli.it|prospectmagazine.co.uk|drcommodore.it|stilcasa.net|farmaciasanvito.com|webtoppings.bar|homerun.co.uk|assodigitale.it|emisupermercati.it|internazionale.it|easycoop.com|sancarloveterinaria.it|profumeriamancino.com|attivissimo.me|comixrevolution.com|rinascente.it|martysmods.com|inclusiva-mente.it|quotidianodipuglia.it|muscleandstrength.com|manytricks.com|sportler.com|inciso.it|antoninolagana.it|coolors.co|film.it|cash-back.it|apothekeloreto.de|incube8games.com|moosend.com|martinogroup.shop
 ||cdn.izinal.com^$third-party
 ||cdn.jsdelivr.net/gh/jfeltkamp/cookiesjsr@1/$domain=mediamarktsaturn.com
 ||cdn.jsdelivr.net/npm/@lmc-eu/cookie-consent-manager$domain=teamio.com

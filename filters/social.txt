@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-12 16:26:30 RPC
+! Updated: 2025-02-13 00:26:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10005,7 +10005,6 @@
 ##a[href^="https://x.com/intent/retweet?tweet_id"]
 ##a[href^="https://x.com/intent/tweet/?"]
 ##a[href^="https://x.com/intent/tweet?"]
-##a[href^="https://x.com/share"]
 ##a[href^="javascript:window.open('http://www.facebook.com/sharer.php"]
 ##a[href^="line://msg/"]
 ##a[href^="viber://forward?text="]
@@ -15636,6 +15635,7 @@ francebleu.fr##.ShareNetwork
 francetvinfo.fr##.m-share-row
 francetvinfo.fr##.social-zone__wrapper
 francfranc.com##.product-detail__sns
+francoischarron.com,jp.topcarweb.com,idaegu.com,etoday.co.kr,suruga-ya.jp##.share_icon
 frasicelebri.it##.email
 fraza.com##.social-share-p-wrapper
 freac.org#?##rightcol-broad > div.module:has(> div h3:contains(Share))
@@ -17670,7 +17670,6 @@ jp.indeed.com##div[data-testid="social-links"]
 jp.square-enix.com###socialicon
 jp.techcrunch.com###social-after-wrapper
 jp.techcrunch.com##body #stcky-footer
-jp.topcarweb.com,idaegu.com,etoday.co.kr,suruga-ya.jp##.share_icon
 jp.topcarweb.com,todaypk.video##.share_text
 jpcast.japanpost.jp##.sns-link-01
 jpl.nasa.gov##a[aria-label^="Share via"]
@@ -24471,6 +24470,8 @@ toonights.com,rivegauche.ru,aydinlik.com.tr##share-buttons
 toonippo.co.jp##.ad-billbaord
 top-radio.ru#$#.socialite { visibility: hidden!important; }
 top.today.ua##.article_caption__social
+topasnew24.com##.fstblock:has(> div.ya-share2)
+topasnew24.com##center:has(> div[style] > div.ya-share2)
 topauto.co.za##.eltd-blog-single-share
 topauto.co.za##.widget_eltd_social_icon_widget
 topcoder.com#?#div[class] ~ h3[class]:contains(share)
@@ -27067,6 +27068,7 @@ _social_footer_
 ~tumblr.com##a[href^="http://www.tumblr.com/share"]
 ~tumblr.com##a[href^="https://www.tumblr.com/share"]
 ~twitter.com##a[href^="//twitter.com/share"]
+~twitter.com,~x.com##a[href^="//x.com/share"]
 ~twitter.com,~x.com##a[href^="https://twitter.com/home/?"]
 ~twitter.com,~x.com##a[href^="https://twitter.com/home?"]
 ~twitter.com,~x.com##a[href^="https://x.com/home/?"]
