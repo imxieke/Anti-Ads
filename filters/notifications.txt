@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-12 00:26:57 RPC
+! Updated: 2025-02-12 09:27:23 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8132,7 +8132,6 @@ financial-ombudsman.org.uk##.cookie-banner-body-overlay
 financial-ombudsman.org.uk#$#.overlay-showing { margin-top: 0px !important; }
 financial.nikkei.com##.f-privacy
 financialexpress.com,indianexpress.com##.app-btn
-finansowysupermarket.pl###policy-popup
 finanswebde.com#?#.container > div[style^="height:"] > .alert-dismissible > a[type="cookie"]:upward(1)
 finanz-forum.de##.cinfo
 finanzchef24.de#%#document.cookie='cookie_consent_level={"functionality":true,"strictly-necessary":true,"targeting":false,"tracking":false}; path=/;';
@@ -8370,6 +8369,7 @@ fotopuzzel.nl,fotopuzzle.de,mifotopuzzle.es,puzzleyou.*#@#.cookie-policy:not(bod
 fotopuzzle.de#@#.cookie-policy:not(body):not(html)
 fotor.com##div[class^="UseCookie_useCookieModle_"]
 fotospor.com##div.alert.info
+fotospor.com,finansowysupermarket.pl###policy-popup
 fotostrana.ru##.footer-cookie-agreement
 found.ee##.disclaimer-text
 foundit.com.ph##.bottom-\[10\%\].fixed
@@ -9172,7 +9172,6 @@ gymgrossisten.no##.cookie-message-banner
 gymshark.com#?#.site-header > div.message-top-bar:has(> .message-content > a[href="/pages/cookie-policy"])
 gzdiz.gda.pl###acceptRodo
 gzdiz.gda.pl###acceptRodo ~ div.modal-backdrop
-gzo.ch,spiegel.de,bielsk.eu,argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,mkvtoolnix.download,mlbstream.me##.cc-window
 gzt.com##.cookie-policy-block
 gzt.com,yenisafak.com##.policy.active
 h-ka.de,thi.de,oedp-mainz.de,oedp-koeln.de,oedp.de##.cookiemessage__overlay
@@ -9661,6 +9660,7 @@ iar.com,bmi-online.pl##.cookies__info
 iasp.ws#$#.lbOuterWrapper { display: none !important; }
 iasp.ws#$#.lbOverlay { display: none !important; }
 iasp.ws#$#body { overflow: auto !important; }
+iauto.lv,visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 ib.eplus.jp,scilab.org###cookie_gdpr
 ibank.asb.by#@#.cc_container
 iberiaexpress.com#%#//scriptlet('trusted-click-element', '#rejectCookiesTerms')
@@ -10485,6 +10485,7 @@ kiezbett.com###allowCookieBanner
 kijiji.ca##.appMarketingWrapper-909710043
 kijiji.ca##.container-3757608091
 kijiji.ca##div[class^="cookieBannerContainer"]
+kijiji.ca##div[data-fes-id="header"] > div:not([class])
 kijiji.ca,ullstein.de##div[aria-label^="Cookies"]
 kik.com##.cookie_policy_outer
 kilicoffice.com###st_notification_4
@@ -14514,6 +14515,7 @@ replika.ai##div[role="alert"]
 reportaz.polskieradio.pl##div[class^="TermsOfUseModal"]
 reports.turnerandtownsend.com#%#//scriptlet('trusted-click-element', 'div[data-testid="accept-cc-button"] > a')
 repro.io###js-cookie-usage-popup
+republicworld.com,gzo.ch,spiegel.de,bielsk.eu,argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,mkvtoolnix.download,mlbstream.me##.cc-window
 republika.rs##.app-box
 rescuetime.com#@#.web-notification
 researchgate.net###rg-us-cookie-banner
@@ -17483,7 +17485,6 @@ visiongame.cz##.wpd-gdpr-dialog
 visiontechusa.com###toast
 visit-oita.jp,investkorea.org##.cookie-area
 visitgdansk.com,itcentris.store,sklep-narzedzia.pl##.configMessages
-visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 visitkorea.or.kr,whoswho.de,reifenleader.de,musiksocke.de,guetsel.de###footer-cookie
 visitmalopolska.pl##.msit-cookie-information-wrapper
 visitmons.be##.cookie-compliance-message
@@ -17514,6 +17515,7 @@ vitra.com##a[class^="footerCookieSettings_"]
 vitra.com#?#body > .ReactModalPortal:has(> .ReactModal__Overlay > .ReactModal__Content .modal__content > .consent__snipped)
 vitra.com#?#body > div:not([id]):not([class]):has(> div.modal__wrapper)
 vitra.com.tr##.kvkk-modal-container
+viture.com##div[data-sentry-component="CookieBanner"]
 viture.com,gnc.com,movavi.com##.privacy-policy-popup
 viu.com###cookie_consent_box
 viu.com##.Box-root.css-1bp9apo

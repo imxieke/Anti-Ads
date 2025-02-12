@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-12 00:26:57 RPC
+! Updated: 2025-02-12 09:27:23 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24771,7 +24771,6 @@
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
-@@||cookie-script.com^$domain=lr-shop-direkt.de
 @@||cookie-script.com^$domain=lr-shop-direkt.de|swiss-sport.tv
 @@||cookie-script.com^$domain=swiss-sport.tv
 @@||cookiebot.com/uc.js$domain=adac-shop.de
@@ -35370,7 +35369,6 @@ financialexpress.com##div[id^="google_ads_iframe"][id*="GDPR"]
 financnivzdelavani.cz##.cb
 finansavisen.no###finansavisen-gdpr-disclaimer
 finansiaki.pl##.cookies-info
-finansowysupermarket.pl###policy-popup
 finanswebde.com#?#.container > div[style^="height:"] > .alert-dismissible > a[type="cookie"]:upward(1)
 finanz-forum.de###cb82a-modal
 finanz-forum.de##.cinfo
@@ -35889,6 +35887,7 @@ fotosik.pl##.modal-backdrop, #rodo-info
 fotoskoda.cz,e-glamour.pl###template-container_cookie-consent
 fotoskoda.cz,e-glamour.pl##body,html:style(overflow: auto !important; position: initial !important;)
 fotospor.com##div.alert.info
+fotospor.com,finansowysupermarket.pl###policy-popup
 fotostrana.ru##.footer-cookie-agreement
 fotozine.org###kukijima
 found.ee##.disclaimer-text
@@ -37493,7 +37492,6 @@ gyproc.it##.disclaimer
 gzcss.co.uk##.cookie-flash
 gzdiz.gda.pl###acceptRodo
 gzdiz.gda.pl###acceptRodo ~ div.modal-backdrop
-gzo.ch,spiegel.de,bielsk.eu,argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,mkvtoolnix.download,mlbstream.me##.cc-window
 gzt.com##.cookie-policy-block
 gzt.com,yenisafak.com##.policy.active
 h-farm.com##.mx-0.w-100.row
@@ -38557,6 +38555,7 @@ iarh.hr###kukijima
 iasp.ws#$#.lbOuterWrapper { display: none !important; }
 iasp.ws#$#.lbOverlay { display: none !important; }
 iasp.ws#$#body { overflow: auto !important; }
+iauto.lv,visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 ib.eplus.jp,scilab.org###cookie_gdpr
 ibadual.com##.modalcomplete
 ibank.asb.by#@#.cc_container
@@ -40253,6 +40252,7 @@ kiinteistomaailma.fi###km-ccw
 kiitoskauppa.fi##.kiitos-cookies
 kijiji.ca##+js(set-cookie, hdcab, true)
 kijiji.ca##div[class^="cookieBannerContainer"]
+kijiji.ca##div[data-fes-id="header"] > div:not([class])
 kijiji.ca,ullstein.de##div[aria-label^="Cookies"]
 kijkonderzoek.nl##.uk-position-fixed
 kik.com##.cookie_policy_outer
@@ -48498,6 +48498,7 @@ reportz.io##.rp-CookiesConsent
 repostuj.pl##.jumbotron
 repro.io###js-cookie-usage-popup
 reproduccionasistida.org,salmonsoftware.ie,wemabank.com##.cli-bar-popup
+republicworld.com,gzo.ch,spiegel.de,bielsk.eu,argusmonitor.com,audeze.com,hedd.audio,spigen.com,jasminwagner.de,aqua-fun.com,dji.com,mkvtoolnix.download,mlbstream.me##.cc-window
 reputationup.com##.elementor-popup-modal
 researchaffiliates.com##+js(set-cookie, ra-cookie-disclaimer-11-05-2022, true)
 researchgate.net###rg-us-cookie-banner
@@ -54629,7 +54630,6 @@ visit-oita.jp,investkorea.org##.cookie-area
 visit.brussels##.confirm
 visitczechrepublic.com##.czt-cookie-bar__backdrop
 visitgdansk.com,itcentris.store,sklep-narzedzia.pl##.configMessages
-visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 visitkorea.or.kr##.notipop_bg
 visitkorea.or.kr,whoswho.de,reifenleader.de,musiksocke.de,guetsel.de###footer-cookie
 visitleevalley.org.uk###howdy
@@ -54687,6 +54687,7 @@ vitra.com.tr##.kvkk-modal-container
 vitrado.de##app-google-consent
 vitrasa.es###cookies
 vitriini.fi##.ltcn
+viture.com##div[data-sentry-component="CookieBanner"]
 viture.com,gnc.com,movavi.com##.privacy-policy-popup
 viu.com###cookie_consent_box
 viu.com##+js(set-cookie, cookie_consent_accept, true)

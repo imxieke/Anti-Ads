@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-12 00:26:57 RPC
+! Updated: 2025-02-12 09:27:23 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12678,6 +12678,10 @@ kisssub.org###kanban
 kisssub.org##a > img[src*=".0o0.ooo/"]
 kisssub.org##[class="clear text_center"],[class="gg_"],[class^="ads-"]
 kitaaa.net###submenu > ul.mb-4.font-weight-bold
+kitco.com##img[alt*="AppStore"]
+kitco.com##img[alt*="GooglePlay"]
+kitco.com##img[alt*="QR Code"]
+kitco.com,rawstory.com##div[id^="banner-"]
 kitsu.io##.alert-kitsu
 kjsv.com###advertisingMap
 kk200300.com##.xuanfu
@@ -17621,7 +17625,6 @@ rat.xxx##.under-player-adv
 rat.xxx,zbporn.*##.mob-nat-spot
 rat.xxx,zbporn.*##.under-video-spot
 ratedxbiz.com##.ima,.rmedia,.sppc
-rawstory.com##div[id^="banner-"]
 raysigorta.com.tr#$#.modal { display: none!important; }
 raysigorta.com.tr#$#.modal-backdrop { display: none !important; }
 raysigorta.com.tr#$#.modal[aria-labelledby="myModalLabel"] { display: none !important; }
@@ -17775,7 +17778,10 @@ report.iko-yo.net#?#main > div.c-container--l:has(> div[id^="gpt_sp"])
 report.netcraft.com##.notification-sidebar
 repubblica.it##div[id^="advHook-"]
 republicworld.com##.interstitialPopup
+republicworld.com##.lbmobile
 republicworld.com##.mainWrapper > .headerContainer ~ div[style^="overflow: hidden; justify-content: center;"]
+republicworld.com##a[href^="https://republicworld.page.link/"]
+republicworld.com##div.py-6:has(> .adWidget)
 republicworld.com#?#div[style] > div[style*="min-height"]:has(> amp-ad)
 republicworld.com,republicbharat.com###hellobar-bar
 republicworld.com,www-republicworld-com.cdn.ampproject.org##div[class^="ads_"]
@@ -20681,6 +20687,8 @@ vip.tiin.vn##.BoxAdvB1Home
 vip.tiin.vn#?#.sub-top > div > div.netnews-item:has(> div.nn-item-top > p > a:contains(Tin tài trợ))
 vipcle2.com#?#body > div[id^="text-"] > div.textwidget:has(> div[class^="ad300"])
 vipcn.com##.bnr,.ggzs_bottom,.adn,.Qad,.hz-bottom,.c_soft_button,#z_baidu
+vipergirls.to###page-home > div[style="text-align:center;"]
+vipergirls.to##.forumbit_post:has(> div:only-child > .ui-btn-text > h3 > a[rel="external"])
 viphd.co##.j_advert
 vipleague.tv##.b365ban
 vippers.jp##.res_content ~ .include1 > .show-iphone

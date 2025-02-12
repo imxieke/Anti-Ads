@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-12 00:26:57 RPC
+! Updated: 2025-02-12 09:27:23 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17806,6 +17806,7 @@ kayserihaber38.com##.haberPaylas
 kayseriolay.com#?#.bg-slate-100 > .flex > ul > li > a.ssk-facebook:upward(3)
 kazanfirst.ru###fancybox-loading
 kazete.com.tr,polemikhaber.com,habervakti.com,gundemkibris.com,milliirade.com,kuzeyekspres.com.tr,sakaryagazetesi.com.tr##.social-buttons > a[data-bs-placement]:not([data-bs-original-title*="text size"])
+kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 kbs.co.kr##.sec_share
 kdnuggets.com##.addthis_native_toolbox
 keepa.com#@#.socialButtons
@@ -23252,7 +23253,6 @@ sportonline.ua###txtselect_marker
 sportowefakty.wp.pl##.shareList > .item
 sportowy24.pl,gol24.pl###narzedzia > .facebook
 sportowy24.pl,gol24.pl##.hp-social-icons
-sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 sports-ndtv-com.cdn.ampproject.org##.cat-hdr-share
 sports.ifeng.com##li[class^="index_titshare"]
 sports.ifeng.com##li[class^="index_titshare"] + li[class^="index_line"]
@@ -24757,7 +24757,7 @@ tukero.org##.socialprofiles
 tulapressa.ru##.news_image_social
 tullys.co.jp##.sp_sns_lists
 tulodz.pl##.article__footer__btns
-tumblr.com###glass-container > div[class] > div[data-popper-placement] > div > a[href$="archive"] ~ button[class]
+tumblr.com###glass-container > div[class] > div[data-popper-placement] > div > a[href$="archive"] ~ button[class]:not([role])
 tunceliemek.com.tr##.news-article .ssk-block
 tune.com##div[class*="us_share_buttons"]
 tunefind.com##button[class^="ShareQuestion__container"]
