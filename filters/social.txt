@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-12 09:27:23 RPC
+! Updated: 2025-02-12 16:26:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24429,6 +24429,7 @@ togetter.com###social_floating_box
 togetter.com##.feedback_box > [class*="button"]
 togetter.com##.lite_share
 togetter.com##.social_lite_button
+togetter.com,watchseinfeld.com,eropasture.com##.social_box
 togliatti24.ru,pg12.ru##.Likes
 tokado.ru##.widget_facebook_right
 tokai-tv.com,career.levtech.jp,info-maimai.sega.jp,news.mynavi.jp##.articleSns
@@ -25578,7 +25579,6 @@ watchfaces.be###secondary > aside#text-5
 watchguard.com##.addtoany
 watchinamerica.com##.spc-social-block
 watchmojo.com,m.slashdot.org,ssrn.com,g24.gal,techgear.gr,fortnite.com,firstsportz.com,panini.com.br,theadvocate.com,dagbladet.no,estadao.com.br,techbang.com,punto-informatico.it,lemon8-app.com,kauf-unique.de,rebootonline.com,seireigensouki.com,moriarty-anime.com,pokemon.co.jp,familyminded.com,workandmoney.com,you.regettingold.com,robots.net,cnews.ru,konkret24.tvn24.pl,dailyprogress.com,webtekno.com##.share-container
-watchseinfeld.com,eropasture.com##.social_box
 watchseries.cyou#@#.addthis_inline_share_toolbox
 watchserieshd.tv,watchmovie.movie##.video-socialshare-container
 watchxnx.com###video > span[style="color: yellow; font-size: large;"]

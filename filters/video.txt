@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-02-12 09:27:23 RPC
+! Updated: 2025-02-12 16:26:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -46,9 +46,11 @@
 @@||tb.mgtv.com/sdk/*/ad-sdk.js^$script
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
+ad-survey.com
 age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 apisgame.iqiyi.com
 atm.youku.com
+aty.sohu.com
 banana.le.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
@@ -73,6 +75,7 @@ douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com,huya.com##a[href^="https://g.wan."]
 g.huya.com
 gdt.qq.com
+go.sohu.com
 huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com##a[href^="https://wan."]
 ipinyou.com
@@ -86,6 +89,7 @@ jads.co
 le.com##+js(set, isAdLoaded, true)
 le.com##.min_pause_img
 litix.io
+log1.17173.com
 m.huya.com##.ssr-wrapper>:not(.live-wrap)
 m.huya.com##.video-con:style(height:100vh!important;padding:0!important;position:static!important;)
 m.huya.com##video:style(object-fit:fill!important)
@@ -160,7 +164,6 @@ z4a.net
 ||api.bilibili.com/x/click-interface/click/$xhr
 ||api.bilibili.com/x/web-show/res/locs?$~script
 ||asimgs.pplive.cn/imgs
-||aty.sohu.com/
 ||beacon.cdn.qq.com/*/beacon_web.min.js^$script
 ||beacon.qq.com^$ping
 ||btsow.motorcycles/app/jav$image
@@ -174,7 +177,6 @@ z4a.net
 ||float.sandai.net
 ||g.pptv.com/game/$subdocument
 ||g.youyou234.com^
-||go.sohu.com/
 ||google.*/pagead/
 ||gstatic.com/shopping?
 ||gtimg.com/qqlive/
@@ -187,7 +189,6 @@ z4a.net
 ||letvimg.com/*_gugwl/$image
 ||letvimg.com/lc*_iscms/202$image
 ||live-cover.msstatic.com/huyalive/*/format,webp/$image
-||log1.17173.com/
 ||mall.video.qq.com/m/activity/h5/$subdocument
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?$script
 ||mediamax.suning.com/adssp/sdk/$script
