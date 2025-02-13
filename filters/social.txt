@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-13 09:27:43 RPC
+! Updated: 2025-02-13 16:25:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13174,6 +13174,7 @@ chaimiles.com##.sidebar > div.LinkList
 chainsawman.dog##.l-header__sns
 challonge.com#?#.actions:has(> div > a > .fa-share-alt)
 champion.com.ua##.post_news_social > a
+championat.com##.article-footer > div.article-footer__row:has(> div > div.social-sharing)
 championat.com##.article-footer__row > div > div.article-footer__title
 championat.com##.soc-menu
 championsleague.basketball##div[data-contentful-field-id="body"] > div[class]:has(> button > span > svg > path[d^="M13 14H11C7.54202 14 4.53953 15.9502"])
@@ -15175,6 +15176,7 @@ fashionwalker.com##.medialink
 fasme.asia,re-russia.net,hakimiyetgazetesi.com##.detail-share
 fast.com##.share-container > a[id^="share-on-"]
 fastcompany.com##.highlight-share-popover
+fastcompany.com##div[class~="top-[12px]"].absolute:has(use[href$="#share-icon-grey"])
 fastcompany.com##main > ul:has(> li > a[href^="https://www.facebook.com/sharer.php"])
 fastcompany.com##main ul[class^="gap-"]:has(li.border-r > button#Share_button_link)
 fastcompanybrasil.com##.fcbr_social_share
@@ -21493,6 +21495,7 @@ portalsamorzadowy.pl##.progress > .social
 portamur.ru###error-send
 portfoliojournal.de##.j-sharebuttons
 portugues.com.br##.artigo > a[data-share]
+posfie.com,togetter.com,watchseinfeld.com,eropasture.com##.social_box
 positivr.fr##.positivr-sharers
 post-gazette.com##.pgevoke-story-socialbuttons > [class^="pgevoke-story-socialbuttons-"]:not(.pgevoke-story-socialbuttons-print):not(.pgevoke-story-socialbuttons-email)
 post-gazette.com,toledoblade.com##.pgevoke-contentarea-socialbuttons-wrapper
@@ -24428,7 +24431,6 @@ togetter.com###social_floating_box
 togetter.com##.feedback_box > [class*="button"]
 togetter.com##.lite_share
 togetter.com##.social_lite_button
-togetter.com,watchseinfeld.com,eropasture.com##.social_box
 togliatti24.ru,pg12.ru##.Likes
 tokado.ru##.widget_facebook_right
 tokai-tv.com,career.levtech.jp,info-maimai.sega.jp,news.mynavi.jp##.articleSns

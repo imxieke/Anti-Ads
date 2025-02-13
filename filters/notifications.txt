@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-13 09:27:43 RPC
+! Updated: 2025-02-13 16:25:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16013,6 +16013,7 @@ swiatzdrowia.pl,blutspendedienst.com,aldifotos.de,meinfoto.de##.cookiefirst-root
 swimswam.com##.wpcn_banner-wrapper
 swiss-sport.tv#%#//scriptlet('trusted-click-element', '#cookiescript_reject', '', '500')
 swiss-sport.tv#@##cookiescript_injected
+swisscows.com##.home-link-instruction
 swisse.com.au,intersport.no###magecomp-cookie-template
 swissmilk.ch#%#//scriptlet('set-cookie', 'closedCookieBanner', 'true')
 swissmilk.ch#@#.CookieBanner:not(body):not(html)
