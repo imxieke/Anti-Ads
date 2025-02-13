@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-13 00:26:24 RPC
+! Updated: 2025-02-13 09:27:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2975,6 +2975,7 @@
 @@||consent.cookiebot.com/uc.js$domain=clo3d.com
 @@||consent.cookiebot.com/uc.js$domain=comenzi.bebetei.ro
 @@||consent.cookiebot.com/uc.js$domain=continente.pt
+@@||consent.cookiebot.com/uc.js$domain=cosmo-hairshop.de
 @@||consent.cookiebot.com/uc.js$domain=dasinvestment.com
 @@||consent.cookiebot.com/uc.js$domain=deadwalk.io
 @@||consent.cookiebot.com/uc.js$domain=dimensione.com
@@ -13026,7 +13027,6 @@ okdiario.com###cookieLawPanel
 okdo.com#%#//scriptlet('trusted-click-element', '.gdpr-i-agree-button', '', '1000')
 okinawastory.jp##.os-l-cookie
 okko.tv##.swZOQ
-okko.tv##div[class*=" "]:has(> div[class] > a[href="/terms"]:not([rel]))
 oklink.com##.cookieTips
 okmarket.ru,ulker.com.tr,vogue.ru##.cookie-pane
 oko.press#%#//scriptlet('trusted-set-cookie', 'privacy2', 'necessary')
@@ -15236,6 +15236,7 @@ siepomaga.pl,docdoc.ru##div[data-testid="cookies-banner"]
 sierratradingpost.com##.js-acceptCookieDiv
 sigaantenado.com.br###bar-lgpd
 sigame.vladimirkhil.com##.cookies__warning
+sigmalive.com#%#//scriptlet('set-local-storage-item', 'push-notifications', '0')
 signal-iduna.pl,papierkannmehr.de##.m-cookies
 signinapp.com##.cookie-banner + div.bg-black
 signupgenius.com##.sug-notice--privacy
@@ -19391,6 +19392,7 @@ _eu_cookie_
 ||xtremepush.com^$third-party
 ||yello.de/mehralsdudenkst/wp-content/themes/yello-theme/js/yello-cookie-layer.js
 ||youlead.pl/webpushprompt.js
+||zagreb.hr/cookie_folder/gd-cookie.js
 ||zetporn.com/core/js/gdprJs.php
 ||zgody.infor.pl/build/assets/js/main.js$domain=~sklep.infor.pl
 ||zohocdn.com/pagesense/tracking/privacy-banner-$third-party

@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-13 00:26:24 RPC
+! Updated: 2025-02-13 09:27:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24643,6 +24643,7 @@
 @@||consent.cookiebot.com/uc.js$domain=clo3d.com
 @@||consent.cookiebot.com/uc.js$domain=comenzi.bebetei.ro
 @@||consent.cookiebot.com/uc.js$domain=continente.pt
+@@||consent.cookiebot.com/uc.js$domain=cosmo-hairshop.de
 @@||consent.cookiebot.com/uc.js$domain=dasinvestment.com
 @@||consent.cookiebot.com/uc.js$domain=deadwalk.io
 @@||consent.cookiebot.com/uc.js$domain=dimensione.com
@@ -29936,6 +29937,7 @@ buyandapply.nexus.org.uk##+js(set-cookie, gdpr-banner, 1)
 buydifferent.it##body > div:not([id]):not([class])
 buydifferent.it##div[style^="position: fixed; bottom:"]
 buyersclub.se##.component\:cookie-consent-dialog
+buying.expert##.cookie-consent-popover
 buyon.it##.cc_placeholder
 buyon.it,codicesconto.com##.cc_placeholder
 buyorbye.pl###cookie
@@ -40490,6 +40492,7 @@ komarovskiy.net#$#.smartbanner { display: none !important; }
 komarovskiy.net#$#html { margin-top: 0 !important; }
 kombiverkehr.de###ntcc
 komchadluek.net###accept-cookie-footer
+komdigi.go.id##+js(set-local-storage-item, localConsent, true)
 komediateatteri.fi###rehtiConsentMainWrapper
 komerso.pl,socialpress.pl###rodoScreenBg
 komische-oper-berlin.de#$#.dataprotection { display: none !important; }
@@ -45365,7 +45368,6 @@ okinawastory.jp##.os-l-cookie
 okko.tv##+js(set-cookie, cookie-confirm, 1)
 okko.tv##.swZOQ
 okko.tv##._313Cf
-okko.tv##div[class*=" "]:has(> div[class] > a[href="/terms"]:not([rel]))
 oklink.com##.cookieTips
 oklo.com##+js(set-cookie, cookiemonster-gdpr, 1)
 okmarket.ru,ulker.com.tr,vogue.ru##.cookie-pane
@@ -50068,6 +50070,7 @@ sigma-foto.de##.cc-popup-wrapper
 sigma-global.com##.c-info-pane
 sigma-global.com##.c-info-pane__container
 sigma-photo.fr##.choc-banner
+sigmalive.com#%#//scriptlet('set-local-storage-item', 'push-notifications', '0')
 sigmastudio.it###system-message, #system-messages, #system-message-container
 signal-iduna.de##.cookie
 signal-iduna.pl,papierkannmehr.de##.m-cookies
@@ -58019,6 +58022,7 @@ _eu_cookie_
 ||yenivatan.at/wp-content/1ed7e68247b9e059b94a36b825654e58.js
 ||yenivatan.at/wp-content/2494179630e471e4ae996d8139692663.js
 ||yimg.com^*/guce.js
+||zagreb.hr/cookie_folder/gd-cookie.js
 ||zetporn.com/core/js/gdprJs.php
 ||zgody.infor.pl/build/assets/js/main.js$domain=~sklep.infor.pl
 ||zgody.infor.pl/build/assets/js/main.js$script
