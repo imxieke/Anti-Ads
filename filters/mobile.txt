@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-13 16:25:36 RPC
+! Updated: 2025-02-14 00:26:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -978,6 +978,8 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 115cdn.com##a[href="https://vip.115.com/"] > img
 11880.com##body .search-result-list-item--topad
 11880.com,prinz.de,stylight.de,cleverdialer.de##.h5-sticky-ad
+11st.co.kr#$##banner-gnb { display: none !important; }
+11st.co.kr#%#//scriptlet('remove-class', 'header-fixed--banner', '#wrap')
 1200ksw.com##.gg,.catalogads
 120ask.com##.b_right > div[style]
 120ask.com##div.h-top-pic,.test_b,#top_img_bd
@@ -13867,6 +13869,7 @@ m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 m.mail.yahoo.co.jp###ad_container_top
 m.malaysiakini.com##.items-center[style="height:300px"]
 m.mangatown.com##div[class^="adv-"]
+m.map.kakao.com###daumWrap > div.comm_layer
 m.megafonpro.ru##div[class="v y m"]
 m.meilishuo.com##a[href^="/goto/open/?bg"]
 m.merdeka.com,m.otosia.com##.ads-flying_carpet
@@ -24767,6 +24770,7 @@ _zhike.htm
 ||a.duduji.com^
 ||a.dxzy163.com^
 ||a.dyjqd.com^
+||a.e68eaebc30768a673848927c2b8c8e38c38fd42312e367bca04fc622.com^
 ||a.epinv.com^
 ||a.exam58.com^
 ||a.fiksu.com^$important

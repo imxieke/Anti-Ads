@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-13 16:25:36 RPC
+! Updated: 2025-02-14 00:26:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10758,6 +10758,7 @@
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 2ch.logpo.jp##.Tweet
 2daygeek.com##body > div[id^="spu-"]
+2gb.com##.social_links_wrapper
 2ndvote.com,dijitalguvenlik.org,viatrolebus.com.br,journo.com.tr##.herald-single-sticky
 2u.fan##.l2u-society__share-sp
 2x2.su##.for_link
@@ -11345,6 +11346,7 @@ ahrefs.com##.share-post-top-bottom:not(.subscr-fright)
 ai.facebook.com#?#a[href^="https://www.facebook.com/sharer/sharer.php"]:upward(1)
 ai.meta.com##div[class^="_"] > div[class*=" _"]:has(> div[class^="_"] > a[href*="facebook.com/sharer/sharer.php"])
 ai4business.it##div[class^="wp-block-"][class$="-block-social"]
+aidoly.net##.snsbtn > a
 aif.by##div[class*="_sharings"]
 aif.ru##.article_sharings
 aif.ru##.goriz_panel_soc_box
@@ -12595,7 +12597,7 @@ bnext.com.tw##div[x-data="social_share"] > span[\@click^="toShare"]
 bnext.com.tw#?#.d-flex > div.txt:contains(分享)
 bnkomi.ru###sidebarbox > div[id="vk_groups5"]
 bnkomi.ru###vk_groups3
-bnnbloomberg.ca,cp24.com,irishnews.com,thedailybeast.com##.b-share-bar
+bnnbloomberg.ca,cp24.com,ctvnews.ca,irishnews.com,thedailybeast.com##.b-share-bar
 bnnbreaking.com##.post__share-block
 bnnbreaking.com##.post__socials
 bnr.bg#?#.row > div.span-12:has(> div.article-block > h5 > span:contains(Споделете))
@@ -14438,6 +14440,7 @@ drexel.edu##.share__body
 drinksint.com##.articleTools
 drishtiias.com##.fixedButton_hand.mobile_view_only
 drishtiias.com##.float-sm
+drive.com.au,portafolio.co##div[class^="share-"]
 drive.ru#@#.article-social-container
 drive2.ru##div[itemscope] > div[class]:has(> div.o-group > button[data-action="share.share"])
 drive2.ru#$#.c-share { position: absolute!important; left: -3000px!important; }
@@ -17708,6 +17711,7 @@ jvcmusic.co.jp##.m-share-article
 jvcmusic.co.jp##.m-share-site
 jwmx.tistory.com##.title-sns-share
 jyllands-posten.dk##.artView__shareToolbar
+k-health.com##button[data-open="article-sns"]
 k-mag.pl##.c-article-footer > div[class*="-social-media-icons"]
 k3su.xyz##article > div.sec_mg_b + p.mg_b_5
 k3su.xyz##article > div[class^="area_sns"]
@@ -21479,7 +21483,6 @@ porsche.com##.b-sharepanel
 portableapps.com##.social-bottons
 portafolio.co##.container__boton-whatsapp
 portafolio.co##.share-redes
-portafolio.co##div[class^="share-"]
 portail.free.fr###boutonsdepartage
 portal.munimolina.gob.pe#@##fb-root:not(body):not(html)
 portal.munimolina.gob.pe#@#.fb-page
