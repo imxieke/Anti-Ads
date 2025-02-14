@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-14 09:28:08 RPC
+! Updated: 2025-02-14 16:26:27 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18700,6 +18700,7 @@ m-timesofindia-com.cdn.ampproject.org##div.as_heading > .pdTop_2 > div[id^="ss-"
 m-zona.net##.track__share
 m.10000recipe.com##a[onclick="snsUtil.show()"]
 m.163.com##.operate-share
+m.40407.com##.follow-warp
 m.9gag.com##.bottom-sheet > ul.menu-list > li > a[class="icon"]:not([href])
 m.akparti.org.tr##.share > li:not(.pdf):not(.email)
 m.aksam.com.tr##.fixed-interaction-bar

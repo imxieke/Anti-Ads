@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-14 09:28:08 RPC
+! Updated: 2025-02-14 16:26:27 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2225,7 +2225,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -2376,6 +2376,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 91porn.com,dizhi.i7p.work,i9p.co,caoporn.com##[src^="http://fans.bestvogue.com/fans/"],#ad_text,.ad_float_left,#ad_headerbanner
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
+91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
@@ -13149,9 +13150,10 @@ limo.media##.m-ad-rectangle
 limo.media#?#.article > section.l-block > h3.c-sub-headline:contains(PR)
 line.me###install_line
 line.me##.midAdModule-root
-linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
+linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-linetv"][class*="-emphasis"]
 linetv.tw#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 linetv.tw#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
+linetv.tw#%#//scriptlet('set-constant', 'google.ima.AdError', 'noopFunc')
 lingvanex.com##.modal-app-overlay
 lingvanex.com##.seo-install-inner
 linkedin.com##.apptivation-promo
@@ -34174,6 +34176,7 @@ _zhike.htm
 ||dhqp68.com^
 ||dhtdig.xyz/static/js/dht_default.js
 ||dhukul.com^
+||dhuquxqy.com^
 ||di.deliveryengine.adswizz.com^$important
 ||di.ssl.msdk.qq.com^$important
 ||di2y21.top/jian/jiansshu.js
@@ -40634,6 +40637,7 @@ _zhike.htm
 ||kb-render.alicdn.com^
 ||kbexos.xyz^
 ||kccdk.com/Content/img/*.gif
+||kcinmad.top^
 ||kclimid.top^
 ||kcokamid.top^
 ||kcxmsb.com^
@@ -41189,6 +41193,7 @@ _zhike.htm
 ||ldamcsl.top^
 ||ldaps.taboola.com^$important
 ||ldb.cc/js/top.js
+||ldbnhd.icu^
 ||ldgjwdohqbi.xyz^
 ||ldinmal.top^
 ||ldipsuml.top^
@@ -48081,6 +48086,7 @@ _zhike.htm
 ||sact.atdmt.com^$important
 ||sacvmb.icu^
 ||sad.go.affec.tv^$important
+||saddarue.com^
 ||sadjk.com^
 ||sadloaf.com^
 ||saelphol.com^
@@ -48247,6 +48253,7 @@ _zhike.htm
 ||scientificsneeze.com^
 ||scigzetg.com^
 ||scihuns.com^
+||scinmab.top^
 ||scint-x.com/js/
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
@@ -50539,6 +50546,7 @@ _zhike.htm
 ||stroer-d.openx.net^$important
 ||stroer-mb-d.openx.net^$important
 ||strokesystem.com^
+||stroveiks.com^
 ||structurerod.com^
 ||struhuts.com^
 ||sts.batmobi.net^$important
@@ -55918,6 +55926,7 @@ _zhike.htm
 ||zbb.bbb.*.pics^
 ||zbcdn.net/__uvjgyw/slb.default.js
 ||zbjimg.com/static/union/
+||zbldxf.icu^
 ||zbwp6ghm.com^
 ||zc.adswizz.com^$important
 ||zc173.com/173fee/
