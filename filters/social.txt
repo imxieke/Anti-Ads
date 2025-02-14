@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-14 16:26:27 RPC
+! Updated: 2025-02-15 00:22:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14001,7 +14001,6 @@ deccoria.pl#$#html.dc-modal-is-locked > body.dc-layout--modal-active[style="padd
 deccoria.pl#$#html.dc-modal-is-locked > body.dc-layout--modal-active[style="padding-right: 17px;"] { overflow: visible!important; padding-right: 0!important; }
 dechisoku.com,gekiyaku.com,barulab.blog.fc2.com###social_box
 decider.com##.widget__social
-decoracion.trendencias.com,directoalpaladar.com,poprosa.com,trendencias.com##.head-nav-social
 decrypt.co##.relative:has(> div.sticky > button > svg[data-icon="share-alt"])
 decrypt.co##.text-neutral-700
 dee-okinawa.com##.articleSocial
@@ -14249,6 +14248,7 @@ dioezesanmuseum-rottenburg.de##.uncode-vc-social
 direct.money.pl##.author-social-list
 direct.sanwa.co.jp##.share-ttl
 directg.net##.product-share-container
+directoalpaladar.com,poprosa.com,trendencias.com##.head-nav-social
 dirilispostasi.com###fb-box-background
 diritto.it#%#//scriptlet('hide-in-shadow-dom', 'mds-action-button[icon="mgg-dxp/ico-share"]')
 dirty.ru##.b-imperial_social
@@ -14908,6 +14908,8 @@ es.memedroid.com#?#.item-controls > div.row > div[class^="col-"]:has(> img.item-
 esahubble.org##.social-feeds
 esanok.pl##.share-buttonsn-n a:not(#comment-count)
 escharts.com##.post-header > .flex > div[class*="order-1"]:has(> ul.items > li > button[onclick^="share"])
+escharts.com##article div[class*="items-center lg-"]:has(> ul.items > li > button[onclick^="share("])
+escharts.com##article div[class*="items-center lg-"]:has(> ul.items > li > button[onclick^="share("]) + div.border-r:empty
 escolakids.uol.com.br##.post__item__internal__share
 eskarock.pl,poradnikzdrowie.pl,eska.pl##.fb__shareBox
 eskisehirhaber.com##a[onclick*="eskisehirhaber.com/share"]
@@ -16627,7 +16629,6 @@ healthshots.com##.stickySocial
 healthshots.com##.stickyStoryBar
 healthshots.com##.twArticle
 heart.org##.c-hero-card__social
-hebookjapan.yahoo.co.jp,hikikomari.com,paravi.jp,dmarket.docomo.ne.jp,sagatv.co.jp,news-postseven.com##.sns-block
 hedefhalk.com,pes24.com,esenyurthaberleri.com##div[class^="fix-share-"]
 heidelberg24.de##.id-Actionbox-items > li.id-Actionbox-items-el--facebook
 heidelberg24.de##.id-Actionbox-items > li.id-Actionbox-items-el--googleplus
@@ -16742,6 +16743,7 @@ hisubway.online##button[onclick^="navigator.share"]
 hisubway.online#?#.article-content > p > button[onclick^="navigator.share"]:upward(1)
 hit.pornooblako.live###panel_gal > li:has(> button#btn_share)
 hitdiscount.by,groshyk.by##.banners
+hitocinema.mainichi.jp,hebookjapan.yahoo.co.jp,hikikomari.com,paravi.jp,dmarket.docomo.ne.jp,sagatv.co.jp,news-postseven.com##.sns-block
 hitokoi.com##.w-full.break-all.flex-none > div[class^="mt-"]:has(a[href^="//www.facebook.com/sharer/sharer.php"])
 hitosara.com##.sent_bx
 hitosara.com,twisted-wonderland.aniplex.co.jp,magicalmirai.com##.share_title
@@ -18352,6 +18354,7 @@ leggo.it,ajunews.com##.share_sticky
 legrandcontinent.eu##.partager
 leisurewheels.co.za##.footer-column-3
 leitermann.de##.flix-sb
+lejsl.com,bienpublic.com##.sharingBlockContainer
 lelo.ge##.article_social_bottom
 lelong.com.my###scan
 lemarbet.com##.items-social-buttons
@@ -23505,6 +23508,7 @@ subscity.ru#?#div:has(> .fa-share-alt)
 substack.com##.navbar-buttons div.pencraft  > span + button[aria-controls="dialog2"]
 substack.com##.pencraft  > div.style-compressed  > a.no-label.post-ufi-button[href^="javascript"] > svg
 substack.com##.post-ufi > a.post-ufi-comment-button + a[href^="javascript:void"]
+substack.com##.share-dialog a.pencraft[id^="trigger"][aria-label="View more"]
 substack.com#?#.button.share-action:not(:has(> div.pencraft:contains(Note)))
 substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to X/))
 substack.com#?#div > a[role="button"]:has(> div.label:contains(Share))
@@ -24603,6 +24607,7 @@ trauer-anzeigen.de##aside > div.container:has(> div.row a[href^="https://www.twi
 traunsteiner-tagblatt.de##.nfy-detail-social-media
 travel.co.jp##.like-box_line
 travel.co.jp##div[class^="social-area--"]
+travel.navitime.com##.c-share-text
 travel.rakuten.co.jp##div[class*="share-wrapper"]
 travel.spot-app.jp##.post-meta.bottom > .loop-share-num > [class^="bg-"]
 travel.spot-app.jp##.post-meta.under-title > .loop-share-num
