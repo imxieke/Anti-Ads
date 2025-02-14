@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-14 00:26:08 RPC
+! Updated: 2025-02-14 09:28:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10343,7 +10343,6 @@
 /pintrest-button.png
 /pin_it_button.png
 /plugins/add-to-any-subscribe/subscribe_
-/plugins/add-to-any/addtoany.min.js
 /plugins/anmiated-twitter-bird/js/tripleflap.js
 /plugins/bookmarkify/*
 /plugins/content/jllike/*
@@ -10372,7 +10371,6 @@
 /plugins/simple-social-sharing-widgets-icons/*$~stylesheet
 /plugins/slick-social-share-buttons/*
 /plugins/slide-in/js/wdsi.js
-/plugins/sme-facebook-likebox-sidebar/*
 /plugins/sociable-re/images/*
 /plugins/sociable/*$~stylesheet
 /plugins/social-media-widget/*$image
@@ -12331,6 +12329,7 @@ bet.com##div[role="button"][aria-label^="Share video on"]
 betanews.com##.social-links-wrap
 betano.com##.sb-footer__notes__socials
 beteve.cat##.post-share-sms
+betnews.by##.page-article__share
 beverfood.com##div[class^="post-share"]
 beyazgazete.com,bogazgazetesi.com.tr###myModal
 bezprawnik.pl,spidersweb.pl,piste.de,fontpark.net,from-ua.com##.facebook-box
@@ -12603,6 +12602,7 @@ bnnbreaking.com##.post__socials
 bnr.bg#?#.row > div.span-12:has(> div.article-block > h5 > span:contains(Споделете))
 bnr.nl##.s__pb\+6.s__mb\+6
 bo.de##.share-inner-wrp > li:not(.print)
+bo3.gg##.c-widget-twitter-block
 boadiversao.com.br##.box-compartilhar
 boannews.com##img[onclick^="GoSNS"]
 boardingarea.com,daemonanime.net,redanianintelligence.com,eckovation.com,kevinpurcell.org,daemon-hentai.com##.widget_twitter_timeline

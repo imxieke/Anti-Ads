@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-14 00:26:08 RPC
+! Updated: 2025-02-14 09:28:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25988,6 +25988,7 @@ ads.nipr.ac.jp###ads-cookie-consent
 ads.nipr.ac.jp##.backdrop
 ads.nipr.ac.jp#%#//scriptlet('trusted-set-local-storage-item', 'cookie-consent', 'true')
 ads.nipr.ac.jp,data-driven-forms.org,genome.eu,hoyer.de,weddyplace.com##.backdrop
+adshares.net,emerald.com###cookies-consent
 adshnk.com#%#//scriptlet('trusted-click-element', '.fc-consent-root button.fc-cta-manage-options, .fc-consent-root button.fc-confirm-choices')
 adslalvolo.it###popupDivC
 adslgr.com,cxense.com###cookieConsentDiv
@@ -26120,6 +26121,7 @@ africanreporter.co.za,albertonrecord.co.za,alexnews.co.za,asia.nikkei.com,barber
 afs.de##.afs_coi
 aftenposten.no##div[id^="sp_message_"]
 aftermarket.pl###part-cookies
+afternic.com###gtm_privacy
 afternic.com,godaddy.com###gtm_privacy
 afto.al,frs-elbfaehre.de,frs-helgoline.de,frs-portugal.pt,frs-shipmanagement.eu,frs-syltfaehre.de,frs.world,fwol.de,reederei-hiddensee.de,weisse-flotte.de##.cookie-hint
 aftonbladet.se###application > div[data-reactroot] > div[class] > div._1LFAi > #container[role="document"]

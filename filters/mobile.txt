@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-14 00:26:08 RPC
+! Updated: 2025-02-14 09:28:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -705,6 +705,8 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 /\/slade[0-9]?\.js/$domain=zxzj.me
 /\/uploads\/\d{4}\/\d{2}\/(?!85466|banner)[_0-9a-zA-Z]+\.(?:gif|jpg)$/$image,~third-party,domain=eromoji.com
 /\/[0-9a-f]{32}\/invoke\.js/$script,3p
+/^a\.[0-9a-f]{56}\.com$/
+/^https:\/\/a\.[0-9a-f]{56}\.com$/
 /^https?:\/\/m\.anysex\.com\/[a-zA-Z]{1,4}\/[a-zA-Z]+\.php$/$image,script,domain=m.anysex.com
 /_xa/ads?
 /_xa/ads_batch?
@@ -24707,13 +24709,10 @@ _zhike.htm
 ||a-ssl.ligatus.com^$important
 ||a-usa.applovin.com^$important
 ||a-v2.presage.io^$important
-||a.07aa269c0e76550c929640c170af557c7371753ba1b580236d7fa0a4.com^
 ||a.10tianqi.com^
-||a.320981a9244924ef86ebdbb9eb877e9f21ce83f1e3cc89b2c5e7c3ff.com^
 ||a.4aqq.com^
 ||a.52wubi.com^
 ||a.52zxw.com^
-||a.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com^
 ||a.777n.com^
 ||a.78yx.net^
 ||a.91nets.cn^
@@ -24770,7 +24769,6 @@ _zhike.htm
 ||a.duduji.com^
 ||a.dxzy163.com^
 ||a.dyjqd.com^
-||a.e68eaebc30768a673848927c2b8c8e38c38fd42312e367bca04fc622.com^
 ||a.epinv.com^
 ||a.exam58.com^
 ||a.fiksu.com^$important
@@ -26161,6 +26159,7 @@ _zhike.htm
 ||ads.aol.co.uk^$important
 ||ads.api.vungle.com^$important
 ||ads.apn.co.nz^$important
+||ads.appbundledownload.com^
 ||ads.appchair.com^$important
 ||ads.appia.com^$important
 ||ads.appnext.com^$important
