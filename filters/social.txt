@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-15 09:26:41 RPC
+! Updated: 2025-02-15 16:23:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12727,7 +12727,7 @@ bravotube.net##.sh
 brax.com,metro.us##.social-share-icons
 braziljournal.com##.menusocial--column
 braziljournal.com##.menusocial--share
-breachmedia.ca##.share-toggle
+breachmedia.ca,news.itsfoss.com##.share-toggle
 breakingbelizenews.com,lifenews.com,spectator.org,worldsensorium.com##.heateor_sss_sharing_container
 breakingdefense.com##.ea-share-count-wrap
 breakingmad.me##.news-bottom-social

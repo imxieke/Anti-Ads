@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-15 09:26:41 RPC
+! Updated: 2025-02-15 16:23:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1227,7 +1227,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -16836,7 +16836,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -38593,6 +38593,7 @@ _zhike.htm
 ||i3zh.com/wp-content/plugins/cm-pop-up-banners/
 ||i5-img.7tv.de^$important
 ||i69txt.com/JSRmb/$script
+||i8m6.com^
 ||i9w8p.pw^
 ||ia.iinfo.cz^$important
 ||iabao.com/sladewap.js
@@ -40002,6 +40003,7 @@ _zhike.htm
 ||jgntjtyf.icu^
 ||jgstny.com^$third-party
 ||jgvkxp.xyz^
+||jgxirv.icu^
 ||jgygtv.cn^
 ||jheva.com^
 ||jhlnlt.xyz^
@@ -46711,6 +46713,7 @@ _zhike.htm
 ||qhres2.com^
 ||qhscsu.xyz^
 ||qhtdmlf.xyz^
+||qhunetsq.com^
 ||qianjia.com/HotImages/2017/11/img20171109122716999.jpg
 ||qianzhan.com/qiye/images/qcm_
 ||qichetuoyun.com.cn^$third-party
@@ -49072,6 +49075,7 @@ _zhike.htm
 ||shockingship.com^
 ||shogidojo.net/images/app24_banner.png
 ||sholphot.com^
+||sholxorw.com^
 ||shop.zalo.me^$important
 ||shop115048570.taobao.com^$important
 ||shop265.com^
@@ -53934,6 +53938,7 @@ _zhike.htm
 ||wbapp.mobile.sina.cn^$important
 ||wbclick.mobile.sina.cn^$important
 ||wbdds.jeuxvideo.com^$important
+||wbe4.cn^
 ||wbgafrr.icu^
 ||wbiao.cn/common/adapi/
 ||wbiao.cn/common/newsbannerAds/
@@ -54930,6 +54935,7 @@ _zhike.htm
 ||xedlxeuz.icu^
 ||xedpzh.xyz^
 ||xehodv.xyz^
+||xehyjx.icu^
 ||xemtylecacuoc.bong99.com^$important
 ||xenon.iad-03.braze.com^$important
 ||xentrk.net^$important

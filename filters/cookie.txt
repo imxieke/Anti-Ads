@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-15 09:26:41 RPC
+! Updated: 2025-02-15 16:23:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2001,7 +2001,6 @@
 ###cookie-legislation
 ###cookie-lightbox
 ###cookie-line
-###cookie-list
 ###cookie-main-bar
 ###cookie-manager ~ .reveal-overlay
 ###cookie-manager-app
@@ -4081,7 +4080,6 @@
 ###cookieWarningLayout
 ###CookieWarningLink
 ###cookieWarningMessage
-###cookieWarningMessageNew
 ###cookieWarningModal
 ###cookieWarningModal.modal-backdrop
 ###CookieWarningPanel
@@ -13327,7 +13325,6 @@
 ##.cookieMelding
 ##.cookiemelding-container
 ##.cookieMelding:not(body):not(html)
-##.cookiemelding:not(html):not(body)
 ##.cookieMeldung
 ##.cookieMeldung:not(body):not(html)
 ##.cookieMess
@@ -17272,7 +17269,6 @@
 ##.J_agreeCookieModal:not(body):not(html)
 ##.k4-cookie
 ##.kacookie-cm-window
-##.kadence-conversion-banner
 ##.kaizerframe-analytics-consent
 ##.kakor-bar
 ##.kali-cc-bandeau
