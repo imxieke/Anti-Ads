@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-15 00:22:55 RPC
+! Updated: 2025-02-15 09:26:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13191,7 +13191,7 @@ channelnewsasia.com##.trigger-popup--share
 channelnewsasia.com,todayonline.com##.a2a-share-link.a2a_kit
 chanto.jp.net##.c-share-list
 character.ai##div[id^="share-button-"]
-charentelibre.fr,delfi.ee,delfi.lv,bilimland.kz,fox35orlando.com,autobild.es,minecraft.net,filmaga.filmarks.com,fox32chicago.com,espn.com.ar,nybooks.com,golos.com.ua,1kr.ua,espn.in,foxbusiness.com,bunshun.jp,sarnovosti.ru,espn.com,newrepublic.com,espncricinfo.com,thedrive.com,viva.ua,youranshare.com,4mama.ua,espn.co.uk,gs.by,livedoor.com##.article-social
+charentelibre.fr,delfi.ee,delfi.lt,delfi.lv,bilimland.kz,fox35orlando.com,autobild.es,minecraft.net,filmaga.filmarks.com,fox32chicago.com,espn.com.ar,nybooks.com,golos.com.ua,1kr.ua,espn.in,foxbusiness.com,bunshun.jp,sarnovosti.ru,espn.com,newrepublic.com,espncricinfo.com,thedrive.com,viva.ua,youranshare.com,4mama.ua,espn.co.uk,gs.by,livedoor.com##.article-social
 chargedevs.com##.apss-social-share
 chargedretail.co.uk,themuslimvibe.com##.w-sharing-tooltip
 charivari.de#?#.block_area_sidebar .shell:has(> .range > .contentblock > div > .fb-like-box)
@@ -14037,6 +14037,7 @@ delamar.de##.bar-social-hor
 delfi.ee##.icon--send2friend
 delfi.ee#?#.G-row > div.C-mobile-header__item:has(> div.C-social-tooltip)
 delfi.lt##.G-row > div.C-mobile-header__item-col:has(> div.C-social-tooltip)
+delfi.lt,delfi.ee##.article-social--sticky
 delfi.lt,delfi.ee##.C-article-social
 delfi.lv###sbookmarks-left
 delfi.lv##.social-tooltip
@@ -25187,6 +25188,7 @@ vandal.elespanol.com##.nuevazona_compartir
 vansesigazetesi.com,gthbhaber.com##.fa-whatsapp
 varianty.lviv.ua##.share > p:not(.comments)
 variat.com.ua##.null-instagram-feed
+variety.com##.c-gallery-vertical-featured-image__share-icons
 varlamov.ru##svg[data-icon="share"]
 vashdosug.ru##.evt-sharing
 vashsport.com,helpsetup.ru,inforesist.org##.uptl_container-share
