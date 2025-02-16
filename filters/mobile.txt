@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-16 09:43:42 RPC
+! Updated: 2025-02-16 16:23:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16835,7 +16835,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -24232,6 +24232,7 @@ _zhike.htm
 ||6qyxeob.xyz^
 ||6rooms.com/$image,domain=~6.cn
 ||6slb0.cyou^
+||6u2h.cn^
 ||6uc.cc^
 ||6v4.cn^$third-party
 ||6vhao.tv/d/
@@ -24499,6 +24500,7 @@ _zhike.htm
 ||8u0.fun^
 ||8v1.cn^
 ||8vod.net/detail/$script
+||8xly.cn^
 ||8xtm6i.cn^
 ||8ziyuan.com/images/infolinksad.jpg
 ||9.bapi.adsafeprotected.com^$important
@@ -35216,6 +35218,7 @@ _zhike.htm
 ||efhis.cn^
 ||efjsliw.top^
 ||efs604.top^
+||efxh.cn^
 ||efyt6.com^
 ||egesdashb8.fun^
 ||egg0.icu^
@@ -37357,6 +37360,7 @@ _zhike.htm
 ||graph.facebook.com/network_ads
 ||graphql.groovehq.com^$important
 ||graphs.amung.us^$important
+||grarnuns.com^
 ||gravitygive.com^
 ||gravitykick.com^
 ||grayoranges.com^
@@ -38450,6 +38454,7 @@ _zhike.htm
 ||hwnojj.xyz^
 ||hwplypbn.icu^
 ||hwstats.unity3d.com^$important
+||hwtadf.icu^
 ||hwurseru.top^
 ||hwymoyv.icu^
 ||hx623.cn^
@@ -47138,6 +47143,7 @@ _zhike.htm
 ||rainyrule.com^
 ||rainystretch.com^
 ||rajxjj.icu^
+||rakkuxw.com^
 ||rakuten-sec.co.jp/web/images/banners/ads_mobile_un-limit/
 ||rakuten-static.com^$domain=cwyuni.tw
 ||rakutenmarketing.com^
@@ -53751,6 +53757,7 @@ _zhike.htm
 ||vtrk.doubleverify.com^$important
 ||vu.moatads.com^$important
 ||vu.vrtzads.com^$important
+||vudqth.icu^
 ||vuetifyjs.com/notify.json
 ||vuirssd.icu^
 ||vulitd.xyz^

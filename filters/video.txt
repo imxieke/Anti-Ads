@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-02-16 09:43:42 RPC
+! Updated: 2025-02-16 16:23:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -183,8 +183,9 @@ z4a.net
 ||gtimg.com/qqlive/
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
 ||hdslb.com/bfs/cm/cm-sdk/static/js/pc.js^$script
-||hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js^$script
+||hdslb.com/bfs/seed/jinkela/short/user-fingerprint/$script
 ||hdslb.com/bfs/seed/log/report/log-reporter.js^$script
+||hdslb.com^$subdocument
 ||iqiyipic.com/image/20*_100000$image
 ||irs01.net/
 ||letvimg.com/*_gugwl/$image

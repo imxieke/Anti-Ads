@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-16 09:43:42 RPC
+! Updated: 2025-02-16 16:23:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11691,7 +11691,7 @@ ansa.it##.social-menu li.linkedin
 ansa.it##.social-menu li.twitter
 ansa.it##a.bt-share
 ansa.it,1kr.ua,101xp.com##.news-social
-ansa.it,cryptopotato.com,dailyartmagazine.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,newhumanist.org.uk,sampdoria.it,thecookscook.com,upcomingvinyl.com,vivercomsaude.site##.share-links
+ansa.it,cryptopotato.com,dailyartmagazine.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,melmagazine.com,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,newhumanist.org.uk,sampdoria.it,thecookscook.com,upcomingvinyl.com,vivercomsaude.site##.share-links
 ansalatina.com,disroot.org,sportwebsicilia.it##.social-button
 answers.com##a[aria-label="Share Content"]
 answers.com#?#div[aria-labelledby="dropdown-menu"] > span.block[role="menuitem"]:has(> a[aria-label="Share Content"])
@@ -19253,6 +19253,7 @@ meleke.com##.post-social-goog
 meleke.com##.post-social-pin
 meleklermekani.com#?#.p-body-pageContent > div.blockMessage:has(> div.shareButtons)
 meli-melo.blog.jp##.article-footer
+melmagazine.com,thefrisc.com##.social-navigation
 melomovie.com##.details__share
 melon.com##.wrap_sns
 melonbooks.co.jp###head_btns
@@ -24070,7 +24071,6 @@ thefreedictionary.com##.fixed-block.sticky
 thefreedictionary.com##.social-networks > li > a[title^="Share on"]
 thefreedictionary.com##a[class^="shr-"]
 thefreethoughtproject.com##.mini-share-post
-thefrisc.com##.social-navigation
 thegameawards.com#?#.award-category-header div.w-auto > div.justify-center:has(> button[class^="jsx-"] > p + svg)
 thegamesdb.net##div[data-url^="http://www.stumbleupon.com/submit?url"]
 thegamesdb.net##div[data-url^="https://www.facebook.com/sharer/sharer.php"]
