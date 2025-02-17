@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-17 16:27:52 RPC
+! Updated: 2025-02-18 00:26:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12579,6 +12579,7 @@ bloomberglinea.com##.ts-share-bar-custom
 bloomberglinea.com,bloomberglinea.com.br##.ts-share-bar-custom
 bloombergquint.com##button[class^="share-toggle-module"]
 bloombergquint.com##ul[class^="share-module"]
+bloter.net,comworld.co.kr,jejudomin.co.kr,kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 blubrry.com##a[href^="https://blubrry.com/critmouse/share/"]
 bluedollar.net##.ss_ul
 bluereflection-ray.com###mv_share
@@ -13333,7 +13334,6 @@ civileats.com##.row > section.sidebar-right > div.wrapper-social-media
 cjr.org##.sharing-buttons
 ckworks.jp##.adbox_fullwidth
 clarin.com##.entry-head > div.content-top
-clashforwindows.org,military.com,diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
 clashmusic.com###eapps-social-share-buttons-1
 clashmusic.com##[href="https://vero.co/clashmagazine"]
 clashofclans.com##.BlogDetail-Footer-share > li
@@ -13584,7 +13584,6 @@ computerworld.com.au##.art-share > li:not(.print_li):not(.email_li)
 computerworld.hu#?#.field_global_rightside > .box-html:has(h3:contains(Kövessen Facebookon))
 computerworlduk.com##.helpIcons
 comss.ru##.toplogo > span
-comworld.co.kr,jejudomin.co.kr,kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 concerto.com.br##*[class$="__share"]
 concierto.cl,fmdos.cl##.ssd
 confidenceman-movie.com#?#.share > ul > li.share_t:contains(Share)
@@ -17494,6 +17493,7 @@ ivi.tv,ivi.ru##.userButtons__item_share
 iwatobi-sc.com###footer-share
 ixbt.com#$#.b-socials__container { visibility: hidden !important; }
 ixl.com#@#.social-sharing
+iyf.tv#@#.share-top
 iz.com.ua##.article__socials-share
 iz.ru##.get_yandex_subscription_links
 iz.ru##.share_bottom
@@ -18250,7 +18250,6 @@ lamoda.ru#?#.ii-product__aside-wrapper > div.vue-widget:has(> div[class] > div:c
 lan-sha.com##.post-share-btn
 lanacionar-la-nacion-ar-prod.cdn.arcpublishing.com,lanacion.com.ar###v-share > div.--left
 lancasterarchery.com###buy_box > #productBuyBoxDetails:has(a[href^="https://www.facebook.com/sharer/sharer.php"])
-lance.com.br##div[class*="styles_share"]
 land.nrw##div[data-type="social_feed"]
 landingi.com##.share-bottom-bar
 landlord.ua##a[href^="http://euralis.ua/"]
@@ -20014,6 +20013,7 @@ nbcnews.com##.social-share-menu__container
 nbcnews.com##.stack-list-share > li:first-child
 nbcnews.com##.stack-list-share > li:nth-child(2)
 nbcnews.com#@#.article_share
+nbcnews.com,lance.com.br##div[class*="styles_share"]
 nbcnewyork.com##.site-header__mobile-share-toggle
 nbcsports.com##.IconFacebook
 nbcsports.com##.IconTwitter
@@ -20147,6 +20147,7 @@ news.cision.com#?#.container-card > div.card-information:has(> div.pad > div[dat
 news.cn##.pageShare
 news.cookpad.com#?#div.bg-ivory:has(> h2:contains(シェアする))
 news.cookpad.com,forklog.com###article_share
+news.cornell.edu,clashforwindows.org,military.com,diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
 news.crunchbase.com###ss-sticky-bar
 news.crunchbase.com##.ss-inline-share-content
 news.denfaminicogamer.jp###spFixedContent
@@ -20516,6 +20517,7 @@ nouvelles.umontreal.ca##.twitter_bas
 nouvelobs.com##.article-events__social
 nouvelobs.com##span[class*="ObsShare"]
 nova-magazine.net##.header-info-text
+novabrasilfm.com.br##.post-interna__content__compartilhamento__list
 novabrasilfm.com.br#@#.share-buttons
 novagente.pt,gazetebilkent.com##.article-share-area
 novalaplata.com###redesSocialesNota
@@ -22661,6 +22663,7 @@ semanticscholar.org##.social-share-options__share-buttons
 semawur.com#?#.float-left-right > ul.list-a-hvr-primary:has(> li:contains(Share))
 semianalysis.com###jetpack-sharing-serivces-list
 semnasem.org##.article__footer-column-social-share
+semrush.com##div[data-test="Share"]
 semrush.com##div[data-test="share-block"]
 semrush.com##span[data-test="share-block-description"]
 sendatext.co##.lb_overlay
@@ -23897,6 +23900,8 @@ telegraf.com.ua###soc_popup
 telegraf.com.ua##.socials_tab
 telegraf.com.ua##.wrapper-content__social_share
 telegraf.com.ua##.wrapper-single-social_block_content_height
+telegraf.rs##.c-s-wrapper + ul.socials-wrapper
+telegraf.rs##.single-article-bottom-socials
 telegramchannels.me###share-it
 telegramgruplinkleri.com##.header-container
 telegraph.co.uk##.e-social-share

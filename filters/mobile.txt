@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-17 16:27:52 RPC
+! Updated: 2025-02-18 00:26:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4801,6 +4801,7 @@ asahi.com##.PrInfoBlock
 asahi.com##.Rbdo3
 asahi.com##.top-banner.sp
 asahi.com##body > div.notPrint
+asahi.com##img[src^="/plasma/assets/Newsbnr_SP"]
 asahi.com##li.FeatureBox_list
 asahi.com#?#li > div[id^="ad-rellink"]:upward(1)
 asajikan.jp##.appdl1
@@ -8659,6 +8660,7 @@ evget.com###popelevencenter
 evolife.cn##.leftTop_adv
 evrimagaci.org##.eaads-mobile
 evroopt.by##.top-bar-app
+evroopt.by##div[id^="block-allWidthBanner-"]
 eweiqi.com##.guoqing
 eworldship.com###d1
 eworldship.com###d2
@@ -9964,6 +9966,7 @@ gooworld.jp,goo-net.com,goobike.com###appbnr
 gori.me###primecaster-ad_slot_XaON
 gori.me##.ad-below-single-header
 gori.me##.mobile_adsense_archive
+gori.me##.single-content > div[style*="min-height"]
 gorod24.online##.content-app-block
 gorod24.online##.mob-download
 gorodche.ru##amp-iframe[layout="fixed-height"]
@@ -12314,6 +12317,7 @@ js0573.com##.gg_bnr
 jsahz.com##.banner,.main-ad,.left-ad,.text-ad
 jsbooks.com.cn#@#.left-ads
 jschina.com.cn##[style^="width:990px;height:60px;"],[style^="width:992px;height:60px;"],[style^="width:992px;height:80px;"]
+jsjcch.com###mobile_text-2
 jsjiami.com##.asd > li > a.shaky
 jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
 jsly001.com##[id^="ads_r"]
@@ -33792,6 +33796,7 @@ _zhike.htm
 ||datax.baidu.com^
 ||dataxu.com^$important
 ||datesweetcherrybabies.com^$important
+||datk.bridgeoos.com^
 ||datouniao.com^
 ||datplus.springserve.com^$important
 ||daughterstone.com^
@@ -50944,6 +50949,7 @@ _zhike.htm
 ||tapgen.com^$important
 ||tapi.onthe.io^$important
 ||tapi.optimizely.com^$important
+||tapi.pureapk.com^
 ||tapiche.cn^
 ||tapinfluence.com^$important
 ||tapit.com^
