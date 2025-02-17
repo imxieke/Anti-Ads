@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-17 00:22:06 RPC
+! Updated: 2025-02-17 09:40:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12413,6 +12413,7 @@ biografieonline.it###ss-floating-bar
 biologyexams4u.com##.LinkList
 biomedya.com##.share-url
 biospace.com,wbez.org,chicago.suntimes.com##.Page-actions
+biotimes.co.kr,pennmike.com##.info-options > li:not(.fonts-option)
 bipblog.com##.ent_sub_block[style="margin-top: -65px;"]
 biqle.org##.share42init_wrapper
 biqle.org##.video_embed
@@ -19124,7 +19125,6 @@ mdpr.jp##.p-articleShareList
 mdpr.jp##.sns-b__item
 mdpr.jp##.snsbutton
 mdpr.jp##ul[class$="articleDetail__snsList"]
-mdr.ar,sea-man.org##.share_post
 mdzol.com##.interacciones
 me.fo##.nd_share_block
 me.me##.single-item-share
@@ -20011,6 +20011,7 @@ nba.com##.stats-share-button
 nba.com##div[id^="nbaArticleSocialWrapper"]
 nbcnews.com##.article-social-share-top
 nbcnews.com##.share__container--article
+nbcnews.com##.social-share-menu__container
 nbcnews.com##.stack-list-share > li:first-child
 nbcnews.com##.stack-list-share > li:nth-child(2)
 nbcnews.com#@#.article_share
@@ -20056,6 +20057,7 @@ neomotor.epe.es##.icons_rrss
 neon.tech##.justify-between.items-center:has-text(Share:)
 neon.tech#?#.justify-between.items-center:contains(Share:)
 neon.tech#?#article > div.safe-paddings:has(> div.flex button.react-share__ShareButton)
+neonmusic.co.uk##.justify-between > div:has(> button[data-aw-social-share])
 neopod.ru##.soc-widget
 neoseeker.com##.social-button-container
 neoseeker.com#@#.social_share
@@ -21159,7 +21161,6 @@ pen-online.jp##.p-article__intro-sns
 pen-online.jp##.p-article__intro-util
 pengusahamuslim.com##.SMYouTubesubscribe_Widget
 pennlive.com##.sharebarBetaWrapper
-pennmike.com##.info-options > li:not(.fonts-option)
 pensador.com##.total-shares
 pensador.com,dicio.com.br,significados.com.br,dicionariodenomesproprios.com.br##.sg-social
 pentayazilim.com##.social-share-field
@@ -24237,6 +24238,7 @@ thespike.gg##div[class^="news_share__"]
 thespinoff.co.nz##.shareButton
 thesportbible.com##.meta__shares
 thesportingtribune.com##.desktopSocialShare
+thesportsgrail.com,mdr.ar,sea-man.org##.share_post
 thesportsrush.com##.article-content > .sub-info > div
 thesportsrush.com#?#.article-content > div[style^="display:"]:has(> p[style^="align-self:"]:contains(Share this article))
 thesportstak.com##.flex > p:has(> svg > circle[cx="18"])

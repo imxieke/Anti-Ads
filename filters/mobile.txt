@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-17 00:22:06 RPC
+! Updated: 2025-02-17 09:40:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -236,7 +236,9 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 .html?$domain=wap.dulaidw.com
 .htmm?$domain=m.69shu.io|m.piaotianzw.com
 .ru^$third-party,script,domain=muzmob.org
+.top^$script,3p,domain=olympicstreams.co|toonily.com|luluvdo.com|himovies.sx|movies2watch.tv|viprow.nu
 .xhtmm?$domain=wap.dulaidw.com|m.hebao9.com
+.xyz^$3p,domain=anroll.net
 /(?::\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4})/
 /*AdapterNew.
 /*xmtl$domain=xhxswz.com|biqubao.com
@@ -400,6 +402,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 /dulian*js
 /dyxia/js/ny
 /embed_webchat.js*
+/en/ruwl?
 /endad*
 /eventad/*
 /fetch_adslot
@@ -660,6 +663,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 /union.js*
 /union_pop*js
 /us.js
+/utx?tid=
 /v.php?siteid=&id=
 /v3/resolve?
 /variety.tc.qq.com^*.mp4
@@ -25129,6 +25133,7 @@ _zhike.htm
 ||acs4baichuan.m.taobao.com/gw-open^$app=com.youku.phone
 ||acs4baichuan.m.taobao.com^$important
 ||acs86.com^
+||acscdn.com^
 ||acsdk.gameyw.easebar.com^$important
 ||acsegt86.shop^
 ||acsseo.com^$important
@@ -25729,6 +25734,7 @@ _zhike.htm
 ||adhitzads.com^$important
 ||adhood.com^
 ||adhood.com^$important
+||adhub.digital^
 ||adhvz.cn^
 ||adi*.cnool.net^
 ||adi.admicro.vn^$important
@@ -25931,6 +25937,7 @@ _zhike.htm
 ||admp-tc-sati.adtlgc.com^$important
 ||admp-tc-tmg.adtlgc.com^$important
 ||admp-tc-vlmedia.adtlgc.com^$important
+||admpire.com^
 ||admsapi.businessweekly.com.tw^
 ||admtd.adnow.com^$important
 ||admtpmp123.com^$important
@@ -26689,6 +26696,7 @@ _zhike.htm
 ||adscale.de^$important
 ||adscaspion.appspot.com^$important
 ||adscdn.baidu.com^
+||adschill.com^
 ||adscholar.com^$important
 ||adscience.nl^$important
 ||adsclick.qq.com^
@@ -26872,6 +26880,7 @@ _zhike.htm
 ||adskape.ru^$important
 ||adskeeper.co.uk^
 ||adskeeper.co.uk^$important
+||adskeeper.com^
 ||adsklick.de^$important
 ||adslog.apexinnotech.com^
 ||adslot.uc.cn^
@@ -36746,6 +36755,7 @@ _zhike.htm
 ||gamme.com.tw/uploads/*?2
 ||gammitcube.com^$important
 ||gan.doubleclick.net^$important
+||ganalyticshub.net^
 ||gangjuw.com/style/lmjs/
 ||gangstar-vegas.extads.gameloft.com^$important
 ||ganimg.com/images/*.gif
@@ -38180,6 +38190,7 @@ _zhike.htm
 ||hobbes.blueoxtech.com^$important
 ||hocgeese.com^
 ||hoiplay.com/tm_popup.html$popup
+||holahupa.com^
 ||holder.com.ua^
 ||holder.com.ua^$important
 ||hollandbusinessadvertising.nl^$important
@@ -44259,6 +44270,7 @@ _zhike.htm
 ||nothingunit.com^
 ||notice.game.xiaomi.com^
 ||notice.iqiyi.com^
+||noticedbibi.com^
 ||notification.lionmobi.com^$important
 ||notification.popads.net^$important
 ||notification.webengage.com^$important
@@ -45471,6 +45483,7 @@ _zhike.htm
 ||peer39.com^$important
 ||pefufv.xyz^
 ||peise.net/Skin/js/global.
+||pemsrv.com^
 ||pengtu.cc^*.png
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
@@ -46048,6 +46061,7 @@ _zhike.htm
 ||potatoinvention.com^
 ||potential-d.openx.net^$important
 ||potenza.cz^$important
+||potsaglu.net^
 ||pow.im^$important
 ||powderjourney.com^
 ||powderprofit.com^
@@ -46334,6 +46348,7 @@ _zhike.htm
 ||ps886.us/js/*.js
 ||psa-i.openx.com^$important
 ||psa.aralego.com^$important
+||psaithagomtasu.net^
 ||psankei.chartbeat.net^$important
 ||pson.logging.admicro.vn^$important
 ||psoptopi.com^$important
@@ -46475,6 +46490,7 @@ _zhike.htm
 ||purchasesuggestion.com^
 ||purifydigital.g2afse.com^$important
 ||purifydigital.go2affise.com^$important
+||purpleads.io^
 ||purpledev-d.openx.net^$important
 ||purposepipe.com^
 ||puserving.com^
@@ -46503,6 +46519,7 @@ _zhike.htm
 ||pushns.ibuildapp.com^$important
 ||pushpin.pinsightmedia.com^$important
 ||pushtillon.cleverpush.com^$important
+||pushub.net^
 ||pushwoosh.com^$important
 ||pushwoosh.g5e.com^$important
 ||put.qostore.daumkakao.io^$important
@@ -47186,6 +47203,7 @@ _zhike.htm
 ||ratedxbiz.com/d/
 ||ratings.lycos.com^$important
 ||ratkoqa.midasplayer.com^$important
+||rausteehih.net^
 ||ravenjs.com^$important
 ||rayajmp.icu^
 ||raycornelius.com^$important
@@ -49746,6 +49764,7 @@ _zhike.htm
 ||spellsalsa.com^
 ||spendpest.com^
 ||sperans-beactor.com^$important
+||speraspace.com^
 ||spezialreporte.de^$important
 ||spica.iad-03.braze.com^$important
 ||spicesoft.com^$important
@@ -50864,6 +50883,7 @@ _zhike.htm
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||syshwc.xyz^
 ||sysin.org/img/promotion-
+||sysmeasuring.net^
 ||system.casalemedia.com^$important
 ||systemcity.cn/feed.php
 ||systemizecoat.com^
@@ -52212,6 +52232,7 @@ _zhike.htm
 ||traffic.tc-clicks.com^$important
 ||traffic.uusee.com^$important
 ||trafficadept.com^$important
+||trafficbass.com^
 ||trafficfabrik-delivery2.ed3b.edgecastdns.net^$important
 ||trafficfactory.biz^$important
 ||trafficfactory.biz^$third-party
@@ -54868,6 +54889,7 @@ _zhike.htm
 ||x99.nudevista.com/_/x*/*.html
 ||xa7j.icu^
 ||xad.com^$important
+||xadsmart.com^
 ||xadulxs.cn^
 ||xalzny.xyz^
 ||xamniksq.com^
@@ -55678,6 +55700,7 @@ _zhike.htm
 ||youqumob.com^$third-party
 ||youqunjx.com^$third-party
 ||your-surveys.insightexpressai.com^$important
+||youradexchange.com^
 ||youradexchange.com^$important
 ||yourblocksite.com^$important
 ||yourtopprize.life^$important

@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-17 00:22:06 RPC
+! Updated: 2025-02-17 09:40:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4417,6 +4417,7 @@ aptoide.com#$#html.no-scroll { overflow: auto !important; }
 aptos.ru,m.sporx.com###cookie_text
 apunyalometre.cat,yes.fit,copaamerica.com#%#//scriptlet('set-cookie', 'localConsent', 'true')
 aquagradus.com###cookiefy_bar
+aquaphor.ru,gorodsreda.ru,allrivers.info,biletyplus.ru,vawoo.co.uk,atompark.com,fuqer.com##.cookies-block
 aquariumline.com###banner_ck_policy
 arabam.com###header-notification-bar
 arabbank.com.au,color4care.co.uk,color4care.dk,color4care.fi,color4care.no,operon.pl,vardvaskan.se#@#.push-wrapper:not(body):not(html)
@@ -8295,7 +8296,6 @@ fom.de##.nf-procookie-wrapper
 fondsprofessionell.de###cookieauth
 fonegeek.com##.bottomfloat
 fonepaw.com,tunefab.com###prompt-box
-fontis-shop.ch,hanfgefluester.de,720dgree.de,deingartenbedarf.de,babyboxfamily.com,buyzero.de,butlers.com,stiefelparadies.de,sturcookware.de,paradies-bettenshop.de,modbrix.de,droniq.de,hallesaale.shop,ossiladen.de,autoscheibenwischer24.com,objekteunserertage.com,schuhbeck.de,direktvomfeld.eu,kliemannsland.de,lanakk.com,catalea.de,mm-germany.com,rollei.de,oderso.cool,shop.autorenwelt.de,healthmask.de###banner-wrapper
 fonts.google.com#%#//scriptlet('trusted-set-local-storage-item', 'bannersDismissed', '["cookieBar","privacyBanner"]')
 food.ru##div[class^="cookieNotice"]
 foodandwine.com,spektrum.de,myspreadshop.fr,spreadshirt.fr,formel1.de,gq-magazine.co.uk,gamespot.com##body #onetrust-consent-sdk
@@ -8988,7 +8988,6 @@ gopro.com##div[class^="GDPRCookieNotification_"]
 gopro.com#$#body[class^="smartling-"] { padding-top: 60px!important; }
 gorenje.com##.cc-window[aria-label="cookieconsent"] ~ span.blurry-background
 gorodche.ru,om1.ru##.t-i-agree
-gorodsreda.ru,allrivers.info,biletyplus.ru,vawoo.co.uk,atompark.com,fuqer.com##.cookies-block
 gosch.de,ousuca.com#$#body > * { filter: unset !important; }
 gosch.de,ousuca.com#$#body > div[data-bg][style*="z-index: 99999; pointer-events: all; display: block; filter: none;"] { display: none !important; }
 gosch.de,ousuca.com#$#body { overflow: auto !important; }
@@ -13814,6 +13813,7 @@ pluto.tv##.tos-notification
 pluto.tv##body > div[role="presentation"][style^="position: fixed; z-index:"]
 plvideo.ru#?#div[class^="mocked-styled"] + div[class^="index_css_content_"]:has(div[data-description="stack-wrapper"] p[class^="text_css_root_"] a[class^="index_css_link_"]:contains(куки))
 pmi.org###cookie-disclosure-banner
+pmi.org##div[data-testid="cookie-disclosure"]
 pmpexpress.hu###enableCookie-cont
 pnas.org##.pop-notification
 pnas.org##.signup-alert-ad
@@ -18094,6 +18094,7 @@ wuerzburg.de###chint
 wuerzburg.de###klaro > div.klaro > div.cookie-notice
 wuestenrot.de##.WW_MOD_EM_10-0-cookiemodul
 wunderground.com##snack-bar-container
+wundermix.de,fontis-shop.ch,hanfgefluester.de,720dgree.de,deingartenbedarf.de,babyboxfamily.com,buyzero.de,butlers.com,stiefelparadies.de,sturcookware.de,paradies-bettenshop.de,modbrix.de,droniq.de,hallesaale.shop,ossiladen.de,autoscheibenwischer24.com,objekteunserertage.com,schuhbeck.de,direktvomfeld.eu,kliemannsland.de,lanakk.com,catalea.de,mm-germany.com,rollei.de,oderso.cool,shop.autorenwelt.de,healthmask.de###banner-wrapper
 wutheringwaves.kurogames.com,budownictwo.org,insales.ru,hdsex2.com,hdsex.org,clubpremier.com,inpower.com.br,rivegauche.ru,mkcafehoreca.pl,netcredit.pl##.cookies-modal
 wwdjapan.com###wwdj-cookie-accept__area
 wwf.it##.bluelabs-gdpr__bar

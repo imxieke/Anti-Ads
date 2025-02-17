@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-17 00:22:06 RPC
+! Updated: 2025-02-17 09:40:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27202,6 +27202,7 @@ aquanox.com###cookie
 aquapalace.cz,obchod.crew.cz##.cs
 aquaparksenec.sk###PovInfCoo
 aquaphor.ru###modal-kuki
+aquaphor.ru,gorodsreda.ru,allrivers.info,biletyplus.ru,vawoo.co.uk,atompark.com,fuqer.com##.cookies-block
 aquaquiz.com###footerSlideContainer
 aquariumline.com###banner_ck_policy
 aquasana.com##.notice__banner
@@ -35696,7 +35697,6 @@ fonepaw.com##.prompt-box
 fonepaw.com,tunefab.com###prompt-box
 fontenayenscenes.fr###cnil, .cnil, #CNIL
 fontfreak.com###sticky-popup
-fontis-shop.ch,hanfgefluester.de,720dgree.de,deingartenbedarf.de,babyboxfamily.com,buyzero.de,butlers.com,stiefelparadies.de,sturcookware.de,paradies-bettenshop.de,modbrix.de,droniq.de,hallesaale.shop,ossiladen.de,autoscheibenwischer24.com,objekteunserertage.com,schuhbeck.de,direktvomfeld.eu,kliemannsland.de,lanakk.com,catalea.de,mm-germany.com,rollei.de,oderso.cool,shop.autorenwelt.de,healthmask.de###banner-wrapper
 fonts.google.com#%#//scriptlet('trusted-set-local-storage-item', 'bannersDismissed', '["cookieBar","privacyBanner"]')
 fontspring.com##.user_notice
 food-detektiv.de##.cookie-modal
@@ -37077,7 +37077,6 @@ gorillasports.de###disclaimer
 gorillaz.com###footer
 gorodche.ru,om1.ru##.t-i-agree
 gorodperm.ru###cookb
-gorodsreda.ru,allrivers.info,biletyplus.ru,vawoo.co.uk,atompark.com,fuqer.com##.cookies-block
 gorreri.com###loggedbar
 gosc.pl##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 gosch.de,ousuca.com#$#body > * { filter: unset !important; }
@@ -46942,6 +46941,7 @@ plvideo.ru#?#div[class^="mocked-styled"] + div[class^="index_css_content_"]:has(
 plymouth.ac.uk##.page-notification
 pmd.on.lv###z-terms-of-use
 pmi.org###cookie-disclosure-banner
+pmi.org##div[data-testid="cookie-disclosure"]
 pmmp.io###remindTos
 pmpexpress.hu###enableCookie-cont
 pna.ro##.ui-sidebar.ui-widget
@@ -55773,6 +55773,7 @@ wufoo.com#@#.gdpr-prompt
 wunderground.com##+js(set-local-storage-item, wu.ccpa-toast-viewed, true)
 wunderground.com##snack-bar-container
 wunderino.com###root div[class*="Snackbar"]
+wundermix.de,fontis-shop.ch,hanfgefluester.de,720dgree.de,deingartenbedarf.de,babyboxfamily.com,buyzero.de,butlers.com,stiefelparadies.de,sturcookware.de,paradies-bettenshop.de,modbrix.de,droniq.de,hallesaale.shop,ossiladen.de,autoscheibenwischer24.com,objekteunserertage.com,schuhbeck.de,direktvomfeld.eu,kliemannsland.de,lanakk.com,catalea.de,mm-germany.com,rollei.de,oderso.cool,shop.autorenwelt.de,healthmask.de###banner-wrapper
 wurmberg.de##.datenschutz
 wutheringwaves.kurogames.com,budownictwo.org,insales.ru,hdsex2.com,hdsex.org,clubpremier.com,inpower.com.br,rivegauche.ru,mkcafehoreca.pl,netcredit.pl##.cookies-modal
 ww-ag.com##.WW-cookiemodul
