@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-18 16:25:50 RPC
+! Updated: 2025-02-19 00:26:16 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -717,6 +717,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 00kxs.com##.gg
 00sy.com##div.dahengfu,div.header,div.ad360,p[class="tl pd8 pd10"] + ul
 00sy.net##.dahengfu,.ad360,[style*="height:250px;"]
+0115765.com##.sticky-banner
 012.tw#@#.ad728
 0154.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,1rnd.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7152.kz,7232.kz,8422city.ru,8692.ru,city04.kz,city41.ru,citydomodedovo.ru,go31.ru,go61.ru,go7812.ru,gorod3466.ru,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,inkaragandy.kz,inshymkent.kz,karelia.news,kaskelenec.kz,qapshagai-city.kz,uralskcity.kz##app-news-popup-banner
 01ny.cn##.cl[style],[style^="width:980px;height:70px;"],#Tab9_1,.topadv,[href^="http://f2.01ny.cn/ad/"]
@@ -4275,6 +4276,9 @@ ahtv.cn,sexbarss.net##.r1
 aiaibt.com##[id$="_vvva"],[id$="_vvvaxx"],[href^="http://gotoweburl."],[width="960"],[id="adfdiv"]
 aibing.cc##.adsense
 aibing.cc##a[href^="https://aibing.cc/go/"]
+aidoly.net###glssp_div_iframe_container
+aidoly.net##.ad
+aidoly.net##div[style^="padding-top: 10px"]:has(> .ad:only-child)
 aihami.com##.conText > div[style*="width:"]
 aihami.com##.context_ad
 aihami.com##.h250,.ad300x90,.ad960,.ad640x90,.adDingT,.context_ad,.n_fs2,[style*="height:90px;"],[style^="width:636px; height:"],[style*="width:635px; height:"],[style*="width:640px; height:"],#adTe,DIV[id^="f21ac82b21eeb7322631b6aa94e17f"]
@@ -4453,7 +4457,6 @@ amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es##div.afap-above-
 amazon.in#$#.ape_interstital-open { overflow: auto !important; }
 ambito.com###bannerStickyHeader
 ameba.jp##.FooterAmeba_AmebaApp
-ameblo.jp###entryLi > li.skin-mod-bg-color.skinOpacity
 ameblo.jp##.PhotoSwipeBlock > div.pickCreative_root
 ameblo.jp##.PhotoSwipeBlock > div:last-of-type > p:empty + div.pickCreative_root[style="font-size:0"]
 ameblo.jp##.PhotoSwipeBlock > div[style*="max-height: 280px;"]
@@ -4471,7 +4474,6 @@ ameblo.jp##body .skinBody2 > div[style="overflow: hidden;"] > main + aside[class
 ameblo.jp##div:has(> a.pickCreative)
 ameblo.jp##div:not([class]) > div[class^="_"]:first-child > aside[class^="_"]:only-child > div[class^="_"]:last-child
 ameblo.jp##div[class^="_"] > aside[class^="_"] section > div[class^="_"] > a[href^="https://dokusho-ojikan.jp/ameba_manga_login"]:only-child
-ameblo.jp##div[class^="_"]:empty
 ameblo.jp##div[data-slot-type="injectedAds"]
 ameblo.jp##div[data-slot="injected"][style^="min-height: 430px"]
 ameblo.jp##div[style="min-height:180px"]
@@ -4586,6 +4588,7 @@ angelweb.cn##table[height="250"]
 anhuinews.com###ewm
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anifresh.com###minpack-sticker-frame
+anikore.jp##.boardDetail__list > li:has(> div[id])
 anime-sharing.com##.js-installPromptContainer
 anime.eiga.com##.adBoxMid
 anime.nicovideo.jp#?#aside[class^="_"] > div[class^="_"] > div[id^="ad-banner"]:upward(1)
@@ -6428,6 +6431,7 @@ cdn.com.do##.banner_version_movil
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,likefont.com,shangyexinzhi.com,zp365.com##.advert
 ce.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,xywy.com,zhujiceping.com##.advert
 ceiea.com##.adclass2019
+celeby-media.net,kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.ampproject.org,m.geboren.am,dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 celery-marine.net##.custom-html-widget > div[style="margin:0;padding:5px;font-size:12px;word-break: break-all;"]
 celery-marine.net##.sp_above_sns
 celery-marine.net##.sp_below_header > div.textwidget > center
@@ -6510,23 +6514,6 @@ cheaa.com###AD002
 cheaa.com###ADText
 cheb.ru###content > div[id="text"] > div[class] > a[target="_blank"] > img
 cheb.ru##.topbanpda
-check24.de##.bottomSmartAppBanner
-check24.de##.c24AppSplash
-check24.de##.c24m-fallback-app-banner
-check24.de##.c24m-ls-ap
-check24.de#$##c24asle { display: none !important; }
-check24.de#$##splashScreenContainer { display: none !important; }
-check24.de#$#.c24m-asb { display: none !important; }
-check24.de#$#.c24m-asb-visible { position: absolute !important; }
-check24.de#$#.qa-splash-screen { display: none !important; }
-check24.de#$#.tko-app-splash-banner { display: none !important; }
-check24.de#$#.u-cv--hidden { content-visibility: auto !important }
-check24.de#$#c24m-app-splash-banner { display: none !important; }
-check24.de#$#html > body[class] { overflow: auto !important; }
-check24.de#%#//scriptlet('set-cookie', 'appsplash', '1')
-check24.de#%#//scriptlet('set-cookie', 'app_promo_splash_screen_close', '1')
-check24.de#%#//scriptlet('set-cookie', 'c24FlugSplashApp', '1')
-check24.de#%#//scriptlet('set-cookie', 'dslsplash', '1')
 checkadblock.ru##*ad*
 checkadblock.ru##P.place_block block w468 js-ads-block,P.place_block block w728 js-ads-block
 cheetahfun.com##.guide
@@ -7469,6 +7456,7 @@ daydayin.com##body > div[class^="spu-"]
 dayoo.com###ad-xl
 dayoo.com##div.ad-area,ins.adsbygoogle,div[id^="c_ad_"],div[class^="gg-"],iframe[src^="http://news.dayoo.com/test/"],div[id^="adpb_lmr"],div.dayooAd,div#diy1.area,div.layoutAd,DIV#adVideoiShow,DIV[id^="adpb_hf"],.dy-side-ad,[class^="dy-ad-"]
 daysou.com##.pageadarea,.adsbygoogle,#footcnt,.adarea
+db.animanch.com###recents > div.inner
 dbltap.com#?#main > figure > div[class^="style_"]:has(> div[id^="mm-player-placeholder-"])
 dbook.docomo.ne.jp##.o-app-download
 dbook.docomo.ne.jp##.o-footer-app-download
@@ -9969,7 +9957,8 @@ gooworld.jp,goo-net.com,goobike.com###appbnr
 gori.me###primecaster-ad_slot_XaON
 gori.me##.ad-below-single-header
 gori.me##.mobile_adsense_archive
-gori.me##.single-content > div[style*="min-height"]
+gori.me##.ranking > li:has(> div[id^="div-gpt-"])
+gori.me##div[style*="min-height:250px;"]
 gorod24.online##.content-app-block
 gorod24.online##.mob-download
 gorodche.ru##amp-iframe[layout="fixed-height"]
@@ -12867,7 +12856,6 @@ kxdw.com###downloadTop
 kxmusic.cn,kxmusic.top##a[href*="smsf8.com"]
 kyodo-d.jp,yahoo.co.jp###prm_sapp
 kyofun.com##div#CrazyAd
-kyun2-girls.com,hapiee.com,2ch-c.net,4p.de,www-cbc-ca.cdn.ampproject.org,m.geboren.am,dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 kyunto.com,krautundrueben.de,areamobile.de##.rectangle
 kzs1w.com,sehuatang.org##div[class^="show-text"]
 kztarif.ru##.stadck-content
@@ -12939,7 +12927,6 @@ laozuo.org##.widget_ui_orbui
 laozuo.org##div.dingyue
 laozuo.org##div.widget
 lapaginamillonaria.com###__next > div#top-sticky:has(> div.ad-container)
-lapaginamillonaria.com##.bg-adContainerHeaderMobile
 lapaginamillonaria.com#$#header { top: 0 !important; }
 lapkins.ru##.start .start-ban
 laposte.fr##.component-smartBanner-part
@@ -13235,6 +13222,7 @@ live.nicovideo.jp##div[class*="___footer-banner-ads"]
 live.nicovideo.jp##div[class^="___overlay-banner-ad"]
 live.vkvideo.ru##div[class^="NativeAppBannerBase_root_"]
 livechat-ero.net,kingautos.net,ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,m.mistrzowie.org,m.ura.news,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
+livedoor.com##.bg-mobile_app
 liveexpert.ru##.android-app
 livefans.jp,weblio.jp##.adBanner
 livego.cc###ad_nrz
@@ -13792,18 +13780,6 @@ m.hoyolab.com#%#//scriptlet('set-local-storage-item', 'closedAppHeader', '1')
 m.hoysport.tv##.van-floating-bubble
 m.huanqiu.com##.ad_all
 m.huffpost.com###aol-banner
-m.humoruniv.com###pnut_ad_bottom
-m.humoruniv.com###read > div[id]:has(> p[class=""]:first-child + div[id*="_div"])
-m.humoruniv.com###read > div[style*="z-index"]:not([class],[id],[style="clear:both;"])
-m.humoruniv.com##body #comment div[id]:has(> div[id] > img[src^="/images/zdr.gif"])
-m.humoruniv.com##body > #read_ok_desc_div ~ div[id][style^="min-height:"]
-m.humoruniv.com##body > span[id]:has(> div[class]:first-child > div[class]:only-child > table img + div > span[onclick])
-m.humoruniv.com##div[id][style^="min-height"]:empty
-m.humoruniv.com#%#//scriptlet("set-constant", "list_end_run", "noopFunc")
-m.humoruniv.com#%#//scriptlet("set-constant", "list_end_run_center_boom", "noopFunc")
-m.humoruniv.com#%#//scriptlet("set-constant", "list_end_run_comment_bottom_boom", "noopFunc")
-m.humoruniv.com#%#//scriptlet("set-constant", "list_end_run_pds_notice_boom", "noopFunc")
-m.humoruniv.com#%#//scriptlet("set-constant", "list_end_run_read_top_boom", "noopFunc")
 m.hungryapp.co.kr###popUP_ZONE
 m.hungryapp.co.kr##.Mibox_down
 m.hurriyet.com.tr##.container > div[style*="text-align: center"][style*="margin-bottom: 20px"]
@@ -15537,6 +15513,7 @@ nan-net.jp,nan-net.com#%#//scriptlet('remove-node-text', 'script', 'adblock')
 nana-music.com##.app_sec
 nana-music.com##.base-top
 nana-music.com##.sidebar__app
+nana-press.com###ad_area_01
 nandu.com##div#top-ad
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
@@ -15588,9 +15565,12 @@ navitime.co.jp##.appli-japan-travel
 navitime.co.jp##.appli-link-pane
 navitime.co.jp##.appliButton
 navitime.co.jp##.app_dl_banner_frame
+navitime.co.jp##.button:has(> a[onclick*="app.adjust.com"]:only-child)
 navitime.co.jp##.footer-invite-app-section
 navitime.co.jp##.inview-m8iDqk1XV9
 navitime.co.jp##.kyujin-control-banner-container
+navitime.co.jp##a[href^="https://lp.koteihyo-cloud.navitime.co.jp"]
+navitime.co.jp##a[onclick*="app.adjust.com"]
 navitime.co.jp##div[style="height: 280px"]
 navitime.co.jp,kurashiru.com##.header-app-banner
 navitime.com###appli-japan-travel
@@ -17718,6 +17698,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Pos
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.XPromoPopup.m-active
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.XPromoPopupRpl.m-active
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[class^="_"] > button[class*=" "]:has(> i.icon-qr_code)
+redgol.cl#$#header { top: 0 !important; }
+redgol.cl,lapaginamillonaria.com##.bg-adContainerHeaderMobile
 redhdtube.xxx##.b_frame
 redhdtube.xxx##.kelsey_top
 redian.news##.bottom-0.fixed
