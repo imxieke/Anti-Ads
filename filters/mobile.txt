@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-18 09:27:53 RPC
+! Updated: 2025-02-18 16:25:50 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1232,7 +1232,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2384,7 +2384,10 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
+91porna.com##.video-items > li:has(> a.checkNum)
+91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
+91porna.com#%#//scriptlet('remove-attr', 'data-ads_url', '[data-ads_url]')
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
 91porny.org,jstv600.com,x9av7.com###main > div[id^="rd"]
@@ -8635,7 +8638,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -11046,6 +11049,10 @@ iauto.ifeng.com###ifgHome > span.num
 ibaotu.com##.bg-feedback
 ibaotu.com##.comVip-tg
 ibaotu.com##.ibaotu-md-click[ibaotu-md-value="detail_top_ad"]
+ibbs.pro#$##adsModal { display: none !important; }
+ibbs.pro#$#.modal-backdrop { display: none !important; }
+ibbs.pro#$#body { overflow: auto !important; padding-right: 0 !important; }
+ibbs.pro#$#div.mt-2:has( > ins) { display: none !important; }
 ibf.tw###top_d
 ibm.com###dw-regbar
 ibradome.com#?#body > center:has(> iframe[src^="//hhbypdoecp.com/"])
@@ -16844,7 +16851,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -23632,8 +23639,8 @@ _zhike.htm
 ||360buyimg.com/jzt/temp/js/
 ||360buyimg.com^$domain=chdbits.co|qianggou5.com
 ||360che.com/article2014/AjaxAD.ashx?
+||360doc.com/ad/
 ||360doc.com/js/index7/mask_index_yc.js
-||360doc.com^*.html?t=
 ||360doc.com^*.html?t=$badfilter
 ||360fenxi.mediav.com^$important
 ||360in.com^$important
@@ -27311,7 +27318,6 @@ _zhike.htm
 ||agogo.tv/images//uploads/ad/
 ||agoodm.m.taobao.com^$important
 ||agrant.cn^
-||agrantsem.com/js/ag.js
 ||agrantsem.com^
 ||agreeablearch.com^
 ||agreeablestew.com^
@@ -35637,6 +35643,7 @@ _zhike.htm
 ||eviltracker.net^$important
 ||eviltracker.net^$subdocument
 ||evkzqs.xyz^
+||evreiks.com^
 ||evs.jivox.com^$important
 ||evt.bfmio.com^$important
 ||evt.izooto.com^$important
@@ -41047,6 +41054,7 @@ _zhike.htm
 ||lcf.cmplay.cmcm.com^$important
 ||lciapi.ninthdecimal.com^$important
 ||lclimil.top^
+||lclqbh.icu^
 ||lcsdk.3g.qq.com^$important
 ||lcvfar.com^
 ||lcvwdn.icu^
@@ -41308,6 +41316,7 @@ _zhike.htm
 ||linkwan.com/gb/javascript/c5-
 ||linkz.it^$important
 ||linovel.net/cp/lk/ad/externalAd?
+||linovelib.com/modules/article/scripts/tip_
 ||linovelib.com/scripts/zation.js
 ||linuxde.net/wp-content/uploads/ad/
 ||linuxeden.com/plus/web_js.php
@@ -46646,6 +46655,7 @@ _zhike.htm
 ||qncye.com/ads/
 ||qncye.com/templets/default/js/mb.js
 ||qndown.com^
+||qnhi.cn^
 ||qnifdlay.top^
 ||qnqtgyq.icu^
 ||qnsb.com/news/index.php?m=poster&
@@ -50007,6 +50017,7 @@ _zhike.htm
 ||static.hadarone.com^$important
 ||static.hotjar.com.c.section.io^$important
 ||static.hotjar.com^$important
+||static.huaren.live/ads/
 ||static.hyprmx.com^
 ||static.hyprmx.com^$important
 ||static.iadvize.com^$important
@@ -50274,6 +50285,7 @@ _zhike.htm
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
+||stogmos.com^
 ||stomachscience.com^
 ||stonechin.com^
 ||stongors.com^
@@ -54019,6 +54031,7 @@ _zhike.htm
 ||wmflabs.org^
 ||wmhlch.com^$important
 ||wmirk.ru^$important
+||wn6y.cn^
 ||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
 ||wnacg.*/58s/
@@ -54818,6 +54831,7 @@ _zhike.htm
 ||xkesqbp.icu^
 ||xkgttas.icu^
 ||xklrsj.icu^
+||xkp.cc^$third-party
 ||xkrnud.icu^
 ||xkyn.com/imgs/js/al.js
 ||xkyn.com/imgs/js/xx.js
@@ -55624,6 +55638,7 @@ _zhike.htm
 ||zap.buzz^$important
 ||zapp-client.applicaster.com^$important
 ||zarget.com^$important
+||zavgrj.icu^
 ||zaytung.com/images/radore
 ||zazhipu.com^
 ||zbb.bbb.*.pics^
@@ -55880,6 +55895,7 @@ _zhike.htm
 ||zongheng.com/upload/recommend/game/
 ||zongzuhulian.com^
 ||zonst.com^
+||zooj.cn^$third-party
 ||zookeeper01.aatkit.com^$important
 ||zoom.zshu.net^
 ||zoopla-d.openx.net^$important
