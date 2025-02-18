@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-18 00:26:53 RPC
+! Updated: 2025-02-18 09:27:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21327,7 +21327,6 @@
 ##div.cookies_open
 ##div.cookies_panel
 ##div.cookies_pop
-##div.cookies__alert
 ##div.cookies__first
 ##div.cookies__outer
 ##div.cookieTextsWrapper
