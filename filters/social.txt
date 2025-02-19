@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-19 16:28:22 RPC
+! Updated: 2025-02-20 00:26:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19207,6 +19207,7 @@ meeco.mistore.jp##.product-detail__main-sns
 meemetoranje.nl##.btn-social
 meetia.net###float-sns-btn-label
 meetup.com##.D_photoShare
+meetup.com##.flex:has(> ul > li > button > div#share-facebook-in-GroupHome)
 meetup.com##button[data-testid="share-btn"]
 meetup.com#?#.flex-item > div.flex--row:has(> div.event-share)
 meg-snow.com##.sns-list01
