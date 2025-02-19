@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-19 09:35:36 RPC
+! Updated: 2025-02-19 16:28:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14262,6 +14262,7 @@ disboards.com##div[data-widget-key="shareThisPage"]
 disco-polo.info##.bg-facebook
 disco-polo.info##.bg-twitter
 discogs.com##.container_2AwjH > button[aria-haspopup="menu"]
+discogs.com##.side__gnpk > .wrapper_Ixres
 discord.me##li.menu-link.d-xl-inline-block
 discours.io##div[class^="social-selection"]
 discoverjapan-web.com##.dv-share
@@ -16402,7 +16403,6 @@ guiainfantil.com###share-bottom > li:not(.comments)
 guiainfantil.com##.share-icons > span:not(.comments)
 guiamais.com.br##.socialAdvertiser
 guide.line.me##.shareField
-guide.line.me,books.rakuten.co.jp,united-arrows.co.jp###snsShare
 guide.michelin.com##.js-share-sticky
 guideautoweb.com##.sn-facebook
 guides.gamepressure.com##.social-16-soc
@@ -18585,6 +18585,7 @@ liveuamap.com##.facebook-icon
 liveuamap.com##.twitter-icon
 livingetc.com,gardeningetc.com##.social__item--newsletter
 livrarianobel.com.br##section[class^="SocialShareButtons"]
+lixil.co.jp,guide.line.me,books.rakuten.co.jp,united-arrows.co.jp###snsShare
 lizhi.fm##.attentionUs
 lj_bookmarklet
 lne.es##.bot_sociales > div:not(.comentarios_bot)

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-19 09:35:36 RPC
+! Updated: 2025-02-19 16:28:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6822,7 +6822,7 @@ cn-healthcare.com##.fh_ad_wrap
 cn.bing.com###id_qrcode_popup_positioner
 cn.bing.com##.b_bza_pole
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*hgAbj3WJSu83ynLkuUc6pXNStPcP2lmm6yyOWqGmKXKfgGsPJ4MmXjD6wAAAABJRU5ErkJggg))
+cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*Jr8IbslwuuoZ9kr8cTrXXkY8lfZL5p8v2TTht91DQxXZU9AB6BpwzkAAU2AAAAAElFTkSuQmCC))
 cn.bing.com,www.bing.com,www4.bing.com$$div[class="BottomAppPro"]
 cn.msn.com##DIV.topAd.cf,DIV.ad,div.left_Bg,div.right_Bg,div.bottomAd.cf
 cn3x.com.cn##.gg1,[class^="list_gg"]
@@ -13158,9 +13158,11 @@ limo.media#?#.article > section.l-block > h3.c-sub-headline:contains(PR)
 line.me###install_line
 line.me##.midAdModule-root
 linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-linetv"][class*="-emphasis"]
-linetv.tw#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+linetv.tw#%#//scriptlet('prevent-element-src-loading', 'script', '/fbevents.js')
+linetv.tw#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|\/fbevents\.js/')
 linetv.tw#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 linetv.tw#%#//scriptlet('set-constant', 'google.ima.AdError', 'noopFunc')
+linetv.tw#%#//scriptlet('set-constant', 'google_tag_manager', 'emptyObj')
 lingvanex.com##.modal-app-overlay
 lingvanex.com##.seo-install-inner
 linkedin.com##.apptivation-promo
@@ -13178,7 +13180,12 @@ linkedin.com#?#ol.feed-container > li.feed-item:has(> article[data-is-sponsored]
 linkvertise.com##.yahoo-wrapper
 linovel.net##div.download-app
 linovelib.com#$##byspider { display: none !important; }
+linovelib.com#$##mlfy_main_text > div[class]:not([id]) { display: none !important; }
+linovelib.com#$#.adblock-tips { display: none !important; }
+linovelib.com#$#.dag + div[class]:not([id]) { display: none !important; }
+linovelib.com#$#:is(#volume-list, #TextContent) { display: block !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
+linovelib.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adBlock')
 linovelib.com#%#//scriptlet('set-constant', 'adblock', '0')
 linovelib.com#@#.ads_box
 linux.cn##.linuxcnad
@@ -14232,8 +14239,8 @@ m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
 m.weathercn.com###gg_hfaw_1
 m.weathercn.com##.gg-swiper-wrapper
 m.webnovel.com##div[class^="styles_toAppIcon__"]
-m.webtoons.com##._appDownloadPopup
 m.webtoons.com#$#.dim.home { display: none !important; }
+m.webtoons.com#$#.pop_download_app { display: none !important; }
 m.webtoons.com#$#.pop_download_home { display: none !important; }
 m.webtoons.com#$#._homeAppDownloadPopup { display: none !important; }
 m.webtoons.com#$#body { overflow: visible !important; position: relative !important; }
@@ -16832,7 +16839,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30782,6 +30789,7 @@ _zhike.htm
 ||bumimi.com/money/
 ||bumnxiev.top^
 ||bumpydevelopment.com^
+||bun1.dayi.org.cn^
 ||bunchance.com^
 ||bundle-adee4.firebaseio.com^$important
 ||bundle-geoip.herokuapp.com^$important
@@ -31272,6 +31280,7 @@ _zhike.htm
 ||ccgateway.net^$important
 ||ccies.cn^
 ||ccinmaf.top^
+||ccinvdf.top^
 ||ccisea-d.openx.net^$important
 ||cckke.com/fanhao/v/ad
 ||cclimif.top^
@@ -32849,6 +32858,7 @@ _zhike.htm
 ||connatix.com^$script,third-party
 ||connect-testing.urbanairship.com^$important
 ||connect.decknetwork.net^$important
+||connect.facebook.net/en_US/fbevents.js$script,redirect=noopjs,domain=linetv.tw
 ||connect.ok.ru^$important
 ||connect.scroll.com^$important
 ||connect.tapjoy.com^$important
@@ -34058,6 +34068,7 @@ _zhike.htm
 ||df57.mta.exacttarget.com^$important
 ||df888.eastday.com^
 ||dfan4.icu^
+||dfcfw.com/download/D25411840164398846730_w690h389.
 ||dfcfw.com/EMFloatFrame/
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/default/left_
@@ -34099,6 +34110,7 @@ _zhike.htm
 ||dgstatic.jd.com^
 ||dh.serving-sys.com^$important
 ||dh.xfplay.com/home/home_game_new_*.json
+||dhannaq.com^
 ||dhapp.qianhaitech.cn/api/ad^
 ||dheirzeh.com^
 ||dhemixu.com^
@@ -40255,6 +40267,7 @@ _zhike.htm
 ||jsecoin.com^$important
 ||jsf.cnlinfo.net^
 ||jsgapai.icu^
+||jshilr.icu^
 ||jsinfo.net^$third-party
 ||jsjs.jbzj.com^
 ||jslog.krxd.net^$important
@@ -44310,6 +44323,7 @@ _zhike.htm
 ||o2o.api.xiaomi.com^
 ||o315582.ingest.sentry.io^$important
 ||o3t.icu^
+||o4q.fun^
 ||o8s.icu^
 ||o8zoz.icu^
 ||oa-panther.data.aliyun.com^$third-party
@@ -45356,6 +45370,7 @@ _zhike.htm
 ||phainoirs.com^
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
+||phazaeth.com^
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
 ||pheedo.com^$important
@@ -47505,6 +47520,7 @@ _zhike.htm
 ||rs2.adledge.com^$important
 ||rs2.qq.com^$important
 ||rsa.adjust.io^$important
+||rsohvot.xyz^
 ||rss-loader.com/interres/$subdocument,third-party
 ||rsyepnq.icu^
 ||rt-usa.applovin.com^$important
@@ -52505,6 +52521,7 @@ _zhike.htm
 ||uessnah.icu^
 ||uetlwst.top^
 ||uetv.adj.st^$important
+||uewotga.top^
 ||uewrutt.top^
 ||uewzjy.xyz^
 ||ufiidvv.icu^
@@ -52944,6 +52961,7 @@ _zhike.htm
 ||uvcourse.net^
 ||uvekyvs.icu^
 ||uvklgw.xyz^
+||uvoisbg.xyz^
 ||uvwnkmf.icu^
 ||uvyuqzx.cn^
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
@@ -54909,6 +54927,7 @@ _zhike.htm
 ||xpromo.g5e.com^$important
 ||xq1.net^$important
 ||xq12.com^
+||xqrydt.icu^
 ||xrea.com^$important
 ||xrmfjzqo.xyz^
 ||xrrxodz.xyz^
