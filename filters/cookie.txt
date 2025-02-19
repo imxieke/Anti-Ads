@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-19 00:26:16 RPC
+! Updated: 2025-02-19 09:35:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25274,6 +25274,7 @@
 @@||sakurajav.com/wp-content/themes/teamk/vendor/coCoJS/cookies-enabler.min.js
 @@||salonkee.cloud/data/other/js/cookie-consent-
 @@||salz-helmreich.de/plugins/system/codedesign_gdpr/assets^
+@@||sandisk-cashback.de/bundles/chcookieconsent/js/cookie_consent.js$~third-party
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||schibsted.io^*/gdpr-bundle.js
 @@||schwalbe.com/system/modules/cookiebar/assets/dist/cookiebar.min.
@@ -28492,6 +28493,7 @@ beckmann-kg.de,kraemer.de###consentLayer
 becorrect.com###cookieInfoPopupPlaceholder
 becteroradio.com##.policy
 becteroradio.com,teroradio.com##.policy
+bed-and-breakfast.it###cookiePolicy_barra
 bedaffair.nl,thermostaat.eu,watispilling.nl##.fancybox-overlay
 bedbathandbeyond.com,overstock.com###gdpr-container
 bedienungsanleitu.ng##body .cookienotice
@@ -28581,6 +28583,7 @@ belpost.by##app-cookies-accept-popup
 belsat.eu#$#.popmake-overlay { display: none!important; }
 belsat.eu#$#body { overflow: visible!important; }
 belsat.eu#$#html { overflow: visible!important; }
+belveb.by##.wrap-cookie
 bemo-dent.pl##.pravate_policy_popup
 bemzen.com.br,otvfoco.com.br###privacy-pop-up
 ben.nl#$##defaultModal { display: none !important; }
@@ -33554,6 +33557,7 @@ e-plytki.eu###cookie
 e-podroznik.pl##.ep-cookies-info-wrapper
 e-pole.pl##+js(set-cookie, epole_cookies_settings, true)
 e-pole.pl##div[x-init="checkCookies()"]
+e-rabota.by,notoriouscinemas.it,wikiwand.com,nextmobile.ru,mietspiegel-muenchen.de,pik-broker.ru##div[class^="cookie_"]
 e-recharge.net,jobs.tuwien.ac.at,leitor.net,mangalivre.net,prostokvashino.ru##.cookie-notification
 e-rolety.eu###cookie
 e-scooter.co###gdpr-w, #gdpr-o
@@ -36307,6 +36311,7 @@ gambling-affiliation.com##+js(set-cookie, cookie_agreement_v3, 2)
 gamblingcommission.gov.uk###cocc-banner
 game-news.tokyo###cookie_note_ex1
 game-ready.com##.ly-cookie
+game.evroopt.by##section[class^="_cookies_"]
 game.omg.com.tw##.cookie-confirm
 gameapps.hk,kitapyurdu.com##.popup-container
 gamearter.com###awagon_gdpr_box
@@ -36618,6 +36623,7 @@ geosfreiberg.de##+js(set-cookie, no_cookies, 1)
 geotastic.net##+js(set-local-storage-item, privacy-policy-accepted, true)
 geotrust.com###toolbar
 geovelo.fr##snack-bar-container
+geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
 geowgs84.com,wernergevers.be##.consent-banner-root
 geox-shop.de###P_Consent_Manager
 gerarddarel.com###cookieLab
@@ -37006,6 +37012,7 @@ goldpreis.de#$#html.force--consent.show--consent:not(#style_important) { overflo
 goldpreis.de#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll')
 golem.de###golem-cookie-accept
 golf.tv##.cookie-law-wrapper
+golfbidder.co.uk,icd.pl,sudio.com,labbe.de##.ec-gtm-cookie-directive
 golfhouse.de###econda-pp2-banner-modal
 golfpass.com##.PolicyBanner
 golvprofilshop.se###cookie-consent-modal, .modal-backdrop
@@ -38569,7 +38576,6 @@ icap.bg##.mpp-container
 icarros.com.br###isView
 icarros.com.br##.pagecontent > div#isView
 icc-austria.org###fxCookieInfoWindowBackground
-icd.pl,sudio.com,labbe.de##.ec-gtm-cookie-directive
 icdl.it##.yui3-widget.popup-view
 icebug.com###root > div > div[class^="css-"][delay]
 icebug.se###root > div > [delay]
@@ -44918,7 +44924,6 @@ notion.com#%#//scriptlet('trusted-click-element', 'button[aria-label="Reject all
 notion.site,notion.so#%#//scriptlet('set-cookie', 'notion_cookie_consent', '0')
 notion.so###__next [class*="cookiePreferencesBanner"]
 notion.so##.jsx-539809080
-notoriouscinemas.it,wikiwand.com,nextmobile.ru,mietspiegel-muenchen.de,pik-broker.ru##div[class^="cookie_"]
 notre-planete.info###npimsg
 notrehistoire.ch###top > [data-promo*="cookie"]
 nottinghamforest.co.uk##.popup-wrapper
@@ -49021,6 +49026,7 @@ saamexe.com,helium.com##+js(set-local-storage-item, acceptedCookies, false)
 saarbruecker-zeitung.de#%#//scriptlet("abort-current-inline-script", "consentUrl", "OptanonConsent")
 saatva.com,biglifejournal.com###polaris-consent-widgets
 sabah.com.tr##body > div.veriAltBar
+sabah.comtr##.kvkk-info-box
 sabanci.com###warning-bar
 sabanci.com##.warning-bar-item[data-wb-id="cookie"]
 sabina.com#$#.fancybox-lock body { overflow: auto !important; }
@@ -49143,6 +49149,9 @@ sanarmed.com##.iGefxm
 sanctum.shop#@#.cookie-message:not(html):not(body)
 sanctum.shop#@#.pd-cookie-banner-window
 sandberg.es,sandberg.fr,sandberg.world###privalert-container
+sandisk-cashback.de##+js(set-cookie, Cookie_Category_analytics, false)
+sandisk-cashback.de##+js(set-cookie, Cookie_Category_tracking, false)
+sandisk-cashback.de##+js(set-cookie, Cookie_Consent, 1)
 sane.org.uk###jxcc-bar
 sanef.com##.bandeaux
 sanego.de##.cc_dialog_box
@@ -51093,6 +51102,7 @@ steirerjobs.at,eliis.eu,flip.ro,zvsaar.de,visittallinn.ee,inbank.ee,ekoplaza.nl,
 stellarium-web.org##.v-snack
 steller.co###root > div[class]
 steller.co##div[class^="Disclaimer_"]
+stema.de###cookie-consent-target
 stemcellclinic.com###c-2
 stemi.education##.app > [class*="Notification"]
 stempel-bestellen.de###swCookieAccept
@@ -53645,6 +53655,8 @@ twitch.tv##div.consent-banner
 twitchcon.com##div[x-data="gdpr"]
 twitchstrike.com##.cookie
 twitter.com##.twtr-data-protection
+twitter.com,x.com#$##layers:has(div[role="dialog"] div[role="group"] a[href^="https://privacy.twitter.com"]) { display: none !important; }
+twitter.com,x.com#$#html[style*="overflow"] { overflow: auto !important; }
 two-notes.com##+js(set-cookie, cookiesettings_status, allow)
 twojapogoda.pl#$##rodo { display: none !important; }
 twojapogoda.pl#$#body { overflow: auto !important; }
@@ -53779,7 +53791,7 @@ ujam.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 uk-oak.co.uk###cc-conf
 uk-yankee.com###announcement, #announcement ~ #overlay
 uk.barclays##.barclays-consent
-uk2.net,westhost.com##+js(set-cookie, cb-enabled, accepted)
+uk2.net,westhost.com,my-rise.com##+js(set-cookie, cb-enabled, accepted)
 ukbathroomstore.co.uk###am-cookie-bar
 ukmail.com##.cookies
 ukmeds.co.uk#%#//scriptlet('trusted-click-element', 'div[class^="CookieConsent"] > .button--white .button__content')

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-19 00:26:16 RPC
+! Updated: 2025-02-19 09:35:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8651,6 +8651,7 @@ evget.com###popelevencenter
 evolife.cn##.leftTop_adv
 evrimagaci.org##.eaads-mobile
 evroopt.by##.top-bar-app
+evroopt.by##a[href="/app-eplus/"]
 evroopt.by##div[id^="block-allWidthBanner-"]
 eweiqi.com##.guoqing
 eworldship.com###d1

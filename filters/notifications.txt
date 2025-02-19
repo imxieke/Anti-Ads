@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-19 00:26:16 RPC
+! Updated: 2025-02-19 09:35:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5009,6 +5009,7 @@ bechtle.com##.neo-footer__cookieBar
 beckett.design###apc
 beckmann-kg.de,kraemer.de###consentLayer
 becorrect.com###cookieInfoPopupPlaceholder
+bed-and-breakfast.it###cookiePolicy_barra
 bedbathandbeyond.com,overstock.com###gdpr-container
 bedienungsanleitu.ng##body .cookienotice
 bedietcatering.pl,todosobrewindows.com,peppermotion.com,hrforecast.com,ct.nl,rachfeed.com,vernetzt-wachsen.de,planetanim.fr##.cli-modal-backdrop
@@ -5054,6 +5055,7 @@ belpost.by##app-cookies-accept-popup
 belsat.eu#$#.popmake-overlay { display: none!important; }
 belsat.eu#$#body { overflow: visible!important; }
 belsat.eu#$#html { overflow: visible!important; }
+belveb.by##.wrap-cookie
 bemzen.com.br,otvfoco.com.br###privacy-pop-up
 ben.nl#$##defaultModal { display: none !important; }
 ben.nl#$#.cookie-wall { display: none !important; }
@@ -7291,6 +7293,7 @@ e-news.world##div#ecl-notice
 e-okapy.cz###ctl00_ewpz1_mainTemplateCtrl_footer_FormCookiesManager1_pnCmNavBar
 e-pity.pl#%#//scriptlet('set-cookie', 'efile-cookiename-28', '1')
 e-pole.pl##div[x-init="checkCookies()"]
+e-rabota.by,notoriouscinemas.it,wikiwand.com,nextmobile.ru,mietspiegel-muenchen.de,pik-broker.ru##div[class^="cookie_"]
 e-stayon.com,sensiseeds.com,skechers.com.tr,porland.com,gimatsepeti.com,parcapazari.com,allnations.com.br,divanpastaneleri.com.tr,citygross.com.tr,asics.com.tr,eastmarine.com.tr,mjmultimedia.se,24hmeal.se,sindal.com.tr,tshop.com.tr,jobbogfritid.no,shop.ltbjeans.com,thomas-philipps.de###eu-cookie-bar-notification
 e-tec.at#%#//scriptlet('set-cookie', 'cc_granted', 'true')
 e.gd.ru,e.budgetnik.ru##.customer-info-block__coockie
@@ -8610,6 +8613,7 @@ gallup.com##section[title="Gallup Cookie-Banner"]
 gambit.gg##div[class*="cookie-enter"]
 gamblejoe.com##.c-area
 game-news.tokyo###cookie_note_ex1
+game.evroopt.by##section[class^="_cookies_"]
 gameapps.hk,kitapyurdu.com##.popup-container
 gamearter.com###awagon_gdpr_box
 gamebattles.majorleaguegaming.com#?#body > div.cdk-overlay-container:has(> div.cdk-global-overlay-wrapper > div > gb-privacy-policy-updated-dialog)
@@ -8962,6 +8966,7 @@ goldpreis.de#$#html.force--consent.show--consent:not(#style_important) { overflo
 goldpreis.de#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll')
 golem.de###golem-cookie-accept
 golf.tv##.cookie-law-wrapper
+golfbidder.co.uk,icd.pl,sudio.com,labbe.de##.ec-gtm-cookie-directive
 golfhouse.de###econda-pp2-banner-modal
 gomibo.*##div[class^="CookieBannerstyle"]
 goo-net.com###app_info_area
@@ -9689,7 +9694,6 @@ ibuypower.com###cookies-notify
 ibuypower.com##div[class^="acceptcookie_"]
 icarros.com.br##.pagecontent > div#isView
 icc-austria.org###fxCookieInfoWindowBackground
-icd.pl,sudio.com,labbe.de##.ec-gtm-cookie-directive
 icebug.com###root > div > div[class^="css-"][delay]
 icecat.biz##div[class^="src-containers-cookie-notice-"]
 icedrive.net###prompt-cookies
@@ -12793,7 +12797,6 @@ notino.pl##.exponea-cookie-bg
 notion.com##section[class^="cookiePreferencesBanner_container"]
 notion.com#%#//scriptlet('trusted-click-element', 'button[aria-label="Reject all cookies"]', '!cookie:notion_check_cookie_consent')
 notion.site,notion.so#%#//scriptlet('set-cookie', 'notion_cookie_consent', '0')
-notoriouscinemas.it,wikiwand.com,nextmobile.ru,mietspiegel-muenchen.de,pik-broker.ru##div[class^="cookie_"]
 nouvelobs.com#%#//scriptlet('trusted-click-element', '.gdpr-glm-wall button#btnAcceptAll')
 novabrasilfm.com.br###modal-politicas
 novalnet.de###daextlwcnf-cookie-notice-container
@@ -14781,6 +14784,7 @@ saalesparkasse.de#$#body.eprivacy_initial_visible { border-top: none!important; 
 saarbruecker-zeitung.de#%#//scriptlet("abort-current-inline-script", "consentUrl", "OptanonConsent")
 saatva.com,biglifejournal.com###polaris-consent-widgets
 sabah.com.tr##body > div.veriAltBar
+sabah.comtr##.kvkk-info-box
 sabanci.com###warning-bar
 sabanci.com##.warning-bar-item[data-wb-id="cookie"]
 sabina.com#$#.fancybox-lock body { overflow: auto !important; }
@@ -15758,6 +15762,7 @@ steamgriddb.com###noty_layout__bottomRight
 steelorbis.com###cookiePolicyDivId
 steinel.de#%#//scriptlet('trusted-click-element', '.modal-close', '', '500')
 steller.co##div[class^="Disclaimer_"]
+stema.de###cookie-consent-target
 steplerapp.com##.cookie-popup__body
 stepmap.de#$##cookieConsentOverlay { display: none !important; }
 stepmap.de#$#body { overflow: auto !important; }
@@ -17087,6 +17092,8 @@ twitch.tv###noty_bottomCenter_layout_container
 twitch.tv##.noty_bar
 twitch.tv##.twilight-root .toast-manager__container
 twitch.tv##div.consent-banner
+twitter.com,x.com#$##layers:has(div[role="dialog"] div[role="group"] a[href^="https://privacy.twitter.com"]) { display: none !important; }
+twitter.com,x.com#$#html[style*="overflow"] { overflow: auto !important; }
 twojapogoda.pl#$##rodo { display: none !important; }
 twojapogoda.pl#$#body { overflow: auto !important; }
 twojapogoda.pl#@##onetrust-consent-sdk
