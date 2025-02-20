@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-20 16:26:46 RPC
+! Updated: 2025-02-21 00:26:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10079,6 +10079,8 @@ guilinlife.com##a[href*="adclicks&"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
 guitarchina.com##img[width="420"][height="60"]
 guitarchina.com,iqiyi.com##.banner4
+gulfnews.com##div[id^="top-component-section-page-row-ad"]
+gulfnews.com##div[style^="border-right:"] > div:has(> div[class] > div[class] > div[id^="top-component-section-page-native-ad"])
 gulte.com###rw_top_sticky
 gulte.com##.awt_ads
 gulte.com#$##awt_popup_landing { display: none !important; }
@@ -14011,6 +14013,7 @@ m.sabah.com.tr##.advers-box
 m.sabah.com.tr##.appButton
 m.sabah.com.tr##.trkvzbnr
 m.sabah.com.tr##a[href^="/haber/advertorial/"]
+m.sabah.com.tr##div:has(> div[data-mbzone-loaded]:only-child)
 m.sabah.com.tr##div[data-mbzone-loaded="728x90"]
 m.sabah.com.tr##div[data-mbzone="AltBant"]
 m.sabah.com.tr##iframe[src^="https://ad01.tmgrup.com.tr/"]
@@ -16993,6 +16996,7 @@ pornhd8k.me##.content-kus
 pornhd8k.me,xtits.com,camwhores.film,masturhub.com,fapnado.com,adultepic.com,videocelebs.net##iframe[width="300"][height="100"]
 pornhub.com##.ad-tabSplit
 pornhub.com##.eudsaLink
+pornhub.com##.middleAdContainer
 pornhub.com##.watchpageAd
 pornhub.com##div.adContainer.clearfix
 pornhub.com##div.topAdContainter
@@ -43771,7 +43775,6 @@ _zhike.htm
 ||navigator.io^$important
 ||navitime.co.jp/static/*/bicycle/banner/app_p1.png
 ||navitime.co.jp/static/pc/l/202502041800/img/sp/transfer/searchlist/banner-s-ride-sp-last-train.png
-||navitime.jp/scripts/media/web/infeed/realestate/
 ||navrcholu.cz^$important
 ||nawpyd.icu^
 ||nb.zol.com.cn/detail_*.html
@@ -50072,6 +50075,7 @@ _zhike.htm
 ||static.m.sjzhushou.com^$app=com.xunlei.downloadprovider
 ||static.masoffer.net^$important
 ||static.matterport.com^$important
+||static.media.cld.navitime.jp/scripts/media/web/infeed/realestate/
 ||static.media.net^$important
 ||static.mediabong.com^$important
 ||static.meijiacun.com^

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-20 16:26:46 RPC
+! Updated: 2025-02-21 00:26:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12583,7 +12583,6 @@ bloomberglinea.com##.ts-share-bar-custom
 bloomberglinea.com,bloomberglinea.com.br##.ts-share-bar-custom
 bloombergquint.com##button[class^="share-toggle-module"]
 bloombergquint.com##ul[class^="share-module"]
-bloter.net,comworld.co.kr,jejudomin.co.kr,kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 blubrry.com##a[href^="https://blubrry.com/critmouse/share/"]
 bluedollar.net##.ss_ul
 bluereflection-ray.com###mv_share
@@ -13276,7 +13275,6 @@ chudesa.site#?#.sidebar-content > div.widget:has(> div.textwidget > div.fb-page)
 chudesa.site#?#.sidebar-content > div.widget:has(> div.textwidget > div[data-href^="//plus.google.com/"])
 chugai-contents.jp#?#.itemSection > ul.snsBtn:upward(1)
 chungnamilbo.co.kr##.sns-tool > .sns:not(.fontsise-btn)
-chungnamilbo.co.kr,newsnjoy.or.kr,techm.kr,ccdailynews.com,footballist.co.kr,hankooki.com,gametoc.hankyung.com,globale.co.kr##.quick-tool > button:not(.fontsise-btn)
 chunichi.co.jp##.js-sns
 chunichi.co.jp,tokyo-np.co.jp##.cmp-misc003
 chytomo.com##.content .social
@@ -15323,6 +15321,7 @@ finance.rambler.ru#%#//scriptlet('hide-in-shadow-dom', '.social--top')
 finance.rambler.ru#%#//scriptlet('hide-in-shadow-dom', 'body > div.social')
 finance.rambler.ru,travel.rambler.ru##.social--top
 finance.rambler.ru,travel.rambler.ru##body > div.social
+finance.recruit.co.jp##.boxArticleShare
 finance.ua##.b-socialpane
 finance.ua##.fua-social-sharing-block
 finance.yahoo.co.jp##header + ul > li > a[class][aria-label*="で"]
@@ -19451,6 +19450,7 @@ minval.az###facebook_subscribe
 miped.ru##.article-tags + div.article-social
 mir24.tv##.social-cell
 miraimedia.asahi.com##.p-single-share
+mirait-one.com##.l-info__share
 mirf.ru##.content_footer_social
 mirf.ru##.head_post_desc_social
 mirf.ru##.news-share-btn
@@ -20271,6 +20271,8 @@ newsday.com##div[class^="share-tools"]
 newsdig.tbs.co.jp##.js-share-area
 newser.com###divSocialAndCommentsButtonsTop > a:not([id="aShareComments"])
 newser.com###lightbox
+newsfs.com,bloter.net,comworld.co.kr,jejudomin.co.kr,kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
+newsfs.com,chungnamilbo.co.kr,newsnjoy.or.kr,techm.kr,ccdailynews.com,footballist.co.kr,hankooki.com,gametoc.hankyung.com,globale.co.kr##.quick-tool > button:not(.fontsise-btn)
 newshub.co.nz##.c-ArticleHeading-actions
 newsian.co.kr##.sns:not(.bookmark)
 newsis.com##.socialBox a > img[onclick^="snsSend"]
@@ -25215,6 +25217,7 @@ varianty.lviv.ua##.share > p:not(.comments)
 variat.com.ua##.null-instagram-feed
 variety.com##.c-gallery-vertical-featured-image__share-icons
 varlamov.ru##svg[data-icon="share"]
+varsity.co.uk##.meta__social
 vashdosug.ru##.evt-sharing
 vashsport.com,helpsetup.ru,inforesist.org##.uptl_container-share
 vashvkus.ru##.block-facebook
