@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-20 00:26:02 RPC
+! Updated: 2025-02-20 09:36:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18949,6 +18949,7 @@ sports.yahoo.co.jp##[class*="-modCommon0"]:has(> div[id^="ad-"][id$="mon"])
 sports.yahoo.co.jp#?#.hr-content > section[class^="hr-modCommon01"] #im_low_ad:upward(2)
 sportsbrief.com,legit.ng##.interscroller
 sportsbull.jp##.app-announce-container
+sportsbull.jp##.haruko_promotion-banner
 sportsbull.jp#$##post-content-container.noevent a { pointer-events: auto !important; }
 sportsbull.jp#$#.single-more-container { display: none !important; }
 sportscn.com##[class$="ads"],[class^="ad"],[height="160"],[height="50"],.bnr,#topbanner
@@ -19606,6 +19607,7 @@ theporn.cc##.toolbar-gg
 theporndude.vip,theporndude.com##.pdc-casting
 theportugalnews.com##header > .p-3 > .mx-auto > .row:has(> .col-8 > a.btn-download)
 thepostmillennial.com##.ads-floating-mobile
+therepublic.com#$#.tdc-row:has(img[title*="_digital_ad_mobile"]) { display: none !important; }
 thesaurus.weblio.jp##.adThesaurus
 theschooloflife.com##.article-banner
 thescore.com##div[class^="GetTheApp__fullScreenContainerScrolldown--"]
@@ -28448,6 +28450,7 @@ _zhike.htm
 ||api.placed.com^$important
 ||api.placer.io^$important
 ||api.platform.letv.com^$important
+||api.plyair.com^
 ||api.poll.aiseet.atianqi.com^
 ||api.popin.cc^$important
 ||api.prod.mwx.ext.mobilityware.com^$important
@@ -30349,6 +30352,7 @@ _zhike.htm
 ||bjpenn-d.openx.net^$important
 ||bjs.faxingzhan.com^
 ||bjs.mscto.com^
+||bjsvp*.space^
 ||bjsxt.com/statics/js/bjsxt/js.js
 ||bjtrld.com^
 ||bjuser.jpush.cn^
@@ -31634,6 +31638,7 @@ _zhike.htm
 ||cdn.wo.cc/wo.js
 ||cdn.wootric.com^$important
 ||cdn.wpm.neustar.biz^$important
+||cdn.wtshare.com^
 ||cdn.wuyou.ca^
 ||cdn.xianliao.me^
 ||cdn.xiuting.cc/js/go016.js
@@ -36439,6 +36444,7 @@ _zhike.htm
 ||funoverbored.com^
 ||funoverflow.com^
 ||funpageexchange.com^$important
+||funpavo.com^
 ||funshipin.com/v1/js/footerhongbao.js
 ||fuoo1.top^$third-party
 ||furnstudio.com^
@@ -36605,6 +36611,7 @@ _zhike.htm
 ||galleryn2.awemwh.com^$important
 ||galvatron.iad.appboy.com^$important
 ||gam.adnxs.com^$important
+||gamaibids.com^
 ||gamdus.xyz^
 ||game-advertising-online.com^$important
 ||game.5xen.com^
@@ -36635,6 +36642,7 @@ _zhike.htm
 ||gameone.com^$third-party
 ||gamer-mods.ru/.s/src/jquery.smartbanner.js
 ||gamerch.com/s3-assets/js/system/gcad/
+||gamerplay67.space^
 ||gamersky.com/*.tg.
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
@@ -36646,6 +36654,7 @@ _zhike.htm
 ||games.ifeng.com^*.shtml?v=
 ||games.mobileapi.hupu.com/1/7.3.2/link/
 ||games.qq.com/playgame/gamesad/js/swfobject.js
+||games.tresensa.com^
 ||gamesites100.net^$important
 ||gamesites200.com^$important
 ||gamesitestop100.com^$important
@@ -37502,6 +37511,7 @@ _zhike.htm
 ||gw8.icu^
 ||gwallet.com^$important
 ||gwbnsh.net.cn/hd/unicom/ad.html
+||gwbudgetali.iymedia.me^
 ||gwk.adlibr.com^$important
 ||gwmserver.b-cdn.net^$important
 ||gwmserver.com^$important
@@ -39173,6 +39183,7 @@ _zhike.htm
 ||impr.taboola.com^$important
 ||imprammp.taboola.com^$important
 ||imprchmp.taboola.com^$important
+||imprdom.com^
 ||imprese.cz^$important
 ||impression-asia.liftoff.io^$important
 ||impression-east.liftoff.io^$important
@@ -41569,6 +41580,7 @@ _zhike.htm
 ||log3.optimizely.com^$important
 ||log4x.nixcdn.com^$important
 ||log6.reader.qq.com^
+||loganmedia.mobi^
 ||logconf.iflytek.com^
 ||logconfig.polarisoffice.com^$important
 ||logger.adthor.com^$important
@@ -41693,6 +41705,7 @@ _zhike.htm
 ||lpqhkj.cn^
 ||lpsxssm.com^
 ||lqlwjr.icu^
+||lqm.io^
 ||lqxzx.com^
 ||lrc.nct.nixcdn.com^$important
 ||lrevfhmp.cn^
@@ -42226,6 +42239,7 @@ _zhike.htm
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangalove.me/images/app_yuudou.png
+||mangomob.net^
 ||manhattan.leadforensics.com^$important
 ||manhuabei.com/assets/xiwang.js
 ||maniacalappliance.com^
@@ -44094,6 +44108,7 @@ _zhike.htm
 ||notification.lionmobi.com^$important
 ||notification.popads.net^$important
 ||notification.webengage.com^$important
+||notifiy.rtbuniverse.com^
 ||notify.adleadevent.com^$important
 ||notify.bugsnag.appstore.a2z.com^$important
 ||notify.bugsnag.com^$important
@@ -45181,6 +45196,7 @@ _zhike.htm
 ||path.qidian.com^
 ||pathro-aspad.com^$important
 ||patriot.cs.pp.cn^$important
+||pavoboxapp.com^
 ||pawsnug.com^
 ||pay-ads.com^$important
 ||pay.mobile.sina.cn^$important
@@ -45734,6 +45750,7 @@ _zhike.htm
 ||pmyspace.chartbeat.net^$important
 ||pmzlnt.xyz^
 ||pn-prod.elasticbeanstalk.com^$important
+||pn.ybp.yahoo.com^
 ||pndelfast.com^$important
 ||pnez8.rut6m.xyz^
 ||pniao99.com/statics/js/stat.js
@@ -50123,6 +50140,7 @@ _zhike.htm
 ||static3.lucky88.com^$important
 ||staticads.btopenworld.com^$important
 ||staticaws.365scores.com/AdsConfig/
+||staticcc.com^
 ||staticd.cdn.adblade.com^$important
 ||statics.woozooo.com/img/*.js$domain=lanzous.com
 ||statis1.mama.cn^
@@ -51156,6 +51174,7 @@ _zhike.htm
 ||tenmax.io^$third-party
 ||tenoad.com^
 ||teracreative.com^$important
+||teraverseapp.com^
 ||terraclicks.com^$important
 ||terraclicks.com^$third-party
 ||terriblethumb.com^
@@ -51247,6 +51266,7 @@ _zhike.htm
 ||theporn.xyz/static/tmp/
 ||therapeuticcars.com^
 ||therapistla.com^$important
+||therepublic.com/wp-content/uploads/*/KM_digital_ad_mobile_
 ||therichkids.com^$important
 ||thescore-d.openx.net^$important
 ||theship.club^$third-party
@@ -52823,6 +52843,7 @@ _zhike.htm
 ||us-west-tlx.3lift.com^$important
 ||us-west.load.exelator.com^$important
 ||us-win.bidsopt.com^$important
+||us.*.qwadro.com^
 ||us.a1.yimg.com^$important
 ||us.adserver.yahoo.com^$important
 ||us.bksn.se^$important

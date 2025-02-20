@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-20 00:26:02 RPC
+! Updated: 2025-02-20 09:36:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16632,9 +16632,7 @@ timetopet.com#@#.cookie-check
 timeweb.cloud##.footer + div.cc
 timgate.it##.cao-show
 timhortons.co.uk##.user-permission
-tinder.com###content > span > .App > div[class*="Start"]
-tinder.com##div[class^="App__body"] + div[class^="Pos("]
-tinder.com#%#//scriptlet('trusted-click-element', 'button[data-testid="privacyPreferencesDecline"]')
+tinder.com##div[class^="Pos(f) Start(0) End(0)"][role="alertdialog"][aria-label]
 tindie.com###tindie_cookie_alert
 tines.com#?#div[data-area="main"] > footer ~ div[class]:not([id]):has(> div[class] > p:contains(/^Tines uses cookies to/))
 tinyview.com##.open-app-container

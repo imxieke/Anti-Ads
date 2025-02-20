@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-20 00:26:02 RPC
+! Updated: 2025-02-20 09:36:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11163,6 +11163,7 @@ abc4.com##.anv-share-social-links-panel
 abcgazetesi.com##.abc-share-small
 abcnews.go.com###lightbox-social
 abcnews.go.com##.ShareByline > div[class=" "]
+abcnews.go.com,video.matchtv.ru,rotana.net,pladform.ru##.vjs-share-control
 abczdrowie.pl,money.pl,o2.pl,wp.pl,dobreprogramy.pl##.wp-player .social
 abdullahkigili.com,sadanlar.com.tr,shop.elitcikolata.com.tr,karspor.com.tr,sismikmarket.com,abakuskitap.com,troyestore.com,edifier.com,ambalajstore.com,telefonparcasi.com##.product-social
 abebooks.com,atlasobscura.com###footer-social-list
@@ -13335,6 +13336,7 @@ ciudad.com.ar##:not(.wrapper) > div.social-icons
 ciudadano.news,eleconomista.com.ar##.redes-share
 civil.ge,informe360.com##.social-icons-item
 civileats.com##.row > section.sidebar-right > div.wrapper-social-media
+civileats.com,cyberdaily.au,gamingbolt.com##.social-media-container
 cjr.org##.sharing-buttons
 ckworks.jp##.adbox_fullwidth
 clarin.com##.entry-head > div.content-top
@@ -19366,6 +19368,7 @@ microsoft.com##.jetpack_widget_social_icons
 microsoft.com##.ocArticleFooterShareContainer
 microsoft.com##.pad-social
 microsoft.com##.social-footer-wrap
+microsoft.com##div[data-bi-an="social-share"]
 mid-day.com##.sharelink_act
 mid-day.com##.social-icons-inline
 mid-day.com##.social-sharing-post-txt ul.social-icons-inline
@@ -19982,6 +19985,9 @@ nativecamp.net#?#.individual_sidebar_content_bottom > div.tab_content_action_col
 nativecamp.net,myhome.nifty.com##.sns-button
 nativesurge.info,siberbulten.com##.ssbp-container
 natlawreview.com##.fb_likebox
+natlawreview.com##.social-share-btns
+natlawreview.com##.sticky__sidebar
+natlawreview.com##.view-footer
 naturalnews.com###ShareRow
 nature.com##.c-article-extras-additional-links
 natureasia.com##.c-social-icons
@@ -25325,7 +25331,6 @@ video.dmkt-sp.jp##[class*="-m__share-"]
 video.khl.ru##.video-media__sharing
 video.laxd.com##.c-subMenu-modal[data-modal-name="share"] > div[class="c-subMenu-modal_item"]:last-child > .parts-subMenu
 video.laxd.com##button[data-btn="share"]
-video.matchtv.ru,rotana.net,pladform.ru##.vjs-share-control
 video.repubblica.it###gs-social-sharebuttons
 video.ridus.ru,filmpro.ru##.vjs-share__bottom
 video.sibnet.ru##.block1
@@ -25363,6 +25368,8 @@ village-v.co.jp##.sns-share-inner
 vimeo.com##.share_body
 vimeo.com##.share_social_icons
 vinbazar.com###parent-popup
+vinepair.com##.social-footer-row
+vinepair.com##.social-share-block
 vinnytsianews.com##.row > aside.widget-area > aside.widget-instagram
 vinnytsianews.com##.row > aside.widget-area > aside.widget_fbw_id
 vippers.jp##.article-sns
