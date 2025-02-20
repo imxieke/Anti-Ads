@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-20 09:36:00 RPC
+! Updated: 2025-02-20 16:26:46 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1186,6 +1186,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
 174.127.195.98#%#//scriptlet('abort-on-property-write', 'checkAdblock')
 178.com##div.ad_gg,div.adBox
+178.com,nga.cn,ngabbs.com##[style^="background"][style*="vertical-align"]
 178448.com###BannerAD,.wp.a_t
 17ce.com###tab_banner,.adsbygoogle,[id$="a_wrap"],[class^="add_"]
 17ce.com##a[href="/site/api"]
@@ -2231,7 +2232,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -4989,11 +4990,11 @@ axios-js.com##.recommand
 axios-js.com##.vultr-desc
 axjbt.com,avcao.cc#%#//scriptlet('abort-on-property-read', 'myclick')
 axutongxue.com,axutongxue.net###jjjagl
-axutongxue.com,axutongxue.net##body > div[id]:has(> ul[class] > li > img.icon + a[href])
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
-axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', 'checkCookie')
-axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 axutongxue.net##body > article[style]
+axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
+axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', '/getCookie|checkCK|checkCookie/')
+axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"]
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ br
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ div[style="text-align: center;"]
@@ -8385,7 +8386,6 @@ elespectador.com#?#.swiper-slide:has(> div.Widget-fullHeight > div[id^="Personal
 elle.com,elledecor.com,runnersworld.com#?#div[class*="css-"]:has(> div.ad-container)
 elle.com.hk##.tpc-container
 elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
-elog-ch.*##.sp_banner
 elpasotimes.com##div[class^="gnt_xmst"]
 eltiempo.com##.app-link-download
 eltiempo.es##div[style="min-height:250px;"]
@@ -8627,7 +8627,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -15751,6 +15751,7 @@ news.gamebase.com.tw##.PcNewsUpAds
 news.gamebase.com.tw##.PcRightHomeMiddleAds
 news.gamebase.com.tw##.rightMiddleAD
 news.gamme.com.tw##.if2 > a[href^="https://www.gamme.com.tw/r.php"] > img
+news.golfdigest.co.jp,elog-ch.*##.sp_banner
 news.goo.ne.jp#$#div#NR-wrapper-in.cx { min-height: auto !important; }
 news.hf365.com##.main-r > div:first-child
 news.ifeng.com###embed_hzh_div,[href^="http://yemei.tv"]
@@ -16839,9 +16840,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -23256,6 +23257,7 @@ _zhike.htm
 ||177o.com^
 ||177tvbxs.com^
 ||178.com/glr.js
+||178.com/misc/self/*_ads
 ||178gg.com^
 ||1797wan.com^
 ||17ce.com/k
@@ -34729,6 +34731,7 @@ _zhike.htm
 ||dt0j.icu^
 ||dtc.delidatax.com^$important
 ||dtjpihv.xyz^
+||dtntnl.icu^
 ||dts.crispadvertising.com^$important
 ||dts.innovid.com^$important
 ||dts.startappservice.com^$important
@@ -36012,6 +36015,7 @@ _zhike.htm
 ||feronyv.com^
 ||ferriesendless.com^
 ||fertilefeeling.com^
+||fesnaed.com^
 ||fetch.yourblocksite.com^$important
 ||feubgzfx.icu^
 ||fewjuice.com^
@@ -37761,6 +37765,7 @@ _zhike.htm
 ||hccoeutg.com^
 ||hcgbhq.com^
 ||hcinmau.top^
+||hcinvdu.top^
 ||hcirentgh.360doc.cn^
 ||hciwyv.icu^
 ||hclimiu.top^
@@ -38344,6 +38349,7 @@ _zhike.htm
 ||huyaimg.msstatic.com/cdnimage/roomad/
 ||huzhanbin.cn^
 ||hv.adingo.jp^$important
+||hvddxj.icu^
 ||hvuqkb.cn^
 ||hvxrvef.xyz^
 ||hw-cdn.trafficjunky.net^$important
@@ -38595,6 +38601,7 @@ _zhike.htm
 ||iciba.com/web/static/scripts/kds2_record.js
 ||iciba.com/www/img/activity/common/active-11-11.js
 ||icinmao.top^
+||icinvdo.top^
 ||ickd.cn/mobile/js/touch
 ||iclick.cm.admaster.com.cn^$important
 ||iclickyou.com^$important
@@ -46514,6 +46521,7 @@ _zhike.htm
 ||qfaaokr.icu^
 ||qfjsliy.top^
 ||qfy.innotechx.com^
+||qgaxkkv.top^
 ||qgg7e.icu^
 ||qgidskiy.top^
 ||qgss8.com^$important
@@ -47272,6 +47280,7 @@ _zhike.htm
 ||requirejs.cn/ts.png
 ||reqwevf3.fun^
 ||reryt111.fun^
+||res*.pinpai8.cn^
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.cocounion.com^$important
 ||res.finduslocal.com^$important
@@ -47281,7 +47290,6 @@ _zhike.htm
 ||res.media.net^$important
 ||res.mgtv.com/video/$object-subrequest
 ||res.mmstat.com^$important
-||res.pinpai8.cn^
 ||res.qhupdate.com^
 ||res.vps234.com/resources/images/hosting-promotion/
 ||res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/page_mp_vote_new
@@ -48746,6 +48754,7 @@ _zhike.htm
 ||sg01.midosoo.com^$important
 ||sg01.rayjump.com^$important
 ||sg01.smardroid.com^$important
+||sg7.pw^
 ||sg92.com^
 ||sgadkc.xyz^
 ||sgbbc.cn^
@@ -49781,6 +49790,7 @@ _zhike.htm
 ||ssum-sec.casalemedia.com^$important
 ||ssum.casalemedia.com^$important
 ||ssxd.mediav.com^$important
+||ssydquy.top^
 ||ssylieb.top^
 ||ssyy881.com/zz/
 ||st-a-id.anthill.vn^$important
@@ -50284,6 +50294,7 @@ _zhike.htm
 ||stickysheet.com^
 ||stiffgame.com^
 ||stiffstem.com^
+||stildell.com^
 ||stimiyb.top^
 ||stimulatingsneeze.com^
 ||sting.de17a.com^$important

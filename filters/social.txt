@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-20 09:36:00 RPC
+! Updated: 2025-02-20 16:26:46 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13831,7 +13831,6 @@ cxid.info##.article > br + i
 cxid.info,emlakkulisi.com,strana.in.ua,study.ru,uaexpert.blogspot.ru,wotspeak.ru###overlay
 cyberagent.co.jp##.featuresDetail_detailShareItem
 cyberark.com##.share-item
-cyberdaily.au,gamingbolt.com##.social-media-container
 cyberfile.is###socialHolder
 cyberleninka.ru#?#.half:has(> .social-likes)
 cyberlink.com##.news_nav > :not([class="backUrl"])
@@ -14149,6 +14148,7 @@ developernation.net##img[alt="share-icon"]
 developers.facebook.com##._97mk._9ao6
 developers.tiktok.com##div[data-e2e="blogs-ArticleSharingButtonGroup-Column"]
 developpez.com##.reseauxSociaux > div[style="width:100%; white-space:nowrap;"] > *
+deviantart.com###actionbar-more-menu span[value^="share"]
 deviantart.com###gmi-ResourceViewShare
 dexerto.*##.bottom-0
 dexerto.*##.flex > #sharesCount
@@ -15740,6 +15740,7 @@ fufukokan.af-original.com##.footer_shareWrap
 fugoukeiji-bul.com##.l-footer_info__share
 fugoukeiji-bul.com##.l-footer_twitter
 fujingaho.ringbell.co.jp###spec_sns > ul > li:not(.review_)
+fujingaho.ringbell.co.jp##.block-fg-detail-sns
 fujingaho.ringbell.co.jp#$?#tr > th:contains(シェアする) { visibility: hidden !important; }
 fujinkoron.jp##.article-bottom-sns-wrap
 fujitsu.com##.social-content
@@ -17980,6 +17981,7 @@ klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
 klymenko-time.com##.single_block_social
 km.ru##.km-node-footer-social
 km.ru##.km-shares-counter
+kmib.co.kr,konkurent.in.ua,konkurent.ua##.ico_share
 kn.nl##.c-content-footer__socials
 knack.be##.c-social-shares__list
 knb.ne.jp,sixtones.jp##.c-page-share
@@ -18053,7 +18055,6 @@ konest.com#?#article > div#d_subtitle:has(> h5.bold:contains(この情報を共�
 konest.com#?#article > div#d_subtitle:has(> h5.bold:contains(この情報を共有)) + div#btn
 kongregate.com###kongregate_social_connect_pod
 konhaber.com,belge.com.tr##.sosyalMedya
-konkurent.in.ua,konkurent.ua##.ico_share
 konoe.studio##.blog-post-share
 konstruktortestov.ru###test_result > p + p + h2
 konstruktortestov.ru##.holder-social
