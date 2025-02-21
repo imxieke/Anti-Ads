@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-21 16:25:14 RPC
+! Updated: 2025-02-22 00:26:46 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11184,6 +11184,7 @@ abpeducation.com#?#.art_tag_box > div.art_tag_row:has(> div.collage_list > h2:co
 abplive.com##.mt-4 > a[href^="https://www.youtube.com/"]
 abplive.com#?#.uk-flex > div[class]:has(> div > a.instagram)
 abplive.com,businesstoday.in,gamesindustry.biz,ilmeteo.it##.social_share
+abplive.com,wccftech.com,history.com,refinery29.com,politico.com##.story-share
 abril.com.br##.f-social
 academic.ru##.smm
 academics.de##section[data-ac-context*="social_share_bar"]
@@ -14858,6 +14859,7 @@ english.nv.ua##.article__footer__additional_share
 englishclub.com##.ec-share
 englishdom.com##.wrapper-social-activity
 englishprime.ua##.post-social-list
+enimerosi.com##.social-btm-hd-link
 enisey.tv###js-share-links
 eniyifilmonerisi.com##.tdi_75
 enkiverywell.com##.addthis_sharing_toolbox
@@ -17654,6 +17656,7 @@ jota.info##.jota-actions
 jota.info##.jota-article__share
 jotform.com##.section-articleshare
 joujizz.com##.share-this-static
+journal.sovcombank.ru##astro-island[component-export="ShareButton"]
 journaldesfemmes.fr,journaldunet.com##.api_share
 journaldugeek.com###js-single-content > .single__share > :not(.single__share__alert)
 journaldugeek.com##.socialbar__container > .single__share > :not(.comments)
@@ -17855,6 +17858,7 @@ khamsat.com##.social-media
 khaosod.co.th##.khaosod_line_add_friend
 kharkivoda.gov.ua##.content__share > div.div1
 kharphonk.com##.pinit
+khelnow.com##.MuiBox-root > button.MuiButtonBase-root[aria-label="share icon"]
 khersondaily.com###socialGroups
 khersondaily.com##a[onclick^="shareEvent("]
 khmertimeskh.com##.cisc-box
@@ -19725,6 +19729,7 @@ mrwebmaster.it##.mrw-custom-share-btn
 ms.bridgestone.co.jp###sns-share-block
 mschistota.ru#?#.share > div.row > div.col-md-6 > div:contains(Поделитесь)
 msdmanuals.com##.a2a_dd
+msdmanuals.com##aside[class^="StickyRightToolbar_"] > ul > li[class^="StickyRightToolbar_"]:has(> div > button[class*="_shareIcon_"])
 mshowto.org#?#.theiaStickySidebar > aside:has(> div.textwidget > center > a[href^="https://www.linkedin.com/in/mshowto/"])
 mshowto.org,teknop.net##.social_btn_default
 msi.com###content-socialshare
@@ -20799,7 +20804,6 @@ omnicalculator.com##button[title^="share on"]
 omocoro.jp#@#.fixed-social
 omroepbrabant.nl##[class^="shares_shares_"]
 omroepflevoland.nl##whatsapp
-on-the-slope.com,mine.toyokeizai.net,onews.tv,sports-g.com,jejusori.net,mediaus.co.kr,times.abema.tv,footballist.co.kr,hankooki.com,gametoc.hankyung.com,globale.co.kr,fukuishimbun.co.jp,weekly.chosun.com,gukjenews.com,news.bbsi.co.kr,huffingtonpost.kr,labortoday.co.kr,limo.media,citrus-net.jp,jbpress.ismedia.jp,salgoonews.com,ampmedia.jp,blog.nicovideo.jp,blog.benesse.ne.jp,joongboo.com,monews.co.kr,bosa.co.kr,sisafocus.co.kr,afpbb.com##.article-sns
 on3.com##div[data-testid="shareIconContainer"]
 onamae.com,marieclaire.com.tw,fieldmag.com,san-tatsu.jp,mecicolle.gnavi.co.jp,magazine.cygames.co.jp,narendramodi.in,evamagazin.hu##.articleShare
 onclinic.ua##.social-shared-link
@@ -21739,6 +21743,7 @@ psneolog.com##.ps4-twitter
 psse-wagrowiec.pl##.socialfancysliderCenterOuter
 psychcentral.com##div[data-testid="share-buttons"]
 psyche.co#?#div[class^="ideas__SocialShareBarWrapper-"] > div > p:has(> svg[data-cy$="-outline"])
+psychiatricnews.net,on-the-slope.com,mine.toyokeizai.net,onews.tv,sports-g.com,jejusori.net,mediaus.co.kr,times.abema.tv,footballist.co.kr,hankooki.com,gametoc.hankyung.com,globale.co.kr,fukuishimbun.co.jp,weekly.chosun.com,gukjenews.com,news.bbsi.co.kr,huffingtonpost.kr,labortoday.co.kr,limo.media,citrus-net.jp,jbpress.ismedia.jp,salgoonews.com,ampmedia.jp,blog.nicovideo.jp,blog.benesse.ne.jp,joongboo.com,monews.co.kr,bosa.co.kr,sisafocus.co.kr,afpbb.com##.article-sns
 psycho-pass.com###footerShareDl
 psychologies.com##.psycho_2019_comments_and_social_networks_right
 psychologies.ru##.side-block_soc-tabs
@@ -25639,7 +25644,6 @@ wazap.com###large_twitter_btn
 wccftech.com##.meta-share-bottom
 wccftech.com##.story-share-bottom
 wccftech.com##.story-share-sm
-wccftech.com,history.com,refinery29.com,politico.com##.story-share
 wco.tv##div[class^="addthis_sharing_toolbox_"]
 wcoanimesub.tv,wcoanimedub.tv##.episode-descp + p[style="float:left; font-size:30px; color:#1E262F; margin-top:-3px; margin-bottom:-3px"]
 wcostream.com###sharing_buttons

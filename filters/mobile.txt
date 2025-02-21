@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-21 16:25:14 RPC
+! Updated: 2025-02-22 00:26:46 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12726,6 +12726,8 @@ koinmedya.com##.amp-sticky-ads
 koko-soccer.com##.bnr-overlay
 kokopyon.net##.entry-content > div[align="center"] > a[href^="https://www.amazon.co.jp"][target="_blank"] > img
 kolodischi.by###mainRespAd
+komaki2.jp###article-contents > center > script + a
+komaki2.jp#%#//scriptlet('abort-current-inline-script', 'jmp', 'Math')
 komonews-com.cdn.ampproject.org##div[data-testid="story-body"] div[style]:has(> amp-ad)
 komoot.com,komoot.de###banner_portal_container
 kompas.com##.bapps
