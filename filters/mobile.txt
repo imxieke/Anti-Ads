@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-21 09:36:13 RPC
+! Updated: 2025-02-21 16:25:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8627,7 +8627,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -9294,6 +9294,7 @@ fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
 fuliba2022.net#?#.sidebar > div.widget:has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
+fuliba2025.net##a[href^="https://www.kezyw.com/"] > img
 fulibac.com##.ad_two,.ad_free
 fulibar.net##.banner.banner-contenttop,.d_banner,.d_slidebanner,.adsbygoogle
 fulibba.com##div.tool_news,div.widget,A[href^="http://mp.weixin.qq.com/"],A[href="http://fulibba.com/go/BTBiBi/"],aside#text-5,UL[style] IMG,aside#text-3
@@ -16845,7 +16846,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -23544,6 +23545,7 @@ _zhike.htm
 ||2sfpy.icu^
 ||2te.com^
 ||2te.com^$third-party
+||2ueb.cn^
 ||2vv.cc^
 ||2wt.icu^
 ||2yjw.com/statics/js/jquery.min.
@@ -30360,6 +30362,7 @@ _zhike.htm
 ||bjs.mscto.com^
 ||bjsvp*.space^
 ||bjsxt.com/statics/js/bjsxt/js.js
+||bjtlzv.icu^
 ||bjtrld.com^
 ||bjuser.jpush.cn^
 ||bjwj2y.com/JS/LsJS.aspx
@@ -33175,6 +33178,7 @@ _zhike.htm
 ||crawlclocks.com^$important
 ||crayon.meishichina.com^
 ||crayoncompetition.com^
+||crazodsxx.com^
 ||crazypopups.com^$important
 ||crb.kargo.com^$important
 ||crcdn.adnxs.com^$important
@@ -33830,6 +33834,7 @@ _zhike.htm
 ||db.adjust.io^$important
 ||db3aqu.atdmt.com^$important
 ||dbbsrv.com^$important
+||dbdophuz.icu^
 ||dbg52463.moatads.com^$important
 ||dbmaster.aatkit.com^$important
 ||dbmp4.com/js/foot.
@@ -36206,6 +36211,7 @@ _zhike.htm
 ||fms.ipinyou.com^$important
 ||fmssoj.icu^
 ||fmx-req.fractionalmedia.com^$important
+||fngmeat.top^
 ||fnjoomqa.icu^
 ||fo0.icu^
 ||foambench.com^
@@ -36407,6 +36413,7 @@ _zhike.htm
 ||ftjcfx.com^$important
 ||ftp2.verypsp.com/*.gif|$image
 ||ftp2.verypsp.com/55qp.jpg$image
+||fttxhcua.icu^
 ||fty-v4.pops.fastly-insights.com^$important
 ||fu-1d3645db85.upalytics.com^$important
 ||fu-3449ae1057.upalytics.com^$important
@@ -39858,6 +39865,7 @@ _zhike.htm
 ||jcdf99.com/hzz/scripts/new
 ||jcfnbhqo.icu^
 ||jcinmaa.top^
+||jcinvda.top^
 ||jciwztfj.com^
 ||jclimia.top^
 ||jcodecraeer.com/plus/fuckblok.
@@ -40551,6 +40559,7 @@ _zhike.htm
 ||kbexos.xyz^
 ||kccdk.com/Content/img/*.gif
 ||kcinmad.top^
+||kcinvdd.top^
 ||kclimid.top^
 ||kcokamid.top^
 ||kcxmsb.com^
@@ -44059,6 +44068,7 @@ _zhike.htm
 ||nl.rcd.iqiyi.com^
 ||nl.rcd.ptqy.gitv.tv^
 ||nljrvdh.xyz^
+||nljyjt.icu^
 ||nlmrjnew.oss-cn-shanghai.aliyuncs.com^
 ||nlog.droid4x.cn^$important
 ||nlp14.kionti.de^$important
@@ -46692,6 +46702,7 @@ _zhike.htm
 ||qnvwjpr.icu^
 ||qnwxk.com^$third-party
 ||qo2.fun^
+||qogrux.com^
 ||qonbibff.icu^
 ||qoubliy.top^
 ||qouvxliy.top^
@@ -54884,6 +54895,7 @@ _zhike.htm
 ||xlivrdr.com^
 ||xlkdbbvy.xyz^
 ||xlmdtiyqbkygtfkh.com^
+||xlmp4.cc/js/wcount.js
 ||xlog-va.byteoversea.com^$important
 ||xlog.jd.com^
 ||xlplrhum.xyz^
@@ -55064,6 +55076,7 @@ _zhike.htm
 ||xxsmad3.com^
 ||xxsmad4.com^
 ||xxsmad5.com^
+||xxsmad6.com^
 ||xxss6677.com^
 ||xxx839.com/*/ads^
 ||xxxcounter.com^$important

@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-21 09:36:13 RPC
+! Updated: 2025-02-21 16:25:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7090,7 +7090,6 @@ doccheckshop.de##.cookie-bar-extended
 docdoc.ru##div[data-test-id="cookies-banner"]
 docinsider.de###__cookiemsg
 dockyard.hu###cookie_accept_container
-docs.bird.com,thehacker.recipes,support.threads.com,docs.fluentbit.io,book.hacktricks.xyz,docs.ibracorp.io,docs.readyplayer.me,wiki.provenance-emu.com,docs.expandrive.com,docs.paperspace.com,help.senler.ru,gitbook.com,gitbook.io#%#//scriptlet('set-cookie', '__gitbook_cookie_granted', 'no')
 docs.blackbox.chat##div[aria-label="Cookies"]
 docs.libretro.com,hiddify.com,baslerweb.com,nokogiri.org,github.io,docs.nefarius.at,forethought.ai##.md-consent
 docs.nats.io###toast-0
@@ -7105,6 +7104,7 @@ doctoralia.com.br,doktortakvimi.com,znanylekarz.pl##.floating-cookie-info
 documentation.insp.gouv.fr#$#.cookies-management { display: none !important; }
 documentation.insp.gouv.fr#$#.frame-hidden-overflow { overflow: auto !important; }
 documentation.insp.gouv.fr#@#.panel-cookies
+documentation.soulver.app,docs.bird.com,thehacker.recipes,support.threads.com,docs.fluentbit.io,book.hacktricks.xyz,docs.ibracorp.io,docs.readyplayer.me,wiki.provenance-emu.com,docs.expandrive.com,docs.paperspace.com,help.senler.ru,gitbook.com,gitbook.io#%#//scriptlet('set-cookie', '__gitbook_cookie_granted', 'no')
 dodopizza.ru#?##react-app > div[class]:has(> .cookie-policy-button)
 dodublin.ie,geboren.am,24u.jp,a-coding-project.de,hope-magazin.at,schluter.com.tr,notebook.hu,timvision.it###cookiebox
 dofus-touch.com#%#//scriptlet('trusted-click-element', 'button.ak-accept', '', '500')
@@ -10598,6 +10598,7 @@ knx.org,dauphin.de,dauphin-group.com,trendoffice.com,kliniken-heidenheim.de##.co
 koalay.com###k-cookie
 koblenz.de,medtronic-diabetes.ru##.cookies-disclaimer-wrapper
 kobo.com##.gdpr-consent-wrap
+kobo.com##div[data-testid="privacy-banner"]
 kocaeli.bel.tr##.cookiekbb
 kocbayi.com.tr#@#.CookieConsent:not(body):not(html)
 kocfinans.com.tr,uninove.br##.wrapper-cookie
