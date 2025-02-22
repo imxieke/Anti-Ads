@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-22 00:26:46 RPC
+! Updated: 2025-02-22 09:25:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13282,8 +13282,10 @@ chytomo.com##.content .social
 chytomo.com##.share--wrapper
 ci-en.dlsite.com##.c-articleFrame-item div.e-reactionBtn.is-twitter
 ci-labo.com##.m-journal-box-header-sns
+cian.ru##button[data-name="ShareButton"]
 cian.ru##div[class*="--social_row--"]
 cian.ru##div[data-name="SharingButton"]
+cian.ru##ul[data-name="MenuList"] > li[data-name="MenuItem"]:has(> div > div > svg > path[d^="M11.5 7a3.5"])
 cicero.de##.social-media-sharer
 cider-kotoba.jp##.socialListWrap
 cienradios.com##.socialMediaShareButton

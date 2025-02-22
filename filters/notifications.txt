@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-22 00:26:46 RPC
+! Updated: 2025-02-22 09:25:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4301,6 +4301,7 @@ animefire.net###sub_buttons
 animefire.net###sub_modal
 animeforce.org,chip.de,main-echo.de###cookieChoiceInfo
 animeschedule.net###custom-consent-wrapper
+animesugetv.to###installPwaPopup
 animoto.com##.s-gdpr
 ankama.com##.ak-cookies-banner
 ankarahalkekmek.com.tr###cookie-field
@@ -4891,7 +4892,6 @@ banglanews24.com##.apps
 bank.gov.ua##.widget-pushNotification
 bankadunyasi.com,gazikent27.com,mansetebak.com,url-decode.com,birsenaltuntas.com,teknoinfo.com.tr,iplocation.io,engelli.com,cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com,korsanedebiyat.com,stakingrewards.com,hockerty.de,izlemedia.com,tilki.net,mustafabukulmez.com,konuneydi.com,ozgunbilgi.com,bilisimogretmeni.com,azbuz.org,teknobird.com,ultrabilgi.com,bilgilobi.com,aksaelektrik.com.tr,ergo.de,fosforludusunceler.com,kirtkirtla.com,denizcilikbilgileri.com,dnschecker.org,krombacher.de###cookie-box
 banker.ua##.csppp-container
-banki24.by##.cookies_consent
 banklviv.com#%#//scriptlet('trusted-set-cookie', 'clicklink', 'yes')
 bankmillennium.pl#@#.cookies-info:not(html):not(body)
 banknorwegian.de#$#.MuiBackdrop-root { display: none !important; }
@@ -15042,6 +15042,7 @@ sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#$#.modal-backdrop { 
 sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#$#body[style] { overflow: auto !important; padding-right: 0 !important; }
 sekretariat.librus.pl##.skr-cookieBox
 selbstauskunft.net,dynv6.com##div[class^="d-cc--modal"]
+select.by,banki24.by##.cookies_consent
 selekt.online###informacjaOCiasteczkach
 selexion.be###splash_footer
 selexion.be#%#//scriptlet('set-local-storage-item', 'allowCookies', 'true')
@@ -15359,6 +15360,7 @@ sky.com.br###wrap-aviso-cookie
 sky.de###gdpr-cookieNotice
 sky.it#%#//scriptlet('trusted-click-element', 'button[title="Continua senza accettare"]')
 sky.it#%#//scriptlet('trusted-click-element', 'button[title^="ACCETTA TUTTI I COOKIES"]')
+skyeng.ru##cism-cookies-banner
 skykick.com###banner-one
 skylinewebcams.com###trigCookie
 skylum.com##.cookie-notf

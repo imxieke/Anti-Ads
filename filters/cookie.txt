@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-22 00:26:46 RPC
+! Updated: 2025-02-22 09:25:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28219,7 +28219,6 @@ bankera.com##div[class*="cookie-module"]
 bankera.com,cryptomus.com,gsm55.com,simon.studio##div[class^="cookie-modal"]
 bankgiroloterij.nl###avgDialog
 bankhapoalim.co.il##.cookieClass
-banki24.by##.cookies_consent
 bankinform.ru###bisCookieCompliance
 bankinter.com###capabkpolicyInicial
 bankintercomite.es##.cajatxt
@@ -36502,6 +36501,7 @@ gea-waldviertler.at##.alert, #alert
 gea.com##.language-detection__cookie
 gear.cdprojektred.com##.main-cookies-1M-
 gear.cdprojektred.com##div[class^="main-cookies-"]
+gear4music.com###cookieConsentWidgetDiv
 gearaid.com##+js(rc, cc-scrolling-disabled, body, stay)
 gearaid.com,gripgrab.com,apfelband.de#$##gdpr-blocking-page-overlay { display: none !important; }
 gearaid.com,gripgrab.com,apfelband.de#$#.cc-scrolling-disabled { overflow: auto !important; }
@@ -49602,6 +49602,7 @@ sekretariat.librus.pl##.skr-cookieBox
 sekwens.com###module-aboveBox
 sekwens.com##.module-abovebox
 selbstauskunft.net,dynv6.com##div[class^="d-cc--modal"]
+select.by,banki24.by##.cookies_consent
 selectcamp.com###ssobar
 selectel.ru##.ui-cookies
 selectminds.com###notify-banner, #cboxOverlay, #colorbox
@@ -50271,6 +50272,7 @@ sky.com.br###wrap-aviso-cookie
 sky.de###gdpr-cookieNotice
 sky.it#%#//scriptlet('trusted-click-element', 'button[title="Continua senza accettare"]')
 sky.it#%#//scriptlet('trusted-click-element', 'button[title^="ACCETTA TUTTI I COOKIES"]')
+skyeng.ru##cism-cookies-banner
 skyfi.com###app-body > div > div > div > .fixed.bottom-0
 skyfoxlabs.com##.m-cookie
 skygroup.sky##.c-banner-shadow
@@ -52055,6 +52057,7 @@ tecchannel.de#%#//scriptlet("abort-on-property-read", "Object.prototype.waitForC
 tecedo.at##.msg-banner
 tecedo.at,tecedo.de##.msg-banner
 tech-elektro.pl###cookie
+tech-review.de###cookiesInfosBackground
 tech-room.pl#%#//scriptlet('set-cookie-reload', 'privacy', '1')
 tech.eu##.efilli-layout-legacy
 tech.fb.com,about.fb.com,instagram-brand.com,engineering.fb.com###GDPRConsentBar
@@ -57495,6 +57498,7 @@ _eu_cookie_
 ||modeto.com^$third-party
 ||moneysavingexpert.com/cookie-consent-v*/msmCookieConsent.js
 ||monsido-consent.com^$third-party
+||monsido-consent.com^$third-party,domain=~vejdirektoratet.dk
 ||mrf.io/cmp$script
 ||mrf.io/cmp/
 ||msendpointmgr.com/wp-content/plugins/responsive-cookie-consent/includes/js/scripts.js
