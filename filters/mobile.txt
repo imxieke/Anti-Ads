@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-22 16:22:19 RPC
+! Updated: 2025-02-23 00:22:04 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4461,6 +4461,7 @@ amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es##div.afap-above-
 amazon.in#$#.ape_interstital-open { overflow: auto !important; }
 ambito.com###bannerStickyHeader
 ameba.jp##.FooterAmeba_AmebaApp
+ameblo.jp###entryBody.PhotoSwipeBlock > div:not([class]):has(+ div:empty) > div.pickCreative_root
 ameblo.jp##.PhotoSwipeBlock > div.pickCreative_root
 ameblo.jp##.PhotoSwipeBlock > div:last-of-type > p:empty + div.pickCreative_root[style="font-size:0"]
 ameblo.jp##.PhotoSwipeBlock > div[style*="max-height: 280px;"]
@@ -4475,7 +4476,6 @@ ameblo.jp##aside[class^="_"]:first-child > aside[class^="_"] > div[class^="_"][c
 ameblo.jp##aside[class^="_"]:only-child > aside[class^="_"] > div[class^="_"]:only-child > div[class^="_"]:only-child
 ameblo.jp##aside[data-amb-auto-ad-style="wrapper"]
 ameblo.jp##body .skinBody2 > div[style="overflow: hidden;"] > main + aside[class^="_"]
-ameblo.jp##div:has(> a.pickCreative)
 ameblo.jp##div:not([class]) > div[class^="_"]:first-child > aside[class^="_"]:only-child > div[class^="_"]:last-child
 ameblo.jp##div[class^="_"] > aside[class^="_"] section > div[class^="_"] > a[href^="https://dokusho-ojikan.jp/ameba_manga_login"]:only-child
 ameblo.jp##div[data-slot-type="injectedAds"]
