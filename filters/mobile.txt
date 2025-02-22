@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-22 09:25:54 RPC
+! Updated: 2025-02-22 16:22:19 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2017,6 +2017,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 52life.cc##table[style="margin-top:0"]
 52movieba.com###testLinkA
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -4183,6 +4184,7 @@ acg18.me##div.row-fluid.ggggtop,.gggpost-below,.abptext,.gggtop,.ggpost-below
 acgbuster.moe##.tg-inner
 acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
+acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 acgdoge.net,chinalawedu.com,douyu.com,gmgard.com,hggard.com,iqiyi.com,jinti.com,youku.com##a[href*=".tmall.com"]
 acgfta.com##a[href^="https://ifift.com/"]
 acggd.com##a[href*=".apk"]
@@ -5976,6 +5978,7 @@ boke112.com##a[href*="url.cn"]
 boke112.com##a[href^="https://dwz.cn/"]
 boke112.com##div.abc-pc.abc-site
 boke112.com,dzbhdm.net,mzh.ren,whsir.com##a[href*=".aliyun.com"]
+boke112.com,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 boke112.com,techweb.com.cn##a[href*=".aliyun.com"]
 bokon.net##.DivMainLeft{width: 990px;}
@@ -8380,6 +8383,7 @@ electrical4u.com###custom_html-24
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
+element-plus.org##div[class*="-panel-"]
 element-plus.org##div[class*="-side-"]
 elespanol.com###homeMobileAdvertising2
 elespanol.com###sticky_container
@@ -8628,7 +8632,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16848,9 +16852,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -24513,6 +24517,7 @@ _zhike.htm
 ||8vod.net/detail/$script
 ||8xly.cn^
 ||8xtm6i.cn^
+||8y3j.cn^
 ||8ziyuan.com/images/infolinksad.jpg
 ||9.bapi.adsafeprotected.com^$important
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
@@ -30173,6 +30178,7 @@ _zhike.htm
 ||bgrndi.com^$important
 ||bh.contextweb.com^$important
 ||bh100.com.cn^
+||bhaelnieth.com^
 ||bhakte.com^
 ||bhanphevg.com^
 ||bhaoea.cn^
@@ -34880,6 +34886,7 @@ _zhike.htm
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzais.com^
+||dzbhdm.com/wp-content/uploads/2021/10/c278390aead8a2f7caea15eb42b36314.
 ||dzdnffs.xyz^
 ||dzgg.com^
 ||dzjzg.com^
@@ -35073,6 +35080,7 @@ _zhike.htm
 ||echoinghaven.com^
 ||ecikmrm.icu^
 ||ecimg.tw/img/xdsys/*/layout/*/sign/channel*/ad_*.jpg
+||ecinvdw.top^
 ||ecircle-ag.com^$important
 ||eclassified.my/cp_featured
 ||eclick.baidu.com^
@@ -37834,6 +37842,7 @@ _zhike.htm
 ||heavy-r.com/js/mobile*.js
 ||heavydetail.com^
 ||heavyplayground.com^
+||hebaidu.cc^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/sys/online_calc.js
 ||hebtv.com/d/a/thea
@@ -40733,6 +40742,7 @@ _zhike.htm
 ||klog.hiido.com^$important
 ||kloojzn.icu^
 ||kmaa45.com^
+||kmeiju.cc/kangeqiu.
 ||kmf.com/da/do
 ||kmgfjc.cn^
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
@@ -41499,6 +41509,7 @@ _zhike.htm
 ||locator1.corevm.com^$important
 ||locatorpp.corevm.com^$important
 ||locpikbb.icu^
+||lofqvl.icu^
 ||lofter.com/$subdocument,third-party
 ||lofter.com/blogphotoad
 ||lofter.com/blogPhotoAd?
@@ -44356,6 +44367,7 @@ _zhike.htm
 ||o.jy135.com^
 ||o.phb123.com^
 ||o.skimresources.com^$important
+||o02220aokk.com^
 ||o091i.com^
 ||o0e.ru^$important
 ||o1.jyjyj.cn^
@@ -48116,6 +48128,7 @@ _zhike.htm
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
 ||scintillatingspace.com^
+||scinvdb.top^
 ||scissorsstatement.com^
 ||scjtfh.xyz^
 ||sckfcn.cn^
@@ -51668,6 +51681,7 @@ _zhike.htm
 ||toptoon03.xyz/app/tuijian.html
 ||toptopmedia.g2afse.com^$important
 ||torimochi.line-apps.com^
+||torkeauwu.com^
 ||torpidtongue.com^
 ||torpidtoothpaste.com^
 ||torrentkitty.*/images/vpn
@@ -55919,6 +55933,7 @@ _zhike.htm
 ||zminer.zaloapp.com^$important
 ||zmk.pw/zfb.png
 ||zmkma.com^
+||zmpgln.icu^
 ||zmrmbc.xyz^
 ||zmvopcio.icu^
 ||zn46.com/images/*0x

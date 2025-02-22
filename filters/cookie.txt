@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-22 09:25:54 RPC
+! Updated: 2025-02-22 16:22:19 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2242,7 +2242,6 @@
 ###cookie-settings-container
 ###cookie-settings-dlg
 ###cookie-settings-layer
-###cookie-settings.cookie-settings
 ###cookie-shadow
 ###cookie-site-container
 ###cookie-site-container-box
@@ -16162,7 +16161,6 @@
 ##.gdpr-modal-block
 ##.gdpr-modal-notify
 ##.gdpr-modal-overlay
-##.gdpr-modal-wrapper
 ##.gdpr-modal[role="alert"]
 ##.GDPR-Msg
 ##.gdpr-msg.alert:not(body):not(html)
@@ -36440,6 +36438,9 @@ gasolinapromociones.bridgestone.es#$##cookies { display: none!important; }
 gasolinapromociones.bridgestone.es#$#.para_blur { filter: none!important; }
 gasolinapromociones.bridgestone.es#@##acceptCookies
 gasolinapromociones.bridgestone.es#@#.cookie-banner:not(body):not(html)
+gasometer.de##+js(set-cookie, cookie_consent_external-media, true)
+gasometer.de##+js(set-cookie, cookie_consent_shown, true)
+gasometer.de##+js(set-cookie, cookie_consent_statistics, false)
 gasspisen.se##+js(set-cookie, user_cookie_consent, false)
 gasthof-bub.de###page_evconsent
 gastore.ru,barrier.ru,belgazprombank.by###js-alert-cookie-window
@@ -47722,7 +47723,7 @@ purplemanager.com##.purple-cookie-info
 purposegames.com###ccsn
 pursebop.com##.cp-popup-container
 purspot.com##.ps-cookie
-purspot.com,leotrippi.com,restaurantclub.pl,context.news,queisser.de##+js(set-cookie, cookieConsent, true)
+purspot.com,leotrippi.com,restaurantclub.pl,context.news,queisser.de,flamecomics.xyz##+js(set-cookie, cookieConsent, true)
 purusmeda.cz###js-cc-banner
 pusc.it###pixelfabrica-cs-banner
 push.org##.CookieComponent__CookieContainer-sc-thf5lr-0
@@ -57497,7 +57498,6 @@ _eu_cookie_
 ||modal.g2a.co/modal-gdpr.umd.js
 ||modeto.com^$third-party
 ||moneysavingexpert.com/cookie-consent-v*/msmCookieConsent.js
-||monsido-consent.com^$third-party
 ||monsido-consent.com^$third-party,domain=~vejdirektoratet.dk
 ||mrf.io/cmp$script
 ||mrf.io/cmp/
