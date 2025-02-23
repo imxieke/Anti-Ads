@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-23 09:41:06 RPC
+! Updated: 2025-02-23 16:23:48 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25394,7 +25394,6 @@
 @@||sdk.privacy-center.org^$domain=sudinfo.be
 @@||sdk.privacy-center.org^$domain=vanitatis.elconfidencial.com
 @@||sdk.privacy-center.org^$script,domain=20minutos.es|24sata.hr|abc.es|allocine.fr|as.com|atresplayer.com|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dnevnik.hr|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|elespanol.com|eltiempo.es|euronews.com|europe1.fr|filmweb.pl|fip.fr|flair.be|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|idealista.it|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|kurier.at|ladepeche.fr|lalibre.be|lasexta.com|lasprovincias.es|lavanguardia.com|leboncoin.fr|leparisien.fr|lequipe.fr|marca.com|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|ondacero.es|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|otempo.pt|podcasts.leparisien.fr|profil.at|publicsenat.fr|rainberrytv.com|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rmcbfmplay.com|rtbf.be|rtl.be|rtl.fr|science-et-vie.com|sensacine.com|serially.it|sfgame.net|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|video-streaming.orange.fr|xataka.com
-@@||sdk.privacy-center.org^$script,domain=20minutos.es|24sata.hr|abc.es|allocine.fr|as.com|atresplayer.com|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dnevnik.hr|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|elespanol.com|eltiempo.es|euronews.com|europe1.fr|filmweb.pl|fip.fr|flair.be|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|kurier.at|ladepeche.fr|lalibre.be|lasexta.com|lasprovincias.es|lavanguardia.com|leboncoin.fr|leparisien.fr|lequipe.fr|marca.com|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|ondacero.es|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|otempo.pt|podcasts.leparisien.fr|profil.at|publicsenat.fr|rainberrytv.com|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rmcbfmplay.com|rtbf.be|rtl.be|rtl.fr|science-et-vie.com|sensacine.com|serially.it|sfgame.net|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|video-streaming.orange.fr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=frandroid.com
 @@||sdk.privacy-center.org^$script,domain=movilzona.es
@@ -37576,9 +37575,9 @@ hallebessermachen.de#%#//scriptlet('remove-class', 'v--modal-block-scroll', 'bod
 hallhuber.com#$#.cookie-box-modal { display: none !important; }
 hallhuber.com#$#body { overflow-y: visible !important; }
 hallhuber.com#@#.cookie-box:not(body):not(html)
-hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de###gdpr-blocking-page-overlay
-hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de##.cc-window-wrapper
-hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de##body:style(position: static !important; overflow: auto !important; width: auto !important;)
+hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
+hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##.cc-window-wrapper
+hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 hallo-meinung.de##.uk-position-fixed
 hallo-meinung.de##body > .uk-section-primary.uk-position-bottom
 hallofbrands.gr###gdpr-modal, .modal-backdrop
@@ -56387,6 +56386,7 @@ znak.pl##div[style="clear: both; font: normal 12px Arial; padding: 5px 0px 5px 1
 znanierussia.ru###znanie-cookie
 zodio.fr##.zo-cookie__banner
 zoho.com###bcc-outer
+zoho.com##+js(set-local-storage-item, zglobal_Acookie_optOut, 3)
 zoho.com##.zbottom-cookie-container-outer
 zoiglapp.de###boxes
 zolar.de,webuyanycar.com,yougov.co.uk,yougov.com##.vwo-overlay
