@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-23 16:23:48 RPC
+! Updated: 2025-02-24 00:22:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24705,6 +24705,7 @@
 @@||consent.trustarc.com/notice$domain=tripit.com
 @@||consent.trustarc.com/noticemsg$domain=philips-hue.com
 @@||consent.trustarc.com^$domain=concur.com
+@@||consent.truste.com/notice$domain=$domain=fortune.com|hsl.fi|philips-hue.com|proximus.be|tmz.com|weather.com
 @@||consent.truste.com/notice$domain=philips-hue.com
 @@||consent.truste.com/notice$domain=tmz.com
 @@||consent.truste.com/notice$domain=weather.com
@@ -35592,6 +35593,7 @@ flip.ro#$#body .cookie-modal { display: none !important; }
 flip.ro#$#body.modal-open { overflow-y: auto !important; padding-right: 0 !important; }
 flipdish-cookie-consent*
 flippingbook.com##.S-GDPR-Banner
+flipsnack.com###cookieNotification
 flipsnack.com##.modal-backdrop
 flir.com##.philadelphia-optin-visible
 flisekompaniet.no###cookieBlockOverlay
@@ -56983,7 +56985,6 @@ _eu_cookie_
 ||consent.trustarc.com^$domain=pedialyte.com|twilio.com
 ||consent.trustarc.com^$third-party
 ||consent.truste.com/get?name=notice.js$script
-||consent.truste.com^$script,domain=docs.oracle.com|thehindubusinessline.com|wunderground.com
 ||consent.truste.com^$third-party
 ||consent.weersvoorspelling.nl/v1$script
 ||consent.werner-mertz.de^
