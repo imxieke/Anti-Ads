@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-24 09:39:57 RPC
+! Updated: 2025-02-24 16:31:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -680,6 +680,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 /vodone*js
 /waitad.js*
 /wap/js/wc.js
+/web-vitals.$script,redirect-rule=noopjs,domain=amazon.com
 /webad*
 /webpush_
 /wejs/sc?gp=
@@ -1234,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -8619,7 +8620,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16839,9 +16840,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -22812,6 +22813,8 @@ _showad*
 _stat.js*
 _tm11_pmt_
 _txtshow_
+_vwisbjs?
+_vwnrsbjs?
 _xxl_*.htm
 _yad_jsonp_
 _zhike.htm
@@ -32060,6 +32063,7 @@ _zhike.htm
 ||chubbycreature.com^
 ||chubun.com/images/banners/
 ||chubun.com/uploads/pic/img
+||chuccipkn.com^
 ||chuiyao.com/static/js$script
 ||chumanzi.com/wap
 ||chumealq.com^
@@ -32072,6 +32076,7 @@ _zhike.htm
 ||chushoushijian.cn^
 ||chushoushijian.cn^$third-party
 ||chussuth.com^
+||chuundads.com^
 ||ci-first.iovation.com^$important
 ||ci-mpsnare.iovation.com^$important
 ||ci.appboy.com^$important
@@ -34100,6 +34105,7 @@ _zhike.htm
 ||dffy.com/static/popUp.
 ||dfgfdffg.cn^
 ||dfhgry.com^
+||dfhthh.icu^
 ||dflkndkzf.com^
 ||dfp-gateway.onscroll.com^$important
 ||dfp-gateway.us.onscroll.com^$important
@@ -44362,6 +44368,7 @@ _zhike.htm
 ||o.phb123.com^
 ||o.skimresources.com^$important
 ||o02220aokk.com^
+||o02231aokk.com^
 ||o091i.com^
 ||o0e.ru^$important
 ||o1.jyjyj.cn^
@@ -45464,6 +45471,7 @@ _zhike.htm
 ||phtivr.xyz^
 ||phunware.com^$important
 ||phvfevk.xyz^
+||phxdrf.icu^
 ||physicalbikes.com^
 ||pi.pardot.com^$important
 ||pianba.tv/api/new_
@@ -46525,6 +46533,7 @@ _zhike.htm
 ||qdoeki.xyz^
 ||qdoshby.top^
 ||qdp.qidian.com^
+||qdqppsl.top^
 ||qdross.com/vip/
 ||qdtzbbh.xyz^
 ||qdzyspjx.com^
@@ -51096,6 +51105,7 @@ _zhike.htm
 ||tcfgtd.xyz^
 ||tcheck.outbrainimg.com^$important
 ||tcheeter.com^
+||tcinvdi.top^
 ||tciqgx.xyz^
 ||tck.synerise.com^$important
 ||tclimii.top^
@@ -55064,6 +55074,7 @@ _zhike.htm
 ||xvideo.cc/wefong2.js
 ||xvorpqz.cn^
 ||xvudqzoa.xyz^
+||xvvfpsmp.icu^
 ||xvyugqj.icu^
 ||xvzcfh.xyz^
 ||xwbmjb.xyz^

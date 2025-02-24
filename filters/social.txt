@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-24 09:39:57 RPC
+! Updated: 2025-02-24 16:31:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12263,6 +12263,7 @@ beautypageants.indiatimes.com##.photo_social
 bebeautiful.in###stickysocial
 becloud.by##.social-wrp
 beebom.com##.beebom-social-share
+beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,mag.toyota.co.uk,mydramalist.com,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
 beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,mag.toyota.co.uk,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
 beeg.com#?#.content-details__actions-group > button[type="button"][aria-haspopup="true"]:has(> span.v-btn__content > span.XBootstrapIcon > svg[viewBox="0 0 16 16"] > path[d^="M15."])
 beejournal.ru#?#.item-page > div[itemprop] > div.custom > div[style]:has(> div.ya-share2)
@@ -14926,6 +14927,7 @@ escharts.com##article div[class*="items-center lg-"]:has(> ul.items > li > butto
 escolakids.uol.com.br##.post__item__internal__share
 eskarock.pl,poradnikzdrowie.pl,eska.pl##.fb__shareBox
 eskisehirhaber.com##a[onclick*="eskisehirhaber.com/share"]
+eslint.org##.post__sidebar-module:has(.c-share)
 esnafbulteni.com##.hbr-shr
 espaebook.org###simplemodal-containter-share
 espaebook.org###simplemodal-overlay[style^="opacity: 0.95;"]
@@ -18080,7 +18082,6 @@ koreatimes.co.kr##.sns_area
 koreatimes.com##.fab
 koreatimes.com##.twit
 korkusuz.com.tr##button[onclick^="showShareDialog"]
-korkusuz.com.tr,sozcu.com.tr,redgifs.com,bluestacks.com##.share-actions
 korona.by##div[class^="Share__Component"]
 korrespondent.net#?#.col__sidebar > div[class="unit-rubric"]:has(> div > h3 > span:contains(Корреспондент.net в cоцсетях))
 korso24.pl,boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,eluban.pl#?#.article_summary > .text-left > p.text-muted:contains(/^Podziel się:$/)
@@ -19458,6 +19459,11 @@ miped.ru##.article-tags + div.article-social
 mir24.tv##.social-cell
 miraimedia.asahi.com##.p-single-share
 mirait-one.com##.l-info__share
+mirandopeliculas.com###sidebar > div.tsidebar:has(> h3:contains(/siguenos en facebook|siguenos en google/))
+mirandopeliculas.com##.mwidget > div.mwidget:has(> script:contains(plusone))
+mirandopeliculas.com##.mwidget > div.tsidebar:has(> h3:contains(siguenos en google))
+mirandopeliculas.com##.mwidget > div[align="center"]:has(> a[href="https://www.instagram.com/mirandopliculas/"])
+mirandopeliculas.com##.mwidget > div[style]:has(> span:contains(SIGUENOS POR INSTAGRAM))
 mirf.ru##.content_footer_social
 mirf.ru##.head_post_desc_social
 mirf.ru##.news-share-btn
@@ -20059,6 +20065,7 @@ nebelspalter.ch##.ccm-element-social-share
 nebelspalter.ch,news.ch,wetter.ch##.skin_51_fb
 nebelspalter.ch,news.ch,wetter.ch##.skin_51_speech
 nedirnasilneden.com###sosyalbutons
+nedrug.mfds.go.kr##.user_control > a:not(.btn_print_new)
 neec.ac.jp##.tmp_social_btns
 needlenthread.com#@#.pinterest1
 neeva.com##div[class^="share-links_col__"]
@@ -20807,7 +20814,6 @@ omocoro.jp#@#.fixed-social
 omroepbrabant.nl##[class^="shares_shares_"]
 omroepflevoland.nl##whatsapp
 on3.com##div[data-testid="shareIconContainer"]
-onamae.com,marieclaire.com.tw,fieldmag.com,san-tatsu.jp,mecicolle.gnavi.co.jp,magazine.cygames.co.jp,narendramodi.in,evamagazin.hu##.articleShare
 onclinic.ua##.social-shared-link
 one-piece.com##.shareImage
 onedayonly.co.za##.css-p1ns9f
@@ -21738,7 +21744,9 @@ psdfreebies.com#$#.simplebtn{ display: block!important; }
 psicolinea.it##.sfsi_outr_div
 psicologiaymente.com##.article_actions__list > li > .share_dropdown-wrap
 psicologiaymente.com##.article_actions__list > li > button[aria-labelledby^="share"]
+psicologiaymente.com##.mb-6 > div.inline-flex:has(> button[aria-label="Comparte"])
 psicologiaymente.com##.sticky_share-list > li:not(.comments)
+psicologiaymente.com##button[aria-label^="Compartir"]
 psm7.com##.soc_line
 psm7.com,bombardir.ru##.like-block
 psneolog.com##.ps4-twitter
@@ -22980,6 +22988,7 @@ slate.com##.social-share--desktop-only
 slavmir.tv##p[style="color: #f47b22; margin-bottom: 10px; font-size: 18px;"]
 sleepfoundation.org##.sh_space.share
 sleipnirstart.com###sbm
+slengo.it,korkusuz.com.tr,sozcu.com.tr,redgifs.com,bluestacks.com##.share-actions
 slice.ca###corusVideo_socialAndExpand > #corusVideo_socialTools
 slickdeals.net###buyNowShareContainer
 slidstvo.info,ppt.ru##.bottom-social
@@ -23115,6 +23124,7 @@ solidsoftwaretools.com#$#.mts-cl-social-locker { display: none!important; }
 solidsoftwaretools.com#$#div[class][data-locker-id] { display: block!important; }
 solodeportes.com.ar###product-social-networks
 solverbook.com#?#.social > table:has(> tbody > tr > td:contains(Понравился сайт))
+solvetic.com,uta-net.com##button[data-bs-target="#shareModal"]
 solvettube.com#?##sidebar > .blocks > li.block:has(>.block-content > [class^="box textwidget "][class*="uson"])
 solvusoft.com##.grid_4 > div.side-box:has(> div#fb-root)
 somoynews.tv##.flex-row > button.float-right:has(> span.v-btn__content > span > svg > path[d^="M21,12L14,"])
@@ -24051,6 +24061,7 @@ thebell.io#@#.social-box
 thebigdata.co.kr##.snsbar
 theblaze.com##.main-sub-social
 theblaze.com##.story-col-share
+theblock.co,onamae.com,marieclaire.com.tw,fieldmag.com,san-tatsu.jp,mecicolle.gnavi.co.jp,magazine.cygames.co.jp,narendramodi.in,evamagazin.hu##.articleShare
 theblueprint.ru,w-o-s.ru###social-subscribe
 thebrandage.com##.left > a.fb
 thebrandage.com##.left > a.li
@@ -25178,7 +25189,6 @@ usrtk.org##.blog-article-share-options
 ussurmedia.ru##.wrapper-content .share
 ustanovkaos.ru###main > #slide-sidebar-wrap
 ustream.to##.container > p[style^="color:"] + hr + div[onclick^="window.open("]
-uta-net.com##button[data-bs-target="#shareModal"]
 utaten.com##.newShareLink
 utaten.com##.newShareLinkWrap
 utaten.com##.shareArea__item--SNS
