@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-24 16:31:45 RPC
+! Updated: 2025-02-25 00:27:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12264,7 +12264,6 @@ bebeautiful.in###stickysocial
 becloud.by##.social-wrp
 beebom.com##.beebom-social-share
 beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,mag.toyota.co.uk,mydramalist.com,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
-beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,mag.toyota.co.uk,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
 beeg.com#?#.content-details__actions-group > button[type="button"][aria-haspopup="true"]:has(> span.v-btn__content > span.XBootstrapIcon > svg[viewBox="0 0 16 16"] > path[d^="M15."])
 beejournal.ru#?#.item-page > div[itemprop] > div.custom > div[style]:has(> div.ya-share2)
 beejournal.ru#?#div[style^="width:"]:has(> div.module_round_box_outer > div.module_round_box > div[class] span:contains(/Вступайте|в нашу группу/))
@@ -24294,6 +24293,7 @@ thestrayferret.co.uk,lenta.com##div[class^="Sharing_"]
 thestreet.com,coe.int###share-widget
 thesun.co.uk###page-social
 thesun.co.uk##.article-social__meta--share-count
+thesun.co.uk##.article-teaser-share-button
 thesun.co.uk##.naytev-share-toolbar
 thesurfersview.com##.itp-share-tw
 theswaddle.com##.module-share__sticky

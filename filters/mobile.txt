@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-24 16:31:45 RPC
+! Updated: 2025-02-25 00:27:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -20980,6 +20980,10 @@ web.gekisaka.jp#?#.SP_NEWS_D_SP_ONLY
 web.goout.jp###secondary > div.bx-ad:first-child
 web.goout.jp##.bx-ad.mb-10
 web.goout.jp##.bx-ad.my-10
+web.joongna.com##reach-portal > div.modal-root.fixed.bg-black.bg-opacity-70.cursor-pointer[style*="opacity:"]:has(div#appinstall_msg)
+web.joongna.com#$#.carouselWrapper + div > div.fixed.bg-white.justify-between.lg\:hidden.top-\[136px\] { top: 63px !important; }
+web.joongna.com#$#.min-h-screen > button[class^="py-[17px] px-[20px] bg-[#F1F4F6] hidden justify-between max"] { display: none !important; }
+web.joongna.com#$#@media (max-width: 480px) { .max-\[480px\]\:mt-\[73px\] { margin-top: 0 !important; } }
 web.playerapp.tokyo#?#main > aside:has(> div > a[href^="https://itunes.apple.com/app/"])
 web.quizknock.com###header_iosapp_link
 web.ultra-soccer.jp###under-breadcrumbs-ads
@@ -37048,6 +37052,7 @@ _zhike.htm
 ||glittersh.com^
 ||glizauvo.net^
 ||globadmedia.com^$important
+||global-staticplat.cdn.bcebos.com
 ||global.adserver.yahoo.com^$important
 ||global.appnext.com^
 ||global.appnext.com^$important
@@ -45234,6 +45239,7 @@ _zhike.htm
 ||pathro-aspad.com^$important
 ||patriot.cs.pp.cn^$important
 ||pavoboxapp.com^
+||pavoshare.com
 ||pawsnug.com^
 ||pay-ads.com^$important
 ||pay.mobile.sina.cn^$important
