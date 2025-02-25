@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-25 00:27:07 RPC
+! Updated: 2025-02-25 09:37:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18025,7 +18025,6 @@ s.tabelog.com##.search-temp__floating-app
 s.tabelog.com##.webtoapp-video
 s.tabelog.com##div[class^="p-global-footer__webtoapp"]
 s.tabelog.com##div[id^="js-webtoapp-floating-banner-overlay"]
-s.tabelog.com#$#.js-modal-overlay-clickarea { display: none !important; }
 s.tabelog.com#$#html.is-overlay-visible body { overflow-y: auto !important; }
 s.tabelog.com#$#html.is-overlay-visible { overflow-y: auto !important; }
 s2yy.com##[src^="http://www.b8yy.com/gg/"]

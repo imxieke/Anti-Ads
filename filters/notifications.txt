@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-25 00:27:07 RPC
+! Updated: 2025-02-25 09:37:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2694,7 +2694,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=liveabout.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mcdonalds.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mtvuutiset.fi
-@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=nationalgeographic.de
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=nationalgeographic.de|nationalgeographic.es
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=rtl.nl
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=servustv.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=sn.at
@@ -13477,7 +13477,7 @@ paulgreen-shop.de,schuhe-lueke.de,geox-shop.de###P_Consent_Manager
 paulig.ru###cookies-disclaimer-block
 payback.de##div.stripe[data-tracking-name="cookie_layer"]
 payback.de#@##onetrust-consent-sdk
-payback.de,liveabout.com,tomthumb.com,app.nlziet.nl,nationalgeographic.de#%#//scriptlet('trusted-click-element', '#onetrust-reject-all-handler')
+payback.de,liveabout.com,tomthumb.com,app.nlziet.nl,nationalgeographic.de,nationalgeographic.es#%#//scriptlet('trusted-click-element', '#onetrust-reject-all-handler')
 payberry.ru##.noun-cookie-container
 paycomonline.net##body .cookie-consent
 paydirekt.de##cookies-overlay

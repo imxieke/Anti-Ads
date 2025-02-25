@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-25 00:27:07 RPC
+! Updated: 2025-02-25 09:37:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3521,7 +3521,6 @@
 ###cookies.popup
 ###cookies.py-2
 ###cookies.row
-###cookies.show
 ###cookies.sticky
 ###cookies.sticky-bottom.allow-scroll
 ###cookies.toplayer
@@ -14014,7 +14013,6 @@
 ##.cookies.privacyLaw
 ##.cookies.row
 ##.cookies.show-cookie
-##.cookies.show:not(html):not(body)
 ##.cookies.site-msg
 ##.cookies.slideInUp
 ##.cookies.sv-layout
@@ -24298,7 +24296,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=liveabout.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mcdonalds.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=mtvuutiset.fi
-@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=nationalgeographic.de
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=nationalgeographic.de|nationalgeographic.es
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=rtl.nl
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=servustv.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=sn.at
@@ -29980,6 +29978,7 @@ bygningskultur2015.dk,udlodningsmidler.dk###lbmodal
 bymycar.fr###sd-cmp
 bynogame.com##.cookie_agreements
 byom.de##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
+byrdie.com,nascar.com,woodmagazine.com,realsimple.com,simplyrecipes.com,shape.com,southernliving.com,thesprucecrafts.com,thespruceeats.com,seriouseats.com,allrecipes.com,tripsavvy.com,midwestliving.com,mydomaine.com,allpeoplequilt.com,travelandleisure.com,verywellfit.com,verywellmind.com,foodandwine.com,lifewire.com,verywellhealth.com,health.com,thoughtco.com,dailypaws.com,agriculture.com,marthastewart.com,ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 byrosagold.com,floristikwerkstatt-mueller.com##.flash[data-cookie="eu_cookie"]
 bytbil.com##.schibsted-info
 byteplus.com##.dpsg-cookieBanner
@@ -44250,7 +44249,6 @@ narodowy.pl###cookies
 narzedzia.pl,oponeo.*,pneus-oponeo.be,banden-oponeo.be,centrumrowerowe.pl###consentsPolicyDialog
 narzedziawarszawa.pl###cookie
 nas-forum.com##.ipsMessage_error
-nascar.com,woodmagazine.com,realsimple.com,simplyrecipes.com,shape.com,southernliving.com,thesprucecrafts.com,thespruceeats.com,seriouseats.com,allrecipes.com,tripsavvy.com,midwestliving.com,mydomaine.com,allpeoplequilt.com,travelandleisure.com,verywellfit.com,verywellmind.com,foodandwine.com,lifewire.com,verywellhealth.com,health.com,thoughtco.com,dailypaws.com,agriculture.com,marthastewart.com,ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 nasdaq.com###consent-placeholder-onetrust
 nasdaqbaltic.com###gdpr-confirm
 naslovi.net###gpdr, #GPDR, #gdpr, #GDPR
@@ -44662,6 +44660,7 @@ ngnovoros.ru##._1TNYbgH
 nh-collection.com,nh-hotels.com##.politicaRewards
 nh-hotels.com##.politicaRewards
 nhc.no###dpm-consent-form
+nhif.bg##+js(set-cookie, gdpr, 1)
 nhk.jp,nhk.or.jp##.bottom_optout_announce
 nhk.or.jp###nw_gdpr_view_id
 nhk.or.jp##.bottom_optout_announce
@@ -46271,7 +46270,7 @@ payback-ltd.com##div[class*="cookiesPopUp"]
 payback-ltd.com##[class*="cookiesPopUp"]
 payback.de##div.stripe[data-tracking-name="cookie_layer"]
 payback.de#@##onetrust-consent-sdk
-payback.de,liveabout.com,tomthumb.com,app.nlziet.nl,nationalgeographic.de#%#//scriptlet('trusted-click-element', '#onetrust-reject-all-handler')
+payback.de,liveabout.com,tomthumb.com,app.nlziet.nl,nationalgeographic.de,nationalgeographic.es#%#//scriptlet('trusted-click-element', '#onetrust-reject-all-handler')
 payberry.ru##.noun-cookie-container
 paybyphone.fr##.MuiBox-root[data-testid="cookies-box"]
 paychex.com##+js(set-cookie, ccpaaccept, true)
@@ -48593,6 +48592,8 @@ revolutionsoft.net,impotusa.com,cnishop.com,monsieur-cuisine.com,flora-toskana.c
 revolver.news##.notice
 revouninstaller.com###consentAccepted
 revouninstallerpro.com###consentAccepted
+rewardgateway.co.uk##+js(set-cookie, cookie_consent_status, allow)
+rewardgateway.co.uk##+js(set-cookie, cookie_preferences, 10)
 rewardgateway.com###hs-eu-cookie-confirmation
 rewardlink.io##.snackbar
 rewasd.com,dt-updates.com,disk-tools.com,daemon-tools.cc,oreopeople.com##.cookies_banner
