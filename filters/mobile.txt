@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-25 09:37:59 RPC
+! Updated: 2025-02-25 16:26:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2234,7 +2234,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16434,6 +16434,7 @@ otakotaku.com##div[id^="im-ADS_"]
 otakuma.net###affiliate-list
 otakuma.net###main-article-single > div[align="center"]:has(> a[href^="https://hb.afl.rakuten.co.jp/"])
 otakuma.net##body .banner-adsense
+otona-hokenshitsu.jp,resemara.xbiz.jp,revolve-ysy.jp##.bfb_imgBanner
 otona-life.com##.ad_minh_sp
 otonanswer.jp##.side-box-repeat > div[style="min-height: 280px;"]
 otonanswer.jp##.side-box-repeat > div[style="min-height: 315px;"]
@@ -16840,7 +16841,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -17771,7 +17772,6 @@ republicworld.com#?#div[style] > div[style*="min-height"]:has(> amp-ad)
 republicworld.com,republicbharat.com###hellobar-bar
 republicworld.com,www-republicworld-com.cdn.ampproject.org##div[class^="ads_"]
 researchgate.net##.lite-page__footer-native-app
-resemara.xbiz.jp,revolve-ysy.jp##.bfb_imgBanner
 retail.ru##.markup__commercial
 retrip.jp##footer-induction:has( > div[class]:only-child > section:only-child > ul > li:only-child > a[href*="redirect_app"])
 retrip.jp,rtrp.jp#$##page[style^="padding-top"] { padding-top: 45px!important; }
@@ -30227,6 +30227,7 @@ _zhike.htm
 ||bidgear.com^$3p
 ||bidgear.com^$important
 ||bidjora.com^
+||bidotz.icu^
 ||bidr.io^$important
 ||bids.proper.io^$important
 ||bidserver.clickpapa.io^$important
@@ -34668,6 +34669,7 @@ _zhike.htm
 ||drtrs55.fun^
 ||drumcash.com^$important
 ||drupalchina.cn/sites/default/files/d
+||druqodrly.com^
 ||drustren.com^
 ||drvsky.com/js/jolimark.gif
 ||drydrum.com^
@@ -34818,6 +34820,7 @@ _zhike.htm
 ||dwstatic.com^*/newsPopup/
 ||dwstatic.com^*/p/livetip/
 ||dwstatic.com^*/sidebar.js
+||dwyeuy.com^
 ||dx-bdcdncnc.inter.71edge.com/qpdxv/other^$empty
 ||dx-bdcdncnc.inter.71edge.com/videos/other^$domain=iqiyi.com,redirect=noopmp4-1s
 ||dx-cards-css.iqiyi.com^
@@ -39754,6 +39757,7 @@ _zhike.htm
 ||iviewui.com/v1/*?name=
 ||ivitrack.com^$important
 ||ivnrrkx.cn^
+||ivvn.cn^
 ||ivy.pconline.com.cn^
 ||ivykiosk.com^
 ||ivykiosk.com^$important
@@ -41826,6 +41830,7 @@ _zhike.htm
 ||lv3ns3.ffdns.net^$important
 ||lv3ns4.ffdns.net^$important
 ||lveodaz.icu^
+||lvnr.cn^
 ||lvnzrh.xyz^
 ||lvse.cn/output/block/html/
 ||lvse.com/9
@@ -44082,6 +44087,7 @@ _zhike.htm
 ||nkis.nikkei.com^
 ||nkjkvn.xyz^
 ||nkredir.com^$important
+||nktydx.icu^
 ||nl-gmtdmp.mookie1.com^$important
 ||nl-rcd.iqiyi.com^
 ||nl.rcd.iqiyi.com^
@@ -44514,6 +44520,7 @@ _zhike.htm
 ||okpp12311.xyz^
 ||okwan.cn^
 ||okwfx.cn^
+||okwjmii.top^
 ||ol-img.com/channel/tuku/js/tukuPopup.js
 ||ol.at.atwola.com^$important
 ||ol.jp.at.atwola.com^$important
@@ -44621,6 +44628,7 @@ _zhike.htm
 ||onewsvod.com^
 ||oneyouxi.com.cn^
 ||onifdlak.top^
+||onjncgq.top^
 ||onlain-multiki.ru/config.json
 ||online-metrix.net^$important
 ||online-prod.zenmxapps.com^$important
@@ -46720,6 +46728,7 @@ _zhike.htm
 ||qndown.com^
 ||qnhi.cn^
 ||qnifdlay.top^
+||qnki.cn^
 ||qnqtgyq.icu^
 ||qnsb.com/news/index.php?m=poster&
 ||qnsr.com^$important
@@ -48147,6 +48156,7 @@ _zhike.htm
 ||sclick.baidu.com^
 ||sclimib.top^
 ||scoev.cn^
+||scohmallt.com^
 ||scoldak.com^
 ||sconat.com^
 ||sconline.com.tw/top/coolpc_
@@ -53551,6 +53561,7 @@ _zhike.htm
 ||vqbzpv.xyz^
 ||vqlwoy.xyz^
 ||vqq.admaster.com.cn^$important
+||vraqnathr.com^
 ||vrdfxioe.icu^
 ||vrelai.com^
 ||vreqnait.com^
@@ -55957,6 +55968,7 @@ _zhike.htm
 ||zndsssp.dangbei.net^
 ||znhlxvb.xyz^
 ||znlgplt.com^
+||znlvhnej.icu^
 ||znnfzx.xyz^
 ||znsv.baidu.com^
 ||znxblom.cn^

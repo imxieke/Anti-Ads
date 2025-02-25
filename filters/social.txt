@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-25 09:37:59 RPC
+! Updated: 2025-02-25 16:26:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11964,6 +11964,7 @@ atn.ua##.penci_facebook_widget
 atoananet.com.br##.footer-redes-sociais
 atoananet.com.br##.header-redes-sociais
 atoananet.com.br##.link-compartilhar
+atomi-sc.jimdofree.com##.j-sharebuttons
 atorus.ru###block-share
 atozmath.com##a[onclick^="shareH("]
 atptour.com##.icon-email
@@ -14344,6 +14345,7 @@ dobreprogramy.pl#?#div:has(> button > div > svg > path[d^="M18 2h-3a5"])
 dobreprogramy.pl#?#div[class*=" "] > div[class*=" "][role="button"][tabindex="0"][aria-disabled="false"][tabindex="0"] > div > svg[stroke-linecap="round"] > circle:upward(3)
 dobreprogramy.pl#?#div[data-action-id] button:has(> div > svg > path[d^="m8.59 13.51"])
 dobreprogramy.pl,polygamia.pl##button[title="Kliknij, aby udostępnić"]
+docoic.com,weeeeby.com,i-fields.jp,zukkamoku.com,zisalog.com,howto-gadget.com,xn--49s31ek4itwct44b.jp,nyam2korea.com,litera.app,iot-consulting.co.jp,itachirin.com,ozakisagashite.jp,toririnon.com,rakko.tools,gameguide.tech,tosho-trading.co.jp,blog.kikagaku.co.jp,good-summary.com,kaonavi.jp,manetatsu.com,garugram.com,seaseagaming.tokyo,jpstreamer.com,sophiadigital.com,collieme.com,webhack.jp,mats2.net,lady1919.com,intelligence-console.com,dq10beginner-media.com,kisetsumimiyori.com,kitaharima-hi.com,upiupiupi.com,natuyuki.com,napgames.jp,bizee.jp,univ-study.net,sittaka-information.com,sist8.com,spaceshipearth.jp,souken.shikigaku.jp,waternet-inc.com,webukatu.com,huyosoku.com,erevista.co.jp,matome.eternalcollegest.com,kawaii-girl.jp,aiacademy.jp,daeudaeu.com,special.goo.ne.jp,tosho-c3.jp,pierrotshop.jp,myopenarchive.org,yuu01.jp,mojinavi.com,betagamer.net,pcfreebook.com,xn--fsqv94c.jp,reliphone.jp,hackit.work,gussan-no-ie.com,ushigyu.net,gadgerba.com,rtain.jp,gamers-info.net,artjuku.com,cinema-sketch.com,chiepedia.club,geek.sc##.fab-btn
 docomo.ne.jp##.o-share
 docswell.com##.mt-4 > div.md\:flex:has(> button[onclick^="share"])
 docswell.com#?#.mt-4 > p.font-bold:contains(シェア)
@@ -16313,6 +16315,7 @@ gotvach.bg##.socialNetwork
 gov-online.go.jp##.c-shareSNS
 gov.kz##.card-information__actions
 gov.spb.ru##.object-share
+gov.uk##.gem-c-share-links
 governing.com,aboutamazon.jp,kbzk.com,primevideotech.com,chronicle.com##.ActionBar
 government.ru##.masha-social
 government.ru##.service-panel-icon-share
@@ -18064,6 +18067,7 @@ konest.com#?#article > div#d_subtitle:has(> h5.bold:contains(この情報を共�
 kongregate.com###kongregate_social_connect_pod
 konhaber.com,belge.com.tr##.sosyalMedya
 konoe.studio##.blog-post-share
+konoe.studio,tomatazos.com,ural-meridian.ru,opencritic.com,mundodaeletrica.com.br,levelup.com,hateblo.jp,hatena.ne.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,open.online,androidiani.com,leomolenaar.nl,habervakti.com,obzorposudy.ru,onewatch.by,mitanyan98.hatenablog.com,goope.jp,rai.it,homesha.co.jp,mblx.ru,newspicks.com,otdelka-remont.ru,zan.kz,kanalmaras.com,lanacion.com.co,cars.com,gaitame.com,lr21.com.uy,edehaber.com.tr,pervasiz.com.tr,gazeteyenigun.com.tr,number.bunshun.jp,tv5.com.tr,miuirom.org,conterfrag.ru,pay-day.ru,altarena.ru,pocket.shonenmagazine.com,haberts.com,cookpad.com,finans7.com,aforismo.ru,studyhacker.net,portableapps.com,click-or-die.ru,graniru.org,maxedtech.com,rockpapershotgun.com,souspark.ru##.social-buttons
 konstruktortestov.ru###test_result > p + p + h2
 konstruktortestov.ru##.holder-social
 konsultacjejst.pl##.fbBox
@@ -18544,6 +18548,7 @@ listen.tidal.com##li[data-track--icon-clicked="share"]
 listenmoneymatters.com##.lmm_external_footer
 listennotes.com###ln-side-share-div
 listennotes.com##a[aria-label="SHARE"]
+lister.tokyo,sbisec.co.jp,autos.goo.ne.jp,realsound.jp,m.stylenandajp.com,m.edaily.co.kr,mana-lom-tc.com,choukadou-anime.com,etnews.com##.sns_btn
 liteapks.com,modyolo.com,thinkkers.com##.list-shares
 literaturus.ru##.PlusFollowers
 lithub.com##.social_links
@@ -20335,6 +20340,7 @@ newsvo.ru##.like_widget
 newsway.co.kr##a[href^="javascript:void(Common.snsShare"]
 newsweek.com##.breaking-share-container
 newsweek.com##.desktop-social-share
+newsweek.com##.vf-share-menu
 newsweek.pl##.articleSocials > h4
 newsweek.pl##.custom-social-share
 newsweek.pl##.socialAreaArticle > li > a.socialButton:not(.com)
@@ -22244,6 +22250,7 @@ ridikul.hu##.rid_social_wrapper
 ridl.io##.socials > li[class$="_Share"]
 rightwingwatch.org,thebeet.com###text-2
 rigzone.com###social_bar
+rikujyokyogi.co.jp##div[class^="link_share"]
 rimowa.com,www-ndtv-com.cdn.ampproject.org,ndtv.com##.story__social
 ring.com#@##share-container
 ringon.site###shared_block
@@ -22577,7 +22584,6 @@ sbapp.net###dpcustomtextwidget-9
 sbbit.jp##.ar-sns_list
 sber-bank.by##.SocialShareLinks
 sberometer.ru,soccer0010.com###shareBlock
-sbisec.co.jp,autos.goo.ne.jp,realsound.jp,m.stylenandajp.com,m.edaily.co.kr,mana-lom-tc.com,choukadou-anime.com,etnews.com##.sns_btn
 sbs.co.kr##.seda_share
 sbs.com.au#@##facebook-icon
 scacchierando.it###banner_social
@@ -24509,7 +24515,6 @@ tokyoweekender.com##.sns-icon-list
 tolknews.ru##a[class^="ya-share"]
 tolonews.com##div[class^="block-region-"] > div.entry-blog-meta
 tomanifesto.gr##.follow-on-google-news
-tomatazos.com,ural-meridian.ru,opencritic.com,mundodaeletrica.com.br,levelup.com,hateblo.jp,hatena.ne.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,open.online,androidiani.com,leomolenaar.nl,habervakti.com,obzorposudy.ru,onewatch.by,mitanyan98.hatenablog.com,goope.jp,rai.it,homesha.co.jp,mblx.ru,newspicks.com,otdelka-remont.ru,zan.kz,kanalmaras.com,lanacion.com.co,cars.com,gaitame.com,lr21.com.uy,edehaber.com.tr,pervasiz.com.tr,gazeteyenigun.com.tr,number.bunshun.jp,tv5.com.tr,miuirom.org,conterfrag.ru,pay-day.ru,altarena.ru,pocket.shonenmagazine.com,haberts.com,cookpad.com,finans7.com,aforismo.ru,studyhacker.net,portableapps.com,click-or-die.ru,graniru.org,maxedtech.com,rockpapershotgun.com,souspark.ru##.social-buttons
 tomchun.tw##div[class^="ArevicoModal"]
 tomiks33.ru##.index-follow
 tomo-chan.jp##.p-news_article__share
@@ -25269,6 +25274,7 @@ veporn.live##.sidebar-social
 ver-online.cc,tuseries.cc##span[style="margin-bottom:30px;"]
 ver.movistarplus.es,gamereactor.de##.socialIcons
 veranimes.net###cht-shr > div:not(.cht-event)
+verdict.co.uk##.gdm-article-share
 verdragonball.online##.general-content:has(> div[class="share"])
 verepeliculas.com##.ssocial
 vergleich.org##.share [data-type="facebook"]
@@ -25717,7 +25723,6 @@ webtoons.com#@#.sns_list
 webtous.ru##.entry-content > div.single_post_below + center
 webun.jp##.snsBox001
 webursa.com,bursahakimiyet.com.tr,yenidonem.com.tr##.floating-wpp
-weeeeby.com,i-fields.jp,zukkamoku.com,zisalog.com,howto-gadget.com,xn--49s31ek4itwct44b.jp,nyam2korea.com,litera.app,iot-consulting.co.jp,itachirin.com,ozakisagashite.jp,toririnon.com,rakko.tools,gameguide.tech,tosho-trading.co.jp,blog.kikagaku.co.jp,good-summary.com,kaonavi.jp,manetatsu.com,garugram.com,seaseagaming.tokyo,jpstreamer.com,sophiadigital.com,collieme.com,webhack.jp,mats2.net,lady1919.com,intelligence-console.com,dq10beginner-media.com,kisetsumimiyori.com,kitaharima-hi.com,upiupiupi.com,natuyuki.com,napgames.jp,bizee.jp,univ-study.net,sittaka-information.com,sist8.com,spaceshipearth.jp,souken.shikigaku.jp,waternet-inc.com,webukatu.com,huyosoku.com,erevista.co.jp,matome.eternalcollegest.com,kawaii-girl.jp,aiacademy.jp,daeudaeu.com,special.goo.ne.jp,tosho-c3.jp,pierrotshop.jp,myopenarchive.org,yuu01.jp,mojinavi.com,betagamer.net,pcfreebook.com,xn--fsqv94c.jp,reliphone.jp,hackit.work,gussan-no-ie.com,ushigyu.net,gadgerba.com,rtain.jp,gamers-info.net,artjuku.com,cinema-sketch.com,chiepedia.club,geek.sc##.fab-btn
 weekend.gazeta.pl##.shortSocialBar
 weekend.gazeta.pl#?#.cmsArtykulElem > .noApp:has(> div[style] > p[style]:contains(/^Polub Weekend Gazeta.pl na Facebooku$/))
 weekly-economist.mainichi.jp##.date ~ .toolbox
