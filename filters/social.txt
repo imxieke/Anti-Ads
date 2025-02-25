@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-25 16:26:22 RPC
+! Updated: 2025-02-26 00:26:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13496,6 +13496,7 @@ coinedition.com##.google-news-block
 coingape.com###social-ad-new
 coingape.com###social-section
 coingape.com##.GoogleFollws
+coinmarketcap.com##div[data-role] > button[class]:has(> div[data-role="btn-content"] > div[data-role="btn-content-item"] > svg > use[href="#share"])
 coinpedia.org##.google_news-space
 coinpost.jp##.kjstsns
 coinspeaker.com##.wrapp_aside-share
@@ -16565,6 +16566,7 @@ happymonday.ua##.share-article__main-links-wrap
 happytv.rs##.share-action-posts
 harborsweets.com##.footer-top-bar
 hard-drive.net##.hd-discord
+hardcoregamer.com,gamerant.com,screenrant.com###sharingButtonPopup
 hardreset.info#$##modal-facebook { display: none !important; }
 hardreset.info#$#.modal-backdrop { display: none !important; }
 hardreset.info#$#body { overflow: visible!important; }
@@ -19602,6 +19604,7 @@ monarcamanga.com###custom_html-37
 monarkgame.com##.foot--detail__main__links--share
 monavista.ru##.fyadzen
 monclick.it##div[data-content="share-dialog"]
+mond.how##footer button[type="button"]:has(> svg[data-testid="ShareIcon"])
 mondaq.com##.articleShare-text
 mondaq.com##img[src="/images/Article-Share.webp"]
 mondediplo.com###partage
@@ -22631,7 +22634,6 @@ scotsman.com#?#.ct-div-block > div.ct-div-block:has(> div.ct-shortcode > div.hus
 screenanarchy.com##.post-actions__social > a:not(.post-action--comments)
 screendaily.com##.pageOptions > ul:not(.pageOptions_right)
 screendaily.com,lawgazette.co.uk,ibc.org,pcgamesn.com##a[data-share-url]
-screenrant.com###sharingButtonPopup
 screenrant.com##.heading_sharing
 screenrant.com,therichest.com##.sharing-option
 screens-lab.jp##.side-block.plugin
@@ -24021,6 +24023,7 @@ teyit.org,gcup.spb.ru,amomeupet.org,rpgfan.com,techrepublic.com,9gag.com,aviasal
 teztele.com##.b-post__share
 tf1.fr##.block_socialshare
 tf1info.fr##span[data-module="article-social-share"]
+tftips.app##aside > div.flex:has(> button[aria-label="Share on X"])
 tg-uchi.jp##div[class^="style_snsButtons"]
 tg.la7.it##.tgla7-condividi
 th.wikihow.com###side_follow

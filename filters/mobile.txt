@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-25 16:26:22 RPC
+! Updated: 2025-02-26 00:26:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6797,6 +6797,7 @@ climate-data.org#$##header-holder { padding-top: 0 !important; }
 clipconverter.cc###abottom,#atop,#aright
 cloud.boosteroid.com##app-load-app-notification
 cloud.letv.com##div#ad_show_box
+cloud.mail.ru##.swiper > .swiper-wrapper > div[class*="WelcomeNewPromo__slide"]:has(> div[data-qa-id="phone"])
 cloud.mail.ru##div[class^="MobilePublicPage__appButton"]
 cloud.mail.ru##div[class^="Page-touch__root"] > div[id][class][style="visibility: visible;"]:empty
 cloud.mail.ru##div[class^="page-wrapper_"] > div[id="portal-menu-banner"] + div[style] + div[id]:empty
@@ -7984,6 +7985,7 @@ drivers.160.com##div#sideBox
 drochka.vip##.container > center[style="min-height:250px"]
 drochka.vip#?#.thumbs_list > div.th:has(> script[src^="https://a.realsrv.com/"])
 dropbox.com##.dig-Banner
+dropbox.com##div.dig-Banner[role="alert"]
 dropbox.com#%#//scriptlet('set-cookie', 'seen-sl-download-modal', 'true')
 dropbox.com#%#//scriptlet('set-session-storage-item', 'has_seen_interstitial', 'true')
 dropbox.com#?#div[class^="_headerContainer"] > div[style]:has(> div[class^="_banner_"] > div[class^="_text-container"] > button > span:contains(app))
@@ -8645,8 +8647,8 @@ evget.com###popelevencenter
 evolife.cn##.leftTop_adv
 evrimagaci.org##.eaads-mobile
 evroopt.by##.top-bar-app
-evroopt.by##a[href="/app-eplus/"]
 evroopt.by##div[id^="block-allWidthBanner-"]
+evroopt.by#$#a[href="/app-eplus/"] { visibility: hidden !important; }
 eweiqi.com##.guoqing
 eworldship.com###d1
 eworldship.com###d2
@@ -9135,6 +9137,7 @@ forbes.ru##.JkVE-
 forbesjapan.com#?#.stream-article > div[id^="div-gpt-"]:upward(1)
 foreca.com##.a1i32s5g
 foreks.com##.foreksM
+forklog.com##.post_content > p:has(> a[href="https://play.google.com/store/apps/details?id=com.forklog.app"])
 formel1.de##.b-top-container
 fortnitetracker.com##.mobile-app-promo
 fortress.com.hk,youdao.com#@#.share-icon
@@ -9680,6 +9683,8 @@ gelbeseiten.de,news.de##div[data-ref="sticky-ad"]
 gelbooru.com##div[style$="width: 300px;"]
 gelbooru.com##div[style="text-align: center; padding: 10px; border: 1px dotted #aaaaaa; margin: 10px;"]
 gematsu.com#?##sidebar > #section:contains(Advertisement)
+gendai.media##div.flex:has(> div[class] > div[style^="width"] > div[data-testid^="FR_SP_"])
+gendai.media##div[data-testid^="second-rectangle-ad"]
 genius.com##.android_banner
 genius.com##.apple_music_player_container
 genius.com##.dfp_unit--interscroller
@@ -13289,6 +13294,7 @@ lol.ps##div[id^="mobile_banner-"]
 lol.qq.com##.scroll-ad
 lol.qq.com/v/##div#JPlayTips
 lol.yzz.cn##div#video_countdown_wrap
+lolchess.gg##.css-g4sdjf
 loldk.com###meizi_ad
 loldk.com###test_ad + #model
 loldk.com##.appfix
@@ -19523,6 +19529,8 @@ textologia.ru###slidebox
 teyule.net###ifloatdiv
 teyvatsokuho.com##.st-sp-top-only-widgets
 tfm.co.jp###super
+tft.op.gg###video-deck-detail-ad
+tft.op.gg##main .wrapper ~ .mobile:has(> div[style^="display"] > div)
 tftactics.gg##div[class^="wrapper-mpu"]
 tgbus.com###guide-download
 tgbus.com###neck_970
@@ -45245,7 +45253,6 @@ _zhike.htm
 ||path.qidian.com^
 ||pathro-aspad.com^$important
 ||patriot.cs.pp.cn^$important
-||pavoboxapp.com^
 ||pavoshare.com
 ||pawsnug.com^
 ||pay-ads.com^$important
@@ -51239,7 +51246,6 @@ _zhike.htm
 ||tenmax.io^$third-party
 ||tenoad.com^
 ||teracreative.com^$important
-||teraverseapp.com^
 ||terraclicks.com^$important
 ||terraclicks.com^$third-party
 ||terriblethumb.com^
