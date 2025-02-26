@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-26 09:37:44 RPC
+! Updated: 2025-02-26 16:27:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12307,7 +12307,6 @@
 ##.cookie-message-overlay
 ##.cookie-message-wrapper
 ##.cookie-message:not(html):not(body)
-##.cookie-messages
 ##.cookie-messages:not(body):not(html)
 ##.cookie-message__bar:not(body):not(html)
 ##.cookie-message__overlay
@@ -21255,7 +21254,6 @@
 ##div.cookie-notice-open
 ##div.cookie-notice-visible
 ##div.cookie-notice-wrapper
-##div.cookie-overlay
 ##div.cookie-padding
 ##div.cookie-panel
 ##div.cookie-parent
@@ -27515,6 +27513,7 @@ askimsrostfria.se##.cm-claw
 asklepios.com#%#//scriptlet('set-cookie', 'askk.cookie-overlay-shown', 'true')
 askmen.com##.privacy_policy__container
 askmen.com##.privacy_popup__container
+asko.com##+js(set-cookie, cookieconsent_status_ESSENTIAL, ALLOW)
 askona.ru##.cookie-data-warning
 askthepsych.com###cks
 asmonaco.com##.asm-rgpd-bar
@@ -27742,6 +27741,7 @@ auf1.tv#%#//scriptlet('set-local-storage-item', 'isTrackingAllowed', 'false')
 aufladen.de###ConsentCookie
 aufstiegs-bafoeg.de#@##cookiebanner
 aufstiegs-bafoeg.de#@#.cookiebanner:not(body)
+augenaufmedienanalyse.de,euronet.pl##.eu-cookies-bar-cookies-bar-wrap
 augenchirurgie.clinic##.cookies
 augsburger-allgemeine.de##.aa-cookie-alert
 augsburger-allgemeine.de##.b-footer-cookie--up
@@ -34200,7 +34200,6 @@ emmi-pur.ch##+js(set-cookie, jogurt-pur-che-cookie-categories, essential)
 emmidessert.it##+js(set-cookie, dessert-italia-ita-cookie-categories, essential)
 emminutritionals.com##+js(set-cookie, emmi-nld-cookie-categories,  essential)
 emp-online.es##.browser-check
-empathy.com,labs.epi2me.io##+js(set-cookie, CookieConsent, false)
 empik.com##+js(set-cookie, cvc, true)
 empik.com#$#.react-box-container[data-box-key="CookiesConsentsBannerRodoBox"] { display: none !important; }
 empik.com#$#html.cookies-consent-component__prevent-scroll { overflow-y: auto !important; }
@@ -34737,7 +34736,6 @@ euromaster.de###lytic_layer
 euromaster.de###lytic_layer, #lytic_askbox
 euromaxx.nu##.ui-widget, .ui-widget-overlay
 euromoney.com##.CookiePromo
-euronet.pl##.eu-cookies-bar-cookies-bar-wrap
 euronics.ee#%#//scriptlet('trusted-click-element', '#cookie-accept-all-button', '', '1000')
 euronics.ee#@#.cookie-disclaimer:not(body)
 euronics.hu##.cookie-overLay
@@ -35269,7 +35267,6 @@ fh-dortmund.de###cookies
 fh-muenster.de###matomo-wrapper
 fh-studiengang.de,der-gruenmacher.de##.sqrcookie
 fh-zwickau.de##.tx-whzcookieconsent-banner
-fhgerman.pl,drogeriaestetic.pl,biosklep.com.pl,zegarkinareke.pl,filtrdodomu.pl,ogrodolandia.pl,wideorejestratory24.pl,aedmax24.pl,traumakit.pl,sendpol24.pl,sprzet-poz.pl,arenalazienek.pl,csk-med.pl,sklepsoltech.pl,deluxury.pl,r-kom.pl,hanzo.com.pl,laptok.com,kombitsklep.pl,icentrumsklep.pl,huzaro.pl,kozak.pl,militarymarket.pl,dlabrodacza.pl,retio.pl,fitness-home.pl,audiotop.pl,czerwonatwierdza.pl,duda-cars.pl,pancernik.eu,profitechnik.pl,prorowery.pl,sklepkawa.pl,bakeshop.pl,fly-desk.com,trigar.pl,niewiem.pl,wkdzik.pl,estetic-dent-sklep.pl,modnakiecka.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop##.consents
 fhpelikan.com.pl###simple-modal, #simple-modal-overlay
 fhr.biz##+js(set-cookie, privacyPolicyAccept, 1, , reload, 1)
 fhs.swiss###alert-nlpd
@@ -37876,11 +37873,11 @@ help.cosmote.gr#$#body { overflow: auto !important; }
 help.cosmote.gr#$#cookie { display: none !important; }
 help.instagram.com###cookie-policy-banner
 help.kobo.com#%#//scriptlet('set-local-storage-item', 'c_rakobo_cc', '1')
+help.lurker.tv,help.zenky.io,docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io,developers.deepl.com##[aria-label="Cookies"]
 help.na.panasonic.com##.cookieConfirmPadding
 help.ptsecurity.com,vportal.ctu.gov.cz,moncompteformation.gouv.fr,earnweb.com,portal.av-atlas.org,goo-gl.me,go.skillbox.ru,cs.android.com,jobsforgeek.com,ib.psbank.ru,eqmac.app,macdrop.net,smartshop.hu,ikea-family.info##.cdk-overlay-container
 help.snapchat.com#$##cookie-modal-container { display: none !important; }
 help.snapchat.com#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
-help.zenky.io,docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io,developers.deepl.com##[aria-label="Cookies"]
 helpucover.co.uk###consent
 helthjem.no##.schibsted-bar
 hema.com,hema.nl#$#.cookie-modal { display: none !important; }
@@ -43155,6 +43152,7 @@ mijn-artikel.nl##.ui-widget, .ui-widget-overlay
 mijn.ditzozorg.nl##.mijn-cookie-consent
 mijndomein.nl###dd_overlay, #dd_popup
 mijnleninginzicht.nl##body > div:not([id]):not([class])
+mikavi.sklep.pl,fhgerman.pl,drogeriaestetic.pl,biosklep.com.pl,zegarkinareke.pl,filtrdodomu.pl,ogrodolandia.pl,wideorejestratory24.pl,aedmax24.pl,traumakit.pl,sendpol24.pl,sprzet-poz.pl,arenalazienek.pl,csk-med.pl,sklepsoltech.pl,deluxury.pl,r-kom.pl,hanzo.com.pl,laptok.com,kombitsklep.pl,icentrumsklep.pl,huzaro.pl,kozak.pl,militarymarket.pl,dlabrodacza.pl,retio.pl,fitness-home.pl,audiotop.pl,czerwonatwierdza.pl,duda-cars.pl,pancernik.eu,profitechnik.pl,prorowery.pl,sklepkawa.pl,bakeshop.pl,fly-desk.com,trigar.pl,niewiem.pl,wkdzik.pl,estetic-dent-sklep.pl,modnakiecka.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop##.consents
 mikkelinyt.fi##.ng-scope[ng-if$="customConsentManagement"]
 miko3c.com##.privacyArea
 mikolaimusic.com,project7armor.com,vakigrad.com###POPUPS_ROOT
@@ -48571,7 +48569,6 @@ retroplace.com#$##retroplaceCookies ~ *:not(.ekko-lightbox):not(.modal-backdrop)
 retroplace.com#$#body { overflow: auto !important; position: static !important; padding-right: 0 !important; }
 retrorealmsgame.com##.bt-cookie-flyout
 retrosix.co.uk##.ec-notices
-retterspitz.de#@#div.cookie-overlay
 reuter-shop.com,reuter.de###bica
 reuter.com,golfhouse.de,deerberg.*,geliebtes-zuhause.de,eurotops.de,carlroth.com,hannovermesse.de,loberon.de,appelrath.com,emero.de,sonono.de,reuter.de###econda-pp2-banner
 revanced.app##+js(set-local-storage-item, analytics, false)
@@ -48743,6 +48740,7 @@ robe-materiel-medical.com##.w3-container
 robe.cz##.lgGaFu.sc-AxiKw
 robert-thomas.de##.cookie--consent
 robertplant.com###cookieplugin
+robertsspaceindustries.com##.CybotCookiebotDialogActive
 robinwieruch.de###___gatsby div[class^="AnalyticsFooter"]
 roblox.com##.alert-cookie-notice
 roboter-forum.com#%#//scriptlet('trusted-click-element', '.fc-footer-buttons > button.fc-button[aria-label="OK"]')
@@ -52365,7 +52363,7 @@ teslawissen.ch#$#html { overflow: auto !important; }
 test-e-quiz.it#@##cookie-law-info-bar
 test-help.com##.ui-pnotify
 test-help.com##.ui-pnotify.stack-bottomleft
-tester.userbrain.com##+js(set-cookie, CookieConsent, false)
+tester.userbrain.com,milvus.io,empathy.com,labs.epi2me.io##+js(set-cookie, CookieConsent, false)
 testfully.io##.cookie-modal
 testigo.pl###cp_wrap
 testmy.net###overlay
@@ -55902,6 +55900,7 @@ wykop.pl##div[class$="cookie"]
 wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 wykop.pl,cire.pl#$#body[style*="overflow"] { overflow: auto !important; }
 wyld.de##.optin
+wyniki.pl##.otPlaceholder
 wypad.com.pl###cookie
 wyrobieniepaszportu.pl##body > div:not([id]):not([class])
 wyspaszkrabow.pl#@#.cookie-message:not(html):not(body)

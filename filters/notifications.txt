@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-26 09:37:44 RPC
+! Updated: 2025-02-26 16:27:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4678,6 +4678,7 @@ auf1.tv#%#//scriptlet('set-local-storage-item', 'isTrackingAllowed', 'false')
 aufladen.de###ConsentCookie
 aufstiegs-bafoeg.de#@##cookiebanner
 aufstiegs-bafoeg.de#@#.cookiebanner:not(body)
+augenaufmedienanalyse.de,euronet.pl##.eu-cookies-bar-cookies-bar-wrap
 augsburger-allgemeine.de##.aa-cookie-alert
 augsburger-allgemeine.de##.b-footer-cookie--up
 augsburger-allgemeine.de#%#//scriptlet('trusted-click-element', '.pgwl_purGatewayLayer-body-action > button[onclick*="acceptAll"]')
@@ -7830,7 +7831,6 @@ eurogrow.es#%#//scriptlet('set-constant', 'hiCookieLaw', 'emptyObj')
 euromaster.de###lytic_askbox
 euromaster.de###lytic_layer
 euromoney.com##.CookiePromo
-euronet.pl##.eu-cookies-bar-cookies-bar-wrap
 euronews.com###js-smart-banner
 euronics.ee#%#//scriptlet('trusted-click-element', '#cookie-accept-all-button', '', '1000')
 euronics.ee#@#.cookie-disclaimer:not(body)
@@ -8101,7 +8101,6 @@ ffpshop.de,lizenzfuchs.de##div.js--overlay.is--closable
 fh-muenster.de###matomo-wrapper
 fh-studiengang.de,der-gruenmacher.de##.sqrcookie
 fh-zwickau.de##.tx-whzcookieconsent-banner
-fhgerman.pl,drogeriaestetic.pl,biosklep.com.pl,zegarkinareke.pl,filtrdodomu.pl,ogrodolandia.pl,wideorejestratory24.pl,aedmax24.pl,traumakit.pl,sendpol24.pl,sprzet-poz.pl,arenalazienek.pl,csk-med.pl,sklepsoltech.pl,deluxury.pl,r-kom.pl,hanzo.com.pl,laptok.com,kombitsklep.pl,icentrumsklep.pl,huzaro.pl,kozak.pl,militarymarket.pl,dlabrodacza.pl,retio.pl,fitness-home.pl,audiotop.pl,czerwonatwierdza.pl,duda-cars.pl,pancernik.eu,profitechnik.pl,prorowery.pl,sklepkawa.pl,bakeshop.pl,fly-desk.com,trigar.pl,niewiem.pl,wkdzik.pl,estetic-dent-sklep.pl,modnakiecka.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop##.consents
 fi.google.com##fi-cookie-consent
 fialkaspb.ru##.bottom__cookie_block
 fibabanka.com.tr##.efilli-layout-fibabanka
@@ -9360,10 +9359,10 @@ help.cosmote.gr#$#body { overflow: auto !important; }
 help.cosmote.gr#$#cookie { display: none !important; }
 help.instagram.com###cookie-policy-banner
 help.kobo.com#%#//scriptlet('set-local-storage-item', 'c_rakobo_cc', '1')
+help.lurker.tv,help.zenky.io,docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io,developers.deepl.com##[aria-label="Cookies"]
 help.ptsecurity.com,vportal.ctu.gov.cz,moncompteformation.gouv.fr,earnweb.com,portal.av-atlas.org,goo-gl.me,go.skillbox.ru,cs.android.com,jobsforgeek.com,ib.psbank.ru,eqmac.app,macdrop.net,smartshop.hu,ikea-family.info##.cdk-overlay-container
 help.snapchat.com#$##cookie-modal-container { display: none !important; }
 help.snapchat.com#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
-help.zenky.io,docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io,developers.deepl.com##[aria-label="Cookies"]
 hema.com,hema.nl#$#.cookie-modal { display: none !important; }
 hema.com,hema.nl#$#body.no-scroll { position: static !important; }
 hemden-meister.de#$##agreementPrivacy { display: none!important; }
@@ -11943,6 +11942,7 @@ migora.pl###topInfoContainer1 > #topInfo1
 migrationobservatory.ox.ac.uk###rb_cookie_popup
 migros.ch##.mui-js-cookie-banner
 migros.com.tr,tazedirekt.com,macrocenter.com.tr##fe-product-cookie-indicator
+mikavi.sklep.pl,fhgerman.pl,drogeriaestetic.pl,biosklep.com.pl,zegarkinareke.pl,filtrdodomu.pl,ogrodolandia.pl,wideorejestratory24.pl,aedmax24.pl,traumakit.pl,sendpol24.pl,sprzet-poz.pl,arenalazienek.pl,csk-med.pl,sklepsoltech.pl,deluxury.pl,r-kom.pl,hanzo.com.pl,laptok.com,kombitsklep.pl,icentrumsklep.pl,huzaro.pl,kozak.pl,militarymarket.pl,dlabrodacza.pl,retio.pl,fitness-home.pl,audiotop.pl,czerwonatwierdza.pl,duda-cars.pl,pancernik.eu,profitechnik.pl,prorowery.pl,sklepkawa.pl,bakeshop.pl,fly-desk.com,trigar.pl,niewiem.pl,wkdzik.pl,estetic-dent-sklep.pl,modnakiecka.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop##.consents
 mile.cloud##.jss4
 milenio.com###camus-cookie-disclaimer
 miles-mobility.com##div[data-testid="cookie-consent"]
@@ -18172,6 +18172,7 @@ wykop.pl##.cookie.rodo-alert
 wykop.pl##div[class$="cookie"]
 wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 wykop.pl,cire.pl#$#body[style*="overflow"] { overflow: auto !important; }
+wyniki.pl##.otPlaceholder
 wyspaszkrabow.pl#@#.cookie-message:not(html):not(body)
 wyspaszkrabow.pl,abel-falisse.be,zadowolenie.pl#$#.modal-backdrop { display: none !important; }
 wyspaszkrabow.pl,zadowolenie.pl#$#.cookie-message { display: none !important; }

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-26 09:37:44 RPC
+! Updated: 2025-02-26 16:27:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12910,7 +12910,6 @@ byjusexamprep.com##div[class^="post_articleMain"] > div.db-l.fixed
 bykvu.com##.article-share-box
 bylancer.com##.share-buttons-icons
 bynogame.com##a[class*="-share d-flex "]
-byucougars.com##.article-head__share
 bz-berlin.de##.article-sharing-box
 bz-berlin.de##.sharing-bottom
 c-c-j.com##.p-n-article__inner__snsList
@@ -13084,6 +13083,9 @@ catalog.sport-wiki.org#?##sidebar > aside:has(> div[class^="social"])
 catalogmineralov.ru#$#.modal_bg { display: none!important; }
 catalogmineralov.ru#$#.modal_window { display: none!important; }
 catalogmineralov.ru#$#body { overflow: visible!important; }
+cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,thebigheap.com,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,sflix.se,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$##modalshare { display: none !important; }
+cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,thebigheap.com,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,sflix.se,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#.modal-backdrop { display: none !important; }
+cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,thebigheap.com,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,sflix.se,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#body { overflow: auto !important; padding-right: 0 !important; }
 catchbudapest.com,anlegen-in-immobilien.de##.avia_fb_likebox
 catchbudapest.com,fitbook.de##body #mashfs-main
 catholicculture.org###SM_area
@@ -14181,7 +14183,6 @@ diario16plus.com##.m-social-share
 diario16plus.com,planetarealmadrid.com##.m-social-profile
 diarioaveiro.pt,diariocoimbra.pt,diarioleiria.pt,diarioviseu.pt##.sociais_div
 diariobasta.com##.elfsight-widget-social-share-buttons
-diariobasta.com,technofaq.org###custom_html-3
 diarioconvos.com##.entry-sharer
 diariodaregiao.com.br#?#div[class] > p:contains(/^Compartilhar$/)
 diariodecadiz.es###bottombar
@@ -15881,6 +15882,7 @@ gamemakers.jp##a[href^="fbapi://dialog/share?app_id="]
 gamemeca.com,shikiho.toyokeizai.net##.news-sns
 gameost.net##.apsc-floating-sidebar
 gamer.ne.jp##.pageShareBottom
+gamer.ne.jp,byucougars.com##.article-head__share
 gamer.ru##.social_vk
 gameranbu.jp##.m-head-sns
 gamerant.com##.w-sharing
@@ -22643,6 +22645,7 @@ screenshot.rocks,motorauthority.com,thesdeshop.com,smartlog.jp,timeextension.com
 screenweek.it##.hashtags
 scribd.com##.after_doc_wrapper > section:has(> h2.share_document_title)
 scribd.com##.share_document_wrapper
+scribd.com##.sharing_actions
 scribd.com##.sharing_btn
 scribd.com##button[data-e2e="doc-actions-share-button-sticky_metadata_column"]
 scribd.com#@#.social_wrapper
@@ -24515,6 +24518,7 @@ tokyohive.com#$#html.mobile .post > div[class="entry"] { padding-top: 10px!impor
 tokyohive.com#$#html.mobile > body.single .post .social-links { display: none!important; }
 tokyomotion.com##button[data-id="share"]
 tokyoweekender.com##.sns-icon-list
+tokyu-dept.co.jp##.mw-social-icons
 tolknews.ru##a[class^="ya-share"]
 tolonews.com##div[class^="block-region-"] > div.entry-blog-meta
 tomanifesto.gr##.follow-on-google-news
@@ -26021,6 +26025,7 @@ xfolio.jp##.share__wrap
 xfreehd.com###share_video
 xgn.nl##.flex_component > .items-center:has(> button[title="shareOnWhatsap"])
 xgore.net,atn.ua,300gospodarka.pl,telekritika.ua##.tags-share-box
+xgp.pl,diariobasta.com,technofaq.org###custom_html-3
 xi.express##div[class*="Bar_article-bar__share"]
 xi.express##div[class^="Footer_footer__likes-bar"]
 xi.express##span[class*="Footer_share__"]
@@ -26211,9 +26216,6 @@ ytechb.com##.wplogout-social-wrapper
 ytsaver.net##div[onclick^="clickShareBtn"]
 yugioh.com###sidebar > .facebook-block
 yukoyuko.net##.c-footerShare
-yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,thebigheap.com,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,sflix.se,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$##modalshare { display: none !important; }
-yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,thebigheap.com,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,sflix.se,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#.modal-backdrop { display: none !important; }
-yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,thebigheap.com,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,sflix.se,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#body { overflow: auto !important; padding-right: 0 !important; }
 yuru-mbti.com##.share-wrapper + div.caution
 yusepjaelani.blogspot.com##div[style*="position: sticky"][style*="dotted silver"]
 yuuu-nii.com#?#script ~ .hatena-module-title:contains(SHARE)

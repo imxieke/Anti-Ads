@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-26 09:37:44 RPC
+! Updated: 2025-02-26 16:27:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1657,6 +1657,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 3987.com##.showdown > .mt20:first-child
 3987.com,588230.com,pilipali.cc###hongbao
 3987.com,drv5.cn,pcsoft.com.cn,win7w.com##.gaosu
+39mag.benesse.ne.jp###ad-gallery
 39mag.benesse.ne.jp##.ad-inarticle-banner
 39mag.benesse.ne.jp##.cmnTopBnr
 39mag.benesse.ne.jp##div[style="min-height:600px;"]
@@ -8622,7 +8623,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -14459,6 +14460,7 @@ malimali5.com##a[href^="https://www.odancool.com/"]
 malimali5.com#?#.container > .section:has(> a[href^="https://www.odancool.com/"])
 mall.jd.com##.jTdCode.fixed
 mama.smt.docomo.ne.jp##div[class^="ads-"]
+mamagirl.jp###sp_all_instream
 mamari.jp##.advertise-banner-header-above
 mamari.jp##.p-article-fixed-bottom
 mamastar.jp###square
@@ -16847,9 +16849,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -20687,6 +20689,7 @@ virtualbrest.ru##body > div.rounded + div[style^="width:"] > a[target="_blank"] 
 virtualbrest.ru##img[width="330"][height="129"]
 virtualbrest.ru,virtualbrest.by##img[width="230"][height="90"]
 visj.pw,94lsj.com,liusiji.com##[class*="-top-adv"],[src*=".sinaimg.cn"],[class^="mobile-adv"]
+visualcapitalist.com##div[id^="IC_"][id*="x"]
 vitaexpress.ru###installAppBanner
 vitaexpress.ru##.banner-desktop
 viu.com###home_web_to_app_banner
@@ -21327,6 +21330,7 @@ wrestling-online.com###mvp-wallpaper > a[href="http://w-o.it/woiosfree"]
 wrtn.jp##.css-zw50as
 wrtn.jp#%#//scriptlet('trusted-click-element', '#web-modal button.css-1d86b5p')
 ws://*/api/wss/GetNotReadCount$third-party
+wsj.com##.css-c54t2t
 wsj.com##.wsj-ad
 wsj.com##div[class^="WSJTheme__adWrapper_"][style="min-width: 300px; min-height: 250px;"]
 wsj.com##p > #deloitte_column > [data-module-zone="deloitte_insights"] > .deloitte-insights
@@ -24418,8 +24422,6 @@ _zhike.htm
 ||85566.net/js/loadjs/jquery
 ||8585go.com/recommend
 ||859377.com^
-||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer
-||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer$redirect=nooptext
 ||85un.com^
 ||85wp.com/ad/
 ||861ht.com^
@@ -34893,6 +34895,7 @@ _zhike.htm
 ||dytt8.net/jsd
 ||dywjcc.top^
 ||dywolfer.de^
+||dyyygyg.top^
 ||dyzgdp.xyz^
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
@@ -40824,6 +40827,7 @@ _zhike.htm
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kpshx.douguo.com^
+||kqgn.cn^
 ||kqzyfj.com^
 ||kr-gmtdmp.mookie1.com^$important
 ||kraken.production.ap-southeast-2.kops.kargo.com^$important
@@ -41485,6 +41489,7 @@ _zhike.htm
 ||lnk0.com^
 ||lnnahh.xyz^
 ||lnnsvj.xyz^
+||lnptph.icu^
 ||lnxkrd.xyz^
 ||lnymd.com^
 ||lnzangcha.com^
@@ -44389,6 +44394,8 @@ _zhike.htm
 ||o.skimresources.com^$important
 ||o02220aokk.com^
 ||o02231aokk.com^
+||o02251aokk.com^
+||o02260aokk.com^
 ||o091i.com^
 ||o0e.ru^$important
 ||o1.jyjyj.cn^
@@ -45453,6 +45460,7 @@ _zhike.htm
 ||pheedo.com^$important
 ||pheegoab.click^$important
 ||pheetuth.com^
+||pheidheat.com^
 ||phengung.net^$important
 ||phensiveeas.pro^$important
 ||pheqae.com^
@@ -45614,6 +45622,7 @@ _zhike.htm
 ||piquantprice.com^
 ||piquantstove.com^
 ||piquantvortex.com^
+||pisb.cn^
 ||pites.cc/js/top.php
 ||pittpostgazette-d.openx.net^$important
 ||pix.adrta.com^$important
@@ -51305,6 +51314,7 @@ _zhike.htm
 ||th-gmtdmp.mookie1.com^$important
 ||tha.gotrackier.com^$important
 ||thacreks.com^
+||thampheth.com^
 ||thangrurs.com^
 ||thaqne.com^
 ||tharbadir.com^$important
@@ -53614,6 +53624,7 @@ _zhike.htm
 ||vtjbnb.xyz^
 ||vtlyrj.xyz^
 ||vtrk.doubleverify.com^$important
+||vtrrxqbi.xyz^
 ||vu.moatads.com^$important
 ||vu.vrtzads.com^$important
 ||vudqth.icu^
@@ -55964,6 +55975,7 @@ _zhike.htm
 ||zlyk.com/Runtime/Js/m_footer_top.js
 ||zlyk.com/Runtime/Js/m_nav_bottom.js
 ||zlyk.com^*/ysapp.
+||zlzgfj.icu^
 ||zmbmoxij.icu^
 ||zmedia.com^$important
 ||zminer.zaloapp.com^$important
