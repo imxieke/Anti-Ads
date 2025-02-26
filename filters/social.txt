@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-26 00:26:22 RPC
+! Updated: 2025-02-26 09:37:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14045,9 +14045,9 @@ dekorstilim.com##.product-right > div.product-social > a[data-selector="share-li
 delamar.de##.bar-social-hor
 delfi.ee##.icon--send2friend
 delfi.ee#?#.G-row > div.C-mobile-header__item:has(> div.C-social-tooltip)
-delfi.lt##.G-row > div.C-mobile-header__item-col:has(> div.C-social-tooltip)
 delfi.lt,delfi.ee##.article-social--sticky
 delfi.lt,delfi.ee##.C-article-social
+delfi.lt,delfi.ee,delfi.lv##.row > div:has(> div.social-tooltip)
 delfi.lv###sbookmarks-left
 delfi.lv##.social-tooltip
 delfi.lv##body .social-buttons-item
