@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-26 16:27:01 RPC
+! Updated: 2025-02-27 00:26:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3146,6 +3146,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||cmechina.net^$genericblock
 @@||cmoney.tw/finance/js/googleanalytics.js
 @@||cmoney.tw/vt/js/google_analytics.js
+@@||cmp.inmobi.com/geoip$domain=express.co.uk
 @@||cmp.inmobi.com/GVL-v2/$domain=express.co.uk
 @@||cmp.inmobi.com^$domain=innpoland.pl|aszdziennik.pl|mamadu.pl|dadhero.pl|hideout.co|fly4free.pl|travlerz.com|protothema.gr|cyprus-mail.com|wpolityce.pl
 @@||cmp.uniconsent.com^$xhr,domain=photopea.com
@@ -8680,6 +8681,7 @@ expedia.com#$#div[data-testid="customer-notifications-wrapper"] { display: none 
 expert.ru##.mobile-subscribe-popup
 exploader.net###firstpop
 express.co.uk##.ampad
+express.co.uk##.stories > ul > li:has(> div.native-slot)
 express.co.uk#$?##taboola-mid-article-thumbnails-outstream { remove: true; }
 express.co.uk#$?#div[data-type="article-body"] .text-description > div { remove: true; }
 expressen.se##body div.bam-ad-slot[data-slot-name]
@@ -9133,7 +9135,9 @@ footboom.com##.js_fix_bk_head
 fora.ua##.jss121
 forbes.com##.ad-unit
 forbes.com##.incontent-placeholder-row
+forbes.com##.inlineAdMobileContainer
 forbes.com##.mobile-sticky-ed-placeholder
+forbes.com##div[data-testid="ad-container"]
 forbes.ru##.JkVE-
 forbesjapan.com#?#.stream-article > div[id^="div-gpt-"]:upward(1)
 foreca.com##.a1i32s5g

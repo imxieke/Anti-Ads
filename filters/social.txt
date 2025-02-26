@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-26 16:27:01 RPC
+! Updated: 2025-02-27 00:26:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13491,6 +13491,7 @@ cohenmilstein.com,vaterland.li,urm.lt,koko-soccer.com,hilife-group.com,otenki.co
 coincheck.com##.share_part
 coincodecap.com##.ct-block-wrapper
 coindesk.com###social-icons-box
+coindesk.com##div[data-submodule-name="social-share"]
 coindeskjapan.com##div.mb-60px:has(> div.grid > a[title^="Share on"])
 coindoo.com##.share-this-post
 coinedition.com##.ce-post-sharing-visible
@@ -13845,6 +13846,7 @@ cybernews.com##.links-bar
 cybernews.com##.links-bar + hr
 cyberscoop.com##a[href^="https://www.addtoany.com/add_to/"]
 cybersecurity360.it##.social__icons
+cybersecurity360.it##div[class$="-block-social"]
 cybersport.ru##.amp-mode-touch aside.article__actions
 cybersport.ru##.article__yandex-zen
 cybersport.ru##div[class^="share_"]
@@ -15552,6 +15554,7 @@ forbes.com#$#.article-body .tweet_quote > a { cursor: auto !important; backgroun
 forbes.com#%#//scriptlet('inject-css-in-shadow-dom', 'section[class^="MenuBody_"] > button:not([data-testid="link"]) { display: none !important; }')
 forbes.com#%#//scriptlet('remove-attr', 'href', '.article-body .tweet_quote > a[href^="https://twitter.com/intent/"]')
 forbes.com#@#a[href^="https://twitter.com/intent/tweet?"]
+forbes.com,tvn24.pl##.socialShareContainer
 forbes.hu##.article-share-widget
 forbes.kz#?#.watches > span:contains(Поделиться этой публикацией)
 forbes.kz,wylecz.to#@#.article__social
@@ -16427,6 +16430,7 @@ guilded.gg##.BlogPostFull-copy-to-clipboard-control
 guilded.gg##.BlogPostFull-copy-to-clipboard-control + .BlogPostHorizontalRule-container
 guilded.gg#@#.icon-reddit
 guinnessworldrecords.com##.page-controls-share
+gulfnews.com##.author-div ~ div > span > span[tabindex="0"] + span
 gulfnews.com##.story-container > div:not(.story-wrapper) > div > span[class]:has(> span > a[href^="https://www.facebook.com/sharer.php?"])
 gumtree.com.au##.vip-ad-social-share
 gunaz.az###terefdarpopup
@@ -20276,6 +20280,7 @@ news9live.com##.followUs_Links
 newsandguts.com##.subscribeBar
 newsarmenia.am###soc_widget
 newsarmenia.am##.mediaPageSocialButtons
+newsbeast.gr##social-shares
 newsbreak.com##button[title="Share Button"]
 newsbusters.org##.nb-twitter-block
 newscenter.lbl.gov##lbl-icon-list
@@ -20846,6 +20851,7 @@ oneindia.com###youtube_promo
 oneindia.com##.goog-one-news
 oneindia.com##div[class*="light-share-"]
 oneindir.com#?#.sidebar > .enCokIndirilenler:has(>.blockTitle > h5:contains(BİZİ TAKİP EDİN))
+oneman.gr##.sharing_tools
 onepiece-film.jp#?#.language > span:contains(/^Share$/)
 onepiece-tube.com###sidebar > div.s-block:has(> div#fb-root)
 onet.pl##.fbShare
@@ -24930,7 +24936,6 @@ tvn.pl,tvn24.pl##.article-share-socials > .social-list
 tvn24.pl##.article-lead__social-buttons
 tvn24.pl##.shareContainerBottom
 tvn24.pl##.shareContainerTop
-tvn24.pl##.socialShareContainer
 tvnetil.net###backgroundPopup
 tvnetil.net##.warnpop
 tvnow.de,fast-torrent.ru##.addthis
