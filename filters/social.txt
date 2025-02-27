@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-27 09:37:54 RPC
+! Updated: 2025-02-27 16:27:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10814,7 +10814,6 @@
 4travel.jp##.u_snsList
 4travel.jp,nagano-toshi-gas.co.jp##.snsWrap
 4travel.jp,symbolab.com##.shareIcon
-4yuuu.com,4meee.com##.snsShare__Wrap
 5-tv.ru##.twitterTimelineInSidebar
 5-tv.ru##._links
 5-tv.ru##div[class="floatRight marginTopQuartBase"]
@@ -12729,7 +12728,6 @@ brasil247.com##.links
 bravewords.com##.top-nav
 bravopets.jp##.event-page-sidebar-share-wrap
 bravotube.net##.sh
-brax.com,metro.us##.social-share-icons
 braziljournal.com##.menusocial--column
 braziljournal.com##.menusocial--share
 breachmedia.ca,news.itsfoss.com##.share-toggle
@@ -13002,7 +13000,6 @@ capital.com#?#.grid:has(> div.socShare)
 capital.fr###shareArticle-shareButton
 capital.gr##.controls
 capital.gr##.messageActions
-cappmoda.com,summerghost.jp##div[class*="share"]
 captainaltcoin.com,celebritycruises.com,tomzorg.nl##.post_share
 captainaltcoin.com,ddizi.pro,ndtv.in,weekly.donga.com##.social_link
 captainaltcoin.com,kyivpost.com,ndtv.com,ndtv.in##.social_link
@@ -14744,6 +14741,7 @@ elliberal.com.ar##.social-note
 elliberal.com.ar##a[title^="Compartir"]
 elliberal.com.ar#?#.col-12 > ul:has(> li > a[onclick^="compartir("])
 elliberal.com.ar,salemaxinmobiliaria.com##.compartir
+elliptic.co,cappmoda.com,summerghost.jp##div[class*="share"]
 elmas67.com,zhaber.com.tr##.social-buttons > a:not([style])
 elmogaz.com##.SocialNetworks
 elmostrador.cl##.compartir-noticia
@@ -19802,6 +19800,8 @@ mumbrella.com.au##div[class^="social "]
 mumsnet.com##.social-sharing-icons
 mundodomanolo.com.br##.redes_rodape
 mundodomanolo.com.br##.redes_sociais
+muneatsu-fc.com,salon-de-horizon.jp,ahnbohyun-fc.com,tokinosora-fc.com,qrpf10.com,pizzaradio.jp,hyakuta.com,dazbee-fc.com,asato-yuya.com,ryogomatsumaru.com,minami-hamabe.net,banbanzai-fc.com,p-jinriki-fc.com,keisuke-ueda.jp,yamingfc.net,ado-dokidokihimitsukichi-daigakuimo.com,takahashifumiya.com,hololive-fc.com,gs-ch.com,canan8181.com,nicochannel.jp,rnqq.jp#?#button:has(> span > svg > path[d^="M18 16.08c-"])
+muneatsu-fc.com,styleparty-fc.jp,salon-de-horizon.jp,ahnbohyun-fc.com,tokinosora-fc.com,qrpf10.com,pizzaradio.jp,hyakuta.com,dazbee-fc.com,asato-yuya.com,ryogomatsumaru.com,minami-hamabe.net,banbanzai-fc.com,p-jinriki-fc.com,keisuke-ueda.jp,qrpf1.com,yamingfc.net,ado-dokidokihimitsukichi-daigakuimo.com,takahashifumiya.com,hololive-fc.com,gs-ch.com,canan8181.com,nicochannel.jp,rnqq.jp#?#.MuiBox-root > div.MuiBox-root:has(> button.react-share__ShareButton)
 munesada.com##.sns-bottom-frame
 murabito-a-anime.com##.topicsTwitter
 muratorplus.pl,eska.pl,se.pl,calciomercato.com,rojadirectaonlinetv.com,extremotvplay.com##.share-buttons-container
@@ -20059,6 +20059,7 @@ nbs-tv.co.jp##.content div.wrap_sns
 ncaa.com###ncaa-share-hanger
 ncaa.com##.ncaa-share-hanger
 ncaa.com##.tile-follow
+nccgroup.com##.c-banner__social
 ncctv.co.jp##div[class^="css-"] > div[class^="css-"]:has(> div.chakra-stack > button.chakra-button)
 nd.nl##.article-single__meta__socials
 ndl.go.jp#?#.profileAreainside > h2:contains(SNSでシェア)
@@ -22520,6 +22521,7 @@ saglikaktuel.com##.base_middle .bookmark-container
 saglikaktuel.com##.share-buttons-24
 sahadan.com,mackolik.com##.widget-article__share-button
 saisoncard.co.jp##.sec-social
+saita-puls.com,4yuuu.com,4meee.com##.snsShare__Wrap
 saitama-np.co.jp###soc_buttons
 saiyasune.com###s_bs18
 saiyasune.com##span[data-clipboard-text^="最安値.com - ネット通販の価格比較サイト"]
@@ -22534,7 +22536,6 @@ sakurafile.com#?#.filepanel > tbody > tr > td > ul:only-child > li > a[href^="ja
 salario.com.br##div[class^="ads_"]
 salario.com.br##div[style^="width: 100%; height: 280px; margin: 20px 0;"]
 salisburyjournal.co.uk##.block-article-content__socialbar
-salon-de-horizon.jp,ahnbohyun-fc.com,tokinosora-fc.com,qrpf10.com,pizzaradio.jp,hyakuta.com,dazbee-fc.com,asato-yuya.com,ryogomatsumaru.com,minami-hamabe.net,banbanzai-fc.com,p-jinriki-fc.com,keisuke-ueda.jp,yamingfc.net,ado-dokidokihimitsukichi-daigakuimo.com,takahashifumiya.com,hololive-fc.com,gs-ch.com,canan8181.com,nicochannel.jp,rnqq.jp#?#button:has(> span > svg > path[d^="M18 16.08c-"])
 salon.com###social_total
 salon.com,snopes.com##.social_comments_app_wrapper
 salon.mainichi-kotoba.jp##.c-footer-bar__item--share
@@ -23553,7 +23554,6 @@ stylehaus.jp##.article__actions--social
 stylehaus.jp##.contents__shere
 stylehaus.jp##.f-section-sns
 stylenews.ru#@#.header-social
-styleparty-fc.jp,salon-de-horizon.jp,ahnbohyun-fc.com,tokinosora-fc.com,qrpf10.com,pizzaradio.jp,hyakuta.com,dazbee-fc.com,asato-yuya.com,ryogomatsumaru.com,minami-hamabe.net,banbanzai-fc.com,p-jinriki-fc.com,keisuke-ueda.jp,qrpf1.com,yamingfc.net,ado-dokidokihimitsukichi-daigakuimo.com,takahashifumiya.com,hololive-fc.com,gs-ch.com,canan8181.com,nicochannel.jp,rnqq.jp#?#.MuiBox-root > div.MuiBox-root:has(> button.react-share__ShareButton)
 stylevamp.de#?#.site-main > #secondary > .widget > .section-title:contains(Finde uns auf Facebook)
 stylight.de##.Trend-social > .btn
 stylist.co.uk##a[href^="/social-share/"]
@@ -24270,6 +24270,7 @@ thepythoncode.com#?#div[align="center"]:has(> span:contains(/^Sharing is caring/
 thequestion.ru##.answer__share
 thequestion.ru##.question__answers-info-share-text
 thereader.mitpress.mit.edu##.social-cont
+therecord.media,brax.com,metro.us##.social-share-icons
 theregister.co.uk##div.faceb
 theregister.com##.sharing_widget
 theregister.com##.sharing_widget_story_desktop
@@ -24752,6 +24753,7 @@ tripnote.jp###fb-like-box
 tripoto.com##.margin-top-med[data-original-title="Share on Facebook"]
 trk7.ru##.news-detail-share
 trkterra.ru###vk_invite_wrapper
+trmlabs.com##.main-post-section ~ .contain > .nl_wrapper
 trojka.polskieradio.pl##ul[class^="ArticleContent_socials_"]
 trojmiasto.pl##.shareTooltip
 trollno.com##.facebook-page

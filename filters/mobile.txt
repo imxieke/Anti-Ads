@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-27 09:37:54 RPC
+! Updated: 2025-02-27 16:27:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2235,7 +2235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -12643,6 +12643,7 @@ kingkong.com.tw##.room-banner-wrap
 kingsoft.hz.letv.com##div.fix-box,div.tab-content,.video-advert,#fixedad
 kino-teatr.ru#?#.content_block > div[align="center"]:has(> div[align="center"] > advertronic-slot)
 kino-teatr.ua##a[href="https://play.google.com/store/apps/details?id=com.kinoteatr.ua.filmgoer"]
+kino.de##.alice-adslot
 kino.de##div[data-sdg-ad]
 kino.tricolor.tv#$##app-dock-trikolor-kino-i-tv { display: none !important; }
 kino.tricolor.tv#%#//scriptlet('remove-class', 'add_app-module', '.main')
@@ -16855,9 +16856,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30491,6 +30492,7 @@ _zhike.htm
 ||bm.h576.com^
 ||bm.moatads.com^$important
 ||bma-v4.pops.fastly-insights.com^$important
+||bmasamd.top^
 ||bmedia.justservingfiles.net^$important
 ||bmhept.xyz^
 ||bmhtwefv.icu^
@@ -34169,6 +34171,7 @@ _zhike.htm
 ||dhqp68.com^
 ||dhtdig.xyz/static/js/dht_default.js
 ||dhukul.com^
+||dhulzehgk.com^
 ||dhuquxqy.com^
 ||di.deliveryengine.adswizz.com^$important
 ||di.ssl.msdk.qq.com^$important
@@ -34195,6 +34198,7 @@ _zhike.htm
 ||dianyingim.com/statics/recommend/
 ||diaoyu123.com/cpro/show.js
 ||diapi.webgains.com^$important
+||diav.cn^
 ||dicks-sporting-goods.pxf.io^$important
 ||dickssportinggoods.demdex.net^$important
 ||dict.youdao.com/vip/privilege/show/V*?bannerType=fanyiTop$domain=fanyi.youdao.com
@@ -35967,6 +35971,7 @@ _zhike.htm
 ||fbmjc.39yst.com^
 ||fbqrt.cn^
 ||fbting.mozzet.com^$important
+||fbvbrb.icu^
 ||fc-feed.cdn.bcebos.com^
 ||fc.3dmgame.com^
 ||fc.webmasterpro.de^$important
@@ -47135,6 +47140,7 @@ _zhike.htm
 ||rdance.cn/g-
 ||rdbd.xsread.com^
 ||rdi.us.criteo.com^$important
+||rdllzz.icu^
 ||rdr.ad-score.com^$important
 ||rdrs.ad-score.com^$important
 ||rdsgick.icu^
@@ -47563,6 +47569,7 @@ _zhike.htm
 ||rodeopolice.com^
 ||rodmfv.xyz^
 ||roia.biz^$important
+||rojj.cn^
 ||rok.com.com^$important
 ||roletaryk.info^$important
 ||rollconnection.com^
@@ -48906,6 +48913,7 @@ _zhike.htm
 ||shark.douyucdn.cn/app/douyu/res/com/annualfestival/*_bg.gif
 ||sharkskids.com^
 ||sharppatch.com^
+||shatielsu.com^
 ||shaxiq.com^
 ||shbear.com^*/ad/
 ||shbxugs.cn^
