@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-27 00:26:44 RPC
+! Updated: 2025-02-27 09:37:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40079,6 +40079,7 @@ karlknauer.de,sedus.com#$#.cc-window-blocker { display: none !important; }
 karlknauer.de,sedus.com#$#body.no-scroll { overflow-y: visible !important; }
 karls-shop.de##+js(set-cookie, cookie-preference-v3, 1)
 karls-shop.de##.cookie
+karmakmarket.com,ozmenpc.com##.cookie-agreement-module
 karman.cc###ico_wrapper
 karmanow.com#%#//scriptlet('trusted-click-element', 'button[data-alooma-element="decline"]')
 karmy.com.pl###privacy, .privacy
@@ -46009,7 +46010,6 @@ oz.by,unstop.com#%#//scriptlet('set-cookie', 'allowedCookie', '1')
 ozcouponscode.com##.policy_footer
 ozdilek.com.tr##.KVKKcookie_altBar
 ozerki.ru,superapteka.ru,bitkubnft.com,voguescandinavia.com##div[class^="cookieNotification__"]
-ozmenpc.com##.cookie-agreement-module
 ozon.by#?#div[data-widget="blockVertical"]:has(> div[data-widget="cookiePopup"])
 ozon.ru##.h7
 ozon.ru##div[data-widget="cookieBubble"]

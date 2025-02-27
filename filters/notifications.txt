@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-27 00:26:44 RPC
+! Updated: 2025-02-27 09:37:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10433,6 +10433,7 @@ kariyer.net##.mobile-app-download
 karkkainen.com#%#//scriptlet('trusted-click-element', 'button.coi-banner__accept')
 karlknauer.de,sedus.com#$#.cc-window-blocker { display: none !important; }
 karlknauer.de,sedus.com#$#body.no-scroll { overflow-y: visible !important; }
+karmakmarket.com,ozmenpc.com##.cookie-agreement-module
 karmanow.com#%#//scriptlet('trusted-click-element', 'button[data-alooma-element="decline"]')
 karnaval.com##.cookie_message_container
 karofilm.ru#%#//scriptlet('set-cookie', 'cookie_usage', 'yes')
@@ -13357,7 +13358,6 @@ oz.by,unstop.com#%#//scriptlet('set-cookie', 'allowedCookie', '1')
 ozdilek.com.tr##.KVKKcookie_altBar
 ozerki.ru,superapteka.ru,bitkubnft.com,voguescandinavia.com##div[class^="cookieNotification__"]
 ozmall.co.jp##.oz__headApp
-ozmenpc.com##.cookie-agreement-module
 ozon.by#?#div[data-widget="blockVertical"]:has(> div[data-widget="cookiePopup"])
 ozon.ru##div[data-widget="cookieBubble"]
 ozon.ru#?#.layout-page > div:not([class]):has(> div > button + svg + p > a[href^="https://docs.ozon.ru/common/pravila"])

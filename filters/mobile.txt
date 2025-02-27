@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-27 00:26:44 RPC
+! Updated: 2025-02-27 09:37:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14264,6 +14264,7 @@ m.winfuture.de###articleBody > #vergleich + iframe
 m.winfuture.de###articleBody > .adeal
 m.winfuture.de###articleBody > .summary_box ~ div:not(#ab_comments_button) > iframe
 m.winfuture.de###articleBody > a[href*="/r?"]
+m.winfuture.de###articleBody > b[style="display: none !important;"] + a
 m.winfuture.de###articleBody a[href*="redirect"]
 m.winfuture.de###div-divrecUnd
 m.winfuture.de###g_content_recommendation
@@ -14295,6 +14296,7 @@ m.winfuture.de##img[alt="test"]
 m.winfuture.de##[id] > h2[style="display: none !important;"] + .teaser
 m.winfuture.de##[id] > h2[style="display: none !important;"] + .teaser + .clearfix
 m.winfuture.de#?##articleBody > .summary_box ~ b:contains(Vergleich)
+m.winfuture.de#?##articleBody > b:contains(Spartipp)
 m.winfuture.de#?##articleBody > div:has(> div[id^="div-gpt-ad"])
 m.winfuture.de#?##main > h2:has(> a[href*="special/"][href*="/angebote/"])
 m.winfuture.de#?##main > h2:has(> a[href*="winfuture.de/r?"])

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-27 00:26:44 RPC
+! Updated: 2025-02-27 09:37:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21667,7 +21667,6 @@ prnewswire.com##.social-share-circle
 prnewswire.com##a[data-target="#social-share-mobile"]
 pro-palliativ.ru#?#.panel > div.panel-block:has(> span:contains(Поделиться))
 pro-zakupki.ru#?#.eBlock > tbody > tr > td[align="center"]:contains(Поделиться)
-probasket.pl,yoldaolmak.com,gamerbase.org,technopat.net,devirsaati.com##.td-post-sharing-top
 probiyotix.com##.td-post-sharing
 problogbooster.com##.post-body > div.afterpost+div[style^="background: beige;padding: 3% 10%;"]
 problogbooster.com#?#.sidebar.section > div[class="widget HTML"]:has(#fb-root)
@@ -22473,6 +22472,7 @@ ryouikukyuujin.com,weeeeby.com,i-fields.jp,dq10.news,makuring.jp,zukkamoku.com,z
 ryte.com##.sideboxsocials
 ryukyushimpo.jp###share_block
 ryukyushimpo.jp##.socialbtn-wrap
+ryuugames.com,probasket.pl,yoldaolmak.com,gamerbase.org,technopat.net,devirsaati.com##.td-post-sharing-top
 rz.com.ua##.socials_button > div:not(.pre_name)
 rzn.info,skidkaonline.ru##.social-like
 s-style.machico.mu##.l-pickup__sns
