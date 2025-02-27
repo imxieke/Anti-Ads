@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-27 16:27:08 RPC
+! Updated: 2025-02-28 00:30:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25935,7 +25935,7 @@ adfc.de##body > .ember-view > .ember-view:first-child
 adfilteringdevsummit.com##+js(set-local-storage-item, acceptCookies, no)
 adfilteringdevsummit.com#%#//scriptlet('trusted-set-local-storage-item', 'acceptCookies', 'n')
 adguard-dns.io##.sticky-bar--cookie
-adguard-vpn.com,adguard-vpn.info,adguard-vpn.net,adguardvpn-help.com,adguardvpn-help.info,adguardvpn-help.org,adguard-dns.io,adguard-vpn.net,adguard.info,adguard.app,adguard.com##.cookie-terms
+adguard-vpn.*,adguardvpn-help.*,adguard-dns.io,adguard.info,adguard.app,adguard.com##.cookie-terms
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_ext
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
@@ -26962,7 +26962,6 @@ anthemis.fr,france-biomedical-confort.com,innovair.fr###cootra-overlay
 anthemis.fr,france-biomedical-confort.com,innovair.fr###cootra-popup
 anthonypoperealestategroup.com,areavip.com.br,cirber.com,cryptopricealerting.com,fridaysdaughter.com,hangfire.io,jesswandering.com,paginelucirosse.it,raydendesign.com,refurbis.com,restart-auto.fr,tarzankay.com##.wpcb-container
 anthonytravel.com###nb
-anthropic.com##.ConsentBanner_consentBanner__bLexV
 anthropic.com##div[class^="ConsentBanner_"]
 anthropic.com##[class^="ConsentBanner_"]
 anthropologie.com,urbanoutfitters.com##.cookie-message__cookieMessage
@@ -28219,7 +28218,7 @@ banggood.com##.modal-cookie, .bg_gdpr_popup
 bangkokbank.com##.alert-cookie-consent
 bango.com###__next > div > div > div > div[style*="height"]
 banjaran.com.sg##.overlay-mobile-styles-enabled
-bankadunyasi.com,gazikent27.com,mansetebak.com,url-decode.com,birsenaltuntas.com,teknoinfo.com.tr,iplocation.io,engelli.com,cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com,korsanedebiyat.com,stakingrewards.com,hockerty.de,izlemedia.com,tilki.net,mustafabukulmez.com,konuneydi.com,ozgunbilgi.com,bilisimogretmeni.com,azbuz.org,teknobird.com,ultrabilgi.com,bilgilobi.com,aksaelektrik.com.tr,ergo.de,fosforludusunceler.com,kirtkirtla.com,denizcilikbilgileri.com,dnschecker.org,krombacher.de###cookie-box
+bankadunyasi.com,gazikent27.com,mansetebak.com,url-decode.com,birsenaltuntas.com,teknoinfo.com.tr,iplocation.io,engelli.com,cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com,korsanedebiyat.com,stakingrewards.com,hockerty.de,izlemedia.com,tilki.net,mustafabukulmez.com,konuneydi.com,ozgunbilgi.com,bilisimogretmeni.com,azbuz.org,teknobird.com,ultrabilgi.com,bilgilobi.com,aksaelektrik.com.tr,ergo.de,fosforludusunceler.com,denizcilikbilgileri.com,dnschecker.org,krombacher.de###cookie-box
 bankcomat.org##.cucheck
 bankenverband.de##.cookies-floating
 banker.ua##.csppp-container
@@ -28540,7 +28539,7 @@ beiersdorf.de,beiersdorf.com##.bdf-cookie-policy-popup
 bein.com,beinsports.com##+js(set-cookie, use_cookie, 1)
 bein.net##.app-container > div[class]:not(.app-content):not([class*=" "])
 beincrypto.com###amp-user-notification1
-beincrypto.com,tabletowo.pl,themeisle-com.cdn.ampproject.org,tr.instela.com,unwetteralarm.com###amp-user-notification1
+beincrypto.com,tabletowo.pl,themeisle-com.cdn.ampproject.org,unwetteralarm.com###amp-user-notification1
 beinsports.com.tr###__next > [class*="cookie"]
 beinsports.com.tr##.cookie_cookieConsentWrapper__jDLdN
 beinsports.com.tr##div[class*="cookie_cookieConsentWrapper"]
@@ -29554,6 +29553,7 @@ bptour.pl##body > div:not([id]):not([class])
 bq.ru##.footer-cookies-alert
 br-automation.com###siwa-cookiebar
 br-automation.com###siwa-cookiebar, .modal-backdrop
+br-dge.to,feierabend.de,vrtranspoint.fi#@##cookie-banner
 br.de###__next > .fixed, #__next [class*="CookieContainer"]
 br.de##div[class^="StyledComponents__CookieContainer-"]
 brabilligt.se##.uk-notification
@@ -29861,7 +29861,7 @@ bunkerworld.com###userprompt
 bunny.net##.bn-cookies-wr
 bunnyhop.de,funktionelles.de,futspo.de###cookie-jar
 bunq.com##.fs-cc-components
-bunq.com,framer.com,zave.it,tower.dev##+js(set-local-storage-item, framerCookiesDismissed, true)
+bunq.com,framer.com,inceptionlabs.ai,zave.it,tower.dev##+js(set-local-storage-item, framerCookiesDismissed, true)
 bunq.me#%#//scriptlet('set-local-storage-item', 'bunq:CookieConsentStore:isBannerVisible', 'false')
 bunte.de#%#//scriptlet('remove-class', 'sp-message-open', 'html.sp-message-open')
 buoyant.io###apoptin
@@ -32020,6 +32020,7 @@ cudmoda.pl#?#.iqitcookielaw-showed
 cuevana3.io###mdl-ads
 cuisineaz.com##.foxbox.bottom-right
 cuisineaz.com,speisekarte.de,businessinsider.com,historyextra.com,tek.no,vglive.no,bt.no,telegraph.co.uk##div[id^="sp_message_container_"]
+cultivatebrands.co.za##.popi_bar
 cultura.uol.com.br,jobs.cz,prace.cz#$##cc_div { display: none !important; }
 cultura.uol.com.br,jobs.cz,prace.cz#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
 culturagay.it###GPP
@@ -35546,6 +35547,7 @@ flaschen-glaeser-und-dosen.de#$#.mnd-cookie-modal { display: none !important; }
 flaschen-glaeser-und-dosen.de#$#.mnd-cookie-modal ~ div.js--overlay { display: none !important; }
 flaschen-glaeser-und-dosen.de#$#body { overflow: auto !important; }
 flaschen-glaeser-und-dosen.de,royacosmetics.de,stilgut.com,verdeck.de,hygiene-shop.eu,torten-boutique.de,schellenberg-professional.de,schlemmer-metzgerei.de,bio-circle.com,futter-simon.de,s-r-p.com,in-kid.de,kosmetik-pinsel.com,heart-tec.de,weinhandel-fertsch.de,edampfer24.de,scheulenburg-direkt.de,stellfeld-ernst.de,koestner-shop.de,nowa-manufaktur.de,meyermotoren.de,gartenstuhl-kissen.de,schwab-rollrasen.de,lesenundschenken.de,hairstyletools.de,stellfeld-ernst.de,burmester.de,isa-racing.com,comiccave.de,kloundco.de,saunawelt-hamburg-shop.de,tischkulturshop.com,sport-praxenthaler.com,ravenol-shop.de,tinte.de,sennerei-lehern.de,topspeed-tt.com,hagemeyer.de,vsmedien-shop.de,beta-motor-shop.de,onlineshop-baumarkt.de,rocatronic.de,stellfeld-ernst.de,terra-australia.de,canidimondo.de,antenne-holm.de,luxury-gunstockblanks.com,lk-premiumpack.de,alpha-tex.de,kaffeeraum.com,reflectives.de,werder-ketshop.de,gokarthof.de,manufaktur-joerg-geiger.de,kiids.de,gruenewiese-shop.de,wurstladen.de,ic-kuh.de,aprotech.de,waschkampagne.de,stellfeld-ernst.de,walter-outlet.de,svgaustria.at,dermaplan.com,spielgeschenke.de,happy-schuh.de,orangepuzzle.de,lesezirkel-brabandt.de,wolkengarage.de,bccprinttechnik.de,kite-buddy.de,verpackungs-shop.net,regioware.de,sedulus.de,overhemden.com,powermetershop.de,futononline.de,hoffmann-speedster.com,motorsportmarkt.de,lilienthal.berlin##body,html:style(overflow: auto !important; position: initial !important;)
+flashfootball.com,wyniki.pl,livesport.cz,flashscoreusa.com,flashfussball.de,eredmenyek.com,flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.otPlaceholder
 flashscore.ru,op.europa.eu##.customCookie
 flatart.pl###kekse
 flatcast.net##.h_dataprot
@@ -35555,6 +35557,7 @@ flatspot.pictures##.cookieShit
 flattr.com,thebarchive.com##.cc_banner
 flazio.com##.flazio-cookie
 fleet.vdo.com,fleet.vdo.de#$#body { position: static !important; }
+fleksberegner.dk##+js(set-local-storage-item, vue-cookie-accept-decline-cookiePanel, accept)
 fler.cz###cookies-bar-bottom
 fler.cz###cookies_2022_content
 fler.cz##.ui_widgets_unit-cookies_pref2022_footer
@@ -36478,6 +36481,7 @@ gastrokuchyn.cz##.electro-overlay
 gastronom.ru##.accept-cookies-popup
 gasunie.nl,southwark.gov.uk,wertarbeit-steinfurt.de,tendersdirect.co.uk,frankfurt.de,crazy-factory.com,habsburger.net,tangleangel.com,theimagingsource.tw##.reveal-overlay
 gasunie.nl,southwark.gov.uk,wertarbeit-steinfurt.de,tendersdirect.co.uk,frankfurt.de,crazy-factory.com,habsburger.net,tangleangel.com,theimagingsource.tw##body,html:style(overflow: auto !important; position: initial !important;)
+gate.io###ComplianceLimitMessage
 gatestoneinstitute.org##.float-bar
 gateway.one##.alert-info
 gatineau.ca###arriere-plan-de-la-fenetre
@@ -37532,7 +37536,6 @@ habblet.city##.cookies-accept-container
 haber.com###habercom-cookie-box
 haber365.com.tr##.modalx
 haber46.com.tr,cnn.co.jp###my-notification
-haberarsiviyiz.com###cerezsorgula
 haberci-gazete.de##.gdpr_infobar_postion_bottom
 haberturk.com##.bottom-14
 haberturk.com##body > div.widget-abroad-popup
@@ -39038,7 +39041,6 @@ ing.jobs#$#body { overflow: visible!important; }
 ing.jobs#@##gdprconsent
 ing.nl###cookieCheck-app
 ing.nl##+js(set-cookie, cookiepref, 1)
-ing.pl##.js-cookie-policy-box
 ing.ru##.glass, .dialog
 ingatlanbazar.hu##.ib-cookie-bar
 ingbank.pl##cookie-policy
@@ -39049,6 +39051,7 @@ ingemecanica.com##.encabez
 ingentaconnect.com##.cornerPolicyTab
 ingentaconnect.com##.mainCookiesPopUp
 ingeschrier.nl##.mention
+ingksiegowosc.pl,ing.pl##.js-cookie-policy-box
 ingrad.ru##.styles-module__cookiesWarning--2mfHC
 ingrad.ru##div[class*="cookiesWarning"]
 ingsprinters.nl##.cookie-settings
@@ -41715,7 +41718,6 @@ livescore.net##.row[data-id="infobar"]
 livescores.com##.info-msg
 livesirina.com##.notifier-wrapper
 livesmarter.pl###rodo
-livesport.cz,flashscoreusa.com,flashfussball.de,eredmenyek.com,flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.otPlaceholder
 livestream.com##.js-cookie_policy
 livetex.ru##.SmartCaptcha-Shield_position_bottom
 liveuamap.com##.event.passby
@@ -43917,7 +43919,7 @@ museum.seiko.co.jp##.footer_disclaimer
 museum.seiko.co.jp##.js-about-cookie
 museumvanloon.nl##.cookiesmelding
 music-city.cz###js-agreement-stripe
-music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link[aria-label*="cookie"])
+music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link[aria-label*="ookie"])
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr###overlay
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##*:style(filter: none !important)
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##+js(trusted-click-element, #dialogButton1)
@@ -48419,6 +48421,7 @@ regionedanubio.it,regiondunaj.cz,donauregio.nl,donauregion.at,salzkammergut.at#$
 regmag.pl###cookie
 regnauer.de##.disclaimer
 regnest.com##.cookies
+regnum.ru##.cookies-notice-container
 reguluseshop.cz#@#.CookiePolicyBar
 regupedia.de##.wr_regupedia-header-cookie
 rehadat-hilfsmittel.de###cookieDialogWrapper
@@ -51219,6 +51222,7 @@ stilord.com,stilord.de,stilord.fr,stilord.pl#@#.cookie-info-box
 stilord.fr,stilord.it,stilord.de,stilord.es##+js(remove-class, no-consent, html, stay)
 stingray.com###tracking-popup
 stipendienlotse.de,deutschlandstipendium.de,aufstiegs-bafoeg.de,bne-portal.de,praktisch-unschlagbar.de,ausbildung-weltweit.de,bmbf.de,gesundheitsforschung-bmbf.de,xn--bafg-7qa.de###privacy-note
+stippl.io##.react-cookie-notice-container
 stjornarradid.is##.session-text
 stmas.bayern.de##+js(set-cookie, required, 1)
 stmas.bayern.de##+js(set-cookie, statistik, 0)
@@ -55915,7 +55919,6 @@ wykop.pl##div[class$="cookie"]
 wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 wykop.pl,cire.pl#$#body[style*="overflow"] { overflow: auto !important; }
 wyld.de##.optin
-wyniki.pl##.otPlaceholder
 wypad.com.pl###cookie
 wyrobieniepaszportu.pl##body > div:not([id]):not([class])
 wyspaszkrabow.pl#@#.cookie-message:not(html):not(body)

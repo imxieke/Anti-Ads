@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-27 16:27:08 RPC
+! Updated: 2025-02-28 00:30:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11659,7 +11659,7 @@ anime.shadowverse.jp##.l-snsShare
 anime.shochiku.co.jp###skmg_footer_nav
 animeflv.net##body > div.FollowUs
 animeflv.one,animefenix.vip,animeblix.org###cht-shr
-animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,hdfilmifullizle.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
+animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
 animego.online##.telega__full
 animekayo.com,sketchup.cgtips.org##.widget_bs-likebox
 animenewsnetwork.com###social-bookmarks
@@ -14297,10 +14297,10 @@ diyetkolik.com###solAnaSutun
 diyetkolik.com##.article_share_social
 diyetkolik.com##.body_share_panel
 dizelyator.ru##.imgsoc
-dizifox1.com,dizipal.org,diziyoutv.com#$#.next-prev-episode { margin-left: 0 !important; }
-dizifox1.com,dizipal.org,diziyoutv.com#$#body .twitter-share { display: block !important; width: 85px !important; }
 diziizle.net###facebook-takipet
 diziizle.net###spopup
+dizipal.org,diziyoutv.com#$#.next-prev-episode { margin-left: 0 !important; }
+dizipal.org,diziyoutv.com#$#body .twitter-share { display: block !important; width: 85px !important; }
 dizipal73.cloud##footer > div.vote-cn + ul
 diziplus.*,diziday.com##.green
 diziplus.co,dizifast.net##.post-like > a.vote-it ~ a[style][class^="ui"][class$="icon button"]
@@ -15564,6 +15564,7 @@ forbes.ru##.socnet_left_float
 forbes.ru##.socnet_shares_cont
 forbes.ru##._1AEvq._2CZpD
 forbes.ru##._1CyCK._3k9hP._11xDc
+forbes.ru##div:has(> div.ljLTa)
 forbes.ru##div[data-type="promo-socials"]
 forbes.ru#?#article[id^="article"] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div:not([class]) > div[class] div[class^="_"] > button[type="button"]
 forbes.ru#?#div[class] > button:has(> svg > path[d^="M7.5 1.914L4.707 4.707"])
@@ -15637,10 +15638,10 @@ foursquare.com##.shareAction
 fox-saying.com##iframe[src^="https://www.facebook.com/plugins/like.php"]
 foxford.ru##div[class^="styled__Share-"]
 foxitsoftware.com##iframe#share
+foxnews.com##.amp-share > div.amp-list-item:has(> button:not(.amp-embed))
 foxnews.com##.article-meta-lower:has(.article-social)
 foxnews.com##.article-social > div.social-icons > ul > li:not(.comments):not(.print):not(.email)
 foxnews.com##header > div.article-meta:has(> div.article-social:only-child)
-foxnews.com#?#.amp-share > div.amp-list-item:has(> span:contains(/Facebook|Twitter/))
 foxnews.com#?#.article-meta-lower:has(.article-social)
 foxsports.com.mx##.social-column
 foxsportsgo.com##.program-landing-section--share
@@ -17514,6 +17515,7 @@ ivi.ru##.hoard_type_share
 ivi.ru##.userControls__item_share
 ivi.tv,ivi.ru##.userButtons__item_share
 iwatobi-sc.com###footer-share
+iworld.com##.btn_shared
 ixbt.com#$#.b-socials__container { visibility: hidden !important; }
 ixl.com#@#.social-sharing
 iyf.tv#@#.share-top
@@ -22947,7 +22949,7 @@ sin-space.jp,preply.com##.share-btn-container
 sina.com.cn,hankyung.com##.tool-share
 sinarharian.com.my##a[class*="addthis"]
 sinch.com,rikujyokyogi.co.jp,lor-clinica.com,jdpower.com,hastac.org##.addtoany_list
-sinema.cx,hdfilmizleamk.net,malatyam.com,pembetv18.*,sinekolik.com,filmseyretizlet.com,elzemfilm.org,haberiskelesi.com,efullizle.com,divx720pfilmizle.org,nehir.net,jokerfilmizle.com,arzum.com.tr,malatyahaber.com,720pizle.vip,hdizlefilmleri.com,hdfilmcix.net,afyonhaberturk.com,denizli20haber.com,egegundem.com.tr,diziizle.blog,medyapress.net,vkfilmizle.net,nedir.org,kariyer.net,sinemakolik.net,keyfgazetesi.com,sonsaat.com.tr,okudunmuhaberi.com,mavididim.com.tr,filmw.net,filmkapani.com,bilimhaber.net,balikesirhaber.net,gruppal.com,kentvizyonhaber.com,muglagazetesi.com.tr,apron24.com,enzahome.com.tr,habernida.com,full1080pfilmizle.com,istanbultakipte.com,dizilost.com,filmdizievi1.com,sondakika.com.tc,sivashaber.com,anlasevgimi.com,ademocut.com,akdenizhaber.com.tr,donanimhaber.com,kimdirkim.com##.paylas
+sinema.cx,hdfilmizleamk.net,malatyam.com,pembetv18.*,sinekolik.com,filmseyretizlet.com,elzemfilm.org,haberiskelesi.com,efullizle.com,divx720pfilmizle.org,nehir.net,jokerfilmizle.com,arzum.com.tr,malatyahaber.com,720pizle.vip,hdizlefilmleri.com,hdfilmcix.net,afyonhaberturk.com,denizli20haber.com,egegundem.com.tr,diziizle.blog,medyapress.net,vkfilmizle.net,nedir.org,kariyer.net,sinemakolik.net,keyfgazetesi.com,sonsaat.com.tr,okudunmuhaberi.com,mavididim.com.tr,filmw.net,filmkapani.com,bilimhaber.net,balikesirhaber.net,gruppal.com,kentvizyonhaber.com,muglagazetesi.com.tr,apron24.com,enzahome.com.tr,habernida.com,full1080pfilmizle.com,istanbultakipte.com,dizilost.com,sondakika.com.tc,sivashaber.com,anlasevgimi.com,ademocut.com,akdenizhaber.com.tr,donanimhaber.com,kimdirkim.com##.paylas
 sinemalar.com##a[onclick^="facebookShare"]
 sinemia.com##.box-left > .movie-share-area
 sinemia.com##.post-sidebar > .like-us-new

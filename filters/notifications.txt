@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-27 16:27:08 RPC
+! Updated: 2025-02-28 00:30:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3872,7 +3872,7 @@ addendum.org#$#body { overflow: visible !important; }
 addnature.co.uk,campz.at##.js-cookieHeader
 adfilteringdevsummit.com#%#//scriptlet('trusted-set-local-storage-item', 'acceptCookies', 'n')
 adguard-dns.io##.sticky-bar--cookie
-adguard-vpn.com,adguard-vpn.info,adguard-vpn.net,adguardvpn-help.com,adguardvpn-help.info,adguardvpn-help.org,adguard-dns.io,adguard-vpn.net,adguard.info,adguard.app,adguard.com##.cookie-terms
+adguard-vpn.*,adguardvpn-help.*,adguard-dns.io,adguard.info,adguard.app,adguard.com##.cookie-terms
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_ext
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
@@ -4606,6 +4606,7 @@ asus.com###cookie-policy-info-bg
 asus.com.cn,asus.com###cookie-policy-info
 asus.com.cn,zentalk.asus.com#$#body { overflow: auto !important; }
 asus.com.cn,zentalk.asus.com#$#div[id^="cookie-policy-info"] { display: none !important; }
+asustor.com###gdpr_wrap
 atel-electronics.com###tmp_cookies
 atelier801.com#%#//scriptlet('set-cookie', 'cb-enabled', 'true')
 atende.net##.termos_cookie_privacidade
@@ -4899,7 +4900,7 @@ banggood.com##.bottom-app-contain
 bangkokbank.com##.alert-cookie-consent
 banglanews24.com##.apps
 bank.gov.ua##.widget-pushNotification
-bankadunyasi.com,gazikent27.com,mansetebak.com,url-decode.com,birsenaltuntas.com,teknoinfo.com.tr,iplocation.io,engelli.com,cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com,korsanedebiyat.com,stakingrewards.com,hockerty.de,izlemedia.com,tilki.net,mustafabukulmez.com,konuneydi.com,ozgunbilgi.com,bilisimogretmeni.com,azbuz.org,teknobird.com,ultrabilgi.com,bilgilobi.com,aksaelektrik.com.tr,ergo.de,fosforludusunceler.com,kirtkirtla.com,denizcilikbilgileri.com,dnschecker.org,krombacher.de###cookie-box
+bankadunyasi.com,gazikent27.com,mansetebak.com,url-decode.com,birsenaltuntas.com,teknoinfo.com.tr,iplocation.io,engelli.com,cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com,korsanedebiyat.com,stakingrewards.com,hockerty.de,izlemedia.com,tilki.net,mustafabukulmez.com,konuneydi.com,ozgunbilgi.com,bilisimogretmeni.com,azbuz.org,teknobird.com,ultrabilgi.com,bilgilobi.com,aksaelektrik.com.tr,ergo.de,fosforludusunceler.com,denizcilikbilgileri.com,dnschecker.org,krombacher.de###cookie-box
 banker.ua##.csppp-container
 banklviv.com#%#//scriptlet('trusted-set-cookie', 'clicklink', 'yes')
 bankmillennium.pl#@#.cookies-info:not(html):not(body)
@@ -5038,7 +5039,7 @@ befree.ru##.digi-cookie-popup
 behance.net##.PrimaryNav-appLinkContainer-bhx
 behance.net##.SimplifiedPushToMobilePrompt-root-Sct
 beiersdorf.de,beiersdorf.com##.bdf-cookie-policy-popup
-beincrypto.com,tabletowo.pl,themeisle-com.cdn.ampproject.org,tr.instela.com,unwetteralarm.com###amp-user-notification1
+beincrypto.com,tabletowo.pl,themeisle-com.cdn.ampproject.org,unwetteralarm.com###amp-user-notification1
 beinsports.com.tr##div[class*="cookie_cookieConsentWrapper"]
 beinsports.com.tr##div[class*="cookie_cookie__"]
 beko-hausgeraete.de##.cookie-header__wrapper
@@ -8226,6 +8227,7 @@ fjallbrynt.se###itc-cookie-notify
 flaschen-glaeser-und-dosen.de#$#.mnd-cookie-modal { display: none !important; }
 flaschen-glaeser-und-dosen.de#$#.mnd-cookie-modal ~ div.js--overlay { display: none !important; }
 flaschen-glaeser-und-dosen.de#$#body { overflow: auto !important; }
+flashfootball.com,wyniki.pl,livesport.cz,flashscoreusa.com,flashfussball.de,eredmenyek.com,flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.otPlaceholder
 flashscore.ru,op.europa.eu##.customCookie
 flatart.pl###kekse
 flaticon.com,freepik.com###notification-cookie
@@ -9220,7 +9222,6 @@ habblet.city##.cookies-accept-container
 haber.com###habercom-cookie-box
 haber365.com.tr##.modalx
 haber46.com.tr,cnn.co.jp###my-notification
-haberarsiviyiz.com###cerezsorgula
 haberci-gazete.de##.gdpr_infobar_postion_bottom
 haberturk.com##body > div.widget-abroad-popup
 haberturk.com##body div[data-type="widgetCookiePolicy"]
@@ -9910,10 +9911,10 @@ ing.jobs#$#.gdprconsent { display: none!important; }
 ing.jobs#$#.ui-widget-overlay { display: none!important; }
 ing.jobs#$#body { overflow: visible!important; }
 ing.nl###cookieCheck-app
-ing.pl##.js-cookie-policy-box
 ingelheim.de###banny-banner-outer
 ingentaconnect.com##.cornerPolicyTab
 ingentaconnect.com##.mainCookiesPopUp
+ingksiegowosc.pl,ing.pl##.js-cookie-policy-box
 ingrad.ru##div[class*="cookiesWarning"]
 inhope.org###cookie_banner-wrapper
 initiatived21.de###gdpr-manager
@@ -11214,7 +11215,6 @@ liveone.com##.tos-footer
 liveonlineradio.net,veedmo.com,extradom.pl,digitaldruck-fabrik.de,informationsverige.se,gartenbau-in-thueringen.de,greenpeace.ru,vilmexkursion.de,veridyen.com,noblelife.com.tr,cenuta.com,nomoreransom.org,artistcamp.com,parfumo.net,expressfaucet.com,seirsanduk.online,oettinger.de,tegut.com,my.viewranger.com,starfaucet.net,entwicklerheld.de,seirsanduk.us,cezeta.com,getpaidtoshare.money,gsc-game.com,hometurkey.com,mtled-novels.com,pitwalk.de,praxis-jugendarbeit.de,rambox.pro,reversinglabs.com,sacheats.com,shadersmod.com,uploadcloud.pro##.cookieinfo
 livescore.com###simpleCookieBar
 livescore.com##.infobar
-livesport.cz,flashscoreusa.com,flashfussball.de,eredmenyek.com,flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.otPlaceholder
 livestream.com##.js-cookie_policy
 liveuamap.com##.event.passby
 liveworksheets.com###divcookieconsent
@@ -12305,7 +12305,7 @@ musement.com##msm-cookie-banner
 musescore.com##._3mwVI
 musescore.com#%#//scriptlet('set-cookie-reload', '_mu_open_in_up_close_new', '1')
 museum.seiko.co.jp##.js-about-cookie
-music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link[aria-label*="cookie"])
+music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link[aria-label*="ookie"])
 musicboard.app#$#body[style="overflow: hidden;"] { overflow: auto !important; }
 musicboard.app#?#div[class^="popup_overlay_"]:has(div[class^="cookiespopup_content"])
 musicfox.com###cookie-widget
@@ -14506,6 +14506,7 @@ regionedanubio.it,regiondunaj.cz,donauregio.nl,donauregion.at#@#.cc-banner
 regionedanubio.it,regiondunaj.cz,donauregio.nl,donauregion.at,salzkammergut.at#$##cookie-modal { display: none !important; }
 regionedanubio.it,regiondunaj.cz,donauregio.nl,donauregion.at,salzkammergut.at#$#.cc-window-backdrop { display: none !important; }
 regionedanubio.it,regiondunaj.cz,donauregio.nl,donauregion.at,salzkammergut.at#$#.stop-scrolling { overflow: auto !important; }
+regnum.ru##.cookies-notice-container
 rehadat-hilfsmittel.de###cookieDialogWrapper
 rei.com###gdpr-cookie-banner-container
 reidl.de#%#//scriptlet('set-cookie-reload', 'ga-opt-out', 'false')
@@ -15813,6 +15814,7 @@ stilkuhni.ru##.js-cookie-popup-container
 stilord.*#%#//scriptlet('set-cookie', 'plenty-shop-cookie', '0')
 stilord.*#@#.cookie-bar:not(body)
 stipendienlotse.de,deutschlandstipendium.de,aufstiegs-bafoeg.de,bne-portal.de,praktisch-unschlagbar.de,ausbildung-weltweit.de,bmbf.de,gesundheitsforschung-bmbf.de,xn--bafg-7qa.de###privacy-note
+stippl.io##.react-cookie-notice-container
 stmas.bayern.de#$##cookie { display: none !important; }
 stmas.bayern.de#$#.modal-backdrop { display: none !important; }
 stmas.bayern.de#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -18179,7 +18181,6 @@ wykop.pl##.cookie.rodo-alert
 wykop.pl##div[class$="cookie"]
 wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 wykop.pl,cire.pl#$#body[style*="overflow"] { overflow: auto !important; }
-wyniki.pl##.otPlaceholder
 wyspaszkrabow.pl#@#.cookie-message:not(html):not(body)
 wyspaszkrabow.pl,abel-falisse.be,zadowolenie.pl#$#.modal-backdrop { display: none !important; }
 wyspaszkrabow.pl,zadowolenie.pl#$#.cookie-message { display: none !important; }
