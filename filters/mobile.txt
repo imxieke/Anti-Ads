@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-28 00:30:21 RPC
+! Updated: 2025-02-28 09:38:32 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5034,6 +5034,7 @@ baby-calendar.jp##.col-md-6 > a[href^="https://baby-calendar.onelink.me/"][targe
 baby-calendar.jp##a[href^="https://itunes.apple.com/jp/app"]
 baby-calendar.jp##div[id^="JP_BABY_sp_all_"]
 baby-kingdom.com##.right5
+babycenter.com##.edentdj0
 babycenter.de###topAdContainerMobile
 babyhome.com.tw##[id^="ad"],[class^="ad"],[id^="div-gpt-ad-"],[class="mar_10"],[href^="http://front.adsnew.babyhome.com.tw/"],#ad_m_peacock
 babylonbee.com###sticky_ad_bar
@@ -14298,6 +14299,7 @@ m.winfuture.de##iframe[src^="//j.wfcdn.de/j/iframes/outbrain_"]
 m.winfuture.de##img[alt="test"]
 m.winfuture.de##[id] > h2[style="display: none !important;"] + .teaser
 m.winfuture.de##[id] > h2[style="display: none !important;"] + .teaser + .clearfix
+m.winfuture.de#%#//scriptlet('trusted-replace-node-text', '#text', 'Anzeige','(Anzeige)', '')
 m.winfuture.de#?##articleBody > .summary_box ~ b:contains(Vergleich)
 m.winfuture.de#?##articleBody > b:contains(Spartipp)
 m.winfuture.de#?##articleBody > div:has(> div[id^="div-gpt-ad"])
@@ -20315,6 +20317,7 @@ u8xs.com##[src^="http://news.9377bh.com/"],[src^="http://news.ja9377.com/"]
 u9yy.com##[width="280px"][heigth="180px"],[style^="height:90px;width:1540px;"],#box
 ua-cinema.com#$#.kinoWrapp { margin-top: 46px !important; }
 ua-football.com###main-menu > div[style^="width: 100%;"][style*="min-height: 90px;"]
+uagna.it##.progressier-install-banner
 ubetween.com##.ast-recom-ad,[style^=" width:640px; height:90px;"],.ssId,div[style=" margin-top:10px;"],[class^="ad_"],.ad
 ubie.app##div[class^="Footer_appInstallBannerContainer"]
 ubmcmm.baidustatic.com

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-28 00:30:21 RPC
+! Updated: 2025-02-28 09:38:32 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12907,6 +12907,7 @@ byggahus.se##.dropdownShare
 byjusexamprep.com##div[class^="post_articleMain"] > div.db-l.fixed
 bykvu.com##.article-share-box
 bylancer.com##.share-buttons-icons
+bylena.com##.social-share-buttons
 bynogame.com##a[class*="-share d-flex "]
 bz-berlin.de##.article-sharing-box
 bz-berlin.de##.sharing-bottom
@@ -14818,6 +14819,7 @@ embetronicx.com##.ArevicoModal-bg
 emderzeitung.de##.nfy-detail-content > .nfy-media-group > a:not([onclick]):not([href*="comment"])
 emerce.nl##.m-article-info__data-share
 emergency-live.com##.widget_bs-social-share
+emisorasunidas.com##.shareoptions
 emlak365.com,kamugundemi.com,medyafaresi.com,chip.com.tr,hyser.com.ua##.post-socials
 emlakjet.com##div[data-ej-label="link_ilanipaylas"]
 emlakkulisi.com###modal
@@ -21128,6 +21130,7 @@ paratic.com##.yaziMobileShareButtonsWrapper
 paravi.jp,news.ntv.co.jp##.share-contents
 parentmood.com,travlerz.com,thefunpost.com##.gallery-share-container
 parents.com##.gigyaShareDirectApi
+parfemy-elnino.sk,parfimo.ch,parfimo.de,parfimo.at,lijepa.hr,parfimo.it,spleticna.si,parfimo.bg,parfimo.ro,parfimo.gr,parfimo.hu,parfemy-elnino.cz,elnino-parfum.pl##.StickyBar-item--social
 park.ajinomoto.co.jp##.wrapperShareBtn
 parkiet.com##.article__social-icons
 participaties.nl##.linkbar
@@ -24088,6 +24091,7 @@ thebrandage.com##.left > a.fb
 thebrandage.com##.left > a.li
 thebrandage.com##.left > a.tw
 thebridgechronicle.com,greaterkashmir.com,street-beat.ru##div[class^="social-share"]
+thebrighterside.news##.MuiBox-root:has(> div:only-child > button:only-child > span > svg[data-testid*="ShareIcon"])
 thechive.com##div[data-sumome-share]
 thecinemaholic.com##.cinemaholic-share
 thecity.nyc##.Navigation-items-social
@@ -25029,6 +25033,7 @@ ua.tribuna.com##div[class^="ContentCard_about__interaction-block_"]
 ua1.com.ua###socialModal
 uab.cat##.compartir
 uafootball.org.ua,playbuzz.com##.pb-share-bar
+uagna.it,wealthquint.com##.jl_sfoot
 uai.com.br###communit-box
 uai.com.br###shareTwitter
 uai.com.br##.align-items-center.mt-4-5.mb-3-5
@@ -25691,7 +25696,6 @@ wday.ru,kievpravda.com##.social-blocks
 wday.ru,maximonline.ru,ellegirl.ru,kudago.com##.quiz-share
 wdr.de,tagesschau.de##.modSharing
 wdwmagic.com##.zocial
-wealthquint.com##.jl_sfoot
 weather.com##.Footer--socialContainer--3z8CW
 weather.com##.ve-player_share-links
 weather.goo.ne.jp##.share_circle

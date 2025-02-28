@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-02-28 00:30:21 RPC
+! Updated: 2025-02-28 09:38:32 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25564,6 +25564,7 @@
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
 @@||usercentrics.eu^$domain=rts.ch
 @@||usercentrics.eu^$domain=villeroy-boch.fr
+@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=alternate.de|andrewgriffith.cpa|atv.at|bayer04.de|cambio-carsharing.de|dfbplay.tv|douglas.de|dr-beckmann.com|falke.com|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|hamburg-business.com|highsnobiety.com|hornbach.nl|immowelt.de|joyn.at|joyn.de|kicker.de|mbusa.com|meubelo.nl|meubles.fr|moebel.de|moebel24.ch|morenutrition.de|paketshop.myhermes.de|poco.de|postbank.de|prosieben.at|puls4.com|radiobob.de|ran.de|rts.ch|s-pankki.fi|salzburg.info|sat1.at|schlager.radio|sportdeutschland.tv|srf.ch|verivox.de|wetter.com
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=alternate.de|atv.at|bayer04.de|dfbplay.tv|douglas.de|dr-beckmann.com|falke.com|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|hamburg-business.com|highsnobiety.com|hornbach.nl|immowelt.de|joyn.at|joyn.de|kicker.de|mbusa.com|meubelo.nl|meubles.fr|moebel.de|moebel24.ch|morenutrition.de|paketshop.myhermes.de|poco.de|postbank.de|prosieben.at|puls4.com|radiobob.de|ran.de|rts.ch|s-pankki.fi|salzburg.info|sat1.at|schlager.radio|sportdeutschland.tv|srf.ch|verivox.de|wetter.com
 @@||usercentrics.eu^$script,xmlhttprequest,domain=muenchen.de
 @@||usercentrics.eu^$third-party,domain=festool.*|festoolcanada.com|festoolusa.com
@@ -25620,6 +25621,7 @@
 @@||zappo.fr/assets/plugins/bwp-minify/min/$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 @@||zernotesto.ru/assets/static/CookieNotification.*.css
+@@||ziffstatic.com^*/zdconsent.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|humblebundle.com|ign.com|nintendolife.com|purexbox.com|pushsquare.com|speedtest.net|timeextension.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||ziffstatic.com^*/zdconsent.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|humblebundle.com|ign.com|speedtest.net|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||zoominfo.com/_next/*/privacy-policy.json$~third-party
 a-hausverwaltungen.de,ec-planegg-geisenbrunn.de,fdp-mh.de,hausmeister-service-augsburg.de,konzog-immobilien.de,mcg-org.com,metatag.de,rechtsanwalt-bultmann.de,ristorante-la-dolce-vita.com,tennis-kempten.de##.DSbox
@@ -30710,8 +30712,8 @@ cheapoair.com###gdprWrap
 cheapsslsecurity.com##.popuphome
 cheaptickets.nl##.notificationContainer
 check.toys###COO
+check24.at,check24.es,check24.de#%#//scriptlet('trusted-click-element', 'a[class$="-cookie-consent-button-secondary"], a[onclick*="giveMarketingConsent"]', '', '1500')
 check24.de##+js(set-cookie, c24consent, f)
-check24.es,check24.de#%#//scriptlet('trusted-click-element', 'a[class$="-cookie-consent-button-secondary"], a[onclick*="giveMarketingConsent"]', '', '1500')
 check24.net##div[data-modal="cookie-wall"]
 CheckCookiePolicy*$domain=remixshop.com
 checkdomain.de###notifications-container
@@ -32501,6 +32503,7 @@ delfi.ee##div[class^="C-modal"]
 delfi.ee#%#//scriptlet('trusted-set-cookie', 'consent', '%7B%22functional%22%3A%7B%22consent%22%3Atrue%7D%2C%22analytical%22%3A%7B%22consent%22%3Afalse%7D%2C%22personalization%22%3A%7B%22consent%22%3Afalse%7D%2C%22geolocation%22%3A%7B%22consent%22%3Afalse%7D%2C%22ads%22%3A%7B%22consent%22%3Afalse%7D%7D')
 delfi.ee#%#//scriptlet('trusted-set-cookie', 'server_consent', '%7B%22functional%22%3A%7B%22consent%22%3Atrue%7D%2C%22analytical%22%3A%7B%22consent%22%3Afalse%7D%2C%22personalization%22%3A%7B%22consent%22%3Afalse%7D%2C%22geolocation%22%3A%7B%22consent%22%3Afalse%7D%2C%22ads%22%3A%7B%22consent%22%3Afalse%7D%7D')
 delfi.ee,fahrrad-xxl.de,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbezlimitu.pl,rolfsbuss.se,solresor.se,starcar.de,tandfonline.com##.modal-overlay
+delfi.ee,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbezlimitu.pl,rolfsbuss.se,solresor.se,starcar.de,tandfonline.com##.modal-overlay
 delfi.lt##div[class^="cookie-widget"]
 delfi.lv###cookiePolicyBlock
 delfinakia.gr###using-cookies
@@ -33309,8 +33312,6 @@ dpo-consulting.fr###POPUPS_ROOT
 dpp.cz##+js(set-cookie, consent_analytics_storage, denied)
 dpp.cz##+js(set-cookie, consent_is_cleared_20230908, true)
 dpp.cz##+js(set-cookie, consent_is_set, true)
-dpp.cz#$##template-container_cookie-consent { display: none !important; }
-dpp.cz#$#body { overflow: auto !important; }
 dr-gumpert.de###cookie_modal_container
 dr-schweizer-schubert.com,siebenbuergisches-museum.de,eckstein-bandoneon.de,oh-heilbronn.de,boehringer.net,schule-mainhardt.de,museumsfreunde.org##.screen-blocker
 dr-schweizer-schubert.com,siebenbuergisches-museum.de,eckstein-bandoneon.de,oh-heilbronn.de,boehringer.net,schule-mainhardt.de,museumsfreunde.org##body,html:style(overflow: auto !important; position: initial !important;)
@@ -33447,6 +33448,7 @@ dtsshop.de##div[id*="_bar_holder"]
 dtsshop.de##div[id*="_over_holder"]
 dtvp.de###cc
 duab.eu,duab.fi,duab.se##.css-pum9l9
+dublinhealthscreening.ie,eci.ie,wide-angle.nl,worldairlineawards.com,mailhilfe.de,lesfruitsetlegumesfrais.com,lbms.cz,atalmedial.nl,ahepaseniorliving.org,atw.jp,kallidus.com,abels.co.uk,mesterslagteren.dk,lyndonroofing.co.uk,raymond-weil.us,raymond-weil.com,ames-tools.co.uk,camra.org.uk,ukbrewerytours.com,sk-nic.sk,worldcupchampionships.com,arturofuente.com,protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi##+js(set-cookie, viewed_cookie_policy, yes, , reload, 1)
 dublininquirer.com##.-alert.-fixed.notice
 dublininquirer.com##.notice
 dubravka.sk###set-win-coo
@@ -33723,7 +33725,6 @@ ecfr.eu###footerr
 echa.europa.eu#%#//scriptlet('set-cookie', 'disclaimer', 'true')
 echevarne.com###note
 echinacities.com##.bottomPrivacyAll
-eci.ie,wide-angle.nl,worldairlineawards.com,mailhilfe.de,lesfruitsetlegumesfrais.com,lbms.cz,atalmedial.nl,ahepaseniorliving.org,atw.jp,kallidus.com,abels.co.uk,mesterslagteren.dk,lyndonroofing.co.uk,raymond-weil.us,raymond-weil.com,ames-tools.co.uk,camra.org.uk,ukbrewerytours.com,sk-nic.sk,worldcupchampionships.com,arturofuente.com,protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi##+js(set-cookie, viewed_cookie_policy, yes, , reload, 1)
 ecigarettedirect.co.uk###cookie-message-slide-in
 eclat.hpplus.jp##.popup_banner
 eclipsecomputers.com##.pagecookie
@@ -35013,6 +35014,8 @@ faelectronic.it##body > div[id*="cookie"]
 fahrplan.oebb.at#%#//scriptlet('trusted-click-element', '#CookieBtnWrapper .lyr_atomText, div[data-cookie-content="functional"] > input', '#HFS_CookieSelectChoice', '500')
 fahrplan.oebb.at,reiseauskunft.insa.de##[id^="HFS_CookieHint"]
 fahrrad-kuechler.de##.cookieHintVisible div[class*="cookie-hinweis"]
+fahrrad-xxl.at,fahrrad-xxl.de##.fxxl-cookie-mainmodal
+fahrrad-xxl.at,fahrrad-xxl.de##.modal-overlay
 fahrrad-xxl.de##.fxxl-cookie-mainmodal
 fahrrad-xxl.de##.fxxl-cookie-mainmodal, .modal-overlay
 fahrrad-xxl.de#%#//scriptlet('set-cookie', 'fxxl_erforderliche_cookies', 'true')
@@ -35211,7 +35214,6 @@ fega-schmitt.de#%#//scriptlet('set-cookie', 'cookieWarningSeen', 'true')
 fega-schmitt.de#@#.cookieWarning
 fehler-haft.de#%#//scriptlet('set-cookie', 'cookieerlaubnis', 'yes')
 fei.org###modal-gdpr
-feierabend.de,vrtranspoint.fi#@##cookie-banner
 feierstoff.de##+js(set-cookie, ga, false)
 feierstoff.de##+js(set-cookie, Hotjar, false)
 feierstoff.de##+js(set-cookie, mnd-cookie-accepted-feierstoffde-54, 1)
@@ -40143,8 +40145,8 @@ kbaur-gmbh.com##.alertbanner
 kbb.com.br,kbb.sapo.pt###KBBCookieNotifier
 kbc.be##.aem-trustarc__overlay
 kbc.be##.aem-trustarc__spinner
-kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl##.modal
-kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,press-shop.be,saunierduval.ro,saunierduval.at,awb.nl##body,html:style(overflow: auto !important; position: initial !important;)
+kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,press-shop.be##.modal
+kbhallen.dk,biker-boarder.de,loewenapothekebetzdorf.de,defence24.pl,roms-download.com,freeromsdownload.com,formation-industries-isere.fr,camaradeentreijuis.com.br,bergenlogistics.com,salmoiraghievigano.it,fluidui.com,duerbusch.de,puntocapsula.com,anais.digital,leso.at,cristobalbalenciagamuseoa.com,betriebsrat.de,unilink.pl,caminitodelrey.info,feiyr.com,napvoyages.fr,bulex.be,glow-worm.co.uk,press-shop.be##body,html:style(overflow: auto !important; position: initial !important;)
 kbs.co.kr##.chrome_pick
 kcprofessional.nl###optIn, #optIn ~ .reveal-modal-bg, .alert-box
 kcpu.gov.pl###theme-footer-fader
@@ -42489,6 +42491,7 @@ masmovilpanama.com##.toast-coockies
 masodomov.sk##.alert, #alert
 massivum.de##.cn_box
 massschuhmacherei.de,visitprocida.com##.privacywire-wrapper
+master-plus.com.ua,xfilesaversa.it,biosuplementacja.pl,receiveasms.com,honda.com.tr,siteplus.com,topbattery.cz,keepinguptodate.com,benq.eu##div[id^="cookie-"]
 masterinvendita.com,nuovenergiespa.it##.cboss_banner_container
 mastersintime.com##.bg-green-200
 mastersintime.pl##.bg-green-200
@@ -46169,6 +46172,8 @@ parcoursintegration.be##.container_priv_state
 parczoologiquedeparis.fr##.bloc-notifications-bottom
 parentclub.scot##.cookie
 parenting.pl,portal.abczdrowie.pl##.cookie-msg-box
+parfemy-elnino.sk,parfimo.ch,parfimo.de,parfimo.at,lijepa.hr,parfimo.it,spleticna.si,parfimo.bg,parfimo.ro,parfimo.gr,parfimo.hu,parfemy-elnino.cz,elnino-parfum.pl,dpp.cz#$##template-container_cookie-consent { display: none !important; }
+parfemy-elnino.sk,parfimo.ch,parfimo.de,parfimo.at,lijepa.hr,parfimo.it,spleticna.si,parfimo.bg,parfimo.ro,parfimo.gr,parfimo.hu,parfemy-elnino.cz,elnino-parfum.pl,dpp.cz#$#body { overflow: auto !important; }
 parfum-klik.*,parfum-klick.*,perfume-click.*,parfem-klik.cz,parfume-klik.dk,perfume-clic.es,profumo-clic.it,perfum-klik.pl,parfyme-klikk.no,perfume-clique.pt,parfyymi-klikkaus.fi,parfym-klick.se##div[id^="cookie"]
 paribu.com##.policies
 paris.fr##.paris-cookies-banner
@@ -51127,6 +51132,7 @@ startujemeweby.cz###lista
 startupmalta.com##.alert, #alert
 startupnamecheck.com##.snotify-confirm
 startuponline.hu###hncookiegdpr
+startups.com.br###consent-box-lgpd
 starwalk.space###button-actions-container ~ div
 starwalk.space##+js(set-local-storage-item, SWCOOKIESACC, 1)
 starwalk.space#%#//scriptlet('set-cookie', 'SWCOOKIESACC', '1')
@@ -51783,9 +51789,6 @@ symscooters.nl##.policy-window
 sync.me###cookies
 syncfusion.com###cookie
 synerghetic.net##.tracking-modal
-synlab.cz#$##cookieman-modal { display: none !important; }
-synlab.cz#$#.modal-backdrop { display: none !important; }
-synlab.cz#$#body { overflow: auto !important; padding-right: 0 !important; }
 synology.cn,synology.com##.syno_cookie_element
 synology.com###cookies_header
 synology.com##.syno_cookie_element
@@ -55560,6 +55563,9 @@ wierzynek.pl#?#.configMessages:has(a[href^="polityka-prywatnosci"])
 wiesbadener-kurier.de,wiesbadener-tagblatt.de#$##cookieNoticeModal { display:none!important; }
 wiesbadener-tagblatt.de#$#.is-reveal-open { position: absolute!important; }
 wiesenhof-online.de##.wsh-cookie-overlay
+wiesheu.de,synlab.cz#$##cookieman-modal { display: none !important; }
+wiesheu.de,synlab.cz#$#.modal-backdrop { display: none !important; }
+wiesheu.de,synlab.cz#$#body { overflow: auto !important; padding-right: 0 !important; }
 wifi-ooe.at,wifi.at#$##cookiePolicy { display: none !important; }
 wifi-ooe.at,wifi.at#$#body.modal-open .page-wrapper > :not(.modal) { opacity: 1 !important; }
 wifi-ooe.at,wifi.at#@##cookiePolicy
@@ -55972,7 +55978,6 @@ xenforo.info,cmteampk.com,macuser.de,head-fi.org,realitycheats.com,hobby-machini
 xenofit.de##.xenofit-cookiebar
 xentry.daimler.com##.xf-cookie-hint-color
 xfarma.it###overlay
-xfilesaversa.it,biosuplementacja.pl,receiveasms.com,honda.com.tr,siteplus.com,topbattery.cz,keepinguptodate.com,benq.eu##div[id^="cookie-"]
 xfree.com##+js(set-cookie, have18, 1)
 xfree.com#%#//scriptlet('set-cookie', 'have18', '1')
 xfree.com#%#//scriptlet('trusted-set-cookie', 'preference', 'necessary')

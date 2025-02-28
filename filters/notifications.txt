@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-02-28 00:30:21 RPC
+! Updated: 2025-02-28 09:38:32 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6015,7 +6015,7 @@ chcemelepsicesko.cz,autism-unlimited.org###cookie-cover
 cheapenergy24.de#%#//scriptlet('set-cookie', 'consented_cookie_types', '1')
 cheaperthandirt.com##.new-consent-banner:not(#style_important)
 cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.CustomerNotificationsWrapper
-check24.es,check24.de#%#//scriptlet('trusted-click-element', 'a[class$="-cookie-consent-button-secondary"], a[onclick*="giveMarketingConsent"]', '', '1500')
+check24.at,check24.es,check24.de#%#//scriptlet('trusted-click-element', 'a[class$="-cookie-consent-button-secondary"], a[onclick*="giveMarketingConsent"]', '', '1500')
 check24.net##div[data-modal="cookie-wall"]
 checkiant.com,belcantofund.com,obywatel.gov.pl##.cookie_agree
 checkmk.de###checkmkCookieNotice
@@ -7188,8 +7188,6 @@ dpgmediagroup.com###pg-shadow-root-host
 dplay.es,dplay.dk##div[class^="pageContainer-"] > dialog[class^="notification-"]
 dplay.no##dialog[class^="notification-"]
 dplay.se###app dialog[class^="notification-"]
-dpp.cz#$##template-container_cookie-consent { display: none !important; }
-dpp.cz#$#body { overflow: auto !important; }
 dr-gumpert.de###cookie_modal_container
 dr.dk##.drc-cookie-policy
 draco.de#%#//scriptlet("set-cookie", "cookiePermissionsSet", "true")
@@ -11609,6 +11607,7 @@ masmovil.es#$#div[data-hook="cookies-modal-container"] { display: none !importan
 masmovilpanama.com##.toast-coockies
 masrawy.com,yallakora.com###izooto-optin
 massschuhmacherei.de,visitprocida.com##.privacywire-wrapper
+master-plus.com.ua,xfilesaversa.it,biosuplementacja.pl,receiveasms.com,honda.com.tr,siteplus.com,topbattery.cz,keepinguptodate.com,benq.eu##div[id^="cookie-"]
 mastersportal.com###CookieWall
 materdomini.it#%#//scriptlet('trusted-click-element', '.wcc-btn-reject')
 material.io##mio-cookie-notice
@@ -13425,6 +13424,8 @@ parametric-architecture.com###elementor-popup-modal-61325
 paratic.com##.kvkk-frame
 paratic.com,xhamster.com##.bottom_message
 parenting.pl,portal.abczdrowie.pl##.cookie-msg-box
+parfemy-elnino.sk,parfimo.ch,parfimo.de,parfimo.at,lijepa.hr,parfimo.it,spleticna.si,parfimo.bg,parfimo.ro,parfimo.gr,parfimo.hu,parfemy-elnino.cz,elnino-parfum.pl,dpp.cz#$##template-container_cookie-consent { display: none !important; }
+parfemy-elnino.sk,parfimo.ch,parfimo.de,parfimo.at,lijepa.hr,parfimo.it,spleticna.si,parfimo.bg,parfimo.ro,parfimo.gr,parfimo.hu,parfemy-elnino.cz,elnino-parfum.pl,dpp.cz#$#body { overflow: auto !important; }
 parfum-klik.*,parfum-klick.*,perfume-click.*,parfem-klik.cz,parfume-klik.dk,perfume-clic.es,profumo-clic.it,perfum-klik.pl,parfyme-klikk.no,perfume-clique.pt,parfyymi-klikkaus.fi,parfym-klick.se##div[id^="cookie"]
 parismatch.com#$##didomi-host { display: none !important; }
 parismatch.com#$#html > body.didomi-popup-open { overflow: visible !important; position: static !important; }
@@ -15769,6 +15770,7 @@ startsmile.ru###access_cookie
 startspiele.de###eucc
 startujemeweby.cz###lista
 startuponline.hu###hncookiegdpr
+startups.com.br###consent-box-lgpd
 starwalk.space#%#//scriptlet('set-cookie', 'SWCOOKIESACC', '1')
 starwindsoftware.com###privacyPopup
 stat.gov.pl###polityka-ciastek
@@ -16088,9 +16090,6 @@ sylt.de,gelbeseiten.de,gasag.de##div[class^="cmpbox"]
 symbl.cc,unicode-table.com###js-cookie
 symbolab.com##.nl-cookiepolicy
 sympla.com.br##div[class^="BannerPrivacystyle"]
-synlab.cz#$##cookieman-modal { display: none !important; }
-synlab.cz#$#.modal-backdrop { display: none !important; }
-synlab.cz#$#body { overflow: auto !important; padding-right: 0 !important; }
 synology.cn,synology.com##.syno_cookie_element
 synology.com###cookies_header
 sys-team-admin.ru###policy-cookie
@@ -17992,6 +17991,9 @@ wien.info##.cookiedialog
 wierzynek.pl#?#.configMessages:has(a[href^="polityka-prywatnosci"])
 wiesbadener-kurier.de,wiesbadener-tagblatt.de#$##cookieNoticeModal { display:none!important; }
 wiesbadener-tagblatt.de#$#.is-reveal-open { position: absolute!important; }
+wiesheu.de,synlab.cz#$##cookieman-modal { display: none !important; }
+wiesheu.de,synlab.cz#$#.modal-backdrop { display: none !important; }
+wiesheu.de,synlab.cz#$#body { overflow: auto !important; padding-right: 0 !important; }
 wifi-ooe.at,wifi.at#$##cookiePolicy { display: none !important; }
 wifi-ooe.at,wifi.at#$#body.modal-open .page-wrapper > :not(.modal) { opacity: 1 !important; }
 wifi-ooe.at,wifi.at#@##cookiePolicy
@@ -18210,7 +18212,6 @@ xd2sketch.com#%#//scriptlet("set-cookie", "xd2sketch_cookies_accepted", "true")
 xda-developers.com###uniccmp
 xe.com#$##__next > div[class^="__variable_"] > div[style^="position:"] ~ div > section { position: absolute !important; left: -3000px !important; }
 xenforo.info,cmteampk.com,macuser.de,head-fi.org,realitycheats.com,hobby-machinist.com,safezone.cc##.notices--bottom_fixer
-xfilesaversa.it,biosuplementacja.pl,receiveasms.com,honda.com.tr,siteplus.com,topbattery.cz,keepinguptodate.com,benq.eu##div[id^="cookie-"]
 xfree.com#%#//scriptlet('set-cookie', 'have18', '1')
 xfree.com#%#//scriptlet('trusted-set-cookie', 'preference', 'necessary')
 xfreehd.com##.cookieAcceptBox
