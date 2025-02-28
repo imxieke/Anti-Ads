@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-28 16:26:58 RPC
+! Updated: 2025-03-01 00:27:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4795,6 +4795,7 @@ arteryex.biz##a[href="https://arteryex.biz/click-karte/"]
 article.auone.jp##.appeal__text-lower
 article.auone.jp,xnxx.com,xnxx-ru.com##.video-ad
 artsandculture.google.com##.iMnvWc
+arty-matome.com##div[style="padding-top: 10px; padding-bottom: 10px; margin-bottom: 30px; margin-top: 30px;background: whitesmoke;"]
 arukereso.hu##.mobile-application
 arzamas.academy##.ra__heading .ra__app__btns
 arzamas.academy#$#body { margin-top: 0! important; }
@@ -18183,6 +18184,7 @@ secretmine.net##div[id^="secre-"]
 seehd.co##.J_advert,.tac + table
 seehd.so##.header_wrap + .tac + table[align="center"]
 seehd.so##.tac + table
+seekingalpha.com##section[data-test-id="recommended-section"]
 seemh.com##div.top_banner,div.mtb16.cf,div[style][class="mt10"],div[class^="gg_"]
 seesaa.net###reload-ad-div-id
 sefon.pro##.body_header
@@ -18771,6 +18773,7 @@ solarbe.com##.RT_banner
 solarbe.com##a[href*="redirect"] > img[width^="3"]
 solarzoom.com##[class^="adv"]
 soluzionecomputer.it##.ai-viewport-3[data-code]
+solvetic.com##.mob-sticky-ad
 sondakika.com##.add_masthead
 sondakika.com#$##native_masthead_mobil { height: 0 !important; }
 songkick.com##.ad-primary-mobile

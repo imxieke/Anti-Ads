@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-28 16:26:58 RPC
+! Updated: 2025-03-01 00:27:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23696,6 +23696,7 @@ svt.se##.nyh_share--article
 svt.se##.sp-article__share > li > button.sp-icon-social-facebook
 svt.se##.sp-article__share > li > button.sp-icon-social-twitter
 svtv.org##.page-gas__social
+svtv.org##.post-fullpage__socials
 svtv.org##.quiz-test__socials-header
 svyaznoy.ru##.b-article-activity__socials-wrapper
 svyaznoy.ru##._socials
@@ -26645,6 +26646,7 @@ _social_footer_
 ||kraj.by/data/img/news/settings/subscribe/$image
 ||kstati.dp.ua/sites/default/files/banner_reclama/
 ||kukudas.com/skin/board/JBoard/img/sns_*.png
+||kuntarekry.fi/dist-standalone/dist/share-button-*.js
 ||kuroutoshikou.com/resource_k/img/h_snsarea_01.png
 ||lasmax.com.tr/images/fa.png
 ||lequipe.fr/_nuxt/Share.
