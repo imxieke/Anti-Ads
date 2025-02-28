@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-02-28 09:38:32 RPC
+! Updated: 2025-02-28 16:26:58 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2235,7 +2235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16860,9 +16860,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -34065,6 +34065,7 @@ _zhike.htm
 ||dependenttrip.com^
 ||deployads.com^
 ||depositphotos.pushwoosh.com^$important
+||derwbl.icu^
 ||derwesten.cleverpush.com^$important
 ||desertedbreath.com^
 ||desertedrat.com^
@@ -34174,6 +34175,7 @@ _zhike.htm
 ||dhl.135320.com^
 ||dhlh.org^
 ||dhnnbfok.icu^
+||dhonphehr.com^
 ||dhqp68.com^
 ||dhtdig.xyz/static/js/dht_default.js
 ||dhukul.com^
@@ -44061,6 +44063,7 @@ _zhike.htm
 ||nickhel.com^
 ||nickhel.com^$important
 ||niecarsg.com^
+||nievolmqn.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
 ||niftyjelly.com^
@@ -45460,6 +45463,7 @@ _zhike.htm
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
 ||pgdt.gtimg.cn^
 ||pge.unityads.unity3d.com^$important
+||pghglj.icu^
 ||pghwwjd.com^
 ||pglstatp-toutiao.com/obj^
 ||pglstatp-toutiao.com^
@@ -49085,6 +49089,7 @@ _zhike.htm
 ||sikapo.top^
 ||sikaq.top^
 ||sikncs.com^
+||sikvoilst.com^
 ||silentcredit.com^
 ||silentwrench.com^
 ||siliconslow.com^
@@ -50642,6 +50647,7 @@ _zhike.htm
 ||svc.analytics.nativeads.com^$important
 ||svc.mobilexsoft.com^$important
 ||svem.cc^
+||svjj.cn^
 ||svncowt.cn^
 ||sw.izooto.com^$important
 ||sw.pushengage.com^$important
@@ -52249,6 +52255,7 @@ _zhike.htm
 ||trk.wrinkads.com^$important
 ||trk45.onnur.xyz^$important
 ||trksontrks.com^$important
+||trohycv.top^
 ||tronkuks.com^
 ||troubleshade.com^
 ||trpyceq.cn^

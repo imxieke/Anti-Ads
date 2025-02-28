@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-02-28 09:38:32 RPC
+! Updated: 2025-02-28 16:26:58 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12873,6 +12873,7 @@ businesstoday.in,indiatoday.in##.rhs-fixwhtsapp
 businesstraveller.com##.article-share-outer
 businessua.com##.b-counter
 businessyee.com,goldderby.com,heraldodemexico.com.mx,pngtree.com,vidmore.com,passfab.ru,cooking.nytimes.com,kapook.com##.share-group
+busmagazine.bestcarweb.jp,bestcarweb.jp,media.bravegroup.co.jp,marieclairejapon.com,otonano-shumatsu.com##.article__sns
 butenunbinnen.de##.article-addons
 butternutbakeryblog.com##.right
 butterwithasideofbread.com###aboutsocial
@@ -18040,6 +18041,8 @@ kod.ru##button[class^="SharingBtn"]
 kod.ru##div[class^="Share_wrapper"] > div[class^="Share_linksBox"]
 kod.ru#?#.post > h5:contains(Поделись)
 kodami.it,lexplain.it,geopop.it##.js-share-toggle
+kodansha.co.jp##div[class^="detail_captionShareArea_"]
+kodansha.co.jp##div[class^="detail_share_"]
 koddostu.com##.koddostu-com-paylas
 kodiak.top#$#div.panel-share-networks { visibility: hidden!important; }
 kodik.info,roboin.io,u.pcloud.link,drtuber.com,pubs.acs.org,m.glavcom.ua,calmclinic.com,infobae.com##.share_button
@@ -19166,7 +19169,6 @@ medevel.com,omaha.com,diyetextra.com,tdn.com##.share-label
 media-polesye.com,lyrical-nonsense.com,samsungsvc.co.kr,eclipse.imperialsaga.jp,dogatch.jp,myfxbook.com,videacesky.cz###shareBtn
 media.auto.ru##.ReviewStickyHeader__share
 media.auto.ru##.Review__shareTitle
-media.bravegroup.co.jp,marieclairejapon.com,otonano-shumatsu.com##.article__sns
 media.moneyforward.com##.mp-sns-share-buttons
 media.mts.ru##.article-block__share
 mediaarea.net#@#.social-block
