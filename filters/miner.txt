@@ -1,6 +1,6 @@
 ! Title: Block Miner Filter
 ! Description: Block "Browser-based Crypto Mining".
-! Updated: 2025-03-01 09:43:40 RPC
+! Updated: 2025-03-01 16:24:33 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -242,7 +242,6 @@ $xmlhttprequest,domain=auroravid.to|dekoder.ws|powvideo.cc|powvideo.net|sorteosr
 ||hostcontent.live
 ||hostingcloud.party
 ||hostingcloud.racing
-||icemining.ca^$third-party
 ||igrid.org^
 ||ijfcm7bu6ocerxsfq56ka3dtdanunyp4ytwk745b54agtravj2wr2qqd.onion.pet^
 ||intelserviceupdate.com^
@@ -267,7 +266,6 @@ $xmlhttprequest,domain=auroravid.to|dekoder.ws|powvideo.cc|powvideo.net|sorteosr
 ||mine.terorie.com^$third-party
 ||minemytraffic.com^$third-party
 ||miner.nablabee.com^
-||miner.nimiq.com^$third-party
 ||minerad.com^
 ||minero-proxy-*.now.sh^$third-party
 ||minexmr.com^$third-party
@@ -284,14 +282,8 @@ $xmlhttprequest,domain=auroravid.to|dekoder.ws|powvideo.cc|powvideo.net|sorteosr
 ||netflare.info^$third-party
 ||nfwebminer.com^$third-party
 ||nim.sh^$third-party
-||nimiq.agency^$third-party
-||nimiq.jp^$third-party
-||nimiq.network^$third-party
 ||nimiq.surf^$third-party
-||nimiq.terorie.com^$third-party
-||nimiq.watch^$third-party
 ||nimiqchina.com^$third-party
-||nimiqpool.com^$third-party
 ||nitrokod.com^
 ||notmining.org^$third-party
 ||offerreality.com^$third-party
@@ -308,9 +300,6 @@ $xmlhttprequest,domain=auroravid.to|dekoder.ws|powvideo.cc|powvideo.net|sorteosr
 ||roastedvolt.net^$third-party
 ||rocks.io^$third-party
 ||scaleway.ovh^
-||seed-*.nimiq-network.com^$third-party
-||seed-*.nimiq.com^$third-party
-||seed-*.nimiq.network^$third-party
 ||serie-vostfr.com^$third-party
 ||serv1swork.com^
 ||shrink-service.it/js/cM.js

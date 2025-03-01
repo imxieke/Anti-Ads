@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-01 09:43:40 RPC
+! Updated: 2025-03-01 16:24:33 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -8626,7 +8626,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16862,9 +16862,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -24970,6 +24970,7 @@ _zhike.htm
 ||aa.gushiwen.org^
 ||aa.online-metrix.net^$important
 ||aa.xiangxiangmf.com^
+||aa03010iiko.com^
 ||aa7bd76554cff2d93d33288d31aa6839.api.appsee.com^$important
 ||aa808.com^$third-party
 ||aa993366aa.com^$domain=9xav.cc
@@ -30211,6 +30212,7 @@ _zhike.htm
 ||bhelzun.com^
 ||bhlianhe.com^
 ||bhmedia-tagan.adlightning.com^$important
+||bhohreatz.com^
 ||bhovrath.com^
 ||bhukkeks.com^
 ||bi-analytics.cloudapp.net^$important
@@ -35184,6 +35186,7 @@ _zhike.htm
 ||eeaczcf.icu^
 ||eeeqi.cn^
 ||eefcdn.com/promotion/module/module.
+||eelkeageg.com^
 ||eepw.com.cn/event/action/rightbd/microchip*.js
 ||eepw.com.cn/pub/js/TopFullScreen.js
 ||eeqweqw.fun^
@@ -39826,6 +39829,7 @@ _zhike.htm
 ||iyinghua.io/bar/
 ||iyisloo.top^
 ||iyjqgpo.top^
+||iyqbsst.top^
 ||iyuedu.cn.com^
 ||iyuwkbo.top^
 ||iyxdm.*/js/gad_
@@ -40620,6 +40624,7 @@ _zhike.htm
 ||kcokamid.top^
 ||kcxmsb.com^
 ||kcxsyz.com^
+||kczq.cn^
 ||kd06.com^
 ||kdamcsd.top^
 ||kdbhvi.xyz^
@@ -41200,6 +41205,7 @@ _zhike.htm
 ||lecai.com/page/zhuanti/baidu/
 ||ledlocket.com^
 ||ledollull.com^
+||ledwtz.icu^
 ||lee789.com^
 ||leeenterprises-tagan.adlightning.com^$important
 ||leeleo.top^$third-party
@@ -47529,6 +47535,7 @@ _zhike.htm
 ||ritzykey.com^
 ||ritzyrepresentative.com^
 ||ritzyveil.com^
+||riym.cn^
 ||rj.m.taobao.com^$important
 ||rjsos.com/channel/laomo_dibu.png
 ||rjwpwod.icu^
@@ -49319,6 +49326,7 @@ _zhike.htm
 ||sltrib-d.openx.net^$important
 ||slv1.lavanetwork.net^$important
 ||sm-campaign.s3-us-west-2.amazonaws.com^$important
+||sm-cloud.yunsafe.top^
 ||sm-tc.cn^
 ||sm.cn/adclick
 ||sm.cn/conn
@@ -54287,6 +54295,7 @@ _zhike.htm
 ||wrongwound.com^
 ||wrsikq.xyz^
 ||wrtb-nj.lfstmedia.com^$important
+||wrth.cn^
 ||wrutvnce.top^
 ||wryfinger.com^
 ||ws-api.adtech.de^$important
@@ -55802,6 +55811,7 @@ _zhike.htm
 ||zcck60eqyw.world^
 ||zcdsp.com^
 ||zcfhi.cn.com^
+||zcnmjb.icu^
 ||zcnnn.com^
 ||zconfig.alibabausercontent.com^
 ||zcoup.com^
