@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-02 00:23:10 RPC
+! Updated: 2025-03-02 09:46:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12654,6 +12654,9 @@ news.at#@#.optanon-alert-box-wrapper
 news.at,profil.at#$#.optanon-alert-box-wrapper { display: none!important; }
 news.at,profil.at#$#body { overflow: visible!important; }
 news.at,profil.at#$#html { overflow: visible!important; }
+news.bitcoin.com##.blveUW:has-text(Read in App)
+news.bitcoin.com##.cwDafx:has-text(Continue in the Bitcoin.com App)
+news.bitcoin.com##.kBQmzn.sc-gMKojc
 news.gamebase.com.tw,richards.com.br##.cookieAgree
 news.google.com#?#header[role="banner"] > div:has(> div > div > span[style="color:#ffffff"] + a[role="button"])
 news.mail.ru##.tooltip_width_huge

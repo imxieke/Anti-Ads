@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-02 00:23:10 RPC
+! Updated: 2025-03-02 09:46:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -984,7 +984,6 @@
 ###catapult-cookie-bar
 ###ca_banner
 ###ca_info_plus
-###cb-cookie-banner
 ###cb-cookie-holder
 ###cb-cookieoverlay
 ###cb-cookie_consent
@@ -13725,7 +13724,6 @@
 ##.cookies-div
 ##.cookies-div-footer
 ##.cookies-elixregtech
-##.cookies-es-container
 ##.cookies-eu
 ##.cookies-eu-banner
 ##.cookies-eu-bg
@@ -27005,6 +27003,7 @@ aok.de#$?#dialog[data-module="cookie-manager-dialog"] { remove: true; }
 aol.com,engadget.com,yahoo.com,techcrunch.com###consent-gpc-popUp
 aol.de##.m-user-consent, #alerts-policy
 aorus.com###policy-div-m
+aosom.*##.cookies-cons
 aosom.*##.cookies-es-container
 apacer.com###cookie_lightbox
 apara.com.tr,anews.com.tr,harpersbazaar.com.tr,minikacocuk.com.tr,minikago.com.tr,724dinle.com,takvim.com.tr,atvavrupa.tv,paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
@@ -43880,8 +43879,6 @@ muenzenwert.de###callout
 mugo.pl###cookiesTermsModal
 muji.eu###cokbar
 mujionline.eu###cokbar
-mujkaktus.cz##.gdpr-component
-mujkaktus.cz##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 mujnuz.cz##div[id*="cookie-modal"]
 mulesoft.com##.gdpr-row, .gdpr.show
 mulinobianco.it##.mb_cookie
@@ -52837,6 +52834,7 @@ timefmtoronto.com###guacBg2
 timeline.com#?#body > div > div[class]:has(> div > div.branch-journeys-top > div[class] > div[class] > div[class] > a[href^="https://policy.medium.com/medium-privacy-policy-"])
 timeout.com#$#.cookie_banner { display: none!important; }
 timeout.com#$#body { overflow: visible!important; }
+timeoutdoors.com##+js(set-cookie, CMSCookieLevel, 1000, , reload, 1)
 timepad.ru##.ccookie-consent
 timepartner.com###cookiesettings
 timeshop24.de,wer-weiss-was.de###cookie_hint
@@ -57576,7 +57574,6 @@ _eu_cookie_
 ||mrf.io/cmp/
 ||msendpointmgr.com/wp-content/plugins/responsive-cookie-consent/includes/js/scripts.js
 ||mujkaktus.cz/kaktus-theme/js/gdpr-component-
-||mujkaktus.cz/kaktus-theme/js/gdpr-component-v2.js
 ||multitronic.fi/en/ajax/getConsentForm/
 ||myanimelist.net/js/cmp.js
 ||mymuesli.com/assets/js/modules/Default/Static/Consent.js
