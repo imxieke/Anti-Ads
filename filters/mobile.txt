@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-02 09:46:13 RPC
+! Updated: 2025-03-02 16:23:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2235,7 +2235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8626,7 +8626,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16862,9 +16862,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30213,6 +30213,7 @@ _zhike.htm
 ||bhlianhe.com^
 ||bhmedia-tagan.adlightning.com^$important
 ||bhohreatz.com^
+||bhoscopop.com^
 ||bhovrath.com^
 ||bhukkeks.com^
 ||bi-analytics.cloudapp.net^$important
@@ -30313,6 +30314,7 @@ _zhike.htm
 ||bima.weathercn.com^
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 ||bimlocal.com^$important
+||bimnodstz.com^
 ||bing001.shop^
 ||bing003.shop^
 ||bing005.shop^
@@ -36089,6 +36091,7 @@ _zhike.htm
 ||ffcdn3.featureforward.com^$important
 ||ffcdn4.featureforward.com^$important
 ||ffdafx.xyz^
+||ffjevt.icu^
 ||ffmobi.com^
 ||fftf-host-counter.herokuapp.com^$important
 ||ffxcam.fairfax.com.au^$important
@@ -37139,6 +37142,7 @@ _zhike.htm
 ||gmso12271oka.top^
 ||gmtdmp.mookie1.com^$important
 ||gmthub.g2afse.com^$important
+||gmwqpgq.top^
 ||gmxysb.icu^
 ||gnyuhzd.icu^
 ||go-clicks.de^$important
@@ -44499,6 +44503,7 @@ _zhike.htm
 ||odipsumk.top^
 ||odm.nielsen.com^$important
 ||odr.mookie1.com^$important
+||odxh.cn^
 ||oeryt111.fun^
 ||oewa.at^$important
 ||oewabox.at^$important
@@ -47484,6 +47489,7 @@ _zhike.htm
 ||rhythmmoney.com^
 ||rhythmnewmedia.com^$important
 ||rhythmrule.com^
+||rhzofr.icu^
 ||rhzvlcu.xyz^
 ||ri-v3.presage.io^$important
 ||riaway.com/statics/idea.jpg
@@ -54367,6 +54373,7 @@ _zhike.htm
 ||wuliao.chzsport.cn^
 ||wuliao.epro.sogou.com^
 ||wuliao.juqingba.cn^
+||wumd.cn^
 ||wumii.cn/ext/relatedItemsWidget
 ||wumii.cn^
 ||wumii.com^
