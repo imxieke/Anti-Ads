@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-03 09:40:33 RPC
+! Updated: 2025-03-03 16:28:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -8626,7 +8626,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16864,7 +16864,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -27406,6 +27406,7 @@ _zhike.htm
 ||ailalbapt.club^$important
 ||ailamtrieuphu.com^$important
 ||aili.com^$third-party
+||aillaeuyn.com^
 ||ailoganalyticsportal-eus.cloudapp.net^$important
 ||aim4media.com^$important
 ||aimadigital.com^$important
@@ -33370,6 +33371,7 @@ _zhike.htm
 ||csdsa22.fun^
 ||csfds000.fun^
 ||csg99.com/17mb/script/vcnhitro.js
+||csgola.com/Public/img/lala/1.jpg
 ||cshlgg.com^
 ||csi.gstatic.com^
 ||csi.gstatic.com^$important
@@ -34228,6 +34230,7 @@ _zhike.htm
 ||differentdesk.com^$important
 ||difficultfog.com^
 ||difhil.icu^
+||difzhd.icu^
 ||dig.chouti.com/advert
 ||dig.qbao.com^
 ||dig.zjurl.cn^
@@ -36219,6 +36222,7 @@ _zhike.htm
 ||flimsycircle.com^
 ||flimsythought.com^
 ||flippedfunnel.com^
+||flixfiend.top^
 ||flo.uri.sh/visualisation/14819166/embed?auto=$subdocument,domain=tw.news.yahoo.com
 ||floodprincipal.com^
 ||floodprincipal.com^$important
@@ -44831,6 +44835,7 @@ _zhike.htm
 ||opx-winners-us-east-1-rtb.adroll.com^$important
 ||opx-winners-us-west-2-rtb.adroll.com^$important
 ||oqaejin.icu^
+||oqea.cn^
 ||oqidsgkq.com^
 ||oqipegjz.icu^
 ||oqnkur.icu^
@@ -45733,11 +45738,13 @@ _zhike.htm
 ||pjdthz.xyz^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjtime.com/js/show_ad
+||pjwk.cn^
 ||pk-gmtdmp.mookie1.com^$important
 ||pk840.com^
 ||pkk1.zuimeiniwo.com^
 ||pklujb.xyz^
 ||pks.a.mobimagic.com^$important
+||pkvjrb.icu^
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
 ||pkyjuc.cn^
@@ -49223,6 +49230,7 @@ _zhike.htm
 ||singtrack.info^$important
 ||singular.net^$important
 ||sinkbooks.com^
+||sinkrersf.com^
 ||sinoa.com^$important
 ||sinolub.com/data/js$script
 ||sinolub.com/index.php?m=poster&
@@ -53274,6 +53282,7 @@ _zhike.htm
 ||vastx.moatads.com^$important
 ||vasy.clickmoileclito.com^$important
 ||vatzxd.xyz^
+||vaykjwn.top^
 ||vbaof.admaster.com.cn^$important
 ||vbiakpu.icu^
 ||vbllxaaj.icu^
