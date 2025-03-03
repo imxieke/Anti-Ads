@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-03 00:23:05 RPC
+! Updated: 2025-03-03 09:40:33 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16383,6 +16383,7 @@ greatnorthernrail.com,southernrailway.com##.c-footer--social
 greatpicture.ru,igate.com.ua##.dialog-bg
 greenbot.com##.social_panel
 greenbuildingadvisor.com##.article__social
+greenbuildingadvisor.com,tvpworld.com##.article__social
 greenhills.si##.fusion-sharing-box
 greenlemon.me##div[class="socail_share_area row"]:not([id])
 greenmangaming.com#@#.btn-share
@@ -24968,6 +24969,8 @@ tvp.pl##.vod-page__video-socials
 tvp.pl,tvp.info##.facebook-paragraph
 tvp.pl,tvp.info##.social-article__social
 tvpparlament.pl,tvp.pl#?#.article__left > .article__content > .article__icons:has(> .article__icons-item > .icon-small-fb)
+tvpworld.com##.article__icons
+tvpworld.com##.header__socials
 tvrus.eu##.menu-icons
 tvrus.eu##.telegram-banner
 tvtorrent.me##.news_btn
