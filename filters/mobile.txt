@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-03 16:28:08 RPC
+! Updated: 2025-03-04 00:25:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2542,6 +2542,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.*.js|$script,third-party,domain=159i.com|thisav.com
 ://xingkong6688s.oss-
+://yandex.ru/appcry|
 :1010/openV5.js
 :11211/t.js?MAC=
 :12289/o.js$script,third-party
@@ -13805,6 +13806,10 @@ m.hoyolab.com#%#//scriptlet('set-local-storage-item', 'closedAppHeader', '1')
 m.hoysport.tv##.van-floating-bubble
 m.huanqiu.com##.ad_all
 m.huffpost.com###aol-banner
+m.humoruniv.com###pnut_ad_bottom
+m.humoruniv.com##.bg0:has(div > img[height="200"][width="300"])
+m.humoruniv.com##div[style="min-height:100px;"]
+m.humoruniv.com##tr > td:has(> div[id] > div[style] > img[src="/images/zdr.gif"])
 m.hungryapp.co.kr###popUP_ZONE
 m.hungryapp.co.kr##.Mibox_down
 m.hurriyet.com.tr##.container > div[style*="text-align: center"][style*="margin-bottom: 20px"]
@@ -15407,6 +15412,7 @@ myday.com.tw##.myday_ad_left
 myday.com.tw##.myday_ad_right
 mydealz.de##.browserExtension-promotionBanner
 mydealz.de##.cept-banner-id-204
+mydealz.de##.js-threadList  > .hide--fromW3
 mydealz.de##.listLayout-main > div[class^="hide--from"]
 mydigit.cn##.radi
 mydigit.cn##.txtMes
@@ -18346,6 +18352,8 @@ shuba.life##.c-aside--30x25
 shufazidian.com##a[href^="https://weidian.com/"]
 shufoo.net###info-top-bnr
 shufoo.net###sectionAppInfo
+shufoo.net##.__sp_floatingBanner
+shufoo.net##.__sp_footerBanner
 shufuse.com##div[class^="footer-app-promo"]
 shulink.com##.er_g
 shulou.cc##.content_ad
@@ -20589,7 +20597,6 @@ v4p.co##iframe[SRC^="http://fans.bestvogue.com/fans/"]
 v5bjq.com##.ad-Shrink,.ad960-90,.ad336-280,.gg810,.gg-wrap
 v6p.co##iframe[SRC^="http://fans.bestvogue.com/fans/"]
 vafuli.com,v5gege.com##[id^="text-"],div.ad-widget,div[id^="jtheme-ad-"]
-valorantns.com##.ad_sp
 valyuta.com###bannerParent
 vanceai.com##.install-app
 vandaaginside.nl##.qlf-promo-footer[promotype="promofooter"]
@@ -20790,6 +20797,7 @@ vpser.net##.ab_cpb
 vpser.net##.ab_cpr
 vpser.net##.ab_textlink1,.ab_pip,.az_pip
 vpser.net##.az_pip,.az_textlink1,.ac_pip
+vr18.jp,valorantns.com##.ad_sp
 vr186.com##a.infotextkey > img
 vse-shutochki.ru##body > div[class="hidden-desktop post"]
 vseinstrumenti.ru##a[widget-type="download_app"]
