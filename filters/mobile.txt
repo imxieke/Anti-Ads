@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-04 00:25:37 RPC
+! Updated: 2025-03-04 09:39:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16737,6 +16737,7 @@ people.com.cn##.zh_left
 peoplematters.in##.sphere-link
 pepco.hu,pepco.pl,pepco.eu,pepco.sk,pepco.cz,pepco.ro,pepco.hr,pepco.lt,pepco.si,pepco.lv,pepco.ee,pepco.bg##a[href="applikacio"]
 peple.com.tr##.footer-top
+pepper.pl##div[class*="hide--fromW"] > .bRad--a:has(> .ad--bg)
 pepper.pl#?#.js-threadList > .js-banner:has(img[alt$="-App"])
 pepper.ru##div[data-track*="app_installs_banner"]
 perekrestok.ru#%#//scriptlet('trusted-click-element', 'button.app-banner-close', '', '800')
