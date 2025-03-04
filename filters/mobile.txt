@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-04 16:24:55 RPC
+! Updated: 2025-03-05 00:26:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14216,6 +14216,8 @@ m.tsargrad.tv#?#.article > div.article__footer:has(> div[class^="smi24_"])
 m.tsargrad.tv#?#.article > div.article__footer:has(> div[id^="smi_teaser_"])
 m.tsargrad.tv#?#.article > div.article__footer:has(> div[id^="unit_"])
 m.tsumanne.net##object[data*="/ad.html"]
+m.tub5exer.com##.advertising
+m.tub5exer.com##.info-holder > center
 m.tubewolf.com##.block-ads > .banner
 m.tubewolf.com##.block-ads > b
 m.tubewolf.com#@#.block-ads
@@ -14572,6 +14574,7 @@ maplestage.com##div[class*="-page-module__ad728Holder___"]
 maplestage.com##div[class*="-page-module__right"] > div > div[style="margin-bottom:20px;padding:16px 10px;box-sizing:border-box;width:100%;background-color:#eee;border:1px solid #ddd;text-align:center;"]:first-child:not([class]):not([id])
 maps.google.com##div[jsaction*="promotion"]
 maquia.hpplus.jp##.SP_headerbanner
+maquia.hpplus.jp##.SP_inarticle
 marca.com#$#.js-mobile-banner { display: none !important; }
 marca.com#$#.js-mobile-banner:not(:empty) + .super-menu-header { top: 0 !important; }
 marieclaire.com.tw##.adInnerMpu
@@ -16255,7 +16258,10 @@ okinilove.com###fixed_footer
 okkazeo.com###ftbn
 okkazeo.com,jbpress.ismedia.jp,news.abplive.com##div[style="min-height:280px;"]
 okkisokuho.com##.article-list-outer-f:has(> div.article-list > h2 > a[href*="/index.php?cpno="])
+okwave.jp##.adfunnel.adfunnel_special_box
+okwave.jp##.qa_detail > div[style="min-height: 250px;"]
 okwave.jp##aside[class*="adfunnel_special_box_amp"]
+okwave.jp##aside[class^="adfunnel ad_qa_"]
 olch.biz###wrapper > header + div.wrapInner
 olch.biz##.container_banner
 olch.biz##.pla
@@ -16376,7 +16382,6 @@ op.gg##.vm-placement,[class^="ads"]
 op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##div[class^="css-"] > div[class^="css-"]:has(> div > div.vm-placement)
-op.gg##div[class^="css-"]:has(> div:not([class]):empty)
 op.gg##header a[href^="https://itunes.apple.com/"]
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 opb.org##.overlay-cta
@@ -18148,6 +18153,7 @@ scotsman.com,sunderlandecho.com##.slab--bottommobilebanner
 scribd.com##.auto__doc_page_webpack_view_in_store_promo
 scribd.com##.page_wrapper > div[class] > a[href^="https://www.scribd.com/oauth/signup?doc_id="][target="_blank"]
 scribd.com##.page_wrapper > div[class] > div[class]:has(> #scribd_mobile_pushdown-pushdown-cls:only-child)
+scribd.com##div[style] > a[href^="https://www.scribd.com/oauth/signup"]:has(> span[style^="position:absolute;"])
 scsjgjj.com###floatinfo
 scsn.cn##img[style^="height:70px;width:"]
 scw98.com##[id^="IndexAD"],#TopAD,.ArticleAD,#RightPicAD,.ArticleContentBaiduAD
@@ -18988,6 +18994,7 @@ sportsbull.jp##.haruko_promotion-banner
 sportsbull.jp#$##post-content-container.noevent a { pointer-events: auto !important; }
 sportsbull.jp#$#.single-more-container { display: none !important; }
 sportscn.com##[class$="ads"],[class^="ad"],[height="160"],[height="50"],.bnr,#topbanner
+sportsinjuryclinic.net###media_image-10
 sportsnavi.ht.kyodo-d.jp##.sn-modAd
 sportsnavi.ht.kyodo-d.jp,sports.yahoo.co.jp,baseball.yahoo.co.jp,soccer.yahoo.co.jp##.sn-modBanner
 sportsv.net##.adv01
@@ -22522,6 +22529,7 @@ zerohedge.com##iframe[src^="//www.dianomi.com"]
 zestolu.cz,osobnosti.cz##div[class^="mobile-"]
 zetflix-online.*,zeflix.online##noindex > div[id]:has(> div > a[href="https://zetflix.app/"])
 zetflix.zone##.app-block
+zexy.net###kikaku_tklp_banner_generalTop
 zgjm.org##[class^="ad_c_"]
 zglww.net##.tool
 zgpingshu.com##[class^="ad250"],[class^="ad1000"]

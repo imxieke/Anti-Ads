@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-04 16:24:55 RPC
+! Updated: 2025-03-05 00:26:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10822,6 +10822,7 @@
 51015kids.eu##.facebook_hidden
 538.nl##div[data-testid="socialShare"]
 543life.com##div[class^="sns_area"]
+5589.jp,jimdofree.com##.j-sharebuttons
 58b.tv##.likebox
 610cktb.com##.share-tools__wrapper
 610cktb.com#@#.share-tools
@@ -11963,7 +11964,6 @@ atn.ua##.penci_facebook_widget
 atoananet.com.br##.footer-redes-sociais
 atoananet.com.br##.header-redes-sociais
 atoananet.com.br##.link-compartilhar
-atomi-sc.jimdofree.com##.j-sharebuttons
 atorus.ru###block-share
 atozmath.com##a[onclick^="shareH("]
 atptour.com##.icon-email
@@ -12917,6 +12917,7 @@ c-sharpcorner.com##.cotent-share-icon
 c.mi.com##.thread-share-btn
 c5n.com##.news-headline__info-wrapper
 cabconmodding.com##.FloatingContainer
+cabedelo.pb.gov.br##.containerNewspaper-social
 cablegratis.online##iframe[src="https://canal.cablegratis.online/aviso/face.php"]
 caclubindia.com#?#h1 + div.row > div[class] > div#details_share:upward(1)
 cacm.acm.org##.fav_bar > a#sendByEmail
@@ -14363,6 +14364,8 @@ doga.hikakujoho.com##.page-sns-box
 dogruhaber.com.tr##.post--social
 dogrulukpayi.com##.social.share.column
 dogruses.com##div[style="margin-left:80px; margin-top:15px; overflow:hidden; height:37px;"] > div.header_float_genel
+doisongphapluat.com.vn##.button-social
+doisongphapluat.com.vn,nuvid.tv,nexusmods.com,rusvideos.day,nuvid.com,m.vz.ru,zaycev.net,gentside.com,gentside.de,gentside.co.uk,gentside.com.br,esgentside.com,maxisciences.com,ohmymag.com,ohmymag.de,ohmymag.com.br,ohmirevista.com##.button-share
 dokariery.pl,zielonalinia.gov.pl##.mediashares
 dokoiku.club,tomoyuki65.com,pointtown.com,geekdays.jp,hidebusa1.com,fruitfulenglish.com,mamastar.jp,smatu.net,usimaru.net,chimolog.co,kurume-it.ac.jp,bita.jp,worldometers.info,softantenna.com##.sharewrap
 doktornakanoblog.com###st-page > .sns
@@ -20670,7 +20673,6 @@ nurse24.it##.toolbar
 nutella.com#@#.socials
 nutraingredients-asia.com,nutraingredients-latam.com,nutraingredients-usa.com,nutraingredients.com##.Detail-share
 nutraingredients-asia.com,nutraingredients-latam.com,nutraingredients-usa.com,nutraingredients.com##.Follow
-nuvid.tv,nexusmods.com,rusvideos.day,nuvid.com,m.vz.ru,zaycev.net,gentside.com,gentside.de,gentside.co.uk,gentside.com.br,esgentside.com,maxisciences.com,ohmymag.com,ohmymag.de,ohmymag.com.br,ohmirevista.com##.button-share
 nv-online.info#?#.td-post-content > h4:contains(Поделиться)
 nv.ua##.article__footer_share
 nv.ua##.article__footer__additional_share
@@ -22667,6 +22669,8 @@ scribd.com##.share_document_wrapper
 scribd.com##.sharing_actions
 scribd.com##.sharing_btn
 scribd.com##button[data-e2e="doc-actions-share-button-sticky_metadata_column"]
+scribd.com##div[style] > section:has(> h2[data-e2e="share-document-title"])
+scribd.com##ul[data-e2e="doc-actions-container"] > li:has(> button[data-e2e="doc-actions-share-button-mobile_metadata"])
 scribd.com#@#.social_wrapper
 scribol.com##.qa-placement-share-bar
 scrippsnews.com##.subheader
@@ -24322,6 +24326,7 @@ thesportstak.com##.items-center > div.items-center:has(> svg[width="47"] > g[id^
 thesportstak.com##.items-center > div.ml-auto:has(> svg.cursor-pointer > circle[cx="18"])
 thesportster.com##a.sharing-btn
 thesslstore.com##.ampforwp-social-icons
+thestandard.co##.hidden-xs:has(> iframe[src^="https://www.facebook.com"])
 thestar.co.uk,portsmouth.co.uk,notion.so,businessinsider.de,sports.ru,oscars.org,planeta.pl##.social-share
 thestrad.com##.contentWrapper .pageOptions > ul:not(.pageOptions_right)
 thestrayferret.co.uk,lenta.com##div[class^="Sharing_"]
