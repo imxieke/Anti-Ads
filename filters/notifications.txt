@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-05 09:39:21 RPC
+! Updated: 2025-03-05 16:27:16 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5136,6 +5136,7 @@ betterhelp.com#?#.theme-betterhelp > div[role="dialog"]:has(> div > a[href="/pri
 bettersafe.at#$##cookiebar { display: none !important; }
 bettersafe.at#$#body.disable-scrolling { overflow: visible !important; }
 bettersafe.at#@##cookiebar
+bettertires.com,leibniz.com#%#//scriptlet('set-cookie', 'consent', '1')
 betterworldbooks.com###gdprCookieNotice
 beurer-shop.de,rosenthal.de,juweliere-kraemer.de,casio-shop.eu,allywebsite.com,yourdictionary.com,ladenzeile.de###gdpr_banner
 beuth.de,din.de##.bwr-cookie
@@ -5262,6 +5263,7 @@ bis.gov.lv#$#body #cookie_warning { display: none !important; }
 bis.gov.lv#$#body { overflow: auto !important; }
 bis.gov.lv#@##cookie_warning
 bischoff-verlag.de###fbpixelNote
+bistro.sk,pyszne.pl,justeat.it,just-eat.*##pie-cookie-banner
 bistum-muenster.de,vitos.de##.cc-tool
 bisu.com.tr##footer ~ #toast
 bitbucket.org,msn.com##.optanon-alert-box-wrapper
@@ -10393,7 +10395,6 @@ kadinlarbilir.com###root > button[class*="_StyledCookieConsentButton-"]
 kadinlarbilir.com##.cookie-consent-jolt
 kaft.com###cookie-policy-band
 kaggle.com#%#//scriptlet('set-cookie', 'ACCEPTED_COOKIES', 'true')
-kagoshima-kankou.com,crossroadfukuoka.jp,nagasaki-tabinet.com,my-kagawa.jp,iyokannet.jp,niigata-kankou.or.jp,kanko-miyazaki.jp##.common-gdpr-box
 kahhve.com##.gizlilik-politikasi-modal
 kaida-fish.ru##.custom_message
 kaidee.com##div[data-testid="cookie-consent-prompt"]
@@ -10616,9 +10617,6 @@ knuddels.de###root div[style^="position: relative; display: flex;"] > div[class^
 knuddels.de#?#div[class]:has(> div[style="background-repeat: no-repeat;"] > img[alt="Cookie"])
 knx.org,dauphin.de,dauphin-group.com,trendoffice.com,kliniken-heidenheim.de##.cookie-bar-wrapper
 koalay.com###k-cookie
-koberger-hamburg.de,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#body[class].ccm-blocked { overflow: auto !important; }
-koberger-hamburg.de,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#html[class].ccm-blocked { overflow: auto !important; }
-koberger-hamburg.de,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$?#.ccm-root { display: none !important; }
 koblenz.de,medtronic-diabetes.ru##.cookies-disclaimer-wrapper
 kobo.com##.gdpr-consent-wrap
 kobo.com##div[data-testid="privacy-banner"]
@@ -11018,7 +11016,6 @@ lego.com#%#//scriptlet('trusted-set-cookie', 'LEGO_COOKIE_SETTINGS', '{"preferen
 lego.com#?##__next aside[class^="Modalstyles__Container"]:has(> div[aria-label="Cookie Settings"])
 lego.com#?#body > div[data-focus-lock-disabled="false"]:has(> div div[data-test="cookie-modal-content"])
 leguide.com##.popup_policies
-leibniz.com#%#//scriptlet('set-cookie', 'consent', '1')
 leibniz.com#@#.cookie-box:not(body):not(html)
 leibniz.de#@##cookieModal
 leibniz.de#@#.cookieCompliance
@@ -11713,7 +11710,6 @@ mediapart.fr##.cc-cookie-consent-banner-modal
 mediapart.fr##.gateaux-secs
 mediapart.fr#$##js-cc-modal { display: none !important; }
 mediapart.fr#$#html { overflow-y: auto !important; }
-mediarado.de,barax.de###es-cookie-solution
 mediaset.it###cookieConsentApp
 mediasphera.ru###cknt
 mediately.co###__next > div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > a[href$="/docs/privacy"])
@@ -12829,6 +12825,7 @@ nortonlifelock.com###ensConsentWidget
 norwegian.com#%#//scriptlet('trusted-set-cookie', '_nasStorageConsent', 'all=False&analysis=False&marketing=False&v=1')
 nos.nl###ccm_notification_host
 nostter.app,todtv.com.tr,cryptonews.com,duellinksmeta.com##.cookieConsentWrapper
+notebook.de,koberger-hamburg.de#%#//scriptlet('trusted-click-element', '.ccm--decline-cookies')
 notebookreview.com,businessinsider.fr##div[id^="sp_message_id"]
 notebooksbilliger.de###focus-lock-id
 notice.sp-prod.net#%#//scriptlet('trusted-click-element', 'button.message-component:last-child')
@@ -13544,6 +13541,7 @@ pccwglobal.com,consoleconnect.com###cc-overlay
 pcelite.pl#%#//scriptlet('trusted-click-element', 'div[consent-blocker-connected] a[role="button"]', '', '1000')
 pcgames.de#%#//scriptlet('hide-in-shadow-dom', 'div[class*="src-components-basic-popup__overlay"]')
 pcgarage.ro###ckieselect_i
+pcking.de,mediarado.de,barax.de###es-cookie-solution
 pcland.hu###cookie_figyelmeztetes
 pcland.hu##.cookieNoticeBox
 pclooptvast.nl###WGzqwaqbvy
@@ -14220,7 +14218,6 @@ pxhere.com,wallhere.com##.policy-info
 pyroweb.de#@#.cookie-notice:not(body):not(html)
 pyroweb.de,senec.com#$##klaro { display: none !important; }
 pyroweb.de,senec.com#$#body { overflow: visible !important; }
-pyszne.pl,justeat.it,just-eat.*##pie-cookie-banner
 pz-news.de,gsmchoice.com,mgsm.pl##.cookieBackground
 pzgolf.pl###infoCookieWrapper
 pzpn.pl##.viia-cookie
@@ -15208,6 +15205,7 @@ shemalemodelstube.com###termly-code-snippet-support-banner
 sherbrookerecord.com##[href^="https://apps.apple.com/ca/app/the-record-news/"]
 sherwoodmedia.com,robinhood.com#%#//scriptlet('set-cookie', 'gdpr_consent', '1')
 shiftdelete.net##body > efilli-layout-dynamic
+shikoku-tourism.com,kagoshima-kankou.com,crossroadfukuoka.jp,nagasaki-tabinet.com,my-kagawa.jp,iyokannet.jp,niigata-kankou.or.jp,kanko-miyazaki.jp##.common-gdpr-box
 shiksha.com##.cokkie-lyr
 shimadzu.de#@##cookie_policy
 shimizu-group.co.jp,ovago.com,lingvanex.com,home.pl,samsung.com##.js-cookie
@@ -16907,6 +16905,9 @@ treblezine.com#$#.newsletter-popup { display: none !important; }
 treblezine.com#$#html { overflow: auto !important; padding-right: 0 !important; }
 trec.pl#?#body > div[id][class] > div > div > div > a[href="/ciinfoclick/?rejected"]:upward(4)
 tredy-fashion.de#%#//scriptlet("abort-current-inline-script", "jQuery", "synchronizeCookieNoteCookies")
+treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#body[class].ccm-blocked { overflow: auto !important; }
+treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#html[class].ccm-blocked { overflow: auto !important; }
+treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$?#.ccm-root { display: none !important; }
 trekitt.co.uk###GDPRCookieBox
 trekstor.de###cookieNoticeBox
 trello.com##.gdpr-cookie-consent-banner

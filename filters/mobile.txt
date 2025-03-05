@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-05 09:39:21 RPC
+! Updated: 2025-03-05 16:27:16 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -3054,10 +3054,12 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bfn.today/min/*/js/jquery.smartbanner.js
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
+@@||bilinovel.com^$generichide
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bingfeng.tw/source/plugin/unadblock/*_ads_*.js
 @@||bitauto.com/bglogpostlog.js
 @@||blackmod.net^$generichide
+@@||blog.6ziz.com^$generichide
 @@||blog.ztjal.info^$generichide
 @@||bnet.163.com^
 @@||bokecc.com/flash/playlog?
@@ -3683,7 +3685,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=allb.game-db.tw|battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|radioviainternet.nl|real-sports.jp|slideplayer.com|sudokugame.org|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=as-selection.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dthforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
@@ -8628,7 +8630,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -20234,6 +20236,7 @@ tvyb03.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 tw.appledaily.com##.THISISANADHERE
 tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
+tw.live##.fsk-window-film
 tw.mobi.yahoo.com###overlayRegion
 tw.news.yahoo.com###mrt-node-Lead-1-Ad
 tw.news.yahoo.com###sda-LDRB-iframe
@@ -23365,7 +23368,6 @@ _zhike.htm
 ||1905/openad_swf_plugin.swf
 ||1909.me/upload/ad/
 ||192.151.218.66^$third-party
-||192.luyouwang.com^
 ||194.59.220.161^
 ||194007.com/4058.gif
 ||19534.redirect.appmetrica.yandex.com^$important
@@ -37723,6 +37725,7 @@ _zhike.htm
 ||hbopenbid-sg.pubmatic.com^$important
 ||hbopenbid-sgc.pubmatic.com^$important
 ||hbopenbid.pubmatic.com^$important
+||hbxmdf.icu^
 ||hbzjht.com^$third-party
 ||hc360.com/images/14826/289x90.jpg
 ||hc360.com/js/*hezuo.js
@@ -41711,6 +41714,7 @@ _zhike.htm
 ||ltxs.me/js/wap.js
 ||lu.sogou.com^
 ||lu.sogoucdn.com^
+||lu2.luyouwang.com^
 ||lu228.com/ajs/
 ||lucazepa.com^$important
 ||lucidmedia.com^$important
@@ -44412,6 +44416,7 @@ _zhike.htm
 ||oiuuuc.xyz^
 ||ojimtyk.top^
 ||ojj258.com^
+||ojmv.cn^
 ||ojvpigx.xyz^
 ||ok5.fun^
 ||okagcw.xyz^
@@ -52267,6 +52272,7 @@ _zhike.htm
 ||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com
 ||tw.c.appier.net^$important
 ||tw.jav321.com^$popup,domain=ucptt.com
+||tw.live/assets/images/fsk-0*.webp
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||tw.rd.yahoo.com^$image
 ||twamjb.cn^
@@ -52514,6 +52520,7 @@ _zhike.htm
 ||uiqjcpt.cn^
 ||ujian.cc^
 ||ujimtyt.top^
+||ujmz.cn^
 ||ujovcb.cn^
 ||uk-ads.openx.net^$important
 ||uk.ads.justpremium.com^$important
