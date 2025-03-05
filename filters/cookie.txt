@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-05 00:26:38 RPC
+! Updated: 2025-03-05 09:39:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16953,7 +16953,6 @@
 ##.js-cookie-holder
 ##.js-cookie-iframe
 ##.js-cookie-iframe:not(body):not(html)
-##.js-cookie-info
 ##.js-cookie-info:not(body):not(html)
 ##.js-cookie-infomation
 ##.js-cookie-information-popup
@@ -17010,7 +17009,6 @@
 ##.js-CookieBanner
 ##.js-cookiebanner-wrap
 ##.js-CookieBanner:not(body):not(html)
-##.js-cookiebar
 ##.js-CookieCompliance
 ##.js-CookieCompliance:not(body):not(html)
 ##.js-cookieComply
@@ -17033,7 +17031,6 @@
 ##.js-cookieloop
 ##.js-cookieMessage
 ##.js-cookieMessage:not(body):not(html)
-##.js-cookiemodal
 ##.js-cookieNote
 ##.js-cookieNote:not(body):not(html)
 ##.js-cookieOverlay
@@ -19754,6 +19751,7 @@
 ##.sp-dsgvo-popup-overlay
 ##.sp-gdpr-cookie-notice-wrapper
 ##.sp-m-cookies-container
+##.space-around-cookie-consent-container
 ##.space-cookie-notice
 ##.spCookieNotice
 ##.spd-cookie
@@ -26865,6 +26863,7 @@ androidpolice.com#$#body { overflow-y: auto !important; }
 androidpolice.com#$#html { overflow: visible !important; }
 androidpolice.com#$#main ~ .adsninja-ad-zone ~ .adsninja-ad-zone ~ div[class][style*="z-index"] { display: none !important; }
 androidsis.com##.machete_cookie_container
+andromede-cms.com,any.run,bienpreter.com,codesandbox.io,corporate.freedompay.com,derslig.com,dervit.cz,foxsports.com.mx,givesendgo.com,gmanetwork.com,goldplay.it,hellochefs.es,home.s.id,jackbox.tv,kirchberg.ch,knihobot.cz,liu.se,localidautore.it,modeliukai.lt,ndsas.sk,openresearchlab.org,rogold.live,sardynkibiznesu.pl,soleretriever.com,trakt.tv,tutotoons.com,velostreet.com,whitebit.com,whoisxmlapi.com,yodayo.com,zeno.fm,zitadel.com###cc-main
 andromede-cms.com,any.run,bienpreter.com,codesandbox.io,corporate.freedompay.com,derslig.com,dervit.cz,foxsports.com.mx,givesendgo.com,gmanetwork.com,goldplay.it,hellochefs.es,home.s.id,jackbox.tv,kirchberg.ch,knihobot.cz,liu.se,localidautore.it,modeliukai.lt,ndsas.sk,openresearchlab.org,rogold.live,sardynkibiznesu.pl,soleretriever.com,trakt.tv,tutotoons.com,velostreet.com,whitebit.com,whoisxmlapi.com,yodayo.com,zitadel.com###cc-main
 androprice.com.ua##.f-cookies
 andsafe.de###andsafe-cookie-consent
@@ -28953,6 +28952,7 @@ birchbox.es##div[class*="CookieNotice"]
 bird-sounds.net,british-birdsongs.uk,canti-uccelli.it,canto-pajaros.es,chant-oiseaux.fr,deutsche-vogelstimmen.de,fuglelyder.net,fuglestemmer.dk,glosy-ptakow.pl,vogelgeluid.nl,xn--fgelsng-exae.se,xn--lintujen-net-ocba.net###CookiePopup
 bird.com##.framer-1zan27-container
 birdpix.nl,nederpix.nl#@#.cookieAccept
+birimfiyat.net##.cerezMesaj
 birkenstock.com#$#.body.ui-dialog-position-fixed { overflow: auto !important; touch-action: unset !important; }
 birkenstock.com#$#.privacy-overlay { display: none !important; }
 birkenstock.com#$#body { position: relative!important; }
@@ -29602,6 +29602,7 @@ breakwaterit.co.uk,unternehmensregister.de,transparenzregister.de,bundesanzeiger
 breezometer.com##.contact-us + .popup
 breitbart.com#%#//scriptlet('trusted-click-element', 'div[title="Click to Accept"] > figure > p > button')
 brekz.fr###brekz_consent_cookiebar_popup
+bremboparts.com##.cookie-toast-wrap
 bremen.de##body > div.js-vue-app, body > #privacy-popup
 bremer-gewuerzhandel.de##.js--modal
 bremer-gewuerzhandel.de##[class*="heptacom--cookie-consent"]
@@ -38474,6 +38475,7 @@ huisjetehuur.nl###WGijgxkhjv
 huli.gr###cp
 human.ua,kocailem.com##.cookie-message-box
 humanic.net###privacyOverlay
+humanizeai.pro##div[class^="Components_cookies_container__"]
 humanoffice.pl###cookie_cointer
 humbersideairport.com###cookies
 humblebundle.com###eu-cookie-warning-banner
@@ -39331,6 +39333,7 @@ ioi.dk#%#//scriptlet('trusted-click-element', '#updateButton + .coi-banner__acce
 ioi.dk#@##CookieConsent
 iol.co.za###id-9
 iol.co.za###root > div[role="dialog"]
+iol.co.za##div[role="dialog"]:has(> div > p > a[href^="/privacy-policy"])
 iol.co.za##[data-dialog="true"]
 ionmobile.es###cookie_box ~ div.modal-backdrop
 ionos-group.com##.page-overlay
@@ -39418,6 +39421,7 @@ isa.org###simplemodal-container
 isa.org###simplemodal-container, #simplemodal-overlay
 isaca.org###isaca-consent-wrapper
 isarradweg.de#@#.CookieBar
+isarradweg.de,lilcat.com##+js(set-cookie, cookie-consent, accepted, , reload, 1)
 isathens.gr##.activebar-container
 isbank.co.uk,maximiles.com.tr,isbank.com.tr###cokieCover
 isbank.com.tr##.blogCookieCover
@@ -41564,7 +41568,6 @@ likewise.com##+js(set-cookie, cookieconsent_status, true)
 likeyouth.org##.policy-popup
 likumi.lv#%#//scriptlet('trusted-click-element', '#cookiescript_accept')
 likumi.lv#@##cookiescript_injected
-lilcat.com##+js(set-cookie, cookie-consent, accepted)
 lilienthal.berlin##.js--overlay
 lilies-diary.com##.lld-cookieconsentbanner
 lilly.com,lilly.it##.lds-cookie-consent
@@ -45400,7 +45403,7 @@ oi.com.br###cookie-fixed-banner
 oi.com.br##.active-cookie-bar
 oi.com.br##.info-bar, #root [class*="BannertContainer"]
 oi.com.br##div[class^="styles__BannertContainer-sc-"]
-oil-center.de#%#//scriptlet('trusted-click-element', '#consent-banner-btn-all')
+oil-center.de#%#//scriptlet('trusted-click-element', '#consent-banner-btn-all', '', '500')
 oil-center.de#@##consent-manager
 oipc.bc.ca##.clsPopupContainer
 oiplay.tv##.cookie-lgpd
@@ -46500,6 +46503,7 @@ perfluence.net##div[class^="CookieBlock_container"]
 perforce.com##.EUc
 performingarts.jpf.go.jp##.sgcc-main-wrapper
 perfumeriasavenida.com###cookiesAlertModal
+perfumesclub.*#%#//scriptlet('trusted-set-cookie', 'PreferenciasCookies', 'PermiteAnaliticas=false&PermiteMarketing=false')
 perfumesclub.com##.cookies
 pergeepker.hu,agyserkento.hu#@#.cookie-alert
 perimeterx.com#?##gatsby-focus-wrapper > div > aside:has(> p > a[href="/legal/privacy/"])
@@ -48217,7 +48221,6 @@ ratioform.it##.master_layout_data_privacy_wrapper_it
 ratp.fr#$##tarteaucitronAlertBig { display: none !important; }
 ratp.fr#$#html { overflow: visible !important; }
 ratp.fr#@##tarteaucitronAlertBig
-ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv###cc-main
 rauch-ft.com###overlay-bg
 rauch.cc##div[class*="js-cookie-note"]
 raumausbeute.de##.ec-notices
@@ -49551,10 +49554,9 @@ sconto.cz##.js-eu-co0k1es
 scoopwhoop.com###popupGdpr
 scooter-elettrici.it###gdpr-w, #gdpr-o
 scooter-system.fr##.avertissement
-scootertechno.com#$?#div[consent-skip-blocker] { remove: true; }
 scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
-scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#div[consent-skip-blocker] { display: none !important; }
 scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 scores24.live#?#body > div#root > div:last-child:has(> div > a[href*="/p-rules"])
 scoresaber.com##.sticky-footer
 scorpion.co##.sc-cookie-popup
@@ -52433,6 +52435,7 @@ teslawissen.ch#$#html { overflow: auto !important; }
 test-e-quiz.it#@##cookie-law-info-bar
 test-help.com##.ui-pnotify
 test-help.com##.ui-pnotify.stack-bottomleft
+testbericht.de#%#//scriptlet('trusted-click-element', 'button[data-role="necessary"]', '', '500')
 tester.userbrain.com,milvus.io,empathy.com,labs.epi2me.io##+js(set-cookie, CookieConsent, false)
 testfully.io##.cookie-modal
 testigo.pl###cp_wrap
@@ -54558,7 +54561,6 @@ vevor.ca,vevor.com,vevor.com.au,vevor.de,vevor.es,vevor.fr,vevor.it,vevor.mx,vev
 vezet.ru###banner_cookies_group
 vfl.dk###vcc_container
 vg247.com#@##onetrust-consent-sdk
-vgchartz.com,video.foxbusiness.com##.notification-banner
 vgmag.it,rgb.vn,pokeharbor.com,hdwalle.com,kolsuzkafasi.com,fmmods.com,dijitalgundem.net,teknotaci.com,nays.tr###rb-cookie
 vgn.de##.Cookie.output
 vgs2cv.be,woolet.co,retrosix.co.uk,margreiter-shop.de##.ec-notices__wrap
@@ -54639,6 +54641,7 @@ view.group.rwe,rwe.com#$#body.cb--active { overflow: visible !important; }
 viewsonic.com##.alert-dismissible
 viewsonic.com##body > .alert-dismissible
 viewsoniceurope.com##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
+viewstats.com,vgchartz.com,video.foxbusiness.com##.notification-banner
 vifa-recht.de###tracking-info
 viget.com##[class^="gpdr-banner__"]
 vigo-krankenversicherung.de###cwarning
@@ -56322,6 +56325,7 @@ yubico.com##.bottom-pop-up-container
 yubico.com##.cookie-notice-big
 yubico.com##.MuiSnackbar-root, #yubi-root > .bottom-pop-up-container
 yubo.live#?#body > script + div > div[class^="_"]:has(> button:contains(I agree))
+yuboto-telephony.gr#@##cookies_banner
 yucebasmakine.com.tr##.fadeInUp
 yuden.co.jp##[id^="yuden_gdpr"]
 yumisu.pl##.page-container > .notification-bar
@@ -56430,6 +56434,7 @@ zenhotels.com##.zen-privacypolicypopup
 zenith.gr###cookies
 zenmarket.jp###gdpr-terms-warning
 zennio.fr##.z-50
+zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv###cc-main
 zenpirlanta.com,bluediamond.com.tr,ddiamond.com.tr,lizaypirlanta.com,altinbas.com##.vnotify-container
 zensus2022.de#@##cookiebanner
 zentalk.asus.com#@##cookie-policy-info

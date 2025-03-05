@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-05 00:26:38 RPC
+! Updated: 2025-03-05 09:39:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31667,7 +31667,6 @@ _zhike.htm
 ||cdn.wo.cc/wo.js
 ||cdn.wootric.com^$important
 ||cdn.wpm.neustar.biz^$important
-||cdn.wtshare.com^
 ||cdn.wuyou.ca^
 ||cdn.xianliao.me^
 ||cdn.xiuting.cc/js/go016.js
@@ -36444,7 +36443,6 @@ _zhike.htm
 ||funoverbored.com^
 ||funoverflow.com^
 ||funpageexchange.com^$important
-||funpavo.com^
 ||funshipin.com/v1/js/footerhongbao.js
 ||fuoo1.top^$third-party
 ||furnstudio.com^
@@ -36650,7 +36648,6 @@ _zhike.htm
 ||games.ifeng.com^*.shtml?v=
 ||games.mobileapi.hupu.com/1/7.3.2/link/
 ||games.qq.com/playgame/gamesad/js/swfobject.js
-||games.tresensa.com^
 ||gamesites100.net^$important
 ||gamesites200.com^$important
 ||gamesitestop100.com^$important
@@ -37494,7 +37491,6 @@ _zhike.htm
 ||gw8.icu^
 ||gwallet.com^$important
 ||gwbnsh.net.cn/hd/unicom/ad.html
-||gwbudgetali.iymedia.me^
 ||gwk.adlibr.com^$important
 ||gwmserver.b-cdn.net^$important
 ||gwmserver.com^$important
@@ -42210,7 +42206,6 @@ _zhike.htm
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangalove.me/images/app_yuudou.png
-||mangomob.net^
 ||manhattan.leadforensics.com^$important
 ||manhuabei.com/assets/xiwang.js
 ||maniacalappliance.com^
@@ -44074,7 +44069,6 @@ _zhike.htm
 ||notification.lionmobi.com^$important
 ||notification.popads.net^$important
 ||notification.webengage.com^$important
-||notifiy.rtbuniverse.com^
 ||notify.adleadevent.com^$important
 ||notify.bugsnag.appstore.a2z.com^$important
 ||notify.bugsnag.com^$important

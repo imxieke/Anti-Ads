@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-05 00:26:38 RPC
+! Updated: 2025-03-05 09:39:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19116,6 +19116,7 @@ masterclass.com#?#span:contains(/^Share$/)
 masterduelmeta.com##.ssbc-button__link
 masterofmalt.com###SocialShareContainer
 mastersportal.com###SocialContainer
+mataiku.com,tsuyamaasahi.co.jp,korewaeroi.com,elog-ch.com,disc-keep.com,thanhnien.vn,oneplat.co.jp,playai.nu,howtravel-gourmet.com,ramenhuhu.com,live.doneru.jp,sabatech.jp,lotte.co.jp,9ketsuki.info##.social-top
 match-apps.jp##ul[class^="snsBox"]
 matchtv.ru##div[class*="NodeSocialButtonsComponent"]
 materializedview.io,blog.omnivore.app,read.engineerscodex.com##button[class*="frontend-components-NavbarShare"]
@@ -24829,7 +24830,6 @@ tsuisoku.com#?#.section-box:has(li.article-twitter) + nav.section-box
 tsunagujapan.com##.post-article_sns
 tsunagujapan.com##div[data-react-props*="Share"]
 tsurekano-anime.com,smbcnikko.co.jp,famitsu.com,crackberry.com,imore.com,rambler.ru##.share__list
-tsuyamaasahi.co.jp,korewaeroi.com,elog-ch.com,disc-keep.com,thanhnien.vn,oneplat.co.jp,playai.nu,howtravel-gourmet.com,ramenhuhu.com,live.doneru.jp,sabatech.jp,lotte.co.jp,9ketsuki.info##.social-top
 tt.com##.share-icon-field
 ttf.org.tr##.face-box
 ttf.org.tr#?#.icerik > div.right > div[class]:has(> div.facebook-box)
