@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-05 16:27:16 RPC
+! Updated: 2025-03-06 00:34:54 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9191,6 +9191,8 @@ forvo.com###fixed-banner-container
 fotor.com##div[class^="BtnOpenApp_btn"]
 fotor.com##div[class^="MobileToApp_goart_app_ad"]
 foursquare.com##.appButton
+fow.lol##.m_top_ad
+fow.lol##.neo_bottom_center > div[style="height:200px;"]
 fox-saying.com#?##sidebar__inner > #links-row-1 > .box.folder:has(> h4:contains(AD))
 fox-saying.com,jeremyfoodie.tw##.header_web_to_app__container
 fox-saying.com,jeremyfoodie.tw,pixnet.net##.web_to_app__container
@@ -14987,6 +14989,7 @@ mnw.cn##.mnw_960
 mnw.cn##.mnw_top_ads
 mo.fish##.list-item-content-ad
 mobafire.com##.view-guide__ad
+mobalytics.gg##main > div > div:has(> div > img[alt="Mobalytics"])
 mobalytics.gg##main > div[class]:has(> div[class] > div#poe-2-video-all-pages-mobile)
 mobalytics.gg#$##container > div[class^="m-"] > main[class^="m-"] > div[class^="m-"] + div > div[class^="m-"] + div[class^="m-"] { padding-top: 0px !important; }
 mobalytics.gg#?#div[class^="m-"]:has(> div[class^="m-"] > div[class^="m-"] > button[class^="m-"][style^="background-color:"] > span[class^="m-"])
@@ -15603,6 +15606,7 @@ navitime.co.jp###daiko-app
 navitime.co.jp###footer-app-dl-frame
 navitime.co.jp###kyujin-banner-offer-container
 navitime.co.jp###smartapp-banner-area
+navitime.co.jp###title-area ~ div[style*="height:"]
 navitime.co.jp##.app-download-footer-frame
 navitime.co.jp##.appli-japan-travel
 navitime.co.jp##.appli-link-pane
@@ -16260,7 +16264,8 @@ okinilove.com###fixed_footer
 okkazeo.com###ftbn
 okkazeo.com,jbpress.ismedia.jp,news.abplive.com##div[style="min-height:280px;"]
 okkisokuho.com##.article-list-outer-f:has(> div.article-list > h2 > a[href*="/index.php?cpno="])
-okwave.jp##.adfunnel.adfunnel_special_box
+okwave.jp##.adfunnel_special_box
+okwave.jp##.ad_qa_detail_bottom
 okwave.jp##.qa_detail > div[style="min-height: 250px;"]
 okwave.jp##aside[class*="adfunnel_special_box_amp"]
 okwave.jp##aside[class^="adfunnel ad_qa_"]
@@ -18866,15 +18871,6 @@ sp.nicovideo.jp##div[id$="BannerContainer"]
 sp.nijie.info###inter_background
 sp.nijie.info##.dlsite-big-index
 sp.nijie.info##.other-dojin
-sp.okwave.jp##.adfunnel.message-wrap
-sp.okwave.jp##.adfunnel_special
-sp.okwave.jp##.adfunnel_special_box
-sp.okwave.jp##.adfunnel_special_box_bottom
-sp.okwave.jp##.adfunnel_special_box_under
-sp.okwave.jp##.ad_list_bottom
-sp.okwave.jp##.ad_qa_detail_bottom
-sp.okwave.jp##div[style="min-height:428px;"]
-sp.okwave.jp#?#div[style] > aside[class^="adfunnel"]:upward(1)
 sp.uta-net.com###overlay_banner
 sp.uta-net.com##.ad-kashi-bottom2
 sp.uta-net.com##div[class^="_taxel_ad_article_"]
@@ -20975,7 +20971,7 @@ wear.jp###appAd
 wear.jp###app_info
 wear.jp###ftrAppDownload
 wear.jp##button > img[width="686"][height="264"]
-wear.jp#%#(()=>{try{"undefined"!=typeof sessionStorage&&sessionStorage.setItem('status_of_app_redirect_half_modal_on_coordinate_list','{"displayed":true}')}catch(e){}})();
+wear.jp#%#//scriptlet('trusted-set-session-storage-item', 'status_of_app_redirect_half_modal_on_coordinate_list', '{"displayed":true}')
 wear.jp#?##__next > div.bg-white > div.relative:has( p > a[href="/sp/app/download.html"])
 wear.jp#?##__WEAR__ROOT__ > div.relative > div[class^="border"]:has(> div.flex > div.flex-none > p > a[href="/sp/app/download.html"])
 wear.jp#?#.bg-gray-200:has(> div.bg-white a[href^="https://itunes.apple.com/jp/app/"])
