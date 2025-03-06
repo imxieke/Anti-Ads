@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-06 00:34:54 RPC
+! Updated: 2025-03-06 09:39:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14858,6 +14858,7 @@ michaelsan.livedoor.biz#?#.plugin-memo > div.side > a[href^="https://play.google
 microcontrol.cn###body > table[width="758"]
 microsoft.com###app-link-banner
 microsoft.com##.mwf-area-heading-ctas
+microsoft.com##.rail-cta-prefix-container
 microsoftedgewelcome.microsoft.com##.mobile-banner__unexpanded
 microsoftnews.msn.cn##div[class^="nativeAd-DS-card"]
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)

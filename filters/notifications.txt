@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-06 00:34:54 RPC
+! Updated: 2025-03-06 09:39:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12073,6 +12073,7 @@ mobilevikings.be#$#.cookieWall { display: none !important; }
 mobilevikings.be#$#.no-scroll { overflow: visible !important; }
 mobility.ch##.c-modal--cookie
 mobilitynews.pl##.politic__cookie
+mobisystems.com##div[class*="bottom-"]:has(> div > div > div > span#consent-learn-more)
 mobonline.com.br##body .x-lgpd-popup.is--active
 mod.io###achtung-overlay
 mod.io#%#//scriptlet('set-local-storage-item', 'cookies', '1')
@@ -13882,6 +13883,7 @@ pnas.org##.pop-notification
 pnas.org##.signup-alert-ad
 pneuhage.de##.site-blocker
 pneustore.com.br,quick.de,luluhypermarket.com,premio.de,mega.de###consent-management-alert
+pngtree.com##body > div > div:has(> button[data-huejs="usescookies-accept"])
 pobeda.aero#?##__next > div[style]:has(> div > p > a[href$="/privacy_policy"])
 pocketnet.app##.popup
 pocketnow.com##div[class^="a__sc"][style="z-index: 2147483647;"]
@@ -19022,7 +19024,6 @@ _eu_cookie_
 ||jimstatic.com/ckies.js
 ||jobup.ch/public/scripts/modern/chunk-cookie-consent-modal.*.js
 ||jouw.postnl.nl/widgets/cookie-widget/
-||js.pngtree.com/a3/static/UseCookies.*.js
 ||js.shiksha.ws/pwa/public/js/gdprcookiebannerwrapper.
 ||jubi.ai/buttonbot/$script,third-party
 ||kabelscheune.de/out/kabelscheune/src/js/mws-cookie-solution.min.js

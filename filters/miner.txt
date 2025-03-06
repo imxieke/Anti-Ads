@@ -1,6 +1,6 @@
 ! Title: Block Miner Filter
 ! Description: Block "Browser-based Crypto Mining".
-! Updated: 2025-03-06 00:34:54 RPC
+! Updated: 2025-03-06 09:39:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -281,7 +281,6 @@ $xmlhttprequest,domain=auroravid.to|dekoder.ws|powvideo.cc|powvideo.net|sorteosr
 ||nerohut.com^$third-party
 ||netflare.info^$third-party
 ||nfwebminer.com^$third-party
-||nim.sh^$third-party
 ||nimiq.surf^$third-party
 ||nimiqchina.com^$third-party
 ||nitrokod.com^

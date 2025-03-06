@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-06 00:34:54 RPC
+! Updated: 2025-03-06 09:39:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14071,6 +14071,7 @@ delo.ua##.c-post__tags + div.c-post__footer-row
 delovoymir.biz##.social_title_top
 delovoymir.biz##div[class^="block-article-social"]
 deltahost.ua#?#.row > div.col-md-6:has(> div.row > div.col-12 > div.heateor_sss_sharing_container)
+deltiasgaming.com##.outer-container
 demaskator24.pl##.componentsArticleTools > a.componentsArticleTools__button[title="Udostępnij!"]
 demilked.com##.twitter-share-button
 democracynow.org###story_social
@@ -14461,6 +14462,7 @@ drishtiias.com##.fixedButton_hand.mobile_view_only
 drishtiias.com##.float-sm
 drive.com.au,portafolio.co##div[class^="share-"]
 drive.ru#@#.article-social-container
+drive.weixin.qq.com#@#.shareWrapper
 drive2.ru##div[itemscope] > div[class]:has(> div.o-group > button[data-action="share.share"])
 drive2.ru#$#.c-share { position: absolute!important; left: -3000px!important; }
 driveplaza.com##.c-shareList
@@ -19402,6 +19404,7 @@ microsoft.com##.jetpack_widget_social_icons
 microsoft.com##.ocArticleFooterShareContainer
 microsoft.com##.pad-social
 microsoft.com##.social-footer-wrap
+microsoft.com##a[data-bi-ecn="Share"]
 microsoft.com##div[data-bi-an="social-share"]
 mid-day.com##.sharelink_act
 mid-day.com##.social-icons-inline
@@ -20223,6 +20226,7 @@ news.livedoor.com##.articleShareBtn
 news.ltn.com.tw##.add_fb
 news.m.pchome.com.tw##.share-all
 news.microsoft.com##.mt-social-links
+news.microsoft.com##.social-share-networks
 news.mingpao.com##.articlesharepart
 news.mit.edu##.news-article--share
 news.mtv.it##.socicon-container
@@ -25941,6 +25945,7 @@ woodmac.com##.nav-actions > .inline-block
 wordvbalab.com,ekilog.info,channel-jk.com###sns-group
 workingkeys.org##.onp-sl-outer-wrap
 workman.jp,parismatch.com,lejdd.fr,gelatopique.com,snidel.com,autosport.com.ru,sgpress.ru##.block-share
+world-nuclear-news.org##.share_buttons_cont
 world-of-gamers.net##.fpost-sh
 world-smartphones.com.ua##.socvid
 world.rugby##.social-share-reveal
