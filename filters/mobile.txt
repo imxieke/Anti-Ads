@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-06 16:26:29 RPC
+! Updated: 2025-03-07 00:26:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5564,7 +5564,6 @@ beauty.biglobe.ne.jp##.anchorAdBox
 beauty.hotpepper.jp##.nativeAppliArea
 beauty.oricon.co.jp##aside[style="text-align:center;margin-top:3px;min-height:100px; margin-bottom: 20px;"]
 beauty.rakuten.co.jp###footerPr
-beauty.yahoo.co.jp##.Top__bannerList
 beauty321.com##.pc_ads
 beautynation.jp#?#.m-aside-headline:has(> b.title:contains(AD))
 becorrect.com###extensionPopupPlaceholder
@@ -17984,6 +17983,7 @@ ruian.com##.gg_780
 ruian.com##div.wp.a_ht,a[href="http://job.ruian.com/"] > img,div.a_h,div.wp.a_t,span.z,span.y
 ruian.com##div[class^="gg_"]
 rule34.xxx##.fp-mobile
+rule34video.com##.mobile-box > .mobile-list:has(> li > a[href="https://www.spankurbate.com/"])
 rumusrumus.com,rumus.co.id##.closads
 runbt.cc##[href="http://uikkaj.koreatorrent.com/ "]
 rundschau-online.de##div[id^="mobile_"]
@@ -21825,6 +21825,7 @@ x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+x.z-z.jp##.gam-ad-inline
 x2twitter.com,savetik.co##.section-app-download
 x3cn.com###portal_block_12045
 x3cn.com##div[style="margin:3px auto"] + table

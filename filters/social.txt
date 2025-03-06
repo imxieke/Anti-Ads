@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-06 16:26:29 RPC
+! Updated: 2025-03-07 00:26:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13829,6 +13829,7 @@ customgames.ru##.pageContent div[data-widget-definition="share_page"] > div[clas
 customlife-media.jp##[class^="sns-panel"]
 cutestat.com##.content_sidebar > div.marginBottom_10 > div[style="height: 106px; overflow: hidden;"]
 cuty.me,gamco.online,mrgec.com,emxaw.com,cety.app,cutnet.net,exego.app,cutado.com,cutlink.net,cutsy.net,sankei.com,zakzak.co.jp,cutty.app,iza.ne.jp##.share-icons-container
+cutyion.com,jixo.online,exe-urls.com,cuty.me,evernia.site,gamco.online,olkuj.com,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net,cutado.com,cutlink.net##.share-icons-container
 cvetyportal.ru##div[class^="repost"]
 cvjm-hochschule.de###whatsApp
 cwbaltimore.com,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,kbsi23.com,kdsm17.com,raleighcw.com,star64.tv,wcti12.com,wpgh53.com,wtto21.com,wutv29.com##.sd-main-hero-social
@@ -18429,8 +18430,8 @@ lepoint.fr##.art-social > li.social-li:nth-child(3)
 lepoint.fr##.art-social > li.social-li:nth-child(4)
 lepoint.fr##.art-social > li.social-li:nth-child(5)
 lepoint.fr##.NavbarShareLinks
+lepoint.fr##.ShareLinks
 lepoint.fr##.social-sondage
-lepoint.fr,beauty.yahoo.co.jp##.ShareLinks
 lernu.net#@#input.vk
 lesacdechips.com##.social-sharing-bar
 lescienze.it,unica.it##.seguici

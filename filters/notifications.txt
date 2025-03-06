@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-06 16:26:29 RPC
+! Updated: 2025-03-07 00:26:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1945,7 +1945,7 @@
 /cookie-consent-manager.js
 /cookie-consent-tool/*
 /cookie-consent.
-/cookie-consent/*$domain=~geenstijl.nl|~argeweb.nl|~europa.eu
+/cookie-consent/*$domain=~geenstijl.nl|~argeweb.nl|~europa.eu|~linkedin.com
 /cookie-consent?
 /cookie-control.
 /cookie-disclaimer.
@@ -4765,6 +4765,7 @@ autoscout24.it,m.calciomercato.com,mygwork.com,prioritypass.com,similarweb.com,s
 autoscout24.nl,immobilienscout24.de##.cookie-layer-container
 autostadt.de###cookies-setting
 autostat.ru##.Cookie-consent-block
+autoteile-markt.de,lodz-airport.pl,gemini.pl,ilmonet.fi,wurth.fr,isybank.com,hausderbibel.ch,fredolsen.es,longchamp.com,skin79.de,interactivebrokers.co.uk,skin79-sklep.pl,skin79.sk,skin79.net,kicksmaniac.com,carolynspring.com,vileda.hu,vileda.de,aok.de,omg.de,eshop.idsbk.sk,pojezierze24.pl,highlight-led.de,schaecke.at,haloursynow.pl,atlasformen.hu,atlasformen.sk,atlasformen.cz,atlasformen.nl,atlasformen.co.uk,atlasformen.ch,atlasformen.pl,atlasformen.com,epiphone.com,mohrsiebeck.com,vileda.com,vileda.com.tr,bodensee-airport.eu,schnelltest-apotheke.de,gibson.com,bahlsen.com,mymoments.de,atlasformen.de,tui-ferienhaus.de,socradar.io,inselflieger.de,globalfamilydoctor.com,bmeia.gv.at,nichtraucherhelden.de,aldi-sued.de,sued.aldi-liefert.de,enirocentrum.pl,felix1.de,panoramafirm.pl,hofer.at,dizioneri.com,m.n11.com,wuerth.de,deutsches-ausschreibungsblatt.de,sued.aldi-liefert.de,xn--giant-dsseldorf-5vb.de##.modal-backdrop
 autoteiledirekt.de#$#.overlay { display: none !important; }
 autoteiledirekt.de#$#body { overflow: auto !important; }
 autoteiledirekt.de,autoersatzteile.de##.cookies-tooltip
@@ -7169,6 +7170,7 @@ donostiakultura.eus###NLC_textLayer
 donpealo.cz###cookieSimpleContainer
 donquijote.org###cookie-policy-consent
 donstroy.moscow##.d-cookie
+dontpad.com,myownconference.pl##.cookie-body
 dontpayfull.com##.cookies-gdpr
 doodle.com###d-cookiesWarning
 doodle.com###d-cookiesWarningAdsLayout
@@ -7322,7 +7324,6 @@ e-food.gr#%#//scriptlet('set-cookie-reload', 'accepted_cookies', 'true')
 e-hotelarz.pl#$##modal-rodo { display: none !important; }
 e-hotelarz.pl#$#body { overflow: visible !important; }
 e-ladestation.aldi-sued.de#@##onetrust-consent-sdk
-e-lenovo.gr###consent-window
 e-marine.ru##.fz-use-cookies
 e-news.world##div#ecl-notice
 e-okapy.cz###ctl00_ewpz1_mainTemplateCtrl_footer_FormCookiesManager1_pnCmNavBar
@@ -11257,7 +11258,6 @@ loblaw.ca##div[aria-label="Privacy policy message"]
 lobpreissuche.de,zsl-bw.de,gelsenkirchen.de,sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
 local.standard.co.uk##.alert-pad
 lockerroom.adidas.*#%#//scriptlet('trusted-set-cookie', 'adidas-team-consent', 'required-only')
-lodz-airport.pl,gemini.pl,ilmonet.fi,wurth.fr,isybank.com,hausderbibel.ch,fredolsen.es,longchamp.com,skin79.de,interactivebrokers.co.uk,skin79-sklep.pl,skin79.sk,skin79.net,kicksmaniac.com,carolynspring.com,vileda.hu,vileda.de,aok.de,omg.de,eshop.idsbk.sk,pojezierze24.pl,highlight-led.de,schaecke.at,haloursynow.pl,atlasformen.hu,atlasformen.sk,atlasformen.cz,atlasformen.nl,atlasformen.co.uk,atlasformen.ch,atlasformen.pl,atlasformen.com,epiphone.com,mohrsiebeck.com,vileda.com,vileda.com.tr,bodensee-airport.eu,schnelltest-apotheke.de,gibson.com,bahlsen.com,mymoments.de,atlasformen.de,tui-ferienhaus.de,socradar.io,inselflieger.de,globalfamilydoctor.com,bmeia.gv.at,nichtraucherhelden.de,aldi-sued.de,sued.aldi-liefert.de,enirocentrum.pl,felix1.de,panoramafirm.pl,hofer.at,dizioneri.com,m.n11.com,wuerth.de,deutsches-ausschreibungsblatt.de,sued.aldi-liefert.de,xn--giant-dsseldorf-5vb.de##.modal-backdrop
 loebbeshop.de#$##cookie-manager-window { display: none !important; }
 loebbeshop.de#$##cookie-manager-window ~ div.modal-backdrop { display: none !important; }
 loebbeshop.de#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -12435,7 +12435,6 @@ mymuesli.com#%#//scriptlet('trusted-click-element', '.tm-cookies-consent-accept'
 mynewsdesk.com###accept-page-cookies
 myniacin.com##.nx-popup
 myoutdoortv.com###privacy_terms_cookies
-myownconference.pl##.cookie-body
 mypalmshop.de#%#//scriptlet('set-constant', 'eCookiePopupDialog', 'emptyObj')
 mypalmshop.de#@##cookiePopup
 myphone.pl#%#//scriptlet('set-cookie', 'cookies-settings', '0')
@@ -13314,6 +13313,7 @@ ostrovok.ru##.zen-privacypolicypopup
 ostrovzdorovya.by,practicum.com,jush.pl##.t972__banner
 ostseebad-insel-poel.de##.stoerer_footer
 osu.cz###souhlas
+ot.gr,tvi.iol.pt,cnnturk.com,news.bg,lifestyle.bg,topsport.bg,hurriyet.com.tr,kanald.com.tr#%#//scriptlet('trusted-click-element', '.fc-consent-root .fc-footer-buttons-container > .fc-footer-buttons > .fc-cta-consent.fc-primary-button')
 otelo.de##.GlobalConsentBar
 otelo.de#$#body { overflow: visible!important; }
 otelo.de#$?#div[data-reactroot] > div > div.Lightbox:has(p.TextHeadline:contains(/^Cookies/)) { display: none!important; }
@@ -14885,6 +14885,7 @@ samfrew.com#%#//scriptlet('trusted-set-local-storage-item', 'gdpr_consent', 'acc
 samokat.ru##body > div.MuiBox-root:has(> p > a[href="https://samokat.ru/privacy"])
 samokat.ru,fingerprint.com,drbuho.com,onceupon.photo,socratesdergi.com,ati.su,librarius.pro,tesco.com##div[class^="CookieBanner"]
 samolet.ru##div[data-selector="cookie"]
+samplette.io,e-lenovo.gr###consent-window
 samsoe.com#$#.cookie-modal-container { display: none!important; }
 samsoe.com#$#.modal-backdrop { display: none!important; }
 samsoe.com#$#body { overflow: visible!important; }
@@ -17117,7 +17118,6 @@ tvgo.orange.pl###analyticsModal
 tvguide.com##body > div[x-enc][id^="-m_"][class^="-"]
 tvguide.com#@##onetrust-consent-sdk
 tvguru.ru##body > div.js-modal
-tvi.iol.pt,cnnturk.com,news.bg,lifestyle.bg,topsport.bg,hurriyet.com.tr,kanald.com.tr#%#//scriptlet('trusted-click-element', '.fc-consent-root .fc-footer-buttons-container > .fc-footer-buttons > .fc-cta-consent.fc-primary-button')
 tvlicensing.co.uk###tvlcookies-prompt
 tvnet.lv,postimees.ee##.notification--cookie
 tvnow.de##.privacydetectionbar
