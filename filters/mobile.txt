@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-06 09:39:34 RPC
+! Updated: 2025-03-06 16:26:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2235,7 +2235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3054,7 +3054,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bfn.today/min/*/js/jquery.smartbanner.js
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
-@@||bilinovel.com^$generichide
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bingfeng.tw/source/plugin/unadblock/*_ads_*.js
 @@||bitauto.com/bglogpostlog.js
@@ -3685,7 +3684,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=allb.game-db.tw|battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|radioviainternet.nl|real-sports.jp|slideplayer.com|sudokugame.org|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=as-selection.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dthforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
@@ -5761,7 +5760,6 @@ bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"]
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.to###yytf
 bilinovel.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'pagead2.googlesyndication.com')
-bilinovel.com#@#.ads_box
 bilyoner.com#%#//scriptlet('set-cookie', 'smartbanner-closed', 'true')
 bimiacg.net##.tuiguang
 binance.com##.ng-scope > div.download-fixed
@@ -7846,6 +7844,7 @@ donanimhaber.com##span[class^="open-with-app-"]
 donanimhaber.com#$#.uygulamayi-indir { visibility: hidden !important; height: 0 !important; }
 dongao.com##div[class^="fu_"]
 dongao.com,zgsyz.com###ad
+dongludi.top##.container > div[class="m-2"]
 dongtw.com##.adfixWp
 dongtw.com##.jeg_ad
 donnerwetter.de#?#div[class^="col-"] > div.prepend-top:has(> center > ins.adsbygoogle)
@@ -7886,6 +7885,7 @@ douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店�
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###js-fix-download
 douyu.com###js-live-room-recommend
+douyu.com###js-player-toolbar > .PlayerToolbar
 douyu.com###js-room-activity
 douyu.com###sign_p_1
 douyu.com##.ActPayDialog
@@ -7907,6 +7907,7 @@ douyu.com##.index-common-1-rrh
 douyu.com##.isLink[href^="https://igxe.cn/"]
 douyu.com##.layout-Main > section.layout-Customize
 douyu.com##.layout-Slide-banner:not([href*="douyu"])
+douyu.com##.liveActivityCommonPendant
 douyu.com##.noble-up-guide
 douyu.com##.PaladinPop
 douyu.com##.pendant-wrap
@@ -7925,6 +7926,7 @@ douyu.com##a[href^="http://tracking.ad-survey.com/"]
 douyu.com##div[class^="ChargeTask"]
 douyu.com##div[class^="recommendApp"]
 douyu.com##div[id^="sign_p_"]
+douyu.com#$##js-player-toolbar { height: 0 !important; }
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.wm-general:-abp-has(.link[href*=".tmall.com"])
@@ -16312,6 +16314,7 @@ omezame.biz,fuzoku-move.net##.sp_ad_box
 omio.*##div[id^="LpsContent-App"]
 omnitalk.com##td[bgcolor="#ffffc8"]
 omnitalk.com##tr[bgcolor="ffffc8"]
+omocoro.jp###banner-link
 omyy.com##.indexadv,[height="60"]
 on.cc##.appinstall
 on3.com##.adhesion
@@ -16883,9 +16886,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -19358,6 +19361,7 @@ taiwanus.net##td[width="900"] + td[width="320"]
 taizhou.com.cn##.duilian
 taizhou.com.cn##.duilian2
 takvim.com.tr,ahaber.com.tr##.application-widget
+talk.jp##div[class*="overlayWrapper_overlayWrapper"]
 talkfx.co###frameff1Hu9_left
 talkfx.co##.slidebox
 talkspace.com##.text-5
@@ -27465,6 +27469,7 @@ _zhike.htm
 ||aiyuke.com/position_js*_*_
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
+||aizhantj.com^
 ||ajaralarm.com^
 ||ajdivotdelbloab24.jio.com^
 ||ajffubz.xyz^
@@ -30298,6 +30303,7 @@ _zhike.htm
 ||bilibili.com/x/web-interface/archive/special/recommend?aid=
 ||bilibilijj.com/image/right_bottom.gif
 ||bilibilitool.site^
+||bilinovel.com/scripts/m7lk48m5hgztxn.
 ||billboard.cz^$important
 ||billboard.vungle.com^$important
 ||billowybead.com^
@@ -36292,6 +36298,7 @@ _zhike.htm
 ||fpdisplay.com/upload/n_ad/
 ||fpelfyeesuoivy.com^
 ||fpfbbn.xyz^
+||fpfhtr.icu^
 ||fpgonuk.icu^
 ||fpninv.xyz^
 ||fppcrl.xyz^
@@ -36379,6 +36386,7 @@ _zhike.htm
 ||frontier100-toutiao-lf.fqnovel.com^
 ||fronttoad.com^
 ||frqj.adrise.tv^$important
+||frthpp.icu^
 ||frugalfiestas.com^
 ||fs.moatads.com^$important
 ||fsclzs.com/Ad_User/
@@ -36970,6 +36978,7 @@ _zhike.htm
 ||gjapplog.uc.cn^
 ||gjapplog.uc.cn^$important
 ||gjhjjhgc.cn^
+||gjinuqg.top^
 ||gjjskhdnm.top^
 ||gjkkdashb4.fun^
 ||gjmedashb0.fun^
@@ -39573,7 +39582,6 @@ _zhike.htm
 ||is02041qqp.xyz^
 ||is02050qqp.xyz^
 ||is686.com^
-||is686.com^$third-party
 ||isboost.co.jp^
 ||iscrv.com^
 ||isdspeed.qq.com^
@@ -39716,6 +39724,7 @@ _zhike.htm
 ||ixkw3.cc/wp-content/themes/wpMyTube/assets/js/mobile.
 ||ixpub.net^*.js
 ||ixstng.cn^
+||ixtu.cn^
 ||iy.com.cn^$third-party
 ||iyes.youku.com^
 ||iyf.tv/a/$xmlhttprequest
@@ -41927,6 +41936,10 @@ _zhike.htm
 ||m.ithome.com/js/common/user-menu.min.js
 ||m.ithome.com/js/pwa^
 ||m.ithome.com/sw.min.js?v=
+||m.iyinghua.com/bar/guding.js
+||m.iyinghua.com/bar/yhdi.js
+||m.iyinghua.com/bar/yhding.js
+||m.iyinghua.com/js/js/historr.js
 ||m.jingyanlib.com/home/data/getRecList
 ||m.k1k.cc/wap/js/indexbottom.js
 ||m.kankanwu.com/js/
@@ -47652,6 +47665,7 @@ _zhike.htm
 ||ruyig.com/730x76.png
 ||rv-gateway.supersonicads.com^$important
 ||rva.outbrain.com^$important
+||rvgtaai.top^
 ||rvnaxwqe.icu^
 ||rvtest.media.eagleplatform.com^$important
 ||rvtfwryz.icu^
@@ -53496,6 +53510,7 @@ _zhike.htm
 ||vvvkp.com/template/ttk/img/
 ||vwhi.gou.sogou.com^
 ||vwvatp.xyz^
+||vwvj.cn^
 ||vxcp.de^$important
 ||vxcvd67.fun^
 ||vxdrfr.xyz^
