@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-07 00:26:35 RPC
+! Updated: 2025-03-07 09:40:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11981,6 +11981,7 @@ audacy.com##.component--share
 audi-mediacenter.com##div[class^="page-item--"][class$="-feed"]
 audi-sport.net##.shareButtons
 audi-sport.net,eurogamer.net,metacritic.com,trustedreviews.com,woodworkforinventor.com##.social_icons
+audi-sport.net,overtake.gg##.shareButtons
 audio-books.su##.full-news-soc
 audiobookbay.*#?##rsidebar li:has(> h2:contains(Share It))
 audiofilemagazine.com##.af-socialIcons
@@ -25072,6 +25073,7 @@ uber.com,hackr.io,last.fm##.share-footer
 ubergizmo.com##.social_button_li[shareurl]
 ubie.app##div[class^="SnsShare_"]
 ubisoft.com##h2[data-innertext="Share"]
+ubn.news##.block-follow
 ubuntu.com#?#ul.p-inline-list-icons:has(> li:contains(Share))
 uc.od.ua,odessa.dozor.ua,traffic.od.ua##.j-social-share
 ucakbileti.com###sticky_social
