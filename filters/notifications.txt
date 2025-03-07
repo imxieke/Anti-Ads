@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-07 16:27:38 RPC
+! Updated: 2025-03-08 00:27:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4735,6 +4735,10 @@ autodna.ru##.privacy_policy-info
 autodoc.pl#$#.gdpr-panel { display: none !important; }
 autodoc.pl#$#div[data-popup-cookies] { display: none !important; }
 autoeco.ro##.PopupGDPR
+autoersatzteile.de#$#.popup--cookies { display: none !important; }
+autoersatzteile.de#$#body { overflow: auto !important; }
+autoersatzteile.de#$#div[class^="overlay"] { display: none !important; }
+autoersatzteile.de#@#.cookies-popup
 autoexpress.co.uk###__ic-notice-container
 autogaleria.pl##.cookie-dis
 autograph.io##.modal-bg
@@ -4918,6 +4922,7 @@ banknorwegian.de#$#.MuiBackdrop-root { display: none !important; }
 banknorwegian.de#$#body { overflow: auto !important; padding-right: 0 !important; }
 banknorwegian.de#$?#.MuiDialog-root > div.MuiDialog-container:has(div[class*="CookieConsentDialog"]) { display: none !important; }
 bankvostok.com.ua##.cookies-accept-block
+baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,zenmarkai.com,home.id,metadefender.com,woltair.pl,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,truecar.com,csirt.gov.it,protipster.pl,institutoaocp.org.br,dashlane.com,versuni.com,sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 baon.ru,bershka.com,massimodutti.com,stradivarius.com###cookiesWarn
 barbour.com##.bb-cookie-agreement-wrapper
 barcawelt.de#%#//scriptlet('set-cookie-reload', 'gvCookieConsentAccept', '1')
@@ -9729,6 +9734,7 @@ icedrive.net###prompt-cookies
 icegames.store##.acceptanceAgreement
 icelandair.com##div[class^="assets_container__"]
 icelandair.com##div[class^="StickyFooter_cookie_policy__"]
+icenter-store.ru,niopik.ru##.marketing-popup
 icentre.hu,azb-cuw.pl#%#//scriptlet('set-cookie', 'cookie', '1')
 ichgcp.net##.js-cookie-consent-wrap
 ichinobo.com###tripla-cookie-consent
@@ -10149,6 +10155,7 @@ israelnetz.com,mustang-jeans.com,pro-medienmagazin.de##.b_cookieBanner
 issuu.com##.msgbox-CookieConsent
 iste.edu.tr###consentb
 isteyim.com##footer + .MuiDrawer-root:has(p > a[href="/assets/terms/web-sitesi-aydinlatma-metni.pdf"])
+istikbal.com.tr##df-cookie-element
 istockphoto.com##.banner.warning
 istories.media##div[class*="cookieConsentBanner"]
 isybank.com#$##cookieModal { display: none !important; }
@@ -11828,6 +11835,7 @@ mentoday.ru##.app-popup
 menulog.com.au,just-eat.co.uk,just-eat.ie,just-eat.es,justeat.it##div[data-cookie-anchor]
 menzzo.de##.m-cookienotice
 mepasenerji.com###dataPolicies
+meqqe.jp##body > div > .MuiBox-root:has(> div[class] > a[href*="privacypolicy"])
 mercadojobs.com###AvisoCookies
 mercadolibre.*,mercadopago.*###newCookieDisclaimerBanner
 mercadolivre.com.br###cookieDisclaimerBanner
@@ -12591,6 +12599,7 @@ nerdevil.it,exequiapet.it,antonymorato.com,crazygames.com,macitynet.it,spaziogam
 nerdstreet.com#?#footer ~ div[class]:has(h4 + p > a[href^="/privacy"])
 neredekal.com##.css-1fl0mfv
 neredekal.com#?##__next > div[class^="css-"]:has(> div[font-size] > a[href="/cerez-politikasi/"])
+nerogiardini.it,ottry.com,vutbr.cz,ujep.cz,muni.cz,sklep.kfd.pl,portaldrazeb.cz,stobklub.cz,eurotrucksimulator2.com,fio.cz,unica.esse3.cineca.it,americantrucksimulator.com,shop.bauerfitness.com,doshisha.ac.jp,milanreports.com,cheater.ninja,apetilo.com,assyst.app,turbopizza.cz,rsd.cz###cc_div
 nesine.com##.footer-cookies-bar
 nestbank.pl#%#//scriptlet('set-local-storage-item', 'cookies_status', '1')
 nestleprofessional.com.tr##.pane-cookie-disclaimer
@@ -12685,7 +12694,6 @@ news1live.com,mgronline.com##.m-privacy-lightbox
 news24.com##.footer__app-links
 newsakh.com###g-footer-notice
 newsaktuell.de,presseportal.de###nacc-overlay
-newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,zenmarkai.com,home.id,metadefender.com,woltair.pl,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,truecar.com,csirt.gov.it,protipster.pl,institutoaocp.org.br,dashlane.com,versuni.com,sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 newsclick.in###spb-block-pushnotificationpopup-2
 newser.com###divCM
 newsflare.com##.nf-cookie-consent
@@ -12764,7 +12772,6 @@ nintendo.at,nintendo.be,nintendo.ch,nintendo.co.uk,nintendo.co.za,nintendo.de,ni
 nintendo.co.uk,nintendo.de,nintendo.ch,nintendo.at,nintendo.fr,nintendo.be,nintendo.ch,nintendo.es,nintendo.nl,nintendo.be,nintendo.it,nintendo.ch,nintendo.ru,nintendo.co.za,nintendo.pt#$#body { overflow: visible!important; }
 nintendo.co.uk,nintendo.de,nintendo.ch,nintendo.at,nintendo.fr,nintendo.be,nintendo.ch,nintendo.es,nintendo.nl,nintendo.be,nintendo.it,nintendo.ch,nintendo.ru,nintendo.co.za,nintendo.pt#$#[overlay-trigger="cookie"] { display: none !important; }
 nio.com##div[class^="GlobalSiteGAGTMGDPR_GDPRConsent_"]
-niopik.ru##.marketing-popup
 nisaliberec.cz#%#//scriptlet('trusted-set-cookie', 'gCookieConsent', '{%22stats%22:false%2C%22prefs%22:false%2C%22ads%22:false}')
 nisshin-seifun-welna.com,jal.co.jp,rac.co.uk,distrelec.de,jrhotelgroup.com,ensighten.com,surfeasy.com,vw.com.br,vueling.com,easyjet.com,fidelity.de,experianidentityservice.co.uk,nortonlifelock.com,experian.co.uk,norton.com,beerwulf.com,volkswagen.ch,volkswagenplus.ca,bhphotovideo.com,binekarac.vw.com.tr,latimes.com,scotsman.com###ensNotifyBanner
 nitrome.com###gdpr__container
@@ -13337,7 +13344,6 @@ otsintood.ee,visidarbi.lv,dirbam.lt#%#//scriptlet('set-cookie-reload', 'E_Privac
 otto-office.com###top-notification_accept-machmichweg-guidelines
 otto-office.com##.ooB-black-overlay-machmichweg
 otto.market##.page__cookie-disclaimer
-ottry.com,vutbr.cz,ujep.cz,muni.cz,sklep.kfd.pl,portaldrazeb.cz,stobklub.cz,eurotrucksimulator2.com,fio.cz,unica.esse3.cineca.it,americantrucksimulator.com,shop.bauerfitness.com,doshisha.ac.jp,milanreports.com,cheater.ninja,apetilo.com,assyst.app,turbopizza.cz,rsd.cz###cc_div
 ottwow.com#%#//scriptlet('trusted-click-element', '.c-cmp__button--success')
 otvet.mail.ru#@#.js-notifications-button
 ouifm.fr###cnil-banner
@@ -13560,7 +13566,6 @@ pdf24.org#$#html.hasConsentManagerOverlay { overflow: auto !important; }
 pdf24.org#%#//scriptlet('trusted-click-element', 'div[id*="EntryPage"] > .buttons > .declineAll')
 pdfcoffee.com###PDFCOFFEECOM_cookie_box
 pdfescape.com###pdfe_cmp
-pdfextra.com##.display-cookies
 pdfforge.org#?##__next > div.GridContainer:has(> div.GridItem > p:contains(Cookie))
 pdfprof.com###dddhh
 pdftoexcel.com,netart-registrar.com,nazwa.pl##.policy-box

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-07 16:27:38 RPC
+! Updated: 2025-03-08 00:27:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13018,6 +13018,7 @@ league-funny.com##.widgetBox.w728Bottom
 league-funny.com##div[class^="clone_pmp"]
 league-funny.com##div[class^="dan_pmp"]
 league-funny.com##div[id^="div-gpt-ad-"]
+league-funny.com##img[alt="M_bottomFixedBanner"]
 league-funny.com#%#//scriptlet("prevent-setTimeout", "ad_num_show")
 league-funny.com,coco01.net##.scupioadslot
 leaked.jp###content-w > div.post > subheading.point
@@ -14710,6 +14711,7 @@ media.framu.world##a[href^="https://seeek.world/redirect_app_stores"]
 media.rakuten-sec.net##.top-news-attention
 media.wear.jp##.wear-app-download
 mediacourant.nl##div[id^="ad"]
+mediafire.com#$#.mobile .dl-btn-cont { margin-top: 100px !important; }
 mediafire.com#$#@media (max-width: 768px) { .content > div.center { margin-top: 110px !important; } }
 mediafire.com#%#//scriptlet("set-constant", "InfCustomSTAMobileFunc", "noopFunc")
 mediamarkt.com.tr##body > .ins-preview-wrapper div.ins-notification-content
@@ -14804,6 +14806,7 @@ mentoday.ru##.article-detail_tag_ad_mobile_video_recommend
 mentoday.ru##.article-detail_tag_content_billboard_mobile
 menulog.com.au##div[data-test-id="appsBannerContainer"]
 mephimnhat.com##.ff-banner
+meqqe.jp##main > div[class] > div[class][style*="opacity"]
 mercadolibre.com.ar##.download-app-top-banner-wrapper
 mercadolibre.com.ar#%#//scriptlet('set-cookie-reload', 'nav_dab_closed', '1')
 mercadolivre.com.br##body > div[style^="position: fixed; z-index: 1000; bottom: 0px;"]
@@ -15603,6 +15606,7 @@ navitime.co.jp###app-dl-frame
 navitime.co.jp###app-invite-frame-renew
 navitime.co.jp###appli-dl-frame
 navitime.co.jp###appliAppeal
+navitime.co.jp###bicycle_app_dl_link
 navitime.co.jp###body-left > div.section:has(> a[href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/"])
 navitime.co.jp###daiko-app
 navitime.co.jp###footer-app-dl-frame
@@ -15618,6 +15622,8 @@ navitime.co.jp##.button:has(> a[onclick*="app.adjust.com"]:only-child)
 navitime.co.jp##.footer-invite-app-section
 navitime.co.jp##.inview-m8iDqk1XV9
 navitime.co.jp##.kyujin-control-banner-container
+navitime.co.jp##.sales-area > img[src*="sp/bicycle/bicycle-"]
+navitime.co.jp##.sales-btn-area > a[href*="app"]
 navitime.co.jp##a[href^="https://lp.koteihyo-cloud.navitime.co.jp"]
 navitime.co.jp##a[onclick*="app.adjust.com"]
 navitime.co.jp##div[style="height: 280px"]
@@ -20866,6 +20872,7 @@ wallstreetcn.com#$#body { overflow: auto !important; }
 wallstreetcn.com#?#main > .modal:has(> .oia-drawer)
 wallstreetcn.com#@#.banner
 walmart.com###vh-app-container
+walmart.com##div[data-automation-id="sb-div-bottom-module"]:has(button[data-automation-id="sb-btn-get-the-app"])
 walmart.com#?#div[data-automation-id="sb-div-bottom-module"]:has(> button[data-automation-id="sb-btn-get-the-app"])
 walterfootball.com###top_box
 walterfootball.com##.underName
@@ -22168,6 +22175,7 @@ yandex.*##.justifier__col > div.incut
 yandex.*##.tiled-images__items > div[class*="rim-direct-incut"]
 yandex.*##.yamb-chat-not-selected__download-app-section > a.yamb-desktop-app-link ~ *
 yandex.*##body > div.serp_js_inited.main .serp-list > .serp-item:has(span.organic__advLabel)
+yandex.*##div[class*="-Card_behavioralDirect"]
 yandex.*##div[class^="Direct "]
 yandex.*##div[id^="Direct"]
 yandex.*##html > body div[id^="ADVERT"]
