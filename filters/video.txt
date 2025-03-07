@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-03-07 09:40:49 RPC
+! Updated: 2025-03-07 16:27:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -49,7 +49,6 @@ acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
 ad-survey.com
 age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 apisgame.iqiyi.com
-atm.youku.com
 aty.sohu.com
 banana.le.com
 bilibili.com##.ad-report, .ad-floor
@@ -161,7 +160,7 @@ z4a.net
 ||a.msstatic.com/huya/main3/components/OnTVLottery/$script
 ||aixifan.com/static/*/appGuide/
 ||alicdn.com/*yksdk/*sdk.js$script,domain=youku.com
-||alicdn.com/awsc/et/
+||alicdn.com/awsc/et/$script
 ||api.bilibili.com/x/click-interface/click/$xhr
 ||api.bilibili.com/x/web-show/res/locs?$~script
 ||asimgs.pplive.cn/imgs
@@ -171,11 +170,11 @@ z4a.net
 ||business.msstatic.com/advertiser/$image
 ||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
 ||cdn.huya.com/leaf/$xhr
-||cibntv.net/youku/$media
 ||da.mgtv.com/mediafiles/wiad_creative/$image
 ||dd-static.jd.com^$image,domain=subaibaiys.com
 ||douyucdn.cn/adxdsp/$image,media
 ||float.sandai.net
+||g.alicdn.com/htmlVodP2P/$script
 ||g.pptv.com/game/$subdocument
 ||g.youyou234.com^
 ||google.*/pagead/
@@ -246,7 +245,6 @@ z4a.net
 ||v.qq.com/cache/wuji/object^$script
 ||v.qq.com/pwa-sw.js^$script
 ||v.qq.com/thumbplayer-offline-log.html^$subdocument
-||valipl.cp31.ott.cibntv.net/$media
 ||vfiles.gtimg.cn/tvideo/js/new_ping_video.js^$script
 ||video.da.mgtv.com/$media
 ||video.iqiyi.com/ws$websocket

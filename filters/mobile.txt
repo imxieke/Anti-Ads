@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-07 09:40:49 RPC
+! Updated: 2025-03-07 16:27:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2235,7 +2235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8631,7 +8631,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16885,9 +16885,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -34796,6 +34796,7 @@ _zhike.htm
 ||duoyi.com/welcome/$popup
 ||duoying.vip^$third-party
 ||dup.baidustatic.com^
+||dupzbh.icu^
 ||dushiyanqing.net/mobile/lib/ccppcc.js
 ||dustydime.com^
 ||dustyhammer.com^
@@ -35714,6 +35715,7 @@ _zhike.htm
 ||exoclick.com^
 ||exoclick.com^$important
 ||exoclick.com^$third-party
+||exocoed.top^
 ||exogripper.com^$important
 ||exosrv.com^
 ||exosrv.com^$important
@@ -40012,6 +40014,7 @@ _zhike.htm
 ||jivvjl.xyz^
 ||jiwire.com^$important
 ||jixing.cc^
+||jixurt.icu^
 ||jiyingdm.com/js/loadingshow.html
 ||jizxnr.xyz^
 ||jizzads.com^
@@ -46651,6 +46654,7 @@ _zhike.htm
 ||qnvwjpr.icu^
 ||qnwxk.com^$third-party
 ||qo2.fun^
+||qogonsuqq.com^
 ||qogrux.com^
 ||qonbibff.icu^
 ||qoubliy.top^
@@ -47330,6 +47334,7 @@ _zhike.htm
 ||rg.yottos.com^$important
 ||rge.pushwoosh.com^$important
 ||rghbvp.xyz^
+||rgju.cn^
 ||rgmmeff.icu^
 ||rgyun.com^
 ||rh.qq.com^$important
@@ -55749,6 +55754,7 @@ _zhike.htm
 ||ziyuanm.com/js/g11.js
 ||zj66.net^
 ||zjbdt.com^
+||zjen.cn^
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjgfq.com^$third-party
 ||zjib0.icu^

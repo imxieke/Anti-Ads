@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-07 09:40:49 RPC
+! Updated: 2025-03-07 16:27:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16202,7 +16202,6 @@
 ##.gdpr-settings-sm
 ##.gdpr-show[data-closable]
 ##.gdpr-status-hold
-##.gdpr-sticky-container
 ##.gdpr-sticky-footer
 ##.gdpr-stickybar
 ##.gdpr-stickybar:not(body):not(html)
@@ -31804,6 +31803,7 @@ cotswoldoutdoor.com,asadventure.com#%#//scriptlet('set-cookie-reload', 'consent_
 cotswoldoutdoor.com,cotswoldoutdoor.ie##+js(set-cookie, consent_setting, OK, , reload, 1)
 cottages.com###createCookie
 cottodeste.it###privacyBox
+cottonon.com##+js(set-cookie, gdprPolicyAccepted, true)
 couchsurfing.com##div[data-cookie-disclaimer]
 counterpath.zendesk.com##.flash-cookie
 countwordsfree.com##.disclaimer
@@ -42438,6 +42438,7 @@ marcotec-shop.de###cookie
 mare2000.it###avviso
 mareespeche.com###cookies
 maregel.net##.banner, #banner
+margin.utex.io##+js(set-cookie, isCookieConsentAccepted, true)
 marginalen.se##.is-active.modal
 mariangelaguido.it###icegram_message_10971
 maribor-pohorje.si##.cookeEnabler
@@ -45943,7 +45944,7 @@ otelo.de#$#body { overflow: visible!important; }
 otelo.de#$?#div[data-reactroot] > div > div.Lightbox:has(p.TextHeadline:contains(/^Cookies/)) { display: none!important; }
 otelrezervasyon.com##.datapolicy-wrapper
 otempo.com.br##.barra-cookie
-otempo.com.br##.cmp-container
+otempo.com.br##.t004-cookie
 otempo.com.br,skaleet.com,bitkub.com##.cookies__container
 otoagent.pl###gdpr-popup-container-id
 otodom.pl###root > footer ~ div

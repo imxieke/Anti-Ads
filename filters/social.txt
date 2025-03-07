@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-07 09:40:49 RPC
+! Updated: 2025-03-07 16:27:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11979,7 +11979,6 @@ auction.co.kr##.sare-sns
 aucview.aucfan.com,aucview.com##.itemsSnsBox
 audacy.com##.component--share
 audi-mediacenter.com##div[class^="page-item--"][class$="-feed"]
-audi-sport.net##.shareButtons
 audi-sport.net,eurogamer.net,metacritic.com,trustedreviews.com,woodworkforinventor.com##.social_icons
 audi-sport.net,overtake.gg##.shareButtons
 audio-books.su##.full-news-soc
