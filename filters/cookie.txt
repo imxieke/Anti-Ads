@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-08 16:20:38 RPC
+! Updated: 2025-03-09 00:19:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12495,7 +12495,6 @@
 ##.cookie-policy-area:not(body):not(html)
 ##.cookie-policy-banner
 ##.cookie-policy-banner-bar
-##.cookie-policy-bar
 ##.cookie-policy-bar-base
 ##.cookie-policy-bar-bottom
 ##.cookie-policy-bar:not(body):not(html)
@@ -12789,7 +12788,6 @@
 ##.cookie-window-overlay-no-settings
 ##.cookie-window-select
 ##.cookie-wr
-##.cookie-wrap
 ##.cookie-wrap-content
 ##.cookie-wrap-tip
 ##.cookie-wrap-tip:not(body):not(html)
@@ -24323,7 +24321,7 @@
 @@||cdn.jsdelivr.net/npm/cookieconsent$domain=travel.budgetdirect.com.au
 @@||cdn.jsdelivr.net/npm/cookieconsent*/build/cookieconsent.min.js$domain=enterpriseminilease.ch
 @@||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js$domain=shmoop.com
-@@||cdn.jsdelivr.net^*/cookie-consent.js$domain=notdiamond.ai|webtic.it
+@@||cdn.jsdelivr.net^*/cookie-consent.js$domain=fluentify.com|notdiamond.ai|webtic.it
 @@||cdn.jsdelivr.net^*/cookieconsent.min.js$domain=electrobueno.com|papekenworth.com
 @@||cdn.oddschecker.com/cookie-policy-banner/bundle/cookie-policy-banner-$script
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js$domain=hideout.co
@@ -35016,7 +35014,7 @@ fabrykacukiernika.pl##+js(set-cookie, Rodo, 1)
 fabrykacukiernika.pl#@#.rodo-popup
 facebook.com##body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-banner"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#%#//scriptlet('trusted-click-element', 'body.hasCookieBanner div[class][data-testid="cookie-policy-dialog"] button[data-cookiebanner="accept_button"]')
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#%#//scriptlet('trusted-click-element', 'div[class]:not([aria-hidden]) > div[aria-label*="cookie" i][role="button"]:not([aria-label*="picture"],[data-mcomponent="ImageArea"],[aria-label*="story"])')
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#%#//scriptlet('trusted-click-element', 'div[class]:not([aria-hidden]) > div[aria-label*="cookie" i][role="button"]:not([aria-label*="picture"]):not([data-mcomponent="ImageArea"]):not([aria-label*="story"])')
 facebook.com,messenger.com#@#div[data-testid="cookie-policy-banner"]
 facebookafmelden.nl###cookiespanel
 facebookblueprint.com,kalenderwoche.at,kalenderwoche.de,lemon-school.sk,mmtop200.com,numerodesemaine.fr,podconsultsbutik.dk,skillshop.exceedlms.com,thornburg.com,ugenr.dk,ukenr.no,veckonr.se###gdpr-consent
@@ -41439,8 +41437,8 @@ levi.pt##+js(set-cookie, cookie_status, 1, , reload, 1)
 levnapc.cz###cookies-lp-banner
 levnelyze.cz,eski.sk,top-narty.pl###cookieconsent-container
 levnesporaky.cz###EuConsentV2, .modal-backdrop
-levoissuzuki.co.uk##.cookie-overlay
-levoissuzuki.co.uk##.cookie-policy-bar
+levoissuzuki.co.uk,northridgecars.com##.cookie-overlay
+levoissuzuki.co.uk,northridgecars.com##.cookie-policy-bar
 levopront.pl###flowtar-gdpr
 levy.co.uk,wisehosting.com##.glow-banner
 lewento.de,bier.de##.wt-cli-cookie-bar-container

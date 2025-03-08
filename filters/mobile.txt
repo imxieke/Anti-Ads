@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-08 16:20:38 RPC
+! Updated: 2025-03-09 00:19:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3419,7 +3419,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||hopto.org/js/prebid-ads.
 @@||hopto.org^$generichide
 @@||hoy.tv/wp-content/themes/vodi-child/videojs-event-tracking.js
-@@||html-load.com^
 @@||hudong.pl.youku.com/n/setplugins/id_
 @@||huhupan.com/e/extend/down/$generichide
 @@||huke88.com^*-tracking.js
