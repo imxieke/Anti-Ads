@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-09 09:19:57 RPC
+! Updated: 2025-03-09 16:20:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34846,6 +34846,7 @@ _zhike.htm
 ||dvlith.xyz^
 ||dvs.china.com^
 ||dvser.china.com^
+||dvuz.cn^
 ||dw.xcar.com.cn^*.gif?
 ||dwimg.ktplay.com^$important
 ||dwstatic.com^*/newsPopup/
@@ -35965,6 +35966,7 @@ _zhike.htm
 ||fbapi.dxsvr.com^$important
 ||fbapi.sd.duapps.com^$important
 ||fbmjc.39yst.com^
+||fbphnn.icu^
 ||fbqrt.cn^
 ||fbting.mozzet.com^$important
 ||fbvbrb.icu^
@@ -38108,6 +38110,7 @@ _zhike.htm
 ||hnbutton.appspot.com^$important
 ||hncsdayu.com^
 ||hnd-v4.pops.fastly-insights.com^$important
+||hnhmxj.icu^
 ||hnifdlau.top^
 ||hnksln.com^
 ||hnl.ijgocb.cn^
@@ -46814,6 +46817,7 @@ _zhike.htm
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||qss-client.qq.com^$important
 ||qsyliey.top^
+||qtbo.cn^
 ||qtimiyy.top^
 ||qtmojo.com^
 ||qtmojo.com^$third-party
@@ -52189,6 +52193,7 @@ _zhike.htm
 ||trksontrks.com^$important
 ||trohycv.top^
 ||tronkuks.com^
+||trorqaeao.com^
 ||troubleshade.com^
 ||trpyceq.cn^
 ||truckstomatoes.com^
@@ -53525,6 +53530,7 @@ _zhike.htm
 ||vps234.com/resources/images/hosting-promotion/
 ||vpwizuj.icu^
 ||vpx.adledge.com^$important
+||vpydjogaytpg.xyz^
 ||vq1qi.pw^
 ||vqbzpv.xyz^
 ||vqlwoy.xyz^
@@ -55890,6 +55896,7 @@ _zhike.htm
 ||znxblom.cn^
 ||zodoth.com^
 ||zoeacaring.com^
+||zokzavnea.com^
 ||zol-img.com.cn/ad/
 ||zol-img.com.cn/detail/js/module/app-download-float/script.js
 ||zol-img.com.cn/star/image/star-banner2.gif
