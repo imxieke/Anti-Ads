@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-09 00:19:35 RPC
+! Updated: 2025-03-09 09:19:57 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -20943,6 +20943,7 @@ watch.impress.co.jp###sp-floating-layer
 watch.impress.co.jp##.ad.movie
 watch.impress.co.jp##.ad.rect
 watch.impress.co.jp##.ad.under
+watch.impress.co.jp#%#//scriptlet('trusted-replace-node-text', 'script', '/ipc.watch.js', 'ipc.loader.queue.jquery.push', 'ipc.loader.queue.ready.push')
 waterford-news.ie##.mobilefooterad
 waterserver.kakaku.com#?#li.unit > a[href*="/jump.asp?"][onclick^="onclickcatalysttopcs"]:upward(1)
 watson.de##div[data-type="app-download"]
