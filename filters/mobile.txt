@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-10 09:17:28 RPC
+! Updated: 2025-03-10 16:22:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2225,6 +2225,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> table[width="100%"] > tbody > tr > td > div.adv-6park)
 6park.com##[width="80"],[height="300"],[width="120"]
 6park.com,club.6parkbbs.com##.adv-6park
+6parknews.com##.ad-view
 6parknews.com##.other_list_ad
 6parknews.com##div[style="width:990px;height:140px;margin-left:auto;margin-right:auto;text-align:center;"]
 6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
@@ -2236,7 +2237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -4737,6 +4738,7 @@ appinn.com###sidebar a[rel*="sponsored"]
 appinn.com##.ads-m
 appinn.com##a[href*=".houdeyun.cn"]
 appinn.com##DIV.ads,DIV.ads-m,INS.adsbygoogle,a[href="http://i.appinn.com/licaifan"]
+appinn.com#?#.featured-section > .test:-abp-has(>.post-img>a[href^="http"]:not([href*="appinn."]))
 appinn.com,hexieshe.cn###media_image-2
 apple.com.cn##.adv-wrapper
 apple.com.cn#$##ac-globalnav { top: 0 !important; }
@@ -16891,9 +16893,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -36358,6 +36360,7 @@ _zhike.htm
 ||fq67.top^
 ||fqceyqo.com^
 ||fqghykp.cn^
+||fqnhjt.icu^
 ||fqtag.com^$important
 ||fqtag.com^$third-party
 ||fr-gmtdmp.mookie1.com^$important
@@ -41176,6 +41179,7 @@ _zhike.htm
 ||leku99.net/js/bottom.js
 ||lekuad.com^
 ||lekuad.com^$third-party
+||lelczf.icu^
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
@@ -41805,6 +41809,7 @@ _zhike.htm
 ||lurefq.com^
 ||luresdl.top^
 ||lustroushaven.com^
+||lutn.cn^
 ||lutouwang.net/static/images/boss_gao_hb.jpeg
 ||lutouwang.net/static/js/mv_ad
 ||luunels.com^
@@ -45436,6 +45441,7 @@ _zhike.htm
 ||philippinch.com^
 ||phillateemis.iad-03.braze.com^$important
 ||phimmedia03.com^$important
+||phinathuu.com^
 ||phizzle.com^$important
 ||phjtxx.xyz^
 ||phk.nmkstcrt.xyz^
@@ -47580,6 +47586,7 @@ _zhike.htm
 ||rsa.adjust.io^$important
 ||rsohvot.xyz^
 ||rss-loader.com/interres/$subdocument,third-party
+||rswqfiy.top^
 ||rsyepnq.icu^
 ||rt-usa.applovin.com^$important
 ||rt.analytics.anvato.net^$important
@@ -48892,6 +48899,7 @@ _zhike.htm
 ||shejiben.com/common/libs/layer.js
 ||shejiben.com/common/widgets/ui/*zb.js
 ||sheknows-tagan.adlightning.com^$important
+||shelluiqy.com^
 ||shen4club.com/style/*.js?v=
 ||shenbabao.com^
 ||shence.hupu.com^

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-10 09:17:28 RPC
+! Updated: 2025-03-10 16:22:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11119,6 +11119,7 @@
 @@||zona.mobi/js/build/libs/likely.js
 a-z-animals.com###social-shares
 a101.com.tr##.brochures-actions
+a16z.com##.share-holder
 a24.com,perfil.com##.footer-redes
 a24films.com,downmienphi.com##.share-module
 a2tv.com.tr##.site-social-parent .site-social
@@ -12026,6 +12027,7 @@ autoexpress.co.uk##.sharerich-wrapper
 autogidas.lt##.btn-action-facebook
 autokult.pl###exit-intent-modal
 autokult.pl##a[data-event-action="share"]
+automaton-media.com##section[id^="gspb_row-id-gsbp-"]
 automobielmanagement.nl##.social-nav
 automobile-propre.com##.ap-social
 automobilemagazine.com.tr#?#aside:has(> div.textwidget > a.twitter-hashtag-button)
@@ -12436,7 +12438,6 @@ bitcoinmagazine.nl##.follow-google-news-container
 bitcoinmagazine.nl##.single-share-post-container
 bitcoinsensus.com##.elementor-heading-title:has-text(SHARE)
 bitcoinsensus.com#?#.elementor-heading-title:contains(SHARE)
-bitcoinsensus.com,cnio.es##.the_champ_sharing_container
 bitcoinsensus.com,cnio.es,dailyveganmeal.com##.the_champ_sharing_container
 biteki.com##.mod_share
 biteki.com##.sideblock_twitter
@@ -13980,7 +13981,6 @@ datagor.ru###dle-content > div.fullstory + div[align="center"]
 datpiff.com###social-bar > div[class]
 datpiff.com##.tapeActions > li:not([class]):not([id])
 datpiff.com#$##social-bar { min-height: 10px !important; }
-davidlebovitz.com##.swp_share_button
 davidlebovitz.com,jessicagavin.com##.swp_share_button
 davinotti.com##.social__variant
 dawn.fi##.anchored
@@ -14077,7 +14077,6 @@ delivembed.cc#?#div[class^="top-right_"] > button[class^="button_"]:has(> span >
 dell.com##.cdt-social-share-wrap
 delmagyar.hu##.fb_like_span
 delmagyar.hu##.fb_shares
-delo-vcusa.ru###sharebutton
 delo.ua##.c-post__share
 delo.ua##.c-post__tags + div.c-post__footer-row
 delovoymir.biz##.social_title_top
@@ -14362,7 +14361,6 @@ dobreprogramy.pl#?#div:has(> button > div > svg > path[d^="M18 2h-3a5"])
 dobreprogramy.pl#?#div[class*=" "] > div[class*=" "][role="button"][tabindex="0"][aria-disabled="false"][tabindex="0"] > div > svg[stroke-linecap="round"] > circle:upward(3)
 dobreprogramy.pl#?#div[data-action-id] button:has(> div > svg > path[d^="m8.59 13.51"])
 dobreprogramy.pl,polygamia.pl##button[title="Kliknij, aby udostępnić"]
-docoic.com,weeeeby.com,i-fields.jp,zukkamoku.com,zisalog.com,howto-gadget.com,xn--49s31ek4itwct44b.jp,nyam2korea.com,litera.app,iot-consulting.co.jp,itachirin.com,ozakisagashite.jp,toririnon.com,rakko.tools,gameguide.tech,tosho-trading.co.jp,blog.kikagaku.co.jp,good-summary.com,kaonavi.jp,manetatsu.com,garugram.com,seaseagaming.tokyo,jpstreamer.com,sophiadigital.com,collieme.com,webhack.jp,mats2.net,lady1919.com,intelligence-console.com,dq10beginner-media.com,kisetsumimiyori.com,kitaharima-hi.com,upiupiupi.com,natuyuki.com,napgames.jp,bizee.jp,univ-study.net,sittaka-information.com,sist8.com,spaceshipearth.jp,souken.shikigaku.jp,waternet-inc.com,webukatu.com,huyosoku.com,erevista.co.jp,matome.eternalcollegest.com,kawaii-girl.jp,aiacademy.jp,daeudaeu.com,special.goo.ne.jp,tosho-c3.jp,pierrotshop.jp,myopenarchive.org,yuu01.jp,mojinavi.com,betagamer.net,pcfreebook.com,xn--fsqv94c.jp,reliphone.jp,hackit.work,gussan-no-ie.com,ushigyu.net,gadgerba.com,rtain.jp,gamers-info.net,artjuku.com,cinema-sketch.com,chiepedia.club,geek.sc##.fab-btn
 docomo.ne.jp##.o-share
 docswell.com##.mt-4 > div.md\:flex:has(> button[onclick^="share"])
 docswell.com#?#.mt-4 > p.font-bold:contains(シェア)
@@ -17476,7 +17474,6 @@ isitdownrightnow.com,blublu365.com###likeBox
 isitdownrightnow.com,hometheater.co.il###likebox
 islamische-zeitung.de##.iz-socmed
 islandpacket.com##.share-tools-wrapper
-ismedia.jp##.m-share-list
 isna.ir,khabaronline.ir##.item-sharing
 ispazio.net##.bunyad-instagram-feed
 ispazio.net##.socialcount
@@ -18269,6 +18266,8 @@ laarena.com.ar##.container__social
 lab.re-katsu.jp##.g-sticky
 lab.sonicmoov.com##.f-sns
 lab.syncer.jp##.sb1
+lab.testee.co,docoic.com,weeeeby.com,i-fields.jp,zukkamoku.com,zisalog.com,howto-gadget.com,xn--49s31ek4itwct44b.jp,nyam2korea.com,litera.app,iot-consulting.co.jp,itachirin.com,ozakisagashite.jp,toririnon.com,rakko.tools,gameguide.tech,tosho-trading.co.jp,blog.kikagaku.co.jp,good-summary.com,kaonavi.jp,manetatsu.com,garugram.com,seaseagaming.tokyo,jpstreamer.com,sophiadigital.com,collieme.com,webhack.jp,mats2.net,lady1919.com,intelligence-console.com,dq10beginner-media.com,kisetsumimiyori.com,kitaharima-hi.com,upiupiupi.com,natuyuki.com,napgames.jp,bizee.jp,univ-study.net,sittaka-information.com,sist8.com,spaceshipearth.jp,souken.shikigaku.jp,waternet-inc.com,webukatu.com,huyosoku.com,erevista.co.jp,matome.eternalcollegest.com,kawaii-girl.jp,aiacademy.jp,daeudaeu.com,special.goo.ne.jp,tosho-c3.jp,pierrotshop.jp,myopenarchive.org,yuu01.jp,mojinavi.com,betagamer.net,pcfreebook.com,xn--fsqv94c.jp,reliphone.jp,hackit.work,gussan-no-ie.com,ushigyu.net,gadgerba.com,rtain.jp,gamers-info.net,artjuku.com,cinema-sketch.com,chiepedia.club,geek.sc##.fab-btn
+lab.testee.co,ryouikukyuujin.com,weeeeby.com,i-fields.jp,dq10.news,makuring.jp,zukkamoku.com,zisalog.com,howto-gadget.com,livefortoday.jp,marushin-magazine.com,xn--49s31ek4itwct44b.jp,nyam2korea.com,hangul-map.com,litera.app,iot-consulting.co.jp,news.mynavi.jp,itachirin.com,ozakisagashite.jp,rakko.tools,toririnon.com,news.sod.co.jp,ebisu-fridaynight.com,stelladia.club,reikawatanabe.com,afi-b.com,eight-media.co.jp,gameguide.tech,tosho-trading.co.jp,pc-bto.net,blog.kikagaku.co.jp,good-summary.com,hiroshi-gamepc.com,shokuji-takuhai-life.jp,mettyaeeyan.com,fatmag.jp,sikopedia.com,ikunaga.net,mitsuch.com,manetatsu.com,garugram.com,hitorinokurasi.com,seaseagaming.tokyo,sophiadigital.com,collieme.com,webhack.jp,mats2.net,lady1919.com,chibimaru.tv,dq10beginner-media.com,kisetsumimiyori.com,kitaharima-hi.com,tanweb.net,upiupiupi.com,natuyuki.com,napgames.jp,nagoyatv.com,univ-study.net,sittaka-information.com,math-fun.net,polaris-official.com,apexheadline.com,aucfan.com,sist8.com,spaceshipearth.jp,souken.shikigaku.jp.tanweb.net,webukatu.com,huyosoku.com,matome.eternalcollegest.com,ask-corp.jp,nissen.co.jp,yukawanet.com,complesso.jp,ranking.goo.ne.jp,entamerush.jp,gourmetpress.net,aiacademy.jp,special.goo.ne.jp,tosho-c3.jp,pierrotshop.jp,karaokemanekineko.jp,myopenarchive.org,yuu01.jp,ticketjam.jp,mojinavi.com,gaddet.com,betagamer.net,pcfreebook.com,xn--fsqv94c.jp,reliphone.jp,hackit.work,videobeginners.com,gussan-no-ie.com,ushigyu.net,gadgerba.com,smartparty.jp,rtain.jp,sdesignlabo.com,gamers-info.net,jiyunagomataro.com,artjuku.com,knowl.jp,b-gamers.net,record-now.com,pinapopo.com,daeudaeu.com,sendaiminami-tusin.com,cinema-sketch.com,mhr-movie.com,proof0309.com,flatdmkobo.com,anime-torrent.com,trovivo.com,makuring.com,appl-y.com,taisy0.com,chiepedia.club,geek.sc##.sns-btn
 lab.timee.co.jp##.s-blogDetail__contentShare
 labiotech.eu##.inline-block.space-y-8
 labirint.ru##.social_shares__container
@@ -18559,6 +18558,7 @@ line.me##.MdGFT01Share
 lineageos.org,morbidology.com,topuniversities.com,westpac.com.au##.footer-icons
 linearmotiontips.com###text-18
 lineballsod.com##.seed-social
+lingerista.net,ismedia.jp##.m-share-list
 lingshulian.com#@#.share-list
 lingust.ru,ufocar.ru,travelest.ru,grodnensis.by,news.dks.com.ua,lider-press.by,hirologos.com,aum.news,turystam.in.ua,protect-sc.ru##.likes-block_left
 linkedin.com,microsoft.com###social-bar
@@ -19145,7 +19145,6 @@ mathrubhumi.com##.like-button.share1
 mathrubhumi.com##.socialicons_more_btm > .like-button > a[class*="showshare"]
 mathsolver.microsoft.com##div[class^="ShareButtons_icons_"]
 matomame.jp,galatasaray.org##.twitter_follow
-matome.response.jp,sugoren.com,cinemacafe.net##.social-font
 matomecup.com##.cm-tw
 matomehub.jp,oppaimall.com,matomedane.jp,alba.co.jp,recipe-blog.jp,haikyu.jp,eroido.jp##.socialArea
 matomo.org#?#.elementor-heading-title:contains(Share this post)
@@ -19530,6 +19529,7 @@ misato-gurashi.com,kashiwa-tsushin.com,katsushika-tsushin.com,matsudo-tsushin.co
 misssuomi.fi#@##sb_instagram
 mistore.jp##.article-section-share
 mistore.jp,tsuiran.jp##.articleshare
+mistral.ai##.border-t-black.pt-6 > .mb-10
 mitem.auction.co.kr##.box__floating-share
 mitem.auction.co.kr##li[class$="__item__share"]
 mitsuch.com,jp.ext.hp.com,pokemon-scramblesp.jp,news.radiko.jp,tobalog.com,searchenginejournal.com,royallib.com##.sharebtn
@@ -22512,7 +22512,6 @@ ruwix.com#?#.widget-title:contains(Share this page!)
 rymansclub.com##.topics--main__twitter
 rynek-kolejowy.pl#$#.podzielSieZeZnajomymi > #divLikeMaly ~ * { visibility: hidden!important; }
 rynek-kolejowy.pl#$#.podzielSieZeZnajomymi >.podzielSieIkony > .fbLikeBox ~ * { visibility: hidden!important; }
-ryouikukyuujin.com,weeeeby.com,i-fields.jp,dq10.news,makuring.jp,zukkamoku.com,zisalog.com,howto-gadget.com,livefortoday.jp,marushin-magazine.com,xn--49s31ek4itwct44b.jp,nyam2korea.com,hangul-map.com,litera.app,iot-consulting.co.jp,news.mynavi.jp,itachirin.com,ozakisagashite.jp,rakko.tools,toririnon.com,news.sod.co.jp,ebisu-fridaynight.com,stelladia.club,reikawatanabe.com,afi-b.com,eight-media.co.jp,gameguide.tech,tosho-trading.co.jp,pc-bto.net,blog.kikagaku.co.jp,good-summary.com,hiroshi-gamepc.com,shokuji-takuhai-life.jp,mettyaeeyan.com,fatmag.jp,sikopedia.com,ikunaga.net,mitsuch.com,manetatsu.com,garugram.com,hitorinokurasi.com,seaseagaming.tokyo,sophiadigital.com,collieme.com,webhack.jp,mats2.net,lady1919.com,chibimaru.tv,dq10beginner-media.com,kisetsumimiyori.com,kitaharima-hi.com,tanweb.net,upiupiupi.com,natuyuki.com,napgames.jp,nagoyatv.com,univ-study.net,sittaka-information.com,math-fun.net,polaris-official.com,apexheadline.com,aucfan.com,sist8.com,spaceshipearth.jp,souken.shikigaku.jp.tanweb.net,webukatu.com,huyosoku.com,matome.eternalcollegest.com,ask-corp.jp,nissen.co.jp,yukawanet.com,complesso.jp,ranking.goo.ne.jp,entamerush.jp,gourmetpress.net,aiacademy.jp,special.goo.ne.jp,tosho-c3.jp,pierrotshop.jp,karaokemanekineko.jp,myopenarchive.org,yuu01.jp,ticketjam.jp,mojinavi.com,gaddet.com,betagamer.net,pcfreebook.com,xn--fsqv94c.jp,reliphone.jp,hackit.work,videobeginners.com,gussan-no-ie.com,ushigyu.net,gadgerba.com,smartparty.jp,rtain.jp,sdesignlabo.com,gamers-info.net,jiyunagomataro.com,artjuku.com,knowl.jp,b-gamers.net,record-now.com,pinapopo.com,daeudaeu.com,sendaiminami-tusin.com,cinema-sketch.com,mhr-movie.com,proof0309.com,flatdmkobo.com,anime-torrent.com,trovivo.com,makuring.com,appl-y.com,taisy0.com,chiepedia.club,geek.sc##.sns-btn
 ryte.com##.sideboxsocials
 ryukyushimpo.jp###share_block
 ryukyushimpo.jp##.socialbtn-wrap
@@ -22980,7 +22979,6 @@ simplejoy.com##.follow-me-foot
 simplejoy.com##.sj-recipe-callout
 simplemost.com##.footer-ad-container
 simpleweeklymealplanner.com#@#.share-button
-simplifylivelove.com,therecipecritic.com##.block-pinterest-cta
 simplyrecipes.com##.social-share-sticky
 simplywall.st#$##root { filter: none!important; }
 simplywall.st#$#body > #empty-container > div[data-cy-id="careers-upsell"] { display: none !important; }
@@ -23284,6 +23282,7 @@ speedtest.net#?#.posts > .row > .col-xs-4 > .widget-inline > h2.widget-title:con
 speedtest.net.ua###speedo-share
 spice.eplus.jp##.btn-page-bottom.pull-left
 spice.eplus.jp##.facebook-main-area
+spicomi.net,matome.response.jp,sugoren.com,cinemacafe.net##.social-font
 spid.center##._37vAM
 spid.center#?#article > div[class]:has(> div[class^="_"] > h3 + ul[class^="_"])
 spid.center#?#div[class^="_"]:has(> a[class][href^="//odnoklassniki.ru"])
@@ -24630,6 +24629,7 @@ toriizaka46.jp##.sns-share-list
 torinomagazine.it##.condisione-social
 torisetsu.biz##.facebook_area
 torisetsu.biz##.sns_bottom_box
+toronto.ca,delo-vcusa.ru###sharebutton
 torontosun.com##.share-nav-button
 torrentfilmi.org##.socfull
 torrentoyunindir.com###sidebar > .sidebarborder:first-child
