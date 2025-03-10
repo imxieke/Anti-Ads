@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-10 16:22:28 RPC
+! Updated: 2025-03-11 00:24:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15208,6 +15208,7 @@ fantia.jp#?#.list-group > div.list-group-item:has(> div.share-btns)
 fapello.com##.uil-share-alt
 fark.com###facebook
 farmer.pl##.post-share-icons
+farmersjournal.ie###share-socialmedia-v2
 faroutmagazine.co.uk#%#//scriptlet('hide-in-shadow-dom', '.single-article-sharing')
 farpost.ru##.share-button-link
 fas-bee.com,store.goo.ne.jp##.product-meta__share-buttons
@@ -17277,6 +17278,7 @@ informatique-mania.com,youvteme.online##.mobile-share-buttons-spacer
 informator.ua,neredekal.com,estadao.com.br##.share-trigger
 informazione.it###tfr-btns
 informazione.it##.soc-btns
+informburo.kz##.sticky-share-button
 informburo.kz#?#footer > div:has(> h4:contains(Поделиться:))
 informer.com##.wrapper_social
 informer.rs,bloombergadria.com##.single-news-share
@@ -18302,6 +18304,7 @@ lamoda.ru#?#.ii-product__aside-wrapper > div.vue-widget:has(> div[class] > div:c
 lan-sha.com##.post-share-btn
 lanacionar-la-nacion-ar-prod.cdn.arcpublishing.com,lanacion.com.ar###v-share > div.--left
 lancasterarchery.com###buy_box > #productBuyBoxDetails:has(a[href^="https://www.facebook.com/sharer/sharer.php"])
+lance.com.br##button[aria-label="Compartilhar"]
 land.nrw##div[data-type="social_feed"]
 landingi.com##.share-bottom-bar
 landlord.ua##a[href^="http://euralis.ua/"]
@@ -24252,6 +24255,7 @@ thejournal.ie##.metadata-csp-comments-share-container
 thekisscartoon.com,vikingi.live##.sbox
 thekitchenmagpie.com##.sharing-cta
 thekrazycouponlady.com#@#.share-buttons
+thelab.gr##.ipsShareLinks
 thelocal.*##.article-single__social button.copy
 thelocal.*##.single-article-actions-mobile
 thelocal.at,thelocal.it,thelocal.se,thelocal.ch##div[class^="entry-meta-share"]
