@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-10 00:20:08 RPC
+! Updated: 2025-03-10 09:17:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11528,6 +11528,7 @@ amazon.com##span[data-action="ssf-share-icon"]
 amazon.jobs##.media-icons
 amazonadviser.com,apptrigger.com,arrowheadaddict.com,bamsmackpow.com,fansided.com,gamesided.com,gojoebruin.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,stormininnorman.com,winteriscoming.net##.sticky_1ds30c3
 ambarexpress.com##.footer-whatsapp-fix
+ambitiouskitchen.com##.sharewrap
 amd-heroes.jp###side-sns
 amd.com###block-addthis
 ameba.jp##section[class^="ChoiceArticleShare_"]
@@ -12436,6 +12437,7 @@ bitcoinmagazine.nl##.single-share-post-container
 bitcoinsensus.com##.elementor-heading-title:has-text(SHARE)
 bitcoinsensus.com#?#.elementor-heading-title:contains(SHARE)
 bitcoinsensus.com,cnio.es##.the_champ_sharing_container
+bitcoinsensus.com,cnio.es,dailyveganmeal.com##.the_champ_sharing_container
 biteki.com##.mod_share
 biteki.com##.sideblock_twitter
 biteki.com,yogajournal.ru,games.mail.ru##.block_share
@@ -13979,6 +13981,7 @@ datpiff.com###social-bar > div[class]
 datpiff.com##.tapeActions > li:not([class]):not([id])
 datpiff.com#$##social-bar { min-height: 10px !important; }
 davidlebovitz.com##.swp_share_button
+davidlebovitz.com,jessicagavin.com##.swp_share_button
 davinotti.com##.social__variant
 dawn.fi##.anchored
 day.az,milli.az##.like-holder
@@ -15791,7 +15794,6 @@ fumufumunews.jp##.js-lazy-widget
 fun01.net###win_like
 fun01.net###win_like_mask
 fundalina.com##.share-story-container
-funq.jp,kosodatemap.gakken.jp,report.iko-yo.net,sakigake.jp##.p-article-share
 furfur.me,wonderzine.com##.share-images
 furunavi.jp##div[data-share-url]
 fusionbd.com#?#body > div.pgn:contains(Share)
@@ -15880,6 +15882,7 @@ game735.com##td.plm > a[onclick*="facebook.com/sharer/"]
 game8.co,0101.co.jp,itsfoss.com,palermotoday.it,agrigentonotizie.it,anconatoday.it,arezzonotizie.it,avellinotoday.it,baritoday.it,bolognatoday.it,bresciatoday.it,brindisireport.it,casertanews.it,cataniatoday.it,cesenatoday.it,chietitoday.it,ferraratoday.it,firenzetoday.it,foggiatoday.it,forlitoday.it,frosinonetoday.it,genovatoday.it,ilpescara.it,ilpiacenza.it,latinatoday.it,lecceprima.it,leccotoday.it,livornotoday.it,messinatoday.it,milanotoday.it,modenatoday.it,monzatoday.it,napolitoday.it,novaratoday.it,padovaoggi.it,parmatoday.it,perugiatoday.it,pisatoday.it,pordenonetoday.it,quicomo.it,ravennatoday.it,reggiotoday.it,riminitoday.it,romatoday.it,salernotoday.it,sondriotoday.it,ternitoday.it,torinotoday.it,trentotoday.it,trevisotoday.it,triesteprima.it,udinetoday.it,veneziatoday.it,veronasera.it,vicenzatoday.it,viterbotoday.it,chubu.ac.jp,pressgazette.co.uk,techmonitor.ai,sauna-ikitai.com,today.it,lovelive-anime.jp,crazyraccoon.jp,uazmi.net,animatetimes.com,coconala.com,thenextweb.com,mart-magazine.com,shingeki.tv,game8.jp,power-technology.com,custom-cursor.com,rockinon.com,anime-86.com,sao-p.net,robihachi.jp,vivy-portal.com,boredteachers.com,newstatesman.com,telegraf.com.ua,especiais.g1.globo.com,citylab.com,m-kurier-at.cdn.ampproject.org##.c-share
 game8.co,wnl.tv##.c-share-article
 gameappch.com,osusume.mynavi.jp##[class^="social"]
+gameblog.fr##.social-button:not(.comment-button):not(.heart-button)
 gamebomb.ru###wrrpper3 > div > div[style="margin: 10px auto; width: 970px"]
 gamebomb.ru##.container-content > div.grid-100p-300 > div.grid-100p-301-rc > div[class="container"][style="background-color: #F1F1F1"]
 gamebomb.ru##.container-light
@@ -15897,6 +15900,7 @@ gameguru.ru##iframe[src="/x/social/vk_likebox.html"]
 gamejolt.com##.share-card
 gamek.vn##a[onclick*="shareOnFacebook()"]
 gamekult.com##.gk__footer__social-bar
+gamekult.com##.gk__share
 gamekult.com##.gk__share__label
 gameloop.com##.Footer_follow__eMVb8
 gameloop.com##.Share_pc_share__RxDpq
@@ -17423,6 +17427,7 @@ iolecal.it###whatsapp
 iopen.pl###facebook
 iosninja.io###social-modal
 iotsrg.org##.call-to-action
+iowagirleats.com,simplifylivelove.com,therecipecritic.com##.block-pinterest-cta
 ip.qip.ru##.ip_pip_button
 ipagalaxy.com#%#//scriptlet('set-local-storage-item', 'firstVisit', 'true')
 ipaidia.gr##.sharebtns
@@ -19310,6 +19315,7 @@ melonbooks.co.jp##.product-under-sns-btns
 melonbooks.co.jp##.special_btns
 melonbooks.co.jp#?#tbody > tr:has(> th:contains(/^シェア$/))
 melos.media###post > .post_sns
+melty.fr##.share
 member.11st.co.kr#@#.sns_kakao
 member.bilibili.com#@#.share-page
 memeburn.com,ventureburn.com##.csi_sharing > ul > li:not(.email-this-button) > img:not(.printThis)
@@ -26230,6 +26236,7 @@ yohane.net##div[class^="p-share_"]
 yoi.shueisha.co.jp,babel.ua##.js-article-share
 yolculukterapisi.com###sidebar > aside#text-12
 yolculukterapisi.com###sidebar > aside#text-16
+yolo.style,funq.jp,kosodatemap.gakken.jp,report.iko-yo.net,sakigake.jp##.p-article-share
 yomeruba.com##.shopModule .sns
 yomiuri.co.jp##.fn-article-social-share
 yomiuri.co.jp##.p-article-action-btn-2020__share

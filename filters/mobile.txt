@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-10 00:20:08 RPC
+! Updated: 2025-03-10 09:17:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3419,6 +3419,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||hopto.org/js/prebid-ads.
 @@||hopto.org^$generichide
 @@||hoy.tv/wp-content/themes/vodi-child/videojs-event-tracking.js
+@@||html-load.com^
 @@||hudong.pl.youku.com/n/setplugins/id_
 @@||huhupan.com/e/extend/down/$generichide
 @@||huke88.com^*-tracking.js
@@ -19285,7 +19286,6 @@ symbolab.com###itunesLink
 syndication-bleacherreport-com.cdn.ampproject.org,nbcnewyork.com,foursquare.com,wsj.com###branch-banner-iframe
 syndication.bleacherreport.com##.commentsUpsell.content
 syndication.bleacherreport.com,nbcdfw.com,actionnetwork.com###branch-amp-journey
-syosetu.com,game8.jp##+js(remove-node-text, script, html-load.com)
 sysin.org##img[src^="/img/promotion"]
 syukatsu-kaigi.jp##.js-dynamic-link-banner
 sz.net.cn##[class^="duilian_"],DIV[class^="ad_"],div.A54,DIV.ad,DIV.ad66,DIV.banner_bar,DIV.gg_border,DIV[class^="c_ad"],DIV[class^="content c_ad"],DIV.MainR_ad3,DIV[style="width:420px; height:90px; float:left"],DIV[style=" height:90px; width:536px; float:left; padding-left:4px;"]
@@ -21832,7 +21832,6 @@ x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-x.z-z.jp##.gam-ad-inline
 x2twitter.com,savetik.co##.section-app-download
 x3cn.com###portal_block_12045
 x3cn.com##div[style="margin:3px auto"] + table
@@ -22473,6 +22472,7 @@ yzz.cn###video_ff
 yzz22.com##.kopl,.bottom-adv,#haoetv,.topli,[src^="http://cbu01.alicdn.com/img/ibank/"]
 yzz4.com##[src*="alicdn.com"],[width="1"],#haoetv
 yzzk.com##.promo
+z-z.jp##.gam-ad-inline
 z63.org##[class^="sb2_pic_"]
 zahav.ru,walla.co.il##div.center-bottom[data-slot-name="nickbar_phone"]
 zaikai.jp##div[id^="ad25"]
@@ -38263,7 +38263,6 @@ _zhike.htm
 ||htimiyu.top^
 ||htlb.casalemedia.com^$important
 ||htlbid.com^$important
-||html-load.com^$script,domain=game8.jp|syosetu.com
 ||html.696157.com^
 ||html.polyad.net^$important
 ||html.shibeiou.com^
