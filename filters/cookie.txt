@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-11 09:40:14 RPC
+! Updated: 2025-03-11 16:26:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10797,7 +10797,6 @@
 ##.c-notification-wrapper
 ##.c-notification[id*="alert-cookie-usage"]
 ##.c-notify-cookie
-##.c-onetrust-backup
 ##.c-page__message-bar--cookie-message
 ##.c-popin-cookies
 ##.c-popup-cookie-simple
@@ -24929,7 +24928,6 @@
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v2.js$domain=deepmind.com
 @@||gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js
-@@||gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js$domain=chromeenterprise.google
 @@||gtspirit.com/wp-content/plugins/cookie-law-info/
 @@||gunb.gov.pl/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-*.min.js
 @@||gw2mists.com/assets/CookieConsent-*.
@@ -35358,6 +35356,7 @@ filen.io###__next > div:has(> p + div > button)
 filen.io##+js(set-cookie, cookieConsent, yes, domain, .filen.io)
 filen.io##.css-kiphvj
 filen.io#%#//scriptlet('set-cookie', 'cookieConsent', 'yes')
+filen.io#%#//scriptlet('trusted-set-cookie-reload', 'cookieConsent', 'onlyNeeded')
 filepuma.com,glarysoft.com##.cookiesTip
 filerox.com##._wqnvxhk
 filerox.com.com#?#footer[class^="_"] div[class^="_"]:has( > div[class^="_"] > div[class^="_"] > a[href$="/privacy-policy"])
@@ -36182,6 +36181,7 @@ fujifilm.com##.m-cookie-confirm
 fujifilmshop.com###consident
 fujitv.co.jp##.cookieCheckContainer
 fullcontact.com##.bottomRight__WEJOY
+fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,ok.porn,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx,perfectgirls.xxx,homo.xxx,ok.xxx,pornhat.*,pornhub.com,veepee.fr,dyson.com.ru,dyson.de,fonedog.com##.cookiesBanner
 fullscreen.com##body > .banner
 fullscreenmedia.co##.banner, #banner
 fullscript.com##.consent__popup
@@ -36853,7 +36853,6 @@ gigatrans.ua##.coook
 gigsandtours.com,seetickets.com###seeGdprCookieConsent
 gillette.com.tr,headandshoulders.com.tr,agizbakimuzmani.com##.divOneTrustMainContainer
 gillian-guide.github.io,globox1997.github.io###__consent
-gilmoreglobal.com,cronycle.com##.dialog-lightbox-widget-content
 gim-international.com,mein-zaunshop.de,gartengeraete-onlineshop.de##div[x-data*="cookieConsent"]
 gimletmedia.com##.persistent-banner[data-banner-name="cookie"]
 gimletmedia.com##.persistent-banner[data-banner-name="terms-2020"]
@@ -37357,6 +37356,7 @@ grin.com,11880.com,golocal.de,login.muenchen.de,rehau.com,autopay.pl,olympia-ein
 grin.com,lifeline.de,rehau.com,gaggenau.com#$##cmpbox { display: none !important; }
 grin.com,lifeline.de,rehau.com,gaggenau.com#$##cmpbox2 { display: none !important; }
 grin.com,lifeline.de,rehau.com,gaggenau.com#$#body { overflow-y: auto !important; }
+grip500.de#%#//scriptlet('trusted-set-cookie', 'ac', '{"version":"1","functional":false,"analytics":false,"ads":false}')
 gritija.lt##.gdprModal
 grizly.cz##.fancybox-container
 grizly.hu,grizly.sk,grizly.ro,grizly.pl,grizly.cz##+js(set-cookie, mCs-chk, 1)
@@ -39437,6 +39437,7 @@ isarradweg.de,lilcat.com##+js(set-cookie, cookie-consent, accepted, , reload, 1)
 isathens.gr##.activebar-container
 isbank.co.uk,maximiles.com.tr,isbank.com.tr###cokieCover
 isbank.com.tr##.blogCookieCover
+isbank.com.tr,turkcell.com.tr,lumberjack.com.tr,karaca.com,karaca-home.com,shiftdelete.net##body > efilli-layout-dynamic
 isbnews.pl###nety_cookie
 isc2.org##.notice--warning
 ischias.se###consent-wrap
@@ -41014,6 +41015,8 @@ lamoda.ru#?##vue-root > div:has(> div >  div > a[href="/about/oferta/"])
 lamoda.ru#?#.vue-widget > div:has(> div > div > a[href="/about/oferta/"])
 lamoda.ru,lamoda.ua##.page > [class*="widget"]
 lamoda.ua##.page > .vue-widget
+lamontagne.fr##div[style=""].transition.duration-500
+lamontagne.fr#%#//scriptlet('trusted-set-cookie', 'euconsent-v2', 'CQOGuIAQOGuIAAHABBENBgFgAAAAAAAAAAAAAAAAAADEoAMAAQV0CQAYAAgroUgAwABBXQdABgACCuhCADAAEFdC0AGAAIK6AAAA.YAAAAAAAAAAA')
 lamuscle.com###info_banner
 lancom.si##.css-1e6ozjc
 landal.at,landal.be,landal.ch,landal.co.uk,landal.com,landal.de,landal.dk,landal.no##consent-slide-in-component
@@ -53666,7 +53669,6 @@ tureckisklep.pl#?#body > div.fancybox-overlay.fancybox-overlay-fixed[style]:has(
 turismo.gal##.bandaAceptacion
 turk.net##.rey-cookieNotice
 turk.net#%#//scriptlet('trusted-set-cookie', 'cookie-consent', 'dismissed')
-turkcell.com.tr,lumberjack.com.tr,karaca.com,karaca-home.com,shiftdelete.net##body > efilli-layout-dynamic
 turkcell.com.tr,vergoelst.de##.m-cookie
 turkeyhomes.com##.cc_overlay_lock
 turkgun.com###cookiePolicyMessage
@@ -53839,7 +53841,6 @@ twojogrodek.pl##.cookie-rodo-dialog
 twomates.de##+js(set-cookie, gdpr-google-analytics, false)
 twunroll.com,worthpoint.com##.bannerContainer
 txone-networks.com###cookies_msak
-txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,ok.porn,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx,perfectgirls.xxx,homo.xxx,ok.xxx,pornhat.*,pornhub.com,veepee.fr,dyson.com.ru,dyson.de,fonedog.com##.cookiesBanner
 tychy.pl##.configMessages
 tydzien-kuchni-polskiej.pl#%#//scriptlet('trusted-set-cookie-reload', 'cookiesTypes', '{"necessary":true,"functional":true,"efficiency":true,"advertising":false}')
 tygodniksiedlecki.com##.rodo-bg
@@ -54072,6 +54073,7 @@ unifachbuch.de##+js(set-cookie, i_sc_a, false)
 unifilm.de##.form-dsgvo
 unifique.com.br#$##lgpd { display: none!important; }
 unifique.com.br#$#body { overflow: auto!important; padding-right: 0!important; }
+unifoa.edu.br,gilmoreglobal.com,cronycle.com##.dialog-lightbox-widget-content
 unifrance.org##.headerInfos
 unifrance.org##div[class="appMobileOff headerInfos"]
 unify.com###cp
@@ -55266,7 +55268,6 @@ wayfair.de#$#.CookieComplianceContainer-veil { display: none !important; }
 wayfair.de#$#.u-noScroll { overflow: auto !important; overflow-y: auto !important; }
 wayofleaf.com###cpop
 waze.com##.wz-cc-container
-wb.camra.org.uk###cookieBanner
 wbijam.pl,polishbrief.pl###simplecookienotification_v01
 wbkidsgo.com###onetrust-outer
 wcoconcerts.org#@##mc_embed_signup
@@ -56670,6 +56671,9 @@ _eu_cookie_
 ||1deutschewelle.de/static/consentScript-*.js
 ||24net.cz/resources/js/cmp.js$script
 ||2nt.com/share/js/gdpr/
+||3d4medical.com/app/themes/threedfourmed/js/*cookie
+||3d4medical.com/common/vendor/cookies-listener/
+||3d4medical.com/common/web-shared/cookies-banner.js
 ||4hifi.pl/scripts/jquery.cookie.js
 ||7gra.us/consentbar$script
 ||7plus.com.au/js/CookieNotice

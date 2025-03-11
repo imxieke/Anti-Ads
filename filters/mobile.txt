@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-11 09:40:14 RPC
+! Updated: 2025-03-11 16:26:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -9319,6 +9319,7 @@ fulishequ.com###china_ads_div405,#lovexin12,#lovexin14,.asb-index-01
 full-count.jp###c2_click_jera_award_sp_article_end
 full-count.jp##.erase_space-ad ~ p[style="clear:both;"]
 full-count.jp#?#.erase_space-ad ~ div.c-heading:has(> p[class^="c-heading_"]:contains(RECOMMEND))
+fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 fullyu.com##.rightSide-top-ads
 fun1shot.com##a[href^="https://kenio.cn/"]
 fun48.com###float2016
@@ -12657,6 +12658,7 @@ king5.com##.universal-ad
 kingkong.com.tw##.public-activity
 kingkong.com.tw##.room-banner-wrap
 kingsoft.hz.letv.com##div.fix-box,div.tab-content,.video-advert,#fixedad
+kinmaweb.jp###overay-spbana
 kino-teatr.ru#?#.content_block > div[align="center"]:has(> div[align="center"] > advertronic-slot)
 kino-teatr.ua##a[href="https://play.google.com/store/apps/details?id=com.kinoteatr.ua.filmgoer"]
 kino.de##.alice-adslot
@@ -20315,7 +20317,6 @@ txxx.com##div[class^="rek-"]
 txxx.com#?#.video-content > div[class] > div > div[class]:has(span:contains(AD))
 txxx.com,txxx.tube##.index-page > .wrapper > .row + div[class]
 txxx.com,txxx.tube##.pwa-ad
-txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 txzqw.cc##.ad-text,.tac,#banner,[id^="ads_c_"],[id^="ads_"]
 txzqw.me##.tac[style="margin-bottom:5px;"]
 tyenews.com##div[id^="custom_html-"]
@@ -34787,6 +34788,7 @@ _zhike.htm
 ||dt.adsafeprotected.com^$important
 ||dt0j.icu^
 ||dtc.delidatax.com^$important
+||dtjcvd.icu^
 ||dtjpihv.xyz^
 ||dtntnl.icu^
 ||dts.crispadvertising.com^$important
@@ -35241,6 +35243,7 @@ _zhike.htm
 ||ejieban.com^
 ||ejimtyw.top^
 ||ejs.moatads.com^$important
+||ejti.cn^
 ||ejunshi.com^
 ||ejyymghi.com^
 ||ekltes.xyz^
@@ -39950,6 +39953,7 @@ _zhike.htm
 ||jhlnlt.xyz^
 ||jhnnnb.xyz^
 ||jhqku.cn^
+||jhrulp.icu^
 ||jhwap.cn^
 ||jia.com/js/common/article_home_adv.js
 ||jia.com/js/common/jia-common.js
@@ -45428,6 +45432,7 @@ _zhike.htm
 ||pgmediaserve.com^$important
 ||pgpartner.com^$important
 ||pgpl.g5e.com^$important
+||pgyfzyv.top^
 ||ph-gmtdmp.mookie1.com^$important
 ||ph5t.adups.com^$important
 ||phainoirs.com^
@@ -51746,6 +51751,7 @@ _zhike.htm
 ||tpc.googlesyndication.com^
 ||tpc.googlesyndication.com^$important
 ||tpcnc.googlesyndication.com^$important
+||tpkv.cn^
 ||tpnads.com^$important
 ||tps.doubleverify.com^$important
 ||tps11031.doubleverify.com^$important
@@ -53547,6 +53553,7 @@ _zhike.htm
 ||vqbzpv.xyz^
 ||vqlwoy.xyz^
 ||vqq.admaster.com.cn^$important
+||vragridsn.com^
 ||vraqnathr.com^
 ||vrdfxioe.icu^
 ||vrelai.com^
