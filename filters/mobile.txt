@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-11 00:24:28 RPC
+! Updated: 2025-03-11 09:40:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11423,6 +11423,7 @@ indiatimes.com,timesofindia.com##div[class^="ATF_container_min_height"]
 indiatimes.com,timesofindia.com##div[id^="custom_ad"]
 indiatoday.in##.downloadapp__section
 indiatoday.in,bloomberg.com##.amp-taboola
+indiatvnews.com##.adouter
 indy100.com###sticky-footer-root
 indy100.com##.grid-advertisement
 indy100.com##.sticky-promo-bottom
@@ -14565,10 +14566,10 @@ maomaomom.com###execphp-15
 maomaomom.com###execphp-21
 maomaomom.com###execphp-4
 maomaomom.com##.textwidget > table[width="1050"]
-map.baidu.com###fis_elm__12
 map.baidu.com###fis_elm__6
 map.baidu.com###mapBanner
 map.baidu.com###message-panel
+map.baidu.com##.common-widget-bottom-banner-changeId
 map.baidu.com##.damoce-search-item
 map.baidu.com##.search-item[data-stat-code="poisearch.damoce.item"]
 map.baidu.com#?##page-wrapper > div#common-bottombanner-widget-fis:has(> div.common-widget-bottom-banner-changeId > div.bottom-banner-float)

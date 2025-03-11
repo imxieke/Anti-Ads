@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-11 00:24:28 RPC
+! Updated: 2025-03-11 09:40:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16138,6 +16138,7 @@ gismeteo.pl,gismeteo.ru,gismeteo.by,gismeteo.lt,gismeteo.kz##.social-buttons-tit
 gismeteo.ru##.social-btns-wrapper
 gismeteo.ua,gismeteo.by,gismeteo.kz,gismeteo.pl,gismeteo.com,gismeteo.lt,gismeteo.ru##.article__ctrls
 git-tower.com###sharing-sidebar
+gitflic.ru##button[data-tooltip-text="Скопировано!"]
 github.blog##.flex-items-center > ul:has(> li > span:contains(Share:))
 github.blog##.post__social-share
 github.com##.readme-sharing
@@ -17221,8 +17222,7 @@ indiatoday.in,skylinewebcams.com,fr.bab.la,exitosanoticias.pe,deftpdf.com,mixdro
 indiatodayne.in,lz.de,businesstoday.in##.share-li
 indiatvnews.com##.follow-google
 indiatvnews.com##.fsocial
-indiatvnews.com##.social.pull-left
-indiatvnews.com##.social.pull-right
+indiatvnews.com##.social
 indiatvnews.com##.whatsapp_link
 indiegogo.com##.i-vertical-share-links
 indiegogo.com##share-item[ng-click]
