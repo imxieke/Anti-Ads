@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-11 16:26:59 RPC
+! Updated: 2025-03-12 00:27:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6308,6 +6308,8 @@ caiyunapp.com##.active-imgContainer
 calc-site.com##div[id$="_ad"][id^="calc_"]
 calculator-online.net##div[style^="min-height: 250px;"][style*="margin-bottom: 15px;"]
 calculator-online.net#?#.col:has(> div > a[title="TDEE Calculator App"])
+calcus.ru###caramel-under-mobile-container
+calcus.ru###top_a_container
 calcus.ru##div[style="height:300px"]
 calend.ru##.banner2
 calendar.yahoo.co.jp##.js-AppBanner
@@ -9319,7 +9321,6 @@ fulishequ.com###china_ads_div405,#lovexin12,#lovexin14,.asb-index-01
 full-count.jp###c2_click_jera_award_sp_article_end
 full-count.jp##.erase_space-ad ~ p[style="clear:both;"]
 full-count.jp#?#.erase_space-ad ~ div.c-heading:has(> p[class^="c-heading_"]:contains(RECOMMEND))
-fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 fullyu.com##.rightSide-top-ads
 fun1shot.com##a[href^="https://kenio.cn/"]
 fun48.com###float2016
@@ -15296,6 +15297,7 @@ msn.com###ahsbanner
 msn.com###NewsApps
 msn.com###taboola-above-homepage-thumbnails
 msn.com##.ad
+msn.com##.article-cont-read-button-on-app
 msn.com##.end-of-content-block
 msn.com##.intra-article-ad-full
 msn.com##a[href^="https://aka.ms/InstaInstaContent"]
@@ -15307,6 +15309,7 @@ msn.com##div[data-test-id="mrr-topad"]
 msn.com##iframe[id^="_mN_dy_"]
 msn.com#$##irisbannerph { display: none !important; }
 msn.com#%#//scriptlet('remove-class', 'irisbactive-top', 'body')
+msn.com#%#//scriptlet('set-local-storage-item', 'continuousReadingOnAppState', '$remove$')
 mt30.com##.biaod,[src="downa.jpg"]
 mtb-news.de##.mtbnews-forum__centered
 mtb-news.de##.mtbnews-mobile-sticky
@@ -15453,6 +15456,7 @@ mydown.yesky.com##.rightGg
 mydowndown.com##p[style="color:#ff0000;"] > a[target="_blank"]
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
 mydramalist.com###footer-stky
+mydramalist.com##.app-body > div[class]> .is-mobile[style^="min-height:"]
 mydramalist.com#?#.app-body > div[class]:first-child:has(> .is-mobile > div[class] > .mdl-gpt-tag)
 mydrivers.com###a_showhotnews_list_dia
 mydrivers.com###div_newsyjgg
@@ -17040,6 +17044,7 @@ porndoe.com##.-up-mobile
 porndr.com##div[style="text-align: center; display: block; margin: 0px 0px 10px;"]
 pornerbros.com,fux.com##.video-list-top-ad
 pornerbros.com,porntube.com##.interstitial
+pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 porngo.com##.center-spot
 pornhat.*##.bn-title-mobile
 pornhd.com###adhesionZone
@@ -18360,6 +18365,7 @@ shonenjumpplus.com#$#div[class^="smartapp-"] { display: none !important; }
 shop-apotheke.com#%#//scriptlet('set-session-storage-item', 'ErxModal', 'true')
 shop.menz-style.com###coupon-container
 shop.menz-style.com##img[alt="秋冬コーデのコツ"]
+shopback.com##div[data-type="banner-set"]:has(> div.d_flex > div.MuiBox-root > div[data-ui-element-name="extension & app"])
 shopch.jp###informApp
 shopee.co.id#?#.search-items-container__tab-panel > .item-card-list > .item-card-list__item-card-wrapper:has(> a[href] > div[class] > div[class]:not([class^="_"]) > div[class]:last-child:contains(/^Iklan$/))
 shopping.yahoo.co.jp###h_app
@@ -20548,6 +20554,8 @@ uuu9.com##DIV[class^="top"][class$="bar mt10"],DIV#top,DIV#cm1337,DIV.top2box,se
 uuxs.net##.bd980
 uuzzw.com##.topmedia
 uuzzw.com##.xgtj-recom
+uwagakisimasuka.blog.fc2.com###entry_box > div > a[href^="https://www.amazon.co.jp/exec/"] > img
+uwagakisimasuka.blog.fc2.com###entry_box > div:not([class]) > a[href^="https://amzn.to"]
 uwants.bonbonme.com##[src^="http://i.imgur.com/"],.light
 uwants.com###foruminfo + div[align="center"]
 uwants.com##.showpx1
@@ -20811,8 +20819,7 @@ vologda-poisk.ru##.brn--m-up1
 vorsprung-online.de##.article-content .adsbygoogle
 vovokan.com##DIV.ad_heng
 voyce.me##div[id^="adnewappbanner_"]
-voyeurhit.com##.video-page__wrapper > div[class]:has(> div[class] > a[href^="https://clickadilla.com/"])
-voyeurhit.tube##.video-page__wrapper > div:not([class^="video"])
+voyeurhit.*##.video-page__wrapper > div:not([class^="video"])
 vp.rambler.ru##.eagleplayer-advertisement-remain-time
 vprok.ru#$#.fo-mobile-app-popup { display: none!important; }
 vpsdx.cn,vpsdx.com##.span4 > a > img
