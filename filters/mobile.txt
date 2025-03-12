@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-12 00:27:39 RPC
+! Updated: 2025-03-12 09:39:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4579,7 +4579,6 @@ ananvod.com##.rbPicAll
 andhrajyothy.com##.onlyMobileADS
 andro-news.com##.rightbar .google-play
 andro-news.com,zooplus.de##.app__banner
-androeed.ru##.our_app
 androeed.ru##a[href*=".php?r="]
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 android.265g.com##div#fmt-wrap
@@ -12578,6 +12577,7 @@ kartlover.com###tryleague
 kashikoi.with.is,smsnator.online,emailnator.com##.top-banner
 kasioda.com###custom_html-9
 kaspersky.ru##.kl_sm_sidebar_banner
+kateinoigaku.jp##div[class^="styled__ContentAppBanner"]
 kavkazr.com##.banner__a
 kayak.*##mobile-app-promo-header
 kayouzhan.com##DIV.fmright,DIV.banner_2,DIV#code_box,DIV.ad
@@ -15672,6 +15672,8 @@ ndtv.com##amp-iframe[src^="https://drop.ndtv.com/"]
 ndtv.com##body .add_top-wrp-fl
 ndtv.com##div[class^="ad-art_"]
 ndtv.com,sports-ndtv-com.cdn.ampproject.org,www-ndtv-com.cdn.ampproject.org##.add-section
+ndtvprofit.com##div[class*="BelowHeroImage-ad"]
+ndtvprofit.com##div[class^="mobile-bottom-sticky"]
 ndwww.cn##div.indexAdsbot,div.rigad,div.topAd,div.ad,div.r-ad1
 neatstudio.com##a[href*="&cps_key="]
 neets.cc#?#div[class]:-abp-has(> div > .home_p)
@@ -21951,7 +21953,8 @@ xiaoma.com##.leftewm_topa
 xiaoma.net##.col-list-ad
 xiaoma.net##.colunm-banner
 xiaomi.cn##div.bannerTop,img.leftfix,.div.bannerBottom
-xiaomiui.net##.bottom_fixad
+xiaomitime.com,androeed.ru##.our_app
+xiaomitime.com,xiaomiui.net##.bottom_fixad
 xiaopi.com###banner,.right_ad,.new_show_xzq
 xiaopi.com##.down-list
 xiaopi.com##.gg_box

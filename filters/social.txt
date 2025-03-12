@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-12 00:27:39 RPC
+! Updated: 2025-03-12 09:39:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15071,6 +15071,7 @@ evaveda.com###text-15.widget-container
 evaveda.com###text-4.widget-container
 evening.kodansha.co.jp,morning.kodansha.co.jp,afternoon.kodansha.co.jp###ssSh18v1
 eveningtimes.co.uk##.custom-sharing
+eventbrite.ca##li.actions-panel__item--share[data-heap-id="Listing - Hero - Share - Click"]
 eventernote.com##.gb_social
 evernote.com##.social-overlay-open
 every-tuesday.com##.etwp-socialNav
@@ -26096,8 +26097,8 @@ xgp.pl,diariobasta.com,technofaq.org###custom_html-3
 xi.express##div[class*="Bar_article-bar__share"]
 xi.express##div[class^="Footer_footer__likes-bar"]
 xi.express##span[class*="Footer_share__"]
+xiaomitime.com,xiaomiui.net##.share_float_container
 xiaomitoday.it###rh-share-sticky
-xiaomiui.net##.share_float_container
 xing-events.com##.shareButtonContainer
 xinhuanet.com##.info > ul.comment
 xinhuanet.com##.yjfxImg
