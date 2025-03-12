@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-12 09:39:24 RPC
+! Updated: 2025-03-12 16:28:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18993,7 +18993,6 @@ mail.ru##div[data-qa="SocialButtons"]
 mailblog.mail.ru##.sn-mini__single__post
 mailchimp.com##.article__shareLinks
 mailfence.com#@#a[href^="https://twitter.com/intent/tweet?"]
-mailwise.cybozu.co.jp##.p-sns-button
 main-echo.de###article > aside > .box ~ .box ~ .box > h3.stripe-heading
 mainichi.jp###area-share
 mainichi.jp##.articletool-list
@@ -22577,6 +22576,7 @@ saiyasune.com#?#div[id]:has(> a.modal-syncer:contains(当サイトはリンク�
 sakarabo.blog.jp##.social_menu
 sakaryadanhaber.com##.sn-entry > .row > .share
 sakaryagazetesi.com.tr,esgazete.com,sehrivangazetesi.com,aydinpost.com,turkgun.com##.share-area > div.social-buttons
+sakura-wks.com,mailwise.cybozu.co.jp##.p-sns-button
 sakura.ad.jp##.social-button-wrap
 sakurafile.com##.filepanel a[href^="javascript:share_"]
 sakurafile.com#?#.filepanel > tbody > tr > td > ul:only-child > li > a[href^="javascript:share_"]:upward(3)
@@ -26007,6 +26007,7 @@ wowneta.jp,wowkorea.jp##.news-detail__sns
 wowroms.com###col-main .social_title
 wp-rocket.me##.single-post__share-section
 wpb.shueisha.co.jp###js-detail-share
+wpcalc.com###wpcalc-share-buttons
 wpexplorer.com###fixed-social-share
 wpgurme.com##.post-share .share-handler
 wpgurme.com#@#.post-share

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-12 09:39:24 RPC
+! Updated: 2025-03-12 16:28:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -8632,7 +8632,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -9790,6 +9790,7 @@ gigafile.nu#$##gigafilefly-slot-ol { display: none !important; }
 gigafile.nu#$##sp_container > div#main_panel.container[style^="height:"]{ height: 0!important; }
 gigazine.net###latest > div#LB:has(> div[id^="div-gpt-"])
 gigazine.net###LB[style^="position:"][style*="top"]
+gigs.op.gg###__next > div[class]:has(> button:first-child ~ button[aria-label="Download"]:last-child)
 gingersoftware.com##.gc-home-page > gc-new-banner-carousel:has(.icon-chrome-colored)
 giphy.com##a[href="https://giphy.page.link/home"]
 giphy.com##div[class*="OpenInAppContainer"]
@@ -16410,6 +16411,7 @@ op.gg##.gtag-ad
 op.gg##.vm-placement,[class^="ads"]
 op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
+op.gg##div[class]:has(> div:empty:only-child)
 op.gg##div[class^="css-"] > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##header a[href^="https://itunes.apple.com/"]
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
@@ -16906,7 +16908,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -32154,6 +32156,7 @@ _zhike.htm
 ||cifnews.com/common/js/d/d/tea.js
 ||cifnews.com/yuguo3.0/live_dynamic/js/live_dynamic.js
 ||cig.com.cn^$third-party
+||cigoqcq.top^
 ||cigsvc.nytimes.com^$important
 ||ciimg.com^
 ||ciliba.org/Public/static/js/common-v2.js^
@@ -34862,6 +34865,7 @@ _zhike.htm
 ||dv4ku.icu^
 ||dvb.pandora.xiaomi.com^
 ||dvgjx.cn^
+||dvgr.cn^
 ||dvlith.xyz^
 ||dvs.china.com^
 ||dvser.china.com^
@@ -35120,6 +35124,7 @@ _zhike.htm
 ||ec2eu-de-2.deliveryengine.adswizz.com^$important
 ||ec2uswest2-de-5.deliveryengine.adswizz.com^$important
 ||ecard.shenzhentong.com^
+||ecatqefal.com^
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
 ||ecdn.analysis.fi^$important
@@ -35603,6 +35608,7 @@ _zhike.htm
 ||euadsapi.manhuaren.com^$important
 ||euapi.ibm.xtify.com^$important
 ||euasync01.admantx.com^$important
+||euazwot.top^
 ||eugegisler.com^
 ||eula.mindspark.com^$important
 ||eur-ukp.adsrvr.org^$important
@@ -38422,6 +38428,7 @@ _zhike.htm
 ||hxczzzw.com^$important
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||hxlover.com^
+||hxnpxh.icu^
 ||hxqu.com^
 ||hxspc.com^
 ||hxsxw.com/hx8899/
@@ -40089,6 +40096,7 @@ _zhike.htm
 ||jizxnr.xyz^
 ||jizzads.com^
 ||jjckb.cn/flash/1031ad/
+||jjfufv.icu^
 ||jjimtya.top^
 ||jjiv.top^
 ||jjj*.com/static/js/common.js
@@ -43009,6 +43017,7 @@ _zhike.htm
 ||mjbidlg.icu^
 ||mjimtyx.top^
 ||mjp-analytics.ximad.com^$important
+||mjvr.cn^
 ||mjxads.internet.com^$important
 ||mk-auth.com.com^$important
 ||mkadsearch.lizhifm.com^
@@ -44415,6 +44424,7 @@ _zhike.htm
 ||oafishobservation.com^
 ||oaftaijo.net^$third-party
 ||oaiqksi.top^
+||oajv.cn^
 ||oakmn.top^
 ||oao-d.openx.net^$important
 ||oaqrui.xyz^
@@ -48139,6 +48149,7 @@ _zhike.htm
 ||scdown.qq.com^$important
 ||scenicapparel.com^
 ||scenicdrops.com^
+||scesqoikq.com^
 ||scheme.adywind.com^$important
 ||scheme.mobpowertech.com^$important
 ||scibook.cn/tuiguang.
@@ -52160,6 +52171,7 @@ _zhike.htm
 ||trends.taboola.com^$important
 ||trenhdg.com^$third-party
 ||trent.tjsiilw.online^$important
+||treqonwyp.com^
 ||trfmxt.com^$important
 ||trhunt.com^$important
 ||tri.privy.com^$important
