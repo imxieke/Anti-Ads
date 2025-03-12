@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-03-12 16:28:07 RPC
+! Updated: 2025-03-13 00:27:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -60,8 +60,9 @@ btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
 cad.youku.com
 cctv.com###bgAd_div
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+cdn.g2ak5.com[Adblock Plus 2.0]
 cm.l.qq.com
-dandanzan.*,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
+dandanzan.*,nnyy.in,nunuyy5.com##video:style(max-height:100%!important)
 ddys.*###sajdhfbjwhe:remove()
 ddys.*##+js(set, Object.prototype.ads, null)
 ddys.*##.cfa_popup:remove()
@@ -70,6 +71,7 @@ de.as.pptv.com
 dm84.*###qrcode
 dm84.*##.container:style(max-width: 60vw!important)
 dm84.*##.p_box:style(height:33vw!important;padding-top:0!important)
+dmmiku.*##.ads_all:remove()
 douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com,huya.com##a[href^="https://g.wan."]
 g.huya.com
@@ -255,8 +257,8 @@ z4a.net
 ||webrtc.github.io^$script,3p
 ||wj.fspcdn.com/mat/
 ||www.1905.com/uploadfile/2024/0401/20240401094429405834.jpg^$image
+||www.dmmiku.com/upload/*.png|$image
 ||www.iqiyi.com/service-worker.js
 ||www.yatu.tv:2082/image/*.gif^$image
 ||www.yatu.tv:2082/m/images/$image
 ||yoyi.com.cn^3p
-搜狐网络科技.中国[Adblock Plus 2.0]

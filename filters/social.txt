@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-12 16:28:07 RPC
+! Updated: 2025-03-13 00:27:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12098,6 +12098,7 @@ azatliq.org,ekhokavkaza.com,sibreal.org##body .slide-in-wg
 azbyka.ru###footer-navigation ~ div[class^="social-share_"]
 azbyka.ru##.article-post-footer > div.social-links ~ *
 azerbaycan24.com##body > #ouibounce-modal
+azertag.az##.app-news-share
 azlyrics.biz##.smicon
 aznude.com,tasteofhome.com,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##.jw-settings-sharing
 azoai.com,azobuild.com,azocleantech.com,azolifesciences.com,azom.com,azomining.com,azonano.com,azooptics.com,azoquantum.com,azorobotics.com,azosensors.com,calcioefinanza.it,christianpost.com,crealitycloud.com,libreriascolastica.it,libreriauniversitaria.it,news-medical.net,scientificamerican.com,tiscali.it##.share-box
@@ -13384,6 +13385,7 @@ cloud.google.com##a[track-type="social share"]
 cloud.mail.ru##.b-social-icons
 cloud.mail.ru##div[class^="inline fields SocialButtons__buttons"]
 cloudbase.gg##.kt-inside-inner-col > div.share-icons
+cloudbase.gg##.sidebar-inner-wrap .kt-inside-inner-col > p.wp-block-kadence-advancedheading:has(+ style + div.share-icons)
 cloudbase.gg#?#.kt-inside-inner-col > p[class^="kt-adv-heading_"]:contains(Share)
 cloudcasting.jp##a[class^="castProfileSide_pubprof-sidebtn__share"]
 cloudcasting.jp##ul[class^="sideProfile_pubprof-share__list"]
@@ -14310,9 +14312,9 @@ diyanet.tv##.navbar-sosyal
 diyanet.tv##.sosyal-alt-ust
 diyetextra.com,mdr.de,driving.ca##.pinterest
 diyetkolik.com###kkPaylasSutunu
-diyetkolik.com###solAnaSutun
 diyetkolik.com##.article_share_social
 diyetkolik.com##.body_share_panel
+diyetkolik.com##div[id$="share-column"]
 dizelyator.ru##.imgsoc
 diziizle.net###facebook-takipet
 diziizle.net###spopup
@@ -14741,7 +14743,6 @@ elfinanciero.com.mx##.b-footer__social-links-container
 elfinanciero.com.mx#?#div.flex_align-items-center:has(> button[title="twitter"])
 elheraldo.co##.redes-compartir
 elhow.ru##.art-social-wrapper-ahchor
-elhow.ru##.social-banner
 elimparcial.com##.ei-article-aperture-share-bar-container
 elinformador.com.co##.addtoany_container
 elise.com.ua#?#.justify-center:has(> div.flex > a[data-social])
@@ -18108,7 +18109,6 @@ konest.com#?#article > div#d_subtitle:has(> h5.bold:contains(この情報を共�
 kongregate.com###kongregate_social_connect_pod
 konhaber.com,belge.com.tr##.sosyalMedya
 konoe.studio##.blog-post-share
-konoe.studio,tomatazos.com,ural-meridian.ru,opencritic.com,mundodaeletrica.com.br,levelup.com,hateblo.jp,hatena.ne.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,open.online,androidiani.com,leomolenaar.nl,habervakti.com,obzorposudy.ru,onewatch.by,mitanyan98.hatenablog.com,goope.jp,rai.it,homesha.co.jp,mblx.ru,newspicks.com,otdelka-remont.ru,zan.kz,kanalmaras.com,lanacion.com.co,cars.com,gaitame.com,lr21.com.uy,edehaber.com.tr,pervasiz.com.tr,gazeteyenigun.com.tr,number.bunshun.jp,tv5.com.tr,miuirom.org,conterfrag.ru,pay-day.ru,altarena.ru,pocket.shonenmagazine.com,haberts.com,cookpad.com,finans7.com,aforismo.ru,studyhacker.net,portableapps.com,click-or-die.ru,graniru.org,maxedtech.com,rockpapershotgun.com,souspark.ru##.social-buttons
 konstruktortestov.ru###test_result > p + p + h2
 konstruktortestov.ru##.holder-social
 konsultacjejst.pl##.fbBox
@@ -20250,6 +20250,7 @@ news.ltn.com.tw##.add_fb
 news.m.pchome.com.tw##.share-all
 news.microsoft.com##.mt-social-links
 news.microsoft.com##.social-share-networks
+news.milli.az,elhow.ru##.social-banner
 news.mingpao.com##.articlesharepart
 news.mit.edu##.news-article--share
 news.mtv.it##.socicon-container
@@ -20288,6 +20289,7 @@ news.tvbs.com.tw##.time_limit
 news.tvbs.com.tw#?#div[class^="newsdetail_"][class*="community"] ul > li:has(> a[href^="https://plus.google.com/share?"])
 news.tvbs.com.tw#?#div[class^="newsdetail_"][class*="community"] ul > li:has(> a[href^="https://www.facebook.com/sharer/sharer.php"])
 news.ubisoft.com##.social__title
+news.un.org##.minimal-share
 news.un.org##.minimal-share-wrapper
 news.usni.org##.component56--share
 news.wisc.edu,canalys.com,wagwalking.com,kingsoft.jp,apteka911.ua,consumerreports.org,diariodonordeste.verdesmares.com.br,lewdgamer.com,zet.com,clubhunters.ru,multiplayer.it,www-m.cnn.com,edition-m.cnn.com,ampproject.org,drom.ru,haberler.com,daenischesbettenlager.at,daenischesbettenlager.de,jysk.al,jysk.am,jysk.ba,jysk.be,jysk.bg,jysk.ca,jysk.co.id,jysk.co.uk,jysk.com,jysk.com.cy,jysk.com.kw,jysk.com.mt,jysk.ch,jysk.cz,jysk.dk,jysk.ee,jysk.es,jysk.fi,jysk.fr,jysk.ge,jysk.gr,jysk.hr,jysk.hu,jysk.ie,jysk.it,jysk.lt,jysk.lv,jysk.nl,jysk.md,jysk.me,jysk.mk,jysk.no,jysk.pl,jysk.pt,jysk.ro,jysk.rs,jysk.se,jysk.si,jysk.sk,jysk.ua,jysk.vn,jysk-ks.com,jyskthailand.com,pisiffik.gl,rumfatalagerinn.is,skemman.fo###social-share
@@ -21881,6 +21883,7 @@ pz-news.de###sebox_213_0
 pz-news.de##.nfy-sebox-facebook-like
 pzonline.com#@#.social_fix
 q.hatena.ne.jp,thequestion.ru##.question-share
+qafqazinfo.az,konoe.studio,tomatazos.com,ural-meridian.ru,opencritic.com,mundodaeletrica.com.br,levelup.com,hateblo.jp,hatena.ne.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,open.online,androidiani.com,leomolenaar.nl,habervakti.com,obzorposudy.ru,onewatch.by,mitanyan98.hatenablog.com,goope.jp,rai.it,homesha.co.jp,mblx.ru,newspicks.com,otdelka-remont.ru,zan.kz,kanalmaras.com,lanacion.com.co,cars.com,gaitame.com,lr21.com.uy,edehaber.com.tr,pervasiz.com.tr,gazeteyenigun.com.tr,number.bunshun.jp,tv5.com.tr,miuirom.org,conterfrag.ru,pay-day.ru,altarena.ru,pocket.shonenmagazine.com,haberts.com,cookpad.com,finans7.com,aforismo.ru,studyhacker.net,portableapps.com,click-or-die.ru,graniru.org,maxedtech.com,rockpapershotgun.com,souspark.ru##.social-buttons
 qatarliving.com##.ql-facebook
 qatarliving.com##.ql-instagram
 qatarliving.com##.ql-snapchat
