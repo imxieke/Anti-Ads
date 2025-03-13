@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-13 16:27:31 RPC
+! Updated: 2025-03-14 00:27:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9720,6 +9720,7 @@ gelbooru.com##div[style="text-align: center; padding: 10px; border: 1px dotted #
 gematsu.com#?##sidebar > #section:contains(Advertisement)
 gendai.media##div.flex:has(> div[class] > div[style^="width"] > div[data-testid^="FR_SP_"])
 gendai.media##div[data-testid^="second-rectangle-ad"]
+gendai.media##div[style="width:320px;min-width:320px;min-height:50px"]
 genius.com##.android_banner
 genius.com##.apple_music_player_container
 genius.com##.dfp_unit--interscroller
@@ -17007,6 +17008,7 @@ pogomap.info#$##logobarclose { display: none !important; }
 pogomap.info#$##logobarloop { display: none !important; }
 pogomap.info#$##map { bottom: 0 !important; }
 pogomap.info#?##logobar:has(div#smallmapad)
+pogovorim.by##.fsm_news_body > div[style]:has(> div[id*="ScriptRoot"])
 poinews.jp##.adFeed
 point.md###featured-banner-placeholder
 point.md#%#//scriptlet('set-cookie', 'visited', 'true')
@@ -17085,6 +17087,8 @@ pornhub.com##div.topAdContainter
 pornhub.com#@#div > [style*="width: 100%;"]:first-child
 pornhub.com$$div[class="bottomNav clearfix"]
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('set-constant', 'abp1', '0')
+pornl.com#?#.wrapper > div[class]:has(> div > div > span:matches-css(after, content: Advertisement))
+pornl.com#?#.wrapper > section:has(> div > span:matches-css(after, content: AD))
 pornlulu.com##.row.links
 pornlulu.com,pornbest.org###fullPageModal
 pornomira.net##center[style="margin-bottom: 20px; min-height:250px"]
