@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-13 00:27:21 RPC
+! Updated: 2025-03-13 09:41:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16331,6 +16331,7 @@ gorodche.ru###sh1on
 gorodche.ru##.socialnetworks-posting > div.news-piece-layout__date
 gorodche.ru##a[title^="Поделиться в"]
 gorodche.ru#?#h4:contains(/^Поделиться$/)
+gorodkirov.ru,navigator-kirov.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progorodnsk.ru,progorodsamara.ru,progoroduhta.ru##div[class^="article-social_"]
 gorodn.ru##.article__socialmedia
 gorodrabot.by##.sidebar > aside.block.d-print-none
 gorodrabot.by#?#.sidebar > div.sidebar__block:has(> div.block__title:contains(Поделиться с друзьями))
@@ -21739,11 +21740,6 @@ profm.ro##article div.social
 prog-8.com##.blog-contents__share
 prog-8.com##.document-review-text > div[style="text-align: center;"]
 proglang.su#?#.mtb > div.row > div[class] > h6:contains(Поделитесь)
-progorod33.ru##div[class^="article-social_articleSocial"]
-progorod43.ru##noindex > div.Like
-progorod58.ru##div[class^="article-social"]
-progorod59.ru##.article__likes-title
-progorod76.ru##div[class^="article-social_"]
 progorodsamara.ru#?##MainContentBox > #CENTER > h3:contains(Вступай в группу)
 progorodsamara.ru#?##MainContentBox > #CENTER > h3:contains(Вступай в группу) ~ div[style*="float"][style*="width"]
 programme-television.org##.infos_partage
@@ -22855,12 +22851,7 @@ shariki-games.ru##a#link_test
 shayhowe.com##.toc > .share
 shayhowe.com#?#.pop-out > .toc > h6:contains(Share)
 shazam.com#$#div[data-test-id$="_shareButton"] { visibility: hidden !important; }
-shazoo.ru##.asideSocial
-shazoo.ru##.socb
-shazoo.ru##.socioline
 shazoo.ru##.sticky > div.items-center > a[href="#"]
-shazoo.ru##.vue-target > div.justify-around
-shazoo.ru#@#a[href^="https://feedly.com/i/subscription/"]
 shbarcelona.com##.footer_network
 shefinds.com##div[class*="page-social-wrap"]
 shein.com##.product-intro__head-share
@@ -23411,6 +23402,7 @@ sportsw.kr##.sns-grp
 sportsw.kr,idsn.co.kr,upinews.kr##.viewSns > ul:not(.font)
 sportwebsicilia.it##.follow-title
 sporza.be##[class*="_share_"]
+spot.uz##a[data-target="share-dropdown"]
 spravportal.ru###pnlShare
 spravportal.ru##div[id$="_pnlShare"]
 spring.org.uk##.yasip.widget
@@ -23566,7 +23558,6 @@ strefaobrony.pl,shownews.pl,e-ogrodek.pl,gra.pl,stronakuchni.pl,stronapodrozy.pl
 strefaobrony.pl,shownews.pl,e-ogrodek.pl,gra.pl,stronakuchni.pl,stronapodrozy.pl,strefaedukacji.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,pomorska.pl,poranny.pl,to.com.pl,wspolczesna.pl,polskatimes.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,gol24.pl,gra.pl,naszemiasto.pl,miastakobiet.pl,stronazdrowia.pl##div[class*="ArticleFoot"] > div[class*="ArticleFoot"][class*="icons"] > button[id*="ArticleFoot"][id*="Share"]
 strefaobrony.pl,shownews.pl,e-ogrodek.pl,gra.pl,stronakuchni.pl,stronapodrozy.pl,strefaedukacji.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,pomorska.pl,poranny.pl,to.com.pl,wspolczesna.pl,polskatimes.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,gol24.pl,gra.pl,naszemiasto.pl,miastakobiet.pl,stronazdrowia.pl##div[class*="ArticleFoot"] > div[class*="ArticleFoot"][class*="icons"] > button[id*="ArticleFoot"][id*="Share"] ~ button[class*="ArticleFoot__icon"]
 strefaobrony.pl,shownews.pl,e-ogrodek.pl,gra.pl,stronakuchni.pl,stronapodrozy.pl,strefaedukacji.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,pomorska.pl,poranny.pl,to.com.pl,wspolczesna.pl,polskatimes.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,gol24.pl,gra.pl,naszemiasto.pl,miastakobiet.pl,stronazdrowia.pl##div[class*="ArticleFoot"] > div[class*="ArticleFoot"][class*="icons"] > button[title="Udostępnij!"]
-strikeout.nu,gorodkirov.ru##.likely__widget
 stripe-club.com##.cmn-share
 stroi.mos.ru##.news-wrapper__share
 stroy-telo.com##.mc-share-toggle

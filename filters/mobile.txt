@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-13 00:27:21 RPC
+! Updated: 2025-03-13 09:41:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5395,6 +5395,7 @@ banjiajia.com##.register-box
 banjiajia.com##.register-ten
 bankbazaar.com###mobileAppStickyFooter
 banki.ru##div[class^="appsWidgetstyled__StyledAppsWidget"]
+banki.ru##div[class^="DownloadMobileAppstyled__DownloadAppWrapStyled"]
 banki.ru##section[data-test="currency-widget"] > div.margin-bottom-medium
 bankier.pl##html[amp-version] .content-center.gray-bg
 bankier.pl##html[amp-version] .smart-box
@@ -17173,8 +17174,6 @@ profile.ru#?#.right-side > div.cell:has(> a[href$="mobilnye-prilozheniya"])
 profuture.co.jp##div[class^="bnrApp_"]
 prog-8.com##.app-download-links
 proginn.com##div[style*="width:1000px;height: 250px;"]
-progorod76.ru##div[class^="banner-push_"]
-progorod76.ru##div[class^="banner-top"]
 programiz.com##.get-app-link
 programmer-club.com.tw##A[href*="/ADRedirect."]
 progressive.com##ps-smart-banner
@@ -18342,7 +18341,6 @@ share.dmhy.org##div[align="center"][id] > a > img
 share.popgo.org##div#bottom_ads
 sharonlife.tw#?##sidebar > div.widget:has(> h4:contains(廣告))
 shazam.com##div[data-shz-beacon="section=get-app-banner"]
-shazoo.ru##img[width="1024"][height="252"]
 shejiben.com##.bottom_zb_box
 shejidaren.com##.ads-post-foot
 shejidaren.com##.AND
