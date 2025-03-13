@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-13 09:41:29 RPC
+! Updated: 2025-03-13 16:27:31 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13195,8 +13195,6 @@ onlinefinanzierung.vr-smart-finanz.de##.cookieconsentContainer
 onlinegibdd.ru###gritter-notice-wrapper
 onlinekonto.de###modalBackground
 onlinekonto.de##.modalCookieAcceptanceSmall
-onlinelekarna.cz,silvini.sk,silvini.cz,norwayshop.cz,neviditelnepradlo.cz#$##dm-cookie-popup-container { display: none !important; }
-onlinelekarna.cz,silvini.sk,silvini.cz,norwayshop.cz,neviditelnepradlo.cz#$#body.cookie-modal-open { overflow: auto !important; }
 onlinelibrary.wiley.com##.js-module.notification
 onliner.by##.consent-app
 onlineradiobox.com##.playmarket
@@ -14164,7 +14162,6 @@ promipool.de##.needsclick
 promipool.de##body > #page ~ div:not([class]):not([id])
 promobit.com.br###__next > div.fixed:has(> div.flex > p > a[href="/institucional/cookies/"])
 promobit.com.br##.pr-cookie
-promobit.com.br##.pr-cookie-modal
 promobit.com.br#?##__next > div > div:has(> p > a[href="https://www.promobit.com.br/Index/cookie/"])
 promod.de##.content_cookies
 promods.net##.tibrr-cookie-consent-container
@@ -14471,6 +14468,8 @@ readyplayer.me##main > .fixed.bottom-0.p-4.transition-opacity
 real.de#$##consentOverlay { display: none !important; }
 real.de#$#html { overflow: visible !important; }
 realestate.com.au##.gdpr-consent-element-wrapper
+realgeek.cz,onlinelekarna.cz,silvini.sk,silvini.cz,norwayshop.cz,neviditelnepradlo.cz#$##dm-cookie-popup-container { display: none !important; }
+realgeek.cz,onlinelekarna.cz,silvini.sk,silvini.cz,norwayshop.cz,neviditelnepradlo.cz#$#body.cookie-modal-open { overflow: auto !important; }
 realm667.com#@##redim-cookiehint:not(body):not(html)
 realme.com##.r-cookie-footer ~ div.mask-untouch
 realme.com#$#.r-cookie { display: none !important; }
@@ -17558,6 +17557,7 @@ vietnamairlines.com#$#body.cookie-accept-required::before { content: none !impor
 view.group.rwe,rwe.com#$#.cb[data-cookie-name="gdpr-settings-cookie"] { display: none !important; }
 view.group.rwe,rwe.com#$#body.cb--active { overflow: visible !important; }
 viewsonic.com##body > .alert-dismissible
+viewsonic.com,promobit.com.br##.pr-cookie-modal
 viewstats.com,vgchartz.com,video.foxbusiness.com##.notification-banner
 vigo.de##.wx_consentbanner
 vigoalminuto.com###rgpdCookiesHacce

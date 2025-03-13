@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-13 09:41:29 RPC
+! Updated: 2025-03-13 16:27:31 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1431,6 +1431,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 2345.com##.comp-normal-navigate
 2345.com##.dzc-hn-cmoe
 2345.com##.event1-hasList
+2345.com##.lian-meng-box
 2345.com##.mainbg
 2345.com##.mainbg1
 2345.com##.mco-ex-ndxh
@@ -1438,10 +1439,12 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 2345.com##.mod-txtred
 2345.com##.mzdh_bottom
 2345.com##.newsArea
+2345.com##.part-banner > .part-ppt
 2345.com##.s11-fixNav
 2345.com##.s11-logowall
 2345.com##.s11-side
 2345.com##.s12-fullNav
+2345.com##.search-right-swiper-news
 2345.com##.spreadHotWords
 2345.com##.tip_stopXP
 2345.com##.top > .fred
@@ -1451,6 +1454,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 2345.com##.vipTopBanner
 2345.com##.v_picConBox.height214
 2345.com##.wawaji
+2345.com##._isFirstAd
 2345.com##div#ivy-taobao,div.baiduHotWordsR.mt10.clearfix,div.ivyBaidu,div.ivy240.mt10,div.ivy940.mt10,div.ivy940_82.mt10,div#corner_div,div#J_cj,div#J_tip_stopXP,div#tools-gameTmp,div.tip_stopXP,div.J_topicBanner,div.mod.event1.event1-hasList,div#globalTopbannerContent,div.headIvy230,div#J_acts12_bfix,div#BAIDU_DSPUI_FLOWBAR,#topHf,#secondFlashAds,.ad_countdown,.baiduSearchIvy,.rowIvy,.adMainBg_1440,.s11-logowall,.activity-skin-trig,.item-lvy,.adMainBg
 2345.com##div[class*="act-navspec"]
 2345.com##div[class*="act-open"] > :not(.close):not([class*="mask"])
@@ -1804,6 +1808,14 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 4399.com,sxrtv.com,zgsyz.com###ad2
 43aq.com##[width="990"][height="70"],[width="990"][height="60"]
 44.ua,056.ua,032.ua,04868.com.ua,karelia.news,0629.com.ua,0154.by,0472.ua,048.ua,0512.com.ua,0522.ua,0532.ua,0552.ua,056.ua,0564.ua,061.ua,06153.com.ua,0642.ua,62.ua,7152.kz,7232.kz,city04.kz,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,inkaragandy.kz,inshymkent.kz,kaskelenec.kz,qapshagai-city.kz,uralskcity.kz##app-main-popup-banner
+445nan.com###appBox
+445nan.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight == 0')
+445nan.com#%#//scriptlet('set-constant', 'appData', 'emptyArr')
+445nan.com#%#//scriptlet('set-constant', 'btmData', 'emptyArr')
+445nan.com#%#//scriptlet('set-constant', 'coupletData', 'emptyArr')
+445nan.com#%#//scriptlet('set-constant', 'midData', 'emptyArr')
+445nan.com#%#//scriptlet('set-constant', 'topData', 'emptyArr')
+445nan.com#@#.ad-box:not(#ad-banner):not(:empty)
 446655.com##[id^="playtop_ad"],.lingiframe,.adsbygoogle
 4493.com##.ibox,.iboxline
 45fan.com##.botad1,.adz
@@ -2237,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8634,7 +8646,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -8967,6 +8979,9 @@ finance.yahoo.com##.ys-mobileFeaturedAd
 finance.yahoo.com#$#body > div.wafer-lightbox-overlay:has(> div.wafer-ligthbox-source-subscription-monalixa-overlay-lightbox) { display: none !important; }
 finance.yahoo.com#$#html { overflow: auto !important; }
 financefeeds.com##div[id^="tdm-popup-modal-td"]
+financial-field.com###adz-skin-wrapper-bg
+financial-field.com##.bottom-jack-banner
+financial-field.com#$#body.jackbanner { margin-top: 0 !important; padding-bottom: 0 !important; }
 financialexpress.com##.ad-bg-container
 financialexpress.com##header > .fewrapper
 financialexpress.com#$#.wp-block-group.auto-header { min-height: auto !important; }
@@ -15639,6 +15654,7 @@ navitime.co.jp##.inview-m8iDqk1XV9
 navitime.co.jp##.kyujin-control-banner-container
 navitime.co.jp##.sales-area > img[src*="sp/bicycle/bicycle-"]
 navitime.co.jp##.sales-btn-area > a[href*="app"]
+navitime.co.jp##.st-koten-naviad-list
 navitime.co.jp##a[href^="https://lp.koteihyo-cloud.navitime.co.jp"]
 navitime.co.jp##a[onclick*="app.adjust.com"]
 navitime.co.jp##div[style="height: 280px"]
@@ -16909,9 +16925,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -17751,6 +17767,8 @@ red-forum.com###mobile_banner
 redbook.com.au##.csn-refine-ads
 redcafe.net##.adwrap
 redd.tube##.banner300x130
+redd.tube#$#.fixed-container[style^="min-height:"] { min-height: auto !important; }
+redd.tube#$#section[style^="min-height:"] { min-height: auto !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.BannerAd__320x50
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.mobile-web-redirect-bar
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##article[id] > a[href^="https://alb.reddit.com/"] ~ *
@@ -23530,6 +23548,7 @@ _zhike.htm
 ||2345.com/duoteimg/img/*_ad_
 ||2345.com/dypcimg/*gameRecommend.js
 ||2345.com/dypcimg/ads/
+||2345.com/guess/v1/adList
 ||2345.com/images/activity/20180618/search-actimg
 ||2345.com/images/m/global/new-hongbao/
 ||2345.com/js/index/activity/
@@ -23879,6 +23898,7 @@ _zhike.htm
 ||4399sj.com^*/mask-ad
 ||43a.icu^
 ||4438x*.com/Runtime/js/
+||445nan.com/ad/
 ||44629.com^
 ||4466.com/4466/
 ||44hd.cc/js/$script
@@ -28692,6 +28712,7 @@ _zhike.htm
 ||apicosdk.onemt.co^$important
 ||apicssdk.onemt.co^$important
 ||apidq.punchh.com^$important
+||apiiksn.top^
 ||apiimg.com/huaer/xiahe.
 ||apilog.app.acfun.cn^
 ||apinas.nct.vn^$important
@@ -35904,6 +35925,7 @@ _zhike.htm
 ||fairytaleflame.com^
 ||faiusr.com/2/ABUIABACGAAg_dCW0gUo7NqNJjDgATh3.jpg
 ||faiusr.com/3/ABUIABADGAAgkIXb6gUo-L_AwwcwsAk4Wg.gif
+||fajkhr.icu^
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||falcon.pixnet.net/ad/
 ||fallaciousfifth.com^
@@ -38121,6 +38143,7 @@ _zhike.htm
 ||hlzncxmu.icu^
 ||hm.baidu.com/mkt.js
 ||hm.baidu.com^
+||hmbprf.icu^
 ||hmcvs.cn^
 ||hmghmg.com/tb
 ||hmjmjz.icu^
@@ -39675,6 +39698,7 @@ _zhike.htm
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
 ||issuecdn.baidupcs.com^
+||istraxuhh.com^
 ||istreamsche.com^
 ||isub-tb.isnssdk.com^$important
 ||isub.isnssdk.com^$important
@@ -44838,6 +44862,7 @@ _zhike.htm
 ||ort-stsdk.vivo.com.cn^$important
 ||ort-stsdk.vivoglobal.com^$important
 ||ortlisk.top^
+||orup.cn^
 ||orutvnck.top^
 ||orzx.im/Document/recommend/flashpoint.html
 ||orzx.im/Document/union/
@@ -46730,6 +46755,7 @@ _zhike.htm
 ||qjoges.xyz^
 ||qjwvwu.xyz^
 ||qk6.org/file/script/
+||qkax.cn^
 ||qkgllif.icu^
 ||qkikkg.xyz^
 ||qkitery.top^
@@ -48089,6 +48115,7 @@ _zhike.htm
 ||sbovgy.xyz^
 ||sbpb1.chuiyue.com^
 ||sbpb1.qulishi.com^
+||sbqg7jylmzsym.top^
 ||sbs-ad.com^$important
 ||sbswo.deliveryengine.adswizz.com^$important
 ||sbt-prod.kampyle.com^$important
@@ -50420,6 +50447,7 @@ _zhike.htm
 ||straightnest.com^
 ||straightnest.com^$important
 ||strakuty.com^
+||straldrier.com^
 ||stralotsb.com^
 ||strangeclocks.com^
 ||strangersponge.com^
