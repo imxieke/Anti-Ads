@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-14 16:26:05 RPC
+! Updated: 2025-03-15 00:25:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18576,6 +18576,7 @@ sj.qq.com##div[class^="BrandBanner_brandBanner_"]
 sju.wang###dl_tips,a[href="/vip.php"]
 sketch.pixiv.net###MobilePromote
 sketch.pixiv.net##.stores > a > img
+skich.app##section + div[class^="sc-"]:has(> div[class] > div[class] > div[class] > a[href="https://apps.apple.com/app/skich-find-new-games/id1510335956"])
 skiddle.com##a[href^="https://bnc.lt/m/"] > img
 skinme.cc,ts.cn,xinhuanet.com##.gg2
 skinme.cc,yuntue.com##.huodong
@@ -19043,6 +19044,7 @@ sportsbull.jp#$##post-content-container.noevent a { pointer-events: auto !import
 sportsbull.jp#$#.single-more-container { display: none !important; }
 sportscn.com##[class$="ads"],[class^="ad"],[height="160"],[height="50"],.bnr,#topbanner
 sportsinjuryclinic.net###media_image-10
+sportskeeda.com##.ad-in-house-banner-container
 sportsnavi.ht.kyodo-d.jp##.sn-modAd
 sportsnavi.ht.kyodo-d.jp,sports.yahoo.co.jp,baseball.yahoo.co.jp,soccer.yahoo.co.jp##.sn-modBanner
 sportsv.net##.adv01
@@ -19968,6 +19970,7 @@ tobosu.com###alert_order
 tobosu.com##.tbs-bottom-order
 tocana.jp##amp-iframe[src^="https://taxel.jp/amp/sponsor.html"]
 today-line-me.cdn.ampproject.org,today.line.me##.midAdModule-root
+today.com##div[data-testid="full-width"].fullBleed:has(img[alt="Promo Banner Logo"])
 today.line.me##.adModule-root
 today.line.me##div[id^="ad-module-"]
 tofight.ru###cf-bg

@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-14 16:26:05 RPC
+! Updated: 2025-03-15 00:25:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23732,8 +23732,8 @@
 123rf.com##.AgreementBanner__wrapper
 123stahl-shop.de###cookieholder
 12ft.io,ft.com##.o-cookie-message
-12gebrauchtwagen.de,autoplenum.de,leasingmarkt.de,autoscout24.*###as24-cmp-popup
 12min.com###twlvidck
+12neuwagen.de,12gebrauchtwagen.de,autoplenum.de,leasingmarkt.de,autoscout24.*###as24-cmp-popup
 12punto.com.tr##.content > div.popup:has(> div.popup-content a[href^="https://12punto.com.tr/cerez-politikasi"])
 1508.dk##div[class^="Cookies-module-"]
 15min.lt##.cookie-policy-gdpr
@@ -25365,6 +25365,7 @@
 @@||sdk.privacy-center.org^$domain=strategies.fr
 @@||sdk.privacy-center.org^$domain=sudinfo.be
 @@||sdk.privacy-center.org^$domain=vanitatis.elconfidencial.com
+@@||sdk.privacy-center.org^$script,domain=20minutos.es|24sata.hr|abc.es|allocine.fr|as.com|atresplayer.com|aukro.cz|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dnevnik.hr|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|elespanol.com|eltiempo.es|euronews.com|europe1.fr|filmweb.pl|fip.fr|flair.be|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|idealista.it|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|kurier.at|ladepeche.fr|lalibre.be|lasexta.com|lasprovincias.es|lavanguardia.com|leboncoin.fr|leparisien.fr|lequipe.fr|marca.com|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|ondacero.es|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|otempo.pt|podcasts.leparisien.fr|profil.at|publicsenat.fr|rainberrytv.com|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rmcbfmplay.com|rtbf.be|rtl.be|rtl.fr|science-et-vie.com|sensacine.com|serially.it|sfgame.net|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|video-streaming.orange.fr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=20minutos.es|24sata.hr|abc.es|allocine.fr|as.com|atresplayer.com|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dnevnik.hr|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|elespanol.com|eltiempo.es|euronews.com|europe1.fr|filmweb.pl|fip.fr|flair.be|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|idealista.it|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|kurier.at|ladepeche.fr|lalibre.be|lasexta.com|lasprovincias.es|lavanguardia.com|leboncoin.fr|leparisien.fr|lequipe.fr|marca.com|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|ondacero.es|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|otempo.pt|podcasts.leparisien.fr|profil.at|publicsenat.fr|rainberrytv.com|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rmcbfmplay.com|rtbf.be|rtl.be|rtl.fr|science-et-vie.com|sensacine.com|serially.it|sfgame.net|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|video-streaming.orange.fr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=frandroid.com
@@ -25595,6 +25596,7 @@
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 @@||zernotesto.ru/assets/static/CookieNotification.*.css
 @@||ziffstatic.com^*/zdconsent.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|humblebundle.com|ign.com|nintendolife.com|purexbox.com|pushsquare.com|speedtest.net|timeextension.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
+@@||zoo-frankfurt.de/bundles/chcookieconsent/js/cookie_consent.js$~third-party
 @@||zoominfo.com/_next/*/privacy-policy.json$~third-party
 a-hausverwaltungen.de,ec-planegg-geisenbrunn.de,fdp-mh.de,hausmeister-service-augsburg.de,konzog-immobilien.de,mcg-org.com,metatag.de,rechtsanwalt-bultmann.de,ristorante-la-dolce-vita.com,tennis-kempten.de##.DSbox
 a.svtrd.com$domain=~ns.nl
@@ -31062,6 +31064,7 @@ cliffordchance.com###div_cc_cc
 climatecentral.org##+js(set-cookie, userCookieConsent, true)
 climatempo.com.br##.alert-cookie._flex
 climatempo.com.br,doppelherz.*,neputin.org,donate.acf.international,viladomat.com#%#//scriptlet('trusted-set-cookie', 'cookieConsent', 'true')
+cline.bot##[data-testid="cookies-dialog"]
 clineva.com##.clineva-cookies-info
 clinic3.ru###agreedBanner
 clinicaplanas.com##.supercookies
@@ -40926,7 +40929,7 @@ kytary.pl,kytary.cz,kytary.de,kytary.es,kytary.fr,kytary.ie,kytary.it,kytary.hu,
 kytta.at##button[class*="dc-cookie"]
 kz.amway.com,amway.ua,fakeemail.de,amway.ru,wizaz.pl##.disclaimer-container
 kzvb.de##+js(set-cookie, cookie-optin, true)
-kzvb.de#%#//scriptlet('trusted-click-element', '#save-cookies')
+kzvb.de#%#//scriptlet('trusted-set-cookie', 'cookie-optin', '{"required":true,"statistics":false,"thirdParty":false}')
 kzvmv.de##.stoerer
 l-bank.de#$##bmLayerCookies { display: none !important; }
 l-bank.de#$#body { overflow: visible !important; padding-right: 0 !important; }
@@ -42103,7 +42106,6 @@ lurker.pl###app > .uk-alert-primary.uk-flex-center
 lurker.pl##.uk-alert
 lush.com#%#//scriptlet('set-cookie', 'lush-commerce-cookies', '1')
 lust-auf-strand.de##.cc_overlay
-lustery.com##div[class^="CookieConsentBanner_"]
 luvly.care,firmen.wko.at##+js(set-cookie, consent, true)
 luvvoice.com##.fixed.bottom-4
 luxexpress.com.ru##div[class^="cookie-banner_"]
@@ -42452,6 +42454,7 @@ manyavar.com###consent-tracking
 manybooks.net,thewhiskyexchange.com,thebulletin.org,schulminator.com,cross.bet,irdeto.com,termly.io,section.io,sorryapp.com##.t-consentPrompt
 manychat.com##div[class^="CookieBumper"]
 manychat.com##div[class^="CookieBumper-module--wrap--"]
+manyvids.com,lustery.com,clearvpn.com##div[class^="CookieConsentBanner_"]
 map.blitzortung.org##+js(set-cookie, CONSENT, 1)
 map.blitzortung.org##.topdiv
 mapa.targeo.pl##div[style^="position: absolute; z-index: 32000;"]
@@ -43777,6 +43780,7 @@ motor.es#%#//scriptlet('trusted-click-element', '#rejectAllConsent')
 motor.es#%#//scriptlet('trusted-click-element', 'label[for="accept_specialFeatures_1"]')
 motor.es#%#//scriptlet('trusted-click-element', 'label[for="accept_specialFeatures_2"]')
 motor.es#%#//scriptlet('trusted-click-element', '[id="purposesNavLegInt"]')
+motor.ru#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'true')
 motorcycles-motorbikes.com###CQ
 motorfinity.uk,don24.ru,ronesans.com##.cookie-fixed
 motorflash.com##.cookiesNew
@@ -44017,6 +44021,7 @@ music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##*:style(filter: none !important)
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##+js(trusted-click-element, #dialogButton1)
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##+js(trusted-click-element, #dialogButton1, , 1500)
+music.mts.ru###react-portal-system-banner
 musica.com###priv
 musicalfreedom.com##.terms-and-policy-layer
 musicalmarti.com##.ui-dialog-buttons
@@ -44222,7 +44227,6 @@ mypensiontracker.co.uk#@##cookie-law
 mypeopledoc.com##.tall .update
 myphone.pl#%#//scriptlet('set-cookie', 'cookies-settings', '0')
 myplantin.com##.cookies_wrapper___zIeC
-mypolitics.pl#%#//scriptlet('set-local-storage-item', 'scriptsPreferences', 'emptyObj')
 mypolitics.pl#%#//scriptlet('trusted-set-local-storage-item', 'scriptsPreferences', '{"adsbygoogle":false,"abgoogle":false,"ga4":false,"metapixel":false,"hotjar":false,"amplitude":false}')
 myprivacy.dpgmedia.nl,dpgmediagroup.com,story.nl,veronicasuperguide.nl#@##pg-modal
 myprivacy.dpgmedia.nl,dpgmediagroup.com,story.nl,veronicasuperguide.nl#@#+js(trusted-click-element, '#pg-shadow-host >>> #pg-configure-btn, #pg-shadow-host >>> #purpose-row-SOCIAL_MEDIA input[type="checkbox"], #pg-shadow-host >>> button#pg-save-preferences-btn')
@@ -50367,6 +50371,7 @@ sketchup.com.pl,gartenversandhaus.de#$#body { overflow: visible!important; }
 skfbearingselect.com##+js(set-cookie, privacyNoticeAccepted, true)
 skfbearingselect.com##+js(set-cookie, privacyNoticeExpireDate, 1)
 skgelios.ru##.polit-disclaimer
+skich.app#%#//scriptlet('set-local-storage-item', 'cookie-accepted', '1')
 skidka.ru###ckc
 skidresultat.se###message_cookie_info_accept
 skihuette-oberbeuren.de##+js(set-cookie, NL_COOKIE_KOMFORT, false)

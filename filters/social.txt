@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-14 16:26:05 RPC
+! Updated: 2025-03-15 00:25:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18194,6 +18194,7 @@ ku.fi##.somejaot
 ku66.ru##.desk-raiting > div > div > div.pb-2
 kuchnia.wp.pl#?#.article figure > .article--photoSource + div[class*=" "]:has(> div[class] > strong:contains(/^Podziel się$/))
 kuchnia.wp.pl#?#.content div[class*=" "] div[class*=" "]:has(> span > svg > title:contains(/^Share$/))
+kulis.az##.share_reaction
 kulturologia.ru###facebook-win
 kulturologia.ru##.lb_overlay
 kulturologia.ru##.post > div.content > center + p

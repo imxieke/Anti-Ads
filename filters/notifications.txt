@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-14 16:26:05 RPC
+! Updated: 2025-03-15 00:25:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2368,7 +2368,7 @@
 123recht.de###sticky-cookie-warning
 123rf.com##.AgreementBanner__wrapper
 12ft.io,ft.com##.o-cookie-message
-12gebrauchtwagen.de,autoplenum.de,leasingmarkt.de,autoscout24.*###as24-cmp-popup
+12neuwagen.de,12gebrauchtwagen.de,autoplenum.de,leasingmarkt.de,autoscout24.*###as24-cmp-popup
 12punto.com.tr##.content > div.popup:has(> div.popup-content a[href^="https://12punto.com.tr/cerez-politikasi"])
 15min.lt##.cookie-policy-gdpr
 17bankow.com,5mindlazdrowia.pl,kazimierzdolny.pl,vpolshchi.pl,dobreprogramy.pl,essanews.com,dailywrap.ca,dailywrap.uk,dailywrap.net#$#body > * { filter: none !important; }
@@ -6180,7 +6180,6 @@ cleanipedia.com##div[id="_cqConsentPanel"]
 cleantalk.org###uses_c
 cleanvoice.ai,minefort.com,diariodaregiao.com.br,sticpay.com#%#//scriptlet('set-local-storage-item', 'cookie-consent', 'true')
 clearblue.com###kali-cc
-clearvpn.com##div[class^="CookieConsentBanner_"]
 clever-fit.com###cookieDataProtection
 cleveroad.com##.bd_l0
 clevertronic.de###js-popup-cookie-block
@@ -10858,7 +10857,7 @@ kytary.*#%#//scriptlet('set-cookie-reload', 'CookieConsent', '0')
 kytary.pl,kytary.cz,kytary.de,kytary.es,kytary.fr,kytary.ie,kytary.it,kytary.hu,kytary.nl,kytary.at,kytary.ro,kytary.sk#$#.cookies-consent2 { display: none !important; }
 kytary.pl,kytary.cz,kytary.de,kytary.es,kytary.fr,kytary.ie,kytary.it,kytary.hu,kytary.nl,kytary.at,kytary.ro,kytary.sk#$#.o-hidden { overflow: auto !important; }
 kz.amway.com,amway.ua,fakeemail.de,amway.ru,wizaz.pl##.disclaimer-container
-kzvb.de#%#//scriptlet('trusted-click-element', '#save-cookies')
+kzvb.de#%#//scriptlet('trusted-set-cookie', 'cookie-optin', '{"required":true,"statistics":false,"thirdParty":false}')
 kzvmv.de##.stoerer
 l-bank.de#$##bmLayerCookies { display: none !important; }
 l-bank.de#$#body { overflow: visible !important; padding-right: 0 !important; }
@@ -11398,7 +11397,6 @@ lung.org##.banner--cookie
 lurker.pl###app > .uk-alert-primary.uk-flex-center
 lush.com#%#//scriptlet('set-cookie', 'lush-commerce-cookies', '1')
 lust-auf-strand.de##.cc_overlay
-lustery.com##div[class^="CookieConsentBanner_"]
 luvvoice.com##.fixed.bottom-4
 luxexpress.com.ru##div[class^="cookie-banner_"]
 luxmed.pl###js_cookies-information
@@ -11602,6 +11600,7 @@ manutd.com#@#.cookie-policy-message
 manutd.com#@#.cookie-setting-message
 manybooks.net,thewhiskyexchange.com,thebulletin.org,schulminator.com,cross.bet,irdeto.com,termly.io,section.io,sorryapp.com##.t-consentPrompt
 manychat.com##div[class^="CookieBumper-module--wrap--"]
+manyvids.com,lustery.com,clearvpn.com##div[class^="CookieConsentBanner_"]
 map.baidu.com###downloadnativepopupUlink
 map.baidu.com##.bottom-banner-float
 mapadotacji.gov.pl###cookie-text
@@ -12252,6 +12251,7 @@ motor.es#%#//scriptlet('trusted-click-element', '#rejectAllConsent')
 motor.es#%#//scriptlet('trusted-click-element', 'label[for="accept_specialFeatures_1"]')
 motor.es#%#//scriptlet('trusted-click-element', 'label[for="accept_specialFeatures_2"]')
 motor.es#%#//scriptlet('trusted-click-element', '[id="purposesNavLegInt"]')
+motor.ru#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'true')
 motorfinity.uk,don24.ru,ronesans.com##.cookie-fixed
 motorinsel.de#%#//scriptlet('trusted-click-element', 'button[value="disallow"]')
 motorlublin.eu##div[data-cookies]
@@ -12358,6 +12358,7 @@ musescore.com##._3mwVI
 musescore.com#%#//scriptlet('set-cookie-reload', '_mu_open_in_up_close_new', '1')
 museum.seiko.co.jp##.js-about-cookie
 music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link[aria-label*="ookie"])
+music.mts.ru###react-portal-system-banner
 musicboard.app#$#body[style="overflow: hidden;"] { overflow: auto !important; }
 musicboard.app#?#div[class^="popup_overlay_"]:has(div[class^="cookiespopup_content"])
 musicfox.com###cookie-widget
@@ -12471,7 +12472,6 @@ myoutdoortv.com###privacy_terms_cookies
 mypalmshop.de#%#//scriptlet('set-constant', 'eCookiePopupDialog', 'emptyObj')
 mypalmshop.de#@##cookiePopup
 myphone.pl#%#//scriptlet('set-cookie', 'cookies-settings', '0')
-mypolitics.pl#%#//scriptlet('set-local-storage-item', 'scriptsPreferences', 'emptyObj')
 mypolitics.pl#%#//scriptlet('trusted-set-local-storage-item', 'scriptsPreferences', '{"adsbygoogle":false,"abgoogle":false,"ga4":false,"metapixel":false,"hotjar":false,"amplitude":false}')
 myresume.ru##.rulesInfo
 mysellix.io,sellix.io##.sellix-cookie-container
@@ -15398,6 +15398,7 @@ sketchup.com.pl,gartenversandhaus.de#$##modal-consent { display: none!important;
 sketchup.com.pl,gartenversandhaus.de#$#.modal-backdrop { display: none!important; }
 sketchup.com.pl,gartenversandhaus.de#$#body { overflow: visible!important; }
 skgelios.ru##.polit-disclaimer
+skich.app#%#//scriptlet('set-local-storage-item', 'cookie-accepted', '1')
 skidka.ru###ckc
 skidresultat.se###message_cookie_info_accept
 skillbasics.com##.cookie_notice_popup
