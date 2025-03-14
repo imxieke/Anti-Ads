@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-14 00:27:34 RPC
+! Updated: 2025-03-14 09:39:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4813,6 +4813,7 @@ article.auone.jp,xnxx.com,xnxx-ru.com##.video-ad
 artsandculture.google.com##.iMnvWc
 arty-matome.com##div[style="padding-top: 10px; padding-bottom: 10px; margin-bottom: 30px; margin-top: 30px;background: whitesmoke;"]
 arukereso.hu##.mobile-application
+arzamas.academy##.course-banner
 arzamas.academy##.ra__heading .ra__app__btns
 arzamas.academy#$#body { margin-top: 0! important; }
 arzamas.academy#$#body.is_mobile .top-banner { display: none!important; }
@@ -5714,7 +5715,6 @@ bigo.tv##.load-box
 bigpian.cn##img[style="width: 100%"]
 bigpixel.cn#$?##PAGE_AD_1 { remove: true; }
 bigpixel.cn#%#//scriptlet("set-constant", "killads", "true")
-bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 biketo.com##[class^="ggb"]
 biletall.com###mobile-applications
 biletix.com##.mobile_head_banner
@@ -9337,6 +9337,7 @@ fulishequ.com###china_ads_div405,#lovexin12,#lovexin14,.asb-index-01
 full-count.jp###c2_click_jera_award_sp_article_end
 full-count.jp##.erase_space-ad ~ p[style="clear:both;"]
 full-count.jp#?#.erase_space-ad ~ div.c-heading:has(> p[class^="c-heading_"]:contains(RECOMMEND))
+fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx##.ft
 fullyu.com##.rightSide-top-ads
 fun1shot.com##a[href^="https://kenio.cn/"]
 fun48.com###float2016
@@ -10173,6 +10174,7 @@ h1g.jp##div[style*="width:336px; height:280px"]
 h1g.jp#?#.recently-list2 > div#taboola-below-article-thumbnail-sp:upward(1)
 h1g.jp#?#.recently-list2 > script[src^="https://js.ad-stir.com/"]:upward(1)
 h1g.jp#?#.recently-list2 > ul[style="overflow-x: auto; white-space: nowrap;"]:upward(1)
+h2ch.com###ad_300x250_source
 h2ch.com##.data-role-page > center
 h2ch.com##div[style="background-color:#eee;width:100%;height:50px;"]
 h5.17k.com###TopTask
