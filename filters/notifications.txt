@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-14 09:39:13 RPC
+! Updated: 2025-03-14 16:26:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4207,6 +4207,7 @@ amara.org#$#div[class^="cookie-consent"] { display: none !important; }
 amarujala.com##.cookie_enable_popup
 amarujala.com#$#body.showcookiespopup { overflow: visible!important; margin-right: 0!important; }
 amarujala.com,www-amarujala-com.cdn.ampproject.org#@#amp-consent
+amazon.ca###sp-cc-wrapper
 amazon.com###nav-app-banner-container
 amazon.com##.sparkle-container
 amazon.com##body .accept-cookies

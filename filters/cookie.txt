@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-14 09:39:13 RPC
+! Updated: 2025-03-14 16:26:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13091,7 +13091,6 @@
 ##.cookiecontrol:not(body):not(html)
 ##.CookieControlBanner
 ##.cookieControl__Bar
-##.cookieControl__BarContainer
 ##.cookieCorrector
 ##.cookieCorrector + #fancybox-overlay
 ##.cookieCorrector:not(body):not(html)
@@ -26690,6 +26689,7 @@ amazeta.com###gpdr, #GPDR, #gdpr, #GDPR
 amazingfables.com###cookie_consent ~ #overlay
 amazingmarvin.com###live-chat-banner
 amazon-affiliate.eu##.cookie-consent
+amazon.ca###sp-cc-wrapper
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.tr,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.se###sp-cc
 amazon.co.uk###cookie-pref-disclaimer
 amazon.com###pldn-deep-link

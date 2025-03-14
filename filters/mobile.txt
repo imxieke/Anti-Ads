@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-14 09:39:13 RPC
+! Updated: 2025-03-14 16:26:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16930,7 +16930,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -36400,6 +36400,7 @@ _zhike.htm
 ||fppcrl.xyz^
 ||fptad.com^$important
 ||fpvdrzx.xyz^
+||fpxhdx.icu^
 ||fq01.shop^
 ||fq010.shop^
 ||fq02.shop^
@@ -36409,6 +36410,7 @@ _zhike.htm
 ||fq06.shop^
 ||fq07.shop^
 ||fq67.top^
+||fqbr.cn^
 ||fqceyqo.com^
 ||fqghykp.cn^
 ||fqnhjt.icu^
@@ -41510,6 +41512,7 @@ _zhike.htm
 ||lm661.com^
 ||lmbsy.qq.com/flv^$domain=v.qq.com,redirect=noopmp4-1s
 ||lmbsy.qq.com^
+||lmeurbnjs.com^
 ||lmlmvip.com^
 ||lmmaoo.com^
 ||lmvotk.cn^
@@ -41794,6 +41797,7 @@ _zhike.htm
 ||lpo.optimizely.com^$important
 ||lpqhkj.cn^
 ||lpsxssm.com^
+||lqfctb.icu^
 ||lqlwjr.icu^
 ||lqm.io^
 ||lqxzx.com^
@@ -45389,6 +45393,7 @@ _zhike.htm
 ||pdns5.ultradns.info^$important
 ||pdns6.ultradns.co.uk^$important
 ||pdnwbwyf.icu^
+||pdochgl.top^
 ||pds-midea.com^
 ||pdx-col.eum-appdynamics.com^$important
 ||pe-east.intentiq.com^$important
@@ -54771,6 +54776,7 @@ _zhike.htm
 ||xb588.net^
 ||xbbhwggj.icu^
 ||xbfebqya.icu^
+||xbfk.cn^
 ||xbiqu5.com/12345678.
 ||xbiquge*.com/js/script.js
 ||xbiquge.la/4P44D9EF^
@@ -54880,6 +54886,7 @@ _zhike.htm
 ||xiaoz.top/assets/imgurl.js
 ||xiaozuowen.net^
 ||xiazaizhijia.com/w2/js/wxzzj.js
+||xielloltv.com^
 ||xiexingcun.com/tongji.js
 ||xiexingcun.com/tyong.js
 ||xifatime.com^
@@ -55970,6 +55977,7 @@ _zhike.htm
 ||znxblom.cn^
 ||zodoth.com^
 ||zoeacaring.com^
+||zogzoldop.com^
 ||zokzavnea.com^
 ||zol-img.com.cn/ad/
 ||zol-img.com.cn/detail/js/module/app-download-float/script.js
