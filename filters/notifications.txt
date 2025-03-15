@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-15 00:25:28 RPC
+! Updated: 2025-03-15 09:38:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2794,6 +2794,7 @@
 @@||cdn.privacy-mgmt.com/privacy-manager/index.html$domain=bbc.com
 @@||cdn.privacy-mgmt.com/privacy-manager/index.html$domain=inside-digital.de
 @@||cdn.privacy-mgmt.com/unified/$domain=bbc.com
+@@||cdn.privacy-mgmt.com/unified/$domain=motorsport.com
 @@||cdn.privacy-mgmt.com/unified/*/*.bundle.js$domain=investors.com
 @@||cdn.privacy-mgmt.com/unified/*/ccpa.*.bundle.js$domain=tomsguide.com
 @@||cdn.privacy-mgmt.com/unified/*/gdpr-tcf.*.bundle.js
@@ -10009,6 +10010,7 @@ intelligenceonline.com#$#.modal-cookie-consent { display: none !important; }
 intelligenceonline.com#$#body.modal-open { overflow: auto !important; }
 intensedebate.com,automattic.com,wordpress.com##.a8c-cookie-banner
 intent.msn.com,outlook.live.com,microsoft.com###msccBanner
+interactivebrokers.com,sygic.com###cookie-modal
 interactivebrokers.ie#%#//scriptlet('trusted-click-element', 'div[style*="block"]#cookie-modal #gdpr-reject-all')
 interamt.de#$#.ia-m-modal--cookie { display: none !important; }
 interamt.de#$#.ia-modal-opened { overflow: auto !important; }
@@ -13760,6 +13762,7 @@ pingvinpatika.hu###cookie-main
 pink.rs##.footer-apps
 pinnacle.com##div[data-test-id="Cookie-PolicyBanner"]
 pinterest.*##.outerCookieBar
+pinterest.com##.masonry-width-wrapper:has(> div[class]:only-child > div[class] > div[class] > div[class] > a[href^="https://help.pinterest.com/article/changes-to-our-policies"])
 pinterest.jp,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="cookie-consent-banner"]
 pinterest.jp,pinterest.ru,pinterest.com,pinterest.ca,pinterest.co.uk,pinterest.fr##div[data-test-id="header-background"] > div[class="Nags"] > .QDA
 pinterest.jp,pinterest.ru,pinterest.com,pinterest.ca,pinterest.co.uk,pinterest.fr##div[data-test-id="header-background"] > div[class="Nags"] > div.BsF.Jea
@@ -16139,7 +16142,6 @@ swt.de###COOKIE_POLICY
 swu.de##.js-cookiebanner-wrap
 swu.de##.🍪-banner
 swyrl.tv##.tsch--cookie-warning
-sygic.com###cookie-modal
 sylabus.uj.edu.pl#$#.modal-backdrop { display: none !important; }
 sylabus.uj.edu.pl#$#body { overflow: auto !important; padding-right: 0 !important; }
 sylabus.uj.edu.pl#$#div[data-controller="cookie-consent-modal"] { display: none !important; }
@@ -18792,6 +18794,7 @@ _eu_cookie_
 ||cmps.o2.cz^
 ||cmpv2.macworld.co.uk^
 ||cmpv2.techadvisor.fr^
+||cmpv2.tori.fi^
 ||cmpworker.operationsports.com^
 ||cms.static-bahn.de/*/utag.js
 ||cnnindonesia.com/sw.js

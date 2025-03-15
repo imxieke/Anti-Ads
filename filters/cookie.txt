@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-15 00:25:28 RPC
+! Updated: 2025-03-15 09:38:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11398,7 +11398,6 @@
 ##.consent-manager-overlay
 ##.consent-manager.banner
 ##.consent-managermain
-##.consent-message
 ##.consent-modal-first
 ##.consent-modal-first:not(body):not(html)
 ##.consent-modal__overlay
@@ -14357,7 +14356,6 @@
 ##.cookies__banner:not(body):not(html)
 ##.cookies__banner__wrapper
 ##.cookies__bar
-##.cookies__block
 ##.cookies__div--div-overlay
 ##.cookies__info:not(body):not(html)
 ##.cookies__info_block
@@ -18525,8 +18523,6 @@
 ##.pabk_cookie
 ##.padding.cookies
 ##.padding_gdpr
-##.page > .cookie
-##.page > .cookies
 ##.page > .page-footer ~ .coo-banner
 ##.page ~ .cookie-consent
 ##.page ~ div[id^="CookieConsent-react-component"]
@@ -24363,6 +24359,7 @@
 @@||cdn.privacy-mgmt.com/privacy-manager/index.html$domain=bbc.com
 @@||cdn.privacy-mgmt.com/privacy-manager/index.html$domain=inside-digital.de
 @@||cdn.privacy-mgmt.com/unified/$domain=bbc.com
+@@||cdn.privacy-mgmt.com/unified/$domain=motorsport.com
 @@||cdn.privacy-mgmt.com/unified/*/*.bundle.js$domain=investors.com
 @@||cdn.privacy-mgmt.com/unified/*/ccpa.*.bundle.js$domain=tomsguide.com
 @@||cdn.privacy-mgmt.com/unified/*/gdpr-tcf.*.bundle.js
@@ -25366,7 +25363,6 @@
 @@||sdk.privacy-center.org^$domain=sudinfo.be
 @@||sdk.privacy-center.org^$domain=vanitatis.elconfidencial.com
 @@||sdk.privacy-center.org^$script,domain=20minutos.es|24sata.hr|abc.es|allocine.fr|as.com|atresplayer.com|aukro.cz|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dnevnik.hr|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|elespanol.com|eltiempo.es|euronews.com|europe1.fr|filmweb.pl|fip.fr|flair.be|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|idealista.it|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|kurier.at|ladepeche.fr|lalibre.be|lasexta.com|lasprovincias.es|lavanguardia.com|leboncoin.fr|leparisien.fr|lequipe.fr|marca.com|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|ondacero.es|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|otempo.pt|podcasts.leparisien.fr|profil.at|publicsenat.fr|rainberrytv.com|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rmcbfmplay.com|rtbf.be|rtl.be|rtl.fr|science-et-vie.com|sensacine.com|serially.it|sfgame.net|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|video-streaming.orange.fr|xataka.com
-@@||sdk.privacy-center.org^$script,domain=20minutos.es|24sata.hr|abc.es|allocine.fr|as.com|atresplayer.com|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dnevnik.hr|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|elespanol.com|eltiempo.es|euronews.com|europe1.fr|filmweb.pl|fip.fr|flair.be|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|idealista.it|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|kurier.at|ladepeche.fr|lalibre.be|lasexta.com|lasprovincias.es|lavanguardia.com|leboncoin.fr|leparisien.fr|lequipe.fr|marca.com|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|ondacero.es|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|otempo.pt|podcasts.leparisien.fr|profil.at|publicsenat.fr|rainberrytv.com|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rmcbfmplay.com|rtbf.be|rtl.be|rtl.fr|science-et-vie.com|sensacine.com|serially.it|sfgame.net|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|video-streaming.orange.fr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=frandroid.com
 @@||sdk.privacy-center.org^$script,domain=movilzona.es
@@ -32499,7 +32495,6 @@ dehogerielen.be#$##cookies-banner-overlay { display: none !important; }
 dehogerielen.be#$#body { overflow: auto !important; }
 dehogerielen.be#@##cookies-banner
 deichmann.com##.cookie-consent-local
-deichmann.com##body:style(overflow: auto !important;)
 deichmann.com#$##consent-layer-modal { display: none !important; }
 deichmann.com#$#body { overflow: auto !important; }
 deichmann.com,snipes.com,onygo.com,snipes.nl##.cookie_info_container
@@ -39231,6 +39226,7 @@ inter.ua##.warning
 interactivebrokers.ca###cookie-modal
 interactivebrokers.co.uk###cookie-modal
 interactivebrokers.com###cookie-modal
+interactivebrokers.com,sygic.com###cookie-modal
 interactivebrokers.ie###cookie-modal
 interactivebrokers.ie#%#//scriptlet('trusted-click-element', 'div[style*="block"]#cookie-modal #gdpr-reject-all')
 interacty.me,wetaca.com##div[class^="cookiesBanner"]
@@ -45491,7 +45487,7 @@ okko.tv##+js(set-cookie, cookie-confirm, 1)
 okko.tv##.swZOQ
 okko.tv##._313Cf
 oklink.com##.cookieTips
-oklo.com##+js(set-cookie, cookiemonster-gdpr, 1)
+oklo.com,wheatonpm.com##+js(set-cookie, cookiemonster-gdpr, 1)
 okmarket.ru,ulker.com.tr,vogue.ru##.cookie-pane
 oko.press##.fixed.bottom-0
 oko.press#%#//scriptlet('trusted-set-cookie', 'privacy2', 'necessary')
@@ -46815,6 +46811,7 @@ pinkvilla.com##body > div[class^="ccc"]
 pinnacle.com##div[data-test-id="Cookie-PolicyBanner"]
 pinpointproperties.com##.cookie-authority
 pinterest.*##.outerCookieBar
+pinterest.com##.masonry-width-wrapper:has(> div[class]:only-child > div[class] > div[class] > div[class] > a[href^="https://help.pinterest.com/article/changes-to-our-policies"])
 pinterest.jp,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="cookie-consent-banner"]
 pinterest.jp,pinterest.ru,pinterest.com,pinterest.ca,pinterest.co.uk,pinterest.fr##div[data-test-id="header-background"] > div[class="Nags"] > .QDA
 pinterest.jp,pinterest.ru,pinterest.com,pinterest.ca,pinterest.co.uk,pinterest.fr##div[data-test-id="header-background"] > div[class="Nags"] > div.BsF.Jea
@@ -57102,6 +57099,7 @@ _eu_cookie_
 ||cmpv2.macworld.co.uk^
 ||cmpv2.pcworld.com^
 ||cmpv2.techadvisor.fr^
+||cmpv2.tori.fi^
 ||cmpworker.operationsports.com^
 ||cms.static-bahn.de/*/utag.js
 ||cms24.it/js/kekse.js
