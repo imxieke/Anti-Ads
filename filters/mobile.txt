@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-15 09:38:26 RPC
+! Updated: 2025-03-15 16:24:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1980,13 +1980,13 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 520call.me#%#//scriptlet("set-constant", "all520dddaaa2022aaa", "undefined")
 520call.me#%#//scriptlet("set-constant", "all520dddaaa2022ccc", "true")
 520call.me,av99.us,yocoolnet.in###inplayer
+520cc.cc##div[id^="myad_alert_"]
 520cc.cc##[id^="inplayer"]
 520cc.cc#%#//scriptlet("prevent-setTimeout", "location.href", "3000")
 520cc.cc#%#//scriptlet('prevent-setTimeout', 'myModal')
 520cc.cc#%#//scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')
 520cc.cc,520cc.me,5278.cc#@#.a_cn
 520cc.cc,jav777.cc,yocoolnet.in###inplayer
-520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
 520cc.me##.a_mu,[width="468"][height="60"],.a_pr,.wp.a_f,.a_pb,.a_pt
 520cc.me#$##acornerinner1122 { position: absolute!important; left: -3000px!important; }
 520cc.me#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c){if(!/myaaqqbpfun12\(\)/.test(a.toString()))return b(a,c)};})();
@@ -2639,6 +2639,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.jpg#$domain=huhupan.com
+@@.php?id=$script,domain=surirt.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com
 @@/ad-close.png$domain=ch.com
@@ -2832,6 +2833,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||520cc.cc^*/ad.php
 @@||520click.com/ad.php$domain=520cc.cc
 @@||520click.com/ad.php$stealth
+@@||520click.com/ad.php?id=$script,domain=surirt.com
 @@||5278.cool^$generichide
 @@||52xiyou.com^$domain=9377.com|52guoguo.cn
 @@||52zy.com/gg/
@@ -3937,6 +3939,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||sudupan.com^*/*.gif
 @@||suning.cn/project/msIndex/js/??
 @@||supercloudsms.com/js/ad
+@@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
 @@||swjoy.com^
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
@@ -8934,6 +8937,7 @@ filmix.biz,filmix.ac,filmix.tech,filmix.zone###information > div[style="height:2
 filmora.wondershare.com.ru##body > div.d-lg-none > div.py-3
 filmora.wondershare.jp##.upload-box
 filmvandaag.nl##body #preload-ad-billboard.is-preload-ad
+finance.eastmoney.com###ContentBody > p[style="text-align:center;"]:has(> a[href^="https://acttg.eastmoney.com/pub/"])
 finance.ettoday.net##.all_news_text1
 finance.ifeng.com###box_img
 finance.ifeng.com##.lccs
@@ -16930,7 +16934,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -19271,6 +19275,9 @@ surfingbird.ru##.b-mobile-redirect
 surfsnow.jp#$#.modaal-noscroll { overflow: auto !important; }
 surfsnow.jp#$?#.modaal-inline:has(a[href*="/jackbnr_"]) { display: none !important; }
 surfsnow.jp#$?#.modaal-overlay { display: none !important; }
+surirt.com#%#//scriptlet('set-constant', 'ad_id_for_555', '')
+surirt.com#%#//scriptlet('set-constant', 'all520dddaaa2022ccc', 'true')
+surirt.com,520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
 suruga-ya.jp#$#.alert-top-page + .navbar.fixed-top + section { margin-top: 0 !important; }
 suruga-ya.jp#$#.alert-top-page + .navbar.fixed-top { top: 0 !important; }
 suruga-ya.jp#$#.alert-top-page { display: none!important; }
@@ -22067,6 +22074,7 @@ xn--80aaig9ahr.xn--c1avg#%#//scriptlet('set-local-storage-item', 'isPromoHidden'
 xn--dkqp0gri91r38rn1wmlurtz.com,gigazine.net,medicinenet.com,rxlist.com,wap.lexun.com###ad
 xn--gmq92kd2rm1kx34a.com###sp-widget
 xn--h-k9tybb8g5ivhkczry701afhpm4sru6d.net##.toppr300
+xn--p3tv7h.com###floating-image-container
 xn--pckua2a7gp15o89zb.com##.p-appFootBnr
 xn--pckua2a7gp15o89zb.com##.p-appHeadBnr
 xn--pckua2a7gp15o89zb.com##.p-balloon_bm
@@ -27544,6 +27552,7 @@ _zhike.htm
 ||ak.dxsvr.com^$important
 ||ak.sail-horizon.com^$important
 ||ak.sailthru.com^$important
+||ak03150hou.com^
 ||ak0gsh40.com^
 ||ak530.com/js/*.js
 ||aka-apiservices.boostmobile.com^$important
@@ -32716,6 +32725,7 @@ _zhike.htm
 ||coinhive.com^$important
 ||cointraffic.io^$important
 ||coinurl.com/get.php?id=
+||cokudsvit.com^
 ||col.eum-appdynamics.com^$important
 ||col.mobileads.msn.com^$important
 ||colamanga.com/sw.js
@@ -37576,6 +37586,7 @@ _zhike.htm
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||guppymedia.com^$important
 ||guqoinly.com^
+||guqransoq.com^
 ||guqu.net/Cooperate/
 ||gurgehumours.com^
 ||gurgle.zdbb.net^$important
@@ -41279,6 +41290,7 @@ _zhike.htm
 ||lfjslil.top^
 ||lfrdskwj.icu^
 ||lfstmedia.com^$important
+||lftcph.icu^
 ||lftpvh.xyz^
 ||lftracker.leadfeeder.com^$important
 ||lftxali.fancyapi.com^
@@ -43609,6 +43621,7 @@ _zhike.htm
 ||mvirkw.xyz^
 ||mvmqos.xyz^
 ||mvwitz.xyz^
+||mvxh.cn^
 ||mvxz.com/bar3.js
 ||mvxz.com/boximg/
 ||mvxz.com/img/
@@ -51813,6 +51826,7 @@ _zhike.htm
 ||tpc.googlesyndication.com^
 ||tpc.googlesyndication.com^$important
 ||tpcnc.googlesyndication.com^$important
+||tpjw.cn^
 ||tpkv.cn^
 ||tpnads.com^$important
 ||tps.doubleverify.com^$important
@@ -55022,6 +55036,7 @@ _zhike.htm
 ||xn--2qu96gouvko1a.com^
 ||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||xn--mts60is5y5uk.com^
+||xn--p3tv7h.com/imgs/Uxuan2.jpg
 ||xn--pckua2a7gp15o89zb.com/bundles/kyujinboxweb/pc/img/top/banner_app.jpg
 ||xn--sssy7vrppusjyv0a.com^
 ||xn--swt207gl1hzc.net^
