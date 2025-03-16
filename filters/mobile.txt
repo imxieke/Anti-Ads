@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-16 09:46:37 RPC
+! Updated: 2025-03-16 16:24:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -16933,7 +16933,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -31933,6 +31933,7 @@ _zhike.htm
 ||cfrtdmb.xyz^
 ||cfts1tifqr.com^
 ||cfugrnc.icu^
+||cfwlvmg.top^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cg-pao-tu.nanyanglk.com^
 ||cgczuu.xyz^
@@ -37046,6 +37047,7 @@ _zhike.htm
 ||ggxt.net^
 ||ggxwb.miguvideo.com^
 ||ghairqin.com^
+||ghegaintp.com^
 ||gheqien.com^
 ||gherkax.com^
 ||gheslosy.com^
@@ -38465,6 +38467,7 @@ _zhike.htm
 ||hwstats.unity3d.com^$important
 ||hwtadf.icu^
 ||hwurseru.top^
+||hwxprd.icu^
 ||hwymoyv.icu^
 ||hx623.cn^
 ||hxbt.alading123.com^
@@ -40109,6 +40112,7 @@ _zhike.htm
 ||jinzhao99.com^
 ||jioads.akamaized.net^
 ||jipinzw.com^*.php?aid=
+||jipxzz.icu^
 ||jishulink.com/images/activity/invite_
 ||jishulink.com/images/content/visitor-footer-
 ||jishulink.com/jishulink/searching/ad/get?
@@ -43541,6 +43545,7 @@ _zhike.htm
 ||msstatic.com/huya/main3/widget/DiyActLayer/DiyActLayer_*.js
 ||msstatic.com/huya/main3/widget/roomGg
 ||msstatic.net/main3/common/assets/template/head/ad.
+||mstmsbz.com^
 ||mstr.sharethrough.com^$important
 ||mstrlytcs.com^$important
 ||msypr.com^
@@ -44269,6 +44274,7 @@ _zhike.htm
 ||nrgv.cn^
 ||nrk.tns-cs.net^$important
 ||nroeoxk.icu^
+||nrqrbwi.top^
 ||nrsfh.com/neirong/
 ||nrtprod-rtbwin.applovin.com^$important
 ||ns.inwx.de^$important
@@ -52876,6 +52882,7 @@ _zhike.htm
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
 ||uopto.iqm.com^$important
+||uoqc.cn^
 ||uoublit.top^
 ||uouvxlit.top^
 ||up.qingdaonews.com/up/$object,script
@@ -53559,6 +53566,7 @@ _zhike.htm
 ||vmcnl.xyz^
 ||vmed.vrtcal.com^$important
 ||vmindhls.tc.qq.com^
+||vmjr.cn^
 ||vmonitor.ws.netease.com^
 ||vms-players.minutemediaservices.com^$script,third-party
 ||vms.bluebillywig.com^$important
@@ -54780,6 +54788,7 @@ _zhike.htm
 ||xad.com^$important
 ||xadsmart.com^
 ||xadulxs.cn^
+||xaiqrania.com^
 ||xalzny.xyz^
 ||xamniksq.com^
 ||xamssp.icu^
