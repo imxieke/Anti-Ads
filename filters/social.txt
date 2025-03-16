@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-16 00:22:56 RPC
+! Updated: 2025-03-16 09:46:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12012,6 +12012,7 @@ auto.mail.ru##.sharelist__items
 auto.ru##.ButtonShare-module__container
 auto.ru##.ScrollableSidebar > div[class^="PageLogbookCard_"] button[class*="LogbookCardActions__share-"]
 auto.ru##button[class^="PostNavigationShareButton-"]
+auto.ru##div[class^="PostHeading__actionBar"] > div.HoveredTooltip__trigger:has(> button[class*="ShareButton"])
 auto.ru#?#.Review__footer-col:has(> div.ReviewShare)
 auto.ru#?#div[class^="CardActions-"] > button:has(> span > div[class*="shareTooltip"])
 auto.vesti.ru##a#gbuzz
@@ -20591,7 +20592,6 @@ noticiasaominuto.com##div.flex:has(> a[href^="https://www.facebook.com/sharer/"]
 noticiasaominuto.com##p.text-center:contains(Partilhe a notícia)
 noticiasaominuto.com,noticiasaominuto.com.br##.news-social-bottom
 noticiasaominuto.com,noticiasaominuto.com.br##.nm-fb-share
-noticiasautomotivas.com.br,tazkranet.com##.crunchify-social
 noticiasdatv.uol.com.br##.compartilhe-table > div[class^="compartilhe-table-cell"]:not(:has(> a[href="#comentarios"]))
 noticiasdatv.uol.com.br##a[class^="addthis_button_"]
 noticiasdenavarra.com##.article-entry-author .rrss
@@ -25840,6 +25840,7 @@ wgospodarce.pl##.meta__share-list
 whale.naver.com##button[class*="ShareButton"]
 what.cd##.ListPOpt > li > a[rel="nofollow"][onclick^="window.open"][class*="fa-"]
 whatcar.com##.ReviewSocialSection_reviewSocialSection__qzV0o
+whatgame.xyz,noticiasautomotivas.com.br,tazkranet.com##.crunchify-social
 whatsnewinpublishing.com##.themezee-social-sharing
 whatsnewinpublishing.com,vinnytsianews.com##.share-btns-main
 wheelsage.org##.links

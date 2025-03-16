@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-16 00:22:56 RPC
+! Updated: 2025-03-16 09:46:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1647,7 +1647,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 36kr.com##section.sidebar-ad,section.sidebar-liepin.cf,div.zhongchou-ft-container,.right_ad_img1,.baidu_ads_cell
 36mh.net##div[style="width:960px;height:300px;margin:0 auto;"]
 370kk.com###ldgindexbuttom
-373news.com###mns_content > .mns_bn
 3751chat.com,chat.luvul.net,chat.shalove.net##div[style*="min-height:100px"][style$="overflow:hidden;"]
 3751chat.com,chat.luvul.net,chat.shalove.net##div[style*="min-height:50px"][style$="overflow:hidden;"]
 37bjw.com##.nav_ding_ad,.introNews
