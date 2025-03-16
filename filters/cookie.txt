@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-16 16:24:06 RPC
+! Updated: 2025-03-17 00:23:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27308,7 +27308,7 @@ argos-tradein.co.uk##+js(set-cookie, AcceptCookieOnOff, 1)
 argos-tradein.co.uk##+js(set-cookie, GoogleAnalyticOnOff, 0)
 arguedas.es###barra
 arguedas.es,ccusyncedin.com,obilet.com##.cookies-policy
-argyle.com,artma-zaproszenia.pl,avif.io,claude.ai,getmerlin.in,lahella.fi,olecams.com,videochaterotico.com,youverify.co##.bottom-2
+argyle.com,artma-zaproszenia.pl,avif.io,claude.ai,getmerlin.in,olecams.com,videochaterotico.com,youverify.co##.bottom-2
 arhcity.ru###cookieAnnounce
 arhivanalitika.hr###cookie
 ari.it,supermeteo.com##.message
@@ -57174,7 +57174,7 @@ _eu_cookie_
 ||consent.hr/delivery/js/cmp$script
 ||consent.lifetouch.com^
 ||consent.maerkischekiste.de/public/app.js
-||consent.marktplaats.nl
+||consent.marktplaats.nl^
 ||consent.nationalworld.com^
 ||consent.nit.ro^$third-party
 ||consent.nitrocnct.com^
