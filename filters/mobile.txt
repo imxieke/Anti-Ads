@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-17 16:28:40 RPC
+! Updated: 2025-03-18 00:27:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -51129,7 +51129,6 @@ _zhike.htm
 ||tapgen.com^$important
 ||tapi.onthe.io^$important
 ||tapi.optimizely.com^$important
-||tapi.pureapk.com^
 ||tapiche.cn^
 ||tapinfluence.com^$important
 ||tapit.com^

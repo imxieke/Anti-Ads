@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-17 16:28:40 RPC
+! Updated: 2025-03-18 00:27:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13842,7 +13842,6 @@ customgames.ru##.pageContent div[data-widget-definition="share_page"] > div[clas
 customlife-media.jp##[class^="sns-panel"]
 cutestat.com##.content_sidebar > div.marginBottom_10 > div[style="height: 106px; overflow: hidden;"]
 cuty.me,gamco.online,mrgec.com,emxaw.com,cety.app,cutnet.net,exego.app,cutado.com,cutlink.net,cutsy.net,sankei.com,zakzak.co.jp,cutty.app,iza.ne.jp##.share-icons-container
-cutyion.com,jixo.online,exe-urls.com,cuty.me,evernia.site,gamco.online,olkuj.com,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net,cutado.com,cutlink.net##.share-icons-container
 cvetyportal.ru##div[class^="repost"]
 cvjm-hochschule.de###whatsApp
 cwbaltimore.com,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,kbsi23.com,kdsm17.com,raleighcw.com,star64.tv,wcti12.com,wpgh53.com,wtto21.com,wutv29.com##.sd-main-hero-social
@@ -14166,6 +14165,7 @@ dev.ua#?#.article__footer:has(> div.article__container > div.article__toolbar > 
 devblogs.microsoft.com##.social-panel > .d-flex:has(> .evo-dropdown-menu > button[data-bi-id="post_page_sidebar_left_social_share"])
 devdiscourse.com##.btn-connect
 developer.apple.com##.social-share-container
+developer.mozilla.org#@#.share
 developer.samsung.com##a[id^="rs_send_"]
 developernation.net##img[alt="share-icon"]
 developers.facebook.com##._97mk._9ao6
@@ -15127,6 +15127,7 @@ exkavator.ru##.social__wrap
 exmoo.com###fixed-facebook
 exmoo.com###fixed-wechat
 exmoo.com###footer-wechat-container
+exnion.com,cutyion.com,jixo.online,exe-urls.com,cuty.me,evernia.site,gamco.online,olkuj.com,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net,cutado.com,cutlink.net##.share-icons-container
 expansion.com##.siguenos
 expansion.com,cienradios.com,stanglwirt.com,mobile2.tagesanzeiger.ch,macwelt.de,pcwelt.de,haberturk.com,showturk.com.tr,infor.pl,wdr.de##.socialMedia
 expansion.com,marca.com##.colVideo > .redes
@@ -17458,6 +17459,7 @@ iphoneincanada.ca,teslanorth.com##.item--share
 iphones.ru##.youtube-shorts
 iphonetweak.fr,iphonesoft.fr##.homeShare
 ipleer.fm##.onesongblock-end > i
+ipliroforia.gr##article .social-icons-list
 iplt20.com##.card-social-link
 iplt20.com##.new-video-share
 iporntv.net#?#.video_desc:has(.sharethis-inline-share-buttons)

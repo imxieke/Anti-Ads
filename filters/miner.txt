@@ -1,6 +1,6 @@
 ! Title: Block Miner Filter
 ! Description: Block "Browser-based Crypto Mining".
-! Updated: 2025-03-17 16:28:40 RPC
+! Updated: 2025-03-18 00:27:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
