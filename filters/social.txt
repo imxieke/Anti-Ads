@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-17 09:43:17 RPC
+! Updated: 2025-03-17 16:28:40 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11649,9 +11649,9 @@ animalreader.ru###overlay-sidebar-wrap
 animationxpress.com##.widget_simple_facebook_page_feed_widget
 anime-bit.ru##.layer_box_center_blocks_right:has(> #vk_groups)
 anime-chiikawa.jp##.share_tx
+anime-jl.com,anime-sharing.com,onemileatatime.com,keeplinks.org,h1g.jp,qiita.com,real.discount,m.vesty.co.il,happiness.com,animeflv.net,republika.id,zfile.in.ua,cj3z.com,bookmix.ru,meleklermekani.com,sukabumiupdate.com##.fa-share-alt
 anime-planet.com##.cta.pure-1
 anime-sharing.com##.vbseo_share
-anime-sharing.com,onemileatatime.com,keeplinks.org,h1g.jp,qiita.com,real.discount,m.vesty.co.il,happiness.com,animeflv.net,republika.id,zfile.in.ua,cj3z.com,bookmix.ru,meleklermekani.com,sukabumiupdate.com##.fa-share-alt
 anime.d4dj-pj.com##.icon_list
 anime.eiga.com###ob
 anime.eiga.com##.articleContainer > div.bookmarkBox
@@ -11660,7 +11660,6 @@ anime.shadowverse.jp##.l-snsShare
 anime.shochiku.co.jp###skmg_footer_nav
 animeflv.net##body > div.FollowUs
 animeflv.one,animefenix.vip,animeblix.org###cht-shr
-animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
 animego.online##.telega__full
 animekayo.com,sketchup.cgtips.org##.widget_bs-likebox
 animenewsnetwork.com###social-bookmarks
@@ -14170,6 +14169,7 @@ developer.apple.com##.social-share-container
 developer.samsung.com##a[id^="rs_send_"]
 developernation.net##img[alt="share-icon"]
 developers.facebook.com##._97mk._9ao6
+developers.googleblog.com,tv-asahi.co.jp,ark-pc.co.jp###social-button
 developers.tiktok.com##div[data-e2e="blogs-ArticleSharingButtonGroup-Column"]
 developpez.com##.reseauxSociaux > div[style="width:100%; white-space:nowrap;"] > *
 deviantart.com###actionbar-more-menu span[value^="share"]
@@ -14183,6 +14183,8 @@ dezeen.com##.article-body-sharing-wrap
 dezeen.com##.badges
 dezeen.com##.share-in-footer
 df.cl##.col-xs-12.col-sm-12.col-md-12.text-right.pull-left.pad-none
+dfrlab.org##.gta-article-header--share
+dfrlab.org#?#.gta-article-header--label:contains(/^Share this story$/)
 dgabc.com.br##._noticiaCompartilhamento
 dha.com.tr##.sosyalmedya
 dha.com.tr,hurriyet.com.tr##li[data-hj-share]
@@ -14239,6 +14241,7 @@ digiday.jp##.single-post-sharing
 digikey.com##div[data-testid="share-popup-trigger"]
 digisport.ro##.social > a.social-link:not([href="#comments"])
 digit.in###sharingsocial
+digit.in##.social_icon > span
 digit.in##.stay_connected
 digital-expert.online##.comment-action-wrapper
 digital.bg##.article-inside-shareable-box > a
@@ -17390,6 +17393,7 @@ internet-technologies.ru##.field-id-share
 internet-technologies.ru##.panel-id-share
 internethaber.com##.wrt > .si
 internetua.com##.likes-area
+internshipguide.jp,animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
 interpress.az###interpresspop
 interpressnews.ge##.articlesocial
 interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,xhxh3.xyz,valuexh.life,xhdate.world,xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,pornx.to,xhvid.com,xhamster20.desi,xhmoon5.com,xhwide1.com,48idol.*,xhtab2.com,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,xhamsterpremium.com##.share-control
@@ -24938,7 +24942,6 @@ tuttotek.it##.soc-media-sharing
 tv-asahi.co.jp###open-share-modal-btn
 tv-asahi.co.jp##.parts-section-share
 tv-asahi.co.jp##.sns-share-list-box
-tv-asahi.co.jp,ark-pc.co.jp###social-button
 tv-lida.by,kkphm.com##a[href^="https://t.me/"]
 tv-phone.wixsite.com##.tpagw0
 tv-tokyo.co.jp##.bl_footerShare_ttl
