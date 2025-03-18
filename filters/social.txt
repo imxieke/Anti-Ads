@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-18 00:27:29 RPC
+! Updated: 2025-03-18 09:41:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17669,6 +17669,7 @@ jisaku.com#?#.chakra-button[aria-label="Twitterでシェア"]:upward(1)
 jisakuhibi.jp##.article-social-btn + br + hr
 jitsuhaoresaikyo-anime.com,oceans-nadia.com,hyoryu-danchi.com,marv.jp##.l-footer__sns
 jjan.kr#?#.share_container a:not(:has(div[class*="txt-size"]))
+jleague.jp##.social-btn-1
 jn.pt##.t-article-footer-bar-1
 jn.pt##div[class^="mrec-"]
 jnews1.com#?#.content > nav.section-box:has(> ul > li.article-line)
@@ -20886,6 +20887,7 @@ omnicalculator.com##button[title^="share on"]
 omocoro.jp#@#.fixed-social
 omroepbrabant.nl##[class^="shares_shares_"]
 omroepflevoland.nl##whatsapp
+omroepwest.nl##a[aria-label="Deel dit artikel"]
 on3.com##div[data-testid="shareIconContainer"]
 onclinic.ua##.social-shared-link
 one-piece.com##.shareImage

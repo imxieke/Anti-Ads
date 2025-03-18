@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-18 00:27:29 RPC
+! Updated: 2025-03-18 09:41:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25717,6 +25717,7 @@ abplive.com##.policy_event
 abplive.com##._p_policy
 abplive.in##.blur-bg
 abplive.in##.popup_desktop
+abrahamartimpressions.com,eriestgastropub.com,fahrschule-delert.de,geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
 abrahamartimpressions.com,fahrschule-delert.de,geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
 abrakadabra.com,dumtiskaren.cz,e-texim.cz,evaair.com,flender.com.cn,harmony.co.il,heuristic.pl,laboratoria.net,luxprom.pl,motonera.com,mydoka.com,pelety-premium.cz,play.tv,portal.by.aok.de,ppkbjelovar.com,premium-aerotec.com,remixshop.com,stokrotka.pl,sudnews.it,surflightingdesign.com,testo.com,transletra.pl,ubs.com###cboxOverlay
 abrakadabra.com,etherealmechanics.info,evaair.com,flender.com.cn,heuristic.pl,laboratoria.net,luxprom.pl,mydoka.com,play.tv,portal.by.aok.de,ppkbjelovar.com,premium-aerotec.com,surflightingdesign.com,testo.com,transletra.pl###colorbox
@@ -30240,6 +30241,7 @@ canva.cn##.jv5LaQ
 canva.com##.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
 canva.com##.theme > div[aria-live="polite"]
 canva.com##body > div[style^="z-index:"]:has(p > span > a[href*="cookie"])
+canva.com##[role="dialog"]:has-text(/cookie/i)
 canva.com##[role="dialog"]:has-text(But first, cookies)
 canva.com#?#body div[style] div:not([class], [id]) > div[class][aria-live="polite"]:has(div[class] > div[class]> [class] > span[class] > a[href*="cookie"])
 canva.com#?#body div[style] div[class]:has(> div[class][role="dialog"] > div[class] > span[class] > a[href*="cookie"])
@@ -38744,6 +38746,7 @@ ideait.ru###cookie_notification
 ideal-versicherung.de###content-top
 ideal.es,elcorreo.com#@##didomi-notice
 idealing.com###idealing-cookie-consent-wrapper
+idealist.org##[style="position: sticky; bottom: 0px; left: 0px; width: 100%; z-index: 9999;"]
 idealo.de#@##privacypolicy
 ideasoft.com.tr,secfense.com##.rcb-banner
 ideasoft.io##.police
