@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-18 09:41:34 RPC
+! Updated: 2025-03-18 16:27:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1712,6 +1712,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
 3dmgame.com##DIV.QZmainR > DIV.R1,.ad_top,.adad,[class^="youdao"],[id^="clickbg"],.dowl-rgg,#box.box
+3dmgame.com#$#body > div.content { margin-top: 0 !important; }
 3dmgame.com#%#//scriptlet('abort-on-property-write', 'adStart')
 3dmgame.com#?#.downl_list:-abp-has(style)
 3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
@@ -5013,12 +5014,12 @@ axios-js.com##.lessonlist
 axios-js.com##.recommand
 axios-js.com##.vultr-desc
 axjbt.com,avcao.cc#%#//scriptlet('abort-on-property-read', 'myclick')
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', '/getCookie|checkCK|checkCookie/')
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net##body > article[style]
-axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
-axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', '/getCookie|checkCK|checkCookie/')
-axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('trusted-suppress-native-method', 'document.write', '/ul class.*icon.*href/', 'prevent')
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"]
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ br
 aya0205.smart-douga.mobi##.entry_more > div[style^="background-color: rgb(88, 140, 115)"] ~ div[style="text-align: center;"]
@@ -8648,7 +8649,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -8902,6 +8903,7 @@ ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 fh21.com.cn###lbzxM
 fh21.com.cn##.adv
 fhm.com.tw###add-box
+fhxy-a.top##.sd_recpic
 ficbook.net##.install-app-container
 ficbook.net##.jsHideStickyRkl
 ficbook.net##.rkl-stick-to-bottom
@@ -16931,9 +16933,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -20734,6 +20736,7 @@ video.fc2.com##iframe[src^="/pagead/"]
 video.fc2.com#$##body_contents #ad_head_wrap { padding-top: 0 !important; }
 video.fc2.com#?#iframe[src^="/a/pagead/"]:upward(1)
 video.tv-tokyo.co.jp##.adApp-wrapper
+video4k.cc#@#a[href*="/?aff="][target="_blank"]
 vidhub.cc##div.player-info > div.module
 vidhub.me,vidhub.tv##.promotelink
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
@@ -27888,6 +27891,7 @@ _zhike.htm
 ||amung.us^$third-party
 ||amusedbucket.com^
 ||amusementmorning.com^
+||amyapad.top^
 ||amznadsi.hs.llnwd.net^$important
 ||an.adnxs.com^$important
 ||an.batmobi.net^$important
@@ -32148,6 +32152,7 @@ _zhike.htm
 ||chong-wu.net^
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
 ||chooncv.icu^
+||chorninsm.com^
 ||choujue.net/one/down.js
 ||choujue.net/script/
 ||chouti.com/js/tingyun-rum.js
@@ -36033,6 +36038,7 @@ _zhike.htm
 ||fb88.com^$important
 ||fbapi.dxsvr.com^$important
 ||fbapi.sd.duapps.com^$important
+||fbhkxt.icu^
 ||fbmjc.39yst.com^
 ||fbphnn.icu^
 ||fbqrt.cn^
@@ -41817,6 +41823,7 @@ _zhike.htm
 ||lp3tdqle.com^$important
 ||lp4.io^$important
 ||lpo.optimizely.com^$important
+||lppfnf.icu^
 ||lpqhkj.cn^
 ||lpsxssm.com^
 ||lqfctb.icu^
@@ -45567,6 +45574,7 @@ _zhike.htm
 ||phpstudyimg.com/all/xiaojieqiantie.gif
 ||phtivr.xyz^
 ||phunware.com^$important
+||phuustikd.com^
 ||phxdrf.icu^
 ||physicalbikes.com^
 ||pi.pardot.com^$important
@@ -45931,6 +45939,7 @@ _zhike.htm
 ||polishedfolly.com^
 ||politegoldfish.com^
 ||politeplanes.com^
+||political-effort.com^
 ||politicalflip.com^
 ||politicalporter.com^
 ||polyad.galaxypub.vn^$important
@@ -47001,6 +47010,7 @@ _zhike.htm
 ||qutyan8848.com^
 ||quwkke.xyz^
 ||quyaoya.com^$third-party
+||quyr.cn^
 ||quyuancn.com^$third-party
 ||qvnbjjd.xyz^
 ||qvob.adsb4track.com^$important
@@ -47192,6 +47202,7 @@ _zhike.htm
 ||rdbd.xsread.com^
 ||rdi.us.criteo.com^$important
 ||rdllzz.icu^
+||rdoq.cn^
 ||rdr.ad-score.com^$important
 ||rdrs.ad-score.com^$important
 ||rdsgick.icu^
@@ -48991,6 +49002,7 @@ _zhike.htm
 ||shbzqgs.cn^
 ||shbzqkj.cn^
 ||shdunjiusy.com^
+||shedranfd.com^
 ||shejiben.com/common/libs/layer.js
 ||shejiben.com/common/widgets/ui/*zb.js
 ||sheknows-tagan.adlightning.com^$important
@@ -49802,6 +49814,7 @@ _zhike.htm
 ||srhuafeng.com^
 ||srmsii.xyz^
 ||srootshare.com/otmyjs/
+||srootshare.com^
 ||srtb.msn.cn^
 ||srtlisb.top^
 ||srutvncb.top^
@@ -51696,6 +51709,7 @@ _zhike.htm
 ||toecircle.com^
 ||toedrawer.com^
 ||tofurkey.urbanairship.com^$important
+||togmoxwnw.com^
 ||togothermany.com^
 ||token.rubiconproject.com^$important
 ||tokenads.com^$important
@@ -52388,6 +52402,7 @@ _zhike.htm
 ||tubedspots.com^$important
 ||tubemogul.com^
 ||tubemogul.com^$important
+||tubingacater.com^
 ||tubous.fuckandcdn.com/tubous/tubousstatic/ads/mobile/
 ||tudc-sdk-ie.afmobitek.com^$important
 ||tudown.com^
