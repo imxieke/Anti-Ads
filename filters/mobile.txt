@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-18 16:27:38 RPC
+! Updated: 2025-03-19 00:27:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16438,7 +16438,6 @@ op.gg##.gtag-ad
 op.gg##.vm-placement,[class^="ads"]
 op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
-op.gg##div[class]:has(> div:empty:only-child)
 op.gg##div[class^="css-"] > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##header a[href^="https://itunes.apple.com/"]
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
