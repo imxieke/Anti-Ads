@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-19 09:41:29 RPC
+! Updated: 2025-03-19 16:28:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12973,6 +12973,7 @@ nuxeo.com#$##cookie-inform-message ~ div.modal-overlay { display: none !importan
 nuxeo.com#$#.cookie-banner { display: none !important; }
 nuxeo.com#$#html { overflow: visible!important; }
 nuxeo.com#@#.cookie-banner:not(body):not(html)
+nuzlocke.app#%#//scriptlet('set-local-storage-item', 'nuzlocke.consent', 'true')
 nvidia.com,otomobilir.com,dagiunderwear.com,vesti-ua.net,dagi.com.tr,cmwltd.co.uk,vidobu.com,kockariyerim.com,bebekodam.com,sleepy.com.tr,alniaciklar.com,investors.atlassian.com,kocakademi.com,foxpost.hu,k-booster.info,sport1tv.cz,sport1tv.hu###cookieAcceptBar
 nvu.io###nvu-consent
 nwoa.com###gdpCookie
@@ -19431,6 +19432,7 @@ _eu_cookie_
 ||swoodoo.com/s/horizon/common/gdpr/CookieConsentV2?scriptsMetadata=
 ||sync.transcend.io/consent-manager/$domain=anaconda.com
 ||system-notify.app^$third-party
+||t-mobile.cz/_cookies/gdpr-component/
 ||tabletpcreview.com/wp-content/plugins/wpfront-notification-bar/
 ||tags.stepstone.com/utag/*/prod/utag.js
 ||tags.tiqcdn.com/utag/*/utag.$domain=firstdirect.com|hs.fi|radissonhotels.com|louisvuitton.com|simplybusiness.co.uk|vivimilano.corriere.it|lineadirecta.com|modernatx.com|totaljobs.com|brother-usa.com

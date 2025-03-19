@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-19 09:41:29 RPC
+! Updated: 2025-03-19 16:28:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19864,6 +19864,7 @@ muridan.com##a[onclick^="NewWindow("][href^="paylas.php?"]
 musavat.com##.inner-social-box
 muscleandfitness.com##.sharedaddy__wrapper
 muscleandstrength.com##.at-resp-share-element
+musee-pla.com##.wrap_share_btn
 musenboya.com##.sns-share
 musescore.com#?#section > button:has(> svg + span:contains(Share))
 music.amazon.com#%#//scriptlet('hide-in-shadow-dom', 'music-button[title^="Share"]')
@@ -20274,6 +20275,7 @@ news.mynavi.jp#?#.article > div.article_content:has(> ul.sns_share_list)
 news.nicovideo.jp#@#.share-facebook
 news.nicovideo.jp#@#.share-twitter
 news.nifty.com##.widget_official_full_twfollow
+news.northeastern.edu##.author-sidebar__share
 news.nsttv.com,otayoripost.net,photoshopvip.net,majandofu.com###sns-buttons
 news.online.ua##.o-card__share
 news.online.ua,novyny.online.ua##.o-btn--share
@@ -22926,6 +22928,7 @@ shopper.life##.sharefull
 shoppers.media##div[class^="NewsLinks_"] > :not(div)
 shopping.bookoff.co.jp##div[style="padding:1em 4%;text-align:right;"]
 shopping.interpark.com,tesetturpazari.com##.shareProduct
+shopstaff.jp##.mb-8.mt-6
 shorturl.at#?#body > main > section#content:has(> div.socialnetworkbox)
 shostka.info,sumypost.com##.ni-share
 shostka.info,sumypost.com##.to-telegram
@@ -23529,6 +23532,7 @@ store.steampowered.com##a[class^="discussionwidget_ShareBtn_"]
 store.steampowered.com##a[onclick^="ShowShareDialog();"]
 store.steampowered.com##div[class*="salesocialshare"]
 store.steampowered.com#?##shareBtn
+store.tenga.co.jp##.c-product_info__share
 store.united-arrows.co.jp##div[data-css="sns-wrapper"]
 store.united-arrows.co.jp##div[data-css="stylingList"] > div.mb-20:has(> div.flex > button#btn_twitter)
 store.wacoal.jp###r2-share

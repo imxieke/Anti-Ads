@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-19 09:41:29 RPC
+! Updated: 2025-03-19 16:28:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3424,6 +3424,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 @@||histock.tw/JScript/AD/
+@@||hitomi.la^
 @@||hk.on.cc/js/v4/oncc-adbanner.js
 @@||hk.on.cc/js/v4/oncc-adbanner.js$domain=hk.on.cc
 @@||hk.on.cc/mobile/js/lib/adbanner.js
@@ -3824,6 +3825,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||rmdown.com/ads.js
 @@||rosefile.net^$generichide
 @@||rshb.ru/source/js/jquery.smartbanner.js
+@@||rule34hentai.net^
 @@||runative-syndicate.com/do2/*$domain=onemanhua.com
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
@@ -8649,7 +8651,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16536,6 +16538,7 @@ otzovik.com##body .ypluss16_age
 otzovik.com##body [class*="16_plusage"]
 ouest-france.fr###bloc_x14
 ouest-france.fr##.bp-revive_x10_x14
+ourage.jp##*[class^="ad-article"]
 ourjav.com##[width="300"]
 outdoorlife.com#?##empire-unit-footer-close-btn
 outdoorlife.com#?#div[id^="empire-unit-sticky_footer__mobile"]
@@ -16934,7 +16937,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -20176,6 +20179,7 @@ tsubasa.im#%#//scriptlet('prevent-setInterval', '/home/?adblock=')
 tsubasa.im#%#//scriptlet('prevent-setTimeout', '/home/?adblock=')
 tsumanne.net###dmm
 tt776.com##iframe[src="/app/ad.html"]
+ttdm.me##.dds_w
 ttkyy.net##.video-ad,#tlad,[class^="ui-playad"],.ui-sponsor300-250
 ttmeiju.com##A[href^="http://lnk8.cn/"],#bottomad,div.super_notice,ul.headad,div.leftad,a[href^="http://www.ttmeiju.com/adclick.php?"],div#ad_couplet,[width="960px"][height="110px"],#new-user,#dialog-overlay,[width="960px"][height="120px"],img[src^="http://pic.yupoo.com/ttmeiju/"][height],.duilian,.float_layer,[height="90"],[width="990px"],[src^="http://i.imgur.com/"],[title$=".jpg"],[alt^="ttmeiju - "]
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
@@ -28086,6 +28090,7 @@ _zhike.htm
 ||analyze.urbanairship.com^$important
 ||analyzecorona.com^
 ||anandabazar.pushengage.com^$important
+||ancelsqpv.com^
 ||ancientact.com^
 ||ancxeftgyu.top^
 ||and07.adnow.com^$important
@@ -30982,6 +30987,7 @@ _zhike.htm
 ||bx0635.com/tx/$image
 ||bxg68.com^
 ||bxheifoe.icu^
+||bxhm.cn^
 ||bxlmrl.xyz^
 ||bxlulr.icu^
 ||bxmazls.icu^
@@ -40403,6 +40409,7 @@ _zhike.htm
 ||jsinfo.net^$third-party
 ||jsjs.jbzj.com^
 ||jslog.krxd.net^$important
+||jslxzx.icu^
 ||jsm.39yst.com^
 ||jsmxkj.com^
 ||jsn.mgid.com^$important
@@ -41237,6 +41244,7 @@ _zhike.htm
 ||leaplunchroom.com^
 ||learnedmarket.com^
 ||lecai.com/page/zhuanti/baidu/
+||ledfjl.icu^
 ||ledlocket.com^
 ||ledollull.com^
 ||ledwtz.icu^
@@ -44213,6 +44221,7 @@ _zhike.htm
 ||nocturnalmystique.com^
 ||node.adsoptimal.com^$important
 ||node.cdntxt.com^
+||nogogey.top^
 ||nohcutlips.com^
 ||noin.shop/_nuxt/img/btn_webapp.appStore
 ||nois5gj.xyz^
@@ -52372,6 +52381,7 @@ _zhike.htm
 ||ttbaods.com^$script
 ||ttd.ads.placeiq.com^$important
 ||ttdbj.com^
+||ttdm.me/upload/files/sss/
 ||ttdpxh.xyz^
 ||tteferty33.fun^
 ||ttgbnmk.top^
@@ -53579,6 +53589,7 @@ _zhike.htm
 ||vkdgdt.xyz^
 ||vlion.cn^$third-party
 ||vlive.qqvideo.tc.qq.com^
+||vljkjx.top^
 ||vm.aty.sohu.com^
 ||vm5apis.com^
 ||vm5apis.com^$important
@@ -54870,6 +54881,7 @@ _zhike.htm
 ||xdyjt.com^
 ||xdytt.com/b_*.js
 ||xe2c.com^
+||xeccotftw.com^
 ||xedlxeuz.icu^
 ||xehodv.xyz^
 ||xehyjx.icu^
@@ -55105,6 +55117,7 @@ _zhike.htm
 ||xq12.com^
 ||xqrydt.icu^
 ||xrea.com^$important
+||xrlzhk.top^
 ||xrrxodz.xyz^
 ||xrtzf.com^
 ||xs.houyi.baofeng.net^
@@ -55148,6 +55161,7 @@ _zhike.htm
 ||xunfan.net^
 ||xunlei.com/api/stat/rt/js?
 ||xunleiii.com^
+||xunqrutsl.com^
 ||xunsfr.xyz^
 ||xunsu.cc/js/indexbottom.js
 ||xunyangdianzi4.cn^
@@ -55245,6 +55259,7 @@ _zhike.htm
 ||y7ts.icu^
 ||y8e5b4g9.stackpathcdn.com^$important
 ||ya*.dwstatic.com^
+||yaaumqa.top^
 ||yab-adimages.s3.amazonaws.com^$important
 ||yabo816.com^
 ||yabuka.com^$important
