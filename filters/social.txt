@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-19 00:27:26 RPC
+! Updated: 2025-03-19 09:41:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21039,6 +21039,7 @@ orufemorufenz.com##.bookmark
 orvieto24.it##.sfm-floating-menu
 osaka-u.ac.jp##.SNSShare
 osama-ranking-treasurechest.com,ksltv.com,choiz.me,tubxporn.com,zpppstop.ru##.share_link
+osce.org##.pane-social-sharing
 osf.io#@#.share-row
 oshiete.goo.ne.jp##.socialIconArea.bottomArea
 oshiete.triumph-cpn.com##.tellMeTrimphAnswer__snsArea
