@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-19 16:28:30 RPC
+! Updated: 2025-03-20 00:27:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10746,6 +10746,8 @@ hmv.co.jp#?#.contentsBlock.fitLR:has(> div.bannerBlock)
 hn.ifeng.com##.couplet,.fixed_ad
 hobbyconsolas.com#?#.main-content > div > div[data-dfp-display]:upward(1)
 hobbyconsolas.com,20minutos.es,autobild.es##div[class^="ad-catfish"]
+hobbyhall.fi##.c-footer__download-app
+hobbyhall.fi,plus.nhk.jp,rakuten-card.co.jp,sp.ch.nicovideo.jp,m.economictimes.com,skype.com###appBanner
 hobonichielog.com##.banabox
 hobonichielog.com##.hoboboxb
 hochi.news##.ad[style^="min-width: 336px"]
@@ -16985,7 +16987,6 @@ plaza.rakuten.co.jp##.pr01
 plaza.rakuten.co.jp##div[id^="div-plaza-point-ad-"]
 plicy.net##.adGamepageHeaderBase
 pluggedin.ru##a[target="_blank"][href^="https://ads.adfox.ru"] > img
-plus.nhk.jp,rakuten-card.co.jp,sp.ch.nicovideo.jp,m.economictimes.com,skype.com###appBanner
 plus.nhk.jp,shufoo.net,gran-turismo.com,m.tv.naver.com,m.comic.naver.com,m.bombaytimes.com##.app_banner
 plus28.com###ad_normal
 plus28.com##a[href*="/?Extend="]
@@ -50179,6 +50180,7 @@ _zhike.htm
 ||static.emsservice.de^$important
 ||static.etracker.com^$important
 ||static.eu.criteo.net^$important
+||static.fanatik.com.tr/scripts/*deeplink/*deeplink.app.min.js
 ||static.fastpic.ru/android.png
 ||static.fmpub.net^$important
 ||static.foresee.com^$important
