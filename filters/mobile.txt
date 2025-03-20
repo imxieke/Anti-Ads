@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-20 09:40:18 RPC
+! Updated: 2025-03-20 16:27:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16942,7 +16942,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -39878,6 +39878,7 @@ _zhike.htm
 ||iyinghua.io/bar/
 ||iyisloo.top^
 ||iyjqgpo.top^
+||iyof.cn^
 ||iyqbsst.top^
 ||iyuedu.cn.com^
 ||iyuwkbo.top^
@@ -41191,6 +41192,7 @@ _zhike.htm
 ||lcefsf.icu^
 ||lcf.cmplay.cmcm.com^$important
 ||lciapi.ninthdecimal.com^$important
+||lcidauv.top^
 ||lclimil.top^
 ||lclqbh.icu^
 ||lcsdk.3g.qq.com^$important
@@ -44944,6 +44946,7 @@ _zhike.htm
 ||ota.cartrawler.com^$important
 ||otcdn2.auditude.com^
 ||otf-cache1.adperfect.com^$important
+||otfy.cn^
 ||other.appcpi.net^
 ||other.chartboosts.com^$important
 ||other.v.duowan.com^
@@ -49536,6 +49539,7 @@ _zhike.htm
 ||socos.gitee.io/ss/poster/
 ||soda.startappservice.com^$important
 ||soda1.midasplayer.com^$important
+||sodenneyg.com^
 ||sodhef.com^
 ||sodu.cc/js/tj1.js
 ||sodu.cc/js/xufu.js
@@ -49735,6 +49739,7 @@ _zhike.htm
 ||spirebaboon.com^
 ||spiritscourge.com^$important
 ||spixel.adsafeprotected.com^$important
+||spkh.cn^
 ||spklmis.com^$important
 ||spl.ztvx8.com^$third-party
 ||spl1.yumenetworks.com^$important
@@ -53525,6 +53530,7 @@ _zhike.htm
 ||vihqpr.xyz^
 ||vijaykarnataka.com/vkmage/
 ||vindicosuite.com^$important
+||vinoinqih.com^
 ||vinsgcs.com^
 ||viowrel.com^
 ||vip.adstatic.com^$important
@@ -56087,6 +56093,7 @@ _zhike.htm
 ||zq84.com^
 ||zqgixxp.icu^
 ||zqkxlf.com^
+||zqntbc.top^
 ||zqzxz.com^
 ||zr3.icu^
 ||zrblog.net/gg/
