@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-20 00:27:01 RPC
+! Updated: 2025-03-20 09:40:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3584,6 +3584,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||loc.map.baidu.com/sdk.php$app=com.baidu.BaiduMap
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||loltmcheck.com/js/ads.js
+@@||ltn.gold-usergeneratedcontent.net^$third-party,script,domain=hitomi.la
 @@||ltzn.9377.com^
 @@||luoo.net/ad/
 @@||luoxiadushu.com^$generichide
@@ -8354,6 +8355,7 @@ egehaber.com##div[class*="block-"] a[target="_blank"] > img
 eggs.mu##.mainappBtn
 egmnow.com##.pt-embed-ad-single-mobile
 egmnow.com##.pt_mobile_ad_iframe
+ehime-np.co.jp##.ehime_sp_all_header_wrap
 ehonnavi.net#?##m_leftColumn > div.c_mb30:has(> a[href="/premium/"])
 ehow.co.uk##.mobile-display-ad
 eic.org.cn##.lx-btm-box
@@ -16286,6 +16288,7 @@ oeofo.com##.banner,.fixediv,.news-banner02
 oferty.praca.gov.pl#%#//scriptlet('set-local-storage-item', 'mobileAppDialogVisited', 'true')
 offcn.com###offcn_yx
 offcn.com##.jlstc
+offerbox.jp##.offerbox_app
 office.com##ohp-mobile-app-banner
 officelife.media##.custom-banner
 officelife.media##.side-section__mobile-banner
@@ -48812,6 +48815,7 @@ _zhike.htm
 ||servertest.mgid.com^$important
 ||servethis.com^$important
 ||servetraff.com^
+||service-ad-image-ga.prd.pluto.tv^
 ||service-api.kingsoft-office-service.com^$important
 ||service.cmp.oath.com^$important
 ||service.fyber.com^$important
