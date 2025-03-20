@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-20 16:27:43 RPC
+! Updated: 2025-03-21 00:27:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11312,6 +11312,7 @@ agensir.it##.temporary-skin-adv
 agenziacasaclima.it,anandtech.com,bdonline.co.uk,buzzfil.com,cadenaazul.com,catapult.co,clubic.com,dailymail.co.uk,filmgo.org,flightglobal.com,gameranx.com,habrahabr.ru,iexprofs.nl,ifun.de,ilfoglio.it,iphone-ticker.de,lci.tf1.fr,lesoir.be,lounge.fm,ludokado.com,mf24.pl,miningjournal.net,peoplesweather.com,programme-tv.net,rfm.fr,richersounds.com,screendaily.com,shortlist.com,teleticino.ch,todomercadoweb.es,tripstodiscover.com,trt.net.tr,trueachievements.com,truesteamachievements.com,tuttomercatoweb.com,webnews.it,yoink.com##.twitter
 agenziacasaclima.it,buzzfil.com,cadenaazul.com,catapult.co,clubic.com,dailymail.co.uk,futbol24.com,ilfoglio.it,iveybusinessreview.ca,klimahaus.it,ladepeche.fr,lci.tf1.fr,lesoir.be,loi1901.com,ludokado.com,mf24.pl,nyheteridag.se,peoplesweather.com,picclick.fr,programme-tv.net,rfm.fr,screendaily.com,startromagna.it,suedtiroler-gaertner.it,teleticino.ch,todomercadoweb.es,tripstodiscover.com,trt.net.tr,tuttomercatoweb.com,yoink.com##.facebook
 agenziacasaclima.it,cadenaazul.com,klimahaus.it,mf24.pl,peoplesweather.com,rfm.fr##.youtube
+agenziaentrate.gov.it#%#//scriptlet('set-cookie', 'first-visit-entrate', 'false')
 agi.it##.hidden.xlarge\:flex.border-t.border-base-300.pt-2.core.items-center.justify-between
 agibiteca.com.br##a[href^="javascript:abrirjanela('http://www.pinterest.com/pin/create/"]
 agibiteca.com.br##a[href^="javascript:abrirjanela('https://www.facebook.com/sharer/sharer.php"]
@@ -11905,6 +11906,8 @@ asia.nikkei.com##.article__share-slot
 asialuggage.asia##.item-detail-product-meta-text-sns
 asiancorrespondent.com##.share-image
 asianefficiency.com##svg[data-id="icon-share-alt-solid"]
+asianetnews.com##.socialIcons
+asianetnews.com#$#.articlepublish { min-height: 0 !important; }
 asianovel.com##blockquote.alert-warning > div.margin-top-20
 asianpinay.to#?#.textwidget > p:contains(Share)
 asiaone.com##.ao-share-buttons
@@ -14472,6 +14475,7 @@ dr.dk##.dre-sticky-share-band
 dragonball-multiverse.com#@#.social-networks
 dragonbounbd.foroactivo.com#@#.social_btn
 dramacool.*##li[onclick*="'sharer'"]
+dramago.in##.wrap-content > div.text-center:has(> div.textwidget a[href="https://www.facebook.com/groups/dramago.in"])
 dramanice.movie##.button_share > a[onclick^="window.open('"]
 draxe.com##.social-proof-wrapper
 dreamtv.com.tr##section.social
@@ -19555,6 +19559,7 @@ misssuomi.fi#@##sb_instagram
 mistore.jp##.article-section-share
 mistore.jp,tsuiran.jp##.articleshare
 mistral.ai##.border-t-black.pt-6 > .mb-10
+mistral.ai##aside > div:has(> div.flex > a[href^="https://www.facebook.com/sharer/"])
 mitem.auction.co.kr##.box__floating-share
 mitem.auction.co.kr##li[class$="__item__share"]
 mitsuch.com,jp.ext.hp.com,pokemon-scramblesp.jp,news.radiko.jp,tobalog.com,searchenginejournal.com,royallib.com##.sharebtn

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-20 16:27:43 RPC
+! Updated: 2025-03-21 00:27:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4263,6 +4263,7 @@ aeink.com##.widget_ui_textads
 aeink.com##p[style*=".alicdn.com/"]
 aeink.com##p[style*="82px;background:"]
 afaqs.com##.topban-container
+afdigitale.it##.herald-da.herald-slide.herald-below-header
 affyun.com##.text
 affyun.com##.text ~ a
 afisha.yandex.*##.adfox-rubric-branding
@@ -4850,6 +4851,8 @@ asajo.jp###text-15
 asajo.jp##.ad-area-upper
 aseannow.com##div[id^="AA_article_"]
 asia.nikkei.com,trovo.live##.app-sidebar
+asianetnews.com##.mobileads
+asianetnews.com##.socialbtm > div.followright
 asiatvro.com##.wp.a_t,.a_pt
 ask.fm##.app-store-banner
 ask.fm##.lightbox_content > div.buttonFooter
@@ -6434,7 +6437,7 @@ cbmay.com##.widget
 cbmd.cn##.tong_addver,.header_top_ad,[id^="Advertices"]
 cbmland.com##div[id^="ads_"]
 cbndata.com##.Toastify
-cbr.com,screenrant.com##div[id^="adsninja-"]
+cbr.com##div[id^="adsninja-"]
 cbs6albany.com#?#div[style*="display"] > div[style*="text-align:"]:has(> div[style*="position"] > div[style*="display"]:contains(/^ADVERTISEMENT$/))
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="yigujin."])
 ccav1.com###widget_da
@@ -8468,6 +8471,7 @@ ensonhaber.com##.news-ad
 ensonhaber.com##.partnerbox > a[target="_blank"] > img
 ent.163.com,war.163.com##.hotset
 ent.qq.com###ent_ad
+ent.sina.com.cn##.float-bar-right
 entabe.jp#?#.related-li:has(> script[src^="https://pagead2.googlesyndication.com"])
 entamega.com###entryBody > div[style^="margin:"][style*="width:"][style*="text-align:"][style*="min-height: 250px;"]
 entamega.com##div[id^="ad_inline"]
@@ -8827,6 +8831,7 @@ faroutmagazine.co.uk##amp-video-iframe[src^="https://live.primis-amp.tech"]
 fashion-press.net##.mobile_only_ad
 fashion-press.net#?#.fp_list_each.mobile_only > div.mobile_only_ad:upward(1)
 fashion.qq.com##.rv-js-root
+fashion.sina.com.cn##.top-ad-box
 fashionsnap.com#?#div[class]:has(> div#mainArticleUnit)
 fastadmin.net###detail-recommend
 fastadmin.net##.article-section + div .img-responsive
@@ -8959,6 +8964,7 @@ finance.sina.com.cn###hq_main_top_tgWrap
 finance.sina.com.cn###ny-link-r
 finance.sina.com.cn###ny-link-r0
 finance.sina.com.cn###pv_tag
+finance.sina.com.cn###SFA_NV_POP_ZW
 finance.sina.com.cn##.downLink
 finance.sina.com.cn##.f_app_screen_wrap
 finance.sina.com.cn##.m-p1-lb2_5
@@ -8970,6 +8976,7 @@ finance.sina.com.cn##div.AD_hqbottom,div.topBlk
 finance.sina.com.cn##div[class^="side-btns-"]
 finance.sina.com.cn##div[data-sudaclick="right_ads2_p"]
 finance.sina.com.cn##div[id^="st01_cont0"]
+finance.sina.com.cn,kashikoi.with.is,smsnator.online,emailnator.com##.top-banner
 finance.yahoo.co.jp##._1yxvuZXt._1m-l8t9B
 finance.yahoo.co.jp##._3MzPlHiR
 finance.yahoo.co.jp##div[class^="AppBanner"]
@@ -12606,7 +12613,6 @@ kariyer.net##.download-app-wrapper
 kariyerbankasi.net##.mobile-app-popup
 kartaslov.ru#?#div[class$="mob-top-block"]:has(> div[id^="yandex_rtb_R-A-"])
 kartlover.com###tryleague
-kashikoi.with.is,smsnator.online,emailnator.com##.top-banner
 kasioda.com###custom_html-9
 kaspersky.ru##.kl_sm_sidebar_banner
 kateinoigaku.jp##div[class^="styled__ContentAppBanner"]
@@ -14736,6 +14742,7 @@ mdpr.jp##.pg-articleHeadline__readApp
 mdpr.jp##.recommend-dd-link
 me.me###app-store-modal
 me360.com##.footer-booking-open
+mealty.ru#%#//scriptlet('set-cookie-reload', 'no_mobile_popup', '1')
 mecicolle.gnavi.co.jp#$#.fixed-banner { display: none !important; }
 mecicolle.gnavi.co.jp#$#body[data-fixed-banner-is-active="true"] #header { padding-top: 0 !important; }
 med1.de#$#div[id^="imAd_"] { visibility: hidden!important; }
@@ -15903,6 +15910,7 @@ news.pn#?##app-content > div[class]:has(> div > div[class][style*="//news.pn/"])
 news.qq.com###focus-bar
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
 news.rambler.ru##._1ErId
+news.sina.com.cn##.side-btns-2w
 news.sky.com##.ui-app-promo
 news.sky.com##div[data-component-name="sdc-article-custom-markup"]
 news.sohu.com##.god-first
@@ -16718,6 +16726,7 @@ pcgames.de#?#li.teaserModul:has(> div > .item > .textFrame > .articleInfo > .aut
 pcgames.de,buffed.de##.shopLinkButtonsWrapper
 pcgames.de,gamesworld.de##.sdgSlotContainer
 pcgameshardware.de##.article_text > .rectangle
+pcgameshardware.de##.commercialMod
 pcgameshardware.de##aside[class$="inArticleTextAd"]
 pcgameshardware.de#?#.ticker_item > a[href^="/E-Commerce-The"]:has(> .schnaeppchen)
 pcgamesn.com##.ad-mobile
@@ -16837,6 +16846,7 @@ phone-book.tw#%#//scriptlet('remove-node-text', 'script', 'yumayishop')
 phonearena.com##div[style="min-width:300px; min-height:250px; overflow: hidden; margin: 0 auto;"]
 phoneia.com##.widget_custom_html
 photo-capsule-puls.net,americanexpress.com,e-aidem.com##.appbanner
+photo.sina.com.cn##.side-btns-2wm
 photocity.it###widgetApp2_imgBtnApp
 photofans.cn##[class^="ad-1"],.list-ad,.mod-ad
 photopea.com##.flexrow > div[style^="padding-top:"]
@@ -18218,6 +18228,7 @@ scmp.com,mobil.nwzonline.de,mobil-nwzonline-de.cdn.ampproject.org##.advert
 scol.cn##DIV#head-ad
 scol.com.cn##div#head-ad,img.weixin,#afp_ad
 scotsman.com,sunderlandecho.com##.slab--bottommobilebanner
+screenrant.com##div[id^="adsninja-"]:not([id*="-instreamInContent-"])
 scribd.com##.auto__doc_page_webpack_view_in_store_promo
 scribd.com##.page_wrapper > div[class] > a[href^="https://www.scribd.com/oauth/signup?doc_id="][target="_blank"]
 scribd.com##.page_wrapper > div[class] > div[class]:has(> #scribd_mobile_pushdown-pushdown-cls:only-child)
@@ -19033,6 +19044,8 @@ sports.qq.com,news.qq.com,www.qq.com,v.qq.com,new.qq.com#%#//scriptlet('json-pru
 sports.ru##.sports-apps-promo
 sports.ru##iframe[src^="http://www.sports.ru/desktop/special"]
 sports.ru,ua.tribuna.com,by.tribuna.com##amp-iframe[src^="//st.s5o.ru/public/amp-smartapp/"]
+sports.sina.com.cn###sinaadsbox
+sports.sina.com.cn##.sports__toTop
 sports.sina.com.cn##a[href^="http://sports.sina.com.cn/download/"] > img
 sports.smt.docomo.ne.jp#$##app_ad_bnr { display: none !important; }
 sports.smt.docomo.ne.jp#$##wrapper_low[style^="top:"] { top: 0 !important; }
