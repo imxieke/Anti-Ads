@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-21 09:42:02 RPC
+! Updated: 2025-03-21 16:26:52 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11922,7 +11922,6 @@ askerlik.org##.pinterest > a[title^="Pinterest"]
 askmefast.com##div[style="clear:both;position:absolute;top:20px;left:0px"]
 askvg.com#?##content > .post > p:has(> strong:contains(/^Share this article:$/))
 asn24.ru###asd_share_buttons
-asoview.com,event.rakuten.co.jp,sedesign.co.jp,couple-game.net###sns-share
 aspicjapan.org##.p_share
 aspicyperspective.com,budgetbytes.com,butterwithasideofbread.com,downshiftology.com,handletheheat.com,therecipecritic.com##.wprm-call-to-action
 aspor.com.tr##.shareFrame > .item:not(.embed-link)
@@ -15750,7 +15749,6 @@ freesoftpdfdownload.blogspot.com###sidebar-two > #HTML2
 freesvg.org##.footer-social-big
 freesvg.org#?#.photo-details h4:contains(Share)
 freesvg.org,giro.com,rainn.org#@#.footer-social
-freesvg.org,rainn.org#@#.footer-social
 freethoughtnow.org##.elementor-widget-container > h2:has-text(Please share)
 freethoughtnow.org#?#.elementor-widget-container > h2:contains(Please share)
 freethoughtnow.org,weisradio.com##.elementor-widget-share-buttons
@@ -18532,6 +18530,7 @@ life.pravda.com.ua##.net-wrap
 life.pravda.com.ua,kp.ua,tenews.org.ua,news24ua.com##div[id^="twitter-widget"]
 life.ru##div[class^="styles_shareWrapper__"]
 life.ru##div[class^="styles_share__"]
+life.saisoncard.co.jp,asoview.com,event.rakuten.co.jp,sedesign.co.jp,couple-game.net###sns-share
 lifegate.it##.post__trends
 lifehacker.com##div[data-ga-module="social-share"]
 lifehacker.com##[data-ga-element="social-link"]
