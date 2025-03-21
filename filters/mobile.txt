@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-21 00:27:41 RPC
+! Updated: 2025-03-21 09:42:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4793,6 +4793,8 @@ apps.evozi.com##div#adunit,div.iab-ad,ins.adsbygoogle
 apps.jeurissen.co##html > body .cja-maincontent .cja-btmimage
 apps.jeurissen.co##html > body .cja-pagewrapper .cja-landing__content > div.cja-sqrimage
 appticker.de#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c){if(!/loadAppStoreBanner/.test(a.toString()))return b(a,c)};})();
+apsiyon.com#$##mobile-redirect-banner { display: none !important; }
+apsiyon.com#%#//scriptlet('remove-class', 'with-sb', '#header')
 apteka-april.ru##.c-mobile-app-link
 aptekiplus.ru#%#//scriptlet('set-cookie', 'header_banner_cookies', 'true')
 aptoide.com##div[class^="aptoide-installer"]
@@ -4933,6 +4935,7 @@ autoblog.com###toaster_autoblog-app
 autoc-one.jp##div[class^="ad"]
 autoc-one.jp##div[id^="jp_mota_sp_"]
 autocentre.ua#?#.archive-news > div.items > div.item:has(> ins.adsbygoogle)
+autodaily.ru,skyticket.jp,tabletki.ua,autonews.ru##.app-link
 autodoc.de##.app-block-wrap
 autodoc.de##.js-app
 autodoc.de##.mob_app_link
@@ -18618,7 +18621,6 @@ skymetweather.com#$#.ui-mobile-viewport { padding-bottom: 0!important; }
 skyrock.fm###promo_app_android
 skyscanner.*##div[class^="UnpricedBrandInline_link__"]
 skysports.com##div[data-format="floated-mpu"]
-skyticket.jp,tabletki.ua,autonews.ru##.app-link
 slashlook.com###AdvertisementBottom
 slashlook.com###AdvertismentInline
 slashlook.com#$##mdAdsAnnouncement { display: none!important; }

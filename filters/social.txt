@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-21 00:27:41 RPC
+! Updated: 2025-03-21 09:42:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12027,6 +12027,7 @@ autocarindia.com##.follow-google-news-p
 autocarindia.com##.na-share-2
 autocentre.ua##.aside-shares > *
 autocentre.ua##.content-shares
+autodaily.ru,autonews.ru,rbc.ru,sportrbc.ru##.article__header__share-block
 autoexpress.co.uk##.sharerich-wrapper
 autogidas.lt##.btn-action-facebook
 autokult.pl###exit-intent-modal
@@ -12040,7 +12041,6 @@ automotorsport.com.tr##.normal-sharing
 autonaminuty.org#$#.mfp-bg { display: none!important; }
 autonaminuty.org#$#html { overflow: visible!important; }
 autonews.fr,lavie.fr##.bloc-partage
-autonews.ru,rbc.ru,sportrbc.ru##.article__header__share-block
 autonomous.ai##div[class^="BlogDetail_SocialWrapper"]
 autoplus.fr###text-42
 autoplus.fr##.nl-social
@@ -15749,6 +15749,7 @@ freesoft.ru###soc_right
 freesoftpdfdownload.blogspot.com###sidebar-two > #HTML2
 freesvg.org##.footer-social-big
 freesvg.org#?#.photo-details h4:contains(Share)
+freesvg.org,giro.com,rainn.org#@#.footer-social
 freesvg.org,rainn.org#@#.footer-social
 freethoughtnow.org##.elementor-widget-container > h2:has-text(Please share)
 freethoughtnow.org#?#.elementor-widget-container > h2:contains(Please share)
@@ -21713,6 +21714,7 @@ pressa40.ru##.bk-share-box-top
 pressdigital.es##.share > li:not(.comentarios)
 pressekompass.net##.custom-share-button
 presseportal.de##.story-sharing
+pressherald.com#@#.share-text
 prestashopturkiye.com##.whatsapp-bottomWidth
 prestijfilm.com##a[title="Paylaş"]
 previously.tv,rocketnews24.com,themusicuniverse.com###text-9
@@ -25008,6 +25010,7 @@ tvguide.or.jp##.p--archives-singleSns-share
 tvi.iol.pt##.social_media_links
 tvigle.ru##.social-wide
 tvinfo.de##.sn
+tvinsider.com##.story-metadata > ul.social-icons
 tviplayer.iol.pt##.icon-share
 tvlife.jp##.entry-meta
 tvlife.jp##.meta-wrap
@@ -25359,6 +25362,7 @@ vchaspik.ua###block-block-354
 vchaspik.ua##div[id^="soc-img-content"]
 vecernji.hr##.block--article-toolbar
 vecernji.hr#@#.share_wrap
+vecherka-spb.ru##section > div[class^="_container_"]:has(> div[class^="_blockIcons_"])
 vecteezy.com##.ez-resource-show__details > form.button_to:has(> button[data-testid="share-button"])
 vectorhq.com##.onp-sociallocker-buttons > div:not([class*="np-sociallocker-button-twitter-follow"])
 vedantu.com###SharePageType
