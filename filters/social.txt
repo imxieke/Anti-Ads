@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-21 16:26:52 RPC
+! Updated: 2025-03-22 00:26:32 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -22268,6 +22268,7 @@ reuters.com##div[class^="article-header__share__"]
 reuters.com##div[class^="ArticleBody-read-time-and-social-"] > div[class^="SocialTools__container___"]
 reuters.com##div[class^="image-caption__social__"]
 reuters.com##div[class^="social__container_"]
+reuters.com##div[data-testid="SharingSymbols"]
 reuters.com##ul[class^="ShareButtons__container___"]
 reuters.com##[class^="BylineBar_share-container"]
 reuters.com#?#div[data-testid="toolbar-container"] > div[class^="toolbar-item__symbol-wrapper"]:has(> div > button[id^="toolbar-item-parent-share"])
