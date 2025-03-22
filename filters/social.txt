@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-22 00:26:32 RPC
+! Updated: 2025-03-22 09:39:19 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18617,7 +18617,6 @@ listen.tidal.com##li[data-track--icon-clicked="share"]
 listenmoneymatters.com##.lmm_external_footer
 listennotes.com###ln-side-share-div
 listennotes.com##a[aria-label="SHARE"]
-lister.tokyo,sbisec.co.jp,autos.goo.ne.jp,realsound.jp,m.stylenandajp.com,m.edaily.co.kr,mana-lom-tc.com,choukadou-anime.com,etnews.com##.sns_btn
 liteapks.com,modyolo.com,thinkkers.com##.list-shares
 literaturus.ru##.PlusFollowers
 lithub.com##.social_links
@@ -21606,7 +21605,6 @@ pornicom.com##.addthis-holder
 pornid.xxx##a[href="#vid-share"]
 pornone.com##div[data-original-title="Share this Video"]
 pornpics.com##.gall-info-share
-pornreactor.cc,reactor.cc#$#.uhead_share { visibility: collapse!important; }
 pornxs.com##.social-tail
 porsche.com##.b-sharepanel
 portableapps.com##.social-bottons
@@ -21746,6 +21744,7 @@ prmira.ru##.flex-col.top-\[70px\]
 prnews.pl##.prne-socials
 prnewswire.com##.social-share-circle
 prnewswire.com##a[data-target="#social-share-mobile"]
+pro-golfacademy.com,lister.tokyo,sbisec.co.jp,autos.goo.ne.jp,realsound.jp,m.stylenandajp.com,m.edaily.co.kr,mana-lom-tc.com,choukadou-anime.com,etnews.com##.sns_btn
 pro-palliativ.ru#?#.panel > div.panel-block:has(> span:contains(Поделиться))
 pro-zakupki.ru#?#.eBlock > tbody > tr > td[align="center"]:contains(Поделиться)
 probiyotix.com##.td-post-sharing

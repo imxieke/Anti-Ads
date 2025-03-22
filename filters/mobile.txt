@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-22 00:26:32 RPC
+! Updated: 2025-03-22 09:39:19 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16175,6 +16175,7 @@ noticiasaominuto.com#$#.main-container.padding-top-sm-70 { padding-top: 0 !impor
 nova.rambler.ru##section[class^="DirectMobile__direct__block--"]
 nova.rs##.banner-footer
 novaposhta.ua##.b_banners
+novapost.com###app-header div.app-container.flex:has(> a[href="https://npost.page.link/app"])
 novel.prcm.jp##app-app-promotion-banner
 novel.prcm.jp##app-web-to-app-campaign-banner
 novelcool.com##.sus-download-app-box
@@ -21256,6 +21257,7 @@ westseattleblog.com#@#.custom-ad
 westseattleblog.com#@#.header-ad
 weszlo.com##.article-list > .snap-mandatory > .snap-always.flex:has(> .overflow-hidden > .re-box-wrap)
 wetransfer.com##.AppDownloadDrawer
+wetransfer.com##.AppInstallBanner
 wetransfer.com##.downloader__collect-header
 wetter.com###content-main > .werbung
 wetter.com##.clickperformance-wrapper
