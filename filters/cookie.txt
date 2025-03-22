@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-22 09:39:19 RPC
+! Updated: 2025-03-22 16:24:25 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31940,6 +31940,7 @@ crocs.de,crocs.eu#$##__tealiumGDPRcpPrefs { display: none !important }
 crocs.de,crocs.eu#$#html.cx-no-scroll body { overflow: auto !important; cursor: auto !important; pointer-events: auto !important; touch-action: auto !important; overscroll-behavior: auto !important; position: unset !important; }
 crocs.de,crocs.eu#$#html.cx-no-scroll { overflow: auto !important; cursor: auto !important; pointer-events: auto !important; touch-action: auto !important; overscroll-behavior: auto !important; position: unset !important; }
 crocs.de,crocs.eu#@#.js-cookie-consent
+croda.com,frontgate.com,incotec.com##.c-cookie-banner
 croisieresendirect.com##+js(set-cookie, accepted, 1)
 cronacaqui.it###footerprivacy
 cronn.de##.privacyoverlay
@@ -55255,6 +55256,7 @@ walmart.ca##div[data-testid="layout-container"] > section[role="banner"][class^=
 walserprivatbank.com##.block_consent
 walserstolz.at##+js(set-cookie,walserstolz-aut-cookie-categories, essential)
 wamba.com##+js(set-cookie, appBannerPopUpRulesCookie, true)
+wamu.org###moove_gdpr_cookie_info_bar
 wanakaapp.nz##app-cookie-notice
 wander-community.de###privacy-bar
 wandermap.net##.messages.temporary

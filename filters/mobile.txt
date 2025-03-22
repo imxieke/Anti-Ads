@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-22 09:39:19 RPC
+! Updated: 2025-03-22 16:24:25 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -4093,6 +4093,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||yastatic.net/pcode/adfox/header-bidding.js$domain=kp.ru|kp.by|kp.kg|kp.kz
 @@||yastatic.net/pcode/adfox/loader.js$domain=kp.ru|kp.by|kp.kg|kp.kz
 @@||yeeach.com^$generichide
+@@||yeeach.com^$generichide,badfilter
 @@||yesiget.i234.me^$generichide
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
@@ -8662,7 +8663,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16956,9 +16957,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -27584,6 +27585,7 @@ _zhike.htm
 ||ak.sail-horizon.com^$important
 ||ak.sailthru.com^$important
 ||ak03150hou.com^
+||ak03211hou.com^
 ||ak0gsh40.com^
 ||ak530.com/js/*.js
 ||aka-apiservices.boostmobile.com^$important
@@ -37583,6 +37585,7 @@ _zhike.htm
 ||guce.tacoda.at.atwola.com^$important
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
+||gucx.cn^
 ||gudja.iad-02.braze.com^$important
 ||guess.h.qhimg.com^
 ||guess.mediav.com^$important
@@ -43989,6 +43992,7 @@ _zhike.htm
 ||nekopoi.care/wp-content/plugins/mobiloud-smart-app-banner/
 ||nekto.me/chat/img/gplay.
 ||neldatsy.com^
+||neldipbtg.com^
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
 ||nend.net^
@@ -47131,6 +47135,7 @@ _zhike.htm
 ||r3sub.com^*0.gif
 ||r4u.icu^
 ||r528e.cn^$third-party
+||r5twojylmzsym.top^
 ||r7mediar.com^$important
 ||ra.gtimg.com/uv/1712104/index.js
 ||ra1.xyz^
@@ -50466,6 +50471,7 @@ _zhike.htm
 ||steepscale.com^
 ||steepsister.com^
 ||steepsquirrel.com^
+||stemedntm.com^
 ||step-service.crossinstall.io^$important
 ||stepcattle.com^
 ||stepplane.com^
