@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-24 16:28:23 RPC
+! Updated: 2025-03-25 00:28:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14055,6 +14055,7 @@ m.qidian.com##DIV[class='footer-backtop-cell jsGuestWrapper']
 m.qidian.com##DIV[class='module-field']
 m.qidian.com##div[id*="chapterEndModule_"]
 m.qidian.com##DIV[style='background: rgba(0,0,0,0.4);position: fixed;left:0;right:0;top:0;bottom:0;z-index:9999;']
+m.qiuxiaoshuo.org##a[href^="http://www.xiaodaoyuedu.com/"]
 m.qoo10.jp##.app_download_banner
 m.qu.la###chaptercontent > p
 m.qu.la###chaptercontent > span
@@ -33402,6 +33403,7 @@ _zhike.htm
 ||cronbaytech.g2afse.com^$important
 ||crookedcreature.com^
 ||cross-promo.mwx.ext.mobilityware.com^$important
+||crossadsapi.ecomobileapp.com^
 ||crossboardmobile.com^
 ||crossboardmobile.com^$important
 ||crosspromo*.qplaze.com/PushCampaignXMLOut.php

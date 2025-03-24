@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-24 16:28:23 RPC
+! Updated: 2025-03-25 00:28:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3142,6 +3142,7 @@
 @@||cookiesv2.publiekeomroep.nl/data/script/cconsent$domain=npo.nl
 @@||cookiesv2.publiekeomroep.nl/data/script/cconsent-no-rw.$domain=nos.nl
 @@||costa.co.uk/js/libs/cookieconsent.min.js
+@@||cp.gutefrage.net^$domain=gutefrage.net
 @@||creator.klarna.com/plugins/onesignal-cordova-plugin/www/onesignal.js$~third-party
 @@||czajnikowy.com.pl/wp-content/plugins/creare-eu-cookie-law-banner/js/eu-cookie-law.js
 @@||d.delivery.consentmanager.net/delivery/cmp.php$domain=bluray-disc.de
@@ -7135,7 +7136,6 @@ dnp.co.jp,wannart.com,pasabahcemagazalari.com,rusta.com##.cookies-area
 dnslytics.com###EU_Cookie_Message
 dnspod.com##.tea-news
 dobro.ru##div[class^="CookiesModal_cookies__"]
-dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv###cc-main
 doccheck.com##.dc-cookie-disclaimer
 doccheckshop.de##.cookie-bar-extended
 docdoc.ru##div[data-test-id="cookies-banner"]
@@ -9244,6 +9244,7 @@ gusarov-group.by,m.economictimes.com##.privacy_block
 gusto.at,lustaufsleben.at,news.at,profil.at,vgn.at###cookieBgOverlay
 gut-leben-in-deutschland.de#%#//scriptlet('set-local-storage-item', 'gut-leben-cookie-banner-hidden', 'true')
 gut-riedelsbach.de###bb_cookieconsent
+gutefrage.net#%#//scriptlet('trusted-click-element', 'astro-island[props*="Zustimmen und weiter mit Werbung"] > button', '', '500')
 gutscheine.de##div[data-ssr-consent]
 gutscheine.eurothermen.at##body.dp--cookie-consent::after
 gutscheine.focus.de##.focusde-cookie-notification
@@ -9892,6 +9893,7 @@ impiego24.it###wrapDisclaimer
 importantia.de,importantia.eu###react_element__cookiebar
 impozitauto.ro###gdpr-filter
 improvethenews.org##.__floater
+imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv###cc-main
 imyfone.com##.magicmic-popu-banner
 in-win.com###gdpr_container
 inalco.es###div_cookies
@@ -11692,7 +11694,7 @@ mattermost.com##.module-gdpr-acceptance
 maudau.com.ua###__next > div[class^="css-"]:has(> div > button.chakra-button)
 mauk-gartenwelt.de#$#body { overflow: auto !important; }
 mauk-gartenwelt.de#$#div[class^="cookiemessage"] { display: none !important; }
-max.com#$##app > div#layer-root-modal:has(> div[class^="StyledDialogWrapper-Fuse-"] button[aria-label="Manage Cookies"]) { display: none !important; }
+max.com#$##app > div#layer-root-modal:has(> div[class^="StyledDialogWrapper-Fuse-"] button[aria-label="Accept All Cookies"]) { display: none !important; }
 max.com#$#body { overflow: auto !important; }
 maxi-retail.ru##div[class^="NotificationCookie"]
 maximarkt.at#$##lightcase-overlay { display: none !important; }
@@ -12866,7 +12868,6 @@ nordpass.com##.bg-grey-darkest.w-full > div.items-center.w-full
 nordpass.com##.text-black > div[id="Footer"] + div[class]
 nordpass.com,nordlocker.com,nordvpn.com##.ConsentWidget__container
 nordvpn.com##.GDPRConsent
-normalsozluk.com,alu.jp,lenovostore.gr,thephuketnews.com,dogruhaber.com.tr,central1.com,parklot.pl,ilkha.com,modoko.com.tr##.fixed-bottom
 north.pl###cookie-offcanvas
 north.pl##.offcanvas-backdrop::before
 northernpowergrid.com#$##block-cookiesui { display: none !important; }
@@ -15869,6 +15870,7 @@ steelorbis.com###cookiePolicyDivId
 steinel.de#%#//scriptlet('trusted-click-element', '.modal-close', '', '500')
 steller.co##div[class^="Disclaimer_"]
 stema.de###cookie-consent-target
+stepfordcountyrailway.co.uk,normalsozluk.com,alu.jp,lenovostore.gr,thephuketnews.com,dogruhaber.com.tr,central1.com,parklot.pl,ilkha.com,modoko.com.tr##.fixed-bottom
 steplerapp.com##.cookie-popup__body
 stepmap.de#$##cookieConsentOverlay { display: none !important; }
 stepmap.de#$#body { overflow: auto !important; }

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-24 16:28:23 RPC
+! Updated: 2025-03-25 00:28:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25373,6 +25373,7 @@ veganblatt.com##.Shares
 vegetarianrecept.ru###execphp-13
 vegrecipesofindia.com##.block-social-links
 vencon.ua##.share-fixed-block
+vencon.ua##.show-share-dialog-btn
 venturebanc.com##.social_share_buttons
 venturebeat.com##.Footer__social-icon
 veporn.live##.sidebar-social
@@ -26123,6 +26124,7 @@ xcom-shop.ru##.card-head-share
 xda-developers-forum.blogspot.com##.post-share-buttons
 xda-developers.com##.et_social_inline
 xda-developers.com##.sharing > a.sharing-btn
+xeberle.com##.momizat-posts:has(> div.widget-head:contains(FACEBOOK))
 xeiaso.net,oyungemisi.com,pornhub.com,mediafire.com###shareButton
 xfolio.jp##.share__wrap
 xfreehd.com###share_video
