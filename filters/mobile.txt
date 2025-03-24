@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-24 09:44:55 RPC
+! Updated: 2025-03-24 16:28:23 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16959,7 +16959,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30636,6 +30636,7 @@ _zhike.htm
 ||bn.bfast.com^$important
 ||bn.imguol.com^$important
 ||bnalzlv.top^
+||bnbwvp.top^
 ||bndxrr.xyz^
 ||bne-v4.pops.fastly-insights.com^$important
 ||bnet.com^
@@ -34882,6 +34883,7 @@ _zhike.htm
 ||dt.adsafeprotected.com^$important
 ||dt0j.icu^
 ||dtc.delidatax.com^$important
+||dtdqpc.top^
 ||dtjcvd.icu^
 ||dtjpihv.xyz^
 ||dtntnl.icu^
@@ -37912,6 +37914,7 @@ _zhike.htm
 ||hccms.com.cn^
 ||hccoeutg.com^
 ||hcgbhq.com^
+||hchus5739dmew.top^
 ||hcinmau.top^
 ||hcinvdu.top^
 ||hcirentgh.360doc.cn^
@@ -40799,6 +40802,7 @@ _zhike.htm
 ||kgymoc.xyz^
 ||khastreol.com^
 ||khcsvdc.icu^
+||khegritww.com^
 ||khengrull.com^
 ||khesuts.com^
 ||khgj.cn^
@@ -40891,6 +40895,7 @@ _zhike.htm
 ||knottyswing.com^
 ||knowmore.cc/style/head.js
 ||knuinws.icu^
+||knul.cn^
 ||ko3aql2d.zczcjx.com^$script
 ||koauq.top^
 ||kochava.com^
@@ -47144,6 +47149,7 @@ _zhike.htm
 ||r7mediar.com^$important
 ||ra.gtimg.com/uv/1712104/index.js
 ||ra1.xyz^
+||ra10.xyz^
 ||ra5.xyz^
 ||rabbitbreath.com^
 ||rabbitent-static.casinomodule.com^$important
@@ -48321,6 +48327,7 @@ _zhike.htm
 ||screencaptue-cdn.kampyle.com^$important
 ||screencapture.kampyle.com^$important
 ||screenshot.3lift.com^$important
+||screiltol.com^
 ||screspoy.com^
 ||scribbleson.com^
 ||scribblestring.com^
@@ -53028,6 +53035,7 @@ _zhike.htm
 ||urbanityadnetwork.com^$important
 ||urbanmedia-d.openx.net^$important
 ||uri6.com^
+||urkt.cn^
 ||url.ds.duapps.com^$important
 ||url.push-note.com^$important
 ||urlcash.net^$important
@@ -54270,6 +54278,7 @@ _zhike.htm
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wlt-ads-purify-media.adspirit.info^$important
+||wlwgloo.icu^
 ||wlwgloo.top^
 ||wlxww.com/html/analytics/
 ||wm.mipcdn.com^
