@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-25 09:42:51 RPC
+! Updated: 2025-03-25 16:28:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16958,9 +16958,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -17315,6 +17315,7 @@ pzzc.net##.portal_block_summary
 qa.opensooq.com##.footerApp
 qanda.ai###__next > footer + div[type="bottom"]
 qarabazar.az##div[style="text-align: center;margin: 5px 0 0"]
+qaynarinfo.az##div[style^="width: 320px; height: 100px;"]
 qbaobei.com###diyforumdisplaybottom
 qcfxw.net##div#belownavbar-ad
 qciss.net###lightbox
@@ -36553,6 +36554,7 @@ _zhike.htm
 ||fsclzs.com/Ad_User/
 ||fsdf45.fun^
 ||fsijngnfsfk.com^
+||fsjfnp.top^
 ||fslt.wpm.neustar.biz^$important
 ||fspddt.xyz^
 ||fstatic.iadvize.com^$important
@@ -37111,6 +37113,7 @@ _zhike.htm
 ||ghkbid.adview.com^$important
 ||ghost580.com/js/nei4.js
 ||ghostgenie.com^
+||ghozokodq.com^
 ||ghwqbii.icu^
 ||gi-js.genieessp.com^$important
 ||gi.cname2.igexin.com^$important
@@ -40060,6 +40063,7 @@ _zhike.htm
 ||jfzx.tv/js/sb/
 ||jg.atlantalko.club^$important
 ||jg1668.com^$third-party
+||jgapcsi.icu^
 ||jgidskia.top^
 ||jgjyxf.xyz^
 ||jglgjz.xyz^
@@ -41900,6 +41904,7 @@ _zhike.htm
 ||lsp-prod.cmgdigital.com^$important
 ||lstat.youku.com^
 ||lsxvnzif.icu^
+||lsyaicl.icu^
 ||lsyliel.top^
 ||lt.c.appier.net^$important
 ||ltbyw.top/data/images/*.gif
@@ -45608,6 +45613,7 @@ _zhike.htm
 ||phonearena.com^$important
 ||phonenewmessage.com^$important
 ||phonicsblitz.com^
+||phorralut.com^
 ||photo.*.html?tk=$script,third-party
 ||photo.*/native?tk=$third-party
 ||photo07.xyz^
@@ -46130,6 +46136,7 @@ _zhike.htm
 ||ppunion.com^
 ||ppxndfgf.icu^
 ||ppys.com/detail
+||pqav.cn^
 ||pqfpvb.icu^
 ||pqzjki.cn^
 ||pr-gmtdmp.mookie1.com^$important
@@ -54904,6 +54911,7 @@ _zhike.htm
 ||xbiqugela.com/js/basisc.
 ||xbiquwx.la/0DayigNJ^
 ||xbqg6.com/*.php
+||xbqm.cn^
 ||xbtw.com^
 ||xc.macd.cn^
 ||xc.mydrivers.com^
