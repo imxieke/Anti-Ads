@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-25 16:28:13 RPC
+! Updated: 2025-03-26 00:25:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3482,6 +3482,7 @@
 @@||sdk.privacy-center.org/*.js$domain=gamestar.de
 @@||sdk.privacy-center.org/*.js$domain=telegraaf.nl
 @@||sdk.privacy-center.org/*/loader.js$domain=beinsports.com
+@@||sdk.privacy-center.org/*/loader.js$domain=expressen.se
 @@||sdk.privacy-center.org/*/loader.js$domain=filmweb.pl
 @@||sdk.privacy-center.org/*/loader.js$domain=gamepro.de
 @@||sdk.privacy-center.org/*/loader.js$domain=gmenhq.com|jaysjournal.com|aroundthefoghorn.com
@@ -3516,6 +3517,7 @@
 @@||sdk.privacy-center.org/sdk/*/modern/*.*.js$domain=nicematin.com
 @@||sdk.privacy-center.org/sdk/*/modern/*.js$domain=euronews.com
 @@||sdk.privacy-center.org/sdk/*/modern/sdk.*.js$domain=ooe.orf.at
+@@||sdk.privacy-center.org/sdk/*/sdk.*.js$domain=expressen.se
 @@||sdk.privacy-center.org/ui-gdpr*.js$domain=krone.at|goplay.be
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=gamepro.de
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl|gra.pl|e-ogrodek.pl|shownews.pl|strefaobrony.pl
@@ -3572,6 +3574,7 @@
 @@||sdk.privacy-center.org^$domain=lequipe.fr
 @@||sdk.privacy-center.org^$domain=lesechos.fr
 @@||sdk.privacy-center.org^$domain=lesoir.be
+@@||sdk.privacy-center.org^$domain=marca.com
 @@||sdk.privacy-center.org^$domain=marmiton.org
 @@||sdk.privacy-center.org^$domain=mein-mmo.de
 @@||sdk.privacy-center.org^$domain=moviepilot.de
@@ -5078,6 +5081,7 @@ beko.pl###cookie_margin
 beko.pl#$#header.cookies-margin { top: 0!important; }
 belgaimage.be,anpfoto.nl###ctr-cookies
 belgiqueloisirs.be,franceloisirs.com###cookies_content
+beliani.nl##.cookie_warning_overlay
 belinvestbank.by##.cookie-notification__block
 belkacar.ru##.confirm-cookie
 bell-labs.com##.n-cookie-notice
@@ -7556,8 +7560,8 @@ element-i.de##.wt-cookie-box-wrapper
 elements.com.br###shopify-section-cookies
 elespanol.com###footerCookies
 elespanol.com###pCookieModal
-elespanol.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,marca.com,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$##didomi-host { display: none !important; }
-elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,marca.com,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$#html > body.didomi-popup-open { overflow: auto !important; position: unset !important; }
+elespanol.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$##didomi-host { display: none !important; }
+elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$#html > body.didomi-popup-open { overflow: auto !important; position: unset !important; }
 elespectador.com##.Cookies-Container
 elevensports.pl#%#//scriptlet('trusted-click-element', '.rodo-button > button.btn--primary')
 elevensports.pl,go.netia.pl,polsatboxgo.pl#%#//scriptlet('set-cookie', 'rodo-modal-displayed', '1')
@@ -11637,7 +11641,7 @@ marbosport.de,basiclab.shop,fritz-shop.eu,upleder.de#$#.iai_cookie { display: no
 marbosport.de,basiclab.shop,fritz-shop.eu,upleder.de#$#body.--cookie-overflow { overflow: auto !important; }
 marc-o-polo.com##.overlay__shadow--cookie-settings
 marc-o-polo.com#%#//scriptlet('set-cookie', 'accepted-cookie-consent-version', '1')
-marca.com###privacyPolicyLayerN
+marca.com#%#//scriptlet('trusted-click-element', '#ue-accept-notice-button')
 marieclaire.com.tw###privacyDesc
 marisol.hpplus.jp,eclat.hpplus.jp,nonno.hpplus.jp##.popup_banner
 markapark.com###header > .htext
@@ -11791,6 +11795,8 @@ medimax.de#$#.cookies-overlay-widget { display: none !important; }
 medimax.de#$#body { overflow: visible !important; }
 medimops.de#%#(function(){var a={timestamp:(new Date).getTime(),choice:2,version:"1.0"};document.cookie="mxp="+JSON.stringify(a)+"; path=/"})();
 medipolis-intensivshop.de###cookiesMessageContainer
+medisup.com#$#.orejime-NoticeOverlay { display: none !important; }
+medisup.com#$#body { overflow: auto !important; position: static !important; }
 medizin-transparent.at###mt-cookie-banner
 medizin.uni-halle.de#%#(function(){-1===document.cookie.indexOf("CookieConsent")&&(document.cookie='CookieConsent=mandatory|osm; path=/;')})();
 medizinfuchs.de,medizinfuchs.at##.ConsentHint
@@ -12507,6 +12513,7 @@ myshopify.com,quantumleapfitness.de,sanctum.shop,nakedoptics.net,tartanblanketco
 myshopify.com,quantumleapfitness.de,sanctum.shop,nakedoptics.net,tartanblanketco.com#$#body { overflow: auto !important; }
 myshopify.com,quantumleapfitness.de,sanctum.shop,nakedoptics.net,tartanblanketco.com#$?##gdpr-blocking-page-overlay { display: none !important; }
 myslenice-itv.pl##.pum-overlay[data-popmake*="polityka-prywatnosci"]
+mysoftware.de##.cookie-permission-container:not(#style_important)
 mysoftware.esko.com###web-messages
 myspace.com###termsOfService
 mystudylife.com,shadowcore.ru,activex.com.tr,learncab.com##.pix-cookie-banner

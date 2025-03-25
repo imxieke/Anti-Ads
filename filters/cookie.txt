@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-25 16:28:13 RPC
+! Updated: 2025-03-26 00:25:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25242,6 +25242,7 @@
 @@||sdk.privacy-center.org/*.js$domain=gamestar.de
 @@||sdk.privacy-center.org/*.js$domain=telegraaf.nl
 @@||sdk.privacy-center.org/*/loader.js$domain=beinsports.com
+@@||sdk.privacy-center.org/*/loader.js$domain=expressen.se
 @@||sdk.privacy-center.org/*/loader.js$domain=filmweb.pl
 @@||sdk.privacy-center.org/*/loader.js$domain=gamepro.de
 @@||sdk.privacy-center.org/*/loader.js$domain=gmenhq.com|jaysjournal.com|aroundthefoghorn.com
@@ -25276,6 +25277,7 @@
 @@||sdk.privacy-center.org/sdk/*/modern/*.*.js$domain=nicematin.com
 @@||sdk.privacy-center.org/sdk/*/modern/*.js$domain=euronews.com
 @@||sdk.privacy-center.org/sdk/*/modern/sdk.*.js$domain=ooe.orf.at
+@@||sdk.privacy-center.org/sdk/*/sdk.*.js$domain=expressen.se
 @@||sdk.privacy-center.org/ui-gdpr*.js$domain=krone.at|goplay.be
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=gamepro.de
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl|gra.pl|e-ogrodek.pl|shownews.pl|strefaobrony.pl
@@ -25332,6 +25334,7 @@
 @@||sdk.privacy-center.org^$domain=lequipe.fr
 @@||sdk.privacy-center.org^$domain=lesechos.fr
 @@||sdk.privacy-center.org^$domain=lesoir.be
+@@||sdk.privacy-center.org^$domain=marca.com
 @@||sdk.privacy-center.org^$domain=marmiton.org
 @@||sdk.privacy-center.org^$domain=mein-mmo.de
 @@||sdk.privacy-center.org^$domain=moviepilot.de
@@ -28572,6 +28575,7 @@ belfastmet.ac.uk###div-alerts-wrapper
 belgaimage.be,anpfoto.nl###ctr-cookies
 belgiqueloisirs.be,franceloisirs.com###cookies_content
 belgium.be,dxomark.com,gegevensbeschermingsautoriteit.be,senat.fr,service-public.fr,ulb.be##.orejime-Notice
+beliani.nl##.cookie_warning_overlay
 belinvestbank.by##.cookie-notification__block
 belivehotels.com,hoteloasishamaca.com,orotavapalace.es##.modal-cookies
 belivehotels.com,hoteloasishamaca.com,orotavapalace.es##body,html:style(overflow: auto !important; position: initial !important;)
@@ -34080,8 +34084,8 @@ elempleo.com##.politics_cookie
 eleonline.it###content > div[style*="fixed"]
 elespanol.com###footerCookies
 elespanol.com###pCookieModal
-elespanol.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,marca.com,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$##didomi-host { display: none !important; }
-elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,marca.com,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$#html > body.didomi-popup-open { overflow: auto !important; position: unset !important; }
+elespanol.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$##didomi-host { display: none !important; }
+elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$#html > body.didomi-popup-open { overflow: auto !important; position: unset !important; }
 elespectador.com##.Cookies-Container
 elevensports.com###__next ~ div[class^="css"]
 elevensports.pl#%#//scriptlet('trusted-click-element', '.rodo-button > button.btn--primary')
@@ -42475,7 +42479,7 @@ marbosport.de,basiclab.shop,fritz-shop.eu,upleder.de#$#.iai_cookie { display: no
 marbosport.de,basiclab.shop,fritz-shop.eu,upleder.de#$#body.--cookie-overflow { overflow: auto !important; }
 marc-o-polo.com##.overlay__shadow--cookie-settings
 marc-o-polo.com#%#//scriptlet('set-cookie', 'accepted-cookie-consent-version', '1')
-marca.com###privacyPolicyLayerN
+marca.com#%#//scriptlet('trusted-click-element', '#ue-accept-notice-button')
 marcelmarket.co.uk##.alert-server
 marcocm.com##.agreement-popup
 marcotec-shop.de###cookie
@@ -42815,6 +42819,8 @@ medimops.de#%#(function(){var a={timestamp:(new Date).getTime(),choice:2,version
 medipolis-intensivshop.de###cookiesMessageContainer
 medischcontact.nl##.cc-popup
 medistore.at##.consent_box_wrapper
+medisup.com#$#.orejime-NoticeOverlay { display: none !important; }
+medisup.com#$#body { overflow: auto !important; position: static !important; }
 medium.com##div > .branch-journeys-top
 medizin-transparent.at###mt-cookie-banner
 medizin.uni-halle.de#%#(function(){-1===document.cookie.indexOf("CookieConsent")&&(document.cookie='CookieConsent=mandatory|osm; path=/;')})();
@@ -44246,6 +44252,7 @@ myshopify.com,quantumleapfitness.de,sanctum.shop,nakedoptics.net,tartanblanketco
 myslenice-itv.pl##.pum-overlay[data-popmake*="polityka-prywatnosci"]
 mysmartbank.it##.info-bar-wrapper
 mysnapp.co.uk##.cookies-content
+mysoftware.de##.cookie-permission-container:not(#style_important)
 mysoftware.esko.com###web-messages
 myspace.com###termsOfService
 mysteriumvpn.com##.alert-popup
@@ -49317,6 +49324,7 @@ samsung.com##.cm-cookie-geo > .cm-cookie-geo__msg
 samsung.com##.cm-cookie-geo__msg-wrap
 samsung.com##.gb-gnb__notice-bar
 samsung.com##.helptips__container, #cookie_component, .js-smtc-cookie
+samsungapps.com#@#.cookiePopup:not(body)
 samsungcloud.com###cookie-banner-consent-modal
 samsungparavoce.com.br,saraiva.com.br##.sy-lgpd
 samsungpromotions.claims##.v-cookie-policy
@@ -53267,6 +53275,7 @@ toyota.astra.co.id#@##cookieSection
 toyota.co.th##.popup__pdpa
 toyota.co.uk##+js(set-cookie, cookielawinfo-checkbox-advertisement, yes)
 toyota.com.br##[class^="styles_molecule__cookies-"]
+toyota.com.ph###popup-slider
 toyotabank.pl#$#.cookies__popup { display: none !important; }
 toyotabank.pl#$#body.tingle-enabled { overflow: auto !important; position: static !important; }
 toyotabank.pl#@#.js-cookies
