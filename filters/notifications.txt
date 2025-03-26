@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-26 00:25:51 RPC
+! Updated: 2025-03-26 09:42:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12385,6 +12385,7 @@ musement.com##msm-cookie-banner
 musescore.com##._3mwVI
 musescore.com#%#//scriptlet('set-cookie-reload', '_mu_open_in_up_close_new', '1')
 museum.seiko.co.jp##.js-about-cookie
+music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link > span[aria-label*="cookies"])
 music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link[aria-label*="ookie"])
 music.mts.ru###react-portal-system-banner
 musicboard.app#$#body[style="overflow: hidden;"] { overflow: auto !important; }

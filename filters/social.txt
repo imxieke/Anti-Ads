@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-26 00:25:51 RPC
+! Updated: 2025-03-26 09:42:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11506,6 +11506,7 @@ always-on.com.au###zeen_retina_image-3
 am730.com.hk##.sharetray
 am800cklw.com##.share-tools__list
 am800cklw.com#@#.share-tools
+ama-assn.org##.share[title]
 amanofoods.jp##.c-postShare
 amarujala.com##.auw_event_share
 amarujala.com##.floating-share-iconsDv
@@ -17174,6 +17175,7 @@ imdb.com##div[data-testid="chart-layout-sidebar-title-container"] div:has(> butt
 imdb.com##div[data-testid="hero-subnav-bar-share-button"]
 imepic.jp##.page_sosial
 imeteo.sk##.socials__container
+imf.org##button[onclick="toggleSharePopup();"]
 imgflip.com###findUs
 imgflip.com##.shr-btns
 imgskull.com##.btn.red[data-target="modal-share"]
@@ -19881,6 +19883,7 @@ muscleandstrength.com##.at-resp-share-element
 musee-pla.com##.wrap_share_btn
 musenboya.com##.sns-share
 musescore.com#?#section > button:has(> svg + span:contains(Share))
+music.amazon.*##music-button[icon-name^="share"]
 music.amazon.com#%#//scriptlet('hide-in-shadow-dom', 'music-button[title^="Share"]')
 music.apple.com##.product-page-header__metadata > div.button-content > div.cloud-button-container
 music.apple.com##button[title^="共有"]
