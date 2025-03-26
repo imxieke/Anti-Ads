@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-26 16:28:47 RPC
+! Updated: 2025-03-27 00:28:16 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11370,6 +11370,7 @@ airlive.net##.header-alert
 airlive.net,colunadofla.com,cryptotimes.io,dailyboulder.com,echonewshub.com,jugomobile.com,statestories.com,thartribune.com,townflex.com##.l-shared-sec
 airlive.net,novelasligeras.net##.single-share-box
 airly.org##button[aria-label^="Udostępnij"]
+airnavradar.com###info-sections-wrapper > ul[class^="sc-"]:has(> li > a[href^="https://facebook.com/dialog/share?"])
 airtime.pro##.sharing_button
 aiseesoft.com###share-list
 aiyifan.tv#@#.share-top
@@ -21581,6 +21582,7 @@ pons.com##.ce_sharebuttons
 popcake.tv##.telegram_banner
 popcorntv.it###shareBtn_lower
 popcrush.com,tasteofcountry.com##.sub-facebook
+popculture.com###jetpack-sharing-serivces-list
 popculture.com,comicbook.com##.social_blk
 popmama.com,themeisle.com##.share-now
 popnroll.tv##article > section[class^="sc-"] > div[class^="sc-"]:has(> ul > li > a[href^="https://social-plugins.line.me/lineit/share?"])
