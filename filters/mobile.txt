@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-26 09:42:08 RPC
+! Updated: 2025-03-26 16:28:47 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3520,6 +3520,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||jiav000.com^$generichide
 @@||jiayuan.com^*/pv.js
 @@||jin10.com^$generichide
+@@||jinritemai.com^$generichide
 @@||jinyongci.com^$generichide
 @@||jjjgame.com/plus/ad_
 @@||jjkmn.com^$generichide
@@ -3951,7 +3952,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||szhr.com^$generichide
 @@||szhr.com^*ad
 @@||t-mobile.com/mms/$document
-@@||t1.daumcdn.net/adfit/static/kp.js$domain=m.card-gorilla.com
 @@||t7z.cupid.iqiyi.com/show2?$xmlhttprequest,domain=m.iqiyi.com
 @@||tags.crwdcntrl.net/*.js?ns=^$domain=m.timesofindia.com
 @@||tags.crwdcntrl.net/*/cc_af_ajax.js$domain=driveaccord.net
@@ -4303,6 +4303,7 @@ ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 ahtv.cn,frdic.com,huasing.net,it168.com,qinbing.cn###ads
 ahtv.cn,sexbarss.net##.l1
 ahtv.cn,sexbarss.net##.r1
+ai-chatbot.top##header ~ form ~ div.fixed.right-14
 aiaibt.com##[id$="_vvva"],[id$="_vvvaxx"],[href^="http://gotoweburl."],[width="960"],[id="adfdiv"]
 aibing.cc##.adsense
 aibing.cc##a[href^="https://aibing.cc/go/"]
@@ -11774,6 +11775,7 @@ iqiyi.com#%#(()=>{let e=!1;window.qyMesh=window.qyMesh||{},window.qyMesh=new Pro
 iqiyi.com#%#//scriptlet('json-prune', 'data.template.tabs.*.blocks.*.data.data.videos.*.ad')
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 iqoo.me##div[id^="sp_"]
+iqossan.com,jumpmatome2ch.biz##.sp-ad
 iqshv.com#?#.post-list-item:-abp-has(.thumb-link[href^="http"]:not([href*=".iqshv."]))
 iqshw.com##.iqshwad-comm
 iqshw.com##[class^="iqshwad-"],.w-banner-ad
@@ -12503,7 +12505,6 @@ jump.bdimg.com,tieba.baidu.com##.u_xiu8
 jumpbookstore.com###flipdesk
 jumpbookstore.com###header_app_banner
 jumpcn.cc,omanhua.com##[class="w980 uzmh-1"]
-jumpmatome2ch.biz##.sp-ad
 junqing123.com##DIV.axing_add_ad,DIV.ad_960_85.mtop10,DIV.axing_ad_300_120
 juqingba.cn##.jqright1
 juqingw.com##.AD728,.AD250,.PAD_950_90,.textTop_ad
@@ -13690,6 +13691,8 @@ m.crank-in.net##section[class^="ad-area"]
 m.crank-in.net#$#.ad-area_pr_top { height: 0 !important; min-height: 0 !important; padding: 0 !important; }
 m.crank-in.net#?#.news-list-area li > script[src^="https://js.mediams"]:upward(1)
 m.dcinside.com###app_down_pop
+m.dcinside.com##.app-info-ban
+m.dcinside.com##.layer-bottom-popup
 m.dcnews.ro##.mainContainer > div[align="center"] > a[href][rel="nofollow"][target="_blank"] > img
 m.delfi.lt##.ab-frame
 m.delfi.lt##.ad_atop
@@ -16960,7 +16963,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30814,6 +30817,7 @@ _zhike.htm
 ||brealtime.com^
 ||brealtime.com^$important
 ||breezygrove.com^
+||bremphumz.com^
 ||brephras.com^
 ||brerkols.com^
 ||bretterichardson.com^$important
@@ -34268,6 +34272,7 @@ _zhike.htm
 ||dgstatic.jd.com^
 ||dh.serving-sys.com^$important
 ||dh.xfplay.com/home/home_game_new_*.json
+||dhaaralzz.com^
 ||dhannaq.com^
 ||dhapp.qianhaitech.cn/api/ad^
 ||dheirzeh.com^
@@ -34799,6 +34804,7 @@ _zhike.htm
 ||drive2.ru/assets/*/banner.html
 ||driverequest.com^
 ||drjs123.com^
+||drlzlc.top^
 ||drmcmm.baidu.com^
 ||drollwharf.com^
 ||drrykr.com^
@@ -37418,6 +37424,7 @@ _zhike.htm
 ||gpqkeq.xyz^
 ||gpr.hu^$important
 ||gpxz.com/js2/
+||gqoi.cn^
 ||gqwwshbdd1.fun^
 ||grace.shareaholic.com^$important
 ||gracefulmilk.com^
@@ -55108,6 +55115,7 @@ _zhike.htm
 ||xlog.jd.com^
 ||xlpu.cc/adv/
 ||xls.go.sohu.com^
+||xluz.cn^
 ||xlviiirdr.com^
 ||xlviirdr.com^
 ||xlxehr.xyz^
@@ -55726,6 +55734,7 @@ _zhike.htm
 ||yueipaoo.xyz^*.gif
 ||yuetutu.com/mbook_js/common.js
 ||yug8.com^
+||yugjwgg.icu^
 ||yugqqqq.icu^
 ||yuhuads.com^$important
 ||yuhuads.com^$third-party
