@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-27 16:27:27 RPC
+! Updated: 2025-03-28 00:27:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12136,7 +12136,6 @@ bagnet.org###overlay_pop
 bahianoticias.com.br##div[class]:has(> h2:contains(/^Compartilhar$/))
 bahisanaliz27.com###OrtaBlok > div.hideMobil
 baidu.com,findagrave.com#@#.share-list
-baikal-journal.ru,syurui.co.jp,miglink.ru,foodwatch.org,pnp.ru,frankmedia.ru,dualshockers.com,hardcoregamer.com,thecollector.com,theloadstar.com,howtogeek.com,ukdevilz.com,tyler-brown.com,actionviewphotography.com,howtogeek.com,rhg.com,hromadske.radio,pocket-lint.com,newslab.ru,thepointsguy.com,cbr.com,thegamer.com,expres.sk,hdgay.net,gamerant.com,minjust.gov.by,sanliurfaolay.com,screenrant.com,telerama.fr,exporntoons.net,mat6tube.com,incehesap.com,ayntec.com,sibtok.com,capiche.com,mannheimer-morgen.de,naointendo.com.br,texasobserver.org,bigleaguepolitics.com,zebra-tv.ru,numberempire.com,infobyip.com,pingvin.pro,currenttime.tv,webqc.org,noodlemagazine.com,mos.ru,sbs.com.au,xelent.ru,fussball.de,gamezebo.com,fr.de,sovsport.ru,oglobo.globo.com,metrolyrics.com,ad.nl,life.ru,mopo.de,antenne.de,m.health.chosun.com,fnp.de,bbc.co.uk,blackberry.com,boostinspiration.com,celebritybabyscoop.com,cityam.com,core77.com,creatorrepublic.com,download.cnet.com,futurity.org,hackaday.com,investopedia.com,kg-portal.ru,metacritic.com,minimaxir.com,pgatour.com,pigeonsandplanes.com,techfounder.net,thesun.co.uk,tmz.com##.sharing
 bajalogratis.com,hackstore.net##.lst-shrpst
 baku.ws##.social-media-banner
 baladain.com.br##.bn-share
@@ -12549,6 +12548,7 @@ blog.resy.com##.socials2
 blog.screenweek.it###social_share_desk
 blog.simplix.info###block-78
 blog.simplix.info###block-79
+blog.skillfactory.ru##.block__history-info > div.socials:has(> a[href^="https://t.me/share/"])
 blog.skillfactory.ru##.block__history-share
 blog.talosintelligence.com##.social-media-wrapper
 blog.themarfa.name##iframe[src^="https://tgwidget.com/"]
@@ -14402,6 +14402,7 @@ dolarhoy.com##.header__redes
 dolina.ua##.text-description + div[style="float: right; line-height: 39px; margin-right: 15px;"]:not([class]):not([id])
 dolubatarya.com##.news-page-content > .mt-5:has(.share-container)
 dom.lenta.ru##.b-topic__socials
+domainnamewire.com##.scriptlesssocialsharing
 domashniy.ru##.article-community__share
 domashniy.ru##.info-section > ul > li[class^="like"]
 domik.ua##.social-subscribe-banner
@@ -15484,12 +15485,12 @@ flatout.com.br##.share_video
 flava.co.nz,hauraki.co.nz,mixonline.co.nz,thehits.co.nz,zmonline.com##.c-connect
 flb.ru##.soc-share-links
 flb.ru,srsly.ru,support.mozilla.org,oita-press.co.jp,uteka.ru##.share-link
+flcksbr.*###tgWrapper
+flcksbr.*###TopAdMb
 fleischmannsyeast.com##.recipe__social
 flickr.com##.fluid-share-cameraroll-view
 flickr.com##.fluid-share-photo-view
 flicks.com.au##.blog-meta__share
-flicksbar.mom###tgWrapper
-flicksbar.mom###TopAdMb
 fliegermagazin.de##.icon-share
 flightradar24.com##li[data-trigger="shareMenu"]
 flightradar24.com#?#.elementor-widget-container > h5:contains(Share this article)
@@ -17329,6 +17330,7 @@ infranken.de##a.btn[title*="empfehlen"]
 infranken.de##a.btn[title*="teilen"]
 ingolstadt-today.de##.artikelfuss > .social
 inkazan.ru,newizv.ru##.share-popups-component
+inkefalonia.gr##.single-share
 inlandvalleynews.com###sfsi_floater
 inman.com,simpletax.ca#@#.share-section
 inmyroom.ru##.b-PostShares
@@ -20277,6 +20279,7 @@ news.goo.ne.jp##.gn-heading > h1 + div.fr
 news.google.*##div[role="heading"] ~ div[jscontroller] > div[class] > div:not([jsname="link"])
 news.google.com##div[class] > div[class] + div[class] > span[jscontroller] > div[role="button"][aria-label]
 news.gree.net##.twitterButton
+news.harvard.edu##.harvard-sharing
 news.hostlove.com#?##main > aside.buttons:has(> .fb_iframe_widget:first-child)
 news.itsfoss.com##.c-share
 news.j-wave.co.jp###snsLink
@@ -23738,6 +23741,7 @@ superesportes.com.br###shareitens
 superesportes.com.br###shareitensInf > a[id^="share"]
 superfullhdfilm.com##.filmcontent > #alt
 superguidatv.it##.sgtv_divRowContent_messenger_subscribe
+superhaber.com,baikal-journal.ru,syurui.co.jp,miglink.ru,foodwatch.org,pnp.ru,frankmedia.ru,dualshockers.com,hardcoregamer.com,thecollector.com,theloadstar.com,howtogeek.com,ukdevilz.com,tyler-brown.com,actionviewphotography.com,howtogeek.com,rhg.com,hromadske.radio,pocket-lint.com,newslab.ru,thepointsguy.com,cbr.com,thegamer.com,expres.sk,hdgay.net,gamerant.com,minjust.gov.by,sanliurfaolay.com,screenrant.com,telerama.fr,exporntoons.net,mat6tube.com,incehesap.com,ayntec.com,sibtok.com,capiche.com,mannheimer-morgen.de,naointendo.com.br,texasobserver.org,bigleaguepolitics.com,zebra-tv.ru,numberempire.com,infobyip.com,pingvin.pro,currenttime.tv,webqc.org,noodlemagazine.com,mos.ru,sbs.com.au,xelent.ru,fussball.de,gamezebo.com,fr.de,sovsport.ru,oglobo.globo.com,metrolyrics.com,ad.nl,life.ru,mopo.de,antenne.de,m.health.chosun.com,fnp.de,bbc.co.uk,blackberry.com,boostinspiration.com,celebritybabyscoop.com,cityam.com,core77.com,creatorrepublic.com,download.cnet.com,futurity.org,hackaday.com,investopedia.com,kg-portal.ru,metacritic.com,minimaxir.com,pgatour.com,pigeonsandplanes.com,techfounder.net,thesun.co.uk,tmz.com##.sharing
 superiorwallpapers.com#$##subscribe.uk-modal { display: none!important; }
 superiorwallpapers.com#$#body[style="padding-right: 17px;"] { overflow: visible!important; padding-right: 0!important; }
 superiorwallpapers.com#$#html.uk-modal-page { overflow: visible!important; }
@@ -25299,6 +25303,7 @@ usatoday.com##.persistent-share-button-sticky
 usatoday.com##.util-bar-btn-share
 usatoday.com##.util-bar-btn-twitter
 usatoday.com##.util-bar-module-share
+usatoday.com#%#//scriptlet('inject-css-in-shadow-dom', '.microshare-button { display: none !important; }')
 usdaynews.com,gameost.net##.tt-share
 useapotion.com,androidphone.fr,eftm.com##.ed-social-share-icons
 usedoor.jp##.allcontsntsdivs > p[align="center"]

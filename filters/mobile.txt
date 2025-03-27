@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-27 16:27:27 RPC
+! Updated: 2025-03-28 00:27:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4660,6 +4660,7 @@ anquan.org##[class^="ad"]
 ant.design###geektime
 ant.design###geektime-ads
 ant.design##.snd-ad
+antalya.bel.tr##.mobile-info
 antdv.com###right-bottom
 antdv.com##.main-menu-inner > div
 antenna.gamedivers.com###AdOverlayBanner
@@ -13307,7 +13308,6 @@ live.nicovideo.jp##a[class^="___app-download-banner"]
 live.nicovideo.jp##div[class*="___footer-banner-ads"]
 live.nicovideo.jp##div[class^="___overlay-banner-ad"]
 live.vkvideo.ru##div[class^="NativeAppBannerBase_root_"]
-livechat-ero.net,kingautos.net,ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,m.mistrzowie.org,m.ura.news,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 livedoor.com##.bg-mobile_app
 liveexpert.ru##.android-app
 livefans.jp,weblio.jp##.adBanner
@@ -16730,7 +16730,6 @@ pcdiy.com.tw##[width="160"][height="600"],.box-ads
 pcdown.net##.bzxz
 pcdown.net##.sort_list > .clearfix:first-child
 pcgames.com.cn##.aFollowb
-pcgames.de##.strr_slot
 pcgames.de##div.header_footer.ui-footer.ui-bar-inherit.ui-footer-fixed.slideup[data-role="footer"]
 pcgames.de#$#.stickyHeader+#loginFormMobileWrapper+.navigation+main { margin-top: 5.5rem !important; }
 pcgames.de#?#.articleTicker > .item:has(> .textFrame > .articleInfo > .at_sponsored)
@@ -16742,6 +16741,7 @@ pcgameshardware.de##.article_text > .rectangle
 pcgameshardware.de##.commercialMod
 pcgameshardware.de##aside[class$="inArticleTextAd"]
 pcgameshardware.de#?#.ticker_item > a[href^="/E-Commerce-The"]:has(> .schnaeppchen)
+pcgameshardware.de,pcgames.de##.strr_slot
 pcgamesn.com##.ad-mobile
 pcgamesn.com##.nn_mobile_mpu2_wrapper
 pcguru.hu##.top-mobile-banner-holder
@@ -17983,6 +17983,7 @@ rocketnews24.com,youpouch.com,soranews24.com##iframe[id$="_SP_OutOfPage_0"][styl
 rocketnews24.com,youpouch.com,soranews24.com##iframe[id*="_SP_Header_320x50"]
 rocketnews24.com,youpouch.com,soranews24.com#%#//scriptlet('remove-attr', 'id', '#div-gpt-ad-header')
 rockpapershotgun.com##.mobile-mpu
+rohlik.cz##section[data-test="app-promo-wrapper"]
 rokemoba.com###sp-fixed-menu
 rollingstone.de###bannerWrapper
 rollingstone.de#$#@media (max-width: 768px) { #page.asmb-page-width-container { margin-top: 40px !important; } }
@@ -18330,6 +18331,9 @@ service.smt.docomo.ne.jp###app_ad_bnr
 service.smt.docomo.ne.jp##.optimize__banner
 service.smt.docomo.ne.jp#$##wrapper_low { padding-top: 0px !important; }
 services.clp.com.hk,pikabu.ru,uol.com.br,m.netpincer.hu,m.yelp.com,opodo.de###smart-banner
+serviporno.com##.ads__block
+serviporno.com##.banner-frame
+serviporno.com,livechat-ero.net,kingautos.net,ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,m.mistrzowie.org,m.ura.news,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 sese733.info##.fp-player > div[style^="position: absolute;"][style*="overflow: hidden; z-index:"]:not([class])
 seselah.com###video-ads
 seshowclub.com##.topAdv,tbody#cate_thread,.ad_thread
@@ -22724,6 +22728,7 @@ zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappCard
 zhihu.com##.WeiboAd-wrap
 zhihu.com##div[data-type="ad"]
+zhihu.com#$#.MobileModal-wrapper { display: none !important; }
 zhihu.com#$?#.ContentItem > div.ModalWrap:has(> div > div.ModalExp-content > div.ModalWrap-content > div:contains(继续浏览内容)) { display: none!important; }
 zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
 zhihu.com#@#.FollowButton
