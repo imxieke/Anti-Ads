@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-27 00:28:16 RPC
+! Updated: 2025-03-27 09:41:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11412,6 +11412,7 @@ alalam.ir##.social_icon_head
 alanam.com#?#.entry-content > div.film-content:has(> div.film-share)
 alaqsavoice.ps##.social-style-2
 alarabiya.net##.google-news-callout
+alarabiya.net,ansa.it,batman-news.com,bbcamerica.com,bit.pt,bitmag.com.br,catholic.org,cheapies.nz,flashbak.com,fox10phoenix.com,francetvinfo.fr,fromthegrapevine.com,fstoppers.com,geeksaresexy.net,grindtv.com,macstories.net,medicalxpress.com,mintpressnews.com,mmoga.co.uk,mmoga.com,mmoga.de,mmoga.es,mmoga.fr,mmoga.se,phys.org,pulsenews.co.kr,shazam.com,silicon.co.uk,silicon.de,silicon.es,skatehut.co.uk,symmetrymagazine.org,techxplore.com,telanganatoday.com,tribuneindia.com,unz.com,verisigninc.com,wonderwall.com##.follow
 alarabiya.net,ansa.it,batman-news.com,bbcamerica.com,bit.pt,bitmag.com.br,catholic.org,cheapies.nz,flashbak.com,fox10phoenix.com,francetvinfo.fr,fromthegrapevine.com,fstoppers.com,geeksaresexy.net,grindtv.com,macstories.net,medicalxpress.com,mmoga.co.uk,mmoga.com,mmoga.de,mmoga.es,mmoga.fr,mmoga.se,phys.org,pulsenews.co.kr,shazam.com,silicon.co.uk,silicon.de,silicon.es,skatehut.co.uk,symmetrymagazine.org,techxplore.com,telanganatoday.com,tribuneindia.com,unz.com,verisigninc.com,wonderwall.com##.follow
 alarabiya.net,ausgamers.com,cgtn.com,cloudwards.net,crypto.news,magazine.artstation.com,mensxp.com,notateslaapp.com,republicworld.com,timeslive.co.za,trueachievements.com,truetrophies.com##.follow-us
 alarabiya.net,timeextension.com##.share-this
@@ -11852,7 +11853,6 @@ arknights.wikiru.jp###boxArea
 arknights.wikiru.jp##.menubar > br + h2
 armeniasputnik.am##.social-likes-pane
 armeniasputnik.am,noticiabrasil.net.br,spnfa.ir,sputnik-abkhazia.info,sputnik-georgia.com,sputnik-ossetia.com,sputnik.af,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.tj,sputnikarabic.ae,sputnikglobe.com,sputniknews.africa,sputniknews.cn,sputniknews.com,sputniknews.com.tr,sputniknews.in,sputniknews.jp,sputniknews.lat,sputniknews.ru,sputniknews.uz,sputniknews.vn,sputniknewsbr.com.br,sputnikportal.rs##.article__news-services-subscribe
-armeniasputnik.am,sputnik-abkhazia.ru,sputnik-georgia.ru##.b-article__share
 armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwesterndaily.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,portnews.com.au,thecourier.com.au,thesenior.com.au##a[class^="gtm-hook-share-"]
 arnnet.com.au,csoonline.com,infoworld.com,networkworld.com##.social-share-sticky-menu__wrapper
 art-ma.com##.bd_social_share_wrap
@@ -13375,6 +13375,8 @@ clemson.rivals.com##div[data-philter="article-share-button"]
 cleveland.com##.adi-share-flyout
 clevelandclinic.org##div[data-identity="social-share-links"]
 cleverst.com#?##sidebar > aside.widget:has(> div.textwidget > div.custom-widget-title > div.custom-widget-text:contains(Facebook))
+click2houston.com##.vf-share-menu
+click2houston.com##button[aria-label^="Share"]
 click2houston.com,clickondetroit.com,wsls.com##.vf-share-bar-square > ul > li[class*="share"]:not(.comments)
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.share-tools-buttons-top
 clickhouse.com##.items-center.justify-between.gap-4:has(path[d*="15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0"])
@@ -14957,6 +14959,7 @@ eromanga-mainichi.com##.addonrec
 erome.com##.album-share
 eroskosmos.org##div[class="sidebar"][style="height: 395px"]
 erostopics.net###sns-tops
+erothots.co,news.cornell.edu,clashforwindows.org,military.com,diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
 ertnews.gr##.share-btn-elements
 erzincanmedya.com,corumhaber.net,gaste24.com##.social-buttons > a:not([data-platform-name="save"]):not([data-platform-name="print"])
 erzurumajans.com#?##sidebar > div.box:has(> a.twitter-timeline)
@@ -15206,6 +15209,7 @@ fakty.tvn24.pl##.main-social
 fakty.tvn24.pl#?#.main-col-narrow > article#dailyNewsBox:has(> h1.section-title:contains(/^Fakty na (Facebooku|G\+)$/))
 fakty.ua###fb_share_count
 fakty.ua#?#.statistic3 + p:has( > a[href^="https://t.me/"])
+familydoctor.org,icegames.store##.social-sharing-wrap
 familyeducation.com##.fe-share-buttons
 familyhandyman.com###sm-recipe-pinterest-header
 familyhandyman.com###sm-recipe-social-share-header
@@ -17043,7 +17047,6 @@ icann.org##iti-share-icons
 icaravan.com.ua###like_popup
 icaravan.com.ua##.blockOverlay
 icaravan.com.ua##.blockUI
-icegames.store##.social-sharing-wrap
 ichannela.com##.sns > a[href^="javascript:openSendNews"]:not([href="javascript:openSendNews('url');"])
 ichigoproduction.com##.socialList__wrap
 ichijin-plus.com#?#main > div[class^="sc-"][class*="sc-"] > div[class^="sc-"]:has(> div[class] a[href^="https://twitter.com/intent/tweet?"])
@@ -19653,6 +19656,8 @@ mockupworld.co##.checkout-share
 modamizbir.com###divSocialButtons
 moderator.az##body > #backgroundPopup
 moderator.az##body > #popupContact
+modern.az##.custom_share_items
+modern.az##.nw_social_sect
 modw.net##.share-drop
 moeasia.net###bottombtn
 moeasia.net,animanch.com,hosyusokuhou.jp###socialbtns
@@ -20261,7 +20266,6 @@ news.cision.com#?#.container-card > div.card-information:has(> div.pad > div[dat
 news.cn##.pageShare
 news.cookpad.com#?#div.bg-ivory:has(> h2:contains(シェアする))
 news.cookpad.com,forklog.com###article_share
-news.cornell.edu,clashforwindows.org,military.com,diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
 news.crunchbase.com###ss-sticky-bar
 news.crunchbase.com##.ss-inline-share-content
 news.denfaminicogamer.jp###spFixedContent
@@ -21717,6 +21721,7 @@ press.jal.co.jp#?#.l-contents__body > div.entry-body + div.l-row div.__elem:cont
 press.logicool.co.jp##.div_shareus
 press.pl##.article-icons-content > a[href^="http://www.wykop.pl/dodaj?"]
 press.pl##.column_left_inner > .share
+press.wbd.com##.m-share-actions__container
 pressa40.ru##.bk-share-box-top
 pressdigital.es##.share > li:not(.comentarios)
 pressekompass.net##.custom-share-button
@@ -23541,6 +23546,7 @@ stolichki.ru##.article-networks
 stomp.straitstimes.com#%#(()=>{window.a2a={init(){}}})();
 stopcor.org,ukrinform.*##.youtube
 stopgame.ru##.main-content .social-links
+stopgame.ru##button[data-plugins="share"]
 stopgame.ru##div[class^="_top-info"] > button[type="button"]
 store.charle.co.jp###item_sns
 store.epicgames.com#?#div[class^="css-"] > div[class]:has(> button > span:contains(/Share|Paylaş/))
@@ -25173,6 +25179,7 @@ ukr-today.com,yts.ac###fb-back
 ukraina.ru##.article__sharebar-line
 ukraina.ru,ria.ru##.b-sharebar
 ukrainart.com.ua,timeallnews.ru###bg_popup
+ukranews.com,armeniasputnik.am,sputnik-abkhazia.ru,sputnik-georgia.ru##.b-article__share
 ukranews.com,everydayhealth.com,grid.id,motorplus-online.com,gridoto.com,bolasport.com,news.rambler.ru##.social__share
 ukrhealth.net#$#html.pum-open { overflow: auto !important; }
 ukrhealth.net#?#div[id^="pum-"]:has(> div[id^="popmake-"] > div.pum-content > div.popup > div.fb-dialog)

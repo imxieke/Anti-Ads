@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-27 00:28:16 RPC
+! Updated: 2025-03-27 09:41:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7733,6 +7733,7 @@ dingdong.ganji.com#@#.banner
 dio99.com##table[align="right"],[class^='a_']
 dioguitar23.net##div.wp.a_h,div.a_fl,div.a_fr,div#diy1
 dioguitar23.tianyatorrents.info##a[href*="ad"],img[width="760"][height="60"]
+dirtyship.com##.mobilebottom
 dirtyship.com#?#.mobiletop:has(> iframe[src^="https://a.adtng.com/"])
 disanlou.org##.a_mu,#diynavtop,.a_pt,[src^="http://67.198.197.27"]
 discuss.com.hk###ab_div_px1
@@ -14635,6 +14636,7 @@ maplestage.com##.nav-left-module__info-wrapper___35CLR
 maplestage.com##div[class*="-page-module__ad728Holder___"]
 maplestage.com##div[class*="-page-module__right"] > div > div[style="margin-bottom:20px;padding:16px 10px;box-sizing:border-box;width:100%;background-color:#eee;border:1px solid #ddd;text-align:center;"]:first-child:not([class]):not([id])
 maps.google.com##div[jsaction*="promotion"]
+maquia.hpplus.jp##.SP_banner
 maquia.hpplus.jp##.SP_headerbanner
 maquia.hpplus.jp##.SP_inarticle
 marca.com#$#.js-mobile-banner { display: none !important; }
