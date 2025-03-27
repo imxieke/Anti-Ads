@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-27 09:41:39 RPC
+! Updated: 2025-03-27 16:27:27 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -602,7 +602,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 /Runtime/js/9*.js*
 /s.js*
 /s.php?id=
-/sbar.json?key=
+/sbar.json?key=$script
 /script/suurl.php
 /script/suurl5.php
 /script/suv5.js
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16963,7 +16963,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -34696,7 +34696,6 @@ _zhike.htm
 ||doubleclick.de^$important
 ||doubleclick.ne.jp^$important
 ||doubleclick.net^
-||doubleclick.net^$badfilter
 ||doubleclick.net^$important
 ||doubleclickbygoogle.com^$important
 ||doubledefend.com^
@@ -36485,6 +36484,7 @@ _zhike.htm
 ||fqceyqo.com^
 ||fqghykp.cn^
 ||fqnhjt.icu^
+||fqnojp.top^
 ||fqtag.com^$important
 ||fqtag.com^$third-party
 ||fr-gmtdmp.mookie1.com^$important
@@ -37361,7 +37361,6 @@ _zhike.htm
 ||googleadservices.co.uk^$important
 ||googleadservices.com/pagead/conversion_async.js$script,redirect=noopjs,domain=orcd.co
 ||googleadservices.com^
-||googleadservices.com^$badfilter
 ||googleadservices.org^$important
 ||googleadservices.ru^$important
 ||googleadsserving.cn^
@@ -51357,6 +51356,7 @@ _zhike.htm
 ||tediousbear.com^
 ||tediousticket.com^
 ||tedioustooth.com^
+||teeniaole.com^
 ||teenrevenue.com^$important
 ||teenytinycellar.com^
 ||teenytinyshirt.com^
@@ -53744,6 +53744,7 @@ _zhike.htm
 ||vqbzpv.xyz^
 ||vqlwoy.xyz^
 ||vqq.admaster.com.cn^$important
+||vraataidz.com^
 ||vragridsn.com^
 ||vraqnathr.com^
 ||vrdfxioe.icu^
@@ -53824,6 +53825,7 @@ _zhike.htm
 ||vxpnld.icu^
 ||vyk.admaster.com.cn^$important
 ||vyrpoe.cn^
+||vytn.cn^
 ||vz-cdn.trafficjunky.net^$important
 ||vzdkngmf.icu^
 ||vzmz.com/template/paody/aaaa/*0
@@ -54235,6 +54237,7 @@ _zhike.htm
 ||wigglygeese.com^
 ||wigglyindustry.com^
 ||wiixqm.xyz^
+||wiiytwd.icu^
 ||wikia-ads.wikia.com^$important
 ||wildcard.measuread.com.edgekey.net^$important
 ||wildcard.moatads.com.edgekey.net^$important
@@ -54332,6 +54335,7 @@ _zhike.htm
 ||wnojded.icu^
 ||wnootzc.icu^
 ||wnstug.xyz^
+||wnvu.cn^
 ||wo685.com^
 ||woaidu.org/images/20180802/3.jpg
 ||wobo888.cc^
