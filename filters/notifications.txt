@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-28 09:42:03 RPC
+! Updated: 2025-03-28 16:27:50 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1939,7 +1939,7 @@
 /cookie-accept.js
 /cookie-alert.
 /cookie-bandeau.
-/cookie-banner$domain=~github.com
+/cookie-banner$domain=~github.com|~praxismarketing-institut.com
 /cookie-bar-
 /cookie-bar.
 /cookie-check.js
@@ -14251,6 +14251,7 @@ psychcentral.com#$#.no-hash { display: none !important; }
 psychcentral.com#$#body[style^="overflow:"] { overflow: auto !important; }
 psychic.de,laleggepertutti.it,chimerarevo.com,navigaweb.net,politize.com.br###cl_modal
 psychol-ok.ru###cookie_agreement_div
+psychologytoday.com#@#.consent-container
 psyonix.com##body > #wrap ~ #message
 ptwm.org.pl###cookies-fixed
 pubg.com#$#body { overflow: auto !important; }

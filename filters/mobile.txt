@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-28 09:42:03 RPC
+! Updated: 2025-03-28 16:27:50 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2409,6 +2409,9 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 91porna.com#%#//scriptlet('remove-attr', 'data-ads_url', '[data-ads_url]')
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com###main > div[id^="rd"]
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com##.footer + .block
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 91porny.org,jstv600.com,x9av7.com###main > div[id^="rd"]
 91porny.org,jstv600.com,x9av7.com##.footer + .block
 91porny.org,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
@@ -8667,7 +8670,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16965,7 +16968,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -35349,6 +35352,7 @@ _zhike.htm
 ||ei7.icu^
 ||eic.org.cn/api/Popup?
 ||eic.org.cn^*/analytics
+||eildralfl.com^
 ||eiphrut.com^
 ||eisnaisv.com^
 ||eitilbyr.com^
@@ -38359,6 +38363,7 @@ _zhike.htm
 ||hp8g6.icu^
 ||hpd.baidu.com^
 ||hpr.outbrain.com^$important
+||hptidc.top^
 ||hpzktd.xyz^
 ||hq.appsflyer.com^$important
 ||hq1.appsflyer.com^$important
@@ -41524,6 +41529,7 @@ _zhike.htm
 ||lipheak.com^
 ||liputan6.com/pages/widget-gateway-mobile-app
 ||liquidad.narrowcastmedia.com^$important
+||liqw.cn^
 ||liqwid.net^$important
 ||lirretsn.com^
 ||lishibu.com^
@@ -41864,6 +41870,7 @@ _zhike.htm
 ||lopostone.com^
 ||lopsidedleather.com^
 ||lorenzourban.com^
+||lorzelofd.com^
 ||losslace.com^
 ||lotame-users.go.sonobi.com^$important
 ||loteria.pocketads.pl^$important
@@ -49819,6 +49826,7 @@ _zhike.htm
 ||splintmuses.com^
 ||spo7h3ktdvy5.com^$important
 ||spoaven.top^
+||spoh.cn^
 ||spolecznosci-d.openx.net^$important
 ||spolecznosci.net^
 ||sponsorads.de^$important
@@ -53039,6 +53047,7 @@ _zhike.htm
 ||uplynk.adaptv.advertising.com^$important
 ||upoll.umengcloud.com^$important
 ||upornia.com/js/*.js?v=
+||uposnmb.icu^
 ||uppitytime.com^
 ||uprimp.com^$important
 ||ups.analytics.yahoo.com^$important
@@ -55684,7 +55693,6 @@ _zhike.htm
 ||youy14.com/js/tj.js
 ||youy14.com/js/zz/nr.js
 ||youy14.com/js/zz/xf.js
-||youyiya.com/Tpl/mobile/js/you
 ||youzhan.org/img/aliyun-
 ||yovoads.com^
 ||yoyi-cm.admaster.com.cn^$important
@@ -55776,6 +55784,7 @@ _zhike.htm
 ||yupan.cc/asd/731.gif$image
 ||yupoo.com/dapenti/5cfa8673/c6045c69.jpeg
 ||yuqmok.xyz^
+||yuqnyudug.com^
 ||yuuaos.xyz^
 ||yuunion.com^
 ||yuwangshe.net/astyle/wap.

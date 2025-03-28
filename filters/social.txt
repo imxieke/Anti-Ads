@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-28 09:42:03 RPC
+! Updated: 2025-03-28 16:27:50 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21269,6 +21269,7 @@ pcgames.de##.shareWidgetBt[rel="nofollow"]:not([onclick])
 pcgameshardware.de##.artSocialLinks
 pcgamesn.com###main-article-social
 pcguide.com##.google-news
+pcguide.com##.ic_google_news
 pch24.pl#?#.row > div.align-items-center:has(> div.text-uppercase:contains(Udostępnij))
 pchocasi.com.tr,travelingturks.com##.herald-sticky-share
 pcmag.com##.social300
