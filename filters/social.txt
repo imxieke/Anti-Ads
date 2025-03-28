@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-28 00:27:43 RPC
+! Updated: 2025-03-28 09:42:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15252,6 +15252,7 @@ fastcompany.com##main ul[class^="gap-"]:has(li.border-r > button#Share_button_li
 fastcompanybrasil.com##.fcbr_social_share
 fastly.com#?#.promo-box > div.promo-box__item:has(> div.social-links)
 fastseries.jp##.header__nav-share-list
+fastt.gg,transfaze.com##.dropdown:has(> button + div > #sharebuttons)
 fastupload.io##div:has(> div.share)
 fastweb.it##.tutplus-socials
 fate-strange-fake.com,jitsuhaoresaikyo-anime.com,nierautomata-anime.com,onepunchman-anime.net,tomo-chan.jp,bokuyaba-anime.com,shingeki.tv,kaguya.love,madoka-magica.com,umamusume.cystore.com,bishonen-tanteidan.com,akebi-chan.jp##.l-footer__share
@@ -24757,7 +24758,6 @@ trancepodcasts.com##.cp-social-media
 tranimeizle.*##.share.transition
 trannylime.com,znews.vn,m.news.nate.com,zingnews.vn,pornomovies.com,babestube.com,submityourflicks.com,chubbyporn.com,milliyet.com.tr##.btnShare
 trans.info##.social-tile
-transfaze.com##.dropdown:has(> button + div > #sharebuttons)
 transfermarkt.de###socialMediaLeisteMobilSticky
 transfermarkt.de##.news-header-social
 transfery.info##.news-social-media a.media-icon-container

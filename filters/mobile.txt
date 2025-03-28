@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-28 00:27:43 RPC
+! Updated: 2025-03-28 09:42:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6343,6 +6343,7 @@ calcus.ru###top_a_container
 calcus.ru##div[style="height:300px"]
 calend.ru##.banner2
 calendar.yahoo.co.jp##.js-AppBanner
+calendar.yandex.ru###CalendarBanner
 callfilter.app###pageContent a[href="https://play.google.com/store/apps/details?id=callfilter.app"]
 calm.com##div[class^="QRCodeHandoff__HandoffWrapperWrapper-"]
 cam4.tw###newTippingViewer + div[data-ab]
@@ -14956,6 +14957,7 @@ military.china.com#$?#.slide_doubleimg > .baiBox { remove: true; }
 milk-key.com##.ams-place
 milk-key.com##.rectangleBox
 milk-key.com#@#.header-ads-area
+milli.az##div[id^="MILLI_Slot_Mobile"]
 millipiyangoonline.com##.freetext:has( > .tab-container a[href="/uygulamayi-indir"])
 milliyet.com.tr##.amp-dfpslot
 miltonkeynes.co.uk##div[class^="BottomBanner__"]

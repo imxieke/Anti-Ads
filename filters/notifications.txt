@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-28 00:27:43 RPC
+! Updated: 2025-03-28 09:42:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3800,7 +3800,6 @@ abi.de#$#body { overflow-y: auto !important; }
 ableton.com##.test-cookie-banner
 ableton.com##.test-cookie-notification
 ably.com##.ui-cookie-message
-abm.gov.pl,edh.tw,passeportsante.net##.cookiesBox
 abo24.de#%#//scriptlet('set-cookie-reload', 'cmp', '0')
 abo24.de#@##cookie-consent
 abo24.de#@##cookie-consent-wrapper
@@ -10159,6 +10158,7 @@ ipevo.com,megacomshop.com,hangfire.io##.wpcb-container
 iphonesoft.fr,iphonetweak.fr###bannerCookie
 ipipe.ru##.cookie_cntnr_st
 iplogger.org###message
+ipn.gov.pl,abm.gov.pl,edh.tw,passeportsante.net##.cookiesBox
 ipolska24.pl,17bankow.com,5mindlazdrowia.pl,kazimierzdolny.pl,vpolshchi.pl,dobreprogramy.pl,essanews.com,dailywrap.ca,dailywrap.uk,money.pl,autokult.pl,komorkomania.pl,polygamia.pl,autocentrum.pl,allani.pl,homebook.pl,domodi.pl,open.fm,gadzetomania.pl,fotoblogia.pl,abczdrowie.pl,parenting.pl,kafeteria.pl,vibez.pl,wakacje.pl,extradom.pl,totalmoney.pl,superauto.pl,nerwica.com,forum.echirurgia.pl,dailywrap.net,pysznosci.pl,genialne.pl,finansowysupermarket.pl,deliciousmagazine.pl,jastrzabpost.pl,audioteka.com,easygo.pl,so-magazyn.pl,o2.pl,pudelek.pl,benchmark.pl,wp.pl#%#//scriptlet('trusted-click-element', 'div[class]:has(a[href*="holding.wp.pl"]) div[class]:only-child > button[class*=" "] + button:not([class*=" "])')
 iprbookshop.ru,104.ua,unews.pro,maxi.ca,demirexport.com,arcelik.com.tr,mp.pl,mymemory.translated.net###privacy-policy
 iprima.cz###agree-with-cookies
