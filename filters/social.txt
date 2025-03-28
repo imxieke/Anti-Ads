@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-28 16:27:50 RPC
+! Updated: 2025-03-29 00:26:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10780,6 +10780,7 @@
 3dnews.ru##.content-block-data > center > div.newybtn
 3dnews.ru,eminem.pro,igromania.ru##div[id^="vk_groups"]
 3lion-anime.com##.l-share_this__container
+3minx.com,javsunday.com,kin8-av.com,555fap.com,idol69.net,javball.com##.fileviewer-sidebar-open
 3mv.ru###popupDarkness
 3mv.ru###socialWrapper
 4029tv.com,98online.com,abc-7.com,hearst.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,nbc-2.com,wapt.com,wbal.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,wpbf.com,wptz.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.article-social
@@ -11652,6 +11653,7 @@ animalreader.ru###overlay-sidebar-wrap
 animationxpress.com##.widget_simple_facebook_page_feed_widget
 anime-bit.ru##.layer_box_center_blocks_right:has(> #vk_groups)
 anime-chiikawa.jp##.share_tx
+anime-jl.net##.fa-share-alt
 anime-planet.com##.cta.pure-1
 anime-sharing.com##.vbseo_share
 anime.d4dj-pj.com##.icon_list
@@ -12028,6 +12030,7 @@ autocarindia.com##.na-share-2
 autocentre.ua##.aside-shares > *
 autocentre.ua##.content-shares
 autodaily.ru,autonews.ru,rbc.ru,sportrbc.ru##.article__header__share-block
+autodaily.ru,vogue.ua,vietnamplus.vn,codernet.ru,marketwatch.com,tracker.network,destinytracker.com,halotracker.com,fortnitetracker.com,tracker.gg,kapook.com,kanalukraina.tv,cbnews.jp,tsargrad.tv,sciencemag.org,amp.rbc.ru,12kotov.ru##.article__social
 autoexpress.co.uk##.sharerich-wrapper
 autogidas.lt##.btn-action-facebook
 autokult.pl###exit-intent-modal
@@ -17186,7 +17189,6 @@ imgflip.com##.shr-btns
 imgskull.com##.btn.red[data-target="modal-share"]
 imgur.com##.Gallery-Share
 imgur.com#?##main-sidebar > div.sb-widget:has(> div.widget-content > div.fb-page)
-imgur.com,adultism.com,hyperwiki.jp,frag-mutti.de,atwiki.jp,netdoktor.de###share-button
 imhonet.ru##.social-net
 imnews.imbc.com##div[class="share fixed"]
 impact.ed.ac.uk##.ultp-post-share
@@ -17648,7 +17650,6 @@ javmost.com##.panel-body > .text-warning + table.table-bordered.text-inverse
 javmost.com#?#.panel-body > .text-warning:contains(SHARE)
 javmost.com#?#.row ~ h4.text-warning:contains(SHARE)
 javmost.com#?#.row ~ h4.text-warning:contains(SHARE) + table.table-bordered
-javsunday.com,kin8-av.com,555fap.com,idol69.net,javball.com##.fileviewer-sidebar-open
 javtrailers.com,wired.com###share-card
 javvideoporn.com###show-sharing-buttons
 javvideoporn.com###video-links
@@ -18087,6 +18088,7 @@ knowyourmeme.com##.fb-page-like-box
 knowyourmeme.com##.homepage-share
 knowyourmeme.com,gameranx.com###ctoolbar
 knt.co.jp##.st2-sns
+ko-fi.com##.js-trigger-share-link-modal
 ko.ru##.social-buttons-wrap
 kob.com,thenewsglobe.net##.addtoany_share_save_container
 kobayashi.co.jp,cooldoji-pr.com,paradoxlive.jp,summertime-anime.com##.l-share
@@ -20235,6 +20237,7 @@ newatlas.com##.ActionLink
 newbur.ru,tourism.interfax.ru##.share-soc
 newcomment.detik.com##span[class^="comment__cmt_share"]
 newgrodno.by##div[class^="the_champ_sharing"]
+newgrounds.com###share_content
 newhotgames.com,pravda.if.ua##.tdb_single_post_share + div.td_block_separator
 newindianexpress.com##body .mobile_share
 newindianexpress.com##div[class^="text-story-m_share"]
@@ -25629,7 +25632,6 @@ vogue.com.cn##.ShareLayer
 vogue.com.cn,forms.yandex.ru,victoriassecret.com.tr,foodnavigator.com,abcnews.go.com,inn.co.il##.Share
 vogue.com.tr##div[class] > div.flex:has(> a[href*="sharer.php?"])
 vogue.com.tw##div[class^="NativeShareIconWrapper"]
-vogue.ua,vietnamplus.vn,codernet.ru,marketwatch.com,tracker.network,destinytracker.com,halotracker.com,fortnitetracker.com,tracker.gg,kapook.com,kanalukraina.tv,cbnews.jp,tsargrad.tv,sciencemag.org,amp.rbc.ru,12kotov.ru##.article__social
 voi.0101.co.jp##.snssharearea
 voice.fi##.social-navigation > .nav-item
 voicesevas.ru##.div_share
@@ -26040,6 +26042,7 @@ wonderzine.com##.widget-comments-likebox
 woodbrass.com##.share-sm
 woodmac.com##.avatar.push--bottom
 woodmac.com##.nav-actions > .inline-block
+wooflix.tv,imgur.com,adultism.com,hyperwiki.jp,frag-mutti.de,atwiki.jp,netdoktor.de###share-button
 wordvbalab.com,ekilog.info,channel-jk.com###sns-group
 workingkeys.org##.onp-sl-outer-wrap
 workman.jp,parismatch.com,lejdd.fr,gelatopique.com,snidel.com,autosport.com.ru,sgpress.ru##.block-share
@@ -26268,7 +26271,6 @@ yenimeram.com.tr##a[onclick^="window.open('https://plus.google.com/share?"]
 yenisafak.com##.share > a[title]
 yenisafak.com##button[name="share-button"]
 yenisafak.com##li.social
-yenixeber.az,xanim.az,unvan.az,big.az##.fbsmallshare
 yerelbt.com##.single-like-next
 yerevdekor.com##.prodcutShare
 yerkoyhabergazetesi.com##.mediaShareGroup

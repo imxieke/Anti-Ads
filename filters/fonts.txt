@@ -1,6 +1,6 @@
 ! Title: Block Third Party Fonts
 ! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
-! Updated: 2025-03-28 16:27:50 RPC
+! Updated: 2025-03-29 00:26:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -101,9 +101,11 @@
 ||fonts.gotraffic.net^$script
 ||fonts.gstatic.com^$3p
 ||fonts.gstatic.com^$third-party
+||fonts.loox.io^$3p
 ||fonts.net$3p
 ||fonts.nymag.com^$script,3p
 ||fonts.nymag.com^$script,third-party
+||fonts.shopify.com^$3p
 ||fonts.shopifycdn.com^$3p
 ||fonts.smdg.ca^$3p
 ||fonts.smdg.ca^$third-party

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-28 16:27:50 RPC
+! Updated: 2025-03-29 00:26:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4622,6 +4622,7 @@ anhuinews.com###ewm
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anifresh.com###minpack-sticker-frame
 anikore.jp##.boardDetail__list > li:has(> div[id])
+anime-jl.net##a[href="https://animequix.com/"]
 anime-sharing.com##.js-installPromptContainer
 anime.eiga.com##.adBoxMid
 anime.nicovideo.jp#?#aside[class^="_"] > div[class^="_"] > div[id^="ad-banner"]:upward(1)
@@ -4863,6 +4864,8 @@ asia.nikkei.com,trovo.live##.app-sidebar
 asianetnews.com##.mobileads
 asianetnews.com##.socialbtm > div.followright
 asiatvro.com##.wp.a_t,.a_pt
+asilmedia.org###catfishAd
+asilmedia.org##.vvideo-container
 ask.fm##.app-store-banner
 ask.fm##.lightbox_content > div.buttonFooter
 ask.fm##.lightbox_hat
@@ -5666,6 +5669,7 @@ beritasatu.com##.flying_carpet-box
 beru.ru##.mobile-applications-promo
 besplatka.ua##.footer_bottom > div#applications
 besplatka.ua##.social-net
+bestbuy.com###smartbannerContainer
 bestcarweb.jp##.sp_CLS_100
 bestcclm.com##.wp.cl > a
 bestech.sk#@#img[width="320"][height="50"]
@@ -8330,6 +8334,7 @@ edrawsoft.cn##.bottom-banner-activity
 edrawsoft.cn##.new-year__cn__master
 edrawsoft.cn##.publicity-entrance
 edu.qq.com##.L
+education.yandex.ru##body > section[class*="styles_prompt__"]:has(> div[class] > div[class] + button)
 educity.cn##.content_relate:nth-child(5)
 edutt.com##.foot-fixed
 eefocus.com##.detailpage-rolling-ad
@@ -15995,6 +16000,7 @@ newsdigest.jp##.post-inarticle-banner
 newsee-media.com##.over
 newshub.co.nz##.Billboard
 newshub.co.nz##.c-FeatureBox-tertiary
+newsmax.com###dtnmapp
 newsmth.net###ban_ner
 newsmth.net##.b-content > #sogou_banner:nth-child(3)
 newsmth.net##.ns-ad
