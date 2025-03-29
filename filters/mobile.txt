@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-29 09:40:57 RPC
+! Updated: 2025-03-29 16:25:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2412,9 +2412,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 91porny.org,jiuse100.cc,jstv600.com,x9av7.com###main > div[id^="rd"]
 91porny.org,jiuse100.cc,jstv600.com,x9av7.com##.footer + .block
 91porny.org,jiuse100.cc,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
-91porny.org,jstv600.com,x9av7.com###main > div[id^="rd"]
-91porny.org,jstv600.com,x9av7.com##.footer + .block
-91porny.org,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 91rb99.com##.top
 91s.org##div.banner_ad,div.gg,div.right_Bor
 91wenmi.com###xiezuo
@@ -12213,8 +12210,10 @@ jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-
 jin10.com##.l-main_body > .jin-timeline > div[class*=" "]
 jin10.com##.l-main_body ~ .jin-timeline
 jin10.com##.l-main_wrap > .jin-timeline > div:not(.jin-declaration):not(.jin-qq-cooperation)
+jin10.com##.quoted-price__pro
 jin10.com##.side-module-2
 jin10.com##.top-ad
+jin10.com##.tradinghero
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 jin115.com###article-contents > .article_mid + .article-body-more
@@ -16977,7 +16976,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -20341,7 +20340,7 @@ tvsou.com##.story_ad_ios
 tvsou.com##[class="clearfix border-btn relative"],[class="shadow recommend-img mt-20"],[class="clearfix border-btn"][style],[class="shadow recommend-img"],.adv-box
 tvspielfilm.de##.livetv-ad-bottom
 tvtropes.org##.proper-ad-unit
-tvyb03.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
+tvyun07.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 tw.appledaily.com##.THISISANADHERE
 tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
@@ -24227,7 +24226,6 @@ _zhike.htm
 ||58cdn.com.cn/*.gif$domain=mmff30.com
 ||58cdn.com.cn/ds/tgbrand/*.js
 ||58cdn.com.cn/ds/zhuangxiu/jzad-
-||58cdn.com.cn/nowater/webim/big/n_v2e722db7ca7f1458d92b7d6e57f833548.
 ||58cdn.com.cn/resource/xxzl/xxfw/
 ||58file.com/down/xyk.
 ||58isg.cn^
@@ -37158,6 +37156,7 @@ _zhike.htm
 ||gimy.*/images/eee*.png
 ||ginf.adfurikun.jp^$important
 ||gionee.analytics.glance.inmobi.com^$important
+||giphaudoq.com^
 ||giraffepiano.com^
 ||gitcrumbs.com^
 ||gitee.com/joinli/Api/raw/master/banner$replace=/ad_url//
@@ -40068,6 +40067,7 @@ _zhike.htm
 ||jditera.top^
 ||jdomsia.top^
 ||jdoshba.top^
+||jdqmhay.icu^
 ||jdrlfn.xyz^
 ||jdwx.info/api.php?mod=ad&
 ||jdyurlia.top^
@@ -51332,6 +51332,7 @@ _zhike.htm
 ||td.zgxue.com^
 ||td1h.cn^
 ||td2.crwdcntrl.net^$important
+||td86hsmlmggym.top^
 ||tdamcsi.top^
 ||tdameritrade.demdex.net^$important
 ||tddznew.ksapisrv.com^$important
@@ -52431,6 +52432,7 @@ _zhike.htm
 ||trustutn.org^
 ||trustx.org^$important
 ||trutvnci.top^
+||truuhmoen.com^
 ||truvidplayer.com^$domain=technews.tw
 ||truxedku.com^
 ||trvxbd.xyz^
@@ -52584,7 +52586,7 @@ _zhike.htm
 ||tvsou.com/js/360ad.js
 ||tvspielfilm.cleverpush.com^$important
 ||tvyan.com/images/jscss/tv-
-||tvyb03.com/template/mytheme/statics/js/layer/
+||tvyun07.com/template/mytheme/statics/js/layer/
 ||tw-api.vpon.com^
 ||tw-api.vpon.com^$important
 ||tw-gmtdmp.mookie1.com^$important
@@ -52843,6 +52845,7 @@ _zhike.htm
 ||uil.cbs.baidu.com^$third-party
 ||uimserv.net^$important
 ||uiqjcpt.cn^
+||uivc.cn^
 ||ujian.cc^
 ||ujimtyt.top^
 ||ujmz.cn^
@@ -53764,6 +53767,7 @@ _zhike.htm
 ||vpx.adledge.com^$important
 ||vpydjogaytpg.xyz^
 ||vq1qi.pw^
+||vqaj6smlmtpym.top^
 ||vqbzpv.xyz^
 ||vqlwoy.xyz^
 ||vqq.admaster.com.cn^$important
@@ -53819,6 +53823,7 @@ _zhike.htm
 ||vu.vrtzads.com^$important
 ||vudqth.icu^
 ||vuetifyjs.com/notify.json
+||vuhf.cn^
 ||vuirssd.icu^
 ||vulitd.xyz^
 ||vungle.com^
