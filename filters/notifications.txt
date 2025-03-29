@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-29 00:26:55 RPC
+! Updated: 2025-03-29 09:40:57 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6070,6 +6070,7 @@ checkiant.com,belcantofund.com,obywatel.gov.pl##.cookie_agree
 checkmk.de###checkmkCookieNotice
 checkmybus.*,ugc.fr,ugc.fr##.gdpr-overlay
 checkout.com#?#div:has(> div > div > p > a[href="/legal/cookie-policy"])
+cheese-cake.ru,urm.lt,m.emsc.eu,eto-razvod.ru,everylang.net,memeburn.com,supplementler.com,vitaminler.com##.cookie_container
 chefkoch.de###ck-cookie-statement
 chemist-4-u.com#%#//scriptlet('trusted-set-cookie', 'CookieConsent', '%5B%7B%22name%22%3A%22basic%22%2C%22value%22%3Atrue%7D%2C%7B%22name%22%3A%22preferences%22%2C%22value%22%3Afalse%7D%2C%7B%22name%22%3A%22statistics%22%2C%22value%22%3Afalse%7D%2C%7B%22name%22%3A%22marketing%22%2C%22value%22%3Afalse%7D%5D')
 chemnitz.de###cc_privacy_layer
@@ -10656,6 +10657,8 @@ klebetape.de,baden-in-halle.de,aw-halle.de,hws-halle.de,havag.com,swh.de###keksd
 kleiderkreisel.de##.notification--info
 kleiderkreisel.de,mamikreisel.de##.js-notification > .c-cell
 kleiderkreisel.de,mamikreisel.de##div[id^="Footer-react-component-"] > div[style^="height:"]:not([class]):not([id]) > .sticky-footer
+kleinanzeigen.de#%#//scriptlet('trusted-click-element', '#gdpr-banner-container .ActionArea #gdpr-banner-accept')
+kleinanzeigen.de#@##gdpr-banner
 kleineschule.com.de,medtirol.com,bakirkoyfinal.com,sgg-gmbh.ch,paesifantasma.it###cookie-law-message
 kleinezeitung.at###footerCookieConfigurationDidomi
 kleyntrucks.com#$##don-t-leave-form { display: none!important; }
@@ -11845,7 +11848,6 @@ mega.nz#@#.notification-button
 megabank.com.tw##.gdpr-text-align
 megabike24.de###amgdpr-cookie-block
 megafon.ru##.footer-v2__privacy
-megalodon.jp##div[data-modal="agecheck"]
 megatool.pl#$##pum-3970 { display: none !important; }
 megatool.pl#$#html.pum-open-overlay { overflow: auto !important; }
 megatyumen.ru##._1_uf9me
@@ -15306,6 +15308,9 @@ shop-lot.ru###jnr-cookie
 shop-weck.de##.lightbox-backdrop-cc-dialog
 shop.apotal.de###cookie-message~#footer::after
 shop.apotal.de##footer::after
+shop.apotal.de#%#//scriptlet('trusted-click-element', '.cookie-message-overlay .settings > button')
+shop.apotal.de#@##cookie-message
+shop.apotal.de#@#.cookie-message-overlay
 shop.app,shopify.engineering,shopify.com##section[data-section-name="cookie-active-consent-notice"]
 shop.asfinag.at#$##modalCookieInfo { display: none !important; }
 shop.asfinag.at#$#.modal-backdrop { display: none !important; }
@@ -15368,7 +15373,7 @@ shopstyle.co.uk#%#//scriptlet('trusted-set-cookie', 'gdpr', '%7B%22types%22%3A%5
 shoptime.com.br,submarino.com.br,americanas.com.br##div[class^="lgpd-message-box__"]
 shopvote.de,lehmanns.de,hochzeits-location.info,quackr.io##.cc_dialog
 shopware.com##.cookie--permission
-shopwelt.de,kleinanzeigen.de,mobile.de,nordic.businessinsider.com###consentBanner
+shopwelt.de,mobile.de,nordic.businessinsider.com###consentBanner
 show.co,goruma.de###consentDialog
 showcasecinemas.co.uk##.section-prompt
 shroomers.app##.alert-warning[style^="z-index:"]
@@ -17066,6 +17071,7 @@ trucksbook.eu#$#body { overflow: auto !important; padding-right: 0 !important; }
 trucksbook.eu#@##cookieModal
 truckscout24.de###consent-mgmt-banner
 trucksmerchant.com,powerzone.com,proddigital.com.br,coachdaveacademy.com,saferpass.com,getspace.us,medyascope.tv##.elementor-popup-modal
+truckstop.com###bottom-message
 trud.com##.disc-cookies
 trudvsem.ru##.rostrud-notification
 trudzan.tverreg.ru##body > div[id^="container_"]
@@ -17435,7 +17441,6 @@ urlaubspiraten.de#$?#body > div#hp-app > div[class^="hp__sc-"]:has(button:contai
 urlaubspiraten.de#?#body > #hp-app ~ script + div:has( > div > div > div > button[mode="function"]:contains(akzeptieren))
 urlaubstracker.de###cd-cookie-bar
 urlcast.io###__next footer + div[class^="fixed bottom-4"]
-urm.lt,m.emsc.eu,eto-razvod.ru,everylang.net,memeburn.com,supplementler.com,vitaminler.com##.cookie_container
 usaco.co.jp###consent_container
 usatoday.com##.gnt_pu
 usenix.org,kantarsifo.se,premiumcamps.info,romdb.geeklogger.com##.sliding-popup-top

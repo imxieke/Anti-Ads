@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-29 00:26:55 RPC
+! Updated: 2025-03-29 09:40:57 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14794,6 +14794,7 @@ medicalnote-qa.jp###header-app-banner
 medicalnote.jp##.p-app-area
 medicalnote.jp#?#.c-glo-section > div.p-diseases-pickup > div[id^="logly-"]:upward(2)
 medicalnote.jp#?#.c-glo-section > div[id^="sp-disease-advertisement-"]:upward(1)
+medicalxpress.com##.ads-container
 medien-studieren.net,medienstudienfuehrer.de##.leaderboard .banner
 medium.com##a[href^="https://rsci.app.link"]
 medium.com##div[id*="ShowPostUnderUser-navbar-open-in-app-button"]
