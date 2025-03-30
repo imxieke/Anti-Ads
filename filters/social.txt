@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-30 16:24:45 RPC
+! Updated: 2025-03-31 00:24:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24765,6 +24765,7 @@ trance-cell.com##div[data-widget_type^="jnews_post_share"]
 trancepodcasts.com##.cp-overlay
 trancepodcasts.com##.cp-social-media
 tranimeizle.*##.share.transition
+tranio.ru##.art-share
 trannylime.com,znews.vn,m.news.nate.com,zingnews.vn,pornomovies.com,babestube.com,submityourflicks.com,chubbyporn.com,milliyet.com.tr##.btnShare
 trans.info##.social-tile
 transfermarkt.de###socialMediaLeisteMobilSticky
