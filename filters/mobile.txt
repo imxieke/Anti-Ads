@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-30 09:49:05 RPC
+! Updated: 2025-03-30 16:24:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1235,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -3519,7 +3519,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||jianshu.com/asimov/ab_test/info
 @@||jiav000.com^$generichide
 @@||jiayuan.com^*/pv.js
-@@||jin10.com^$generichide
 @@||jinritemai.com^$generichide
 @@||jinyongci.com^$generichide
 @@||jjjgame.com/plus/ad_
@@ -8672,7 +8671,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -12194,7 +12193,7 @@ jikexueyuan.com##.pewm3
 jiligame.com##img[onerror="zhurl($(this))"]
 jin.baidu.com##a:last-child
 jin.baidu.com##div.loan-recommend.grid-mt
-jin10.com###J_wdgg_t
+jin10.com##.activity-side
 jin10.com##.jin-declaration[class*="_b"]
 jin10.com##.jin-declaration[class*="_h"]
 jin10.com##.jin-jgg
@@ -12205,17 +12204,13 @@ jin10.com##.jin-showbox
 jin10.com##.jin-wdgg
 jin10.com##.jin-wdgg + .jin-timeline
 jin10.com##.jin-wdgg_h
-jin10.com##.l-main > div > .jin-timeline
-jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-1"]
 jin10.com##.l-main_body > .jin-timeline > div[class*=" "]
 jin10.com##.l-main_body ~ .jin-timeline
 jin10.com##.l-main_wrap > .jin-timeline > div:not(.jin-declaration):not(.jin-qq-cooperation)
 jin10.com##.quoted-price__pro
 jin10.com##.side-module-2
-jin10.com##.top-ad
+jin10.com##.top-poster
 jin10.com##.tradinghero
-jin10.com##div[id^="J_wdgg_"]
-jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 jin115.com###article-contents > .article_mid + .article-body-more
 jinbaodm.com##div[style^="position:fixed; top"]
 jinbaozy.com##.dtk-fixed-ads
@@ -16974,9 +16969,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -21711,8 +21706,6 @@ www.jdon.com##ins.adsbygoogle
 www.jdunion.com##div.wp.a_t,div.wp.a_f,div.a_h,div.bm.a_c
 www.jgzj.net##table.adcss,div#ad_headerbanner,div#ad_text.ad_text,div.ad_column
 www.jiaosm.net##div#weizhi-a,div.viewt_cc,div#xinxi
-www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
-www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 www.jisilu.cn##A[href^="http://www.nffund.com/upfiles/eb/home"],A[href^="http://www.yhfund.com.cn/activezone"]
 www.jisuxia.com##div.ads960,div.ads700,div.downads,div.ads250
 www.jisuzhibo.net##div.gg_info
@@ -30286,6 +30279,7 @@ _zhike.htm
 ||benthose.com^
 ||bepolite.eu^
 ||bepolite.eu^$important
+||beqnnobwt.com^
 ||ber8.adj.st^$important
 ||bercioles.com^$important
 ||berp.com^$important
@@ -34822,6 +34816,7 @@ _zhike.htm
 ||drjs123.com^
 ||drlzlc.top^
 ||drmcmm.baidu.com^
+||drohlaneh.com^
 ||drollwharf.com^
 ||drrykr.com^
 ||drtrs55.fun^
@@ -38386,6 +38381,7 @@ _zhike.htm
 ||hrrjff.xyz^
 ||hrtlisu.top^
 ||hrutvncu.top^
+||hrwbeqv.icu^
 ||hs-analytics.net^$important
 ||hs-scripts.com^$important
 ||hs.cnfol.com/Cm/Imgs/Load.gif
@@ -40294,6 +40290,7 @@ _zhike.htm
 ||jonestiatria.com^$important
 ||josipr.com^
 ||joublia.top^
+||jovcbp.top^
 ||jowkkzx.icu^
 ||joyfulkeen.com^
 ||joyfulvibe.com^
@@ -41002,6 +40999,7 @@ _zhike.htm
 ||krytox.benutzerprofilbbs02.space^$important
 ||ksdk-vh.akamaihd.net^$important
 ||kspl48j.xyz^
+||ksro.cn^
 ||kssolo.com^
 ||kstj.baidu.com^
 ||ksylied.top^
@@ -41953,6 +41951,7 @@ _zhike.htm
 ||lu.sogoucdn.com^
 ||lu2.luyouwang.com^
 ||lu228.com/ajs/
+||lubrzh.top^
 ||lucazepa.com^$important
 ||lucidmedia.com^$important
 ||lucklayed.info^$important
@@ -53769,6 +53768,7 @@ _zhike.htm
 ||vq1qi.pw^
 ||vqaj6smlmtpym.top^
 ||vqbzpv.xyz^
+||vqle.cn^
 ||vqlwoy.xyz^
 ||vqq.admaster.com.cn^$important
 ||vraataidz.com^
