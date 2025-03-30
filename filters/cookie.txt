@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-30 00:25:48 RPC
+! Updated: 2025-03-30 09:49:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28296,6 +28296,9 @@ baufritz.com###c_m_p_bg
 bauhaus-nl.com##.notice
 bauhaus.cz##.modal:has(> .modal-container > .cookie-modal)
 bauhaus.info,smart.com##.cookieLayer
+baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
+baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##.cc-window-wrapper
+baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 baulinks.de##body > div:not([id]):not([class])
 baulinks.de##body > div[style^="position: fixed; width: 100%; background-color:"]
 baulinks.de##body > div[style^="position:fixed;width:100%;background-color:"]
@@ -32629,9 +32632,6 @@ desimartini.com#$#.cookiesbg { display: none !important; }
 desimartini.com#$#body { overflow: visible !important; }
 desired.de#%#//scriptlet("set-constant", "consentIsActive", "false")
 deskmat.io##.c_innerbox
-desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
-desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##.cc-window-wrapper
-desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 desmo-racing.com###cookie
 desokupa.com###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 desport.ru##div[class^="Cookies_cookie__"]
