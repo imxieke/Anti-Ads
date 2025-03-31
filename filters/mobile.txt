@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-31 09:47:34 RPC
+! Updated: 2025-03-31 16:29:47 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2247,7 +2247,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8669,7 +8669,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16332,6 +16332,7 @@ oh100.com##.mySwiperBox
 oHead6205.appendChild( oScript6205);
 ohmanhua.com#%#//scriptlet("abort-on-property-write", "__DOMAIN")
 oi.com.br##.incentivo-minhaoi
+oibdgtxw.com#?#.xqbj-list-rows:-abp-has(img[z-image-loader-url*=".gif"])
 oilchem.net##.LzAdv
 oilprice.com,m.qidian.com##.app_download_ad
 okazjum.pl,tracker.network,destinytracker.com,halotracker.com,fortnitetracker.com,tracker.gg,bankturov.ru##.mobile-promo
@@ -16967,9 +16968,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -38058,6 +38059,7 @@ _zhike.htm
 ||hesitanttoothpaste.com^
 ||hetlwsu.top^
 ||hevctt.xyz^
+||hevepyrmt.com^
 ||hewrutu.top^
 ||hexagon-analytics.com^$important
 ||hexinx.com^
@@ -40509,6 +40511,7 @@ _zhike.htm
 ||jsztl.com/img/particular/tbyhq.jpg
 ||jt.dangbei.net/dbfs.js
 ||jtbo*.nqxvevk.cn^
+||jtdltu.top^
 ||jthotb.icu^
 ||jtimiya.top^
 ||jtjsmp.top^
@@ -44833,6 +44836,7 @@ _zhike.htm
 ||onstunkyr.com^$important
 ||onthe.io^$important
 ||ontime.mobilewareinc.com^$important
+||onwnomv.icu^
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||oo.moatads.com^$important
@@ -45726,6 +45730,7 @@ _zhike.htm
 ||piksrie.icu^
 ||piliangzhuce.cn^
 ||pillscash.com^$important
+||piln.cn^
 ||pilot.civicscience.com^$important
 ||piloussouffl.com^
 ||pimlog.baidu.com^
@@ -55240,6 +55245,7 @@ _zhike.htm
 ||xsolid.baidu.com^
 ||xspadvertising.com^
 ||xstar.cc^
+||xsti.cn^
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
 ||xsu.cc^
@@ -55401,6 +55407,7 @@ _zhike.htm
 ||yardbarker.tags.crwdcntrl.net^$important
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
+||yasorlbeu.com^
 ||yatemy.cn^
 ||yax-winners-ap-southeast-1-rtb.adroll.com^$important
 ||yax-winners-eu-west-1-rtb.adroll.com^$important

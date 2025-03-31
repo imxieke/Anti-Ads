@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-31 09:47:34 RPC
+! Updated: 2025-03-31 16:29:47 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12015,6 +12015,7 @@ auto.mail.ru##.sharelist__items
 auto.ru##.ButtonShare-module__container
 auto.ru##.ScrollableSidebar > div[class^="PageLogbookCard_"] button[class*="LogbookCardActions__share-"]
 auto.ru##button[class^="PostNavigationShareButton-"]
+auto.ru##div[class^="CardActions"] > div.HoveredTooltip__trigger:has(> button div[class^="CardActions__share"])
 auto.ru##div[class^="PostHeading__actionBar"] > div.HoveredTooltip__trigger:has(> button[class*="ShareButton"])
 auto.ru#?#.Review__footer-col:has(> div.ReviewShare)
 auto.ru#?#div[class^="CardActions-"] > button:has(> span > div[class*="shareTooltip"])
@@ -13842,6 +13843,7 @@ culturaocio.com##.div_equipo
 culture.pl##.header-social-links-wrapper
 culture.pl##.sidebar-inner
 culture.ru##.js-card-social-button-show
+culture.ru##div[aria-label="Поделиться в соц-сетях"]
 culturewhisper.com##.b-social-bar
 cumberlink.com,journalstar.com##.social-share-links
 cumhuriyet.com.tr##.instela-share-button
@@ -23816,6 +23818,7 @@ syl.ru##.share_img
 symantec.com##.action-links
 symantec.com##[data-share-config="controller.shareConfig"]
 synapse-magazine.jp,straightpress.jp##div[class*="article__head__sns-btns"]
+synoforum.com##.offCanvasMenu-installBanner
 syosetu.com###sns_button
 syosetu.com,gaitame.com,baycrews.jp,nhk.or.jp##.c-sns
 syracuse.com##.sharebar-beta
@@ -24281,6 +24284,7 @@ thehansindia.com##.social-share-wrap
 thehardtimes.net##.social-sharing-wrapper
 thehardtimes.net##.spot-im-registration-module
 theheadline.jp###shared-sns
+thehealthy.com###gch-social-icons
 thehill.com###bottom-story-socials
 thehill.com##.blogs-social-wrp
 thehill.com##.item-shares
@@ -25356,6 +25360,7 @@ uwaterloo.ca##.uw-site-share--button__share
 uzmantv.com##.uplayer-social-button-container
 uznaytut48.ru#?#.main > div.center-full > div[align]:has(> h4 > strong > span:contains(Поделитесь))
 uznayvse.ru##.post_soc_share_cont_alone
+uznayvse.ru##div[aria-label="Поделиться в социальных сетях"]
 uzone.id##.button-share-box
 v-kurse.ru##.tdb-author-box + div.wpb_wrapper
 v1.ru###record-header div[data-sticky-id="bottomStickyElement"] > div > button + button
