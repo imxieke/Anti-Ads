@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-03-31 00:24:07 RPC
+! Updated: 2025-03-31 09:47:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3715,6 +3715,7 @@
 @@||usercentrics.eu^$domain=billiger-telefonieren.de
 @@||usercentrics.eu^$domain=br.de
 @@||usercentrics.eu^$domain=dr-beckmann.com
+@@||usercentrics.eu^$domain=einhell.de
 @@||usercentrics.eu^$domain=geberit.de
 @@||usercentrics.eu^$domain=gematik.de
 @@||usercentrics.eu^$domain=hagebau.de
@@ -4192,7 +4193,6 @@ alsen.pl,ispot.pl#$#.cookie-modal ~ .modal-backdrop { display: none !important; 
 alsen.pl,ispot.pl#$#body .cookie-modal { display: none !important; }
 alsen.pl,portalpasazera.pl,careers.equinix.com,finnair.com,ispot.pl,dyzurnet.pl,georg.at,batteryempire.cz,eliis.eu,sercedziecka.org.pl,ekoplaza.nl,krungsri.com,wark24.de,app.lepermislibre.fr,osehero.pl,puratos.co.jp#$#body.modal-open { overflow: auto !important; }
 altabadia.org##div[class^="mw-dsgvo-"]
-alternate.de#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-deny-button')
 alternative.me###footer > div[style^="position: fixed; bottom:"][style*="z-index:"]
 alternativeto.net###bottomNotifierContent .EUc__message
 altibox.dk,altibox.no#$#.CybotCookiebotDialogContentWrapper { display: none !important; }
@@ -6796,6 +6796,7 @@ dating.com###gdpr-agreement-wrapper
 datos.madrid.es###iam-cookie-control-modal
 datos.madrid.es###iam-cookie-control-modal-backdrop
 dave-immobilienverbund.de###yn-cookies
+dawn.com###consent-dialog
 daxon.fr##.popin-cookies
 daybreakgames.com##.soe-cookie-policy
 dayoftheweek.org#$#body.overlayModalBody { overflow: visible!important; position: static!important; }
@@ -7506,6 +7507,7 @@ eib.org##div[class^="cookies-home"]
 eiendomsmegler1.no,sparebank1.no,atlantic.money###opt-in
 eindelijkglasvezel.nl##.notice-bar
 eindhoven.nl,verzekerdbijhema.nl###bcpm-notification-outer-border
+einhell.de,alternate.de#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-deny-button')
 eins.de###cookiewarner
 ejobs.ro#$#.BodyDisableScroll { overflow: auto !important; }
 ejobs.ro#$#.eBasicModal { display: none !important; }
@@ -8412,6 +8414,7 @@ foreignaffairs.com##._gdpr-banner
 foreignaffairs.com#?#.messages--container:has(> div[aria-label="GDPR Compliance"])
 foreks.com##body > div.crzFix
 forendors.cz##.wrapper_dhhcz
+forestriverinc.com###PrivacyPolicyNotice
 forex.com##.alert-section[data-cookie-alert="cookieAlert"]
 forfun.com,imgur.com,kaltura.com,sowetanlive.co.za,turkishairlines.com,yazio.com##.smartbanner
 forklog.com##.terms_popup

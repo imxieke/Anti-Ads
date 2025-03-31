@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-03-31 00:24:07 RPC
+! Updated: 2025-03-31 09:47:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25481,6 +25481,7 @@
 @@||usercentrics.eu^$domain=billiger-telefonieren.de
 @@||usercentrics.eu^$domain=br.de
 @@||usercentrics.eu^$domain=dr-beckmann.com
+@@||usercentrics.eu^$domain=einhell.de
 @@||usercentrics.eu^$domain=geberit.de
 @@||usercentrics.eu^$domain=gematik.de
 @@||usercentrics.eu^$domain=hagebau.de
@@ -26580,7 +26581,6 @@ altaprofits.com###notification
 altenberg-dom.de#@#div.cookieHolder
 alter-science.info,viziya.info###pop
 alterego.waw.pl###SITE_ROOT ~ .siteAspectsContainer
-alternate.de#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-deny-button')
 alternative.me###footer > div[style*="fixed"]
 alternative.me###footer > div[style^="position: fixed; bottom:"][style*="z-index:"]
 alternative.me,motorsport.com,pdf24.org###footer
@@ -27260,6 +27260,7 @@ argent.xyz###gatsby-focus-wrapper > div:not([id]):last-of-type
 argent.xyz##+js(set-local-storage-item, cookie_consent_bar_value, true)
 argenta.be#$#.cookie-popup { display: none!important; }
 argenta.be#$#.modal--activeNoScroll { position: unset!important; }
+argenta.nl###block-argentacookiebanner
 argeweb.nl#%#//scriptlet('trusted-set-cookie', 'cc_cookie_accept', 'cc_cookie_accept')
 argeweb.nl,internedservices.nl##.ccdiv
 argos-tradein.co.uk##+js(set-cookie, AcceptCookieOnOff, 1)
@@ -33926,6 +33927,7 @@ eindhoven.nl,verzekerdbijhema.nl###bcpm-notification-outer-border
 einfach-einreichen.de##+js(set-cookie, ee-ca, y, , reload, 1)
 einfach-einreichen.de##+js(set-cookie, ee-hj, n)
 einfach-einreichen.de##+js(set-cookie, ee-yt, y)
+einhell.de,alternate.de#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-deny-button')
 einkaufsbahnhof.de##.btn--cookies, .cookies
 eins.de###cookiewarner
 einsteinkultur.de##.page-cn.cn-active
@@ -35804,6 +35806,7 @@ foreignpolicy.com##.cookie_message_displayed
 foreks.com##body > div.crzFix
 forendors.cz##.wrapper_dhhcz
 forestgum.de##.cookies
+forestriverinc.com###PrivacyPolicyNotice
 forex.com##.alert-section[data-cookie-alert="cookieAlert"]
 forfur.com##.footerpolicy
 forgeandfortune.com#@##toasts > #toastsWrapper
@@ -45791,6 +45794,7 @@ optical-center.fr###cookieOk
 opticaldiscount.com###cookie-authorization
 opticjungle.gr###sid-container
 opticoach-tools.ch##.twododigital--cookie
+opticron.*,abrahamartimpressions.com,eriestgastropub.com,fahrschule-delert.de,geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
 optigura.fr#%#//scriptlet('trusted-set-cookie', 'cookies', '{%22functionality_storage%22:%22granted%22%2C%22security_storage%22:%22granted%22%2C%22ad_storage%22:%22denied%22%2C%22analytics_storage%22:%22denied%22%2C%22personalization_storage%22:%22denied%22%2C%22ad_user_data%22:%22denied%22%2C%22ad_personalization%22:%22denied%22}')
 optigura.it##.o-modal
 optima.hr##.cookies
@@ -57174,6 +57178,7 @@ _eu_cookie_
 ||consent.trustarc.com/get?name=$subdocument,domain=avantiwestcoast.co.uk|oracle.com
 ||consent.trustarc.com/notice$script,domain=~tripit.com|~concursolutions.com|~fortune.com|~formula1.com
 ||consent.trustarc.com/v2/notice$script
+||consent.trustarc.com^$domain=authy.com|pedialyte.com|twilio.com
 ||consent.trustarc.com^$domain=pedialyte.com|twilio.com
 ||consent.trustarc.com^$third-party
 ||consent.truste.com/get?name=notice.js$script

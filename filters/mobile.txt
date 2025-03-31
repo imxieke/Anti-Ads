@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-03-31 00:24:07 RPC
+! Updated: 2025-03-31 09:47:34 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -604,9 +604,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 /s.php?id=
 /sbar.json?key=$script
 /script/suurl.php
-/script/suurl5.php
 /script/suv5.js
-/script/ut.js?cb=
 /script/utils.js$script,third-party
 /sdfhnKaewnf/*
 /sensorsdata.min.js
@@ -18475,6 +18473,7 @@ shuqu8.com###ad_c_top
 shurua.com###advbox
 shxd.net##div.footadbox,div.addown,div.myad,div.downbtna
 si.com##amp-video-iframe[src^="//player.ex.co/"]
+si.com##main > figure[class^="style_"]:has(> div[class^="style_"] > #mmvid)
 siamblockchain.com###inarticle-banner-mobile
 sibdom.ru##.fixed-position
 sigure.tw##.Ads-Sidebar
