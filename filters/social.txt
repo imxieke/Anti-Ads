@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-03-31 16:29:47 RPC
+! Updated: 2025-04-01 00:27:23 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14096,7 +14096,6 @@ delivembed.cc#?#div[class^="top-right_"] > button[class^="button_"]:has(> span >
 dell.com##.cdt-social-share-wrap
 delmagyar.hu##.fb_like_span
 delmagyar.hu##.fb_shares
-delo.ua##.c-post__share
 delo.ua##.c-post__tags + div.c-post__footer-row
 delovoymir.biz##.social_title_top
 delovoymir.biz##div[class^="block-article-social"]
@@ -14653,7 +14652,6 @@ ed-live.de##.sharingTools
 eda.ru#?#div[class*="social"] > p:contains(Поделиться)
 eda.ru#?#div[class^="emotion-"]:has(> span:contains(/Понравилась статья?|Расскажи о ней друзьям!/))
 edaily.co.kr##.reporter_sns
-edebiyatla.com,f35.com##.content__share
 edens-zero.net##.modShareArea > .inner
 edh.tw###socialMedia_mobile_show
 edh.tw##.article > div.sright
@@ -17840,7 +17838,6 @@ kakakumag.com##.hd-sns
 kakakumag.com##div[class^="article-sns-"]
 kakomonn.com##footer > div[style="text-align: center;"]
 kakpishem.ru,publico.es###custom_html-8
-kakprosto.ru##.content__share
 kaktutzhit.by##.row-social
 kaktutzhit.by##.scrolling-social
 kakuge-checker.com#?#main > h6:contains(/^このページをシェア：$/)
@@ -20688,6 +20685,7 @@ novsport.com#?#.rounded-left:has(> div[class] > h1[class]:contains(Facebook))
 novynarnia.com##.home-widget.facebook
 novynarnia.com#?#.home-widget > span.home-widget-header > h3:contains(TWITTER):upward(2)
 novyny.live##.social-aside
+novyny.live,kakprosto.ru,edebiyatla.com,f35.com##.content__share
 novyny.online.ua##.c-sharefixed
 novyny.online.ua,loveopium.ru,greatpicture.ru,mediasat.info,igate.com.ua##.dialog-social
 now.com##.boxShare
@@ -21245,6 +21243,7 @@ pastebin.com##.top-footer
 pastelink.net,hbr-russia.ru,mel.fm##.sharing-panel
 patasdacasa.com.br,maxnet.ua,nsenergybusiness.com##.social-media
 patch.com##.styles_SocialShare__lQpUq
+patch.com##div[class^="styles_ShareDropdown__"]
 pathee.com##.bdYtav
 pathee.com##div[class]:has(> h3:first-child + ul:last-child > li > a[href*="share"])
 patreon.com##.fTSoXD > .iu8a4l-0 > .b0e4o3-0 > .vvigvw-0
@@ -23522,6 +23521,7 @@ start.ru#?#div[class^="TopBlock_TopBlock__buttons-wrap"] div[class^="TopBlock_To
 start33.ru##.news_item__social
 startandroid.ru###Mod91
 startrek.com##.Article_shareToggle__D2fGG
+startv.com.tr##.flex > button:has(> div > svg > path[d^="M23.5903"])
 starwalk.space#?#div[data-nosnippet="true"]:has(> div[class] > div[class] > a[id^="facebook-share"])
 staseraincucina.it##.footer
 staticmv.mediavitrina.ru##.eump-control-share-social
@@ -24930,6 +24930,7 @@ tsn.ua##footer .c-bar:has(> dd > button[data-share])
 tsn.ua##ul[data-switch="share-post-bottom"]
 tsn.ua#?#.c-post-info .c-bar-unit:has(> ul[data-switch="share-post-bottom"])
 tsn.ua#?#div.c-bar__row--sin > dl.c-bar:has(> dt.c-bar__label:contains(Поделиться))
+tsn.ua,delo.ua##.c-post__share
 tsuisoku.com##.article-social-btn
 tsuisoku.com#?#.section-box:has(li.article-twitter)
 tsuisoku.com#?#.section-box:has(li.article-twitter) + nav.section-box
