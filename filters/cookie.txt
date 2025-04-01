@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-01 16:29:10 RPC
+! Updated: 2025-04-02 00:26:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12719,7 +12719,6 @@
 ##.cookie-warning-popup
 ##.cookie-warning-snippet
 ##.cookie-warning-v2:not(body):not(html)
-##.cookie-warning-wrapper
 ##.cookie-warningbar
 ##.cookie-warning_show
 ##.cookie-warning__overlay
@@ -14765,7 +14764,6 @@
 ##.cookie__consent.cookie__reveal
 ##.cookie__consent[style*="display"]
 ##.Cookie__container
-##.cookie__content
 ##.cookie__div
 ##.cookie__flex
 ##.cookie__float--container
@@ -14797,7 +14795,6 @@
 ##.cookie__warning-messaging
 ##.cookie__warn__wrap
 ##.cookie__window
-##.cookie__wrap
 ##.cookie__wrapper_noneuuk
 ##.cookify
 ##.cookify:not(body):not(html)
@@ -24791,6 +24788,7 @@
 @@||flowbox.io/wp-content/plugins/uk-cookie-consent^
 @@||flygresor.se/static*/resources/build/js/module/CookieNotice/module.js
 @@||footroll.pl/js/vendor/cookiebox.min.js
+@@||forbo.com/scripts/cookieconsent.min.js$~third-party
 @@||fordblueadvantage.com/cars-for-sale/client/js/cookiebanner.$~third-party
 @@||forms.app/static/cookie-consent.js$~third-party
 @@||forneo.net/wp-content/plugins/uk-cookie-consent^
@@ -26282,6 +26280,7 @@ akme.hu##.cookie
 akn.edu.pl##body .rodo-information-clause
 ako-uctovat.sk###message_wrap
 akool.com##+js(set-cookie, cookie-permission, 0, , reload, 1) 
+akool.com#%#//scriptlet('set-cookie-reload', 'cookie-permission', '0')
 akpool.de###consent
 akrapovic.com##.cookies-bubble
 akrep.com,tomshw.it###cookie-privacy
@@ -37926,6 +37925,7 @@ help.snapchat.com#$##cookie-modal-container { display: none !important; }
 help.snapchat.com#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
 helpucover.co.uk###consent
 helthjem.no##.schibsted-bar
+helukabel.pl###bc-popup-container
 hema.com,hema.nl#$#.cookie-modal { display: none !important; }
 hema.com,hema.nl#$#body.no-scroll { position: static !important; }
 hema.com,hema.nl,bookmygarage.com,groofly.com,remax.at##.modal-overlay
@@ -38619,7 +38619,6 @@ iarh.hr###kukijima
 iasp.ws#$#.lbOuterWrapper { display: none !important; }
 iasp.ws#$#.lbOverlay { display: none !important; }
 iasp.ws#$#body { overflow: auto !important; }
-iauto.lv,visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 ib.eplus.jp,scilab.org###cookie_gdpr
 ibadual.com##.modalcomplete
 ibank.asb.by#@#.cc_container
@@ -39181,7 +39180,6 @@ instituteforgovernment.org.uk##.popup-text
 institutfrancais.de##.cookie-fn
 instructables.com##.adsk-gdpr-footer-wrapper
 instrumentcenter.se##.Of52aacb8
-instyle.com,liveabout.com,byrdie.com,nascar.com,woodmagazine.com,realsimple.com,simplyrecipes.com,shape.com,southernliving.com,thesprucecrafts.com,thespruceeats.com,seriouseats.com,allrecipes.com,tripsavvy.com,midwestliving.com,mydomaine.com,allpeoplequilt.com,travelandleisure.com,verywellfit.com,verywellmind.com,foodandwine.com,lifewire.com,verywellhealth.com,health.com,thoughtco.com,dailypaws.com,agriculture.com,marthastewart.com,ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 instytutlogopedyczny.pl###flash-msg
 insularlife.com.ph##.memo
 insurancebusinessmag.com##.notification_strip
@@ -42631,6 +42629,7 @@ maximum.com.tr##.ucookieC
 maximum.com.tr#?#.sticky_cookie_warning:has(> a[href^="/TR/gizlilik-politikamiz/Sayfalar/gizlilik-politikamiz.aspx"])
 maxkuchnie.pl#%#//scriptlet("abort-current-inline-script", "$", "initRodoWindow();")
 maxmind.com###mm-ccpa-notice
+maxmo.de#%#//scriptlet('set-cookie', 'cookie-preference', '1')
 maxppp.com###noticePopup
 maxppp.com#$#.cdk-overlay-container { display: none !important; }
 maxppp.com#$#body.gb-global-scrollblock { overflow: auto !important; }
@@ -46454,6 +46453,7 @@ peakd.com#%#//scriptlet('set-cookie', 'COOKIE_CONSENT_ACCEPTED', 'true')
 peaks.com,yvonnebennetti.com##+js(set-cookie, allow_cookie, false)
 pearlizumi-eu.com##.cc_notification
 pearlsmodels.com##.pum-overlay[data-popmake*="przetwarzanie-danych"]
+pearson.com,instyle.com,liveabout.com,byrdie.com,nascar.com,woodmagazine.com,realsimple.com,simplyrecipes.com,shape.com,southernliving.com,thesprucecrafts.com,thespruceeats.com,seriouseats.com,allrecipes.com,tripsavvy.com,midwestliving.com,mydomaine.com,allpeoplequilt.com,travelandleisure.com,verywellfit.com,verywellmind.com,foodandwine.com,lifewire.com,verywellhealth.com,health.com,thoughtco.com,dailypaws.com,agriculture.com,marthastewart.com,ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 peatus.ee###messageBar
 peax.ch###cookie-note-id
 peax.ch##.cookie-note
@@ -46833,6 +46833,7 @@ pixelprivacy.com##.pp-disclosure-notice
 pixers.com.tr##+js(set-cookie, cookies_after_approvals, true)
 pixers.com.tr##+js(set-cookie, cookie_analytics, denied)
 pixers.com.tr##+js(set-cookie, cookie_marketing, denied)
+pixers.com.tr,iauto.lv,visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 pixflow.net##.privacy-popup
 pixiko.com##.pix-cookie
 pixilart.com##[data-cookie-number]
@@ -49651,6 +49652,7 @@ seamless.ai##.rs-message-info
 search.brave.com###usage-metrics-notice
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion###usage-metrics
 search.deleteme.com#%#//scriptlet('set-cookie', 'cookieControlPrefs', '0')
+search.fenrir-inc.com,sleipnirstart.com###agreement
 search.itaa.be#@##cookieWrapper
 search.podcastmusic.com,sourceaudio.com###cookie_manager
 search4porn.net,polizei-beratung.de#%#//scriptlet('set-cookie', 'cookie_consent', 'true')

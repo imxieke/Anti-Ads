@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-01 16:29:10 RPC
+! Updated: 2025-04-02 00:26:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14471,7 +14471,6 @@ magi.camp#?#aside > div.plate:has(> a.app-banner)
 magickum.com##.banerpril
 maguays.cc##.animate-bounce-up
 maharashtratimes.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
-maho.jp##div[class*="compactAd"]
 mahoupao.net##.tonglanAd,#diynavtop
 mahua.com##.hidden_ab
 maiche.com##a.some-img
@@ -44040,7 +44039,6 @@ _zhike.htm
 ||negotiatetime.com^
 ||neighborhoodsluts.com^$important
 ||neighborlywatch.com^
-||nekopoi.care/wp-content/plugins/mobiloud-smart-app-banner/
 ||nekto.me/chat/img/gplay.
 ||neldatsy.com^
 ||neldipbtg.com^

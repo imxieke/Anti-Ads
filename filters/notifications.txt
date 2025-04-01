@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-01 16:29:10 RPC
+! Updated: 2025-04-02 00:26:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4073,6 +4073,7 @@ akkushop-b2b.de,batterie-boutique.fr,akku-shop.nl,akkushop.de,akkushop.dk,akkush
 akkushop-b2b.de,batterie-boutique.fr,akku-shop.nl,akkushop.de,akkushop.dk,akkushop-austria.at,akkushop-schweiz.ch,akkushop-turkiye.com.tr#@##cookie-consent
 aklamio.com,kras.nl##.alert.cookie
 akn.edu.pl##body .rodo-information-clause
+akool.com#%#//scriptlet('set-cookie-reload', 'cookie-permission', '0')
 akrep.com,tomshw.it###cookie-privacy
 aksacoruh.com,aksa.com.tr,coruhaksa.com,firataksa.com,firatedas.com.tr,coruhedas.com.tr,aksadogalgaz.com.tr##.cerezDiv
 aktin.sk,aktin.cz#$##snippet-modalStack-cookieModal-snModal { display: none !important; }
@@ -9779,7 +9780,6 @@ iar.com,bmi-online.pl##.cookies__info
 iasp.ws#$#.lbOuterWrapper { display: none !important; }
 iasp.ws#$#.lbOverlay { display: none !important; }
 iasp.ws#$#body { overflow: auto !important; }
-iauto.lv,visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 ib.eplus.jp,scilab.org###cookie_gdpr
 ibank.asb.by#@#.cc_container
 iberiaexpress.com#%#//scriptlet('trusted-click-element', '#rejectCookiesTerms')
@@ -11741,6 +11741,7 @@ maximum.com.tr##.sticky_cookie_warning
 maximum.com.tr##.ucookieC
 maximum.com.tr#?#.sticky_cookie_warning:has(> a[href^="/TR/gizlilik-politikamiz/Sayfalar/gizlilik-politikamiz.aspx"])
 maxkuchnie.pl#%#//scriptlet("abort-current-inline-script", "$", "initRodoWindow();")
+maxmo.de#%#//scriptlet('set-cookie', 'cookie-preference', '1')
 maxppp.com###noticePopup
 maxppp.com#$#.cdk-overlay-container { display: none !important; }
 maxppp.com#$#body.gb-global-scrollblock { overflow: auto !important; }
@@ -13843,6 +13844,7 @@ pixeden.com##div[class^="cookies_wrapper__"]
 pixelexperience.org###ez-cookie-dialog-wrapper
 pixelgun3d.com##.my_cookie_alert
 pixelprivacy.com##.pp-disclosure-notice
+pixers.com.tr,iauto.lv,visitgdansk.com,jestemzgdanska.pl,kartamundurowa.pl,mconvert.net,mobiflip.de###cookieConsentModal
 pixiv.net##.terms-of-use-header
 pixiv.net##._gdpr-notify-header
 pixiv.net##div[data-theme] > div > span:has(> div > div > p > span + a[href^="https://policies.pixiv.net/"])
@@ -15140,6 +15142,7 @@ se.pl,eska.pl,eskago.pl,eskarock.pl,fokus.tv,grupazpr.pl,mjakmama24.pl,nowa.tv,r
 seameliabeachresort.com##.cookieText
 search.brave.com###usage-metrics-notice
 search.deleteme.com#%#//scriptlet('set-cookie', 'cookieControlPrefs', '0')
+search.fenrir-inc.com,sleipnirstart.com###agreement
 search4porn.net,polizei-beratung.de#%#//scriptlet('set-cookie', 'cookie_consent', 'true')
 searchenginejournal.com###cooknote-div
 searchpeoplefree.com##div[id^="cookie_terms"]
