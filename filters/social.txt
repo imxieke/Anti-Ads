@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-01 00:27:23 RPC
+! Updated: 2025-04-01 09:53:57 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10835,6 +10835,7 @@
 74.ru##div[id="record-header"] div + div button
 74.ru#?#button + div:has(> div > div > ul > li > button[data-test="btn-share-vk"])
 774.ai##div[id^="post-social-"]
+78.ru##div[class^="share_container"]
 7dach.ru##.floating-hat__share
 7dach.ru##.profile-share
 7days-ua.com#?##content > div[align="center"]:has(> font:contains(Поділитись))
@@ -11112,6 +11113,7 @@
 @@||yaplakal.com/html/static/$image,~third-party
 @@||yastatic.net/*/share.js$domain=alpinabook.ru
 @@||yastatic.net/*/share.js$domain=sworm.io|trans.ru|chepetsk.ru|iz.ru|thequestion.ru|readovka.ru|mazda.ru|kinogo-720.net|xn--80aneaaefcxzcih6g1e.xn--p1ai|playground.ru|foxtrot.com.ua|biglion.ru|master-of-orion.ru|ktk.kz|universarium.org|pix.playground.ru|xn--80aaelc4ars1a7ab6d.xn--p1ai|kramola.info|myfin.by|zona.plus|culture.ru|open.kzn.ru|globus.ru|readovka.news|possiblegroup.ru|prcl.ru|kinopoisk.ru|alexey-osipov.ru|avtodispetcher.ru|yandex.by|yandex.kz|yandex.ru|gorod.gov.spb.ru|sostav.ru|recyclemap.ru|106i9fm.ru|radiorecord.ru|radioc.ru|100i6fm.ru|99-1.ru|alfafm.ru|echoekb.ru|echovolgograd.ru|jamfm.ru|olimpfm.ru|radio-megapolis.ru|sputnik107.ru|sputnikfm.ru|globalaffairs.ru|m.ridus.ru
+@@||yastatic.net/share2/share.js$domain=78.ru
 @@||yastatic.net/share2/share.js$domain=kontur-extern.ru
 @@||yastatic.net/share2/share.js$domain=krasnoyarskmedia.ru
 @@||yastatic.net/share2/share.js$domain=wdho.ru
@@ -13994,6 +13996,8 @@ darkreading.com##.sns-sharing
 darkreading.com##.SubscribeBannerTopicPage
 dartworld.de##.ab-fb-page-plugin-container
 dasauge.de##.bmk_xing
+dasreda.ru##li[data-qa^="Share-social-"]
+dasreda.ru##section[data-qa="ContentNoGrid-left"] > h2
 data.wingarc.com##.new-entry-social
 datacenterdynamics.com##.a2a_default_style
 datagor.ru###dle-content > div.fullstory + div[align="center"]
@@ -15516,6 +15520,7 @@ flyuia.com###promo-sub
 fm1today.ch##div[data-share-txt]
 fmkorea.com##.doc_sns
 fmovies.app#$#body { overflow: visible!important; }
+fnlondon.com,wsj.com,firstpost.com,tunecore.co.jp,radiolab.org##button[aria-label="share"]
 fnn.jp##.--share
 fnp.de##.id-Actionbox-items > li:not(.id-Actionbox-items-el--comments)
 fnp.de,sport1.de##.bookmarks
@@ -25608,6 +25613,7 @@ vkmag.com##a[onclick*="twitterShare"]
 vkurier.info##.heateor_sss_sharing_ul
 vkusologia.ru,tvoykomputer.ru,idej.net,realmehelp.com##.socials-after_post
 vkusvill.ru##.Share2
+vkusvill.ru##.VM_RecipeShare__Icons
 vkz.de##.news-social-media
 vladan.fr###ez-fat-footer-2.one-third
 vladday.ru##.sticky-social
@@ -26115,7 +26121,6 @@ wsj.com##div[class^="WSJTheme-module--share-"]
 wsj.com##li[class*="-share-tool-"]
 wsj.com##li[class*="WSJTheme__share-tool"]
 wsj.com#?#.article-body-tools div[data-headlessui-state] > button[type="button"]:has(> span:contains(Share))
-wsj.com,firstpost.com,tunecore.co.jp,radiolab.org##button[aria-label="share"]
 wsu.edu##.spine-share-tab
 wtatennis.com##.social-share-expand
 wtools.io,camslib.com##button[data-target="#shareModal"]
