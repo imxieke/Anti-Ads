@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-01 09:53:57 RPC
+! Updated: 2025-04-01 16:29:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2247,7 +2247,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -10575,6 +10575,7 @@ helsi.me##div[class*="AppLinkBtn_"]
 henbt.com##div.clear.text_center,.intro_inner
 hensachiterrace.com##.footer_overlay
 hentai-cosplays.com,hentai-gif-anime.com,hentai-img.com,porn-images-xxx.com###adsense_center
+hentai0day.com###M-CONTENT-300x250-MULTI
 hentai2read.com##iframe[src*="?zoneid="]
 hentai89.com##iframe[width="308"][height="258"],[id^="dp-ad"]
 hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "document.write", "/\.(gif|php)/")
@@ -16969,7 +16970,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -22626,6 +22627,7 @@ zeenews.india.com##.outbrain-bg
 zeenews.india.com#@#div[class^="ads-"]
 zeenews.india.com#@#div[class^="ads-box-"]
 zeenite.com,shemalesin.com,sortporn.com,porndr.com,freeporn8.com##.top
+zeenite.com,squirting.world##div[id^="M-"][style^="height"]
 zeiri4.com##div[class^="adContainer"]
 zeit.de##.advertising
 zeit.de##.iqdcontainer
@@ -31397,6 +31399,7 @@ _zhike.htm
 ||cautiouscrate.com^
 ||cautiouscredit.com^
 ||cavecurtain.com^
+||caxhuuzto.com^
 ||cb-cdn.com^$important
 ||cb.baidu.com^
 ||cb.com.cn/index/ad/
@@ -34964,6 +34967,7 @@ _zhike.htm
 ||dustyrabbits.com^
 ||dustywave.com^
 ||duyewnf.icu^
+||duyhlct.icu^
 ||dv0i.icu^
 ||dv4ku.icu^
 ||dvb.pandora.xiaomi.com^
@@ -35440,6 +35444,7 @@ _zhike.htm
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
 ||emotionalworld.cn^
+||emphidaho.com^
 ||emptyescort.com^
 ||ems.youku.com^
 ||emxdgt.com^$important
@@ -41926,6 +41931,7 @@ _zhike.htm
 ||lsforum.net/yahooad/
 ||lsj.tt-hk.cn/api.php?url=http:^$domain=lsj.tt-hk.cn
 ||lsj.tt-hk.cn/beac.php?url=http:^$domain=jqaaa.com
+||lsjarh.top^
 ||lsjazn.xyz^
 ||lsjxs.cc/js/html
 ||lsntzzy3.com/Runtime/js/psData.js
@@ -47106,6 +47112,7 @@ _zhike.htm
 ||quyaoya.com^$third-party
 ||quyr.cn^
 ||quyuancn.com^$third-party
+||qvir.cn^
 ||qvnbjjd.xyz^
 ||qvob.adsb4track.com^$important
 ||qvonje.cn^
@@ -49595,6 +49602,8 @@ _zhike.htm
 ||so.com/resource/js/mod/detail/business.
 ||so.com^*baike/ads?
 ||so.open.163.com/v/list.htm?pid=
+||so03311koaq.com^
+||so04010koaq.com^
 ||soa-vip-ssl.xunlei.com^
 ||soagw.pw.xunlei.com^
 ||soaprange.com^

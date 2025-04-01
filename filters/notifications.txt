@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-01 09:53:57 RPC
+! Updated: 2025-04-01 16:29:10 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10171,6 +10171,9 @@ ipekyol.com.tr,korayspor.com##.cookieBnrWrp
 ipevo.com###cookie-law-note
 ipevo.com,megacomshop.com,hangfire.io##.wpcb-container
 iphonesoft.fr,iphonetweak.fr###bannerCookie
+ipill.de#%#//scriptlet('trusted-click-element', 'button.accept-all-cookies')
+ipill.de#@##cookie-message
+ipill.de#@#.cookie-message-overlay
 ipipe.ru##.cookie_cntnr_st
 iplogger.org###message
 ipn.gov.pl,abm.gov.pl,edh.tw,passeportsante.net##.cookiesBox
@@ -10204,7 +10207,7 @@ is.fi#$##sccm-container { display: none!important; }
 is.fi#$#body.sccm-noscroll { overflow: visible!important; }
 isbank.co.uk,maximiles.com.tr,isbank.com.tr###cokieCover
 isbank.com.tr##.blogCookieCover
-isbank.com.tr,turkcell.com.tr,lumberjack.com.tr,karaca.com,karaca-home.com,shiftdelete.net##body > efilli-layout-dynamic
+isbank.com.tr,isbank.com.tr,turkcell.com.tr,lumberjack.com.tr,karaca.com,karaca-home.com,shiftdelete.net##body > efilli-layout-dynamic
 isbnews.pl###nety_cookie
 iscrizioneconcorsi.it##.cookiePol
 isha.sadhguru.org##.cookie-modal div.sticky-pop
