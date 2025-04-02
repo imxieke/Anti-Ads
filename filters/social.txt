@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-02 00:26:36 RPC
+! Updated: 2025-04-02 09:44:19 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19274,7 +19274,6 @@ mediatoday.co.kr##.social-group > :not(.bookmark)
 mediazona.ca##section[data-share-id]
 mediazonaby.com##.js-share-pull
 mediazonaby.com##.mz-layout-theme__content > section.mz-layout-theme__meta:has(> div.mz-layout-theme__socials)
-mediazonaby.com##.mz-social-share
 medical-tribune.co.jp###article-sns-share
 medicaldoc.jp##.share_section
 medicalxpress.com##.article-interaction > *:not([data-target="#feedback-to-editors"]):not(section)
@@ -26473,6 +26472,7 @@ zona.eu##.insta-frame
 zona.media##.material-footer-share
 zona.media##div[class^="mz-publish"] > section[data-share-id="post"]
 zona.media##section.mz-publish-share
+zona.media,mediazonaby.com##.mz-social-share
 zona.plus##.footer-thanks
 zonarutoppuden.com#?#.capitulos_left > div.descrip_title:contains(Compartelo)
 zonarutoppuden.com#?#.capitulos_left > div.descrip_title:contains(Compartelo) + div.descripbox
