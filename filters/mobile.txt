@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-02 16:29:07 RPC
+! Updated: 2025-04-03 00:28:15 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15572,7 +15572,7 @@ mynet.com##.mynet-kesfet-banner-box
 mynet.com##.stickyFooterAdContainer
 mynet.com##img[alt$="mobil-banner"]
 myoji-kamon.net##.omamoriAd
-myoji-yurai.net###app_ad
+myoji-kamon.net,myoji-yurai.net###app_ad
 myoji-yurai.net#?#a[href="https://play.google.com/store/apps/details?id=net.myoji_yurai.myojiOmikuji"]:upward(1)
 mypianku.net##div[style*="background:url"]
 mypolacy.de##div[class*="appBanner"]
@@ -41421,6 +41421,7 @@ _zhike.htm
 ||lgncal.media.net^$important
 ||lgpjw.cn^
 ||lgse.com^$important
+||lgvlbd.icu^
 ||lh168.net^*/attachment/portal/
 ||lhmebwq.cn^
 ||lhmgoik.icu^
