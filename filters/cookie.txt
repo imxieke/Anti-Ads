@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-02 09:44:19 RPC
+! Updated: 2025-04-02 16:29:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31707,6 +31707,7 @@ coregames.com##.open [class*="modalBottom"]
 corkyspest.com,teledynelecroy.com###becookiebarid
 cornertrader.ch###disclaimer-alert
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+cornucopias.io##.styles_cookie_consent__vjoiX
 coron.tech###wrap > #notice
 corona-kvwl.de##.m-react-ccm
 corona.fo###__qookies_habitat
@@ -33759,6 +33760,7 @@ ecosys.net,vertica.com##.courier-modal-overlay
 ecotrade.bio##.global-alert
 ecouter-en-direct.com###cc
 ecs.com.tw,aorus.com,gigabyte.bg,gigabyte.by,gigabyte.cn,gigabyte.com,gigabyte.com.gr,gigabyte.com.tr,gigabyte.cz,gigabyte.dk,gigabyte.lv,gigabyte.no,gigabyte.pl,gigabyte.pt,gigabyte.rs,gigabyte.ru,gigabyte.ua,gigabyte.uz###policy-div
+ecuavisa.com##+js(set-cookie, user_cookie_consent, 1)
 ecufiles.com###EcufilesCookie
 ecwid.com##.gdpr-window
 ecwid.com##.gdpr-window, .ec-notices
@@ -33832,6 +33834,7 @@ educado.pl#$#body.modal-open { overflow: auto !important; padding-right: 0 !impo
 educalingo.com###cookies
 educamaisbrasil.com.br##.aviso-cookie
 education.dellemc.com,delltechnologies.com,dell.com,xn--allestrungen-9ib.de###_evh-button
+education.openguessr.com##.alert:has(> span > a[href="https://openguessr.com/legal"])
 educationconnection.com#@#div.ccpa-message
 educationendowmentfoundation.org.uk,rshb.ru##.bottom-0.right-0
 educationplatform.co.uk###App > div > .container ~ div[class^="Wrap"]:last-child
@@ -39592,7 +39595,6 @@ jadlonomia.com##.cbar-container
 jagex.com##.c-cookie-consent
 jagran.com,jagranjosh.com,mid-day.com###gdprbx
 jagranjosh.com,jagran.com,herzindagi.com,newsnation.in###gdprbx
-jagranjosh.com,mid-day.com###gdprbx
 jaguar-me.com,jaguar.at,jaguar.be,jaguar.ca,jaguar.co.jp,jaguar.co.za,jaguar.com,jaguar.com.au,jaguar.cz,jaguar.de,jaguar.es,jaguar.fr,jaguar.it,jaguar.nl,jaguarportugal.pt,jaguarusa.com,landrover-me.com,landrover.at,landrover.be,landrover.ca,landrover.com,landrover.com.au,landrover.com.hk,landrover.cz,landrover.es,landrover.fr,landrover.gi,landrover.it,landrover.nl,landrover.pt,landrover.ru##.notificationBars
 jaguar-turkiye.com,landrover.com.tr###coiOverlay
 jaguar.at,landrover.at##.Modal
@@ -46016,6 +46018,7 @@ ouicar.fr##.ce_cookies
 ouifm.fr###cnil-banner
 ouraring.com##.tailwind > .fixed
 ourpower.coop##.d-block
+ourworldindata.org,parliament.uk,theaterhaus.com##.cookie-manager
 ourworldofpixels.com##+js(set-cookie, nagAccepted, true)
 oushop.com##body > div:not([id]):not([class])
 outbyte.com###privacy-popup

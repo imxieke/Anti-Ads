@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-02 09:44:19 RPC
+! Updated: 2025-04-02 16:29:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7480,6 +7480,7 @@ edu.eset.com##doc-layout-cookie-policy-banner
 educado.pl#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 educamaisbrasil.com.br##.aviso-cookie
 education.dellemc.com,delltechnologies.com,dell.com,xn--allestrungen-9ib.de###_evh-button
+education.openguessr.com##.alert:has(> span > a[href="https://openguessr.com/legal"])
 educative.io###__next > div > div.fixed.text-center
 educative.io##div[class^="ContainerWrapper-"] > .opacity-100.border-primary-lightP1
 eduelo.pl###purePopupWrap

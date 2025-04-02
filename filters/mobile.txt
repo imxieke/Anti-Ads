@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-02 09:44:19 RPC
+! Updated: 2025-04-02 16:29:07 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -12793,6 +12793,7 @@ koe-koe.com###chumoku_ad
 koe-koe.com###third_ad
 koe-koe.com##.ad_list
 koe-koe.com##.ad_min_height
+koe-koe.com##div[style="min-height:250px"]
 kogan.com###kogan-ad-sidebar
 koinmedya.com##.amp-sticky-ads
 koko-soccer.com##.bnr-overlay
@@ -16967,7 +16968,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -29010,6 +29011,7 @@ _zhike.htm
 ||appointeeivyspongy.com^
 ||appolicious.com^$important
 ||apportal.airpush.com^$important
+||apppc.chinaz.com/statics/images/tuan
 ||apppv.zol.com.cn^
 ||apprebates.com^$important
 ||appredeem.com^$important
@@ -30348,6 +30350,7 @@ _zhike.htm
 ||bi-analytics.cloudapp.net^$important
 ||bi.yeshen.com^
 ||bi25.cc/js/hf
+||biabfqq.icu^
 ||bian-min.com/javascript/a/detail.js
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 ||biancheng.net/uploads/ggxc/
@@ -34184,6 +34187,7 @@ _zhike.htm
 ||denis-pj0823031-491201b.com^$important
 ||denjpl.xyz^
 ||dependenttrip.com^
+||dephriezm.com^
 ||deployads.com^
 ||depositphotos.pushwoosh.com^$important
 ||derwbl.icu^
@@ -34298,6 +34302,7 @@ _zhike.htm
 ||dhlh.org^
 ||dhnnbfok.icu^
 ||dhonphehr.com^
+||dhorzivnn.com^
 ||dhqp68.com^
 ||dhtdig.xyz/static/js/dht_default.js
 ||dhukul.com^
@@ -44378,6 +44383,7 @@ _zhike.htm
 ||nrcapi.ssl2.duapps.com^$important
 ||nrgv.cn^
 ||nrk.tns-cs.net^$important
+||nrlupu.top^
 ||nroeoxk.icu^
 ||nrqrbwi.top^
 ||nrsfh.com/neirong/
@@ -51402,6 +51408,7 @@ _zhike.htm
 ||tejia.taobao.com^$important
 ||teknoseyir.com/wp-content/themes/ts/sponsor-mobile.php
 ||teknowebim.com/uploads/mobil-ads.png
+||telecome.cn^
 ||telegraph-d.openx.net^$important
 ||telegraph.grapeshot.co.uk^$important
 ||telemetrics.klaviyo.com^$important
@@ -53235,6 +53242,7 @@ _zhike.htm
 ||uts.kingoapp.com^$important
 ||uttermosthobbies.com^
 ||uty.micocc.com/api/ad^
+||uu09cjylmzsym.top^
 ||uu1.3gu.com^
 ||uu11881.com^
 ||uu22112.com^
@@ -54450,6 +54458,7 @@ _zhike.htm
 ||wpuiuwh.icu^
 ||wpvc.nitratory.com^$important
 ||wqmobile.com^$important
+||wqrv.cn^
 ||wqxp.online/qx6/php/qqcheck.php
 ||wqzmed.cn^
 ||wqzyt.net^
