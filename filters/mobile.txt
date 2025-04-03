@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-03 16:30:37 RPC
+! Updated: 2025-04-04 00:27:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5964,6 +5964,7 @@ blogomaniak.pl,mobimaniak.pl,gsmmaniak.pl##div[style*="10px auto; text-align:cen
 blogtag.ameba.jp###app > aside[class^="sc-"] > div[class]:empty
 blogtag.ameba.jp##aside > div[class]:has(> div > div[id^="div-gpt-ad-"])
 blogtag.ameba.jp##main > ul > div[class]:empty
+blogtag.ameba.jp##main > ul > li:not([class]) > div[class^="sc-"][class*=" "]:has(> div[class^="sc-"][class*=" "] > div[id^="div-gpt-"][name*="sp_ameba_blogtag_detail_rec_"])
 blogtag.ameba.jp##ul > div[class]:has(> div > div[id^="div-gpt-ad-"])
 blogtag.ameba.jp#?##app > aside[class^="sc-"] > div[class^="sc-"] > a[href^="https://ameblo.page.link"]:upward(2)
 blogterest.net,hiwaijosi.net###glkab
@@ -8861,6 +8862,7 @@ faxingw.cn##.detailgc
 faxingw.cn##.indadv1
 fayerwayer.com##.bodyContent > div[style="min-height:400px"]
 faz.net##.iqdcontainer
+faz.net##a[track-label*="App"]
 fbook.net##div.gg_t,div.head-d,.readads,div.tlgg
 fc1adult.com##.line_spc > div.grass_img[style="margin-bottom: 10px;"]
 fc1adult.com##.sp_300_spc
@@ -11159,6 +11161,7 @@ idaprikol.ru#$#body { overflow: visible!important; position: static!important; }
 idaprikol.ru#%#//scriptlet('remove-attr', 'data-universal-link', 'body')
 idaybreak.com##testwidget
 ideco-guide.jp##.sp-foot-banner
+idefix.com,lescon.com.tr,telekom.de,openrice.com,pass.telekom.de,lazada.com.ph,lamoda.ru,lazada.co.id,milliyet.com.tr,esky.com.tr,allo.ua,home24.de,cbsnews.com,lieferheld.de##.smart-banner
 idkeijiban.com,kakaoid.com,deai.twitterid.net##.adv_tag
 idnes.cz##div[data-redistribute="ad"]
 idou.me##.ad__search-infeed-banner
@@ -12613,7 +12616,6 @@ kaoyan.com##div.headerAd,div.subAd,div.artRad
 kaoyan1v1.com###showAD
 kapook.com###wrap_banner_app
 kariyer.net##.download-app-wrapper
-kariyerbankasi.net##.mobile-app-popup
 kartaslov.ru#?#div[class$="mob-top-block"]:has(> div[id^="yandex_rtb_R-A-"])
 kartlover.com###tryleague
 kasioda.com###custom_html-9
@@ -13124,7 +13126,6 @@ lepoint.fr#$##header-menu-top { top: 0 !important; }
 lepoint.fr#$#body .menu-top_mobile { top: 50px !important; }
 lepoint.fr#%#//scriptlet('remove-class', 'hasStickyHead', 'body.hasStickyHead')
 leqiuba.com###wxad
-lescon.com.tr,telekom.de,openrice.com,pass.telekom.de,lazada.com.ph,lamoda.ru,lazada.co.id,milliyet.com.tr,esky.com.tr,allo.ua,home24.de,cbsnews.com,lieferheld.de##.smart-banner
 lesen.mk-elona.de##.apps-advt
 lesfrontaliers.lu###side-column > div.col-sm-12:has(> div.content > div#iosApp)
 lesports.com###j_a_banner_content,[id^="JS_AD_FLASH_"],#side-downAd,[id^="JS_TL_ad_"]
@@ -15624,6 +15625,9 @@ nana-music.com##.app_sec
 nana-music.com##.base-top
 nana-music.com##.sidebar__app
 nana-press.com###ad_area_01
+nana-press.com###spFooterAd
+nana-press.com##.ad-machinePage-footer
+nana-press.com##.modelInfo_listBox_sp[style="margin: 20px 0 20px; min-height: 315px;"]
 nandu.com##div#top-ad
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
@@ -15671,6 +15675,7 @@ navitime.co.jp###daiko-app
 navitime.co.jp###footer-app-dl-frame
 navitime.co.jp###kyujin-banner-offer-container
 navitime.co.jp###smartapp-banner-area
+navitime.co.jp###st-wrap[style="height: 435px; visibility: visible;"]
 navitime.co.jp###title-area ~ div[style*="height:"]
 navitime.co.jp##.app-download-footer-frame
 navitime.co.jp##.appli-japan-travel
@@ -16312,6 +16317,7 @@ officelife.media##.custom-banner
 officelife.media##.side-section__mobile-banner
 offsite.com.cy##.download-the-app
 ofiii.com#%#//scriptlet('trusted-replace-fetch-response', '"play_ads":true', '"play_ads":false')
+ofix.com,kariyerbankasi.net##.mobile-app-popup
 ofweek.com###fixedADWrap
 ofweek.com###flybox-db
 ofweek.com###\5f ad-2100
@@ -16459,6 +16465,7 @@ op.gg##.content > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##.css-16uhif2
 op.gg##.css-rn9m24
 op.gg##.e6ayeey0
+op.gg##.flex > div.text-center:has(> a[href^="https://itunes.apple.com/"])
 op.gg##.gnb-desktop-download
 op.gg##.gtag-ad
 op.gg##.vm-placement,[class^="ads"]
