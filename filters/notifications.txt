@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-03 09:42:39 RPC
+! Updated: 2025-04-03 16:30:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7095,6 +7095,7 @@ digiturk.com.tr###app_cookieconsent
 dihk.de##.c-cookie-notice--default
 dijitalders.com###CerezUyari
 dinamalar.com##.quickslide
+dinamikyatirim.com.tr,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,zenmarkai.com,home.id,metadefender.com,woltair.pl,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,truecar.com,csirt.gov.it,protipster.pl,institutoaocp.org.br,dashlane.com,versuni.com,sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 dinetecommerce.pe##div[id*="aviso-cookies"]
 dinmedia.de,beuth.de,din.de##.bwr-cookie
 dinside.no##.css-pp-box
@@ -11573,6 +11574,7 @@ magazinevoce.com.br,magazineluiza.com.br#%#//scriptlet('set-cookie-reload', 'coo
 magazynauto.pl,sprawdzone.pl##.rodoPopup
 magentatv.pl##div[class^="styles__StyledMagentaBar-"]
 magentatv.pl#?#nav[class^="styles__StyledNavBar-"] > div[class^="styles__HeaderInfoBarStyled-"]:has(> div[class^="styles__HeaderMessageStyled-"] > div[class^="styles__HeaderText-"] > p[class^="styles__ParagraphStyled-"] > a[href*="/polityka-prywatnosci"])
+magentatv.pl,mojmaxtv.hrvatskitelekom.hr,gofiber.ph#%#//scriptlet('set-local-storage-item', 'cookieAccepted', 'true')
 magesy.blog###moove_gdpr_cookie_info_bar
 magic-x-store.com#%#//scriptlet('set-cookie', 'accept_cookies_policy', 'accepted')
 magic.gg#%#//scriptlet('trusted-set-cookie', '__magic_accept_cookies', 'true')
@@ -12222,7 +12224,6 @@ mojanorwegia.pl###new-cookies
 mojkatalog.rs#$#body.no-scroll { overflow: auto !important; }
 mojkatalog.rs#@##onetrust-consent-sdk
 mojmaxtv.hrvatskitelekom.hr##nav > div[class*="styles__HeaderInfoBarStyled"]:has(a[href="https://www.hrvatskitelekom.hr/podrska/privatnost-podataka"])
-mojmaxtv.hrvatskitelekom.hr,gofiber.ph#%#//scriptlet('set-local-storage-item', 'cookieAccepted', 'true')
 mojposao.ba#?#body div:not([class]):not([id]) > div.EV5KEN-Lc-b:upward(1)
 molotov.tv##.eRnhI
 moment.co#?##root > div[class]:has(> div[class] > button:contains(Accept Cookies))
@@ -18261,7 +18262,6 @@ work.weixin.qq.com##.layoutCookiesBanner
 workis.online#@#.cookies-dialog
 workplace.com,about.meta.com#%#//scriptlet('trusted-click-element', 'button[data-cookiebanner="accept_only_essential_button"]')
 worksmile.com##.cookies-component
-worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,zenmarkai.com,home.id,metadefender.com,woltair.pl,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,truecar.com,csirt.gov.it,protipster.pl,institutoaocp.org.br,dashlane.com,versuni.com,sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 workupload.com###cookie_law_box
 workwise.io#%#//scriptlet('trusted-click-element', '.ReactModalPortal button:last-child span')
 world-of-pizza.de#%#//scriptlet("set-constant", "openCookieModal", "false")
@@ -19120,7 +19120,7 @@ _eu_cookie_
 ||gzhls.at/*/notifications.lazyloader.ghp.js
 ||h.seznam.cz/js/cmp2/scmp-int.js$domain=mapy.cz
 ||h.seznam.cz/js/cmp2/scmp-int.js$domain=slovnik.seznam.cz
-||h.seznam.cz/js/cmp2/scmp-lite.js$domain=mapy.cz
+||h.seznam.cz/js/cmp2/scmp-lite.js$domain=mapy.cz|mapy.com
 ||handyhuellen.de/consent/data/consent?
 ||hansa-flex.at/*/vhs-assets-cookieapp.js
 ||hansa-flex.com/typo3temp/assets/vhs-assets-cookieapp.js
