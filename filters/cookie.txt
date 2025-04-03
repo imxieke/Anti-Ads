@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-03 00:28:15 RPC
+! Updated: 2025-04-03 09:42:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26917,7 +26917,7 @@ antiplagiat.ru###policyConfirmation
 antiplagiat.ru##.ap-cookie-consent
 antiquariat.de##.confirm-cookie
 antiquebike.se,davidsonsskomakeri.com,konstgjordavaxter.se,rocksmineral.se,smallgarden.hu,talkymode.com,wastewatercenter.com##.tws-accept-cookies--wrapper
-antiyoutuber.cz,idnes.cz#%#//scriptlet('trusted-click-element', '#didomi-host ~ #main > .content .boxes > .box > .btn-cons.contentwall_ok')
+antiyoutuber.cz#%#//scriptlet('trusted-click-element', '#didomi-host ~ #main > .content .boxes > .box > .btn-cons.contentwall_ok')
 antjeroessler.de##.lawbar
 antoineonline.com###ctl00_overlay
 antoineonline.com##.container-overlay
@@ -38742,6 +38742,7 @@ idgspa.it###showimage
 idi.it##.pure-cookies-notice-container
 idmobile.co.uk#@##onetrust-consent-sdk
 idnes.cz##+js(trusted-click-element, a[href="javascript:Didomi.setUserAgreeToAll();"], , 2000)
+idnes.cz#%#//scriptlet('trusted-click-element', '#didomi-host ~ #main > .content .boxes > .box > .btn-cons.contentwall_ok', '', '500')
 idoc.tips###IDOCTIPS_cookie_box
 idoctors.it#$##modal-cookies { display: none !important; }
 idoctors.it#$##modal-cookies ~ div.modal-backdrop { display: none !important; }
@@ -51459,6 +51460,7 @@ strazmiejska.gda.pl###cookies
 strazmiejska.gda.pl##.modal-backdrop
 strazmiejska.gda.pl##body,html:style(overflow: auto !important; position: initial !important;)
 stream-park.ru,pharmeconom.ru,mlg.ru,online-knigi.com,2x2tv.ru##.bottom__cookie-block
+streamclipsgermany.de#@##cookieModal
 streamcraft.com##.privacy-wraper
 streamelements.com##.css-1tg1tld
 streamelements.com##.se-ds-c-eNMZSe

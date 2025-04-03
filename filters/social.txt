@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-03 00:28:15 RPC
+! Updated: 2025-04-03 09:42:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -22593,7 +22593,6 @@ rynek-kolejowy.pl#$#.podzielSieZeZnajomymi >.podzielSieIkony > .fbLikeBox ~ * { 
 ryte.com##.sideboxsocials
 ryukyushimpo.jp###share_block
 ryukyushimpo.jp##.socialbtn-wrap
-ryuugames.com,probasket.pl,yoldaolmak.com,gamerbase.org,technopat.net,devirsaati.com##.td-post-sharing-top
 rz.com.ua##.socials_button > div:not(.pre_name)
 rzn.info,skidkaonline.ru##.social-like
 s-style.machico.mu##.l-pickup__sns
@@ -25584,6 +25583,7 @@ virusler.info.tr##.s-right > .colorbg-grey-social
 virusler.info.tr##.sidebar_social
 visionguinee.info##.spu-bg
 visionguinee.info##.spu-box
+visitmama.com,ryuugames.com,probasket.pl,yoldaolmak.com,gamerbase.org,technopat.net,devirsaati.com##.td-post-sharing-top
 visitukraine.today##.page-text_main-wrapp-socials
 visnyk.lutsk.ua##div.dgd_stb_box
 vistanews.ru##.social_network

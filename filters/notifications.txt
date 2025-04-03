@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-03 00:28:15 RPC
+! Updated: 2025-04-03 09:42:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4358,7 +4358,7 @@ antenne.de###uc-privacy-button + div[id^="uc-banner"]
 anthropic.com##div[class^="ConsentBanner_"]
 anthropologie.com,urbanoutfitters.com##.cookie-message__cookieMessage
 antiplagiat.ru##.ap-cookie-consent
-antiyoutuber.cz,idnes.cz#%#//scriptlet('trusted-click-element', '#didomi-host ~ #main > .content .boxes > .box > .btn-cons.contentwall_ok')
+antiyoutuber.cz#%#//scriptlet('trusted-click-element', '#didomi-host ~ #main > .content .boxes > .box > .btn-cons.contentwall_ok')
 antoineonline.com###ctl00_overlay
 antpool.com##.f-cookie
 antwerpen.be##app-cookie-wrapper
@@ -9823,6 +9823,7 @@ ideasoft.com.tr,secfense.com##.rcb-banner
 idec.org.br###block-block-55.block-region-footer
 idi.it##.pure-cookies-notice-container
 idmobile.co.uk#@##onetrust-consent-sdk
+idnes.cz#%#//scriptlet('trusted-click-element', '#didomi-host ~ #main > .content .boxes > .box > .btn-cons.contentwall_ok', '', '500')
 idoctors.it#$##modal-cookies { display: none !important; }
 idoctors.it#$##modal-cookies ~ div.modal-backdrop { display: none !important; }
 idoctors.it#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -16014,6 +16015,7 @@ strava.com###stravaCookieBanner
 strawpoll.de###consent-overlay
 strazakom.pl,sklep-brennenstuhl.pl,kinetixxpolska.pl###pdcookielaw
 stream-park.ru,pharmeconom.ru,mlg.ru,online-knigi.com,2x2tv.ru##.bottom__cookie-block
+streamclipsgermany.de#@##cookieModal
 streamelements.com##.css-1tg1tld
 streamelements.com#?#div:has(> span > a[href="https://streamelements.com/cookies"])
 streamlabs.com##.s-callout--cookies
