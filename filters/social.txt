@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-04 09:42:24 RPC
+! Updated: 2025-04-04 16:27:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11228,6 +11228,7 @@ acura.com##.social-icons:not(.last)
 acuvue.ru##.janrain-social-share-button
 ad-italia.it,gqitalia.it,lacucinaitaliana.it,vanityfair.it,vogue.it,www.wired.it##.social-icons__list
 adaa.org##.c-footer__top-socials
+adage.com##.u-flex > div.u-relative:has(> button > svg > path[d^="M13 4.5a2.5"])
 adblockplus.org###social-list
 addons.mozilla.org##.blogpost-meta-share-social
 addressadda.com##.showshare
@@ -11545,6 +11546,9 @@ americanexpress.com##div[data-bti-module-name="axp-forum-social-share-tools"]
 americanhorrorstory.ru###sbox
 americanscientist.org##.article__socialmedia
 americanthinker.com#@#.social_buttons
+americatv.com.pe##.items-center > span:has(+ button[data-variant="shared"])
+americatv.com.pe##.justify-center.items-center:has(> button[data-variant="shared"]:only-child)
+americatv.com.pe##button[data-variant="shared"]
 amgreatness.com##.ag-social
 amgreatness.com##.w-full.mb-10
 amica.it###sticky-socials

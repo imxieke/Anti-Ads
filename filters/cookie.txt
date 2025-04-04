@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-04 09:42:24 RPC
+! Updated: 2025-04-04 16:27:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28614,9 +28614,6 @@ berief-food.de,minergie.ch,nordbahn.de,flvw.de###consent_manager-background
 beringtime.com,needforseat.de###mediameetsFacebookPixel--notification
 berkeleygroup.digital##+js(set-cookie, BGDESKTOP_TERMS, 1)
 berkshirecommunities.com##.sticky-banner
-berlin-buehnen.de##.hylo-cookie-banner-general
-berlin-buehnen.de##div.md\:tw-prose-xl.tw-prose
-berlin-buehnen.de##div.tw-prose > .hydrated > aside
 berlin-international.de##.bau__cookiebanner
 berlinartweek.de##div[data-show-initially="true"] > div.modal-backdrop
 berliner-missionswerk.de,civilpetition.de,freiewelt.net###cmmodal
@@ -33828,7 +33825,6 @@ edostavka.by,emall.by#%#//scriptlet('set-local-storage-item', 'isAcceptCookiesNe
 edpb.europa.eu,edps.europa.eu###edp-cookies-banner
 edu.ch##.mbdialog
 edu.eset.com##doc-layout-cookie-policy-banner
-educa2.madrid.org###emCookieWrapper
 educado.pl#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 educalingo.com###cookies
 educamaisbrasil.com.br##.aviso-cookie
@@ -34093,6 +34089,7 @@ elle.com#@##onetrust-consent-sdk
 elle.fr###poool-widget-content
 elleair.jp##.tf-cookiePolicyModal
 ellexgk.cz##.CA
+elliberal.cat##+js(set-cookie, wpl_viewed_cookie, no)
 elliberal.com.ar##.bannerCookie
 ello.co##.AppContainer > nav + div
 ello.co##.css-46bss5
@@ -35451,8 +35448,6 @@ finna.cat###cookies_configuration
 finnair.com#$#fin-cookie-policy { display: none !important; }
 finnairshop.com##.js-consent-popup
 fino.hr###cookie
-finom.co##.cookie-finom
-finom.co##.cookie-finom__container
 finquesdelmar.com,hortdesantcebria.com,iglumedia.com###bluemask
 finquesdelmar.com,hortdesantcebria.com,iglumedia.com##.tbox
 finreport.sk##div[id*="CookieInfoWrapper"]
@@ -37897,7 +37892,6 @@ helicomicro.com##.cp-info-bar
 helifix-cz.cz,helifix.co.nz,helifix.co.uk,helifix.com,helifix.com.au,helifix.de,helifix.it,helifix.nl###black-band-container
 helion.pl##.rodo-accept
 helis.com###spcookiegdpr
-helite.de###consent-manager
 helite.de,stompgrip.de###consent-manager
 helitecnics.com###botonfooter
 helitransair.com##+js(set-cookie, privacyLevel, 2, , reload, 1)
@@ -46463,7 +46457,6 @@ peakd.com#%#//scriptlet('set-cookie', 'COOKIE_CONSENT_ACCEPTED', 'true')
 peaks.com,yvonnebennetti.com##+js(set-cookie, allow_cookie, false)
 pearlizumi-eu.com##.cc_notification
 pearlsmodels.com##.pum-overlay[data-popmake*="przetwarzanie-danych"]
-pearson.com,instyle.com,liveabout.com,byrdie.com,nascar.com,woodmagazine.com,realsimple.com,simplyrecipes.com,shape.com,southernliving.com,thesprucecrafts.com,thespruceeats.com,seriouseats.com,allrecipes.com,tripsavvy.com,midwestliving.com,mydomaine.com,allpeoplequilt.com,travelandleisure.com,verywellfit.com,verywellmind.com,foodandwine.com,lifewire.com,verywellhealth.com,health.com,thoughtco.com,dailypaws.com,agriculture.com,marthastewart.com,ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 peatus.ee###messageBar
 peax.ch###cookie-note-id
 peax.ch##.cookie-note
@@ -53430,6 +53423,7 @@ trec.pl##.pop-cookiebox
 trec.pl#?#body > div[id][class] > div > div > div > a[href="/ciinfoclick/?rejected"]:upward(4)
 trecnutrition.nl##.bar-display.container
 tredy-fashion.de#%#//scriptlet("abort-current-inline-script", "jQuery", "synchronizeCookieNoteCookies")
+treehugger.com,pearson.com,instyle.com,liveabout.com,byrdie.com,nascar.com,woodmagazine.com,realsimple.com,simplyrecipes.com,shape.com,southernliving.com,thesprucecrafts.com,thespruceeats.com,seriouseats.com,allrecipes.com,tripsavvy.com,midwestliving.com,mydomaine.com,allpeoplequilt.com,travelandleisure.com,verywellfit.com,verywellmind.com,foodandwine.com,lifewire.com,verywellhealth.com,health.com,thoughtco.com,dailypaws.com,agriculture.com,marthastewart.com,ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#body[class].ccm-blocked { overflow: auto !important; }
 treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$#html[class].ccm-blocked { overflow: auto !important; }
 treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de#$?#.ccm-root { display: none !important; }

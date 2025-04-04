@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-04-04 09:42:24 RPC
+! Updated: 2025-04-04 16:27:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/

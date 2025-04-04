@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-04 09:42:24 RPC
+! Updated: 2025-04-04 16:27:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2237,6 +2237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 6park.com,club.6parkbbs.com##.adv-6park
 6parknews.com##.ad-view
 6parknews.com##.other_list_ad
+6parknews.com##div[class^="InContent_"]
 6parknews.com##div[style="width:990px;height:140px;margin-left:auto;margin-right:auto;text-align:center;"]
 6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
 6tj.com##.ad_1000,.ad_600,.ad-banner,[class^="ad_635"],.ad_fy
@@ -2247,7 +2248,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3122,7 +3123,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.sssam.com/static/js/*.js
-@@||cdn.staticfile.org^$domain=00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org|tianz.la
+@@||cdn.staticfile.org^$domain=83kss.cc|00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org|tianz.la
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=movieffm.net
 @@||cdn.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
@@ -8673,7 +8674,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16975,9 +16976,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -25557,6 +25558,7 @@ _zhike.htm
 ||ad.ohmyad.co^
 ||ad.org.vn^$important
 ||ad.pandora.tv^$important
+||ad.parkvv.com^
 ||ad.particlenews.com^
 ||ad.perfectaudience.com^$important
 ||ad.period-calendar.com^
@@ -34297,6 +34299,7 @@ _zhike.htm
 ||dhg-logging.us-east-1.elasticbeanstalk.com^$important
 ||dhgdp.cn^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
+||dhievvienr.com^
 ||dhkqqe.top^
 ||dhl.135320.com^
 ||dhlh.org^
@@ -39036,6 +39039,7 @@ _zhike.htm
 ||ilb.pns.kt.com^$important
 ||ilbanner.com^$important
 ||ilce.alicdn.com/montage^
+||ilcq.cn^
 ||ildhy.com^
 ||ilead.itrack.it^$important
 ||ilepai.com^
@@ -41538,7 +41542,7 @@ _zhike.htm
 ||linkwan.com/gb/javascript/c5-
 ||linkz.it^$important
 ||linovel.net/cp/lk/ad/externalAd?
-||linovelib.com/modules/article/scripts/tip_
+||linovelib.com/modules/article/scripts/
 ||linovelib.com/scripts/zation.js
 ||linuxde.net/wp-content/uploads/ad/
 ||linuxeden.com/plus/web_js.php
@@ -44700,6 +44704,7 @@ _zhike.htm
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||okead.com^
+||okikwul.icu^
 ||okinawaokuyami.com/images/common/app_
 ||okiterk.top^
 ||okkazeo.com/img/habillage/banner/
@@ -45669,6 +45674,7 @@ _zhike.htm
 ||photographpan.com^$important
 ||photos18.com/images/friend/
 ||photovms.tv.sohu.com/*/*_1.jpg$app=com.sohu.sohuvideo
+||phozeksr.com^
 ||php.cn/ad1.
 ||php.cn/hezuo/
 ||php1.cn/uploads/huayun.jpg
@@ -47779,6 +47785,7 @@ _zhike.htm
 ||rpeutxu.icu^
 ||rpfuvj.icu^
 ||rprgn.cn^
+||rptdhu.top^
 ||rq.vserv.mobi^$important
 ||rqd.qq.com^
 ||rqhajf.icu^
@@ -49727,6 +49734,7 @@ _zhike.htm
 ||sonimei.cn/images/gg.png
 ||sonimei.cn/images/llq.png
 ||sonimei.cn/qipai.jpg
+||sonkransme.com^
 ||sonobi.com^
 ||sonraifishnet.website^
 ||sooopu.com/asphtml/plnew.
