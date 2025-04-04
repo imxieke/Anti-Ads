@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-04 16:27:45 RPC
+! Updated: 2025-04-05 00:26:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13839,7 +13839,6 @@ ctnews.ru##.social__block-background
 ctrl.blog##.webshare
 ctrl.blog,ein-herz-fuer-kinder.de##.follow-container
 ctv.by##.banner-mir
-ctvnews.ca##.b-share-bar
 ctvnews.ca##.c-teaser
 ctwant.com##.m-sharebar
 cubiq.ru##.share-like > div.row > div:not(.likes)
@@ -16640,7 +16639,6 @@ happymonday.ua##.share-article__main-links-wrap
 happytv.rs##.share-action-posts
 harborsweets.com##.footer-top-bar
 hard-drive.net##.hd-discord
-hardcoregamer.com,gamerant.com,screenrant.com###sharingButtonPopup
 hardreset.info#$##modal-facebook { display: none !important; }
 hardreset.info#$#.modal-backdrop { display: none !important; }
 hardreset.info#$#body { overflow: visible!important; }
@@ -20418,6 +20416,7 @@ newser.com###divSocialAndCommentsButtonsTop > a:not([id="aShareComments"])
 newser.com###lightbox
 newsfs.com,bloter.net,comworld.co.kr,jejudomin.co.kr,kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 newsfs.com,chungnamilbo.co.kr,newsnjoy.or.kr,techm.kr,ccdailynews.com,footballist.co.kr,hankooki.com,gametoc.hankyung.com,globale.co.kr##.quick-tool > button:not(.fontsise-btn)
+newsguardrealitycheck.com,pragmaticengineer.com##.pencraft > button:has(> svg.lucide-share)
 newshub.co.nz##.c-ArticleHeading-actions
 newsian.co.kr##.sns:not(.bookmark)
 newsis.com##.socialBox a > img[onclick^="snsSend"]
@@ -21720,7 +21719,6 @@ prachachat.net##.td_block_unixdev_social_1
 practicum.yandex.ru###share-block-title
 prad.de##.pd-social-buttons
 prad.de##.pd-sticky-buttons
-pragmaticengineer.com##.pencraft > button:has(> svg.lucide-share)
 pragmaticengineer.com##.pencraft > div.pencraft:has(> a.post-ufi-button > div:contains(Share))
 pragmaticengineer.com##.pencraft > span:has(> a > div > svg.lucide-share)
 pramgnet.com###Share
@@ -24238,6 +24236,7 @@ theconversation.com##.content-social-distribution > *
 thecritic.co.uk##.sf-sharing
 thedailybeast.com##.Footer__socials
 thedailybeast.com##div[class$="__share-buttons"]
+thedailybeast.com,ctvnews.ca##.b-share-bar
 thedebrief.org##.icon-wrap
 thediplomat.com###td-share-bar
 thediplomat.com##.td-follow
@@ -24271,6 +24270,7 @@ thefreedictionary.com##.social-networks > li > a[title^="Share on"]
 thefreedictionary.com##a[class^="shr-"]
 thefreethoughtproject.com##.mini-share-post
 thegameawards.com#?#.award-category-header div.w-auto > div.justify-center:has(> button[class^="jsx-"] > p + svg)
+thegamer.com,hardcoregamer.com,gamerant.com,screenrant.com###sharingButtonPopup
 thegamesdb.net##div[data-url^="http://www.stumbleupon.com/submit?url"]
 thegamesdb.net##div[data-url^="https://www.facebook.com/sharer/sharer.php"]
 thegamesdb.net#?#.card > div.card-footer > p:contains(Share Via)

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-04 16:27:45 RPC
+! Updated: 2025-04-05 00:26:08 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9606,6 +9606,7 @@ gamersglobal.de#@#.gg-box
 gamersky.com##.ad_cmt_cont
 gamersky.com##.downLoadGame-2
 gamersky.com##.downLoadGame-2 + .dl_url
+gamersky.com##.gs_ccs_appdown
 gamersky.com##div[id^="adscontainer_b"]
 gamersky.com##header[class^="ymw-header20"]
 gamerstand.net##.execphpwidget:has(> div.adspace)
@@ -16480,6 +16481,7 @@ op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##div[class^="css-"] > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##header a[href^="https://itunes.apple.com/"]
+op.gg##main > div[class^="flex flex-col gap-"] > section[class^="w-full md:overflow-hidden md:rounded flex-col"]
 op.gg##section + div[class]:has(> a[href^="https://op.gg/"] > img[alt="Download"])
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 opb.org##.overlay-cta
@@ -17819,8 +17821,10 @@ red-forum.com###mobile_banner
 redbook.com.au##.csn-refine-ads
 redcafe.net##.adwrap
 redd.tube##.banner300x130
+redd.tube##.paid-tabs
 redd.tube#$#.fixed-container[style^="min-height:"] { min-height: auto !important; }
 redd.tube#$#section[style^="min-height:"] { min-height: auto !important; }
+redd.tube#%#//scriptlet('set-constant', 'Object.prototype.vastOptions', 'emptyObj')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.BannerAd__320x50
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.mobile-web-redirect-bar
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##article[id] > a[href^="https://alb.reddit.com/"] ~ *
@@ -21283,6 +21287,7 @@ weszlo.com##.article-list > .snap-mandatory > .snap-always.flex:has(> .overflow-
 wetransfer.com##.AppDownloadDrawer
 wetransfer.com##.AppInstallBanner
 wetransfer.com##.downloader__collect-header
+wetransfer.com##div[data-testid="mobile-wallpaper-layout-enabled"]
 wetter.com###content-main > .werbung
 wetter.com##.clickperformance-wrapper
 wetter.com##.mbanner-fixed
