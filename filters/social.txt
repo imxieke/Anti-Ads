@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-04 00:27:05 RPC
+! Updated: 2025-04-04 09:42:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18393,6 +18393,7 @@ latimes.com##.trb_em_pq_sh_item[data-role="sc_share"]
 latimes.com##.trb_sc
 latimes.com##span[data-role="socialshare_share"]
 latimes.com,marriott.com,sandiegouniontribune.com##.action-bar
+latinanoticias.pe##.box-compartir
 latinomegahd.net##.rdsocial
 latribune.fr##.sharelinks-affix > ul > li.tools:not(.mail):not(.print)
 latte.la##.table:has(> ul[id="styled_btns"])

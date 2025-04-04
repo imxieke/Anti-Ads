@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-04 00:27:05 RPC
+! Updated: 2025-04-04 09:42:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6758,7 +6758,10 @@ chuandong.com,instrument.com.cn,manhuabika.com##a[href*="/ad/"]
 chuangshi.qq.com##.main_banner,#top3GBanner,[class^="banner"],.jpBanner,#advert
 chuanke.com##div#down_float_div
 chugainippoh.co.jp##.ad250_sp
+chunichi.co.jp###fluct-overlay
 chunichi.co.jp##.widget.cscmp-bnr:not(:last-child)
+chunichi.co.jp##aside > .cscmp-subscription + .cmp-hdg005:has(+ div.cmp-lst001 div[id^="div-gpt-"])
+chunichi.co.jp#?##entry > div.block > b:contains(/^《広告の下に記事が続きます》$/)
 chunichi.co.jp,tokyo-np.co.jp###flux-overlay
 chunyuyisheng.com###ad_modal
 chunyuyisheng.com##.ad-modal-left
@@ -7611,6 +7614,8 @@ depor.com##.ad-amp-movil
 depor.com#$#.header-full { margin-top: 0 !important; }
 depor.com#$#.st-sidebar__container { margin-top: 0 !important; }
 der-postillon.com##.iqadtile-wrapper
+desiporn.one##.top:has(> div[id][style^="height:"] > iframe.na)
+desiporn.one,gay0day.com,thetranny.com,xlilith.com##div[id][style^="height:"]:has(> iframe.na)
 despegar.com.ar##.go-to-app-ab-ag
 despegar.com.mx###download-app-banner-large
 desport.ru##div[class^="PopupAppDesktop_"]
@@ -13319,6 +13324,7 @@ livelaw.in##.ad-popup-wrap
 livemaster.ru##.smartbannerapp-shadow
 liveme.com##.boxWrap
 livemint.com##.appMint
+livemint.com##.ECH_LM_MWEB_ALL_BUT_ATF5
 livemint.com##.fixadheight
 livemint.com##.fixadtopadheight
 livemint.com##.inlineAds
@@ -16473,6 +16479,7 @@ op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##div[class^="css-"] > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##header a[href^="https://itunes.apple.com/"]
+op.gg##section + div[class]:has(> a[href^="https://op.gg/"] > img[alt="Download"])
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 opb.org##.overlay-cta
 opdown.com##.cq-recom
@@ -19614,6 +19621,7 @@ tellows.de###hint_box
 telnavi.jp#?#table > tbody > tr:has(> th:contains(PR文))
 teltarif.de###SpaceBefore
 telugu360.com##.td-visible-phone > a[target="_blank"]
+temp-mail.org#$#html[style^="padding-top"] { padding-top: 0px !important; }
 tempo.co###adsfooter
 tempo.co###Affinity_BTF_Tempo
 tempo.co##div[id^="inarticle"] > p[style="font-size:11px;font-weight:500;color: #c2c2c2 !important;"]
