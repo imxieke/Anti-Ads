@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-05 16:27:05 RPC
+! Updated: 2025-04-06 00:26:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2750,6 +2750,7 @@
 @@||cdn.cookielaw.org^$domain=zdnet.com
 @@||cdn.cookielaw.org^$xmlhttprequest,script,domain=cnn.com
 @@||cdn.jsdelivr.net/gh/*/cookieconsent@v*/dist/cookieconsent.js$domain=webtic.it
+@@||cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js$domain=rufheld.de
 @@||cdn.jsdelivr.net/npm/cookieconsent$domain=travel.budgetdirect.com.au
 @@||cdn.jsdelivr.net/npm/cookieconsent*/build/cookieconsent.min.js$domain=enterpriseminilease.ch
 @@||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js$domain=shmoop.com
