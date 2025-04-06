@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-06 09:48:37 RPC
+! Updated: 2025-04-06 16:25:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3563,7 +3563,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||lib.baomitu.com/axios/*/axios.min.js$domain=69xx03608.xyz
 @@||lib.baomitu.com/video.js/*/video.min.js$domain=69xx03608.xyz
 @@||lib.baomitu.com/vue/*/vue.global.prod.min.js$domain=69xx03608.xyz
-@@||libs.baidu.com^$domain=0794.org|12zw.net|1biqu.com|1kans.net|23hh.com|23sk.net|23wxx.com|33yq.org|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqiuge8.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biquka.com|aidu123.com|biqutsxs.com|biquzw.info|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.com|gdbzkz.org|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.info|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|x81zw.co|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
+@@||libs.baidu.com^$domain=0794.org|12zw.net|1biqu.com|1kans.net|23hh.com|23sk.net|23wxx.com|33yq.org|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqiuge8.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biquka.com|aidu123.com|biqutsxs.com|biquzw.info|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.com|gdbzkz.org|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|x81zw.co|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||libs.baidu.com^$domain=m.supfree.net
 @@||linetv.tw/public/scripts/ads.js
 @@||linetv.tw^$generichide
@@ -16979,9 +16979,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -28208,6 +28208,7 @@ _zhike.htm
 ||anyshare.icu^*.js
 ||anythinktech.com^
 ||anywlan.com/link/*.gif
+||anzeretp.com^
 ||anzhuotan.com/Runtime/js/dwg.js
 ||ao1*kas.top/$script,third-party
 ||ao1118kas.top^
@@ -29904,6 +29905,8 @@ _zhike.htm
 ||banzai-d.openx.net^$important
 ||banzhu111.xyz/js/51.js
 ||banzhu111.xyz/js/cdn.js
+||banzhu33333.net/js/cdn.
+||banzhu33333.net/js/html
 ||banzhuxs.org/js/function.js
 ||banzou.name/qq/qq2.js
 ||baobaoshiye.com.cn^
@@ -30441,6 +30444,7 @@ _zhike.htm
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 ||bimlocal.com^$important
 ||bimnodstz.com^
+||bing.com/AdsFetch?
 ||bing001.shop^
 ||bing003.shop^
 ||bing005.shop^
@@ -30775,6 +30779,7 @@ _zhike.htm
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bpimg.com^$domain=ref.so
 ||bptnzp.top^
+||bpuf.cn^
 ||bpxbzps.xyz^
 ||bpxxgkoj.icu^
 ||bqg.tw/js/common.js
@@ -34984,7 +34989,6 @@ _zhike.htm
 ||dy6d.com/js/hf
 ||dy8c.com/JieShaoBu-secret/uploads/hongbao
 ||dybz*/js/html*.js
-||dybz44.com/js/html
 ||dydab.com^
 ||dyguo.com/pc/*0.js
 ||dyguo.com/pc/nr336.js
@@ -40025,6 +40029,7 @@ _zhike.htm
 ||jetlwsa.top^
 ||jewelryedu.cn^
 ||jewruta.top^
+||jeyd.cn^
 ||jf.10010.com^
 ||jfjslia.top^
 ||jfk-v4.pops.fastly-insights.com^$important
@@ -41314,6 +41319,7 @@ _zhike.htm
 ||lf-hl.snssdk.com/search/suggest^
 ||lf-hl.snssdk.com/ugc/publish^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
+||lfflvh.icu^
 ||lfjslil.top^
 ||lfrdskwj.icu^
 ||lfstmedia.com^$important
@@ -47793,6 +47799,7 @@ _zhike.htm
 ||rubicon-match.dotomi.com^$important
 ||rubiconproject.com^
 ||rubiconproject.com^$important
+||rubmdu.top^
 ||ruddycast.com^
 ||ruddywash.com^
 ||rugao35.com/Public/config/Couplet/Index
@@ -50441,6 +50448,7 @@ _zhike.htm
 ||stickysheet.com^
 ||stiffgame.com^
 ||stiffstem.com^
+||stigzeal.com^
 ||stildell.com^
 ||stimiyb.top^
 ||stimulatingsneeze.com^
