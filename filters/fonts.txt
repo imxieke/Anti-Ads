@@ -1,6 +1,6 @@
 ! Title: Block Third Party Fonts
 ! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
-! Updated: 2025-04-06 00:26:37 RPC
+! Updated: 2025-04-06 09:48:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -87,6 +87,7 @@
 ||fast.fonts.com^$third-party
 ||fast.fonts.net^$third-party
 ||fastly.net^$font,third-party
+||font.sec.miui.com/font^$3p
 ||fontawesome.com^$third-party
 ||fontdeck.com^$3p
 ||fontdeck.com^$third-party
@@ -129,6 +130,7 @@
 ||gotraffic.net^$font
 ||kinja-static.com/assets/fonts/$font,3p
 ||kinja-static.com/assets/fonts/$font,third-party
+||klaviyo.com/custom-fonts^$3p
 ||maxcdn.bootstrapcdn.com/font-awesome/$third-party
 ||myfontastic.com^$3p
 ||myfontastic.com^$third-party
