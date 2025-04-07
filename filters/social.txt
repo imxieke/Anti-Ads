@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-07 00:24:02 RPC
+! Updated: 2025-04-07 09:46:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24059,6 +24059,7 @@ ted.com##button.sb[data-service-name="facebook"]
 ted.com##button.sb[data-service-name="linkedin"]
 ted.com##button.sb[data-service-name="twitter"]
 ted.com##div[class=" p-r:1 p-y:1 d:f a-i:c "]
+tedium.co##.post-social
 tedium.co,well.pl,outofbit.it,ain.ua,siberyol.com##.post-social
 teenink.com#?#.actions > label:contains(/^Share$/)
 tegevajaro.com,the-miyanichi.co.jp,archive.org,dailyportalz.jp,otakomu.jp##.social_button
