@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-07 09:46:02 RPC
+! Updated: 2025-04-07 16:30:50 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16979,9 +16979,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -25051,6 +25051,7 @@ _zhike.htm
 ||a1.sumiaowang.com^
 ||a1.syfj.net^
 ||a1.tbuz.com.cn^
+||a1.tuke8.com^
 ||a1.twtym.com^
 ||a1.zhanzhang.net^
 ||a1294.w20.akamai.net^$important
@@ -30343,6 +30344,7 @@ _zhike.htm
 ||bhlianhe.com^
 ||bhmedia-tagan.adlightning.com^$important
 ||bhohreatz.com^
+||bholneath.com^
 ||bhoscopop.com^
 ||bhovrath.com^
 ||bhukkeks.com^
@@ -38824,6 +38826,7 @@ _zhike.htm
 ||ifacelog.iqiyi.com^
 ||ifc.auth.inmobi.com^$important
 ||ifc58.com^
+||ifej.cn^
 ||ifeng.com*/wapifeng
 ||ifeng.com/a_if/
 ||ifeng.com/burroughsnews?
@@ -42918,6 +42921,7 @@ _zhike.htm
 ||metvb.com/js/bofangwei.js
 ||metvb.com/js/z.js
 ||meucci.atinternet.com^$important
+||mevedyru.com^
 ||mewrutx.top^
 ||mf01.zybang.com^
 ||mfacelive.com/Scripts/social/openchannel_min.js
@@ -47530,6 +47534,7 @@ _zhike.htm
 ||rhzofr.icu^
 ||ri-v3.presage.io^$important
 ||riaway.com/statics/idea.jpg
+||ribghr.icu^
 ||riceck.cn^
 ||ricewaterhou.xyz^
 ||rich.otherlevels.com^$important
@@ -52375,6 +52380,7 @@ _zhike.htm
 ||ttbaods.com^$script
 ||ttd.ads.placeiq.com^$important
 ||ttdbj.com^
+||ttdgbh.top^
 ||ttdm.me/upload/files/sss/
 ||ttdpxh.xyz^
 ||tteferty33.fun^
@@ -53410,6 +53416,7 @@ _zhike.htm
 ||vh.adscale.de^$important
 ||vh8.icu^
 ||vhb-01.wt-eu02.net^$important
+||vhid.cn^
 ||vhje.cn^
 ||vhrhnh.icu^
 ||vhsrwd.aip24.pl^$important
