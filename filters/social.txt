@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-07 16:30:50 RPC
+! Updated: 2025-04-08 09:43:25 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11240,6 +11240,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_social
 adibudi.com##div.buttons
 adilmedya.com#@#.addthis-smartlayers
 adjust.com##.s-social-sharing
+adl.org,superhaber.com,baikal-journal.ru,syurui.co.jp,miglink.ru,foodwatch.org,pnp.ru,frankmedia.ru,dualshockers.com,hardcoregamer.com,thecollector.com,theloadstar.com,howtogeek.com,ukdevilz.com,tyler-brown.com,actionviewphotography.com,howtogeek.com,rhg.com,hromadske.radio,pocket-lint.com,newslab.ru,thepointsguy.com,cbr.com,thegamer.com,expres.sk,hdgay.net,gamerant.com,minjust.gov.by,sanliurfaolay.com,screenrant.com,telerama.fr,exporntoons.net,mat6tube.com,incehesap.com,ayntec.com,sibtok.com,capiche.com,mannheimer-morgen.de,naointendo.com.br,texasobserver.org,bigleaguepolitics.com,zebra-tv.ru,numberempire.com,infobyip.com,pingvin.pro,currenttime.tv,webqc.org,noodlemagazine.com,mos.ru,sbs.com.au,xelent.ru,fussball.de,gamezebo.com,fr.de,sovsport.ru,oglobo.globo.com,metrolyrics.com,ad.nl,life.ru,mopo.de,antenne.de,m.health.chosun.com,fnp.de,bbc.co.uk,blackberry.com,boostinspiration.com,celebritybabyscoop.com,cityam.com,core77.com,creatorrepublic.com,download.cnet.com,futurity.org,hackaday.com,investopedia.com,kg-portal.ru,metacritic.com,minimaxir.com,pgatour.com,pigeonsandplanes.com,techfounder.net,thesun.co.uk,tmz.com##.sharing
 adme.media##button[data-test-id^="share-button-"]
 adme.media##div[data-test-id="join-us"]
 adme.media##div[data-test-id="left-vertical-sharing"]
@@ -11769,6 +11770,7 @@ app.com,rgj.com,usatoday.com##.gnt_ss
 app.degoo.com#@#.share-icon-container
 app.famitsu.com##.aside-sns
 app.getpocket.com##button[aria-label="Buffer"]
+app.nimbusweb.me##.nns-toggle-share
 app.wallstreetsurvivor.com###tradeComplete > .social
 apparat.cc##.fb_like_wrap
 appbank.net##.lets-push
@@ -16005,6 +16007,7 @@ gastrojournal.ch,myanimelist.net##.footer-social-media
 gastronom.ru##.js-bother
 gastronom.ru#?#section > div.text > div.row:has(> div.share-common)
 gatesnotes.com##.article_top_metricsItemCircle
+gatesnotes.com,surabaya.kompas.com,thairath.co.th##.buttonShare
 gatewayhispanic.com##.chromenews_social_contacts_widget
 gauchazh.clicrbs.com.br##button:has(> svg > path[d^="M236.24,"])
 gaugau.futabanet.jp,ranker.com,ico-converter.software.informer.com,woman.ru##.button__share
@@ -19219,6 +19222,8 @@ maxpreps.com##.mp-share-widget
 maxroll.gg##main div.mt-2:has(> div.flex > span[title^="Share"])
 mayak.org.ua##.article-item__social
 mazimazi-party.com##.add
+maziyabacity.com,audee-membership.jp##.MuiBox-root:has(> .react-share__ShareButton)
+maziyabacity.com,audee-membership.jp##button.MuiButtonBase-root.MuiIconButton-root:has(> svg[data-testid^="Share"])
 mbk-news.appspot.com,mbk.news##.evo-single-footer
 mbn.co.kr##.sns_right > ul > li > a[href] > img[id="share_katalk"]
 mbn.co.kr##.sns_right > ul > li > img[onclick^="snsShare"]
@@ -22232,6 +22237,7 @@ redgifs.com#?#.PopOverMenuList:has(> h4.PopOverMenuList-Title:contains(Social Sh
 redgol.cl,lapaginamillonaria.com,bolavip.com##.article-head-social-links
 redhat.com##.block--sharelinks
 redhat.com##.rh-social-share--component
+redheadsound.studio#?#.col-side > div.side-block > div.side-block__title:has( > p:contains(МЫ ВКОНТАКТЕ))
 redice.tv###s1
 redice.tv###s2
 redkiwiapp.com##article > .hidden:has(#copy-link-button)
@@ -22655,7 +22661,6 @@ saiyasune.com#?#div[id]:has(> a.modal-syncer:contains(当サイトはリンク�
 sakarabo.blog.jp##.social_menu
 sakaryadanhaber.com##.sn-entry > .row > .share
 sakaryagazetesi.com.tr,esgazete.com,sehrivangazetesi.com,aydinpost.com,turkgun.com##.share-area > div.social-buttons
-sakura-wks.com,mailwise.cybozu.co.jp##.p-sns-button
 sakura.ad.jp##.social-button-wrap
 sakurafile.com##.filepanel a[href^="javascript:share_"]
 sakurafile.com#?#.filepanel > tbody > tr > td > ul:only-child > li > a[href^="javascript:share_"]:upward(3)
@@ -22852,6 +22857,7 @@ sensatsiya.com#%#//scriptlet('remove-in-shadow-dom', '.ss-shr')
 sensatsiya.com#?#.wpb_wrapper > div.td_block_wrap:has(> div.td-block-title-wrap > h4.td-block-title > span:contains(Читай нас в соцмережах))
 sensatsiya.com#?#.wpb_wrapper > div.td_block_wrap:has(> div.td-block-title-wrap > h4.td-block-title > span:contains(Читай нас в соцмережах)) + div.td_block_wrap
 sensorstechforum.com##.apss-social-share
+sentaku.co.jp#$##editor { padding-top: 25px !important; }
 seohorsesense.com###panel-3
 seolaboratory.jp##.sns_box_single
 seolaboratory.jp##.social-box-n
@@ -23774,7 +23780,6 @@ superesportes.com.br###shareitens
 superesportes.com.br###shareitensInf > a[id^="share"]
 superfullhdfilm.com##.filmcontent > #alt
 superguidatv.it##.sgtv_divRowContent_messenger_subscribe
-superhaber.com,baikal-journal.ru,syurui.co.jp,miglink.ru,foodwatch.org,pnp.ru,frankmedia.ru,dualshockers.com,hardcoregamer.com,thecollector.com,theloadstar.com,howtogeek.com,ukdevilz.com,tyler-brown.com,actionviewphotography.com,howtogeek.com,rhg.com,hromadske.radio,pocket-lint.com,newslab.ru,thepointsguy.com,cbr.com,thegamer.com,expres.sk,hdgay.net,gamerant.com,minjust.gov.by,sanliurfaolay.com,screenrant.com,telerama.fr,exporntoons.net,mat6tube.com,incehesap.com,ayntec.com,sibtok.com,capiche.com,mannheimer-morgen.de,naointendo.com.br,texasobserver.org,bigleaguepolitics.com,zebra-tv.ru,numberempire.com,infobyip.com,pingvin.pro,currenttime.tv,webqc.org,noodlemagazine.com,mos.ru,sbs.com.au,xelent.ru,fussball.de,gamezebo.com,fr.de,sovsport.ru,oglobo.globo.com,metrolyrics.com,ad.nl,life.ru,mopo.de,antenne.de,m.health.chosun.com,fnp.de,bbc.co.uk,blackberry.com,boostinspiration.com,celebritybabyscoop.com,cityam.com,core77.com,creatorrepublic.com,download.cnet.com,futurity.org,hackaday.com,investopedia.com,kg-portal.ru,metacritic.com,minimaxir.com,pgatour.com,pigeonsandplanes.com,techfounder.net,thesun.co.uk,tmz.com##.sharing
 superiorwallpapers.com#$##subscribe.uk-modal { display: none!important; }
 superiorwallpapers.com#$#body[style="padding-right: 17px;"] { overflow: visible!important; padding-right: 0!important; }
 superiorwallpapers.com#$#html.uk-modal-page { overflow: visible!important; }
@@ -23791,7 +23796,6 @@ superuser.com,stackoverflow.com,askubuntu.com##.js-social-container
 support.google.com##.social-sharing-widgets
 support.microsoft.com##.ocArticleFooterShareContainer
 support.microsoft.com##.ocArticleFooterShareLinksWrapper
-surabaya.kompas.com,thairath.co.th##.buttonShare
 sure-i.co.jp##.p-entry-footer
 surfguru.com##.contentBookmarks > a:not(#comments)
 surfingbird.ru###js-share
@@ -26446,6 +26450,7 @@ zeit.de##.article-sharing
 zeit.de##.sharing-menu
 zelda.com##.main-footer__share__facebook
 zelenograd.ru,amp.vesti.ru##.soc-btn
+zelvia.co.jp,sakura-wks.com,mailwise.cybozu.co.jp##.p-sns-button
 zenger.news##.module-social-share-wrapper
 zenmate.com#@#.social-networks
 zenodo.org#?#.well > h4:contains(Share)

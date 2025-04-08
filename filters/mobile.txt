@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-07 16:30:50 RPC
+! Updated: 2025-04-08 09:43:25 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4380,6 +4380,7 @@ alfalfalfa.com###microad_native
 alfalfalfa.com##.adsbox_responsive
 alfalfalfa.com##.dw_ads_sec
 alfalfalfa.com##div[style="float: left; width:336px;height:280px;margin-bottom: 70px;"]
+alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
 ali213.net###ali-js-4
 ali213.net###tmp_ggao
 ali213.net###tv
@@ -9301,6 +9302,7 @@ freekaamaal.com###ftrbgdiv
 freeoffice.com##.nav-banner-top
 freeonlinegames.com###cwarn-box
 freepik.com###layer_coupon,.ad
+freepornvideo.*##.mobi-start
 freepublicporn.com##div[class*="boxes-mobile"]
 freerider.ro##.test
 freesoft-100.com###relational_tag
@@ -15292,6 +15294,7 @@ moviepilot.de##section[itemprop="articleBody"] > div[class^="sc-1sz7y6m-"]
 movieplayer.it###adv-head
 movies.yahoo.co.jp##div[class^="display-ad"]
 moviesjoy.*,himovies.to###gift-top
+moviewalker.jp##.footerBnr
 moviewalker.jp##div[id^="mw-s_all"]
 moviewalker.jp##div[style*="min-width:320px;"]
 moviewalker.jp##header ~ div[style^="margin-top:10px;"]
@@ -17171,6 +17174,8 @@ post.m.smzdm.com##div.testin-container
 post.tv-asahi.co.jp##.sp-ad2
 postimees.ee#$#.device-phone .header--sticky { top: 0 !important; }
 postimees.ee,mi.com,analyticsvidhya.com,mega.nz,latestlaws.com,express.co.uk,yan.vn,mobil.n-tv.de,buyon.ru##.download-app
+posylka.net#$#.plugin-banner { display: none !important; }
+posylka.net#%#//scriptlet('remove-class', 'has-plugin-banner', 'body')
 potreningu.pl##.mobile-popup-window
 povo.jp###sectionApp
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
@@ -20280,7 +20285,6 @@ turbopages.org##.page__result > div[class*="type_native"]
 turbopages.org##.turbo-advert
 turbopages.org##div[class*="type_adfox"]
 turizmekstra.com##img[src^="https://www.turizminsesi.com/d/banner/"]
-turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
 turkiye.gov.tr,teb.com.tr#$##smartbanner.ios { display: none!important; }
 turkiye.gov.tr,teb.com.tr#$#html { margin-top: 0!important; }
 turkmenportal.com##.modal_download_app
@@ -21454,6 +21458,9 @@ wordlm.com##div.ad.mt1
 wordreference.com##a[title$=" App"]
 work.ua##.b-install-app
 workercn.cn#@#.ad_main
+world-weather.info###m-bt
+world-weather.info##.b-m
+world-weather.info##.hide-bl
 world.huanqiu.com##.ad_bot
 world.huanqiu.com##.ad_txt
 world.huanqiu.com##.img_flow.ad_all
