@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-10 09:43:17 RPC
+! Updated: 2025-04-10 16:30:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10918,6 +10918,7 @@
 @@||cdn.flowplayer.com^*/share.min.js
 @@||channel.facebook.com^$domain=facebook.com
 @@||cio.com.br/wp-content/plugins/add-to-any/addtoany.min.css
+@@||cloudfront.net^$font,domain=magicseaweed.com
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/instafeed.min.js$~third-party
 @@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
 @@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
@@ -21333,6 +21334,7 @@ pen-online.jp##.p-article__intro-sns
 pen-online.jp##.p-article__intro-util
 pengusahamuslim.com##.SMYouTubesubscribe_Widget
 pennlive.com##.sharebarBetaWrapper
+penntoday.upenn.edu##.social-anchor-group
 pensador.com##.total-shares
 pensador.com,dicio.com.br,significados.com.br,dicionariodenomesproprios.com.br##.sg-social
 pentayazilim.com##.social-share-field

@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-10 09:43:17 RPC
+! Updated: 2025-04-10 16:30:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24066,6 +24066,7 @@
 @@||assets.jimstatic.com/cookieControl.js$domain=steuerkreuz.net
 @@||assets.oneweb.mercedes-benz.com/plugin/cmm-cookie-banner/
 @@||assets.travix.com/client/cookie-banner-$script
+@@||assets.travix.com/client/cookie-banner-container-*.js$domain=budgetair.com
 @@||assets.travix.com/client/cookie-banner-container-*.js$domain=vliegwinkel.nl
 @@||astrogaming.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$script,~third-party
 @@||atlasbiomed.com/_next/static/*/pages/cookie-policy.js
@@ -29749,6 +29750,7 @@ buderus.de##.tt-mybuderus-common-cookiebar
 buderus.de##.tt-mybuderus-common-cookieNavBarWrapper + #tt-mybuderus-common-margin-top-helper
 buderus.de##.tt-mybuderus-common-cookieNavBarWrapper > .cookie-manager-portlet
 budgetair.*,cheaptickets.*,flugladen.de##+js(set-cookie, cookieConsentLevel, functional)
+budgetair.com##body > .exzZOy
 budgetinsurance.com##.elementor-popup-modal
 budgetmobiel.nl###cookie-wall
 budgetplant.de##.eXzyTx
@@ -38849,6 +38851,7 @@ ilfruttarolo.it###decretopr
 ilgiornale.it,comingsoon.it,beachcam.meo.pt,protothema.gr#%#//scriptlet('trusted-click-element', '.qc-cmp2-summary-buttons > button[mode="secondary"] + button[mode="secondary"]')
 illicopharma.com,motointegrator.de,optisweb.com,petcure.nl###fancybox-overlay
 illicopharma.com,motointegrator.de,optisweb.com,petcure.nl###fancybox-wrap
+illust-ac.com,kymillman.com,blog.risingstack.com,blue-tomato.com###cookie-consent-box
 ilmanifesto.it##.info-banner
 ilmattino.it,leggo.it##+js(trusted-click-element, .accept[onclick="cmpConsentWall.acceptAllCookies()"])
 ilmattino.it,leggo.it##+js(trusted-click-element, .accept[onclick="cmpConsentWall.acceptAllCookies()"], , 2000)
@@ -40894,7 +40897,6 @@ kyffhaeuser-nachrichten.de,cagematch.net,bfr.de,master-and-more.de,nnz-online.de
 kyivindependent.com##.Footer_cookies__3_gEh
 kyivindependent.com##div[class*="Footer_cookies"]
 kyivindependent.com##div[class^="Footer_cookies__"]
-kymillman.com,blog.risingstack.com,blue-tomato.com###cookie-consent-box
 kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-analytics, no)
 kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-necessary, yes)
 kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-toiminnalliset-evasteet, yes)
@@ -42641,6 +42643,7 @@ maximum.com.tr##.sticky_cookie_warning
 maximum.com.tr##.ucookieC
 maximum.com.tr#?#.sticky_cookie_warning:has(> a[href^="/TR/gizlilik-politikamiz/Sayfalar/gizlilik-politikamiz.aspx"])
 maxkuchnie.pl#%#//scriptlet("abort-current-inline-script", "$", "initRodoWindow();")
+maxmind.com###global-privacy-control-check
 maxmind.com###mm-ccpa-notice
 maxmo.de#%#//scriptlet('set-cookie', 'cookie-preference', '1')
 maxppp.com###noticePopup
@@ -46590,7 +46593,7 @@ perspektiven-finden.com##div[id^="mod-eu-cookies"]
 perthnow.com.au##.cookie-consent--normal
 peruffo.com##.op-cookie-modal
 perungiorno.it###x1d_choise
-pervyi-tv.online##+js(set-cookie, cookieIsAgree, true)
+pervyi-tv.online,limehd.tv,litehd.tv,russia-tv.online##+js(set-cookie, cookieIsAgree, true)
 perwoll.com.tr,bref.com.tr,vernel.com.tr##.global-cookie-bar
 pesc.ru##.deal-cookie
 petalmail.com###bannerBox

@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-10 09:43:17 RPC
+! Updated: 2025-04-10 16:30:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2597,6 +2597,7 @@
 @@||assets.jimstatic.com/cookieControl.js$domain=quijote-kaffee.de
 @@||assets.jimstatic.com/cookieControl.js$domain=steuerkreuz.net
 @@||assets.oneweb.mercedes-benz.com/plugin/cmm-cookie-banner/
+@@||assets.travix.com/client/cookie-banner-container-*.js$domain=budgetair.com
 @@||assets.travix.com/client/cookie-banner-container-*.js$domain=vliegwinkel.nl
 @@||assure.ameli.fr^*/smart-app-banner.js$~third-party
 @@||atlasbiomed.com/_next/static/*/pages/cookie-policy.js
@@ -5656,6 +5657,7 @@ bubilet.com.tr##.mobile-cookie
 buch-deine-reise.de,alltours-reisecenter.de##.cfmCookieLayer
 buderus.de##.tt-mybuderus-common-cookieNavBarWrapper + #tt-mybuderus-common-margin-top-helper
 buderus.de##.tt-mybuderus-common-cookieNavBarWrapper > .cookie-manager-portlet
+budgetair.com##body > .exzZOy
 budgetplant.de##.eXzyTx
 budni.de##div[class*="CookieBar__CookieBarContainer"]
 budni.de#$##grey-overlay { display: none !important; }
@@ -9882,6 +9884,7 @@ iledefrance-mobilites.fr#@#.cookies-banner
 ilfattoquotidiano.it##.cc-policy-update
 ilfattoquotidiano.it#%#//scriptlet('trusted-click-element', '#cl-consent .cl-consent__buttons > .cl-consent__btn[data-role="b_agree"]')
 ilgiornale.it,comingsoon.it,beachcam.meo.pt,protothema.gr#%#//scriptlet('trusted-click-element', '.qc-cmp2-summary-buttons > button[mode="secondary"] + button[mode="secondary"]')
+illust-ac.com,kymillman.com,blog.risingstack.com,blue-tomato.com###cookie-consent-box
 ilmattino.it,leggo.it#$##richiesta_accettazione_abbonamento { display: none !important; }
 ilmattino.it,leggo.it#$#html { overflow: auto !important; }
 ilmotorsport.de#$##cookie-info-modal { display: none !important; }
@@ -10913,7 +10916,6 @@ kvno.de#$#body { overflow: auto !important; }
 kwork.com,kwork.ru##.info-cookie-uses
 kyffhaeuser-nachrichten.de,cagematch.net,bfr.de,master-and-more.de,nnz-online.de,ev-kirchenkreis-suedharz.de,probier-club.de###cookiedingsbums
 kyivindependent.com##div[class^="Footer_cookies__"]
-kymillman.com,blog.risingstack.com,blue-tomato.com###cookie-consent-box
 kyoceradocumentsolutions.*#$?#div[data-gdpr] { remove: true; }
 kyoceradocumentsolutions.*#%#//scriptlet('remove-attr', 'inert')
 kyoceradocumentsolutions.us#%#//scriptlet('set-cookie', 'essentialsCookies', 'true')

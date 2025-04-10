@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-10 09:43:17 RPC
+! Updated: 2025-04-10 16:30:35 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2250,7 +2250,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -5292,6 +5292,7 @@ baidu.com##.wgt-bottom-ask
 baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
+baidu.com##a[class*="fengchaoContainer"]
 baidu.com##div.egg-bubble
 baidu.com##div.FYB_RD
 baidu.com##DIV.navs-bottom-bar
@@ -10222,6 +10223,7 @@ h5.m.taobao.com##DIV[style='display: flex; overflow: hidden; background-color: r
 h5galgame.com##IMG[src^="http://up.h5gal.cc/data/attachment/portal/201"]
 ha.xinhuanet.com##[height="70px"]
 haaretz.com#?#section[data-test="zapp"] > div[class] > div[class]:has(> div[class] > div[class] >  div.js-dfp-ad)
+haber.mynet.com##.app-link-container
 haber.sol.org.tr##div[style^="height:200px;"][style*="width:100%;"]
 haber.sol.org.tr#?#.tex2jax_process > div[aria-label="div widget"]:has(> div.ckewidget-container > div.ckewidget-editor-border a[href="https://t.me/solhaber"])
 haber7.com###makroo-sticky-adunit
@@ -16988,7 +16990,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -34971,6 +34973,7 @@ _zhike.htm
 ||dustyhammer.com^
 ||dustyrabbits.com^
 ||dustywave.com^
+||duuddots.com^
 ||duyewnf.icu^
 ||duyhlct.icu^
 ||dv0i.icu^
@@ -35459,6 +35462,7 @@ _zhike.htm
 ||enabler.datalake.mediaset.it^$important
 ||ename.com.cn^
 ||ename.net^
+||enbg.cn^
 ||enchantedjudge.com^
 ||enchantedskyline.com^
 ||enchantingdiscovery.com^
@@ -43127,6 +43131,7 @@ _zhike.htm
 ||miycoc.xyz^
 ||miyudaquan.top^$third-party
 ||mjbidlg.icu^
+||mjik.cn^
 ||mjimtyx.top^
 ||mjp-analytics.ximad.com^$important
 ||mjvr.cn^
@@ -51407,6 +51412,7 @@ _zhike.htm
 ||textlinks.com^$important
 ||textmine-d.openx.net^$important
 ||texturetrick.com^
+||tezlpl.icu^
 ||tf.360.cn^
 ||tf58.com^
 ||tfag.de^$important
@@ -53428,6 +53434,7 @@ _zhike.htm
 ||veryt111.fun^
 ||veta.naver.com^
 ||vevhjj.xyz^
+||vezeqzyb.com^
 ||vfbprod2.personifycloud.com^$important
 ||vfdvdfv77.fun^
 ||vfdvdg67.fun^
@@ -53710,6 +53717,7 @@ _zhike.htm
 ||vqbzpv.xyz^
 ||vqle.cn^
 ||vqlwoy.xyz^
+||vqnjrz.top^
 ||vqq.admaster.com.cn^$important
 ||vraataidz.com^
 ||vragridsn.com^
