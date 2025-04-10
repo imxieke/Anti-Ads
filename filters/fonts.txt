@@ -1,6 +1,6 @@
 ! Title: Block Third Party Fonts
 ! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
-! Updated: 2025-04-08 09:43:25 RPC
+! Updated: 2025-04-10 09:43:17 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -54,6 +54,7 @@
 @@||cdn.coollabs.io/fonts^
 @@||fast.fonts.net/jsapi/$script
 @@||fontawesome.com^
+@@||fontlay.com^
 @@||fonts.bunny.net^
 @@||fonts.googleapis.com$domain=abc.xyz|advancedmd.com|android.com|blog.google|blogger.com|browser.works|chromium.org|cloud.digitalocean.com|entertrained.app|freetaxusa.com|fmoviesz.to|gaggle.fun|google.com|googlesource.com|grow.google|groq.com|loanadministration.com|myeducator.com|nerdfonts.com|reedsy.com|reliaslearning.com|shop.flipperzero.one|socialworkers.org|googleapps.com|vocabulary.com|web.dev|youtube.com
 @@||fonts.googleapis.com/css?$domain=onlyfans.com|google.com|translate.google.fr|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
@@ -91,6 +92,7 @@
 ||fontawesome.com^$third-party
 ||fontdeck.com^$3p
 ||fontdeck.com^$third-party
+||fonts-api.wp.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.advance.net^$third-party
 ||fonts.bauernet.me^
@@ -116,6 +118,7 @@
 ||fonts.ub-assets.com^$3p
 ||fonts.voxmedia.com^$3p
 ||fonts.voxmedia.com^$third-party
+||fonts.wp.com^$3p
 ||gannett-cdn.com^*/fonts/$font,3p
 ||gannett-cdn.com^*/fonts/$font,third-party
 ||gannettdigital.com^*/fonts/$font,3p
