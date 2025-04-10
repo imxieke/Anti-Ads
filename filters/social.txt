@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-10 16:30:35 RPC
+! Updated: 2025-04-11 00:27:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15980,6 +15980,7 @@ gametyrant.com##.gametyrantSocial
 gamevicio.com##.sharer_content_box
 gamewith.jp##.article-share-btn-wrap
 gamewith.jp##.article-share-btn-wrap-mb
+gamewith.jp##.w-share-ui
 gamewith.jp##.w-share-wrap
 gamingbible.com,ladbible.com#?#ul[class^="css-"]:has(> li > button[aria-label="share on Facebook"])
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.share-link_container__q9th7
@@ -19518,6 +19519,8 @@ mildom.com##.cmKRPL
 milenio.com###share-icons-container
 milenio.com##.google-news-follow
 milenio.com##.info-networks
+militarnyi.com##.news-content-copy > div.line-divider
+militarnyi.com##.news-content-copy > div.line-divider + div.group_np
 military.com##.block--addtoanyadv
 militaryarms.ru##.mrBlack
 militaryarms.ru##.sform_main_container
@@ -20802,6 +20805,7 @@ nydailynews.com,glamourmagazine.co.uk,wired.co.uk##.a-share
 nypost.com##.floating-share
 nypost.com##.floating-share-wrap
 nypost.com##.select-share
+nysenate.gov##.nys-openleg-result-share
 nytimes.com##.more-share-item
 nytimes.com##button[aria-label*="sharing"]
 nytimes.com##div[data-testid="share-tools"] li:not([class^="css-"])
@@ -21528,6 +21532,7 @@ plus.ananweb.jp##article > nav.social
 plus.nhk.jp##.stream_panel--info--header > div.stream_panel--actions > button
 pluska.sk##button-facebook-share
 plusstyle.jp###float_btn
+plvideo.ru##div[data-description="stack-wrapper"] ~ button:has(svg.platfrom-icon-ic_m_upload)
 pmc.ncbi.nlm.nih.gov##.ncbi-footer__icon-section
 pnas.org###shareit
 pnas.org##li:has(> a[href="#core-collateral-share"])
@@ -24942,6 +24947,8 @@ trustedreviews.com##.total-share-count
 trustpilot.com##.brand-share-button-wrapper
 trustpilot.com##button[name="share-review"]
 truthdig.com###menu-social-navigation-1
+truthsocial.com##div[data-testid="dropdown-menu"] > ul > li.truncate:has(> a[role="button"][title^="Share @"])
+truthsocial.com##div[data-testid="status-action-bar"] > div.items-center:has(> button[aria-label="Share"])
 trutravels.com##.follow_us_icons
 trv-science.ru,gateworld.net,smartbobr.ru##.wc-share-link
 try-it.jp##.C--ahaArea

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-10 16:30:35 RPC
+! Updated: 2025-04-11 00:27:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5902,6 +5902,7 @@ blog.163.com##.m-regGuideLayer.f-trans
 blog.163.com##.postadlayer
 blog.163.com##.wrapperbg{height: 151px;}
 blog.163.com##div[class$="lofteriframe"],[class$="kaolaadv"],div#lofter_single,div#blog-163-com-toptips,.w-mobiletopad,#moudle121,.down-to-kaola,.m-kaolahg,[class^="lofteriframewrap"],.w-mobileadbanner,.m-regGuideLayer,.m-kaolaadv,.m-lofteriframe
+blog.2nt.com##.fc2spad_noactive + div[style="font-size:8px;"]
 blog.51cto.com##.ac-box
 blog.51cto.com##.relatedArt.box
 blog.51cto.com##li.creative > a.task
@@ -12424,6 +12425,7 @@ juejin.cn##.recommend-box
 juejin.im##.banner-section
 juejin.im##.feedAdsense
 juetuzhi.net##INS.adsbygoogle,DIV.box-right2
+juken-mikata.net##.\31 th-ad
 juken.oricon.co.jp#$#div[style="min-height:100px;"] { min-height: 0 !important; }
 jukenbbs.com##body > div[style^="box-sizing:border-box; width:100%; max-height:100px; background-color:#"][style$="overflow:hidden;"]
 jukenbbs.com##div[style="margin-top:10px; margin-bottom:10px; text-align:center;"]
@@ -14712,6 +14714,7 @@ maxthon.cn##.tmall-nav-v2
 maxthon.cn##.top-right-pop-wrapper
 mayi.com###floatingLayer
 mayoclinic.org##.cmp-mobile-advertisement
+maziyabacity.com##.jss151
 mb.jorudan.co.jp##.area > div[height="50"][style="height:50px !important;"]
 mbasic.facebook.com,d.facebook.com,free.facebook.com,free.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mbasic.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,d.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,0.facebook.com,0.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 mbd.baidu.com###content_wrapper + div + .default-container
@@ -17079,6 +17082,7 @@ pointtown.com##.c-introduction-regist-app
 pointtown.com##.c-under-ad
 pointupmall.com###f-banner
 pokebattler.com##.container > div.row:has(> div[class^="col-"] > a[href^="https://play.google.com/store/apps/details?id=com.pokebattler.raidParty"])
+pokeca-zanmai.jp##.mobile-anchor-ad
 pokemonbbs.com##.Ads_sp_foot
 pokemongo-get.com###text-26.widget-over-sns-buttons
 pokemongo-get.com##.mt-40.mb-10
@@ -19739,6 +19743,7 @@ thedailybeast.com###view-offer
 thedailystar.net##.app-link-wrapper a[href="https://play.google.com/store/apps/details?id=com.mcc.thedailystar"]
 thedailystar.net##.app-link-wrapper a[href^="https://itunes.apple.com/us/app/the-daily-star/"]
 thedailystar.net##.special-block
+thegay.com##.video-page > div:not(.video-page__content):has(> div > div >  iframe[width="300"][height="100"])
 thegreatcourses.co.uk###uk-banner-background
 thegreatdaily.com##[id^="ads"],#fbbox,.adsbygoogle,#rightAds
 thegreatdaily.com/cat##.col-lg-8.col-md-8{width:1190px;}
@@ -20362,6 +20367,7 @@ tvsou.com##.story_ad_ios
 tvsou.com##[class="clearfix border-btn relative"],[class="shadow recommend-img mt-20"],[class="clearfix border-btn"][style],[class="shadow recommend-img"],.adv-box
 tvspielfilm.de##.livetv-ad-bottom
 tvtropes.org##.proper-ad-unit
+tvtropes.org#%#//scriptlet('set-cookie', 'app-announcement-banner-guest', '1')
 tvyun07.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 tw.appledaily.com##.THISISANADHERE
 tw.beanfun.com###flybeanfun
