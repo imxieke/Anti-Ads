@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-11 00:27:36 RPC
+! Updated: 2025-04-11 09:44:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26073,6 +26073,7 @@ wng.org##.st-sticky-share-buttons
 wnl.tv##.c-block__share
 wnp.pl##.wrap-1 > ul.list-13 > li > a:not([href^="#"])
 wohnglueck.de##.mod-articlesharing
+wolfmax4k.com##button[data-remote^="/modal/share"]
 woman-calendar.jp##.sns-area
 woman-calendar.jp,mtg-jp.com,sirogohan.com,sportsseoul.com,konosuba.com,dshopping-3ple.docomo.ne.jp,mayonez.jp,lg.com,dragon-ball-official.com,idolmaster-official.jp,mrs.living.jp,shopping-3ple.dmkt-sp.jp,3ple.jp,biglobe.ne.jp,fanclove.jp,mitsui-shopping-park.com##.sns-area
 woman.at##.md_social_wrapper

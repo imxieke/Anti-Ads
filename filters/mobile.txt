@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-11 00:27:36 RPC
+! Updated: 2025-04-11 09:44:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28793,6 +28793,7 @@ _zhike.htm
 ||api.zhuti.xiaomi.com/app/v9/uipages$replace=/adInfo//
 ||api.zwizzarmyknife.com^$important
 ||api16-access-sg.pangle.io/api/ad^
+||api16-access-ttp*.tiktokpangle-b.us^
 ||api2.appscraft.mobi/banner/get_banners.php
 ||api2.batmobi.net^$important
 ||api2.bounceexchange.com^$important
@@ -41357,6 +41358,7 @@ _zhike.htm
 ||lf-hl.snssdk.com/*/article/information/
 ||lf-hl.snssdk.com/search/suggest^
 ||lf-hl.snssdk.com/ugc/publish^
+||lf-static.tiktokpangle-cdn-us.com^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfflvh.icu^
 ||lfjslil.top^
@@ -51610,6 +51612,7 @@ _zhike.htm
 ||tiimg.com^$domain=678cn.com
 ||tiimg.com^*.gif
 ||tikivn.api.sociaplus.com^$important
+||tiktokpangle.us^
 ||tile-api.inrix.com^$important
 ||tile0.locatienet.com^$important
 ||tile1.locatienet.com^$important
