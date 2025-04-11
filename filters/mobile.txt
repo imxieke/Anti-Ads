@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-11 09:44:00 RPC
+! Updated: 2025-04-11 16:28:40 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1234,7 +1234,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2250,7 +2250,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -16991,7 +16991,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -32251,6 +32251,7 @@ _zhike.htm
 ||chubun.com/images/banners/
 ||chubun.com/uploads/pic/img
 ||chuccipkn.com^
+||chugveasoy.com^
 ||chuiyao.com/static/js$script
 ||chumanzi.com/wap
 ||chumealq.com^
@@ -40254,6 +40255,7 @@ _zhike.htm
 ||jmd.co.jp/api/linkimg.php?imgid=JMD_Application_
 ||jmesxbe.icu^
 ||jmhfw.com/index.php?/ajax/get_adv/
+||jmif.cn^
 ||jmipzsn.icu^
 ||jmp9.com^$important
 ||jmty.jp/s/geniee/
@@ -40724,6 +40726,7 @@ _zhike.htm
 ||kcaactpkyp.com^
 ||kccdk.com/Content/img/*.gif
 ||kcfdom.com^
+||kcglsiv.icu^
 ||kcinmad.top^
 ||kcinvdd.top^
 ||kclimid.top^
@@ -47895,6 +47898,7 @@ _zhike.htm
 ||ruthlessmilk.com^
 ||ruthlessrobin.com^
 ||ruuaqkw.com^
+||ruvgbv.icu^
 ||ruyig.com/730x76.png
 ||rv-gateway.supersonicads.com^$important
 ||rva.outbrain.com^$important
@@ -47906,6 +47910,7 @@ _zhike.htm
 ||rvxsvwqf.icu^
 ||rw.yieldmo.com^$important
 ||rwdjrn.icu^
+||rwix.cn^
 ||rwpt.top^
 ||rxdsj.com/Runtime/js/vod
 ||rxfygd.cn^
@@ -48133,6 +48138,7 @@ _zhike.htm
 ||sagittarius.iad-01.braze.com^$important
 ||sahqoo.com^
 ||saizih.com^
+||saktuddo.com^
 ||salary.xiao84.com^
 ||sale.test.admicro.vn^$important
 ||saledev.admicro.vn^$important
@@ -48921,6 +48927,7 @@ _zhike.htm
 ||sfacg.com/JS/New/j
 ||sfesdef6.fun^
 ||sfg-d.openx.net^$important
+||sfile.top^
 ||sfilm.com^
 ||sfjslib.top^
 ||sfkldbkldgdgh.com^
@@ -50553,6 +50560,7 @@ _zhike.htm
 ||straightnest.com^
 ||straightnest.com^$important
 ||strakuty.com^
+||strakvad.com^
 ||straldrier.com^
 ||stralotsb.com^
 ||strangeclocks.com^
@@ -55120,6 +55128,7 @@ _zhike.htm
 ||xlxehr.xyz^
 ||xmaterial.tu.qq.com^
 ||xmbhj.com^
+||xmcdn.com/storages/f651-customerservice/E3/40/GAqhntALzRUHAAJ3LgOTtToZ.
 ||xmcimg.com/js/m.js
 ||xmfish.com/shw/$script
 ||xmgysweb.com^
@@ -55261,6 +55270,7 @@ _zhike.htm
 ||xwdjnj.xyz^
 ||xwdsp.com^
 ||xwma.cn^
+||xwtylm.top^
 ||xwuad.com^
 ||xwvnhe.cn^
 ||xx.c.appier.net^$important
@@ -56160,6 +56170,7 @@ _zhike.htm
 ||zq.lansedir.com^
 ||zq84.com^
 ||zqgixxp.icu^
+||zqifmyt.icu^
 ||zqkxlf.com^
 ||zqntbc.top^
 ||zqzxz.com^
