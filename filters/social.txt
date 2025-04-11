@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-11 16:28:40 RPC
+! Updated: 2025-04-12 00:27:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10471,7 +10471,6 @@
 /share_wechat.png
 /share_weibo.jpg
 /share_weibo.png
-/shariff.complete.js
 /shariff.min.js
 /sharing/sprites/*
 /sharing_buttons.js
@@ -10752,7 +10751,6 @@
 24ur.com##.w-full.md\:w-auto.h-full.flex.flex-row.items-center.justify-center.md\:justify-start.pt-16.md\:pt-0.border-t.md\:border-none.border-black\/10.dark\:border-white\/10
 24xxx.*,mob.bigbos.name#?##oframeflashcontent > pjsdiv[style]:has(> pjsdiv[style^="position:"]:contains(В ЭФИРЕ)) + pjsdiv
 29.ru#?#.central-column-container div > p[class]:contains(Поделиться)
-2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 2ch.logpo.jp##.Tweet
 2daygeek.com##body > div[id^="spu-"]
@@ -11434,6 +11432,7 @@ alekhbariya.net##.icon-bar
 aleteia.org##.ShareBar_link__3gR4V
 aleteia.org##.Socials_social_links__T3MJv
 alexgoldcheidt.com##.entry-content > div[align="center"] > a[href^="//www.alexgoldcheidt.com/go/share-"][target="_blank"]
+alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
 alfabank.ru##div[class] > div[style]:has(> div > div > a[href^="http://vk.com/share"])
 alfafile.net##.social-l
 alfredopedulla.com##.fb-banner
@@ -11621,6 +11620,7 @@ android-smart.com###tb > label[for="scv"]
 android.jlelse.eu,codeburst.io##a[href*="/share/facebook?source="]
 android.jlelse.eu,codeburst.io##a[href*="/share/twitter?source="]
 android.jlelse.eu,codeburst.io#?#div:has(> a[href*="/share/twitter?source="]) + div:has(> button > svg > path)
+androidadult.com##.box.support
 androidauthority.com###text-44
 androidauthority.com##.single_share_block
 androidauthority.com##main button[type="button"]:has(+ div[class] > .viafoura > div[data-widget="sharebar"])
@@ -13302,6 +13302,7 @@ christian.org.uk##.content__sharing
 christianity.com###facebookLike
 christianity.com###socialArticle
 christianitytoday.com,sfexaminer.com,sfweekly.com##.follow-links
+chromewebstore.google.com##.BTQQIf
 chroniclelive.co.uk##.sharebar > ul > .count-shares
 chroniclelive.co.uk##.sharebar > ul > .sharebar-provider
 chroniclelive.co.uk##.up-next--share
@@ -17200,6 +17201,7 @@ imdb.com###social-share-widget
 imdb.com##.chart-social-sharing-widget
 imdb.com##div[data-testid="chart-layout-sidebar-title-container"] div:has(> button.sharemenu-iconbutton)
 imdb.com##div[data-testid="hero-subnav-bar-share-button"]
+imdb.com#$#button.sharemenu-iconbutton { visibility: hidden !important; }
 imepic.jp##.page_sosial
 imeteo.sk##.socials__container
 imf.org##button[onclick="toggleSharePopup();"]
@@ -20236,7 +20238,7 @@ netkeiba.com##.Sns_Box
 netmall.hardoff.co.jp##.product-detail-share
 netmeter.eu###shareblock
 netpeaksoftware.com##.social-content-bottom > h3.social__title
-netprizyvu.ru##.currentnews__content div.contacts__links
+netprizyvu.ru##main div.contacts__links
 netvasco.com.br##.side-bar > div.popular:has(> div.compartilhar)
 networkworld.com##.share-source
 netzwelt.de###article > .brdc-gr.reset-to-content
@@ -22769,6 +22771,8 @@ scmp.com##.global-menu-features__share-icon
 scmp.com##.share-widget__share
 scmp.com##.share__twitter-btn
 scmp.com##.youtube-video-container__share
+scmp.com##div[data-qa="HeaderContentShareIcon-StyledIconContainer"]
+scmp.com##div[data-qa="Share-Container"]
 scoop.co.nz###article-tools
 scoopwhoop.com##.articleSocialBtns
 scoopwhoop.com##.share-control > button[class^="sw-share-"]:not(.sw-share-link)
@@ -26208,6 +26212,7 @@ xbiz.com##.tool-list
 xboxdynasty.de#@#.header-socials
 xcom-shop.ru##.card-head-share
 xda-developers-forum.blogspot.com##.post-share-buttons
+xda-developers.com##.btn-share
 xda-developers.com##.et_social_inline
 xda-developers.com##.sharing > a.sharing-btn
 xeberle.com##.momizat-posts:has(> div.widget-head:contains(FACEBOOK))

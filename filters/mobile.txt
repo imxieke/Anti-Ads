@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-11 16:28:40 RPC
+! Updated: 2025-04-12 00:27:22 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9706,7 +9706,7 @@ gate.baidu.com,m.baidu.com###container
 gayforit.eu##div[id^="video_advert"]
 gaytail.com##.happy-before-list
 gaytail.com##.happy-before-video
-gaytxxx.com#?#.video-content > div > div:has(> div > a[href]:contains(Advertising))
+gaytxxx.com#?#div[class^="video-conten"] > div > div:has(> div > a[href]:contains(Advertising))
 gazeta.ru###in-read
 gazeta.ru###_id_pwainstall_popup
 gazeta.ru##div[class^="gazeta-dynamic-ban-"]
@@ -20177,7 +20177,7 @@ transit.yahoo.co.jp###posNM
 transit.yahoo.co.jp##.posMMON
 translate.google.*##div[class][jsname] > div[class] > c-wiz > div[class][jsname][style^="transform: matrix("]
 translate.ru##.download-mobile
-transtxxx.com##.video-content > div[class]:first-child > div[class]:first-child > div[class]:first-child:has(> div[class] > div[id][class]:empty)
+transtxxx.com##div[class^="video-conten"] > div[class]:first-child > div[class]:first-child > div[class]:first-child:has(> div[class] > div[id][class]:empty)
 trashbox.ru##.div_aj_top4_2020
 trashbox.ru##.div_aj_top4_as
 trashbox.ru##.div_landing > div[style="padding-bottom: 30px; padding-top: 0px;"]
@@ -20435,7 +20435,7 @@ txxx.com###im-block_wrapper
 txxx.com##.hYbuslay
 txxx.com##.rek-item
 txxx.com##div[class^="rek-"]
-txxx.com#?#.video-content > div[class] > div > div[class]:has(span:contains(AD))
+txxx.com#?#div[class^="video-conten"] > div[class] > div > div[class]:has(span:contains(AD))
 txxx.com,txxx.tube##.index-page > .wrapper > .row + div[class]
 txxx.com,txxx.tube##.pwa-ad
 txzqw.cc##.ad-text,.tac,#banner,[id^="ads_c_"],[id^="ads_"]
