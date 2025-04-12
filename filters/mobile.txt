@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-12 09:41:14 RPC
+! Updated: 2025-04-12 16:25:11 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1234,7 +1234,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2250,7 +2250,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8676,7 +8676,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16991,7 +16991,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -29934,6 +29934,10 @@ _zhike.htm
 ||banquansuoyou:banbendalao
 ||bans.bride.ru^$important
 ||banzai-d.openx.net^$important
+||banzhu*.com/js/cdn.js$~third-party
+||banzhu*.com/js/html*.js$~third-party
+||banzhu*.net/js/cdn.js$~third-party
+||banzhu*.net/js/html*.js$~third-party
 ||banzhu111.xyz/js/51.js
 ||banzhu111.xyz/js/cdn.js
 ||banzhu33333.net/js/cdn.
@@ -30363,6 +30367,7 @@ _zhike.htm
 ||bgrndi.com^$important
 ||bh.contextweb.com^$important
 ||bh100.com.cn^
+||bhaelkaers.com^
 ||bhaelnieth.com^
 ||bhakte.com^
 ||bhanphevg.com^
@@ -34504,6 +34509,7 @@ _zhike.htm
 ||dj2550.com^
 ||dj97.com/api.php?mod=ad&
 ||djax.com^$important
+||djdedu.net/static/*.gif
 ||djecgyk.icu^
 ||djhuo.com/css/js/whosyourdaddy.js
 ||djicdn.com/uploads/ad_image_file/
@@ -38821,6 +38827,7 @@ _zhike.htm
 ||idg.amp.permutive.com^$important
 ||idgde-d.openx.net^$important
 ||idguk1-d.openx.net^$important
+||idhaiafq.com^
 ||idickeo.top^
 ||idipsumo.top^
 ||iditero.top^
@@ -39760,6 +39767,7 @@ _zhike.htm
 ||iridescentvista.com^
 ||iridiumsergeiprogenitor.info^
 ||irismedia.g2afse.com^$important
+||irkp.cn^
 ||irkrellw.com^
 ||irkrors.com^
 ||iroko.gocarrot.com^$important
@@ -44822,6 +44830,7 @@ _zhike.htm
 ||ooublik.top^
 ||op.octupussharkattack.site^$important
 ||opalquill.com^
+||opdh.cn^
 ||ope.gds.tanx.com^$important
 ||open-adx.com^
 ||open.adview.cn^$important
@@ -46613,6 +46622,7 @@ _zhike.htm
 ||pxl.tsyndicate.com^$important
 ||pxl2015x1.com^
 ||pxqqytk.icu^
+||pxrbnf.icu^
 ||pxtjfmv.xyz^
 ||pxx.tnklrs.cn^$third-party
 ||pxyjqea.icu^
@@ -47907,6 +47917,7 @@ _zhike.htm
 ||rvtest.media.eagleplatform.com^$important
 ||rvtfwryz.icu^
 ||rvxmlj.icu^
+||rvxo.cn^
 ||rvxsvwqf.icu^
 ||rw.yieldmo.com^$important
 ||rwdjrn.icu^
@@ -49140,6 +49151,7 @@ _zhike.htm
 ||showguide.cn/templets/*/qqcenter.js
 ||showguide.cn/templets/*/sg-ad.js
 ||showhaotu.$domain=18board.com|18p2p.com
+||showkkkp.top^
 ||showmeboobs.xyz^$important
 ||showsteel.com^
 ||shredquiz.com^
@@ -50763,6 +50775,7 @@ _zhike.htm
 ||svc-analytics.adkernel.com^$important
 ||svc.analytics.nativeads.com^$important
 ||svc.mobilexsoft.com^$important
+||svcnmtb.top^
 ||svem.cc^
 ||svjj.cn^
 ||svncowt.cn^
@@ -56209,6 +56222,7 @@ _zhike.htm
 ||zutevd.xyz^
 ||zvhlzb.xyz^
 ||zvvlbf.xyz^
+||zvvsjz.top^
 ||zwaar.org^$important
 ||zwdtvx.xyz^
 ||zwgqzgo.icu^
