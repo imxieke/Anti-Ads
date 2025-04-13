@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-13 11:10:02 RPC
+! Updated: 2025-04-13 16:25:33 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2250,7 +2250,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3698,14 +3698,15 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||ozabc.com^$generichide
 @@||p.jwpcdn.com^$script
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|petsafe.com|robertsspaceindustries.com
+@@||pagead2.googlesyndication.com/pagead/*/show_ads_impl$domain=bilinovel.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=allb.game-db.tw|battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|radioviainternet.nl|real-sports.jp|slideplayer.com|sudokugame.org|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=as-selection.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dthforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mcappx.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
@@ -8676,7 +8677,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16991,9 +16992,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30985,6 +30986,7 @@ _zhike.htm
 ||bu1.vvvdj.com^
 ||bubbleads.g2afse.com^$important
 ||bubblesmedia.ru^
+||bubmhm.top^
 ||bubulai.com/js/html.js
 ||bubulai.com/js/xv.js
 ||bubulai.com/js/zv.js
@@ -35762,6 +35764,7 @@ _zhike.htm
 ||evanescentedge.com^
 ||evasivejar.com^
 ||evbk.gamooga.com^$important
+||evcnmtw.top^
 ||evening-badlands-6215.herokuapp.com^$important
 ||event-adserver.adikteev.com^$important
 ||event-logger.tagboard.com.herokudns.com^$important
@@ -38957,6 +38960,7 @@ _zhike.htm
 ||ifengimg.com^*300x600
 ||ifengimg.com^*679.js
 ||ifengimg.com^*couplet$script
+||ifethbrzb.com^
 ||ifeve.com/wp-content/uploads/*/cachekit
 ||ifeve.com/wp-content/uploads/*/WechatIMG
 ||iffobi.xyz^
@@ -41068,6 +41072,7 @@ _zhike.htm
 ||kvinit-prod.api.kochava.com^$important
 ||kviso.com/js/top.js
 ||kvkcei.xyz^
+||kvqp.cn^
 ||kvyyyde.cn^
 ||kwaterd.top^
 ||kweisid.top^
@@ -43704,6 +43709,7 @@ _zhike.htm
 ||mvcat.com/sitefiles/services/cms/adv/
 ||mvcat.com/wx/follow.js
 ||mvcngm.xyz^
+||mvcnmtx.top^
 ||mvirkw.xyz^
 ||mvmqos.xyz^
 ||mvwitz.xyz^
@@ -44271,6 +44277,7 @@ _zhike.htm
 ||nmxxvr.xyz^
 ||nmzbrd.icu^
 ||nnfbxz.icu^
+||nnntxx.icu^
 ||nnvjbb.xyz^
 ||nnwm.com^
 ||no-gmtdmp.mookie1.com^$important
@@ -44665,6 +44672,7 @@ _zhike.htm
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||okead.com^
+||okeaxgugq.com^
 ||okikwul.icu^
 ||okinawaokuyami.com/images/common/app_
 ||okiterk.top^
@@ -44679,6 +44687,7 @@ _zhike.htm
 ||okpp01031.xyz^
 ||okpp01040.xyz^
 ||okpp12311.xyz^
+||okvt.cn^
 ||okwan.cn^
 ||okwfx.cn^
 ||okwjmii.top^
@@ -52544,6 +52553,7 @@ _zhike.htm
 ||tvads.alphonso.tv^$important
 ||tvboxnow.com/adnow.js
 ||tvcdn.netkeiba.com/img.dir/common/img/keibamatome/banner/
+||tvcnmti.top^
 ||tver.jp/img/sd_to_app_banner.png
 ||tveta.naver.net^
 ||tveta.naver.net^$important
@@ -54515,6 +54525,7 @@ _zhike.htm
 ||wuyou.com/0000/$image
 ||wuyou.la^
 ||wv.inner-active.mobi^$important
+||wvcnmte.top^
 ||wvwqywz.cn^
 ||ww*.sinaimg.cn/large^$domain=avtbf.com
 ||ww.x-xn.com^$important
