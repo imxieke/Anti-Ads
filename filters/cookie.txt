@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-13 00:24:37 RPC
+! Updated: 2025-04-13 11:10:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23654,6 +23654,7 @@
 123recht.de###sticky-cookie-warning
 123rf.com##.AgreementBanner__wrapper
 123stahl-shop.de###cookieholder
+12crystalroll34.com,bollywoodlife.com,cashconverters.co.za,india.com,proactiveinvestors.co.uk##.cookies-popup
 12ft.io,ft.com##.o-cookie-message
 12min.com###twlvidck
 12punto.com.tr##.content > div.popup:has(> div.popup-content a[href^="https://12punto.com.tr/cerez-politikasi"])
@@ -23841,6 +23842,8 @@
 4templates.com,epal.gg,thegoodocs.com,thewallsthotel.com##div[class^="cookie__"]
 4webs.es###cookiesdiv
 50plusmatch.fi##+js(set-cookie, cookieconsent, no)
+50plusmatch.nl##.fancybox-container
+50plusmatch.nl##.fc-container
 51015kids.eu,streetstyle24.pl###cookieBan
 511mt.net###cookieBannerHolder
 511tactical.com#$##cookieModal { display:none!important; }
@@ -25756,6 +25759,7 @@ acf.international##div[class^="CookieConsentModal"]
 acffiorentina.com,breastcancer.org,gieffektivt.no,latribet.ec,spline.design,svoi.ru,urbanarmorgear.com##div[class^="CookieBanner_"]
 achat-or-et-argent.fr##.cookies
 achemosgrupe.lt,avikogastro.cz,brockhoff.nl,cibit.nl,dbkeukens.nl,demakelaars.nl,dutchweek.nl,hurenbijwooove.nl,kroftman.com,woontank.nl##.cookiewall
+acidcow.com,amaze.org,artdentis.com,bankofengland.co.uk,breadandbutter.ru,camgo.com,candaceowens.com,castlefineart.com,drgerard.eu,ecosia.org,estately.com,harveynichols.com,jetset-hairextensions.nl,kappahl.com,mageba-group.com,mashable.com,monnik-dranken.nl,motocard.com,nc-planica.si,ncfu.ru,onlinedrugtraining.com,pagetiger.com,pryor.com,publicpositions.com,rex-royal.ch,spartanien.de,tvsquared.com,viboom.com,vidal.ru,vixx.nl,wine-searcher.com,worldtestchampionship.com,xtreme.pt,zonstudio.nl##.cookie-notice
 acidcow.com,amaze.org,artdentis.com,bankofengland.co.uk,breadandbutter.ru,camgo.com,candaceowens.com,castlefineart.com,drgerard.eu,ecosia.org,estately.com,harveynichols.com,jetset-hairextensions.nl,kappahl.com,mageba-group.com,mashable.com,motocard.com,nc-planica.si,ncfu.ru,onlinedrugtraining.com,pagetiger.com,pryor.com,publicpositions.com,rex-royal.ch,tvsquared.com,viboom.com,vidal.ru,vixx.nl,wine-searcher.com,worldtestchampionship.com,xtreme.pt,zonstudio.nl##.cookie-notice
 acierto.com###blockdisclaimer
 acierto.com,cws.com,jcb.com,postcodelottery.co.uk,visitbritainshop.com,webuyanycarusa.com,webuyanyvan.com,yougov.co.uk,yougov.com,yougov.de,zolar.de##.vwo-overlay
@@ -25787,6 +25791,7 @@ act-store.com###POPUPS_WRAPPER
 actievandedag.nl###__next > div > .fixed.bottom-0
 action.com##body > .section:first-of-type
 action.group,rediafile.com,ronesans.com,freshmart.com.ua,promax.media.pl,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,tripster.ru,segodnya.ua,blog.nubank.com.br,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,tolubisz.eu,gramota.ru,brokenranks.com,poisondrop.ru,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz,mystacka.com##.cookies
+action.pl,cambridge.org,discountbank.co.il,haber7.com,jobg8.com,macpac.co.nz,mercantile.co.il,nomos-glashuette.com,piadinalumbro.gr,rules.co.uk,safra.sg##.cookie-message
 action.pl,cambridge.org,haber7.com,jobg8.com,macpac.co.nz,nomos-glashuette.com,piadinalumbro.gr,rules.co.uk,safra.sg##.cookie-message
 actionaid.fr##.rgpd
 actionaid.fr,animation-patrimoine-bordeaux.com,anime-store.fr,anrat.net,bnpetrole.net,centre-tao.com,com-libellule.fr,didilz.com,dimo.cat,ebox-auto.com,fantasticable.fr,ibzjobs.com,laceter.com,laurore-bourgogne.com,parisensuel.com,pierreberthe.com,ril-immo.fr,servichene.com,vwfinances.com##.rgpd
@@ -25820,6 +25825,7 @@ adac.de##.cookie--layer
 adac.de##.m-basic-cookie
 adacreisen.de##.FooterNotification
 adainfo24.eu###cookies
+adalliance.nl##.sgcc-main-wrapper
 adalo.com###consentPopup
 adamequipment.com###fl_menu
 adamieva.info###privacy
@@ -26205,6 +26211,7 @@ airtel.com##.cookie__wrap
 airtel.in###cookie
 airtel.in##.cookies-container
 airtel.in#$#.cookies-container { display: none !important; }
+airtel.in,habblet.city##.cookies-container
 airtransat.com,transat.com##.TS-CookieLegalNotice
 airvpn.org###air_cookielaw_container
 airwallex.com##+js(set-cookie, awx_cookie_consent, true)
@@ -26869,6 +26876,7 @@ anpeandalucia.es,anpeasturias.es,anpecanarias.es,anpegalicia.es,crbinverbio.com,
 anpost.ie###scg_banner
 anreiter.at#$##cliSettingsPopup ~ div.cli-modal-backdrop { display: none !important; }
 anreiter.at#$#body { overflow: auto !important; }
+ansell.com.cn,bootstrapmade.com,epochtimes.kr,karriartips.se,mastername.ru,meuhedet.co.il,schuhparadiso.de,smartocto.com,triodos.co.uk,umbler.com,zerounoweb.it##.cookie-bar
 ansell.com.cn,bootstrapmade.com,epochtimes.kr,karriartips.se,mastername.ru,smartocto.com,triodos.co.uk,umbler.com,zerounoweb.it##.cookie-bar
 ansons.de#$#.cookie-wall { display: none !important; }
 ansons.de#$#.cw-modal-overlay { display: none !important; }
@@ -30024,6 +30032,7 @@ caixabank.es##.cookies-region
 caixinglobal.com##.useCookieBox
 cajeando.com##.cookies
 cakeresume.com#?#body > w-div:has(> div[class] a[href="https://www.cakeresume.com/cookie-policy"])
+cal-online.co.il###wc-using-cookies
 cala.ca,nshpca.ca##.bottom-alert
 calabria7.it##.elementor-location-popup
 calabria7.it,firstbanknigeria.com,radioromanista.it,theatremusicaloperette.fr,whatson.is##.elementor-location-popup
@@ -30449,6 +30458,7 @@ cda.pl###box_info
 cda.pl##.bx-info-cookie
 cdecomunicacion.es###ca_banner
 cdek.market##.cp-df-moove-to-bottom
+cdek.ru,elektrikstore.hu,leumi.co.il,pushwoosh.com,salon24.pl,shoei-helmets.com,tipik.hu##.cookie-alert
 cdek.ru,elektrikstore.hu,pushwoosh.com,salon24.pl,shoei-helmets.com,tipik.hu##.cookie-alert
 cdenv.be#@##cookieconsent-banner
 cdenv.be#@#div.cookieconsent
@@ -33486,6 +33496,7 @@ dustin.dk,dustinhome.dk##.c-overlay
 dutchbirding.nl###cookies
 dutchcarparts.nl##.cookie
 duty.travel.cl##+js(set-local-storage-item, cookies-consent-accepted, true)
+dutyfree.co.il##div[class^="cookieRestriction-module__root-"]
 dvag.de##+js(set-cookie, dvag_cookies2023, 1)
 dvag.de#$#body { overflow: visible !important; }
 dvag.de#$#dva-m-cookie-overlay { display: none !important; }
@@ -33580,6 +33591,7 @@ e-pole.pl##+js(set-cookie, epole_cookies_settings, true)
 e-pole.pl##div[x-init="checkCookies()"]
 e-rabota.by,notoriouscinemas.it,wikiwand.com,nextmobile.ru,mietspiegel-muenchen.de,pik-broker.ru##div[class^="cookie_"]
 e-recharge.net,iahsap.com,jobs.tuwien.ac.at,leitor.net,mangalivre.net,netshoes.com.br,prostokvashino.ru##.cookie-notification
+e-recharge.net,iahsap.com,jobs.tuwien.ac.at,leitor.net,mangalivre.net,netshoes.com.br,prostokvashino.ru,vumatel.co.za##.cookie-notification
 e-rolety.eu###cookie
 e-scooter.co###gdpr-w, #gdpr-o
 e-stave.com###message, .message
@@ -36761,6 +36773,7 @@ getunleash.io##[class^="CookieControl"]
 getyourguide.at,getyourguide.ch,getyourguide.co.kr,getyourguide.co.uk,getyourguide.com,getyourguide.com.br,getyourguide.com.mx,getyourguide.com.tr,getyourguide.com.tw,getyourguide.de,getyourguide.dk,getyourguide.es,getyourguide.fi,getyourguide.fr,getyourguide.it,getyourguide.jp,getyourguide.nl,getyourguide.no,getyourguide.pl,getyourguide.pt,getyourguide.ru,getyourguide.se##.notifications-container--bottom
 getzen.cash###privacy-notification
 gev-online.com###cookies-convention
+gevoslijterij.nl###gdprCookieBar
 gewandhausorchester.de#$#.cs-cookie__wrapper { display: none !important; }
 gewandhausorchester.de#$#body.cs-cookie__open { overflow: auto !important; }
 gewinnabfrage.at###CL
@@ -36903,6 +36916,7 @@ gla.ac.uk##.consent-switch
 gla.ac.uk#%#//scriptlet('set-cookie', 'gu_consent_set', 'true')
 glamour.de#%#//scriptlet('remove-attr', 'style', 'html[style="overflow: hidden;"],body[style="overflow: hidden;"]')
 glamour.de#@##onetrust-consent-sdk
+glamourdresser.com,lightlife.com,liquid.tech,segpay.com##.dialog-message
 glamourdresser.com,lightlife.com,segpay.com##.dialog-message
 glamuse.com##.cookbar-overlay
 glamwize.com##.customcookie--banermain
@@ -39558,6 +39572,7 @@ ivi.tv##.lowest-teaser
 ivi.tv,ivi.ru##.lowest-teaser
 ivideon.com##.iv-ui-website-cookie-compliance, .iv-persistent-notification[data-id*="cookie"], .iv-ui-q2a-cookie-compliance
 ivnosys.com##.mpp-container-position-top-bar
+ivory.co.il###removeBannerCookie
 ivry94.fr###myModalCookieConsent
 ivyexec.com##+js(set-cookie, COOKIE-POLICY-ACCEPT, true)
 iwanttfc.com##.ng-confirm-box
@@ -42207,6 +42222,7 @@ mabanqueprivee.bnpparibas##.cookies
 mac-jeans.com#$#.remodal-overlay { display: none !important; }
 mac-jeans.com#$#.remodal-wrapper { display: none !important; }
 mac-jeans.com#$#body { overflow: auto !important; }
+maccabi4u.co.il###ZA_CAMP_BANNER_CONTAINER
 maccosmetics.be###bt_notification
 maccosmetics.de###bt_notification
 maccosmetics.it##.bt-content
@@ -44537,6 +44553,7 @@ neplp.lv#@#.cookie-wrapper
 neplp.lv,riga.lv#$#body #cookieConsent { display: none !important; }
 neplp.lv,riga.lv#$#body { overflow: auto !important; }
 nepszamlalas2022.hu##.offcanvas-bottom
+ner.gov.tw##.cookie-agreement
 nerdevil.it,exequiapet.it,antonymorato.com,crazygames.com,macitynet.it,spaziogames.it,tuttotech.net,tuttoandroid.net,tomshw.it,ilsecoloxix.it,huffingtonpost.it,lastampa.it,leanplayer.com,player.899thewave.fm,player.cjcbradio.com,player.max983.ca,repubblica.it#%#//scriptlet('trusted-click-element', '.iubenda-cs-visible .iubenda-cs-accept-btn')
 nerdstreet.com#?#footer ~ div[class]:has(h4 + p > a[href^="/privacy"])
 neredekal.com##.css-1fl0mfv
@@ -46498,6 +46515,7 @@ pelando.com.br##.cbZEFj
 pelando.com.br##main + * + div[class] > div[role="dialog"]
 pelando.com.br##main ~ div
 pelando.com.br#%#//scriptlet('set-cookie', 'cookies_allowed', 'true')
+pelephone.co.il##.cookies-consent
 pelican.com###slide-up-container
 pelikan.com##.activebar-container._privacy_fix
 pelikone.fi#%#//scriptlet('trusted-set-cookie-reload', 'consentUUID', '21ad958f-7582-49b3-b243-b637a91e292c_25')
@@ -47366,6 +47384,7 @@ posta.si###cookieModals, .modal-backdrop, tn-theme-posta-cookie
 posta.sk##iframe[src*="cookies-consents/dialog/sk"]
 posta.sk##iframe[src^="https://static.posta.sk/cookies-consents/"]
 posta.sk##[src="https://static.posta.sk/cookies-consents/dialog/sk/index.html"]
+postalfinance.co.il##float-window-alert
 postbank.de##.pkh-notification
 postbank.de#$#body.overflowHidden { overflow: auto !important; }
 postcodeloterij.nl###container ~ [class]
