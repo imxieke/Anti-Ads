@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-14 09:47:49 RPC
+! Updated: 2025-04-14 16:29:47 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -136,7 +136,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-stats.jpush.cn^
 *.com/css/showfloatdiv^
-*.top/$script,3p,domain=animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
+*.top/$script,3p,domain=olympicstreams.co|toonily.com|luluvdo.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
 */?tzbilibili
 */ad.
 */adbox/
@@ -237,7 +237,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 .html?$domain=wap.dulaidw.com
 .htmm?$domain=m.69shu.io|m.piaotianzw.com
 .ru^$third-party,script,domain=muzmob.org
-.top^$script,3p,domain=olympicstreams.co|toonily.com|luluvdo.com|himovies.sx|movies2watch.tv|viprow.nu
 .xhtmm?$domain=wap.dulaidw.com|m.hebao9.com
 .xyz^$3p,domain=anroll.net
 /(?::\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4})/
@@ -2250,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8677,7 +8676,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16992,9 +16991,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -35612,6 +35611,7 @@ _zhike.htm
 ||erebor.douban.com^$important
 ||erg.ihclam.cn^
 ||ergeapp.com^$third-party
+||ergiekszra.com^
 ||erli.pl/static/media/mobile_go_footer_desktop.
 ||erlpbwy.cn^
 ||ero-advertising.com^
@@ -40545,6 +40545,7 @@ _zhike.htm
 ||juiceblocks.com^
 ||juicyads.com^
 ||juicyads.com^$important
+||juicyads.com^$script,3p
 ||juji.tv/Runtime/js/
 ||julumob.com^
 ||julysystems.com^$important
@@ -42395,6 +42396,7 @@ _zhike.htm
 ||magnificentmist.com^
 ||magnify-app.s3.eu-west-2.amazonaws.com^$important
 ||magnum.cdn.speedshiftmedia.com^$important
+||magsrv.com^
 ||magsrv.com^$subdocument,redirect=noopframe,domain=hanime1.me
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/api/$subdocument
@@ -43921,6 +43923,7 @@ _zhike.htm
 ||naiadsystems.com^$important
 ||naivestatement.com^
 ||naj.sk^$important
+||nakedanalytics.net^
 ||nalraughaksie.net^
 ||namedq.com^
 ||nameketathar.pro^$important
@@ -47677,6 +47680,7 @@ _zhike.htm
 ||rmbvzh.xyz^
 ||rmdown.com^$replace=/var rmJson/var fuck/
 ||rmedia.boston.com^$important
+||rmhfrtnd.com^
 ||rmhfrtnd.com^$third-party
 ||rmioswx.icu^
 ||rmpad.imtt.qq.com^
@@ -51560,6 +51564,7 @@ _zhike.htm
 ||threetruck.com^
 ||threkuth.com^
 ||thrillingos.herokuapp.com^$important
+||thriseds.com^
 ||thrnt.com^$important
 ||throattrees.com^
 ||throattrees.com^$important
@@ -51948,6 +51953,7 @@ _zhike.htm
 ||tqbrnd.xyz^
 ||tqeferty33.fun^
 ||tqgj.mediav.com^$important
+||tqjojh.icu^
 ||tqtqvb.xyz^
 ||tquspo.com^
 ||tr-asia.adsmoloco.com^$important
@@ -52236,6 +52242,7 @@ _zhike.htm
 ||trackout.business^$important
 ||tracktraf.com^$important
 ||trackv.esearchvision.com^$important
+||trackwilltrk.com^
 ||tradeadexchange.com^
 ||tradeadexchange.com^$important
 ||tradedesk-ues.pinsightmedia.com^$important
@@ -52623,6 +52630,7 @@ _zhike.htm
 ||txnczz.icu^
 ||txshuku.com/js/
 ||txtimpact.com^$important
+||txvq.cn^
 ||txzqw.*/js/float.js
 ||txzqw.me/attachment88txzqw/*.gif
 ||txzqw.me/tupian/
@@ -53233,6 +53241,7 @@ _zhike.htm
 ||uuuutp.com^
 ||uuysiaq.com^
 ||uv4.fun^
+||uvcnmtt.top^
 ||uvcourse.net^
 ||uvekyvs.icu^
 ||uvoisbg.xyz^
@@ -56208,6 +56217,7 @@ _zhike.htm
 ||zsyk91.cn^$third-party
 ||zt.chuanke.com/?mod=
 ||zt2088.com^
+||ztdbfz.top^
 ||ztgame.com^
 ||ztgha.xyz^
 ||zthxobgk.icu^
