@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-14 00:26:22 RPC
+! Updated: 2025-04-14 09:47:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7621,6 +7621,7 @@ elsevier.com#?##__next > div > div:has(> div > div[data-testid="cookie-banner"])
 elternforen.com##li.Notice[data-notice]
 eltiempo.com##.barra-aviso-privacidad
 eltiempo.com##.c-popup--politicas
+eltribuno.com,puntobiz.com.ar##.notificacion-modal
 elu24.ee#$#.cookie-container { display: none!important; }
 elu24.ee#$#body { overflow: auto !important; }
 elu24.ee#@#.cookie-container
@@ -16107,6 +16108,7 @@ sudbury.com###details-widgets
 sueddeutsche.de,indigodergisi.com##amp-user-notification
 suedostschweiz.ch##.so-cookie-wrapper
 suedtirol.info###js-cybot-cookiebot-placeholder
+suedtirolmobil.info##.PushModal
 sugarlandskeeters.com###consent-slide
 sugi-net.jp##.wrap-gdpr
 sugi-net.jp#$#body[style="overflow: hidden;"] { overflow: auto !important; }
