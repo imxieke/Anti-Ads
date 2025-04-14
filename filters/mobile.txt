@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-14 16:29:47 RPC
+! Updated: 2025-04-15 00:27:25 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16863,7 +16863,6 @@ pepper.pl#?#.js-threadList > .js-banner:has(img[alt$="-App"])
 pepper.ru##div[data-track*="app_installs_banner"]
 perekrestok.ru#%#//scriptlet('trusted-click-element', 'button.app-banner-close', '', '800')
 perezhilton.com##.anchor-spot
-perfectgirls.xxx#?#.right-player-col:contains(Advertising)
 perfectmatch.tw#@#.right_ad
 perfil.com,batimes.com.ar##.sticky-bottom-ads
 perplexity.ai##a[href="/download-android"]
@@ -21350,6 +21349,7 @@ wholehk.com#?#div[id^="postmessage_"] > div[align="center"][style^="font-size:11
 whosampled.com##.spSlot
 whosthat360.com,gadgets360.com,gadgets-ndtv-com.cdn.ampproject.org##._ad
 whowatch.tv,curazy.com,ebay.*,locari.jp##.app-download-banner
+wife.koe-koe.com##div[style="min-height:240px"]
 wifiman.com#%#//scriptlet('set-cookie', 'sb-closed', '1')
 wiki.mbalib.com###ad-fold
 wiki.mbalib.com###box-app-tip
