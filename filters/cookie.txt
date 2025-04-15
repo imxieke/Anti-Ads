@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-15 09:46:44 RPC
+! Updated: 2025-04-15 16:29:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18737,7 +18737,6 @@
 ##.popup-cookie-warning
 ##.popup-cookie:not(body)
 ##.popup-cookieconsent-down
-##.popup-cookies
 ##.popup-cookies-section
 ##.popup-cookies:not(body):not(html)
 ##.popup-cookie__box
@@ -23849,6 +23848,7 @@
 511tactical.com#@##cookieModal
 51degrees.com###pop-wrapper
 5230.com.tw,china-motor.com.tw,gem-man.com.tw,longchain.com.tw,mitsubishi-motors.com.tw###cmc8007
+560theanswer.com,abcdinamo.com,abconcerts.be,adbro.com,adrianlimani.com,bitstamp.net,cecotec.es,congeo.nl,doaj.org,faberlic.com,forcepoint.com,gault-millau.nl,geeksforgeeks.org,group.softbank,heinz.st,inleed.se,israelnationalnews.com,letsgomartin.com,merosch.nl,mutualart.com,niaiu.pl,noor-book.com,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,ricos.ltd,sodutch.nl,springaqua.com,toneelhuis.be,trafficstars.com,truyenyy.vip,truyenyy.xyz,twinsfun.com,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
 560theanswer.com,abcdinamo.com,abconcerts.be,adbro.com,adrianlimani.com,bitstamp.net,cecotec.es,congeo.nl,doaj.org,faberlic.com,forcepoint.com,gault-millau.nl,geeksforgeeks.org,group.softbank,heinz.st,inleed.se,israelnationalnews.com,letsgomartin.com,merosch.nl,mutualart.com,niaiu.pl,noor-book.com,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,trafficstars.com,truyenyy.vip,truyenyy.xyz,twinsfun.com,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
 5asec.pt,tui.dk,tui.fi,tui.no,tui.se##+js(rc, no-scroll, body, stay)
 5ingredients15minutes.com##.gpdr-agreement
@@ -24428,14 +24428,15 @@
 @@||cmp.inmobi.com/choice/$script,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com/choice/*/choice.js$domain=ilgiornale.it
 @@||cmp.inmobi.com/choice/*/choice.js$domain=thefunpost.com
-@@||cmp.inmobi.com/GVL-v3/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
-@@||cmp.inmobi.com/tcfv2/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
+@@||cmp.inmobi.com/geoip$domain=ilgiornale.it
+@@||cmp.inmobi.com/GVL-v3/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
+@@||cmp.inmobi.com/tcfv2/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
 @@||cmp.inmobi.com/tcfv2/*.js$domain=ilgiornale.it
 @@||cmp.inmobi.com/tcfv2/*.js$domain=thefunpost.com
 @@||cmp.inmobi.com/tcfv2/*/cmp2.js$script,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com/tcfv2/*/cmp2ui-el.js$script,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com^*.json$xmlhttprequest,domain=flash.gr|protothema.gr
-@@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
+@@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
 @@||cmp.osano.com/*/osano.js$domain=account.bhvr.com
 @@||cmp.osano.com/*/osano.js$domain=americastestkitchen.com
 @@||cmp.osano.com/*/osano.js$domain=businessinsider.com
@@ -26811,8 +26812,8 @@ androidpolice.com#$#body { overflow-y: auto !important; }
 androidpolice.com#$#html { overflow: visible !important; }
 androidpolice.com#$#main ~ .adsninja-ad-zone ~ .adsninja-ad-zone ~ div[class][style*="z-index"] { display: none !important; }
 androidsis.com##.machete_cookie_container
+andromede-cms.com,any.run,bienpreter.com,codesandbox.io,corporate.freedompay.com,derslig.com,dervit.cz,foxsports.com.mx,givesendgo.com,gmanetwork.com,goldplay.it,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,liu.se,localidautore.it,loetje.nl,modeliukai.lt,ndsas.sk,openresearchlab.org,rogold.live,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,trakt.tv,tutotoons.com,velostreet.com,whitebit.com,whoisxmlapi.com,yodayo.com,zeno.fm,zitadel.com###cc-main
 andromede-cms.com,any.run,bienpreter.com,codesandbox.io,corporate.freedompay.com,derslig.com,dervit.cz,foxsports.com.mx,givesendgo.com,gmanetwork.com,goldplay.it,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,liu.se,localidautore.it,modeliukai.lt,ndsas.sk,openresearchlab.org,rogold.live,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,trakt.tv,tutotoons.com,velostreet.com,whitebit.com,whoisxmlapi.com,yodayo.com,zeno.fm,zitadel.com###cc-main
-andromede-cms.com,any.run,bienpreter.com,codesandbox.io,corporate.freedompay.com,derslig.com,dervit.cz,foxsports.com.mx,givesendgo.com,gmanetwork.com,goldplay.it,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,liu.se,localidautore.it,modeliukai.lt,ndsas.sk,openresearchlab.org,rogold.live,sardynkibiznesu.pl,soleretriever.com,trakt.tv,tutotoons.com,velostreet.com,whitebit.com,whoisxmlapi.com,yodayo.com,zeno.fm,zitadel.com###cc-main
 androprice.com.ua##.f-cookies
 andsafe.de###andsafe-cookie-consent
 andsafe.de###andsafeCookieManager
@@ -33638,6 +33639,7 @@ eastlink.ca##.elCookieConsent
 eastlondonradio.org.uk###notification-area
 eastnews.pl###cookie-frame
 eastriding.gov.uk#%#//scriptlet('trusted-click-element', '.refuse')
+easy-peasy.ai###__next > .fixed.m-4.max-w-md.rounded-lg.bg-gray-100
 easy-prace.cz##.CookiesPopup
 easybell.de###cookieman-modal
 easycookasia.de##.elementor-popup-modal
@@ -33741,6 +33743,7 @@ eco-logisch.be###SiteOverlayPanel
 eco-sunglasses.com###first_visit_message
 eco-toimistotarvikkeet.fi,kassakaappi.net,proficient.fi,xn--tytuoli-b1a.fi###evasteet
 eco-toimistotarvikkeet.fi,proficient.fi##+js(set-cookie, AcceptKeksit, 0, , reload, 1)
+eco-valves.com##.consent-banner-root
 eco07.com###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 ecobaltiavide.lv##.popup-filter
 ecodallecitta.it###consenso
@@ -42371,7 +42374,6 @@ makeresearchpay.com##+js(set-cookie, user_cookie_consent, false, , reload, 1)
 makeronline.com##+js(set-cookie, acceptCookie, true)
 makerz.me##+js(set-local-storage-item, makerz_allow_consentmgr, 0)
 makeship.com##.consent-wrapper
-makeup.ru#@#.popup-cookies
 makewarnotlove.com##.cp-wrap
 makfa.ru##.bottom-disclaimer
 makfa.ru##.bottom-disclaimer-new
@@ -42817,6 +42819,7 @@ medicalnewstoday.com,healthline.com#%#//scriptlet('trusted-click-element', 'butt
 medicalseeds.cz##.cookieForward
 medicaltravelcompared.co.uk##.cookie-options
 medicalxpress.com##header > .notice
+medicalxpress.com,phys.org,techxplore.com,vitalia.pl##.popup-cookies
 medicana.com.tr##body div.cookiealert
 medici-stomatologi.ro###cookbox
 medicina.ru###policy
@@ -44030,6 +44033,7 @@ musescore.com##._3mwVI
 musescore.com##body > div:not([id]):not([class]):not([style]), body > section > section
 musescore.com#%#//scriptlet('set-cookie-reload', '_mu_open_in_up_close_new', '1')
 museum.nl##.overlay
+museum.royaldelft.com##.ht-cookie
 museum.seiko.co.jp##.footer_disclaimer
 museum.seiko.co.jp##.js-about-cookie
 museumvanloon.nl##.cookiesmelding
@@ -50756,6 +50760,7 @@ solgar.com.tr###footkvkk
 solicitor.info###msgbg
 solid-thueringen.de##.disclaimer
 solidarietaveneto.it###cookie
+solidaris-wallonie.be##.cookie-reminder-banner
 solidaris-wallonie.be##app-pop-up-tracking
 solidusflotta.hu###cwarning
 solidwoodendoors.com###myModalCookies, .modal-backdrop

@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-15 09:46:44 RPC
+! Updated: 2025-04-15 16:29:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7402,6 +7402,7 @@ earnapp.com#$#html { overflow: auto !important; }
 eartharxiv.org##div[class^="__cookie-banner__"]
 eastnews.pl###cookie-frame
 eastriding.gov.uk#%#//scriptlet('trusted-click-element', '.refuse')
+easy-peasy.ai###__next > .fixed.m-4.max-w-md.rounded-lg.bg-gray-100
 easy-prace.cz##.CookiesPopup
 easycosmetic.de##.cookies-consent-container
 easyeda.com##.priv-tips

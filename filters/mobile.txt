@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-15 09:46:44 RPC
+! Updated: 2025-04-15 16:29:36 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -18645,6 +18645,8 @@ sisixxb.com##.preflink
 site.baidu.com##.pstr.mt10
 site.ip138.com###link
 sixty-percent.com,m.sporx.com##a[href^="https://app.adjust.com/"]
+sixyin.com##.custom-html-widget > a[target="_blank"] > img
+sixyin.com#?#.widget_custom_html:has(> h3:contains(赞助))
 siyu88.cn##[src^="http://www.siyu88.net/g"],[width="728"][height="90"]
 sj.net.cn##div[id^="diy_col_1-3"].area,div[id^="diy_vk_ad_"].area,div.wp.a_h
 sj.qq.com##div[class^="BrandBanner_brandBanner_"]
@@ -30375,6 +30377,7 @@ _zhike.htm
 ||bhaoea.cn^
 ||bhclicks.com^$important
 ||bhcumsc.com^
+||bhdnti.top^
 ||bhegilut.com^
 ||bhelzun.com^
 ||bhlianhe.com^
@@ -39934,6 +39937,7 @@ _zhike.htm
 ||ix4.icu^
 ||ixbua.xyz^
 ||ixkw3.cc/wp-content/themes/wpMyTube/assets/js/mobile.
+||ixlv.cn^
 ||ixoe.cn^
 ||ixpub.net^*.js
 ||ixstng.cn^
@@ -41995,6 +41999,7 @@ _zhike.htm
 ||lv3ns2.ffdns.net^$important
 ||lv3ns3.ffdns.net^$important
 ||lv3ns4.ffdns.net^$important
+||lvcnmtl.top^
 ||lveodaz.icu^
 ||lvnr.cn^
 ||lvnzrh.xyz^
@@ -45065,6 +45070,7 @@ _zhike.htm
 ||ouyaoxiazai.com/static/img/cqthree.gif
 ||ov8ct.icu^
 ||ovalweek.com^
+||ovcnmtk.top^
 ||oveakmqk.com^
 ||ovejqw.xyz^
 ||overconfidentfood.com^
@@ -45523,6 +45529,7 @@ _zhike.htm
 ||peer39.com^$important
 ||pefufv.xyz^
 ||peise.net/Skin/js/global.
+||pekr.cn^
 ||pemsrv.com^
 ||pengtu.cc^*.png
 ||pengwei168.com/addons/321.gif
@@ -47085,6 +47092,7 @@ _zhike.htm
 ||quyaoya.com^$third-party
 ||quyr.cn^
 ||quyuancn.com^$third-party
+||qvcnmty.top^
 ||qvir.cn^
 ||qvob.adsb4track.com^$important
 ||qvonje.cn^
@@ -47839,6 +47847,7 @@ _zhike.htm
 ||rtbproxy.mgid.com^$important
 ||rtbwx.cname1.igexin.com^$important
 ||rtd.tubemogul.com^$important
+||rtfgvz.icu^
 ||rtkio-d.openx.net^$important
 ||rtlog.isnssdk.com^$important
 ||rtmark.net^
@@ -51564,6 +51573,7 @@ _zhike.htm
 ||threechurch.com^
 ||threetruck.com^
 ||threkuth.com^
+||thricrulnf.com^
 ||thrillingos.herokuapp.com^$important
 ||thriseds.com^
 ||thrnt.com^$important
@@ -53775,6 +53785,7 @@ _zhike.htm
 ||vrdfxioe.icu^
 ||vrelai.com^
 ||vreqnait.com^
+||vrevvaids.com^
 ||vriesziy.com^
 ||vrinqop.icu^
 ||vrizead.com^
