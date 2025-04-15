@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-15 00:27:25 RPC
+! Updated: 2025-04-15 09:46:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23730,7 +23730,6 @@
 23andme.com###js-gdpr-optin
 23andme.com,tunnelbear.com##.banner-wrap
 23degrees.io##consent-toast
-24baby.nl,cameronhouse.co.uk,oeh-wu.at,postimees.ee,quickconnect.to##.cookie-container
 24baby.nl,cameronhouse.co.uk,oeh-wu.at,postimees.ee,quickconnect.to,skatteetaten.no##.cookie-container
 24chasa.bg###cookie-b
 24h-pflege-check.de##.alert-dismissible
@@ -26812,6 +26811,7 @@ androidpolice.com#$#body { overflow-y: auto !important; }
 androidpolice.com#$#html { overflow: visible !important; }
 androidpolice.com#$#main ~ .adsninja-ad-zone ~ .adsninja-ad-zone ~ div[class][style*="z-index"] { display: none !important; }
 androidsis.com##.machete_cookie_container
+andromede-cms.com,any.run,bienpreter.com,codesandbox.io,corporate.freedompay.com,derslig.com,dervit.cz,foxsports.com.mx,givesendgo.com,gmanetwork.com,goldplay.it,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,liu.se,localidautore.it,modeliukai.lt,ndsas.sk,openresearchlab.org,rogold.live,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,trakt.tv,tutotoons.com,velostreet.com,whitebit.com,whoisxmlapi.com,yodayo.com,zeno.fm,zitadel.com###cc-main
 andromede-cms.com,any.run,bienpreter.com,codesandbox.io,corporate.freedompay.com,derslig.com,dervit.cz,foxsports.com.mx,givesendgo.com,gmanetwork.com,goldplay.it,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,liu.se,localidautore.it,modeliukai.lt,ndsas.sk,openresearchlab.org,rogold.live,sardynkibiznesu.pl,soleretriever.com,trakt.tv,tutotoons.com,velostreet.com,whitebit.com,whoisxmlapi.com,yodayo.com,zeno.fm,zitadel.com###cc-main
 androprice.com.ua##.f-cookies
 andsafe.de###andsafe-cookie-consent
@@ -35069,6 +35069,7 @@ famework.io##.notifications
 familio.org,genshin-info.ru##.cookieBlock
 familycarebadanti.it###toast, .toast
 familylawweek.co.uk###zeus_box
+familyradio.org##.pum-theme-gdpr
 famobi.com,schleswig-holstein.de##.privacy-info
 fan.com.pl###cookie
 fanatical.com##.biscuit-auth-collapsible
@@ -48715,8 +48716,6 @@ restate.ru#?#body > div[class][style]:has(> .hide-from-print p  a[href$="/person
 restauracjaverona.pl###modal-cookie-overlay
 restaurant-liris.lu##.coockies
 restaurant-tribeca.com##.elementor-popup-modal
-restaurantclub.pl#$#html.disable--interaction.show--consent:not(#style_important) { overflow-y: auto !important; }
-restaurantclub.pl,zamowienia.tpizza.pl,houseflippergame.com,subiektywnieofinansach.pl,atlasbus.by,mrgugu.com,dietly.pl#$##cc-main { display: none !important; }
 restaurantdepot.com###consent-dialog
 restaurantweek.pl##.cookiesLaw
 restiasuites.gr###advert-once
@@ -50837,6 +50836,10 @@ sosulski.pl##body > form
 sotec-consulting.com##.toast-container
 sothebys.com###NotificationOverlay
 sotka.fi,asko.fi##+js(set-cookie, rc_given_consent_closed, 1)
+soulkyn.com#$##cc-main { display: none !important; }
+soulkyn.com#$#html.show--consent { overflow: auto !important; }
+soulkyn.com,restaurantclub.pl#$#html.disable--interaction.show--consent:not(#style_important) { overflow-y: auto !important; }
+soulkyn.com,restaurantclub.pl,zamowienia.tpizza.pl,houseflippergame.com,subiektywnieofinansach.pl,atlasbus.by,mrgugu.com,dietly.pl#$##cc-main { display: none !important; }
 sound-effects.bbcrewind.co.uk###root > div[class="fixed bottom-0 z-50 w-full bg-gray-900"]
 soundcloud.com##.announcements > div.sc-list-nostyle
 soundcloud.com##.announcements__item.sc-clearfix
@@ -51128,6 +51131,7 @@ sprintersports.com##.cookies-settings
 spsjm.sk##[style^="position: fixed; bottom: 0px;"]
 spuntinoheathrow.com##+js(set-cookie, essential_cookies_enabled, true)
 spuntinoheathrow.com##+js(set-cookie, google_cookies_enabled, false)
+spusu.co.uk##+js(set-cookie, acceptSpusuCookies, necessary)
 spusu.co.uk,spusu.com##.cookie-banner-background
 spusu.it,spusu.at###acceptCookieOverlay
 sputniknews.ru#$##gdpr { display: none !important; }
@@ -54955,6 +54959,7 @@ vitacig.eu.com##.vctheme-cookies-popup
 vitacost.com###cookieJar
 vitaello.com.ua,uskudar.edu.tr,encycolorpedia.com,learn.innopolis.university,interhome.pl,alhadath.net,chiccentre.com,accredito.com,bonsai.de,diehumanisten.de,downloadfreecourse.com,interhome.de,techonthenet.com,ncalculators.com,editpad.org,katho-nrw.de,fiyatgrafik.com,gartenprofi.net,alibre.info,fisglobal.com,delamar.de,gnosis.io,anyclip.com,manybooks.net,cardzmania.com,antarestech.com,nperf.com,notebookinfo.de,telefuel.com,alarabiya.net,dijnet.hu###consent
 vitalabo.de##div[is="tracking-consent"]
+vitalia.pl##.popup-cookies
 vitall.co.uk###gdpr-modal
 vitalllit.com,fincaparera.com,dbnetbcn.com,viba.barcelona,anafaustinoatelier.com,lamparasherrero.com,calteixidor.cat,argentos.barcelona,anmarlube.com,anynouxines.barcelona,crearunapaginaweb.cat,cualesmiip.com##+js(set-cookie, promptCookies, 1)
 vitalsource.com###cookie-modal-container
@@ -55402,6 +55407,7 @@ wayfair.co.uk,wayfair.de,wayfair.ie##+js(set-cookie, user_cookie_prefs, 1)
 wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 wayfair.de#$#.CookieComplianceContainer-veil { display: none !important; }
 wayfair.de#$#.u-noScroll { overflow: auto !important; overflow-y: auto !important; }
+wayfm.com##.z-50.fixed.max-w-lg.w-full.md\:bottom-8.md\:left-8.md\:right-auto.bottom-0.left-0.right-0.bg-white.shadow-lg.rounded-t-lg.md\:rounded-lg.p-4.md\:p-8.transition-all.duration-300.grid.grid-cols-2.gap-4.opacity-100.translate-y-0
 wayofleaf.com###cpop
 waze.com##.wz-cc-container
 wbijam.pl,polishbrief.pl###simplecookienotification_v01

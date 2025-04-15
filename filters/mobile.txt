@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-15 00:27:25 RPC
+! Updated: 2025-04-15 09:46:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9774,7 +9774,6 @@ gentosha-go.com###JP_SGO_SP_article_footer_2nd
 gentosha-go.com###sgo_280_wrapper
 gentosha-go.com##.ad_movie_wrapper
 gentside.com,maxisciences.com###core-ads-footer-web
-genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 geo.fr##.ads-introText
 gesundheitsfrage.net,gutefrage.net##.AdSticky
 gesundheitsfrage.net,gutefrage.net,finanzfrage.net###anchor-ad
@@ -14411,6 +14410,7 @@ m.yahoo.co.jp##div[class^="sc"] > a[href^="https://app.adjust.com/"]
 m.yahoo.co.jp##div[data-key="prAd"]
 m.yelp.com##body > div[data-hypernova-key^="mobile_site_"] > div._2oFDT > div.u-space-t4 + div[class="_1mboc _39b4o _2oFDT"]:last-child
 m.yelp.com##div[class*="yelp-ad"]
+m.yelp.com##div[data-testid="smart-banner-pitch"]
 m.yeniakit.com.tr##.sticky-mobil-new
 m.yeniakit.com.tr#$#.dfp { display: none !important; }
 m.yeniakit.com.tr#$#.gallery-page { min-height: 2630px !important; }
@@ -14800,6 +14800,7 @@ medicalnote.jp#?#.c-glo-section > div.p-diseases-pickup > div[id^="logly-"]:upwa
 medicalnote.jp#?#.c-glo-section > div[id^="sp-disease-advertisement-"]:upward(1)
 medicalxpress.com##.ads-container
 medien-studieren.net,medienstudienfuehrer.de##.leaderboard .banner
+medipalette.lotte.co.jp,genxy-net.com,m.price.com.hk,otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 medium.com##a[href^="https://rsci.app.link"]
 medium.com##div[id*="ShowPostUnderUser-navbar-open-in-app-button"]
 medonet.pl,onet.pl###onet-ad-flat-belkagorna

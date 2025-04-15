@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-15 00:27:25 RPC
+! Updated: 2025-04-15 09:46:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14722,8 +14722,6 @@ researchgate.net###rg-us-cookie-banner
 reshade.me#%#//scriptlet('set-cookie-reload', 'plg_system_eprivacy', '1')
 restate.ru##.cow
 restate.ru#?#body > div[class][style]:has(> .hide-from-print p  a[href$="/personaldata.html"])
-restaurantclub.pl#$#html.disable--interaction.show--consent:not(#style_important) { overflow-y: auto !important; }
-restaurantclub.pl,zamowienia.tpizza.pl,houseflippergame.com,subiektywnieofinansach.pl,atlasbus.by,mrgugu.com,dietly.pl#$##cc-main { display: none !important; }
 retailsolutions.ch,cec-zev.eu,b-tu.de,ludwigshafen.de,alanus.edu,thga.de#%#//scriptlet('trusted-set-cookie', 'CookieConsent', 'mandatory')
 retouch4.me##div[class*="CookieConsentBanner"]
 retroplace.com#$##retroplaceCookies { display: none !important; }
@@ -15704,6 +15702,10 @@ sora-nishiki.com#@##privacypolicy
 sos.sk,soselectronic.com,soselectronic.cz,soselectronic.de,soselectronic.es,soselectronic.hu,soselectronic.it,soselectronic.pl,soselectronic.ro###cookies-usage-message
 soselectronic.pl##.cookies-popup__wrapper
 sosfanta.calciomercato.com###gdpr-law
+soulkyn.com#$##cc-main { display: none !important; }
+soulkyn.com#$#html.show--consent { overflow: auto !important; }
+soulkyn.com,restaurantclub.pl#$#html.disable--interaction.show--consent:not(#style_important) { overflow-y: auto !important; }
+soulkyn.com,restaurantclub.pl,zamowienia.tpizza.pl,houseflippergame.com,subiektywnieofinansach.pl,atlasbus.by,mrgugu.com,dietly.pl#$##cc-main { display: none !important; }
 sound-effects.bbcrewind.co.uk###root > div[class="fixed bottom-0 z-50 w-full bg-gray-900"]
 soundcloud.com##.announcements > div.sc-list-nostyle
 soundcloud.com##.announcements__item.sc-clearfix
