@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-16 09:46:20 RPC
+! Updated: 2025-04-16 16:29:45 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -5751,6 +5751,7 @@ bilibili.com##.adblock-tips
 bilibili.com##.adcard-content
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
+bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap .bili-video-card__stats--icon > path[d*="M16.9122 1.50323C17.4366 1.48358 17.99745 1.54938 18.4701 1.8207C18.9423 2.09168 19.28085"])
 bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text)
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
@@ -5825,6 +5826,7 @@ bingfeng.tw#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c
 bingfeng.tw#%#//scriptlet('abort-current-inline-script', 'setTimeout', 'COOKIE_NAME')
 bioon.com###ad_tb
 bioon.com##.grid_6
+biqgg.com##a[onclick="guangtui();"]
 biqudao.com##.dahengfu,.con_ad
 biquge001.com###content > a
 biqulou.net##.dahengfu
@@ -8676,7 +8678,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16994,7 +16996,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -18303,6 +18305,7 @@ sdzbcg.com##td[width="297"] img
 sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
 se.pl###floorLayer
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
+search.bilibili.com##.video-list > div:has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .ad-feedback-entry)
 search.brave.com##.download-button
 search.chongbuluo.com##.search > div > a[target="_blank"] > img
 search.goo.ne.jp###direct_bottom
@@ -18648,6 +18651,7 @@ site.baidu.com##.pstr.mt10
 site.ip138.com###link
 sixty-percent.com,m.sporx.com##a[href^="https://app.adjust.com/"]
 sixyin.com##.custom-html-widget > a[target="_blank"] > img
+sixyin.com##.widget_custom_html
 sixyin.com#?#.widget_custom_html:has(> h3:contains(赞助))
 siyu88.cn##[src^="http://www.siyu88.net/g"],[width="728"][height="90"]
 sj.net.cn##div[id^="diy_col_1-3"].area,div[id^="diy_vk_ad_"].area,div.wp.a_h
@@ -24450,7 +24454,6 @@ _zhike.htm
 ||6vhao.tv/d/
 ||6w7.icu^
 ||6ye.com.cn^
-||6yso.com/wp-content/uploads/*-300-x-
 ||6zhewang.com^
 ||70.86.24.120:8060/
 ||7011.stia.cn^
@@ -30511,6 +30514,7 @@ _zhike.htm
 ||bioon.com/xy/article/img/zhi_neng_xibao_fenxi.png
 ||bip.presage.io^$important
 ||bip.prod.cloud.ogury.io^$important
+||biqgg.com/w.js?v=
 ||biqiuge8.cc/js/d
 ||biqiuge8.cc/js/p
 ||biqqc.com/ps/data.js
@@ -31066,6 +31070,7 @@ _zhike.htm
 ||bvadimgs.scdn7.secure.raxcdn.com^$important
 ||bvakl.ifeng.com^
 ||bvalphaserver.com^$important
+||bvcnmtv.top^
 ||bvdenx.xyz^
 ||bvlang.com/ad/
 ||bvubasnf.com^
@@ -33643,6 +33648,7 @@ _zhike.htm
 ||cw230.mta.exacttarget.com^$important
 ||cwaterf.top^
 ||cwb-v4.pops.fastly-insights.com^$important
+||cwcnmtf.top^
 ||cweisif.top^
 ||cweizaf.top^
 ||cwerilxf.top^
@@ -34317,6 +34323,7 @@ _zhike.htm
 ||dgaxrjj0jwpwp.cloudfront.net^
 ||dgdg16.com/js/so/duilian.js^
 ||dgfggy.com^
+||dgjhrv.top^
 ||dgkship.icu^
 ||dgrgr34.fun^
 ||dgstatic.jd.com^
@@ -37162,6 +37169,7 @@ _zhike.htm
 ||ghost580.com/js/nei4.js
 ||ghostgenie.com^
 ||ghozokodq.com^
+||ghrs.cn^
 ||ghwqbii.icu^
 ||gi-js.genieessp.com^$important
 ||gi.cname2.igexin.com^$important
@@ -39029,6 +39037,7 @@ _zhike.htm
 ||iiikefu.com/wp-content/plugins/halfdata-green-popups/js/lepopup.js
 ||iiilab.com/sponsor
 ||iis7.com/ys/css2018/ggw.js
+||iiyurraeoh.com^
 ||ijeujkdhnvb.top^
 ||ijimtyo.top^
 ||ijinshan.com/images/gk/game
@@ -43233,6 +43242,7 @@ _zhike.htm
 ||mnnmnn.com^
 ||mnpzrgz.xyz^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
+||mnrz.cn^
 ||mnwan.com^
 ||mnwor.xuanlishi.com^
 ||mnxhj.com^
@@ -44273,6 +44283,7 @@ _zhike.htm
 ||nl-rcd.iqiyi.com^
 ||nl.rcd.iqiyi.com^
 ||nl.rcd.ptqy.gitv.tv^
+||nl2cq0jr.xyz^
 ||nljyjt.icu^
 ||nlmrjnew.oss-cn-shanghai.aliyuncs.com^
 ||nlog.droid4x.cn^$important
@@ -45865,6 +45876,7 @@ _zhike.htm
 ||pj8.net^$third-party
 ||pjaihds.icu^
 ||pjb9gv9.xyz^
+||pjbbhj.icu^
 ||pjcijbv.icu^
 ||pjcn.org^$third-party
 ||pjdthz.xyz^
@@ -53847,6 +53859,7 @@ _zhike.htm
 ||vulitd.xyz^
 ||vungle.com^
 ||vungle.com^$important
+||vunqrotm.com^
 ||vupload.duowan.com^
 ||vupsnx.xyz^
 ||vutjnt.xyz^
@@ -54529,6 +54542,7 @@ _zhike.htm
 ||wtlive.com^$important
 ||wtraff.com^
 ||wtroytj33.fun^
+||wucnmte.top^
 ||wudang05.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
