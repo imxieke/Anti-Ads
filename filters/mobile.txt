@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-16 16:29:45 RPC
+! Updated: 2025-04-17 00:30:23 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9722,6 +9722,7 @@ gazo-chat.net###slide_wrap
 gazo-chat.net##a[href^="https://fam-ad.com/"]
 gazo-chat.net##div[id^="carousel_wrap"]
 gbatemp.net##+js(set, admiral, noopFunc)
+gbnews.com##.mobile_banner_top
 gbyhn.com.tw##.footer-widget-column
 gcxa.cn##.adimg
 gd.sina.com.cn###conBody,[id^="ad_arti_"],#taobao,.wad
@@ -29257,6 +29258,7 @@ _zhike.htm
 ||askfm-usd-d.openx.net^$important
 ||askfm.adspirit.de^$important
 ||askfm.pushwoosh.com^$important
+||asmhentai.com/js/ajs_v2.js
 ||asp.animelab.com^$important
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -52880,7 +52882,6 @@ _zhike.htm
 ||ukitert.top^
 ||ukkiftx.icu^
 ||uldaens.com^
-||ulifestyle.com.hk/*/*app-popup-modal.min.js
 ||ulifestyle.com.hk/*/open-in-modal.js
 ||ulink.cc^
 ||ulink.cc^$third-party
