@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-16 00:25:58 RPC
+! Updated: 2025-04-16 09:46:20 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8080,6 +8080,7 @@ fanipogody.pl#$##cmp-iframe { display: none !important; }
 fanipogody.pl#$?#body { overflow: auto !important; }
 fanlink.to##.acquisition-terms
 fansale.de###thirdPartyCookiesLayer
+fantasi.one#?##app > div.outline:has(> button:contains(Akzeptieren))
 fantasy.lu,xkekos.tv,habboin.net,walkme.com###privacy_cookies
 fantasyfootballgeek.co.uk#@##cookie-law-info-bar
 fantasypros.com#%#//scriptlet('set-cookie', 'fp_policy', '1')
@@ -11755,7 +11756,7 @@ mattermost.com##.module-gdpr-acceptance
 maudau.com.ua###__next > div[class^="css-"]:has(> div > button.chakra-button)
 mauk-gartenwelt.de#$#body { overflow: auto !important; }
 mauk-gartenwelt.de#$#div[class^="cookiemessage"] { display: none !important; }
-max.com#$##app > div#layer-root-modal:has(> div[class^="StyledDialogWrapper-Fuse-"] button[aria-label="Accept All Cookies"]) { display: none !important; }
+max.com#$##app > div#layer-root-modal:has(> div[class^="StyledDialogWrapper-Fuse-"] button[aria-label^="Accept All"]) { display: none !important; }
 max.com#$#body { overflow: auto !important; }
 maxi-retail.ru##div[class^="NotificationCookie"]
 maximarkt.at#$##lightcase-overlay { display: none !important; }
