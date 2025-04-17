@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-17 09:44:51 RPC
+! Updated: 2025-04-17 16:28:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3053,7 +3053,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||bcebos.com^$script,domain=biququ.info|jingwubook.com
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|18xs.org|1biquge.com|23us.la|23xsw.cc|52biquge.com|b5200.net|biqiuge.com|biqiugexsw.com|biquge.lu|biquge.tv|biquge.tw|biquge5200.cc|biquge9.cc|biqugecd.com|biqugeg.com|biquger.com|biqugetv.com|biqugex.com|biquguan.com|biqukan.com|biqumo.com|biquw.com|bixia.org|boquge.com|bqg5.cc|bqg99.cc|ddbiquge.cc|didaxiaoshuo.cc|gdbzkz.com|gzbpi.com|huanyue123.com|iqksw.com|janpn.com|jx.la|ldks.cc|lindiankanshu.cc|m.sjtxt.la|malshenzu.com|maopuzw.com|meegoq.com|paoshu8.com|qianrenge.cc|shuquge.com|touxiang.la|ttzw.tv|txtwan.com|uu234.cc|x23us.me|xbiqugecc.com|xinxs.la|xshengyan.com|xshuyaya.com|xsw55.com|xwxguan.com|xxqb5200.com|xyangguiweihuo.com|ymxxs.com|yssm.tv|yuyouge.com|zanghaihuatxt.com|zbzw.la|ztv.la
-@@||bdimg.com/libs/$domain=biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.com|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqg999.net|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|huanyue1234.com|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
+@@||bdimg.com/libs/$domain=biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.com|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqg999.net|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wenda-pc/widget/share/share_
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
@@ -16995,7 +16995,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -33287,6 +33287,7 @@ _zhike.htm
 ||cozydusk.com^
 ||cozyhillside.com^
 ||cozytryst.com^
+||cp-jobmacha-servicemacha-widgets.oss-ap-southeast-3.aliyuncs.com/chinapress-jobads-prod.js
 ||cp.7y7.com^
 ||cp.abbp1.pw^$important
 ||cp.impdesk.com^$important
@@ -35877,6 +35878,7 @@ _zhike.htm
 ||evtvpaid.bfmio.com^$important
 ||ew4u.adj.st^$important
 ||ewaterw.top^
+||ewdk.cn^
 ||ewebcounter.com^$important
 ||eweisiw.top^
 ||eweizaw.top^
@@ -36248,6 +36250,7 @@ _zhike.htm
 ||ffcdn4.featureforward.com^$important
 ||ffdafx.xyz^
 ||ffjevt.icu^
+||fflbpi.top^
 ||ffmobi.com^
 ||fftf-host-counter.herokuapp.com^$important
 ||ffxcam.fairfax.com.au^$important
@@ -36261,6 +36264,7 @@ _zhike.htm
 ||fh21.com.cn/js/passport/createQuickMenu.js
 ||fh21.com.cn/partners/
 ||fhcmeiju.com/template/DYXS2/html/1.
+||fheiu43bcdhsj.top^
 ||fhnbrx.xyz^
 ||fhoa365.com^
 ||fhvzrr.xyz^
@@ -37955,6 +37959,7 @@ _zhike.htm
 ||hbalx.cn^
 ||hbbtv.mediaset.net^$important
 ||hbbynt.xyz^
+||hbeafcac.top^
 ||hbi-ingest.net^$important
 ||hboav.com/guga/
 ||hboav.com/guga/*.php$domain=5278.cc
@@ -38563,6 +38568,7 @@ _zhike.htm
 ||hw-cdn2.contentabc.com^$important
 ||hw-ot-ad.a.yximgs.com^
 ||hwateru.top^
+||hwcnmtu.top^
 ||hweisiu.top^
 ||hweizau.top^
 ||hwerilxu.top^
@@ -47061,6 +47067,7 @@ _zhike.htm
 ||quarterbean.com^
 ||quarterserver.de^$important
 ||qubitanalytics.appspot.com^$important
+||qucnmty.top^
 ||qudajie.com^
 ||qudao.com/common/minisite.js
 ||queenskart.com^
@@ -50563,6 +50570,7 @@ _zhike.htm
 ||stiffstem.com^
 ||stigzeal.com^
 ||stildell.com^
+||stildreans.com^
 ||stimiyb.top^
 ||stimulatingsneeze.com^
 ||sting.de17a.com^$important
@@ -51602,6 +51610,7 @@ _zhike.htm
 ||thrnt.com^$important
 ||throattrees.com^
 ||throattrees.com^$important
+||throxul.com^
 ||thrtle.com^$important
 ||thruksyq.com^
 ||thrumulr.com^
@@ -52530,6 +52539,7 @@ _zhike.htm
 ||tubemogul.com^$important
 ||tubingacater.com^
 ||tubous.fuckandcdn.com/tubous/tubousstatic/ads/mobile/
+||tucnmti.top^
 ||tudc-sdk-ie.afmobitek.com^$important
 ||tudown.com^
 ||tudxhzj.cn^
@@ -52831,6 +52841,7 @@ _zhike.htm
 ||uefa.pushwoosh.com^$important
 ||ueg.cc^
 ||uegsjnk.com^
+||uektedsni.com^
 ||uerbgnkas.com^
 ||uessnah.icu^
 ||uetlwst.top^
@@ -52838,6 +52849,7 @@ _zhike.htm
 ||uewotga.top^
 ||uewrutt.top^
 ||uewzjy.xyz^
+||ufgl.cn^
 ||ufiidvv.icu^
 ||ufile.cc/crod.js
 ||ufile.cc/pps.js
@@ -55096,6 +55108,7 @@ _zhike.htm
 ||xilele.com^
 ||ximad.com^
 ||ximad.com^$important
+||ximhirsew.com^
 ||xin.ycitys.cn/code^
 ||xinchl.xyz^
 ||xindingwealth.com/js/39.
