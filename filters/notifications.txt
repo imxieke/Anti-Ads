@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-17 00:30:23 RPC
+! Updated: 2025-04-17 09:44:51 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12761,6 +12761,7 @@ netspotapp.com#%#//scriptlet('set-cookie', 'Sticky_gdpr', '1')
 netto-online.de###cookie-popup2
 netto-online.de###cookie-stick2
 netto.de##.cookie-message-blocking-background
+netvagas.com.br##.wa
 netwrix.com##.cookie-information-cont
 netzwelt.de#%#//scriptlet('trusted-click-element', 'h2 ~ div[class^="_"] > div[class^="_"] > a[rel="noopener noreferrer"][target="_self"][class^="_"]:only-child')
 neuca.pl,aptekarski.com,swiatzdrowia.pl,komandacard.ru,mitele.es,mrfdev.com##.cookies-consent
@@ -14078,6 +14079,7 @@ popcornmovies.to##div[x-show="!cookiePolicy"]
 poperblocker.com###elementor-popup-modal-1564
 popsugar.co.uk###policy-modal-banner
 popsugar.co.uk#@##onetrust-consent-sdk
+popularmechanics.com##div[data-floating-ui-portal]:has(div[aria-label="Privacy Disclosure"])
 poradnikbiznesu.info#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "#vicky-cookiebox")
 porcelana.com.pl#%#//scriptlet("abort-current-inline-script", "onload", "plików cookies")
 porn.com###cookie_message
