@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-17 16:28:49 RPC
+! Updated: 2025-04-18 00:27:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14078,6 +14078,7 @@ decrypt.co##.text-neutral-700
 dee-okinawa.com##.articleSocial
 deejay.it##.social-launch
 deepdotweb.com###google-widget-2
+deepl.com##div[data-testid="translator-target-toolbar-share-popup"]
 deepl.com##ul[class^="shareButtons-"]
 deeplearning.ai#?#aside.flex-col > div.flex:has(> div.flex > div.text-sm + div:contains(Share))
 deepmind.com#?#body > div > div.c_cms_content__meta__container:has(> div.c_cms_content__meta__wrapper > ul > li.c_blog_content__meta__share_item)
@@ -17577,6 +17578,7 @@ istanbul.com##.Big_Social > a:not([href="#FacebookComment"])
 istanbul.com##.MobileSocialBox
 istories.media##.Material-module--ShareTagsPartnersContainer--jdDSR
 istories.media##div[class^="Material-module--ShareContainer"]
+istories.media##div[class^="PhotoCard-module--ShareLink"]
 it-actual.ru###content > article.status-publish + div[class]
 it-daily.net##.ns-buttons
 it-tehnik.ru#?#.content-area > .content-box:has(> .text-center > div > .social-button)
@@ -22311,6 +22313,7 @@ ren.tv###banner_ss_all
 ren.tv##.news-delimiter.nomarginbottom
 ren.tv#?#div[class^="Footer_"] > div[class*="BtnGrpShort_"]:has(> div > div[class^="YShare_"])
 renderforest.com##.rf-blog-social-share-wrap
+renderhub.com##.itemInfo:has(> div > a[href^="https://www.facebook.com/sharer/"])
 reneweconomy.com.au##.gb-share-list
 renfei.net#?#.ant-space:has(> div.ant-space-item > button[class*="Share"])
 renote.net##.article__sns__list
@@ -24204,6 +24207,7 @@ tennisworldusa.org##.sharex
 terabox.com#@#.share-box
 teradas.net##.socialbar-svg
 teradownloader.com##section > div:has(> h2 + div .share-btn)
+terappin.com##.blog-share-buttons
 teraz.sk##.articleActions
 tercihiniyap.net##.pinesocials
 teren.in.ua,guardinfo.online,rompigonadi.it##.widget_weblizar_facebook_likebox
@@ -25297,6 +25301,7 @@ ultimominuto.news##.header__follow
 ultra.shueisha.co.jp,wowow.co.jp##.btn__share
 ultrabookreview.com##div[id^="social-box"]
 uludagsozluk.com##a[onclick^="ulu.paylas"]
+ulusal.com.tr,viber.com##.post-social-share
 ulusalses.com###kdfbplug
 ulyanovskcity.ru###fade
 ulyanovskcity.ru###popup_contact
@@ -25570,7 +25575,6 @@ vgtimes.ru##.soci
 vi.nl##.c-article__header__social-sharing--vertical
 viaccess-orca.com##.post-share-wrapper
 viajenaviagem.com##li[id^="compartilhar-"]
-viber.com##.post-social-share
 vibez.pl#?#svg[aria-labelledby="share"]:upward(1)
 vice.com##.article-heading-v2__social-link
 vice.com##.article__socialize

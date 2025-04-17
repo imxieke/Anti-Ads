@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-17 16:28:49 RPC
+! Updated: 2025-04-18 00:27:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4625,6 +4625,7 @@ anime.eiga.com##.adBoxMid
 anime.nicovideo.jp#?#aside[class^="_"] > div[class^="_"] > div[id^="ad-banner"]:upward(1)
 anime2you.de##.td-ss-main-content div[class^="anime-content"]
 animecomic-pass.com###article-contents > div[align="center"] > span[style="font-size: 81.25%;"]
+animego.*##div[style^="min-height"]:has(> div[id^="yandex_rtb"])
 animego.ong##.b-dwnapp
 animego.org##div[class^="mb-"][style="min-height: 210px"]
 animego.org##div[style="min-height: 290px"]
@@ -5666,6 +5667,7 @@ benzinga.com###__next > div[class^="sc-"]:has(> a[href^="https://play.google.com
 bepal.net###single-fv > div[style="min-height: 180px;"]
 beritasatu.com##.flying_carpet-box
 beru.ru##.mobile-applications-promo
+besamex.de#%#//scriptlet('trusted-set-local-storage-item', 'popup-ad-data', '{"lastClosed":1744899154661}')
 besplatka.ua##.footer_bottom > div#applications
 besplatka.ua##.social-net
 bestbuy.com###smartbannerContainer
@@ -6519,6 +6521,7 @@ chajia123.com###dy2
 chajia123.com##.foot_dybox
 chajiaotong.com##div[id^="cjtad_"]
 chakuwiki.org##.adia
+championat.com##.swiper-wrapper > div.livetable-swiper__item:has(> div.game-of-day)
 championat.com#$#.smartbanner { display: none !important; }
 championat.com#$#body._is-smartbanner { padding-top: 82px !important; }
 changsha.cn##[class^="site_ad_"]
@@ -10226,7 +10229,6 @@ h5.m.taobao.com##DIV[style='display: flex; overflow: hidden; background-color: r
 h5galgame.com##IMG[src^="http://up.h5gal.cc/data/attachment/portal/201"]
 ha.xinhuanet.com##[height="70px"]
 haaretz.com#?#section[data-test="zapp"] > div[class] > div[class]:has(> div[class] > div[class] >  div.js-dfp-ad)
-haber.mynet.com##.app-link-container
 haber.sol.org.tr##div[style^="height:200px;"][style*="width:100%;"]
 haber.sol.org.tr#?#.tex2jax_process > div[aria-label="div widget"]:has(> div.ckewidget-container > div.ckewidget-editor-border a[href="https://t.me/solhaber"])
 haber7.com###makroo-sticky-adunit
@@ -14413,7 +14415,6 @@ m.yahoo.co.jp##div[class^="sc"] > a[href^="https://app.adjust.com/"]
 m.yahoo.co.jp##div[data-key="prAd"]
 m.yelp.com##body > div[data-hypernova-key^="mobile_site_"] > div._2oFDT > div.u-space-t4 + div[class="_1mboc _39b4o _2oFDT"]:last-child
 m.yelp.com##div[class*="yelp-ad"]
-m.yelp.com##div[data-testid="smart-banner-pitch"]
 m.yeniakit.com.tr##.sticky-mobil-new
 m.yeniakit.com.tr#$#.dfp { display: none !important; }
 m.yeniakit.com.tr#$#.gallery-page { min-height: 2630px !important; }
@@ -15476,6 +15477,7 @@ mx1b.nan-net.jp##div[style="padding:0px 0px 20px 0px;"]
 mxdm.xyz#%#//scriptlet('abort-current-inline-script', 'Function', 'new Function(document[')
 mxshm.top$$script[tag-content="ads_"]
 my-best.com##.css-1dcxir4
+my-best.com##a[href^="https://mybest.go.link/"]:has(> div > img)
 my.clevelandclinic.org##div[data-identity="adhesive-ad"]
 my.telkomsel.com##div[class^="BannerDownload"]
 my0511.com###bbdcc
@@ -15584,6 +15586,7 @@ mylomza.pl##.kampeki
 mymo-ibank.com##.l-footer-aplcation
 mynavi.jp###sp-ad-above-pagenation
 mynet.com##.ad-flying-carpet
+mynet.com##.app-link-container
 mynet.com##.body-banner-block:not(#style_important)
 mynet.com##.cart-list div.app-news-item
 mynet.com##.mynet-kesfet-banner-box
@@ -22378,6 +22381,8 @@ ydt.com.cn##.r_yueyue,.u_yueyue,.adsbygoogle
 ye120.com##.fixed_bottom
 yeah.net##[id$="_dvPrmot"]
 yeeyi.com##.js_handle_right
+yelp.*##div[data-testid="open-app-button"]
+yelp.*##div[data-testid="smart-banner-pitch"]
 yelp.be,yelp.ca,yelp.ch,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.au,yelp.com.sg,yelp.ie##.data-ad-placement
 yemek-com.cdn.ampproject.org##.recipeContent > .printHidden
 yemek.com##.headerBox > .yemekcomApp
