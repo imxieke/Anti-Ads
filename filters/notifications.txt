@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-18 16:27:44 RPC
+! Updated: 2025-04-19 00:26:17 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6334,6 +6334,8 @@ coffeeness.de#$#.cli-barmodal-open { overflow: visible !important; }
 coffeeness.de#$#.wt-cli-cookie-bar-container { display: none !important; }
 cofidis.cz###cookieLB
 cofidis.cz##.bg-cookieLB
+cofra.it##div[class][style^="position:"]:has(> div.CookieConsent)
+cofra.it#@#.CookieConsent:not(body):not(html)
 cogna.com.br##.privacy-main
 coi.gov.pl,odrabiamy.pl,interacty.me##div[class^="CookiesBanner_"]
 coinbase.com###root > div > div[style*="position: fixed"]:has(> div > p > a[href^="https://www.coinbase.com/legal/cookie"])
@@ -7023,6 +7025,7 @@ developer.samsung.com#$#.common-backdrop:not(.full-backdrop) { display: none !im
 developer.samsung.com#$#body { position: static !important; }
 developer.wolt.com##div[style*="z-index"] > div[class^="sc-"] > .cb-elevated:has(> p > a[href*="/privacy"])
 developer.x.com,developer.twitter.com##.u12-data-protection-notice__item
+developers.oxylabs.io,docs.edgeimpulse.com,opencollective.com,help.quantower.com,docs.nexthink.com##div[data-testid="cookies-dialog"]
 developers.sber.ru###GDPRBanner
 deviantart.com#?##root > div[class]:has(> div[class] > a[href$="/policy/privacy"])
 deviantart.com,dw.com,eurosport.com,kompas.com,nzherald.co.nz,photobucket.com,spiegel.de,tvnz.co.nz###smartbanner
@@ -7177,7 +7180,6 @@ docdoc.ru##div[data-test-id="cookies-banner"]
 docinsider.de###__cookiemsg
 dockyard.hu###cookie_accept_container
 docs.blackbox.chat##div[aria-label="Cookies"]
-docs.edgeimpulse.com##div[data-testid="cookies-dialog"]
 docs.libretro.com,hiddify.com,baslerweb.com,nokogiri.org,github.io,docs.nefarius.at,forethought.ai##.md-consent
 docs.nats.io###toast-0
 docs.nordicsemi.com###box-banner-slide
@@ -7774,6 +7776,7 @@ eplus.by#@#.cookies-container
 epo.org###matomoBanner
 epocacosmeticos.com##div[data-testid="politica-modal"]
 epochtimes.de###etd_cookie_alert
+eporn.xxx,okxxx3.com,okxxx2.com,okxxx1.com,perfektdamen.*,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,ok.porn,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx,perfectgirls.*,homo.xxx,ok.xxx,pornhat.*,pornhub.com,veepee.fr,dyson.com.ru,dyson.de,fonedog.com##.cookiesBanner
 epoznan.pl###rodo-info-box
 epravda.com.ua,pravda.com.ua###checkUPcookies
 epuap.gov.pl###rodo-modal
@@ -12018,6 +12021,7 @@ meteomedia.com#$#.taskbar { top: 0px!important; }
 meteomedia.com#$#.woahbar { display: none!important; }
 meteomedia.com#$#body { overflow: visible!important; }
 meteopool.org###mainTrackingOptinBox
+meteopower.com,momesternasalotc.pl,fanqienovel.com,mehr-kosmetik-shop.de,imid.med.pl##.popup
 meteoprog.pl#%#//scriptlet('prevent-setTimeout', 'gdpr')
 meteum.ai##form[data-testid="gdpr"]
 metradar.ch###closeonaction
@@ -12256,7 +12260,6 @@ mojmaxtv.hrvatskitelekom.hr##nav > div[class*="styles__HeaderInfoBarStyled"]:has
 mojposao.ba#?#body div:not([class]):not([id]) > div.EV5KEN-Lc-b:upward(1)
 molotov.tv##.eRnhI
 moment.co#?##root > div[class]:has(> div[class] > button:contains(Accept Cookies))
-momesternasalotc.pl,fanqienovel.com,mehr-kosmetik-shop.de,imid.med.pl##.popup
 momondo.de###ajaxStyleJamCookiesMessage
 momox.de##.cookie-preference-modal
 momox.de##.cookie-teaser
@@ -12435,9 +12438,6 @@ mullerpolska.pl#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog a#
 multiplan.com.br,jundiaishopping.com.br,ribeiraoshopping.com.br,shoppingvilaolimpia.com.br,parkshopping.com.br,barrashopping.com.br,parkshoppingbarigui.com.br,barrashoppingsul.com.br,parkshoppingcanoas.com.br,patiosavassi.com,diamondmall.com.br,morumbishopping.com.br###CookiesPolicy
 multipolar-magazin.de###cookiezeile
 multipolster.de#%#//scriptlet('set-cookie', 'mnd-cookie-accepted-wwwmultipolsterde1', '1')
-multirenowacja.pl,sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#$##cookies_message_modal { display: none !important; }
-multirenowacja.pl,sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#$#.modal-backdrop { display: none !important; }
-multirenowacja.pl,sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#%#//scriptlet('remove-class', 'modal-open', 'body')
 multitronic.fi#%#//scriptlet('trusted-set-cookie-reload', 'consentCookie', '{"consentAnalytics":false,"consentAds":false}')
 mundodeportivo.com#%#//scriptlet('trusted-click-element', '#mrf-popup a.mrf-button-agree')
 munichmag.de##div[x-data="cookieConsent()"]
@@ -12622,6 +12622,7 @@ namaximum.*,gate.shop#$?##snippet--cookies { remove: true; }
 namdalsavisa.no###pm-privacy-banner
 nameshield.com##.iAgreePopup
 namesilo.com###cookies-consent-section
+namesilo.com#%#//scriptlet('trusted-set-cookie', 'cookies-consent', 'necessary%3Ayes%2Cfunctional%3Ano%2Canalytics%3Ano%2Cperformance%3Ano%2Cadvertisement%3Ano%2Cuncategorised%3Ano')
 nanodatex.pl###cookis-box
 nanu-nana.de###neusta-cookie-banner
 nanu-nana.de###neusta-cookie-notice-modal
@@ -13219,7 +13220,6 @@ okko.tv##.swZOQ
 oklink.com##.cookieTips
 okmarket.ru,ulker.com.tr,vogue.ru##.cookie-pane
 oko.press#%#//scriptlet('trusted-set-cookie', 'privacy2', 'necessary')
-okxxx3.com,okxxx2.com,okxxx1.com,perfektdamen.*,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,ok.porn,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx,perfectgirls.*,homo.xxx,ok.xxx,pornhat.*,pornhub.com,veepee.fr,dyson.com.ru,dyson.de,fonedog.com##.cookiesBanner
 olajonline.hu,lesmoutonsrebelles.com,onlinestreet.de#$?#body { overflow: auto !important; position: static !important; }
 olb.de##.mod-cookiewarning
 old-games.ru##.bottomFixer > div.Notices
@@ -13344,7 +13344,6 @@ openbankingbrasil.org.br#$#.modal-privacidade { display: none!important; }
 openbankingbrasil.org.br#$#.modal-privacidade ~ .modal-backdrop { display: none!important; }
 openbankingbrasil.org.br#$#body { overflow: visible!important; padding-right: 0!important; }
 openbb.co#?#.fixed:has(> #analytics-form)
-opencollective.com,help.quantower.com,docs.nexthink.com##div[data-testid="cookies-dialog"]
 opengapps.org##div.mdl-snackbar[aria-live]
 openpli.org#%#//scriptlet('set-cookie', 'gdpr-accepted', 'Yes')
 openreach.com##.floating-cookie-policy
@@ -15615,6 +15614,9 @@ smdv.de#$#html { overflow: auto!important; position: static!important; }
 smdv.de#$?##cc_info { remove: true; }
 smdv.de#$?#body > div.reveal__overlay:has(> div[id] > div#js_reveal_cookie_content) { display: none!important; }
 sme.sk##.js-cookie-bar
+smieszneprezenty.com.pl,futuregardens.pl,multirenowacja.pl,sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#$##cookies_message_modal { display: none !important; }
+smieszneprezenty.com.pl,futuregardens.pl,multirenowacja.pl,sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#$#.modal-backdrop { display: none !important; }
+smieszneprezenty.com.pl,futuregardens.pl,multirenowacja.pl,sekrecik.pl,tagred.pl,soteshop.com,sote.pl,q21.pl,emilio.pl#%#//scriptlet('remove-class', 'modal-open', 'body')
 smit-sport.de,moebel-akut.de#$#.modal-backdrop { display: none!important; }
 smit-sport.de,moebel-akut.de#$#body { overflow: visible!important; }
 smit-sport.de,moebel-akut.de#$#div[data-feature="Web.Core.Feature.PrivacyCategory.Dialog"] { display: none!important; }
