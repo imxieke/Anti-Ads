@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-18 09:42:16 RPC
+! Updated: 2025-04-18 16:27:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -5831,6 +5831,8 @@ bioon.com##.grid_6
 biqgg.com##a[onclick="guangtui();"]
 biqudao.com##.dahengfu,.con_ad
 biquge001.com###content > a
+biquge345.com##.puaxqbxs_b
+biquge345.com##div[style^="position:fixed;"]
 biqulou.net##.dahengfu
 biqushu.com##.adlist
 biquwo.com###content > div[style="padding:15px;"]
@@ -6665,6 +6667,7 @@ chinanewsx.com##a[href="/about/"]
 chinanewsx.com##a[href^="/go/"]
 chinapdf.com###floatleft
 chinapdf.com###floatright
+chinapress.com.my##.ads-frame
 chinaqking.com###cnt-ad
 chinaqking.com###newsAD
 chinaqking.com###readerServiceDIV
@@ -8681,7 +8684,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -13354,6 +13357,7 @@ livku.com##.ad960,.adjx
 ljsilvers.com##.site-popup
 lk21official.shop##.notice
 lkong.com##.lkong-ads
+lkvod.me##.ec-ad-img
 llduang.com##[class$="cokitaobao1"]
 llss.bz###secondary img:not(.avatar)
 ln.xinhuanet.com##.l-ad,[class^="nav_adv"]
@@ -15511,7 +15515,6 @@ myday.com.tw##.myday_ad_left
 myday.com.tw##.myday_ad_right
 mydealz.de##.browserExtension-promotionBanner
 mydealz.de##.cept-banner-id-204
-mydealz.de##.js-threadList  > .hide--fromW3
 mydealz.de##.listLayout-main > div[class^="hide--from"]
 mydigit.cn##.radi
 mydigit.cn##.txtMes
@@ -16868,8 +16871,9 @@ people.com.cn##.zh_left
 peoplematters.in##.sphere-link
 pepco.hu,pepco.pl,pepco.eu,pepco.sk,pepco.cz,pepco.ro,pepco.hr,pepco.lt,pepco.si,pepco.lv,pepco.ee,pepco.bg##a[href="applikacio"]
 peple.com.tr##.footer-top
-pepper.pl##div[class*="hide--fromW"] > .bRad--a:has(> .ad--bg)
+pepper.pl##div[class*="hide--fromW"] > .flex:has(> .ad--bg)
 pepper.pl#?#.js-threadList > .js-banner:has(img[alt$="-App"])
+pepper.pl,mydealz.de##.js-threadList  > .hide--fromW3
 pepper.ru##div[data-track*="app_installs_banner"]
 perekrestok.ru#%#//scriptlet('trusted-click-element', 'button.app-banner-close', '', '800')
 perezhilton.com##.anchor-spot
@@ -17000,7 +17004,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -21536,6 +21540,7 @@ wsj.com##div[class^="WSJTheme__adWrapper_"][style="min-width: 300px; min-height:
 wsj.com##p > #deloitte_column > [data-module-zone="deloitte_insights"] > .deloitte-insights
 wsj.com#?#div[class^="WhatsNewsTheme"] > div[class]:has(div[class] > div[class^="WSJTheme--adWrapper"])
 wsoctv.com##a[href="/mobile-apps/"]
+wss://*.top/|
 wss://*.xyz:*?x=$third-party
 wss://*/api/wss/GetNotReadCount$third-party
 wszhibo.com##.ads_block,#rightAD,#leftAD
@@ -27502,6 +27507,7 @@ _zhike.htm
 ||afs.moatads.com^$important
 ||aftermathbrother.com^
 ||aftp.linksynergy.com^$important
+||afvrolvial.com^
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag.gbc.criteo.com^$important
 ||ag.innovid.com^$important
@@ -32164,6 +32170,7 @@ _zhike.htm
 ||chicken18.com^
 ||chickensstation.com^
 ||chidir.com^
+||chienzul.com^
 ||childlikecook.com^
 ||childlikecrowd.com^
 ||childlikeexample.com^
@@ -34402,6 +34409,7 @@ _zhike.htm
 ||dig.zjurl.cn^
 ||digestiondrawer.com^
 ||digg-d.openx.net^$important
+||dighavrap.com^
 ||digiaff.affise.com^$important
 ||digiaff.g2afse.com^$important
 ||digidukan.fuse-ad.com^$important
@@ -38090,6 +38098,7 @@ _zhike.htm
 ||hengfaienterprises.com/template/reader/wap/revvd.js
 ||henghost.com/data/forum-$script
 ||henghost.com^$third-party
+||henqnv.top^
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaicounter.com^$important
@@ -39958,6 +39967,7 @@ _zhike.htm
 ||iwarship.net/wowsdb/static/img/banner.png
 ||iwatchme2u.com/Public/banner.jpg
 ||iwatero.top^
+||iwcnmto.top^
 ||iweisio.top^
 ||iweizao.top^
 ||iwerilxo.top^
@@ -40074,6 +40084,7 @@ _zhike.htm
 ||jc001.cn/indexnew/js/yuyue.js
 ||jc1.dayfund.com.cn^
 ||jcdf99.com/hzz/scripts/new
+||jcfbgdbd.top^
 ||jcfnbhqo.icu^
 ||jcinmaa.top^
 ||jcinvda.top^
@@ -41644,6 +41655,7 @@ _zhike.htm
 ||lk9k.adj.st^$important
 ||lkdyft.xyz^
 ||lkiterl.top^
+||lkmgjfkhfh.top^
 ||lkqaq.icu^
 ||ll.atdmt.com^$important
 ||ll.gxsky.com^
@@ -45069,6 +45081,7 @@ _zhike.htm
 ||ott.cibntv.net/youku/*.mp4*&ctype=$m@res:block/null.mp4
 ||otto-images.developershed.com^$important
 ||otzovik.com/scripts/function/iri2.php?
+||oucnmtk.top^
 ||ouiokaq.top^
 ||oumax.oupeng.com^$important
 ||oumnxiek.top^
@@ -46919,6 +46932,7 @@ _zhike.htm
 ||qjhlc.com^
 ||qjimtyy.top^
 ||qjoges.xyz^
+||qjuy.cn^
 ||qjwvwu.xyz^
 ||qk6.org/file/script/
 ||qkax.cn^
@@ -50725,6 +50739,7 @@ _zhike.htm
 ||suddensnake.com^
 ||suddensoda.com^
 ||suddenstructure.com^
+||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
 ||sufile.com/jsa/
 ||sugar.zhihu.com/*_adreaper
@@ -53278,6 +53293,7 @@ _zhike.htm
 ||uub.jp/kkn/DL_banner_940x100.png
 ||uucatiqnd.com^
 ||uucm.cn^
+||uucnmtt.top^
 ||uuff.com^
 ||uugtv.com/x/app/videoSpread?
 ||uuiaoq.top^
@@ -54316,6 +54332,7 @@ _zhike.htm
 ||wigetmedia.com^$important
 ||wigglygeese.com^
 ||wigglyindustry.com^
+||wigk.cn^
 ||wiixqm.xyz^
 ||wiiytwd.icu^
 ||wikia-ads.wikia.com^$important

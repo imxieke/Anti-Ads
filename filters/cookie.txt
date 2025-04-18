@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-18 09:42:16 RPC
+! Updated: 2025-04-18 16:27:44 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32957,6 +32957,8 @@ diil.ee##.header__notice
 dijaspora.online##.cookie-uslovi
 dijitalders.com###CerezUyari
 dilendorf.com##.privacy-popover
+dillingen.bayernlab.bayern.de##+js(set-cookie, allowStats, 0)
+dillingen.bayernlab.bayern.de##+js(set-cookie, hideBanner, 1)
 dilynakotle.cz,snowboardel.es,bagosport.cz,akumo.cz,kupkolo.cz,snowboardel.cz,pompo.cz,oveckarna.cz,rockpoint.cz,rockpoint.sk,parfum-zentrum.de,candy-store.cz,vivobarefoot.cz,sartor-stoffe.de,xm.sk##+js(set-cookie, cookie-bar, 0)
 dimed.com.br##.antd-pro-components-cookie-pop-up-index-show_popup
 dimlux.nl###cookiepopupbox
@@ -48680,6 +48682,7 @@ remedium.md##._cookie_cookies-panel__LMI9a
 remember.de#$##trocookie-cookiebox { display: none !important; }
 remember.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 remienky.sk##.cookies_panel_2022
+remington-europe.com##+js(set-session-storage-item, cookies_dismissed, 1)
 remitly.com##.f4lpvwd
 remitly.com##footer > [class^="footer"] ~ div
 remitly.com#%#//scriptlet('trusted-set-cookie', 'cookie_consent', '000')
