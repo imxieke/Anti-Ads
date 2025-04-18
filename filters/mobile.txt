@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-18 00:27:26 RPC
+! Updated: 2025-04-18 09:42:16 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12985,6 +12985,7 @@ lalulalu.com###overture_main_banner
 lalulalu.com##.overture_banner
 lan-sha.com#?#.post-list > li.post-item:not(:has(> div.post-item-container a[href^="https://www.lan-sha.com/"][href$=".html"]))
 lanacion.com.ar###wrapper::before
+lanazione.it##div[style="min-height: 100px; top: 48px;"]
 landiannews.com###block-2
 landiannews.com##.sidebar > section#block-4
 landiannews.com##.widget_metaslider_widget
@@ -16299,6 +16300,7 @@ nyahentai.re,momon-ga.com###video_inst_area
 nydailynews.com##body > #r-main > div.r-yieldmo
 nyhx.com##div.adv_box
 nytimes.com###site-content > div[class] > div[class^="css-"][class*=" e1"][class*="pa"]
+nytimes.com###story > div[class^="css-"]:has(> div > div > div > a[href^="https://www.nytimes.com/audio/app?"])
 nytimes.com##.css-p3qvdn
 nytimes.com##.promo
 nytimes.com##.vi-gateway-container > div[class^="css-"]:has(> div[class^="css-"] > .ad.mobile_top-wrapper)
