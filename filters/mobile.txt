@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-19 16:24:59 RPC
+! Updated: 2025-04-20 00:25:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6258,6 +6258,7 @@ businessinsider.co.za#@#.ad-loaded
 businessinsider.com##.app-badges
 businessinsider.com##.app-download-cta-container
 businessinsider.com##.river-ad
+businessinsider.com,sakurazaka46.com##.app-button
 businessinsider.de##.bi-banner
 businessinsider.de##.billboard-container
 businessinsider.de##.mrec
@@ -18225,7 +18226,6 @@ saitama-np.co.jp##.sp-only > ul[class^="newslist-"] > li:not([class])
 saiyasune.com#?#div[class]:has(> div[id]:contains(アプリ版なら))
 sakai-hk.com,sakai.club###diynavtop,.adsbygoogle,.a_pt
 sakshi.com##div[data-tb-region="Sakshi_Apps"]
-sakurazaka46.com##.app-button
 sammobile.com##.g-29
 sammobile.com##body > header.navbar-fixed-top + div.container-fluid
 sammobile.com#$#body > #home-slider + section.content { margin-top: 0!important; }
