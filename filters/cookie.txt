@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-19 09:42:06 RPC
+! Updated: 2025-04-19 16:24:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26487,6 +26487,7 @@ allisonpr.fr###alert-slide-down
 alljapanesepass.com,javhd.com##.jcookie
 allmusic.com##.cookie-policy-box
 allmusic.com##.cookiePolicyBox
+allmusic.com,india.com##.cookiePolicyBox
 allmusicitalia.it#%#//scriptlet("set-constant", "initCookieConsent", "noopFunc")
 allnet-flat-vergleich-24.de###ax_consent_inform
 allobebe.fr##.cookies
@@ -39028,7 +39029,6 @@ independer.nl##.ind-cbar
 indepth.dev##.cookies
 index.co##.c-consent-manager
 india.com###co-container
-india.com##.cookiePolicyBox
 india.com##.cookieScreenOverlay
 indiancaller.com##.pn_notebox
 indianexpress.com##div[id*="google_ads_iframe"][id*="GDPR"]

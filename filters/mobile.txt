@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-19 09:42:06 RPC
+! Updated: 2025-04-19 16:24:59 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -31021,6 +31021,7 @@ _zhike.htm
 ||bubulai.com/js/zv.js
 ||bucket.rtk.io^$important
 ||bucketbean.com^
+||bucnmtv.top^
 ||budsinc.com^$important
 ||bugly.qq.com^
 ||bugly.qq.com^$important
@@ -34804,6 +34805,7 @@ _zhike.htm
 ||doupuer.com^
 ||doutula.com/img/upupoo/
 ||douyin.com/api/user/getPcBanner?
+||douyin.com/aweme/v1/web/solution/resource/list/*_banner&
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
 ||douyucdn.cn/butterfly-java/*?width=1200&height=100&
@@ -38171,6 +38173,7 @@ _zhike.htm
 ||hhfun.cn^
 ||hhllyt.com^
 ||hhn-v4.pops.fastly-insights.com^$important
+||hhppzkhurf.com^
 ||hhrerv.xyz^
 ||hhvip86.com^
 ||hhvip87.com^
@@ -38282,6 +38285,7 @@ _zhike.htm
 ||hkmte.com/seo.js
 ||hknoq.cn^
 ||hkpeghqu.icu^
+||hkralgriks.com^
 ||hktvmall.com/api/preroll/getList?
 ||hl.dyq.cn^
 ||hlegsdh.icu^
@@ -40292,6 +40296,7 @@ _zhike.htm
 ||jjxsw.com/js/common.js
 ||jjyx.com^
 ||jke1.jianke.com^
+||jktkhn.top^
 ||jku62.com/news/banner
 ||jku62.com/other/bannerList
 ||jku62.com/other/gameEntrance
@@ -40632,6 +40637,7 @@ _zhike.htm
 ||juznlx.xyz^
 ||jwa-d.openx.net^$important
 ||jwatera.top^
+||jwcnmta.top^
 ||jwcsb.com.cn/js/neirong.js
 ||jweisia.top^
 ||jweizaa.top^
@@ -42006,6 +42012,7 @@ _zhike.htm
 ||luckyforworlds.com^
 ||luckymeetyou.com^$important
 ||luckyzombie.com^
+||lucnmtl.top^
 ||ludicrousarch.com^
 ||lufulibaa.com/ad$script
 ||lumberamount.com^
@@ -43049,6 +43056,7 @@ _zhike.htm
 ||mgbsdksgtest.matrix.easebar.com^$important
 ||mgc-games.com^
 ||mgd-adengine.elasticbeanstalk.com^$important
+||mghezaxh.com^
 ||mgid.com^
 ||mgid.com^$important
 ||mgidskix.top^
@@ -52612,6 +52620,7 @@ _zhike.htm
 ||tuxi.com.cn^
 ||tuxpfiok.icu^
 ||tuyiyi.com/tuyiyi/m.js
+||tuyv.cn^
 ||tv.sohu.com##[width="640"][height="100"],.adv
 ||tv.sohu.com/upload/csad/admaster/$image
 ||tv.sohu.com/upload/Trace/$script
@@ -52893,6 +52902,7 @@ _zhike.htm
 ||uhityllhn.com^
 ||uhmcjdc.icu^
 ||uhuf56.fun^
+||uhyf.cn^
 ||ui37.net^
 ||uiadmin.net/uview-plus/assets/js/3.1b3a95a0.
 ||uiakq.top^
