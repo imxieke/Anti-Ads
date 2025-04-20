@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-20 09:50:53 RPC
+! Updated: 2025-04-20 16:24:42 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -17006,7 +17006,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30952,6 +30952,7 @@ _zhike.htm
 ||bsch.serving-sys.com^$important
 ||bshare.cn/bshare_view?Callback=
 ||bshare.cn^
+||bsizoia.com^
 ||bskchina.cn^
 ||bsmakeup.com.cn^
 ||bsrv.qq.com^
@@ -31089,6 +31090,7 @@ _zhike.htm
 ||bvdenx.xyz^
 ||bvlang.com/ad/
 ||bvubasnf.com^
+||bvzc.cn^
 ||bw66.cn/template/default_pc/bbs/
 ||bweriov.top^
 ||bwi-v4.pops.fastly-insights.com^$important
@@ -33601,6 +33603,7 @@ _zhike.htm
 ||cubepins.com^
 ||cuberonlabs.com.com^$important
 ||cubics.com^$important
+||cucnmtf.top^
 ||cuddlycake.com^
 ||cuddlylunchroom.com^
 ||cui.m.1688.com^
@@ -38264,6 +38267,7 @@ _zhike.htm
 ||hjimtyu.top^
 ||hjkhxfh.360doc.cn^
 ||hjrcjz.xyz^
+||hjvzfa.top^
 ||hk-gmtdmp.mookie1.com^$important
 ||hk-pub.com/forum/images/2009/gifbanner
 ||hk-pub.com/forum/images/banner/
@@ -41129,6 +41133,7 @@ _zhike.htm
 ||kvqp.cn^
 ||kvyyyde.cn^
 ||kwaterd.top^
+||kwcnmtd.top^
 ||kweisid.top^
 ||kweizad.top^
 ||kwerilxd.top^
@@ -43728,6 +43733,7 @@ _zhike.htm
 ||mttpsy6666.cc^
 ||mtwuxss.icu^
 ||mtxsk.com^
+||mucnmtx.top^
 ||muddledaftermath.com^
 ||muddledmemory.com^
 ||muer.cdn-baidu.fs-sywh.com^
@@ -44052,6 +44058,7 @@ _zhike.htm
 ||nbfsvreu.icu^
 ||nbjmp.com^$important
 ||nbojiajiao.bid^
+||nbragzui.com^
 ||nbrecsys.4paradigm.com^
 ||nbsdk-baichuan.alicdn.com^
 ||nbsdk-baichuan.taobao.com^$important
@@ -52829,6 +52836,7 @@ _zhike.htm
 ||uca6.com^
 ||uchks.com/2018/%
 ||uclimit.top^
+||ucmx.cn^
 ||uconnect.tealiumiq.com^$important
 ||ucoz.com^
 ||ucs.adserver.snapads.com^$important
