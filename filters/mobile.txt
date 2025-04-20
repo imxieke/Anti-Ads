@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-20 16:24:42 RPC
+! Updated: 2025-04-21 00:24:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8044,8 +8044,6 @@ driver-web.jp##div[id^="ad"][id$="box"]
 drivers.160.com##div#sideBox
 drochka.vip##.container > center[style="min-height:250px"]
 drochka.vip#?#.thumbs_list > div.th:has(> script[src^="https://a.realsrv.com/"])
-dropbox.com##.dig-Banner
-dropbox.com##div.dig-Banner[role="alert"]
 dropbox.com#%#//scriptlet('set-cookie', 'seen-sl-download-modal', 'true')
 dropbox.com#%#//scriptlet('set-session-storage-item', 'has_seen_interstitial', 'true')
 dropbox.com#?#div[class^="_headerContainer"] > div[style]:has(> div[class^="_banner_"] > div[class^="_text-container"] > button > span:contains(app))

@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-20 16:24:42 RPC
+! Updated: 2025-04-21 00:24:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24555,6 +24555,7 @@
 @@||consent.cookiebot.com/uc.js$domain=werder.de
 @@||consent.cookiebot.com/uc.js$domain=wero-wallet.eu
 @@||consent.cookiebot.com/uc.js$domain=woolworth.de
+@@||consent.cookiebot.com/uc.js$domain=zuiderzeemuseum.nl
 @@||consent.cookiebot.com/uc.js^$domain=altibox.dk|altibox.no
 @@||consent.cookiebot.com/uc.js^$domain=otto.haribo.com
 @@||consent.cookiebot.com^$domain=bt.dk
@@ -27985,7 +27986,7 @@ axisbank.com###HomePageStrip > .topbandBg_New
 axminstertools.com##.axmcookie-notice-container, .axmcookie-notice-conatiner
 axor-design.com,hansgrohe.de##.cookie-layer-advanced
 axway.com##div[id*="cookiePolicyWarning"]
-aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,denizli20haber.com,eldedemokrasi.com,euromsg.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,ispartamhaber.com,kocaelisabah.com,mhrs.gov.tr,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,yenigolcuk.com##.cerez
+aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,denizli20haber.com,eldedemokrasi.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,kocaelisabah.com,mhrs.gov.tr,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,yenigolcuk.com##.cerez
 ayedas.com.tr,toroslaredas.com.tr,baskentedas.com.tr##.footer_cerezpolitikasi
 aytemiz.com.tr###Menu_cookieContainer
 ayudatpymes.com###__bg
@@ -29361,7 +29362,6 @@ bonappetit.hu###foodfood_cookie
 bonarkacitycenter.pl###cookies
 bonava.lv#@##onetrust-consent-sdk
 bonbon.hr,businesslive.co.za,eid.hr,timeslive.co.za,wantedonline.co.za###gdpr-overlay
-bonbon.hr,businesslive.co.za,timeslive.co.za,wantedonline.co.za###gdpr-overlay
 bondex.de##.cookie-consent
 bondfaro.com.br##div[class^="PrivacyPolicy-"]
 bondfaro.com.br,quebarato.com.br##.floatingBarPrivacy
@@ -30020,6 +30020,7 @@ caberstore.com###cookies
 cabify.com###cmcb-informationLayer
 cabify.com##.c-cookies
 cablemonkey.co.uk##.cookie_popup_overlay
+cabletimetech.com##.otCookiesNotification
 cablexpress.com##.mura-cta__container
 cabonline.com,laba.media,intersport.ua##div[class^="CookieMessage_"]
 cache.consentframework.com
@@ -32667,6 +32668,8 @@ desimartini.com#$#.cookiesbg { display: none !important; }
 desimartini.com#$#body { overflow: visible !important; }
 desired.de#%#//scriptlet("set-constant", "consentIsActive", "false")
 deskmat.io##.c_innerbox
+desktronic.nl,tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
+desktronic.nl,tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 desmo-racing.com###cookie
 desokupa.com###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 desport.ru##div[class^="Cookies_cookie__"]
@@ -37671,7 +37674,6 @@ hairbro.com###shopify-section-cookie-popup
 hajduk.hr##+js(set-cookie, gdpr-cookies, 1)
 hakobura.jp##.approval-required-fix-balloon
 hakom.hr,zagreb.hr##.gdc-container
-halcyon.net###cookie_info
 halcyon.net,santionduty.com###cookie_info
 halebop.se#$#.disable-scroll { overflow: auto !important; position: static !important; }
 halebop.se#$#cookie-consent { display: none !important; }
@@ -43355,6 +43357,7 @@ mimovrste.com,mall.hu,mall.hr,mall.sk,mall.cz##+js(set-cookie, mal_consent_gdpr_
 mimovrste.com,mall.hu,mall.hr,mall.sk,mall.cz##+js(set-cookie, mal_consent_gdpr_remarketing, f)
 mimprendo.it##body > div:not([id]):not([class])
 mimprendo.it##div[style="background-color:#E2E2E2;float:left;position:fixed;top:50px;left:0; height:60px;width:100%;"]
+min.io##+js(set-local-storage-item, cookieConsent, accepted)
 min.io##.footer__banner
 minameddelanden.se##.alertWrap
 mince.nl###sbeu-cookie
@@ -44474,7 +44477,7 @@ nationalprivacytest.org##.bg-grey-darkest.bottom-0
 native-instruments.com#$##ni-cookie-consent { display: none !important; }
 native-instruments.com#$#body { overflow: auto !important; }
 nativebase.io###__next > .font-poppins
-natlawreview.com,knime.com,seventhgeneration.com,press.princeton.edu,ldz.lv##+js(set-cookie, cookie-agreed, 0)
+natlawreview.com,knime.com,seventhgeneration.com,press.princeton.edu,ldz.lv,openfiler.com##+js(set-cookie, cookie-agreed, 0)
 natro.com###readed_contract_row
 nats.io###main_gdpr
 naturasiberica.ru,sneakerfreaker.com#%#//scriptlet('set-local-storage-item', 'cookieConsent', '1')
@@ -45641,6 +45644,7 @@ omni.se#$#.sch-datacontroller--subheader { display: none !important; }
 omnidesk.ru##.t886
 omnifurgone.it##.m1-footer-messages
 omnimoto.it##.m1-footer-messages
+omniplex.ie##+js(set-cookie, a1wcc, NECESSARY)
 omniplexcinemas.co.uk,omniplex.ie#$#body #cookieConsentBar { display: none !important; }
 omniplexcinemas.co.uk,omniplex.ie#$#body { overflow: auto !important; pointer-events: auto !important; }
 omniplexcinemas.co.uk,omniplex.ie#@##cookieConsentBar
@@ -50869,6 +50873,8 @@ sonnenverlauf.de###cc_div
 sonos.com##.sonoscontent-banner
 sonriso.pl###sonriso-cookies
 sonuma.be##cookies-warning
+sony.co.id##.consent__overlayHandler
+sony.co.id##.explicit_consent
 sony.de,pokemontcgpocket.com#@##onetrust-consent-sdk
 sony.pl#@##onetrust-consent-sdk
 sony.ru,pch.com,sony.com.br,royalmail.com,uber.com##.privacy_prompt
@@ -51104,6 +51110,7 @@ spoonflower.com##.b-text-box.x-global-dialog
 spoonflower.com##.x-global-dialog
 spor.dk###cookies
 sport-bittl.com###vbcn-backdrop
+sport-express.ru###se-cookie-popup
 sport-plus-online.com#$##cookieModal { display: none !important; }
 sport-plus-online.com#$##cookieModal ~ div.modal-overlay { display: none !important; }
 sport-plus-online.com#$#body { overflow: auto !important; }
@@ -52596,8 +52603,6 @@ teogkaffespecialisten.dk##.alert-dismissable
 teoma.com###cp-banner
 teoria.com##.alert-danger
 teosto.fi##.u-position-fixed.u-zindex-100
-tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
-tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 teplickedorty.cz##+js(set-cookie, DmCookiesAccepted, true)
 teplickedorty.cz##+js(set-cookie, DmCookiesAnalytics, false)
 teplickedorty.cz##+js(set-cookie, DmCookiesMarketing, false)
@@ -55710,7 +55715,6 @@ wellaware.eu##.popup--cookies
 wellcard.cc###cookie
 wellcomecollection.org##[data-test-id="cookie-notice"]
 wellmall.cz##.euc
-wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 welt.de,cmp.bike-bild.de,cmp.autobild.de#%#//scriptlet('trusted-click-element', 'button[title="Alle akzeptieren"]')
 welt.de,player.pl,tvn24.pl##.cookie-notice
 weltdergoetter.de###notice
@@ -56840,6 +56844,7 @@ zuckerjagdwurst.com#$?##gatsby-focus-wrapper > div[class^="index-module--wrapper
 zuendstoff-clothing.de##.ConsentOverlay, .ModalBackground
 zuerichmarathon.ch##.div-block-165
 zuerilaufcup.ch##+js(set-cookie, disclaimeragreed, true)
+zuiderzeemuseum.nl,wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonStatistics, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 zumba.com##.privacy-policy
 zumub.com###bottom_cookie
 zurich.co.uk###opnotification

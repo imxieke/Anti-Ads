@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-20 16:24:42 RPC
+! Updated: 2025-04-21 00:24:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3031,6 +3031,7 @@
 @@||consent.cookiebot.com/uc.js$domain=werder.de
 @@||consent.cookiebot.com/uc.js$domain=wero-wallet.eu
 @@||consent.cookiebot.com/uc.js$domain=woolworth.de
+@@||consent.cookiebot.com/uc.js$domain=zuiderzeemuseum.nl
 @@||consent.cookiebot.com/uc.js^$domain=altibox.dk|altibox.no
 @@||consent.cookiebot.com/uc.js^$domain=otto.haribo.com
 @@||consent.cookiebot.com^$domain=bt.dk
@@ -15825,6 +15826,7 @@ splunk.com##.cookie-notice-wrap
 spokojnypes.sk,force.bike,lambimaailm.ee,lampmani.se,lampite.bg,svijet-svjetiljki.hr,liderlamp.pl,svet-svitidel.cz,lampak.hu,lumimania.fr,lumimania.be,fotistikosmos.gr,svet-svietidiel.sk,lampamania.es,lampemania.dk,lempumanija.lt,lampamania.pt,svet-svetil.si,valomania.fi,lampupasaule.lv,beleuchtung.at,luciamo.it,programia.cz,luminam.ro,beleuchtung.de,petalmaps.com##.cookie-setting
 spolem.com.pl###roar-alert-wrap
 sport-bittl.com###vbcn-backdrop
+sport-express.ru###se-cookie-popup
 sport-plus-online.com#$##cookieModal { display: none !important; }
 sport-plus-online.com#$##cookieModal ~ div.modal-overlay { display: none !important; }
 sport-plus-online.com#$#body { overflow: auto !important; }
@@ -18103,7 +18105,6 @@ weinfreunde.de,penny.de###hidecookieinfoObject
 welcometothejungle.com##.axeptio_mount
 weleda.de##.mod-cookiebar
 wellaware.eu##.popup--cookies
-wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 welt.de,cmp.bike-bild.de,cmp.autobild.de#%#//scriptlet('trusted-click-element', 'button[title="Alle akzeptieren"]')
 welt.de,player.pl,tvn24.pl##.cookie-notice
 weltexporte.de,unraid-guides.com,design-s.de,bobit.de##.cc-blockingScreen
@@ -18697,6 +18698,7 @@ zsw-bw.de,daa-kassel.de,daskrankenhaus.de#$#body { overflow: visible !important;
 zte.com.cn,htm.sf-express.com##.cookieCon
 zuckerjagdwurst.com#$##gatsby-focus-wrapper > div[class^="index-module--backdrop"] { display: none!important; }
 zuckerjagdwurst.com#$?##gatsby-focus-wrapper > div[class^="index-module--wrapper"]:has(div:contains(/^Wir verwenden Cookies!$/)) { display: none!important; }
+zuiderzeemuseum.nl,wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonStatistics, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 zumub.com###bottom_cookie
 zurich.co.uk###static-cookie-policy-message
 zus.pl###main-cookie-dialog
