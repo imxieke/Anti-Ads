@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-21 00:24:26 RPC
+! Updated: 2025-04-21 09:51:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15966,6 +15966,7 @@ news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
 news.walla.co.il##aside[style$="background-color: rgb(245, 245, 245);"]
 news.wehefei.com##iframe[src="http://new.wehefei.com/htmlphp/tmall/ad_www.php"]
 news.xfastest.com##.vw-sticky-sidebar-wrapper #custom_html-5
+news.yahoo.co.jp###contents > div[class^="sc-"] > article[class^="sc-"] > div[class^="sc-"][style="margin-top:-8px"]:has(> div[id^="yads_"]:only-child)
 news.yahoo.co.jp###wrapper > #peron
 news.yahoo.co.jp##.newsFeed_list > li.newsFeed_item.null
 news.yahoo.co.jp##.newsFeed_list > li[class^="sc"]:has(> a[href^="https://app.adjust.com/"])

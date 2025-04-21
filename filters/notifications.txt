@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-21 00:24:26 RPC
+! Updated: 2025-04-21 09:51:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6756,6 +6756,7 @@ dailyfx.com##.dfx-cookiesNotification
 dailyhive.com###cookies-module
 dailymail.co.uk#$#div[data-project="mol-fe-cmp"] { display: none !important; }
 dailymail.co.uk#$#html[class]:not(.allow-scroll) { overflow: auto !important; }
+dailymotion.com##.AppPromotion__appPromotion___28-_Y
 dailymotion.com##.np_DialogConsent
 dailymotion.com##div[class^="Header__gdpr"]
 dailymotion.com#$#div[class^="CookiePopup_"] { position: absolute !important; left: -3000px !important; }
@@ -12043,6 +12044,7 @@ metro.hu,metro.de#$#.cookie-disclaimer:not(body) { display: none !important; }
 metro.hu,metro.de#$#body { overflow: auto !important; }
 metro.hu,metro.de#$#cms-cookie-disclaimer { display: none !important; }
 metro.tv,discoverychannel.pl,tlcpolska.pl,tvnstyle.pl,tvn7.pl,tvnturbo.pl,tvnfabula.pl,hgtv.pl,foodnetwork.pl,travelchanneltv.pl,ttv.pl#@##onetrust-consent-sdk
+metropoles.com##div[class^="CookieConcent"]
 metroworldnews.com.br,publimetro.cl##.notification-subs
 metservice.com##.Footer-section-image
 metv.com##.privacy-banner-wrapper

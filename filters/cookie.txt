@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-21 00:24:26 RPC
+! Updated: 2025-04-21 09:51:43 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33317,6 +33317,7 @@ dovizborsa.com###tools > div[class="-y7 __x3 __y8 __h4 __e4 __e1 __e3 __e8 _x410
 dovizborsa.com###tools > div[style*="bottom"]
 dovolena.cz##div[class^="Cookies_wrapper"]
 dow.com##.screenBlockOverlay
+dowfutures.org,liveindex.org,sgxnifty.org###terms-bar
 dowhan-nieruchomosci.pl###cookies_text
 downdetector.com#@##_evh-button
 downdetector.ru##.container[style="display: block;"]
@@ -43211,6 +43212,7 @@ metrobilbao.eus##.jss45
 metrobilbao.eus##[aria-label="Cookie settings panel"]
 metroecuador.com.ec##.notification-subs
 metrofixings.co.uk##.cookies
+metropoles.com##div[class^="CookieConcent"]
 metropoles.com##div[class^="CookieConcent_"]
 metropolisweb.it###informativa
 metv.com##.privacy-banner-wrapper
@@ -50574,6 +50576,7 @@ skype.com##.notification.info[role="alert"]
 skype.com,microsoft.com,setup.office.com,rewards.bing.com,github.blog,github.com###wcpConsentBannerCtrl
 skyperfectjsat.space##.m-box-policy
 skypng.com##.showBanner
+skyrc.com#@##cookiebox
 skysails-marine.com##.am-notification
 skyscanner.*###cookie-banner-root
 skyscanner.*#$#body { overflow: auto !important; }
