@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-21 09:51:43 RPC
+! Updated: 2025-04-21 16:30:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -7990,6 +7990,7 @@ downbank.cn,greenxf.com###speed-download
 downcc.com##[src^="/skin/"],#showa
 downcc.com,pc6.com,zdfans.com###gaosuxiazai
 downdetector.*##.app-promo-card:not(#style_important)
+downdetector.com###indicator-modal .phone-only.relative-flex-center
 downg.com##.download-list:first-child
 downg.com##.Gs_d[href$=".exe"]
 downg.com##DIV.cp.recommend > DIV.cp-main,DIV.cp.sponsor,DIV.baiduad,DIV.col1 > DIV.cp.cp-black
@@ -17003,7 +17004,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -23734,6 +23735,8 @@ _zhike.htm
 ||28hse.com/adsman/www/images/
 ||28kys.com/92kviptupian/
 ||28kys.com/cpstupian/
+||28lu.net^*/0
+||28lu.net^*/042107.
 ||28t1ya.cn^
 ||29627a66.api.splkmobile.com^$important
 ||2975c.v.fwmrm.net^$important
@@ -38158,6 +38161,7 @@ _zhike.htm
 ||hgfutf.xyz^
 ||hgidskiu.top^
 ||hgngrf.xyz^
+||hgreils.com^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/data/hgyouxiad/attach
 ||hgyouxi.net/source/plugin/hgyouxiad/
@@ -39949,6 +39953,7 @@ _zhike.htm
 ||itxueyuan.com/advPicture/
 ||itxueyuan.com^*.mp4
 ||iu.snssdk.com.edgekey.net^$important
+||iucnwto.top^
 ||iuiweb.com^
 ||iuou.myadobe.cn^
 ||iuou.ysw365.com^
@@ -40204,6 +40209,7 @@ _zhike.htm
 ||jiayuwl.com^
 ||jiazhua.com^
 ||jibn12.jintang114.org^
+||jibtdn.top^
 ||jice.admaster.com.cn^$important
 ||jiegeng.com/static/json/jg_topFixed.
 ||jiehunmishu.com^
@@ -40589,6 +40595,7 @@ _zhike.htm
 ||jubilantpinnacle.com^
 ||jubilantvista.com^
 ||jubilantwhisper.com^
+||jucnwta.top^
 ||juegos.leadzu.com^$important
 ||juejin.cn/content_api/v1/advert/query_adverts?
 ||jufenglc.com^
@@ -41096,6 +41103,7 @@ _zhike.htm
 ||kuazhi.com/zb_users/plugin/allshow/js/main.js
 ||kubam.cn^
 ||kucent.com^
+||kucnwtd.top^
 ||kugoucdn.com^*?_t=$xmlhttprequest
 ||kuguopush.com^
 ||kuheju.com^$popup
@@ -41997,6 +42005,7 @@ _zhike.htm
 ||ltg69t.com^
 ||ltgollersftr.com^$important
 ||ltimiyl.top^
+||ltmarilsf.com^
 ||ltn.com.tw/js/ad_door.js
 ||lto.personali.com^$important
 ||ltsdl.qq.com/$xmlhttprequest
@@ -42057,6 +42066,7 @@ _zhike.htm
 ||lveodaz.icu^
 ||lvnr.cn^
 ||lvnzrh.xyz^
+||lvqo.cn^
 ||lvse.cn/output/block/html/
 ||lvse.com/9
 ||lvuptech.com/wp-content/plugins/deblocker/
@@ -50880,6 +50890,7 @@ _zhike.htm
 ||swarku.xyz^
 ||swaterb.top^
 ||swc.weather.com.cn^
+||swcnmtb.top^
 ||sweatybettytracksdk.optimove.net^$important
 ||sweeney-elb.appboy.com^$important
 ||sweepsheep.com^
@@ -54450,6 +54461,8 @@ _zhike.htm
 ||woaidu.org/images/20180802/3.jpg
 ||wobo888.cc^
 ||wodemeitu.com^
+||wodeshucheng.com^*/0
+||wodeshucheng.com^*/042107.
 ||wodexiaoshuo.com/js/shanglun.js
 ||wodexiaoshuo.com/js/shangzhangjie.js
 ||wodexiaoshuo.com/js/xialun.js
