@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-21 16:30:30 RPC
+! Updated: 2025-04-22 00:26:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4378,6 +4378,7 @@ aksarayhaber68.com##a[href="https://play.google.com/store/apps/details?id=com.ak
 alba.co.jp##.topbnrArea
 alexa.cn##.importantList
 alexa.cn##.importantTop
+alfafile.net##a[href="https://play.google.com/store/apps/details?id=net.alfafile"]
 alfalfalfa.com###microad_native
 alfalfalfa.com##.adsbox_responsive
 alfalfalfa.com##.dw_ads_sec
@@ -4943,7 +4944,6 @@ autoblog.com###toaster_autoblog-app
 autoc-one.jp##div[class^="ad"]
 autoc-one.jp##div[id^="jp_mota_sp_"]
 autocentre.ua#?#.archive-news > div.items > div.item:has(> ins.adsbygoogle)
-autodaily.ru,skyticket.jp,tabletki.ua,autonews.ru##.app-link
 autodoc.de##.app-block-wrap
 autodoc.de##.js-app
 autodoc.de##.mob_app_link
@@ -19283,6 +19283,7 @@ studysmarter.*##img[alt*="Download"]
 stuttgarter-nachrichten.de##div[data-b-title*="Ad (Mobile"]
 stuttgarter-nachrichten.de##div[data-b-title*="Sponsored"]
 stuttgarter-zeitung.de##div[data-b-title*="Ad"]
+style.rbc.ru,autodaily.ru,skyticket.jp,tabletki.ua,autonews.ru##.app-link
 stylebook.de##div[id^="banner"]
 stylehaus.jp##.footer-banner__app
 stylehaus.jp##.smart-app-bnr
@@ -27701,6 +27702,7 @@ _zhike.htm
 ||alexajstrack.com^$important
 ||alexametrics.com^$important
 ||alexandria.marfeelcdn.com^$important
+||alfafile.net/img/buttons/googleplay.png
 ||algediduala.com^
 ||algolia.net^$important
 ||ali-ad.a.yximgs.com^

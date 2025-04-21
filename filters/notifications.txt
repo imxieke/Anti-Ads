@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-21 16:30:30 RPC
+! Updated: 2025-04-22 00:26:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4002,12 +4002,13 @@ agyserkento.hu#$#html:not(.dropdown-opened) body.scroll-lock .main, html:not(.dr
 aha.or.at#$#.cookie-consent { display: none !important; }
 aha.or.at#$#.cookie-consent ~ div.overlay { display: none !important; }
 aha.or.at#$#body { overflow: auto !important; }
+ahbmedya.com,globfone.com,kotobank.jp,livebeaches.com,waifly.com,skrastas.lt,matricedigitale.it,onehack.us,compsmag.com,xranks.com,duplichecker.com,foromtb.com,dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
 ahchealthenews.com##.livewell-widget
 ahlatciyatirim.com.tr,hix.ai#$##cc-main { display: none !important; }
 ahlatciyatirim.com.tr,hix.ai#$?#.show--consent { overflow: auto !important; }
 ahlatciyatirim.com.tr,hix.ai#$?#body[class*="consent_consent"] { overflow: auto !important; }
 ahoragranada.com,bitpay.co.il###banner-cookies
-ai.meta.com,business.whatsapp.com,business.instagram.com,messenger.com,facebook.com#$#div[data-testid="cookie-policy-manage-dialog"] { display: none !important; }
+ai.meta.com,business.whatsapp.com,business.instagram.com,facebook.com#$#div[data-testid="cookie-policy-manage-dialog"] { display: none !important; }
 aia.co.th##.alertFooterContent
 aia.com.ph##.cmp-notification-action-panel
 aia.com.sg##body .cmp-notification-action-panel
@@ -7367,6 +7368,7 @@ dvtk.eu##.cookie-cnt
 dw.com,wps.com,juksy.com,prothomalo.com,hikvision.com,norway.no,radiozu.ro##.gdpr-wrapper
 dwdrums.com##main > div > div.fixed:has(> div.caption > span.underline > a[href="/privacy/"])
 dws.com##body > .flash-message__wrapper:first-child
+dws.com#%#//scriptlet('trusted-click-element', '#consent_prompt_footer > button#consent_prompt_reject')
 dwutygodnik.com##.z-cookie-consent
 dymo.com##.cookieHandler
 dynadot.com,bleacherreport.com##.privacy_notice
@@ -9036,7 +9038,6 @@ globalblue.com,globalblue.ru,globalblue.cn##.gbnew-cookie-bar
 globalhungerindex.org###ckpolicy
 globalplayer.com#%#document.cookie="gdprAccepted=true; path=/;";
 globalsources.com##.top-wrapper-box
-globfone.com,kotobank.jp,livebeaches.com,waifly.com,skrastas.lt,matricedigitale.it,onehack.us,compsmag.com,xranks.com,duplichecker.com,foromtb.com,dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
 globport.com###kbCookiePolicy
 glosbe.com#?#body > div[class] > div[id="cookieconsent-description"]:upward(1)
 glossika.com##div[class^="CookiePolicy"]
@@ -11996,6 +11997,7 @@ mesanalyses.fr#$#body { overflow: auto !important; padding-right: 0 !important; 
 meshok.net##div[class^="privacyAlert_"]
 messagebird.com##div[data-framer-name="First Visit"]
 messenger.com,facebook.com#%#//scriptlet("remove-class", "_31e", "body > ._li")
+messenger.com,workplace.com,about.meta.com#%#//scriptlet('trusted-click-element', 'button[data-cookiebanner="accept_only_essential_button"]')
 mesta.net#@##onetrust-consent-sdk
 mesto.de#$#.cookiebanner:not(body) { display: none !important; }
 mesto.de#$#body.cookiebanner-active > *:not(.cookiebanner) { filter: none !important; }
@@ -13340,6 +13342,7 @@ open24.ee#$#body .cookie_overlay { display: none !important; }
 open24.ee#$#body { overflow: auto !important; }
 open24.ee#@#.cookie_bar
 open24.ee#@#.cookie_overlay
+openai.com##div[aria-labelledby="cookieConsentTitle"]
 openai.com#%#//scriptlet('set-cookie', 'consent', 'rejected')
 openai.com,intercom.com###intercom-cookie-consent-banner
 openask.com##.allowed-cookies
@@ -14853,7 +14856,6 @@ rollingstone.com##aside#termsNotice
 rolmarket.pl,neubaukompass.de,dr-brinkmann.com,bezpiecznedane.gov.pl##.modal-backdrop
 roly.*##.page-wrapper > div.vue-notification-group:has(> span > div.vue-notification-wrapper > div.minipopup-box > div#cookie-title)
 romait.it##.alert
-romatoday.it,digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it,ilfront.it##body #iubenda-cs-banner
 romatoday.it,today.it#$#.o-wrapper.iub--active { filter: none !important; user-select: auto !important; pointer-events: auto !important; cursor: auto !important; }
 romatoday.it,today.it#%#//scriptlet('remove-class', 'iub--active', '.o-wrapper.iub--active')
 rome2rio.com###alert-banner
@@ -15638,6 +15640,7 @@ smule.com#$#body[style^="overflow:"] { overflow: auto !important; }
 smule.com#?#.smule-app > span > div > div:has(> span > span > a[href="/cookiepolicy"])
 smule.com#?#div[class]:has(> div[class^="Overlay-"] a[href="/cookiepolicy"])
 smule.com#?#div[class^="sc-"]:has(> span > a[href="/cookiepolicy"])
+smutba.se,romatoday.it,digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it,ilfront.it##body #iubenda-cs-banner
 smyk.com##.box-html--cookies
 smythstoys.com#$##cookieLoad { display: none!important; }
 smythstoys.com#$#.modal-backdrop { display: none!important; }
@@ -18314,7 +18317,6 @@ wordfence.com##.wf-cookie-consent-container
 wordmark.it#%#//scriptlet('set-local-storage-item', 'cookie_notice', 'true')
 work.weixin.qq.com##.layoutCookiesBanner
 workis.online#@#.cookies-dialog
-workplace.com,about.meta.com#%#//scriptlet('trusted-click-element', 'button[data-cookiebanner="accept_only_essential_button"]')
 worksmile.com##.cookies-component
 workupload.com###cookie_law_box
 workwise.io#%#//scriptlet('trusted-click-element', '.ReactModalPortal button:last-child span')
@@ -18857,6 +18859,7 @@ _eu_cookie_
 ||cdn.clickiocdn.com/*/cmp/$domain=gizchina.it
 ||cdn.complyauto.com/cookiebanner/banner.js
 ||cdn.consentmanager.mgr.consensu.org^$third-party
+||cdn.cookie.pii.ai^$domain=cuddleandkind.com
 ||cdn.cookiecode.nl/dist/latest.js
 ||cdn.cookielaw.org/consent/*/OtAutoBlock.js$important,domain=shop.elsevier.de|otomoto.pl|olx.ro|crkt.com
 ||cdn.cookielaw.org/consent/*/otSDKStub.js$important,domain=kraken.com
@@ -18970,6 +18973,7 @@ _eu_cookie_
 ||consensu.org^$domain=~consensu.org
 ||consent-notice.magix.com^$third-party
 ||consent.a24films.com^
+||consent.bbcgoodfood.com^
 ||consent.boerse-online.de^
 ||consent.cmp.oath.com^$third-party
 ||consent.cookiebot.com/*&referer=www.lidl.de$script

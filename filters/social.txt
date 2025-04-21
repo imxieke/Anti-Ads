@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-21 16:30:30 RPC
+! Updated: 2025-04-22 00:26:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13333,6 +13333,7 @@ chunichi.co.jp,tokyo-np.co.jp##.cmp-misc003
 chytomo.com##.content .social
 chytomo.com##.share--wrapper
 ci-en.dlsite.com##.c-articleFrame-item div.e-reactionBtn.is-twitter
+ci-en.dlsite.com##.e-buttonBox > div.e-buttonBox-item:has(> button.is-tweet)
 ci-labo.com##.m-journal-box-header-sns
 cian.ru##button[data-name="ShareButton"]
 cian.ru##div[class*="--social_row--"]
@@ -14430,6 +14431,7 @@ docswell.com#?#.mt-4 > p.font-bold:contains(シェア)
 doctissimo.fr##.docti__share-article
 doctor.ndtv.com##.social-widget2
 doctor.ndtv.com##.soclIcnsRsd
+doctorhead.ru##.control-share
 doctorhouse.tv##.episode_likes
 doctorslon.ru##.detail-news__share
 doeda.com##.entry-actions
@@ -20046,6 +20048,7 @@ mymodernmet.com##.share-it-side
 mymotherlode.com###follow-us
 mymovies.it##.vota-pul-consiglio
 mynavi-agent.jp##.box_share
+mynavi-agent.jp##.p-article_sns
 mynet.com##.fix-share
 mynet.com##.interaction-icons.interaction-icons-share
 mynet.com##.share-global
@@ -21585,7 +21588,6 @@ pnp.de###whatsappShareLink
 pnp.de##.social-media-article
 pnp.de##.social-media-article + div:not([class]) > a
 pocket-lint.com,hotcars.com,topspeed.com,thegamer.com,cbr.com,gamerant.com,screenrant.com##.sharing > .sharing-btn:not(.js-show-coments)
-pocketgamer.biz##.share-area
 pocketgamer.com##.sign-up-strip > *:not(.get-social)
 pococha.com##div[class^="news_share"]
 pod-zvonok.ru##.setsong-share
@@ -25423,6 +25425,7 @@ usatoday.com##.util-bar-module-share
 usatoday.com#%#//scriptlet('inject-css-in-shadow-dom', '.microshare-button { display: none !important; }')
 usdaynews.com,gameost.net##.tt-share
 useapotion.com,androidphone.fr,eftm.com##.ed-social-share-icons
+used.sofmap.com,pocketgamer.biz##.share-area
 usedoor.jp##.allcontsntsdivs > p[align="center"]
 user.17track.net#@#.social-btn-block
 userecho.com,hpplus.jp##.module-share

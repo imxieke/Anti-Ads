@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-04-21 16:30:30 RPC
+! Updated: 2025-04-22 00:26:49 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23635,6 +23635,7 @@
 10haber.net,tele1.com.tr###sa_cookie_wrapper
 10khits.com##cloudflare-app[app="welcome-bar"]
 112press.hu###cookie-law
+116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##+js(set-session-storage-item, UMP_CONSENT_NOTIFICATION, true)
 116.ru,14.ru,161.ru,164.ru,173.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##.wrapper_cw4px
 116117.de,kbv.de###dialog_layer
 116117.de,kbv.de##.layer-cookie
@@ -26119,6 +26120,7 @@ aha.or.at#$#.cookie-consent { display: none !important; }
 aha.or.at#$#.cookie-consent ~ div.overlay { display: none !important; }
 aha.or.at#$#body { overflow: auto !important; }
 ahaan.co.uk##.MuiSnackbar-root
+ahbmedya.com,globfone.com,kotobank.jp,livebeaches.com,waifly.com,skrastas.lt,matricedigitale.it,onehack.us,compsmag.com,xranks.com,duplichecker.com,foromtb.com,dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
 ahlatciyatirim.com.tr,hix.ai#$##cc-main { display: none !important; }
 ahlatciyatirim.com.tr,hix.ai#$?#.show--consent { overflow: auto !important; }
 ahlatciyatirim.com.tr,hix.ai#$?#body[class*="consent_consent"] { overflow: auto !important; }
@@ -26130,7 +26132,7 @@ ahotu.com##.modal-window
 ahprofi.cz,akros.cz,aspshop.cz,fiskars-shop.cz,kancelarska-kresla.cz,leifheit-shop.cz,leifheit-shop.sk,mpmshop.eu,rafoshop.cz,relaxin.cz,superdiskont.sk,yatun.cz###wr-c
 ahrsteig.de##.modal
 ai-coustics.com,dr-anns.com,lightyear.one,parallel.life,platoboost.com,vecer.com##.bottom-8
-ai.meta.com,business.whatsapp.com,business.instagram.com,messenger.com,facebook.com#$#div[data-testid="cookie-policy-manage-dialog"] { display: none !important; }
+ai.meta.com,business.whatsapp.com,business.instagram.com,facebook.com#$#div[data-testid="cookie-policy-manage-dialog"] { display: none !important; }
 aia.co.th##.alertFooterContent
 aia.co.th,aia.com,aia.com.kh,aia.com.my,aia.com.ph,aia.com.sg,bpi-aia.com.ph##.cmp-notification-action-panel
 aia.com.my##.alert-dismissable
@@ -33553,6 +33555,7 @@ dw.com##+js(trusted-set-cookie, __cmpconsentx70166, CQIdrrgQIdrrgAfCmDENBQFwAP_g
 dw.com,wps.com,juksy.com,prothomalo.com,hikvision.com,norway.no,radiozu.ro##.gdpr-wrapper
 dwdrums.com##main > div > div.fixed:has(> div.caption > span.underline > a[href="/privacy/"])
 dws.com##body > .flash-message__wrapper:first-child
+dws.com#%#//scriptlet('trusted-click-element', '#consent_prompt_footer > button#consent_prompt_reject')
 dwutygodnik.com##.z-cookie-consent
 dyclassroom.com###dy-cookieInfo-container
 dymo.com##.cookieHandler
@@ -37020,7 +37023,6 @@ globaltuners.com,psychomedia.qc.ca,speedtestcustom.com,zerochan.net##div[style^=
 globase.dk##.mtsnb
 globe.com.ph##.policy, #policy, .cpolicy
 globelink.co.uk##.gl_cookies
-globfone.com,kotobank.jp,livebeaches.com,waifly.com,skrastas.lt,matricedigitale.it,onehack.us,compsmag.com,xranks.com,duplichecker.com,foromtb.com,dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
 globport.com###kbCookiePolicy
 glocalme.com##.cookies_declaration
 glorian.org##.uk-position-fixed
@@ -43124,6 +43126,7 @@ messagebird.com##div[data-framer-name="First Visit"]
 messe-kassel.de##.note
 messe.de##.user-notes-notification
 messenger.com,facebook.com#%#//scriptlet("remove-class", "_31e", "body > ._li")
+messenger.com,workplace.com,about.meta.com#%#//scriptlet('trusted-click-element', 'button[data-cookiebanner="accept_only_essential_button"]')
 messinaline.it###slide-panel
 messingschlager.com###modalCookie
 mesta.net#@##onetrust-consent-sdk
@@ -45821,6 +45824,7 @@ open24.ee#@#.cookie_bar
 open24.ee#@#.cookie_overlay
 openai.com##+js(set-cookie, consent, rejected)
 openai.com##+js(set-cookie, oai-allow-ne, false)
+openai.com##div[aria-labelledby="cookieConsentTitle"]
 openai.com#%#//scriptlet('set-cookie', 'consent', 'rejected')
 openai.com,intercom.com###intercom-cookie-consent-banner
 openask.com##.allowed-cookies
@@ -49050,7 +49054,6 @@ roly.eu##.jq-toast-wrap
 roly.lv##.jq-toast-single
 roly.lv##.jq-toast-wrap
 roly.pt##.jq-toast-wrap
-romatoday.it,digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it,ilfront.it##body #iubenda-cs-banner
 romatoday.it,today.it#$#.o-wrapper.iub--active { filter: none !important; user-select: auto !important; pointer-events: auto !important; cursor: auto !important; }
 romatoday.it,today.it#%#//scriptlet('remove-class', 'iub--active', '.o-wrapper.iub--active')
 rome2rio.com###alert-banner
@@ -50722,6 +50725,7 @@ smule.com#?#div[class]:has(> div[class^="Overlay-"] a[href="/cookiepolicy"])
 smule.com#?#div[class^="sc-"]:has(> span > a[href="/cookiepolicy"])
 smullers.nl##.alert
 smulweb.nl##.accept_container
+smutba.se,romatoday.it,digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it,ilfront.it##body #iubenda-cs-banner
 smyk.com##.box-html--cookies
 smythstoys.com#$##cookieLoad { display: none!important; }
 smythstoys.com#$#.modal-backdrop { display: none!important; }
@@ -56098,7 +56102,6 @@ work-discount.de##body > div:not([id]):not([class])
 work.weixin.qq.com##.layoutCookiesBanner
 workforce.com##.cookie__modal
 workis.online#@#.cookies-dialog
-workplace.com,about.meta.com#%#//scriptlet('trusted-click-element', 'button[data-cookiebanner="accept_only_essential_button"]')
 works-hub.com##.tracking-popup
 worksheetcrafter.com###cookiesFormContainer
 worksmile.com##.cookies-component
@@ -57134,6 +57137,7 @@ _eu_cookie_
 ||cdn.clickiocdn.com/*/cmp/$domain=gizchina.it
 ||cdn.complyauto.com/cookiebanner/banner.js
 ||cdn.consentmanager.mgr.consensu.org^$third-party
+||cdn.cookie.pii.ai^$domain=cuddleandkind.com
 ||cdn.cookie.pii.ai^$third-party
 ||cdn.cookiecode.nl/dist/latest.js
 ||cdn.cookielaw.org/consent/*/OtAutoBlock.js$important,domain=shop.elsevier.de|otomoto.pl|olx.ro|crkt.com
@@ -57321,6 +57325,7 @@ _eu_cookie_
 ||consent.23g.io^
 ||consent.a24films.com^
 ||consent.autopflege24.net/app.js
+||consent.bbcgoodfood.com^
 ||consent.berliner-kurier.de^
 ||consent.boerse-online.de^
 ||consent.canalboat.co.uk^
