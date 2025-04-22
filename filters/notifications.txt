@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-22 00:26:49 RPC
+! Updated: 2025-04-22 09:47:48 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2435,6 +2435,7 @@
 3djake.pl##div[is="tracking-consent"]
 3dmodelshare.org##.flatsome-cookies
 3dsky.org,pamyra.de##app-cookie-banner
+3dzip.org##.bs-wrap-gdpr-law
 3ona51.com##.cookiesAccept
 3ple.jp###layer_board_area
 3sat.de#@##onetrust-consent-sdk
@@ -15089,6 +15090,7 @@ sberbank.com,sberbank.ru##.kitt-cookie-warning
 sberbank.ru##div[data-pid^="CookieWarning-"]
 sberbankdirect.de#$#.cm { display: none !important; }
 sberbankdirect.de#$#body { position: static !important; }
+sbercity.ru##div[class^="TheCookiesInformer"]
 sbercloud.ru##.l-cookie-pop
 sberdevices.ru##div[class^="cookie-modules--root--"]
 sberdisk.ru##.wrapper > footer + div.modal

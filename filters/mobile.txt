@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-22 00:26:49 RPC
+! Updated: 2025-04-22 09:47:48 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14790,6 +14790,7 @@ medal.tv#?#article div[class^="sc-"] > div[class^="StyledBox-sc-"] > div[class^=
 media.framu.world##a[href^="https://seeek.world/redirect_app_stores"]
 media.rakuten-sec.net##.top-news-attention
 media.wear.jp##.wear-app-download
+media.wear.jp##main > .flex > section:has(> ul > li > a[href^="https://app.adjust.com"])
 mediacourant.nl##div[id^="ad"]
 mediafire.com#$#.mobile .dl-btn-cont { margin-top: 100px !important; }
 mediafire.com#$#@media (max-width: 768px) { .content > div.center { margin-top: 110px !important; } }
