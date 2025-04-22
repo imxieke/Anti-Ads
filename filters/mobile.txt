@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-22 09:47:48 RPC
+! Updated: 2025-04-22 16:29:12 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4354,7 +4354,6 @@ aiyuke.com##.index_app_down_ad
 aizhan.com###all_text_content
 aizhan.com###home_text_content
 aizhan.com##.azone,.cha_side_thumb
-aizhan.com##.btn
 ajournalofmusicalthings.com#$?#body #page > span.humix-universal-js-insert { display: none !impotrant; }
 ajournalofmusicalthings.com#$?#body span[data-ez-ph-id] { display: none !impotrant; }
 akakce.com#%#//scriptlet('set-constant', 'callScrollForAppPromt', 'noopFunc')
@@ -8685,7 +8684,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -16309,6 +16308,7 @@ nytimes.com##.css-p3qvdn
 nytimes.com##.promo
 nytimes.com##.vi-gateway-container > div[class^="css-"]:has(> div[class^="css-"] > .ad.mobile_top-wrapper)
 nytimes.com##button[data-testid="getstarted-magic-link"]
+nyuka-now.com##.content.postCta
 nzherald.co.nz##.chain-main-triple:has(> div#ad-container)
 o8tv.com##.container > .row > .myui-panel-bg> .myui-panel-box > .myui-panel_bd > .myui-vodlist > .col-lg-8 > .myui-vodlist__box > a[target="_blank"]
 o8tv.com##.myui-panel_bd > .col-xs-1 > a[target="_blank"] > img
@@ -17007,7 +17007,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -20213,6 +20213,7 @@ travel.rakuten.co.jp##.downloads-in
 travel.rakuten.co.jp##span[id="footerBannerAppDL"]
 treccani.it###gmp-sticky-middlemobile
 treccani.it###gmpSkinMobileSpacer
+treccani.it##.css-uwijew
 tree.tv###android_app
 trello.com#?##chrome-container > div[class]:has(> div[class]> a[href^="https://apps.apple.com/"])
 trendyol.com,tripadvisor.ru,prog-8.com,spice.eplus.jp,catalog.onliner.by,hket.com,fashion-headline.com,momoshop.com.tw,ticketjam.jp,kompas.com,sevenbank.co.jp,booth.pm,reverso.net,bangumi.org,msn.com,m.investing.com,m.spiegel.de,mavcsoport.hu,m.trendyol.com,autobild.de,infranken.de,m.douglas.de,focus.de###smartbanner
@@ -21977,6 +21978,9 @@ www3.nhk.or.jp##amp-list[src^="/news/parts16/js/amp_banner.json"]
 wx.sina.com.cn###artibody > .article-video
 wxguan.com##.dahengfu,.con_ad
 wxphp.com##.ad_a,.ad_d,.ads1,.ads
+wxsck.com###content > div[style^="clear:"]
+wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
+wxsck.com#$#.footer { margin-top: 0px !important; }
 wxsnsdy.tc.qq.com^
 wxsnsdy.video.qq.com^
 wxxv25.com,41nbc.com,bcsnnation.com##body #smartbanner.shown
@@ -23738,7 +23742,6 @@ _zhike.htm
 ||28kys.com/92kviptupian/
 ||28kys.com/cpstupian/
 ||28lu.net^*/0
-||28lu.net^*/042107.
 ||28t1ya.cn^
 ||29627a66.api.splkmobile.com^$important
 ||2975c.v.fwmrm.net^$important
@@ -27638,6 +27641,7 @@ _zhike.htm
 ||aiyidu.com/aiyidu/adver/
 ||aiyouji.xyz^
 ||aiyuke.com/position_js*_*_
+||aizhan.com/images/img/apicn.
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
 ||aizhantj.com^
@@ -35783,6 +35787,7 @@ _zhike.htm
 ||euapi.ibm.xtify.com^$important
 ||euasync01.admantx.com^$important
 ||euazwot.top^
+||eucnwtw.top^
 ||eugegisler.com^
 ||eula.mindspark.com^$important
 ||eur-ukp.adsrvr.org^$important
@@ -35902,6 +35907,7 @@ _zhike.htm
 ||evtvpaid.bfmio.com^$important
 ||ew4u.adj.st^$important
 ||ewaterw.top^
+||ewcnmtw.top^
 ||ewdk.cn^
 ||ewebcounter.com^$important
 ||eweisiw.top^
@@ -36057,6 +36063,7 @@ _zhike.htm
 ||f8dy.tv/template/m1938/js/foot.js
 ||f99.gdsoq.com^
 ||fa0dcbd1.api.splkmobile.com^$important
+||faamhel.com^
 ||faaqgje.icu^
 ||fabric.io^$important
 ||fabu333.top^
@@ -37554,6 +37561,7 @@ _zhike.htm
 ||gridsumdissector.cn^
 ||gridsumdissector.com^
 ||grihaith.com^
+||grimoiksep.com^
 ||gripcorn.com^
 ||grirqaks.com^
 ||grisselegoist.com^
@@ -39962,6 +39970,7 @@ _zhike.htm
 ||iuou.ysw365.com^
 ||iupian.com/mstyle/js/topinfo.js
 ||iuresdo.top^
+||iutq.cn^
 ||iuuff.com^
 ||iuuwuk.xyz^
 ||iuytfvhl.top^
@@ -41481,6 +41490,7 @@ _zhike.htm
 ||lh168.net^*/attachment/portal/
 ||lh1dki82.com^
 ||lh49dki80.com^
+||lhdnba.top^
 ||lhmebwq.cn^
 ||lhmgoik.icu^
 ||lhr-v4.pops.fastly-insights.com^$important
@@ -50761,6 +50771,7 @@ _zhike.htm
 ||success.optimizely.com^$important
 ||successfulscent.com^
 ||sucloud.xyz/js/tou.js
+||sucnwtb.top^
 ||suddensidewalk.com^
 ||suddensnake.com^
 ||suddensoda.com^
@@ -53811,6 +53822,7 @@ _zhike.htm
 ||vntsm.com^
 ||vntsm.com^$important
 ||vnuuh.icu^
+||vnwu.cn^
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
@@ -54465,7 +54477,6 @@ _zhike.htm
 ||wobo888.cc^
 ||wodemeitu.com^
 ||wodeshucheng.com^*/0
-||wodeshucheng.com^*/042107.
 ||wodexiaoshuo.com/js/shanglun.js
 ||wodexiaoshuo.com/js/shangzhangjie.js
 ||wodexiaoshuo.com/js/xialun.js
@@ -55104,6 +55115,7 @@ _zhike.htm
 ||xfile.a.88cdn.com/file^$third-party
 ||xfqynrp.cn^
 ||xfvcd.com/js/dd/$script
+||xfvod.pro/images/ad/
 ||xfxvpt.icu^
 ||xfyjz.cn^$third-party
 ||xg4ken.com^$important
