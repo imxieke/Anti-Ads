@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-23 16:30:29 RPC
+! Updated: 2025-04-24 00:28:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -66,6 +66,7 @@
 ##.happy-header-mobile
 ##.happy-under-player-mobile
 ##.header-ad-mobile
+##.ldapp-article
 ##.smartbanner--android
 ##.smartbanner--ios
 ##.sp_ad_box_top
@@ -5605,6 +5606,8 @@ beauty321.com##.pc_ads
 beautynation.jp#?#.m-aside-headline:has(> b.title:contains(AD))
 becorrect.com###extensionPopupPlaceholder
 bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
+beemtube.com##.sponsored-below-player
+beemtube.com##div[style]:has(> ins[data-zoneid])
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 begeek.cn##[href="http://static.webhek.com/tb.html"],.adsbygoogle
 behance.net##div[class^="SimplifiedPushToMobilePrompt-root-"]
@@ -8847,6 +8850,8 @@ fanyi.youdao.com##.dict-download-guide
 fapality.com##.had
 fapcat.com##.spot-underplayer
 fapiao.bangnimang.net#%#(function(){window._czc={push:function(){}}})();
+fapnow.*##.block-video + div[align="center"]
+fapnow.*##.mobile-menu
 faps.club##.above_header_section
 faps.club##div[class^="code-block code-block-"][style^="margin: 8px 0;"]
 faps.club##div[style^="position: fixed; "][style*="z-index: 2147483646;"]
@@ -11944,6 +11949,7 @@ itzine.ru##a[href="https://podcast.ru/1436711112"]
 ivi.ru##.popup-teaser
 ivi.ru##.watchAllDevices
 iviewui.com##.ivu-alert
+ivoox.com##.attached-app-qr
 ivoox.com##.banner-box
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
@@ -12119,6 +12125,7 @@ jeremyfoodie.tw#$##ad-full-page { display: none !important; }
 jeremyfoodie.tw#$#html.show-safari-bottom_menu body { position: static !important; }
 jeremyfoodie.tw,fox-saying.com,maxfoodfun.com,pixnet.net##.header-fixed-area
 jetfilmizle.*##div[class^="col-"] > div[class^="col-"] > a[href][target="_blank"]
+jetpacglobal.com##.css-jj463j
 jeuxvideo.com##.conteneur-messages-pagi > a[style*="position: relative; margin:"]
 jeuxvideo.com##.conteneur-messages-pagi > div[style]:not([class^="bloc-"]):not([id^="bloc-"])
 jgfw.qu-zhou.com##div.ad-play,div#diy1
@@ -17147,7 +17154,11 @@ pornbest.org,pornlulu.com,ptt.sex##.no-gutters
 pornbest.org,ptt.sex###fullPageModal
 pornbest.org,ptt.sex##.btn-group + .row
 pornbest.org,ptt.sex##.links.row
+porndoe.com##.-iau-wrap
 porndoe.com##.-up-mobile
+porndoe.com##.advertisement-mobile
+porndoe.com##.bunny-title-left
+porndoe.com##.bunny-title-middle
 porndr.com##div[style="text-align: center; display: block; margin: 0px 0px 10px;"]
 pornerbros.com,fux.com##.video-list-top-ad
 pornerbros.com,porntube.com##.interstitial

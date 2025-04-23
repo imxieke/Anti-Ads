@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-23 16:30:29 RPC
+! Updated: 2025-04-24 00:28:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12522,6 +12522,7 @@ bleepingcomputer.com#$#.cz-full-bio-wrapp { border-top: none !important; }
 bleepingcomputer.com#?#li > a.cz-news-link:upward(1)
 blesk.cz##div[class^="socialMedia"]
 blic.rs##.custom-shareFb
+blic.rs##button[data-cy="share-button"]
 blick.ch##.layout-multi-line--social-sharing
 blick.ch##.social-sharing--bottom
 blick.ch##.social-sharing--top
@@ -14424,7 +14425,7 @@ dnn.de##.pdb-parts-gallerydetailnavigation-share
 dnn.de##.pdb-share-container > div:not(.pdb-share-container-item_normal)
 dnoticias.pt##.article--aside_share
 dnpphoto.jp##.search_result_box_sns
-dns-shop.ru##.share__wrapper
+dns-shop.ru##.share-popover__list > li.share-popover__list-link:not(.share-popover__list-link-copy)
 do-slez.com#@#.img-share
 dobreprogramy.pl###phContentLeft_SocialControl_socialBox
 dobreprogramy.pl###phContent_SocialControlTop_socialBox
@@ -16122,6 +16123,7 @@ geezwild.com,kesanpostasi.com##.twp-social-share
 geidai.ac.jp##.sns-share-wrapper
 geki-cine.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 geki-cine.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+geki-cine.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 gelatopique.com,snidel.com##.snsShareArea
 gelbeseiten.de##.gs_social_signals
 gelsenkirchen.de#@#.sociallinks
@@ -18606,6 +18608,7 @@ liberation.fr##div[class] > div[class]:has(> button[aria-label^="Partagez"])
 libero.it##.iol-social
 libero.it,virgilio.it##.iol-share-menu
 libero.pe##.container_shared--internal
+liberoquotidiano.it###dropdown-trigger
 libertaddigital.com##.content > ul.social
 libraryturk.com##a[id^="share-button"]
 libremercado.com,libertaddigital.com##.social > li:not(.comments)
@@ -19366,7 +19369,6 @@ medium.com##header.pw-post-byline-header > div[class] + div[class] > div[class] 
 mediuutiset.fi##.clLoPp.sc-7urq97-0
 medme.pl##.face-slider
 medonet.pl##body.withFPU::before
-medonet.pl,fakt.pl##.socialButtons
 medongroup-spb.ru##.blog-item__soc
 medrxiv.org##.service-links > a[href^="/highwire_log/share/"]
 meduniwien.ac.at,shipmag.it,today.rtl.lu##.socialbar
@@ -20360,6 +20362,7 @@ news.cookpad.com#?#div.bg-ivory:has(> h2:contains(シェアする))
 news.cookpad.com,forklog.com###article_share
 news.crunchbase.com###ss-sticky-bar
 news.crunchbase.com##.ss-inline-share-content
+news.de,medonet.pl,fakt.pl##.socialButtons
 news.denfaminicogamer.jp###spFixedContent
 news.denfaminicogamer.jp,originalnews.nico##.snsPalette
 news.dtkt.ua##.article-sharer
@@ -23499,7 +23502,6 @@ sport.de##.hs-socialmedia
 sport.es##.ft-mol-rrss
 sport.es##.social a:not(.comment)
 sport.ro,rtrp.jp##.shareTop
-sport.sky.it,uc.od.ua,odessa.dozor.ua,traffic.od.ua##.j-social-share
 sport.tvp.pl##.article__info > .article__buttons
 sport.tvp.pl##.news-socials
 sport.tvp.pl##.news-tags__social
@@ -24266,6 +24268,7 @@ tf1info.fr##span[data-module="article-social-share"]
 tftips.app##aside > div.flex:has(> button[aria-label="Share on X"])
 tg-uchi.jp##div[class^="style_snsButtons"]
 tg.la7.it##.tgla7-condividi
+tg24.sky.it,sport.sky.it,uc.od.ua,odessa.dozor.ua,traffic.od.ua##.j-social-share
 th.wikihow.com###side_follow
 thairath.co.th#?#.collapse > div[class^="css-"] > a.facebook-icon:upward(1)
 thaiza.com###leftctrl > a[href]
