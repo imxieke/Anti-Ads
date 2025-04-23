@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-23 00:27:23 RPC
+! Updated: 2025-04-23 09:46:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18321,6 +18321,7 @@ se.pl###floorLayer
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 search.bilibili.com##.video-list > div:has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .ad-feedback-entry)
 search.brave.com##.download-button
+search.brave.com##.download-cta
 search.chongbuluo.com##.search > div > a[target="_blank"] > img
 search.goo.ne.jp###direct_bottom
 search.kakaku.com,s.kakaku.com##.subCtsArea
@@ -21137,13 +21138,14 @@ wealwomen.com##div[data-cptid]
 wear.jp###appAd
 wear.jp###app_info
 wear.jp###ftrAppDownload
+wear.jp###hdr_download
+wear.jp###secAppDownload
 wear.jp##button > img[width="686"][height="264"]
+wear.jp##section[class]:has(> div[class*="image_links"] > div.contents a[href^="https://app.adjust.com/"])
 wear.jp#%#//scriptlet('trusted-set-session-storage-item', 'status_of_app_redirect_half_modal_on_coordinate_list', '{"displayed":true}')
 wear.jp#?##__next > div.bg-white > div.relative:has( p > a[href="/sp/app/download.html"])
 wear.jp#?##__WEAR__ROOT__ > div.relative > div[class^="border"]:has(> div.flex > div.flex-none > p > a[href="/sp/app/download.html"])
 wear.jp#?#.bg-gray-200:has(> div.bg-white a[href^="https://itunes.apple.com/jp/app/"])
-wear.net,wear.jp###hdr_download
-wear.net,wear.jp###secAppDownload
 weather.com##div[class*="adWrapper"]
 weather.com##div[id^="WxuUpsellToast-main-"]
 weather.com##section[ctatext="Download App"]
