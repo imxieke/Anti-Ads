@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-23 09:46:06 RPC
+! Updated: 2025-04-23 16:30:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9242,6 +9242,7 @@ grosbill.com#$##body > div[style="height: 136px;"] { height: 56px!important; }
 grosbill.com#$##header[style^="height: "] { height: 56px!important; }
 grosbill.com#$#.cnil_bar { display: none!important; }
 ground.news##.duration-500 > div.bottom-0.justify-center
+ground.news##div[class^="__className_"] > .bg-light-light.text-dark-primary.justify-center
 group.dentsu.com,dentsu-adgear.co.jp##div[data-gdpr="wrap"]
 group.emmi.com#$#.h-layout--prevent-scrolling { overflow: auto !important; position: static !important; }
 group.emmi.com#$#.js-o-page__gdpr-overlay { display: none !important; }
@@ -15403,6 +15404,7 @@ shop.leet.hu#@#.cookie-alert
 shop.lenovo.ru##.useCookiesInfo
 shop.mango.com##aside[class^="CookiesWrapper_"]
 shop.mango.com##div[class^="CookiesLayout_"]
+shop.mts.ru##.cookies-massage-wrapper
 shop.nationalgeographic.com###privacy-policy-popup
 shop.okraina.ru##.b1t-o-ch-cookie-info
 shop.opro9.com##ns-cookie-privacy-tip

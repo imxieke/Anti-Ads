@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-23 09:46:06 RPC
+! Updated: 2025-04-23 16:30:29 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,7 +1233,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -3124,7 +3124,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.sssam.com/static/js/*.js
-@@||cdn.staticfile.org^$domain=83kss.cc|00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org|tianz.la
+@@||cdn.staticfile.org^$domain=yourbiquge.com|83kss.cc|00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org|tianz.la
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=movieffm.net
 @@||cdn.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
@@ -5832,6 +5832,7 @@ biqudao.com##.dahengfu,.con_ad
 biquge001.com###content > a
 biquge345.com##.puaxqbxs_b
 biquge345.com##div[style^="position:fixed;"]
+biquge345.com,yourbiquge.com##div[style^="position:fixed;"]
 biqulou.net##.dahengfu
 biqushu.com##.adlist
 biquwo.com###content > div[style="padding:15px;"]
@@ -8685,7 +8686,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -19645,6 +19646,7 @@ techweb.com.cn##[href^="http://click.aliyun.com"],[href="http://itest.techweb.co
 tecnoblog.net##.tb-ad-discrete-container
 teddysun.com##.sidebar > .widget:nth-child(2)
 teddysun.com##.sidebar > .widget:nth-child(3)
+teenager365.to##.avd-under-video-mob
 teepr.com###topAdBlock
 teepr.com##.shop-widget
 teepr.com##body .ucfad_async
@@ -22621,6 +22623,8 @@ yxtvg.com##.adv1,.adsbygoogle
 yxzp.net##img[width="770"]
 yy.com###rbappend
 yy6080.org###adArea
+yydstxt*.com/js/cdn.
+yydstxt*.com/js/html
 yyets.click#?#.MuiBadge-root:-abp-has(>a[href*="/maomao.cloud/"])
 yyets.com##div#yyets_slide_ad,DIV.AreaLL > DIV > IFRAME + DIV.box_4,DIV.AreaLL > DIV > IFRAME[height="90"],DIV.games-rec-list,UL.joke,DIV.adBox,DIV.box_1.ads_partner_list,IFRAME[style="width:260px;height:250px;"],ins.adsbygoogle,div.topAd,div#floatAD_r,div#floatAD_l,ul.room,DIV.day_resource > div.box_4,DIV.blank.clearfix + DIV.block > DIV.box_4,DIV#tabs.box_4 + DIV + DIV > DIV.box_4,DIV#bbs_area + DIV.blank + DIV + DIV,DIV.box_4 + DIV.blank + DIV[style] + DIV[style]
 yyfensi.com##[href="http://app.woolcashmeresystem.net:81/yy/"],[href="http://m.369nv.com:81/3/suiji.php"]
@@ -24133,6 +24137,7 @@ _zhike.htm
 ||51cto.com/home/web/js/new_login/iframe.js
 ||51cto.com/iframe/get-station-ads
 ||51cto.com/js/activity_pop.js
+||51dxs.com^
 ||51experience.cn^
 ||51fanli.net/misc/images/invite-v4/banner.gif
 ||51gxqm.com^
@@ -24768,6 +24773,7 @@ _zhike.htm
 ||91hui.com^
 ||91ivr.com^
 ||91jbz.com/file/script/A
+||91ks.online^
 ||91mh.co^
 ||91mh.me^
 ||91mjw.com/wp-author/tga^
@@ -32281,6 +32287,7 @@ _zhike.htm
 ||choices.trustarc.com^$important
 ||choices.truste.com^$important
 ||chok8.com/statics/ad/
+||cholurd.com^
 ||chonaesor.com^
 ||chong-wu.net^
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
@@ -34369,6 +34376,7 @@ _zhike.htm
 ||dhgdp.cn^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhievvienr.com^
+||dhimphits.com^
 ||dhkqqe.top^
 ||dhl.135320.com^
 ||dhlh.org^
@@ -39031,6 +39039,7 @@ _zhike.htm
 ||ifeve.com/wp-content/uploads/*/cachekit
 ||ifeve.com/wp-content/uploads/*/WechatIMG
 ||iffobi.xyz^
+||ifje.cn^
 ||ifjslio.top^
 ||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifkdy.com/layer/layer.js
@@ -41410,6 +41419,7 @@ _zhike.htm
 ||leguinge.info^$important
 ||leiphone.com/uploads/new/article/880_880/201807/5b5687fef17a5.jpg
 ||leiphone.com/uploads/new/category/pic/*/740x140/
+||leirerspfz.com^
 ||lejieti.com^
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
@@ -42043,6 +42053,7 @@ _zhike.htm
 ||lucnmtl.top^
 ||ludicrousarch.com^
 ||lufulibaa.com/ad$script
+||lui8426.xyz^
 ||lumberamount.com^
 ||lumex.space^
 ||luminousboulevard.com^
@@ -44269,6 +44280,7 @@ _zhike.htm
 ||nginx13.iad1.videohub.tv^$important
 ||nginx14.iad1.videohub.tv^$important
 ||nginx15.iad1.videohub.tv^$important
+||ngjcvn.top^
 ||ngxzkaxf.icu^
 ||nh7.icu^
 ||nhbprf.xyz^
@@ -47190,6 +47202,7 @@ _zhike.htm
 ||qwe0231141.bj.bcebos.com^
 ||qweisiy.top^
 ||qweizay.top^
+||qwerhao3.com^
 ||qwerioy.top^
 ||qwilmiy.top^
 ||qwilt-cq-prod-prod-media-analytics-upload-pipeline-pickup.s3.amazonaws.com^$important
@@ -52853,6 +52866,7 @@ _zhike.htm
 ||ubiquitousyard.com^$important
 ||ubisoftinternational.demdex.net^$important
 ||ubmcvideo.baidustatic.com^
+||ubudhal.com^
 ||uc*.atobo.com^
 ||uc.ucweb.com^$important
 ||uc129.com/images/top_hjsj.jpg
@@ -53373,6 +53387,7 @@ _zhike.htm
 ||uyan.cc/$third-party
 ||uyislot.top^
 ||uyohyy.xyz^
+||uypg.cn^
 ||uyretut.top^
 ||uyunad.com^
 ||uyunad.com^$important
@@ -54625,6 +54640,7 @@ _zhike.htm
 ||wtraff.com^
 ||wtroytj33.fun^
 ||wucnmte.top^
+||wucnwte.top^
 ||wudang05.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
@@ -54660,6 +54676,7 @@ _zhike.htm
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^
 ||wwc.alicdn.com/avatar/getAvatar.do?userId=
+||wwcnmte.top^
 ||wweisie.top^
 ||wweizae.top^
 ||wwerioe.top^
