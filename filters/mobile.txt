@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-24 00:28:30 RPC
+! Updated: 2025-04-24 09:46:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19702,6 +19702,7 @@ teniteo.jp##.item_adv_sp
 tenki.jp###recommend_lite_8
 tenki.jp##.app-week-btn-img-box
 tenki.jp##.ft-app
+tenki.jp##.ikoyo-pickup-wrap
 tenki.jp##.lead-to-app-wrapper
 tenki.jp##.point-app-image-box
 tenki.jp,m.diningcode.com##.app-banner-wrap
