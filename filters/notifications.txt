@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-25 00:28:13 RPC
+! Updated: 2025-04-25 09:47:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1168,7 +1168,6 @@
 ##.cookie-accept-container
 ##.cookie-accept-overlay
 ##.cookie-agreement-wrapper
-##.cookie-alert
 ##.cookie-alert ~ #exposeMaskOverlay
 ##.cookie-alert-box
 ##.cookie-assistant
@@ -1841,6 +1840,7 @@
 ##body.sliding-popup-processed > #sliding-popup
 ##body:not(.cookie-modal-open) > div#dm-cookie-popup-container
 ##body:not(.orejimeBody-WithModalOpen) div.orejime-Notice
+##body:not(.scroll-lock) .cookie-alert
 ##cloudflare-app[app="cookiless"]
 ##cloudflare-app[app="tibrr-cookie-consent"]
 ##dialog[data-controller="common--cookies--alert"]
@@ -3841,6 +3841,7 @@ academic.oup.com###oupcookiepolicy_message
 academictimes.com###euPopup
 academy.com#%#//scriptlet('set-cookie', 'c_consent', 'true')
 academy.deutsche-boerse.com##.sxcookie
+academy.openai.com,omoda.*#%#//scriptlet('set-cookie-reload', 'acceptedCookie', 'true')
 academyofathens.gr##footer ~ div[class^="_Modal_"]:has(> p > a[href*="/prosopika-dedomena"])
 acana.com.pl###ext_advancedcookie_overlay
 acapellas.eu###cookies-m-c
@@ -5036,6 +5037,7 @@ bbc.com##div[class*="DialogBackdrop"]
 bbc.com##header[role="banner"] > div[class^="bbc-"] > div[class^="bbc-"][dir="rtl"]:not([class*="-Banner"])
 bbc.com##header[role="banner"] > div[dir="ltr"][class^="Wrapper"]:not([class^="Banner"])
 bbc.com##header[role="banner"] > div[dir="rtl"]
+bbc.com#%#//scriptlet('trusted-click-element', 'div[data-testid="consentBanner"] button', '', '500')
 bbc.com#%#//scriptlet('trusted-click-element', 'div[data-testid="placeholder-embed-container"] > div[class*="SocialConsentPlaceholder"] > p ~ button', '', '1500')
 bbc.com#?#header[role="banner"] > div > div:has(> div  > div > h2)
 bbc.com,bbc.co.uk##div[class*="-ConsentBanner"]
@@ -5401,7 +5403,7 @@ blockchain.com##body div[class^="TrackingProvider__Banner"]
 blockchain.com#?##__next > div > div[class]:has(> div[class] > span > a[href$="/legal/privacy"])
 blocket.se##div[class^="SchibstedBanner__Wrapper"]
 blocksite.co###elementor-popup-modal-1372
-blog.aboutamazon.de,agoda.com,m.vk.com##.CookiePolicy
+blog.aboutamazon.de,agoda.com,m.vk.com,abc.xyz##.CookiePolicy
 blog.bizvibe.com#$##cookie-law-info-bar { display: none!important; }
 blog.bizvibe.com#$#.cli-popupbar-overlay { display: none!important; }
 blog.bizvibe.com#$#body.cli-barmodal-open { overflow: auto!important; position: static !important; }
@@ -8780,7 +8782,7 @@ gamewatcher.com#$#.gdpr-modal { display: none!important; }
 gamewatcher.com#$#body.modal-open { overflow: visible!important; padding-right: 0!important; }
 gamezop.com###cookieCard
 gaming.amazon.com##div[data-a-target="cookie-policy-banner"]
-gaming.gen.tr,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,epainfo.pl,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,bezpieczny.pl,hyperbook.pl,nesine.com,mistral-poland.pl,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,aptekamedkon.pl,xzone.pl,primepc.pl,systeminit.com,starsfromthestars.pl,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,sklep.portosrolety.pl,antidote.info,entega.de,skechers.com.tr,cira.ca,infosport.pl,copcorp.pl,xlap24.pl,fargotex.pl,kolobrzeg.info.pl,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,wasgehtapp.de,stocksy.com,flowforge.com,zeno.fm,spielregeln-spielanleitungen.de,boardgamegeek.com###cc--main
+gaming.gen.tr,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,epainfo.pl,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,bezpieczny.pl,hyperbook.pl,nesine.com,mistral-poland.pl,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,aptekamedkon.pl,xzone.pl,primepc.pl,systeminit.com,starsfromthestars.pl,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,sklep.portosrolety.pl,antidote.info,entega.de,skechers.com.tr,cira.ca,infosport.pl,copcorp.pl,xlap24.pl,fargotex.pl,kolobrzeg.info.pl,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,wasgehtapp.de,stocksy.com,flowforge.com,zeno.fm,spielregeln-spielanleitungen.de,boardgamegeek.com,techreviewer.de###cc--main
 gaming.youtube.com##.ytg-notification-footer
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
 gamingonlinux.com#%#//scriptlet('set-cookie', 'gol_external_media_consent', '0')
@@ -13270,7 +13272,6 @@ omniplexcinemas.co.uk,omniplex.ie#$#body { overflow: auto !important; pointer-ev
 omniplexcinemas.co.uk,omniplex.ie#@##cookieConsentBar
 omniplexcinemas.co.uk,omniplex.ie#@#.cookie-consent-banner
 omnislots.com##.notification.has-background-dark-grey
-omoda.*#%#//scriptlet('set-cookie-reload', 'acceptedCookie', 'true')
 omoda.*#@#.cookiebar:not(body)
 omr.com#$#.modal-backdrop { display:none!important; }
 omr.com#$#.modal-open { overflow:visible!important; }
