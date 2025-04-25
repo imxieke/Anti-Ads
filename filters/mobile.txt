@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-25 16:29:30 RPC
+! Updated: 2025-04-26 00:27:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -709,8 +709,8 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 /\/slade[0-9]?\.js/$domain=zxzj.me
 /\/uploads\/\d{4}\/\d{2}\/(?!85466|banner)[_0-9a-zA-Z]+\.(?:gif|jpg)$/$image,~third-party,domain=eromoji.com
 /\/[0-9a-f]{32}\/invoke\.js/$script,3p
-/^a\.[0-9a-f]{56}\.com$/
-/^https:\/\/a\.[0-9a-f]{56}\.com$/
+/^(a|c)\.[0-9a-f]{56}\.com$/
+/^https:\/\/(a|c)\.[0-9a-f]{56}\.com$/
 /^https?:\/\/m\.anysex\.com\/[a-zA-Z]{1,4}\/[a-zA-Z]+\.php$/$image,script,domain=m.anysex.com
 /_xa/ads?
 /_xa/ads_batch?
@@ -8643,6 +8643,8 @@ esmchina.com##div#mytd2,div.Text_AD_Box
 esnai.com##.tlgg
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
 espn.com##.sponsored-content
+espncricinfo.com##.ds-bottom-14.ds-right-0
+espncricinfo.com##button:has(> span:contains(Get App))
 esports.net##.parallax-container
 espreso.co.rs###installAndroidApp
 esquire.com#?#section > div[class*="css"]:has(> div.ad-container)
@@ -9861,6 +9863,8 @@ giga.de#$#body { padding-top: 9rem !important; }
 giga.de#$#body.mobile { padding-top: 0!important; }
 giga.de#?#.alice-teaser-list-item:has(> div[id^="giga.de_gruen_startseite_teaser"]:only-child)
 giga.de,chatgptdemo.info,chat.chatgptdemo.net,mega4upload.com,baby-calendar.jp##a[href^="https://play.google.com/store/apps"]
+gigabaito.com##.app_bottom_banner
+gigabaito.com##.app_cv_footer
 gigafile.nu##.pr_area_sp
 gigafile.nu#$##area-footer { bottom: 0 !important; }
 gigafile.nu#$##gigafilefly-slot-ol { display: none !important; }
@@ -15711,6 +15715,7 @@ natgeomedia.com,setn.com,eprice.com.tw##div[class^="ad-"]
 nation.africa##.ad-mobile-leaderboard_wrap
 nationalgeographic.com##.ad-holder
 nationalworld.com##body div[class^="Dailymotion__Wrapper-"]
+nau.ch##div[data-sticky-height="1px"]
 nau.ch##nau-advertisement-lazy
 navbharattimes.indiatimes.com##div[id^="div-clmb-ctn"]
 naver.com##._promotionBanner,._banner
@@ -16285,6 +16290,7 @@ ntpcb.com##img[width="1195"]
 ntunhs.edu.tw,ntust.edu.tw,sjsmitaa.org#@#.module-ads
 ntv.com.tr##.mobile-mpu-area
 ntv.ru###androidbanner
+ntvtelugu.com##.top-news-wrapper div.slider-left
 nu.nl##div[data-type="tealium"]
 nudeteenwhore.com##.mobile-block
 nudevista.at,nudevista.be,nudevista.com,nudevista.com.br,nudevista.com.pl,nudevista.es,nudevista.it,nudevista.net,nudevista.nl,nudevista.se,nudevista.tw##.mob_adv
@@ -17757,6 +17763,8 @@ ragalahari.com#%#//scriptlet('trusted-click-element', 'html:not([class]) > body[
 raincent.com##.banner-top
 rainews.it#$#.banner-app { display: none !important; }
 rainews.it#$#html > body[data-layout=homepage] main { border-bottom: 0px solid #009 !important; }
+rakukan.net##.free-area:has(> div > div > ul.link__list)
+rakukan.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'interstitialAdDiv')
 rakumachi.jp###linkToAdClickLog
 rakumachi.jp##.topPageHeaderBanner
 rakuten-card.co.jp##.footerNav__item--app
@@ -19789,6 +19797,7 @@ thedailystar.net##.app-link-wrapper a[href="https://play.google.com/store/apps/d
 thedailystar.net##.app-link-wrapper a[href^="https://itunes.apple.com/us/app/the-daily-star/"]
 thedailystar.net##.special-block
 thegay.com##.video-page > div:not(.video-page__content):has(> div > div >  iframe[width="300"][height="100"])
+thegirl.ru##.in-content-recomendations-adv
 thegreatcourses.co.uk###uk-banner-background
 thegreatdaily.com##[id^="ads"],#fbbox,.adsbygoogle,#rightAds
 thegreatdaily.com/cat##.col-lg-8.col-md-8{width:1190px;}
@@ -20342,6 +20351,7 @@ tunein.com##div[data-testid="viewModelAd"]
 tupaki.com###roadblocker-wrapper
 tupaki.com##body div[id$="_ad"]:not(#style_important)
 tupaki.com##body div[id$="_ad_before"]:not(#style_important)
+tupaki.com##div[id^="right_level_"]:empty:not(#style_important)
 tupaki.com#%#//scriptlet('remove-node-text', 'script', 'roadblocker')
 turbopages.org##.page__result > div[class*="type_native"]
 turbopages.org##.turbo-advert
@@ -25415,6 +25425,7 @@ _zhike.htm
 ||acxiom-online.com^
 ||ad*.nexage.com^
 ||ad*.on.cc^
+||ad*.zonaplus.tv^
 ||ad-
 ||ad-*.amazonaws.com^
 ||ad-*.appacc.dbankedge.cn^
@@ -29023,6 +29034,7 @@ _zhike.htm
 ||appalgo.g2afse.com^$important
 ||appapi.dlangemobile.com^$important
 ||apparatuslip.com^
+||appbaqend.com^
 ||appbaqend.com^$important
 ||appboy-images.com^
 ||appboy.com^$important

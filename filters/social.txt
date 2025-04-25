@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-25 16:29:30 RPC
+! Updated: 2025-04-26 00:27:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13384,6 +13384,7 @@ citaty.info#@#.social_twitter
 citaty.net##button[data-quote-share-action]
 citaty.net,doujin-eromanga.com,osarai-kitchen.com,manetatsu.com##.sb
 citigroup.com###social_share_nav
+citilink.ru##div[class*="StyledDropdown"] button:has(> span path[d^="M23.5999"])
 citilink.ru##div[class^="app-catalog-"] > button:has(use[href="#share"])
 citizen.co.za###whatsapp-widget
 citizen.digital##.socilamedia-share-btns
@@ -18246,7 +18247,6 @@ kontrakty.ua#?##sideRight > div.shadow:has(> h6:contains(Мы в соцсетя�
 kontramarka.ua##.social-linkss
 kontramarka.ua#?#.content-block:has(> div.follow_us)
 kontramarka.ua,forbes.kz,japanese.engadget.com##.social-follow
-kontur.ru,eaomedia.ru,helpnetsecurity.com,stavropol.media##body .share
 kookje.co.kr#?#.news_share_sns > li:has(> a[href^="javascript:send"])
 koolinar.ru##a[data-social]
 koravidstream.com,marianne.net#$?#.rmp-sharing { remove: true; }
@@ -20862,6 +20862,7 @@ ntv.ru##.vk-li
 ntv.ru##.xpopup_overlay
 ntvkenya.co.ke##.socials_bar
 ntvplus.tv##.stream-card--socials
+ntvtelugu.com,postupi.online##.social-wrap
 nu.nl##.app-follow-us
 nu.nl,domain-status.com,pcgamesn.com,thurrott.com##.social-sharing
 numan.tokyo,kitoakari.com,watakon-anime.com,kami-kuzu.com,assaultlily-pj.com##.sw-Share
@@ -20953,8 +20954,8 @@ odnaminyta.com,sensatsiya.com##.ss-shr
 odt.co.nz##.pane-odt-social-odt-social-rsb
 odysee.com##button[aria-label="Share this content"]
 odysee.com#?#.channel__quick-actions > button[type="button"]:has(> span.button__content > svg[class*="-Share"])
-oe24.at##.articleShareBox
 oe24.at##.articleShareVideoBox
+oe24.at##body .articleShareBox
 oemdtc.com,yeniisfikirleri.net##.sumome-share-client-wrapper
 ofbez.com###custom_html-2
 ofbez.com##.box-fixed-subscription
@@ -21807,7 +21808,6 @@ postnauka.ru#?#[class*="share"]:has(> a[class*="vk"])
 postnauka.ru,handelszeitung.ch##.social-toolbar
 postnews.ru###section_wrapper > section[class^="styles_section_"] > div[class^="sc-"] div[class^="sc-"] ~ div[class^="sc-"] > div[class^="sc-"][class*="styles_animate_"]:has(> a[class^="sc-"] > div[class^="sc-"] > svg[viewBox="0 0 24 24"] > path[d^="M4 19.251h.5c0-5.206 1.822-8.449"])
 postupi.online##.bg-nd__social-btn
-postupi.online##.social-wrap
 postype.com##.post-reaction > .action-group
 potepan.com##.ArticleBody__sns-share
 povar.ru##.soc-banner
@@ -24221,6 +24221,7 @@ telegraf.rs##.single-article-bottom-socials
 telegramchannels.me###share-it
 telegramgruplinkleri.com##.header-container
 telegraph.co.uk##.e-social-share
+telegraph.co.uk##.share-modal
 telegraph.co.uk##.tpl-article__social
 telegraph.co.uk,waronline.org##.facebookLike
 telegraphindia.com##.astkysharebox
@@ -24304,6 +24305,7 @@ tftips.app##aside > div.flex:has(> button[aria-label="Share on X"])
 tg-uchi.jp##div[class^="style_snsButtons"]
 tg.la7.it##.tgla7-condividi
 tg24.sky.it,sport.sky.it,uc.od.ua,odessa.dozor.ua,traffic.od.ua##.j-social-share
+tgcom24.mediaset.it##.flex > button.buttonClass:has(> svg > path[d^="M16.4999"][d$="18.75Z"])
 th.wikihow.com###side_follow
 thairath.co.th#?#.collapse > div[class^="css-"] > a.facebook-icon:upward(1)
 thaiza.com###leftctrl > a[href]
@@ -25132,6 +25134,7 @@ tuoitre.vn##.detailsocialboot
 tuoitre.vn##.item-facebook
 tuoitre.vn##.socical
 tuoitre.vn,ltn.com.tw##.sharefb
+tupaki.com,kontur.ru,eaomedia.ru,helpnetsecurity.com,stavropol.media,unicreditgroup.eu##.share:not(#style_important)
 tupaki.com,thelogicalindian.com##.ind-social-wrapper
 tupi.fm##.share-teaser
 turbopages.org##.share__services
@@ -25397,7 +25400,6 @@ unian.ua,unian.net##.article__share-btn
 unibas.ch##.shariff-article
 unicampus.it#?#.ct-section-inner-wrap > div.ct-div-block:has(> div:contains(/^Condividi$/))
 unicoebello.it##.obfx-sharing
-unicreditgroup.eu##body .share:not(#style_important)
 unikal.az##.news-share-container
 unilad.com#?#div > ul:has(> li > button[aria-label^="share on"])
 uniladtech.com##div[class^="article-header_shareLink"]
