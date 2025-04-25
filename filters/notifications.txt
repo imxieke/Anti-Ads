@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-25 09:47:13 RPC
+! Updated: 2025-04-25 16:29:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10385,6 +10385,7 @@ jetzt.thw.de,zensus2022.de,bva.bund.de#$#.mfp-bg { display: none !important; }
 jetzt.thw.de,zensus2022.de,bva.bund.de#$#.mfp-wrap { display: none !important; }
 jetzt.thw.de,zensus2022.de,bva.bund.de#$#html { overflow: visible !important; }
 jetztspielen.ws#@##onetrust-consent-sdk
+jeugdjournaal.nl,nos.nl###ccm_notification_host
 jever.de,radeberger.de,hasen-braeu.de##.age-cookie-req__privacy
 jfe-eng.co.jp###cookietarget
 jgl.eu###ng-cc
@@ -12972,7 +12973,6 @@ northlandfence.com##.sgpb-popup-overlay
 northwell.edu##div[id^="nwh_footer_banner_legal"]
 nortonlifelock.com###ensConsentWidget
 norwegian.com#%#//scriptlet('trusted-set-cookie', '_nasStorageConsent', 'all=False&analysis=False&marketing=False&v=1')
-nos.nl###ccm_notification_host
 nostter.app,todtv.com.tr,cryptonews.com,duellinksmeta.com##.cookieConsentWrapper
 notebook.de,koberger-hamburg.de#%#//scriptlet('trusted-click-element', '.ccm--decline-cookies')
 notebookreview.com,businessinsider.fr##div[id^="sp_message_id"]

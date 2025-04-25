@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-25 09:47:13 RPC
+! Updated: 2025-04-25 16:29:30 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6141,6 +6141,7 @@ bqg.com/js/h$script
 bqg5200.com##.content_ad,.ad250left
 bqprime.com##div[class^="ad-with-placeholder"]
 bqprime.com##div[class^="mobile-bottom-sticky"]
+bqug8.com##.content > div[style^="position:"][class$="_b"]
 bragazeta.ru###m-b-delevery
 brainly.co.id##.brn-ads-mobile-container
 brainly.co.id,eodev.com##.brn-web-to-app-banner
@@ -7140,6 +7141,7 @@ computerbild.de##.mrecContainer
 computerbild.de##section[data-on-scroll-element-top*="PartnerBoxCtrl"]
 computerhoy.20minutos.es##div[class^="home_containerAdSlot__"]
 computerhoy.20minutos.es##section[class^="home_spacingBlock"] aside[class^="region-section-aside_"]:has(> div[class^="region-section-aside"] > div[class^="ad-slot_container__"])
+comss.ru##a[href="https://www.rustore.ru/catalog/app/ru.comss.dns.app"]
 concord.ua#?#div[class^="icon25-widget"][class$="wrapper"] li:not(:has(> a[href="https://my.neobank.one"]))
 connect-living.de#$#.body--mobile { padding-top: 4.375rem !important; }
 connect-living.de#$#.header--mobile { top: 0 !important; }
@@ -10707,6 +10709,7 @@ hindustantimes.com##.bottomStickyAds
 hindustantimes.com##.FirstAd
 hindustantimes.com##.install_app
 hindustantimes.com##.m_ads_unit
+hindustantimes.com##div[class^="m_headBanner"]
 hindustantimes.com##div[class^="OpenAppCTA_openAppButton_"]
 hindustantimes.com#%#//scriptlet('hide-in-shadow-dom', '.storyAd, .storyAd + .slideSection')
 hinet.net###media_ad_popup_overlay
@@ -17023,7 +17026,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -17992,7 +17995,7 @@ reviews.mtbr.com#@#.header-ad
 revistacromos.com.co,praxistipps.focus.de,chip.de##.StickyAd
 revolut.com#?##__next > div[class^="Box-rui__sc"]:has(> span[class^="Box-rui__sc"] > a[href^="https://get.revolut.com/"])
 revolution-energetique.com##div[style="min-height: 300px;"]
-rezka.si,hello-rezka.tv,hdrezka.kim,kvk.pub,hdrezka1twwpb.org,omnirezka.tv,hdrezka1dhpkk.org,hdrezka9bsbhq.org,hdrezka720dhh.org,hdrezka320ypq.org,hdrezka180map.org,hdrezka320hjh.org,hdrezka9fmskj.org,hdrezka2vmmty.org,hdrezka8dgquu.org,hdrezkayyh5pq.org,hdrezka2tepnm.org,standby-rezka.tv,flymaterez.net,hdrezka320fkk.org,hdrezka.vip,rezka.space,hdrezka8bdhtq.org,hdrezka1tqbbd.org,hdrezka1qkpbx.org,hdrezka320rtq.org,rezka-ua.tv,hdrezkabmmshq.org,hdrezka.in,hdrezka66yhfg.net,hdrezka.rest,hdrezka19139.org,hdrezka.ag,upivi.com,hdrezka.me,kinopub.me,3ivi.com,rezkify.com,bestofkinopoisk.com,rezkery.com,hdrezkaonline.com,hdrezka.sh,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkayou.com,rezka.ag##.b-dwnapp
+rezka-ua.org,rezka.si,hello-rezka.tv,hdrezka.kim,kvk.pub,hdrezka1twwpb.org,omnirezka.tv,hdrezka1dhpkk.org,hdrezka9bsbhq.org,hdrezka720dhh.org,hdrezka320ypq.org,hdrezka180map.org,hdrezka320hjh.org,hdrezka9fmskj.org,hdrezka2vmmty.org,hdrezka8dgquu.org,hdrezkayyh5pq.org,hdrezka2tepnm.org,standby-rezka.tv,flymaterez.net,hdrezka320fkk.org,hdrezka.vip,rezka.space,hdrezka8bdhtq.org,hdrezka1tqbbd.org,hdrezka1qkpbx.org,hdrezka320rtq.org,rezka-ua.tv,hdrezkabmmshq.org,hdrezka.in,hdrezka66yhfg.net,hdrezka.rest,hdrezka19139.org,hdrezka.ag,upivi.com,hdrezka.me,kinopub.me,3ivi.com,rezkify.com,bestofkinopoisk.com,rezkery.com,hdrezkaonline.com,hdrezka.sh,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkayou.com,rezka.ag##.b-dwnapp
 rfidworld.com.cn###divTopContainer
 rfidworld.com.cn###IOTVote2017Ad
 rfidworld.com.cn###placeHolderR
@@ -19690,6 +19693,7 @@ telling.asahi.com##.p-promotion-container
 tellows.de###hint_box
 telnavi.jp#?#table > tbody > tr:has(> th:contains(PR文))
 teltarif.de###SpaceBefore
+telugu.hindustantimes.com##.minHeightMobileAdd
 telugu360.com##.HomeMobile_ads
 telugu360.com##.td-visible-phone > a[target="_blank"]
 temp-mail.org#$#html[style^="padding-top"] { padding-top: 0px !important; }
@@ -24775,6 +24779,7 @@ _zhike.htm
 ||913sss.com/js/$script
 ||914.global.ssl.fastly.net^$important
 ||9158918.com^
+||918000.xyz^
 ||9188car.com^
 ||9191.site/ad.js
 ||919198.com^
@@ -30567,6 +30572,8 @@ _zhike.htm
 ||bioon.com/xy/article/img/zhi_neng_xibao_fenxi.png
 ||bip.presage.io^$important
 ||bip.prod.cloud.ogury.io^$important
+||biqgg.com/n.
+||biqgg.com/w.
 ||biqgg.com/w.js?v=
 ||biqiuge8.cc/js/d
 ||biqiuge8.cc/js/p
@@ -36240,6 +36247,7 @@ _zhike.htm
 ||fczunn.xyz^
 ||fd.allsaintsyrt.club^$important
 ||fd173.cn/fzent/*ad$script
+||fd80s.com/static/m.
 ||fdc.com.cn^*adv
 ||fdc.my0511.com^$script
 ||fdfda.zhuzhai.com^
@@ -40782,6 +40790,7 @@ _zhike.htm
 ||k99.cc^$third-party
 ||k9u.icu^
 ||kaffnet.com^$important
+||kai5741.xyz^
 ||kaicn.com/style/js/js.js$script
 ||kaimaohong20.cn^
 ||kaipuyun.cn/count/
@@ -46927,6 +46936,7 @@ _zhike.htm
 ||qienews.cn^
 ||qienews.cn^$third-party
 ||qifake.com^
+||qighodetfg.com^
 ||qihaoqu.com^
 ||qiji1.jdwx.info^
 ||qilanxiaozhu.*/data/attachment/portal/
@@ -47138,6 +47148,7 @@ _zhike.htm
 ||qtmojo.com^$third-party
 ||qtoidch.icu^
 ||qtroytj33.fun^
+||qtthehnor.com^
 ||quacksquirrel.com^
 ||quaintborder.com^
 ||quaintcan.com^
@@ -49258,6 +49269,7 @@ _zhike.htm
 ||shinystat.it^$important
 ||shirtsidewalk.com^
 ||shise.me^
+||shitouxs.com/static/042417.js
 ||shiveringspot.com^
 ||shiverscissors.com^
 ||shixiong.xyz^
@@ -49708,6 +49720,7 @@ _zhike.htm
 ||snxyf.com^$third-party
 ||snyu.com^
 ||snzfj.net^$third-party
+||so.91ks.online/asset/bd.js
 ||so.auto999.cn^
 ||so.com/com/ads?
 ||so.com/index/advertise
@@ -53328,6 +53341,7 @@ _zhike.htm
 ||userstats.shopee.vn^$important
 ||uservoice.com^$important
 ||usevideo.adsrvr.org^$important
+||usgo.chucaotang.net/ua.js
 ||usgowell.com^
 ||usgowell.org^
 ||ush.adspecs.yahoo.com^$important
@@ -53971,6 +53985,7 @@ _zhike.htm
 ||vt.adition.com^$important
 ||vt.ipinyou.com^$important
 ||vt.myvisualiq.net^$important
+||vtbe.cn^
 ||vtbfgnf00.fun^
 ||vtbkhl.icu^
 ||vtdgfisz.icu^
