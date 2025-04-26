@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-26 09:44:31 RPC
+! Updated: 2025-04-26 16:25:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -137,7 +137,8 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-stats.jpush.cn^
 *.com/css/showfloatdiv^
-*.top/$script,3p,domain=olympicstreams.co|toonily.com|luluvdo.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
+*.shop/$script,xhr,3p,domain=animepahe.ru|cineb.rs
+*.top/$script,3p,xhr,domain=olympicstreams.co|cineb.rs|toonily.com|luluvdo.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
 */?tzbilibili
 */ad.
 */adbox/
@@ -1234,7 +1235,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -17030,7 +17031,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -21102,6 +21103,7 @@ wap.iciba.com##div#floatbar
 wap.ithome.com###a_ad
 wap.ithome.com##a#a_ad,img[src="http://img.ithome.com/images/wap/ithome-app-download.png"]
 wap.sobiquge.com##[onclick*="https://apps.apple.com/cn/app/"]
+wap.yushuwu.cloud#%#//scriptlet('prevent-addEventListener', 'touchend', 'clientheight')
 wap.yushuwu.cloud#%#//scriptlet('prevent-eval-if', 'WebSocket')
 wap.zol.com.cn###waitrep
 wapbaike.baidu.com##a[onclick^="Mixedor.mixedOpen"]
@@ -31081,6 +31083,7 @@ _zhike.htm
 ||bucket.rtk.io^$important
 ||bucketbean.com^
 ||bucnmtv.top^
+||bucnwtv.top^
 ||budsinc.com^$important
 ||bugly.qq.com^
 ||bugly.qq.com^$important
@@ -38654,6 +38657,7 @@ _zhike.htm
 ||huzhanbin.cn^
 ||hv.adingo.jp^$important
 ||hvddxj.icu^
+||hvrunsqqy.com^
 ||hvuqkb.cn^
 ||hw-cdn.trafficjunky.net^$important
 ||hw-cdn2.contentabc.com^$important
@@ -40969,6 +40973,7 @@ _zhike.htm
 ||khastreol.com^
 ||khcsvdc.icu^
 ||khegritww.com^
+||khehliets.com^
 ||khengrull.com^
 ||khesuts.com^
 ||khgj.cn^
@@ -42096,6 +42101,7 @@ _zhike.htm
 ||luckymeetyou.com^$important
 ||luckyzombie.com^
 ||lucnmtl.top^
+||lucnwtl.top^
 ||ludicrousarch.com^
 ||lufulibaa.com/ad$script
 ||lui8426.xyz^
@@ -44408,6 +44414,7 @@ _zhike.htm
 ||nl2cq0jr.xyz^
 ||nljyjt.icu^
 ||nlmrjnew.oss-cn-shanghai.aliyuncs.com^
+||nlnlrn.top^
 ||nlog.droid4x.cn^$important
 ||nlp14.kionti.de^$important
 ||nlrsrx.xyz^
@@ -44810,6 +44817,7 @@ _zhike.htm
 ||ogury.com^$important
 ||oh100.com/js/pubuliu.
 ||ohkfmi.xyz^
+||ohqp.cn^
 ||ohtusgy.icu^
 ||oieo.cn^
 ||oimsgad.qq.com^$important
@@ -46012,6 +46020,7 @@ _zhike.htm
 ||pkk1.zuimeiniwo.com^
 ||pklujb.xyz^
 ||pks.a.mobimagic.com^$important
+||pktfla.top^
 ||pkvjrb.icu^
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
@@ -47748,6 +47757,7 @@ _zhike.htm
 ||rge.pushwoosh.com^$important
 ||rghbvp.xyz^
 ||rgju.cn^
+||rgme.cn^
 ||rgmmeff.icu^
 ||rgyun.com^
 ||rh.qq.com^$important
@@ -51910,6 +51920,7 @@ _zhike.htm
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tlcs666.com^
+||tljrvn.icu^
 ||tlp-01.kameleoon.com^$important
 ||tlp-02.kameleoon.com^$important
 ||tlp-03.kameleoon.com^$important
@@ -53433,6 +53444,7 @@ _zhike.htm
 ||uvyuqzx.cn^
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
+||uwcnmtt.top^
 ||uweisit.top^
 ||uweizat.top^
 ||uweriot.top^
@@ -53966,6 +53978,7 @@ _zhike.htm
 ||vrinqop.icu^
 ||vrizead.com^
 ||vrl.m.conviva.com^$important
+||vrosqutsgh.com^
 ||vrrw.net//templets/default/js/ad.js
 ||vrs.cz^$important
 ||vrulqil.com^
@@ -55596,6 +55609,7 @@ _zhike.htm
 ||yahoo.media.net^$important
 ||yahugg.com^
 ||yalingba.com/ggtxjs/
+||yamanaisleepry.com^
 ||yamstamp.com^
 ||yan007.com/js/sss/ad.js
 ||yan07.xyz^
@@ -56362,6 +56376,7 @@ _zhike.htm
 ||znxblom.cn^
 ||zodoth.com^
 ||zoeacaring.com^
+||zofmhx.icu^
 ||zogzoldop.com^
 ||zokzavnea.com^
 ||zol-img.com.cn/ad/
