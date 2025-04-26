@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-26 16:25:41 RPC
+! Updated: 2025-04-27 00:25:17 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -137,8 +137,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-stats.jpush.cn^
 *.com/css/showfloatdiv^
-*.shop/$script,xhr,3p,domain=animepahe.ru|cineb.rs
-*.top/$script,3p,xhr,domain=olympicstreams.co|cineb.rs|toonily.com|luluvdo.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
 */?tzbilibili
 */ad.
 */adbox/
@@ -240,7 +238,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 .htmm?$domain=m.69shu.io|m.piaotianzw.com
 .ru^$third-party,script,domain=muzmob.org
 .xhtmm?$domain=wap.dulaidw.com|m.hebao9.com
-.xyz^$3p,domain=anroll.net
 /(?::\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4})/
 /*AdapterNew.
 /*xmtl$domain=xhxswz.com|biqubao.com
