@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-27 00:25:17 RPC
+! Updated: 2025-04-27 09:51:16 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17037,6 +17037,7 @@ trade.kanga.exchange#%#//scriptlet('trusted-set-cookie', 'cookies-consent|kanga'
 trade.kanga.exchange,bookingpremium.secureholiday.net#%#//scriptlet('set-local-storage-item', 'cookieConsent', 'true')
 trade.telia.se#$##cookie-modal-wrapper { display: none !important; }
 trade.telia.se#$#body { overflow: auto !important; }
+tradeboss.com###uwsPushModal
 tradehouse.ee##.tracking-prompt
 trademachines.de##.tm-cookie-dialog-root
 trademe.co.nz##div.responsive-wrapper[aria-label="App promotion banner"]
