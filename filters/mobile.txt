@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-27 16:25:24 RPC
+! Updated: 2025-04-28 00:26:26 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17522,7 +17522,7 @@ qizuang.com##.zb_footer_box1
 qizuang.com##.zb_footer_box_little
 qktsw.com##.pic300
 qload.info##main > section:has(> div.row > div.col > a#pm-badge)
-qlover.jp##.jss128
+qlover.jp###root > div[class^="jss"][style=""]:has(> a.MuiButton-colorPrimary[href^="https://qlover.page.link/?"])
 qlwb.com.cn###scroll_box
 qlwb.com.cn##.A3,.A10,.adsbygoogle,.full-banner,.banner,.ggtl,.gga,[class="A1 MT2 noBorder"]
 qncye.com##.bbaner
