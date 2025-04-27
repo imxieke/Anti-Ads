@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-27 09:51:16 RPC
+! Updated: 2025-04-27 16:25:24 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1232,7 +1232,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2249,7 +2249,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -5837,7 +5837,6 @@ biqudao.com##.dahengfu,.con_ad
 biquge001.com###content > a
 biquge345.com##.puaxqbxs_b
 biquge345.com##div[style^="position:fixed;"]
-biquge345.com,yourbiquge.com##div[style^="position:fixed;"]
 biqulou.net##.dahengfu
 biqushu.com##.adlist
 biquwo.com###content > div[style="padding:15px;"]
@@ -8695,7 +8694,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -17028,9 +17027,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -32851,6 +32850,7 @@ _zhike.htm
 ||cnwnews.com/images/kgt
 ||cnwnews.com/templets/images/artpangu.gif
 ||cnwnews.com/templets/images/jccf
+||cnwuamf.top^
 ||cnxad.com^
 ||cnyw.net/autoloader.js
 ||cnzz.991yue.com^$third-party
@@ -34411,6 +34411,7 @@ _zhike.htm
 ||dhaaralzz.com^
 ||dhannaq.com^
 ||dhapp.qianhaitech.cn/api/ad^
+||dheilgorsy.com^
 ||dheirzeh.com^
 ||dhemixu.com^
 ||dhg-logging.us-east-1.elasticbeanstalk.com^$important
@@ -38394,6 +38395,7 @@ _zhike.htm
 ||hnol.net^
 ||hnpjshop.com^
 ||hnrhyy.com/vip/$script
+||hnwuamu.top^
 ||hnyishidengbao.com^$third-party
 ||hoag.iad.appboy.com^$important
 ||hobbes.blueoxtech.com^$important
@@ -38638,6 +38640,7 @@ _zhike.htm
 ||huoyan.tv/yb/img/*.gif
 ||hupu-nba.com^
 ||hupu.com/_dace.gif?
+||hupu.com^*/interfaceAd/
 ||hupu.com^*/stream.js
 ||hur.cn/AhurD/*.gif
 ||huresdu.top^
@@ -39768,6 +39771,7 @@ _zhike.htm
 ||investingchannel.com^
 ||investors.fyber.com^$important
 ||invitesugar.com^
+||inwuamo.top^
 ||inzoiwe.com^
 ||inzut.com^
 ||io-cdn.bfmio.com^$important
@@ -40239,6 +40243,7 @@ _zhike.htm
 ||jia.com/js/tuku/footBanner_
 ||jia.com/js/zixun/news.js
 ||jia.com/js/zixun/zixun_
+||jia6983.xyz^
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
 ||jialingmm.net/tj.js
@@ -42146,6 +42151,7 @@ _zhike.htm
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
+||lwcnmtl.top^
 ||lwdown.com/user08/index_top
 ||lwdown.com/user08/user_*_
 ||lweizal.top^
@@ -42857,6 +42863,7 @@ _zhike.htm
 ||meatydime.com^
 ||mebed.dm.gg^$important
 ||mebof.com^$important
+||mecv.cn^
 ||med-api.admost.com^
 ||med-api.admost.com^$important
 ||med66.com/lamu/
@@ -43817,6 +43824,7 @@ _zhike.htm
 ||mtwuxss.icu^
 ||mtxsk.com^
 ||mucnmtx.top^
+||mucnwtx.top^
 ||muddledaftermath.com^
 ||muddledmemory.com^
 ||muer.cdn-baidu.fs-sywh.com^
@@ -45229,6 +45237,7 @@ _zhike.htm
 ||ow-gateway.supersonicads.com^$important
 ||owap.su^$important
 ||owap.su^$third-party
+||owcnmtk.top^
 ||owebmoney.ru^$important
 ||oweeiyw.icu^
 ||oweisik.top^
@@ -47823,6 +47832,7 @@ _zhike.htm
 ||riym.cn^
 ||rj.m.taobao.com^$important
 ||rjsos.com/channel/laomo_dibu.png
+||rjvzjn.top^
 ||rjwpwod.icu^
 ||rjzxw.com/include/
 ||rjzxw.com/temp/index.files/logo2.gif
@@ -52712,6 +52722,7 @@ _zhike.htm
 ||tunion-api.m.taobao.com^
 ||tunion-api.m.taobao.com^$important
 ||tunka.com.cn/images/1234.gif
+||tunshixingkong2.com/config/v7.js
 ||tupian6666.com^
 ||tupian888.*.bcebos.com^
 ||tupian88888.com^
@@ -55190,6 +55201,7 @@ _zhike.htm
 ||xdyjt.com^
 ||xdytt.com/b_*.js
 ||xe2c.com^
+||xebetp.icu^
 ||xeccotftw.com^
 ||xedlxeuz.icu^
 ||xehodv.xyz^
@@ -56145,6 +56157,7 @@ _zhike.htm
 ||zazhipu.com^
 ||zbb.bbb.*.pics^
 ||zbcdn.net/__uvjgyw/slb.default.js
+||zbislaernv.com^
 ||zbjimg.com/static/union/
 ||zbldxf.icu^
 ||zbwp6ghm.com^
