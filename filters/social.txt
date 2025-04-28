@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-28 17:15:09 RPC
+! Updated: 2025-04-29 00:31:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15519,6 +15519,7 @@ firstpost.com##.social_sharing_panel
 firstpost.com##.subcrbe_btn
 firstpost.com##.whats-app-desc
 firstpost.com##.yt-ch
+firstpost.com,stories.bsh-group.com,design-homes.ru,tgcom24.mediaset.it,kamuajans.com,internethaber.com##.shr
 firstpost.com,tv8.it,regionalwolfenbuettel.de,regionalgoslar.de,regionalwolfsburg.de,regionalbraunschweig.de##.shareicon
 firstshowing.net##.topsoc
 firstthings.com##.share_container
@@ -21811,6 +21812,7 @@ postnauka.ru#?#div[class*="_share"]:has(> *:contains(Поделиться))
 postnauka.ru#?#[class*="share"]:has(> a[class*="vk"])
 postnauka.ru,handelszeitung.ch##.social-toolbar
 postnews.ru###section_wrapper > section[class^="styles_section_"] > div[class^="sc-"] div[class^="sc-"] ~ div[class^="sc-"] > div[class^="sc-"][class*="styles_animate_"]:has(> a[class^="sc-"] > div[class^="sc-"] > svg[viewBox="0 0 24 24"] > path[d^="M4 19.251h.5c0-5.206 1.822-8.449"])
+postnews.ru#?#div[class*=" styles_animate__"] > a:contains(поделиться)
 postupi.online##.bg-nd__social-btn
 postype.com##.post-reaction > .action-group
 potepan.com##.ArticleBody__sns-share
@@ -22605,6 +22607,7 @@ rotadasbandeiras.com.br##.barraShare
 rottentomatoes.com###social-tools-widget
 rottentomatoes.com##.trending-bar__social-link
 rouman5.com#?#.col-md-4 > div.row:has(> div.col > button.react-share__ShareButton)
+royalcanin.com##div[data-qa="social-share"]
 royalqueenseeds.*##.social-media-icons-footer
 rozrywka.radiozet.pl##.content-part__share-links
 rp.pl##.socials--component
@@ -23739,7 +23742,6 @@ store.united-arrows.co.jp##div[data-css="stylingList"] > div.mb-20:has(> div.fle
 store.wacoal.jp###r2-share
 storia.takeshobo.co.jp##.social__outer
 stories.bsh-group.com##.st-share-trg
-stories.bsh-group.com,design-homes.ru,tgcom24.mediaset.it,kamuajans.com,internethaber.com##.shr
 stories.starbucks.co.jp###article-header-tools
 stories.starbucks.co.jp###sb-social-share
 storm.mg###article_sns_inner
@@ -24630,6 +24632,7 @@ theverge.com,vox.com##.duet--article--share-buttons
 thevision.com##.like
 theweather.net,tempo.com,tempo.pt,meteored.*,yourweather.co.uk,tiempo.com,meteored.com.ar,mobills.com.br,sharlib.com,belpressa.ru,tameteo.nl,acordacidade.com.br,yakumo-project.com,pogoda.com,duma.gov.ru,kp.by,dizelyator.ru##.shared
 theweek.co.uk##.polaris__social.-article
+theweek.in##.article-share-mobile
 thewest.com.au##div[class*="-StyledSharing-"]
 thewikihow.com#?##share > div.row > div[class^="col-"]:has(> div.yandex-share-block)
 thewildest.com##.dJ_xt

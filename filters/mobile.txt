@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-28 17:15:09 RPC
+! Updated: 2025-04-29 00:31:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9117,6 +9117,7 @@ firefoxchina.cn,hao123.com,muzhi.baidu.com##.bottom-banner
 firefoxchina.cn,taoyitu.com##.float-banner
 firstcry.com##section[appdownload]
 firstpost.com##.mblad
+firstpost.com##.mnvid-wrp > div.mn-rhs:has(> div.text-center > div[style] > div.myad)
 firstpost.com##.stkadbtm
 firstrowas.co##[id^="ad_overl"],[src^="http://c4.zedo.com/jsc/"],#fanback
 firstrowas.eu##[id^="ad_overl"],[src^="http://c4.zedo.com/jsc/"],#fanback
@@ -19671,6 +19672,7 @@ techug.com##[href$=".taobao.com/"]
 techug.com,webhek.com##.aatb
 techweb.com.cn##div.xxbox_news,A[href^="http://s.click.taobao.com/t?"],div#liepin,IMG[src^="http://s1.techweb.com.cn/static/images/"],img[alt="aliyun"],div[class^="xxbox"],div.right_yl.guanggaowei,.adsbygoogle,[id="Javascript.LeftDiv"],[id="Javascript.RightDiv"]
 techweb.com.cn##[href^="http://click.aliyun.com"],[href="http://itest.techweb.com.cn/smcs.shtml?test"]
+tecnoblog.net###ad-single-bottom
 tecnoblog.net##.tb-ad-discrete-container
 teddysun.com##.sidebar > .widget:nth-child(2)
 teddysun.com##.sidebar > .widget:nth-child(3)
@@ -20390,6 +20392,7 @@ tv.wp.pl#%#//scriptlet('trusted-set-local-storage-item', 'promo-info', '{"appLin
 tv.yahoo.co.jp##.adMmon
 tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?|watch\?v=|youtubei\/v1\/player/)
 tv100.com#%#//scriptlet('inject-css-in-shadow-dom', '.i-amphtml-unresolved { display: none !important; }')
+tv9telugu.com##.tv9_banner
 tvapk.net##.a_mu,.a_f,img[height="90"]
 tvblog.it##.engageya-widget
 tvbox.one##.entry-img-300
@@ -31098,6 +31101,7 @@ _zhike.htm
 ||bulbbait.com^
 ||bulk-click.startappservice.com^$important
 ||bulk-images.startappservice.com^$important
+||bullionglidingscuttle.com^
 ||bullseye.backbeatmedia.com^$important
 ||bumimi.com/money/
 ||bumnxiev.top^
@@ -39938,6 +39942,7 @@ _zhike.htm
 ||islandmob-com-pl89g1ago.stackpathdns.com^$important
 ||islandmob.com^$important
 ||ismuwcm.icu^
+||isolatedovercomepasted.com^
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
 ||issuecdn.baidupcs.com^
@@ -41078,6 +41083,7 @@ _zhike.htm
 ||knul.cn^
 ||knwuamd.top^
 ||ko3aql2d.zczcjx.com^$script
+||koaptouw.com^
 ||koauq.top^
 ||kochava.com^
 ||kochava.com^$important

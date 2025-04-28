@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-28 17:15:09 RPC
+! Updated: 2025-04-29 00:31:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4829,7 +4829,6 @@ avepdf.com###notif-cookie-consent
 avepdf.com##.notif-consent
 aver.com###cookieScriptBox
 avforums.com##.panel.Notice
-avforums.com,weszlo.com,freedisc.pl,warszawawpigulce.pl,astromagia.pl,magazynnaszczycie.pl,lenovo24.pl,mp.pl,ragusanews.com,upflix.pl,gry-online.pl,fanipogody.pl,heycar.com,whatismyipaddress.com,mymovies.it,anime-sama.fr,platinmods.com,tv-24.gr,protoselidaefimeridon.gr,e-kg.pl,redcafe.net,badtaste.it,y8.com,neoseeker.com,thetechgame.com,micuro.it,gamesystemrequirements.com,bluestacks.com,chelsea.news,luestacks.com,niezalezna.pl,metropolitan.si,biznesinfo.pl,yogablogfit.com,themezon.net,glamour.hu,novel-gate.com,links.medipost.org,vocalley.com,howifx.com,financerites.com,nydus.org,financerites.in,skincarie.com,guruhitech.com,tuttomercatoweb.com,filehorse.com,aberdeenlive.news,bedfordshirelive.co.uk,belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,buckinghamshirelive.com,business-live.co.uk,buzz.ie,cambridge-news.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,corkbeo.ie,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,edinburghlive.co.uk,essexlive.news,examinerlive.co.uk,football.london,galwaybeo.ie,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hampshirelive.news,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mylondon.news,norfolklive.co.uk,northantslive.news,nottinghampost.com,ok.co.uk,oxfordshirelive.co.uk,plymouthherald.co.uk,rsvplive.ie,scottishdailyexpress.co.uk,staffordshire-live.co.uk,stokesentinel.co.uk,suffolklive.com,sussexlive.co.uk,walesonline.co.uk,wiltshirelive.co.uk,inyourarea.co.uk,footballscotland.co.uk,funeral-notices.co.uk,insider.co.uk,liverpool.com,somersetlive.co.uk,dorset.live,developpez.net,ot.gr,phoronix.com,creativespirits.info,game24h.vn,prospektangebote.de,taiwebs.com,nfl.com,forums.tomshardware.com,blikk.hu,0calc.es,pietsmiet.de,olevod.com,einthusan.tv,tomsguide.com,techradar.com,cinemaxxl.de,raider.io,xboxdynasty.de,imgur.com,joe.ie,joe.co.uk,euromaidanpress.com##.qc-cmp2-container
 avia.de###avia-cookie-consent
 avia.de##.cs-info-wrapper
 aviasales.com##.s__y2gjNiIS0o1RA_5Ebnkw
@@ -6484,6 +6483,7 @@ consent.yahoo.com#%#//scriptlet('trusted-click-element', '#consent-page .manage-
 consent.yahoo.com#%#//scriptlet('trusted-click-element', '#consent-page button[type="submit"][name="save"]')
 consilium.europa.eu##.gsc-cookie-section
 console-way.com,blachotrapez.eu,sklep-mietus.pl##.TsConsentWrapper
+console.anthropic.com##.fixed.bottom-2
 console.scaleway.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref="modal"] > div#modal h2:contains(Cookie Settings)) { display: none!important; }
 console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref] > div[role="dialog"] p > a[href="/cookie-policy"]) { display: none !important; }
@@ -8851,7 +8851,7 @@ gbzp.by###gdpr-accept-cookie
 gcorelabs.com##.confirmed_cookie
 gdata.de,gdata-software.com,gdatasoftware.com###gd-cookie-consent
 gdatasoftware.com,gdata-software.com###gd-cookiebar
-gdh.digital#%#//scriptlet('trusted-set-local-storage-item', 'cookie_accepted', '-1')
+gdh.digital#%#//scriptlet('set-local-storage-item', 'cookieBarVisible', 'false')
 gdzietankowac.pl#%#//scriptlet('set-cookie-reload', 'acv', '1')
 gear.cdprojektred.com##div[class^="main-cookies-"]
 gearaid.com,gripgrab.com,apfelband.de#$##gdpr-blocking-page-overlay { display: none !important; }
@@ -10246,8 +10246,6 @@ ipszczelnictwo.pl,beeequipment.eu,imkereibedarfshop.de,ivcelarskepotreby.sk,jaha
 iptvbin.com###barracookies
 iq.com##div[class^="sc-"]:has(> div.popup-container > p.cookie-desc)
 iqair.com##.site-cookie-container
-iqair.com#$#.cdk-overlay-container { display: none !important; }
-iqair.com#$#body.cdk-global-scrollblock { overflow: auto !important; position: static !important; }
 iqbroker.com#%#//scriptlet('set-local-storage-item', 'cookie_usage_accepted', '1')
 iqcode.com,brooksbrothers.com,ascm.org,verywellfit.com,2ememain.be,cyclegear.com,verywellhealth.com##.gdpr-notification
 iqoo.com,vivo.com###vcm-v-consent-sdk
@@ -11267,7 +11265,6 @@ libero.it#$#body { overflow: auto !important; }
 libero.it#$#html { overflow: auto !important; }
 libertatea.ro,9am.ro#$#.qc-cmp-ui-showing { overflow:visible!important; }
 libertatea.ro,sourceforge.net#$#.qc-cmp-ui-container { height: 0!important; }
-libertateapentrufemei.ro,mediafax.ro,libertatea.ro,ntv.com.tr,waterford-news.ie,natgeotv.com,kralmuzik.com.tr###ot-sdk-btn-floating
 libertylondon.com##.cookie-disclaimer-message
 libmanuels.fr#?#ion-app ~ div[class] > div[class] > div[class]:has(> h2:contains(Gestion des cookies))
 librarie.net###div_cookies_note
@@ -11549,6 +11546,7 @@ m.aboutyou.hu##div[data-cy-id="cookieBanner"]
 m.airchina.com.cn###full-page > div.am-cf:has(> div#cookiesTips)
 m.aiscore.com###appLink
 m.aliexpress.ru##div[class^="PseudoSmartBanner_"]
+m.banggood.com##.gdpr-entry
 m.banggood.com#$#.bg_gdpr_popup { position: absolute!important; left: -3000px!important; }
 m.benchmark.pl###private-policy-popup
 m.bilibili.com##.m-video2-awaken-btn
@@ -12269,6 +12267,7 @@ modivo.pl##body .plate-cookies
 modlet.ro###cookie-policy-overlay
 modpda.com##.message_warn
 modrinth.com##.card.banner
+modrinth.com,avforums.com,weszlo.com,freedisc.pl,warszawawpigulce.pl,astromagia.pl,magazynnaszczycie.pl,lenovo24.pl,mp.pl,ragusanews.com,upflix.pl,gry-online.pl,fanipogody.pl,heycar.com,whatismyipaddress.com,mymovies.it,anime-sama.fr,platinmods.com,tv-24.gr,protoselidaefimeridon.gr,e-kg.pl,redcafe.net,badtaste.it,y8.com,neoseeker.com,thetechgame.com,micuro.it,gamesystemrequirements.com,bluestacks.com,chelsea.news,luestacks.com,niezalezna.pl,metropolitan.si,biznesinfo.pl,yogablogfit.com,themezon.net,glamour.hu,novel-gate.com,links.medipost.org,vocalley.com,howifx.com,financerites.com,nydus.org,financerites.in,skincarie.com,guruhitech.com,tuttomercatoweb.com,filehorse.com,aberdeenlive.news,bedfordshirelive.co.uk,belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,buckinghamshirelive.com,business-live.co.uk,buzz.ie,cambridge-news.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,corkbeo.ie,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,edinburghlive.co.uk,essexlive.news,examinerlive.co.uk,football.london,galwaybeo.ie,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hampshirelive.news,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mylondon.news,norfolklive.co.uk,northantslive.news,nottinghampost.com,ok.co.uk,oxfordshirelive.co.uk,plymouthherald.co.uk,rsvplive.ie,scottishdailyexpress.co.uk,staffordshire-live.co.uk,stokesentinel.co.uk,suffolklive.com,sussexlive.co.uk,walesonline.co.uk,wiltshirelive.co.uk,inyourarea.co.uk,footballscotland.co.uk,funeral-notices.co.uk,insider.co.uk,liverpool.com,somersetlive.co.uk,dorset.live,developpez.net,ot.gr,phoronix.com,creativespirits.info,game24h.vn,prospektangebote.de,taiwebs.com,nfl.com,forums.tomshardware.com,blikk.hu,0calc.es,pietsmiet.de,olevod.com,einthusan.tv,tomsguide.com,techradar.com,cinemaxxl.de,raider.io,xboxdynasty.de,imgur.com,joe.ie,joe.co.uk,euromaidanpress.com##.qc-cmp2-container
 moduscreate.com##.gdpr-show
 moebel-as.de#$#.acris-cookie-consent { display: none !important; }
 moebel-as.de#$#.modal-backdrop { display: none !important; }
@@ -14920,6 +14919,7 @@ rowerystylowe.pl,master-plus.com.ua,xfilesaversa.it,biosuplementacja.pl,receivea
 roxy.fi,roxy.fr,roxy-denmark.dk,roxy-ireland.ie,roxy-store.se,roxy-uk.co.uk#%#//scriptlet('set-cookie', 'CONSENTMGR', '1')
 roxy.fi,roxy.fr,roxy-denmark.dk,roxy-ireland.ie,roxy-store.se,roxy-uk.co.uk#@##cookie-popup
 roxy.fi,roxy.fr,roxy-denmark.dk,roxy-ireland.ie,roxy-store.se,roxy-uk.co.uk#@#.cookie-popup:not(body):not(html)
+royalcanin.com,libertateapentrufemei.ro,mediafax.ro,libertatea.ro,ntv.com.tr,waterford-news.ie,natgeotv.com,kralmuzik.com.tr###ot-sdk-btn-floating
 royalpets.com.br##.footer__terms
 royalqueenseeds.*##.cookie-popup__wrapper
 rozetka.pl##rz-user-consent
@@ -15112,6 +15112,7 @@ sberbank.com##div[data-pid^="KomCookieWarning-"]
 sberbank.com#%#//scriptlet('set-cookie', 'sbrf.pers_notice', '1')
 sberbank.com,play.tv2.dk##div[class^="CookieWarning"]
 sberbank.com,sberbank.ru##.kitt-cookie-warning
+sberbank.ru##.cookies-nova
 sberbank.ru##div[data-pid^="CookieWarning-"]
 sberbankdirect.de#$#.cm { display: none !important; }
 sberbankdirect.de#$#body { position: static !important; }
@@ -16805,6 +16806,7 @@ thoughtco.com#$#body #onetrust-consent-sdk { display: none !important; }
 thoughtco.com#$#html:has(>body>div#onetrust-consent-sdk.show-banner) { overflow-y: auto !important; }
 thoughtco.com#@##onetrust-consent-sdk
 thousandeyes.com###EU-wrapper
+threads.com#%#//scriptlet('trusted-set-cookie-reload', 'cb', '1_2030_01_01_1')
 threads.net#%#//scriptlet('trusted-set-cookie-reload', 'cb', '1_2023_07_05_2-3')
 throwbacks.com,shared.com###gdprConsentPrompt
 thueringer-energienetze.com###CybotCookiebotDialogBodyUnderlay
