@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-28 00:26:26 RPC
+! Updated: 2025-04-28 09:49:27 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6263,6 +6263,7 @@ cm.com##.s-cookie-popup
 cmlink.com#$#.cookie-dialog { display: none !important; }
 cmlink.com#$#.van-overflow-hidden { overflow: auto !important; }
 cmlink.com#$#.van-overlay { display: none !important; }
+cmmedia.es##.notification-modal
 cmp-cdn.golem.de#%#//scriptlet('trusted-click-element', 'button[title^="Zustimmen"]')
 cmp-sp.rnd.de#%#//scriptlet('trusted-click-element', 'button[aria-label*="und weiter"]')
 cmp-sp.torgauerzeitung.de#%#//scriptlet('remove-attr', 'disabled', 'button.sp_choice_type_SAVE_AND_EXIT')
@@ -14779,7 +14780,7 @@ revolutionsoft.net,impotusa.com,cnishop.com,monsieur-cuisine.com,flora-toskana.c
 revouninstaller.com###consentAccepted
 rewasd.com,dt-updates.com,disk-tools.com,daemon-tools.cc,oreopeople.com##.cookies_banner
 rewe.de##div[data-fragment="disclaimer-layer"]
-rewe.de,withyoutube.com##div[data-cookie-consent]
+rewe.de,withyoutube.com,visitstockton.org##div[data-cookie-consent]
 rexel.de#$#body { overflow: visible !important; padding-right: 0 !important; cursor: auto !important; }
 rexel.de#$#div[class^="cookie-notification"] { display: none !important; }
 rexel.fr#$##gdprCookieConsentManagedSummary { display: none !important; }
@@ -17395,6 +17396,7 @@ udemy.com##.ud-component--footer--eu-cookie-message
 udtech.co##.js-cookies_popup
 uefa.com##body > div#onetrust-consent-sdk
 ufa.de##.analytics
+ufd.es##.pre-footer-wrap
 ufg.pl###ufg-cookies
 ufi.org###cookies-prompt
 ufi.org,xmind.app,linex.ru,xmind.net,moiglaza.ru##.cookies-prompt

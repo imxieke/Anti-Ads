@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-28 00:26:26 RPC
+! Updated: 2025-04-28 09:49:27 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12846,7 +12846,9 @@ koolearn.com##.show_ad
 koolearn.com##.zx_banner,.on_mtab,.news_pf,.ktit_sw,.ad
 koooragoal.com###postAD-top
 koreaporn.net##div[class^="bb_mobile"]
+koreatimes.co.kr##div[class^="Detail_ad-container"]
 koreatimes.co.kr##div[class^="Detail_ad-container_"]
+koreatimes.co.kr##div[class^="wrap DetailTaboola_only-"]
 korewaeroi.com##div[style^="margin-left:auto;margin-right:auto; width:300px"]
 koro-pokemon.com##.ad_int
 korrespondent.net##amp-embed[style^="height: 350px;"]
