@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-28 09:49:27 RPC
+! Updated: 2025-04-28 17:15:09 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3124,7 +3124,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.sssam.com/static/js/*.js
-@@||cdn.staticfile.org^$domain=yourbiquge.com|83kss.cc|00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org|tianz.la
+@@||cdn.staticfile.org^$domain=56xiaoshuo.net|yourbiquge.com|83kss.cc|00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org|tianz.la
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=movieffm.net
 @@||cdn.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
@@ -7672,6 +7672,9 @@ dhakatribune.com##reachableclick
 dhaomu.com##.ceo-ad
 dhaomu.com##.ceo-footer-h
 dhaomu.com##.sidebar > .slide
+dhgate.com###J_appBanner
+dhgate.com##.r-openapp
+dhgate.com##body::before
 dhzw.com##div.gg
 diamond.jp###gpt-dol-infeed-ranking
 diamond.jp###reworded-info
@@ -17031,7 +17034,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -31151,6 +31154,7 @@ _zhike.htm
 ||bvubasnf.com^
 ||bvzc.cn^
 ||bw66.cn/template/default_pc/bbs/
+||bwcnmtv.top^
 ||bweriov.top^
 ||bwi-v4.pops.fastly-insights.com^$important
 ||bwilmiv.top^
@@ -38567,6 +38571,7 @@ _zhike.htm
 ||htxwzp.xyz^
 ||htys123.com/pic/$image
 ||hu-gmtdmp.mookie1.com^$important
+||hua4207.xyz^
 ||huaban.com^*/ads
 ||huacolor.com/all/$script
 ||huacolor.com/hcjs_$script
@@ -40015,6 +40020,7 @@ _zhike.htm
 ||itopdog.cn/itopdog/ad.js
 ||itopdog.cn/itopdog/d*.js
 ||itopdog.cn/js/you.js$script
+||itoqals.com^
 ||itqwesk.icu^
 ||its-that-easy.com^$important
 ||itsmore.cn^$third-party
@@ -40413,6 +40419,7 @@ _zhike.htm
 ||jngdg.top^
 ||jnlc.com/www/fund/newsmarket
 ||jnsz.net.cn^
+||jnwuama.top^
 ||jnyngg.cn^$third-party
 ||jo4.icu^
 ||joblessdrum.com^
@@ -40754,6 +40761,7 @@ _zhike.htm
 ||jxnews.com.cn/first/js/home/index_ad
 ||jxnews.com.cn^*_ad_
 ||jxnrfx.com^
+||jxtcbriz.icu^
 ||jxtest.bolecdn.com/player/*.gif
 ||jy.zhongxues.com^
 ||jy01.shop^
@@ -41068,6 +41076,7 @@ _zhike.htm
 ||knowmore.cc/style/head.js
 ||knuinws.icu^
 ||knul.cn^
+||knwuamd.top^
 ||ko3aql2d.zczcjx.com^$script
 ||koauq.top^
 ||kochava.com^
@@ -44866,6 +44875,7 @@ _zhike.htm
 ||olcdn.com^
 ||olcdn.com^$script
 ||oldfashionedoffer.com^
+||oldh.cn^
 ||ole7o.cn^
 ||olehdtv.com/index.php/index/userss|
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
@@ -51806,6 +51816,7 @@ _zhike.htm
 ||tianyaui.com/global/dashang/vip_seat/js/ds_vip_seat.js
 ||tiao1.cc/static/default/js/loadLM.js
 ||tiaosa.cn^
+||tiboha.top^
 ||ticcdn.com^
 ||ticker.api.prd.innopage.com^$important
 ||ticketaunt.com^
@@ -53618,6 +53629,7 @@ _zhike.htm
 ||vbaof.admaster.com.cn^$important
 ||vbiakpu.icu^
 ||vbllxaaj.icu^
+||vcaqexl.com^
 ||vcardsdkservice.vivo.com.cn^$important
 ||vcdfsf99.fun^
 ||vcdn.adnxs.com^$important
@@ -53718,6 +53730,7 @@ _zhike.htm
 ||vhrhnh.icu^
 ||vhsrwd.aip24.pl^$important
 ||vhunantv.admaster.com.cn^$important
+||vhxzfz.icu^
 ||vhzivz.xyz^
 ||vi-serve.com^$important
 ||vibranthaven.com^
@@ -54550,6 +54563,7 @@ _zhike.htm
 ||wmflabs.org^
 ||wmhlch.com^$important
 ||wmirk.ru^$important
+||wmol.cn^
 ||wn6y.cn^
 ||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
