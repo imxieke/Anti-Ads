@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-29 09:47:41 RPC
+! Updated: 2025-04-29 16:33:13 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2253,7 +2253,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3709,7 +3709,6 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dthforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mcappx.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
@@ -13568,6 +13567,7 @@ m.56.com##a[data-statkey="newad_banner"]
 m.6080w.com##.hy-player > div.item > div[class] > a[rel^="external"] > img
 m.6080w.com##.row > div.hy-layout > a[rel^="external"] > img
 m.6080w.com##body > .hy-head-menu ~ strong > div[style="text-align: center;"] > span[style^="color: rgb"]
+m.666biquge.com##body > div[style^="height:"]
 m.69shu.io###baseHeight
 m.73online.ru##.adv-full
 m.7days.ru#%#//scriptlet('remove-class', 'banners-brand', '#page_content')
@@ -14768,7 +14768,8 @@ mbd.baidu.com##SPAN[class='openText']
 mbok.jp##.GotoApp
 mc.163.com###NIE-topBar-news
 mc.163.com##.down-box
-mcappx.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
+mcappx.com#%#//scriptlet('abort-on-stack-trace', 'alert', '.onerror')
+mcappx.com#%#//scriptlet('prevent-element-src-loading', 'script', '/pagead2\.googlesyndication\.com|r\.bat\.bing\.com\/\?ld=/')
 mcar.cc##.a_mu,[style*="background-color:"]
 mcar.cc##.showhide > video + div[style="background-color:#FC0;margin-top:1px; width:500px; height:90px;"]
 mcar.cc##.showhide > video + div[style="background-color:#FC0;margin-top:1px; width:500px; height:90px;"] + div[style="background-color:#FF0;background-float:right;margin-top:-371px;margin-left:500px; width:234px; height:375px;"]
@@ -15512,6 +15513,7 @@ mx-fm.com,ts.21cn.com#@#.ad_img
 mx1b.nan-net.jp##div[style="padding:0px 0px 20px 0px;"]
 mxdm.xyz#%#//scriptlet('abort-current-inline-script', 'Function', 'new Function(document[')
 mxshm.top$$script[tag-content="ads_"]
+my-angers.info#@#amp-auto-ads
 my-best.com##.css-1dcxir4
 my-best.com##a[href^="https://mybest.go.link/"]:has(> div > img)
 my.clevelandclinic.org##div[data-identity="adhesive-ad"]
@@ -31174,6 +31176,7 @@ _zhike.htm
 ||bwurserv.top^
 ||bwz4e.icu^
 ||bx0635.com/tx/$image
+||bxdupj.icu^
 ||bxg68.com^
 ||bxheifoe.icu^
 ||bxhm.cn^
@@ -31535,6 +31538,7 @@ _zhike.htm
 ||cautiouscherries.com^
 ||cautiouscrate.com^
 ||cautiouscredit.com^
+||cautols.com^
 ||cavecurtain.com^
 ||caxhuuzto.com^
 ||cb-cdn.com^$important
@@ -36033,6 +36037,7 @@ _zhike.htm
 ||exoclick.com^$third-party
 ||exocoed.top^
 ||exogripper.com^$important
+||exoh.cn^
 ||exosrv.com^
 ||exosrv.com^$important
 ||exoticads.com^$important
@@ -37049,6 +37054,7 @@ _zhike.htm
 ||gbadxrtb.lfstmedia.com^$important
 ||gbfedashb4.fun^
 ||gbgedashb8.fun^
+||gbiathrilzik.com^
 ||gbimagecdn.cafe24.com^$important
 ||gbitcoin.cn^
 ||gbk-d.openx.net^$important
@@ -37126,6 +37132,7 @@ _zhike.htm
 ||gegeyingshi.com/template/*/images/g_js/
 ||geilicdn.com/img*_960_60.
 ||geinkroll.com^
+||gekhasaks.com^
 ||gem.gbc.criteo.com^$important
 ||gemini.yahoo.com^$important
 ||gemius.pl^$important
@@ -41125,8 +41132,8 @@ _zhike.htm
 ||kowqd7.top^
 ||kowqd9.top^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
-||koyso.com/static/js/abc.
-||koyso.com/z-
+||koyso.com/aclib.js
+||koyso.com/static/js/abcd.
 ||koytqo.xyz^
 ||kpmsoq.xyz^
 ||kppt.cc/zb_system/script/common.js
@@ -43849,7 +43856,6 @@ _zhike.htm
 ||mucnwtx.top^
 ||muddledaftermath.com^
 ||muddledmemory.com^
-||muer.cdn-baidu.fs-sywh.com^
 ||mufaommef.com^
 ||mug.criteo.com^$important
 ||muhnbc.cn^
@@ -47300,6 +47306,7 @@ _zhike.htm
 ||qwsanan.top^
 ||qwsy.com/script/jquery.lazyload.js
 ||qwsy.com/script/TuiGuang.js
+||qwti.cn^
 ||qwursery.top^
 ||qwvv.com^
 ||qwxcs.com^
@@ -47332,6 +47339,7 @@ _zhike.htm
 ||r.99waiyu.com^
 ||r.ad4.com.cn^$important
 ||r.adrta.com^$important
+||r.bat.bing.com/?ld=$script,redirect=noopjs,domain=mcappx.com
 ||r.browser.miui.com^
 ||r.casalemedia.com^$important
 ||r.fullstory.com^$important
@@ -47790,6 +47798,7 @@ _zhike.htm
 ||rgmmeff.icu^
 ||rgyun.com^
 ||rh.qq.com^$important
+||rhdifs.top^
 ||rhea.iad-03.braze.com^$important
 ||rhetoricalactivity.com^
 ||rhetoricalloss.com^
@@ -49769,6 +49778,7 @@ _zhike.htm
 ||snssdk.com/service/settings/v2/?$replace=/(bds_ad_settings|ad_webview_sdk_config)//
 ||snssdk1233.onelink.me^$important
 ||snueirk.icu^
+||snwuamb.top^
 ||snxyf.com^$third-party
 ||snyu.com^
 ||snzfj.net^$third-party
@@ -54791,6 +54801,7 @@ _zhike.htm
 ||wwerioe.top^
 ||wwilmie.top^
 ||wwjtdjj.cn^
+||wwok04281kl.com^
 ||wwserch43.biz^$important
 ||wwtdd.tags.crwdcntrl.net^$important
 ||wwursere.top^
