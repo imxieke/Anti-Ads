@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-04-29 16:33:13 RPC
+! Updated: 2025-04-30 00:27:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11539,6 +11539,7 @@ amazon.*###swf-sheet-pinterest
 amazon.*###swf-sheet-twitter
 amazon.*###swf-sheet-whatsapp
 amazon.*###tellAFriendBox_feature_div
+amazon.*##label[data-testid="share-widget-button"]
 amazon.*#@#.share-list
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###Share
 amazon.co.jp###series-social-share
@@ -15860,6 +15861,7 @@ friendly2.me##.sharing2
 friendly2.me,m.dw.com,gq.ru,barfi.ch,cybersport.ru##.article__sharing
 frieren-anime.jp##.footer__shareDl
 frieze.com,newsroom.unsw.edu.au##.service-links
+fritzbox-forum.com###FM_widget_share
 from-ua.com##.header-social > a[aria-label^="Share"]
 from-ua.com##.header-social > a[aria-label^="Share"] ~ *
 froma.com##.detail-main_sns
@@ -17510,7 +17512,6 @@ internet-technologies.ru##.field-id-share
 internet-technologies.ru##.panel-id-share
 internethaber.com##.wrt > .si
 internetua.com##.likes-area
-internshipguide.jp,animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
 interpress.az###interpresspop
 interpressnews.ge##.articlesocial
 interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,xhxh3.xyz,valuexh.life,xhdate.world,xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,pornx.to,xhvid.com,xhamster20.desi,xhmoon5.com,xhwide1.com,48idol.*,xhtab2.com,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,xhamsterpremium.com##.share-control
@@ -20862,6 +20863,7 @@ ntv.co.jp##.ntv_setShare
 ntv.co.jp##.share-recipe-area
 ntv.com.tr##.social-items
 ntv.com.tr,digi24.ro##.social-link
+ntv.com.tr,internshipguide.jp,animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
 ntv.ru##.sharein
 ntv.ru##.vk-li
 ntv.ru##.xpopup_overlay

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-29 16:33:13 RPC
+! Updated: 2025-04-30 00:27:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8286,6 +8286,8 @@ eastmoney.com##iframe[src^="//fund.eastmoney.com/trade/hqb_hq.html"]
 eastmoney.com##iframe[src^="//same.eastmoney.com/"]
 eastmoney.com,1234567.com.cn##div.lazy.fund_hei90,div.lazy.fund_hei60,div[data-url^="http://same.eastmoney.com/s?z=eastmoney"]
 eastsilver.com##div.w1000>ul,div.coop_case,[src^="http://upload.eastsilver.com/2015"],.ad690,.ad_channel,.eastsilver_article_wenziAd,.eastsilver_article_endAd
+easy.co.il##.open-app-button
+easy.co.il##.qr-container
 easyai.tech##.sidebar-inner > .widget_media_image:nth-child(n+2)
 easyicon.net##.page_big_adv
 easylearn.baidu.com##.feedback-icon
@@ -11501,6 +11503,7 @@ india.com##.add-fixed
 india.com##.taboola-code
 india.com,india.com,bollywoodlife.com,bgr.in##.add-box
 indianexpress.com##.adbox-border
+indianexpress.com##.body-part > .mobile:has(> .top-ads-mobile)
 indianexpress.com##.campaign-band
 indianexpress.com##.m-app-download-tout
 indiansexstories2.net,issstories.xyz###mhead
@@ -12177,7 +12180,6 @@ jianshu.com##.download-app-guidance
 jianshu.com##.self-flow-ad
 jianshu.com##.top
 jianshu.com##a[id^="web-note-ad"]
-jianshu.com##body > #__next ~ div:not([class]):has(img[src="//upload.jianshu.io/images/js-qrc.png"])
 jianshu.com##button.call-app-btn
 jianshu.com##button.open-app-btn
 jianshu.com##div.comment-open-app-btn-wrap
@@ -12186,6 +12188,9 @@ jianshu.com##div.note-comment-above-ad-wrap
 jianshu.com##div[aria-label="amc-ad"]
 jianshu.com##section[aria-label="jianshu-ad"]
 jianshu.com##section[class][aria-label="ad360-ad"]
+jianshu.com#$#body > #__next ~ div:not([class]):has(img[src="//upload.jianshu.io/images/js-qrc.png"]) { display: none !important; }
+jianshu.com#$#body { overflow: auto !important; }
+jianshu.com#$#body[style*="width: calc(100% - 15px)"] { width: 100% !important; }
 jianshu.com#%#//scriptlet("set-constant", "NEWS_FEED", "noopFunc")
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jiaodong.net###ALayer1,#ALayer2,.h50,#titledownad,.FixedBanner,.FixedClose,.adg
@@ -12317,6 +12322,7 @@ jjckb.cn##.adv_ment
 jjckb.cn##div[class^="g"] > a:first-child:last-child
 jjckb.cn##[class^="adv_"],[class$="guanggao"]
 jjdong4.com##div[style="width: 80%; text-align:center; margin-left: auto; margin-right: auto"]
+jjgirls.me##div[class]:has(> ins[data-zoneid])
 jjhuashui.com##div[id^="jinsom-widget-slider-"]
 jjmhw.cc##div[style^="position:fixed; bottom:"][style*="z-index:"][style*="background:"]
 jjmmw.com,qq.com##.fixed-ad
@@ -16299,6 +16305,7 @@ ntm.gov.tw#@#.ad-left
 ntp.msn.cn##recommended-sites
 ntpcb.com##img[width="1195"]
 ntunhs.edu.tw,ntust.edu.tw,sjsmitaa.org#@#.module-ads
+ntv.com.tr##.article-app-widget
 ntv.com.tr##.mobile-mpu-area
 ntv.ru###androidbanner
 ntvtelugu.com##.top-news-wrapper div.slider-left
@@ -22042,6 +22049,7 @@ wzstats.gg##app-download-app-banner
 x-mol.com###floatWindow
 x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
+x.com##article[data-testid="tweet"] div[data-testid="card.wrapper"]:has(> div[data-testid="card.layoutLarge.media"] > a[href="https://itunes.apple.com/app/id6670324846"])
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 x2twitter.com,savetik.co##.section-app-download
@@ -42778,6 +42786,7 @@ _zhike.htm
 ||mathid-origin.mathtag.com^$important
 ||mathid.mathtag.com^$important
 ||mathtag.com^$important
+||maticooads.com^
 ||matomy.com^$important
 ||matrix.dailyinnovation.biz^
 ||matwbp.iask.sina.com.cn^
