@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-29 00:31:02 RPC
+! Updated: 2025-04-29 09:47:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -802,6 +802,10 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 101kofemashina.ru##a[href="https://ru.jura.com/ru"] > img
 101soundboards.com##.appStoresContainer
 1024li.com##.t[style="margin-top:8px"]
+1024terabox.com,terabox.com,terabox.app###openNaMessageBar > div.right > div.btn
+1024terabox.com,terabox.com,terabox.app##.action-bar > div.action-bar-view:has(> div.btn-text:contains(View on Mobile))
+1024terabox.com,terabox.com,terabox.app##.share-base > div.btns-box:has(> div.operation-block > div#openNaBtn)
+1024terabox.com,terabox.com,terabox.app##.to-app-container
 103.by,1plus1.video,1plus1.ua##.AppPopup
 104.com.tw###aidma-job
 104.com.tw###aidma_128
@@ -14439,10 +14443,12 @@ m.yahoo.co.jp##.RichSmartAppBanner
 m.yahoo.co.jp##div[class^="RichSmartAppBanner_"]
 m.yahoo.co.jp##div[class^="sc"] > a[href^="https://app.adjust.com/"]
 m.yahoo.co.jp##div[data-key="prAd"]
+m.yelp.com###BottomAdStandard
 m.yelp.com##body > div[data-hypernova-key^="mobile_site_"] > div._2oFDT > div.u-space-t4 + div[class="_1mboc _39b4o _2oFDT"]:last-child
 m.yelp.com##div[class*="main-content__"] > div > ol > li:has(> div[class*="sponsored-icon__"])
 m.yelp.com##div[class*="main-content__"] > div > ol > li:has(div[data-traffic-crawl-id="SearchResultBizName"] > h3 > a[href^="/adredir?ad_business_id="])
 m.yelp.com##div[class*="yelp-ad"]
+m.yelp.com##section[data-testid="BottomAdStandard"]
 m.yelp.com##section[data-testid="TopAdStandard"]
 m.yeniakit.com.tr##.sticky-mobil-new
 m.yeniakit.com.tr#$#.dfp { display: none !important; }
@@ -17972,11 +17978,13 @@ report.iko-yo.net##.c-ad--container
 report.iko-yo.net#?#main > div.c-container--l:has(> div[id^="gpt_sp"])
 report.netcraft.com##.notification-sidebar
 repubblica.it##div[id^="advHook-"]
+republicworld.com##.bannerWidth
 republicworld.com##.interstitialPopup
 republicworld.com##.lbmobile
 republicworld.com##.mainWrapper > .headerContainer ~ div[style^="overflow: hidden; justify-content: center;"]
 republicworld.com##a[href^="https://republicworld.page.link/"]
 republicworld.com##div.py-6:has(> .adWidget)
+republicworld.com##section.w-full:has(.adWidget) + div[style^="margin-bottom:"]
 republicworld.com#?#div[style] > div[style*="min-height"]:has(> amp-ad)
 republicworld.com,republicbharat.com###hellobar-bar
 republicworld.com,www-republicworld-com.cdn.ampproject.org##div[class^="ads_"]
@@ -19731,10 +19739,6 @@ tennessean.com,app.com,greenvilleonline.com,argusleader.com,azcentral.com,battle
 tennisworldusa.org##.text_box > center[style*="margin:15px 0 15px;"]
 tenor.com##.UpsellPill
 tenshoku.mynavi.jp##.topHeaderBanner__block
-terabox.app###openNaMessageBar > div.right > div.btn
-terabox.app##.action-bar > div.action-bar-view:has(> div.btn-text:contains(View on Mobile))
-terabox.app##.share-base > div.btns-box:has(> div.operation-block > div#openNaBtn)
-terabox.app##.to-app-container
 terabox.com#$#.introduce-top-panel .introduce-sticky-btn img { position: static !important; }
 teradownloader.com##section > section:has(> div > a[href*="?id=com.parrot.downloader"])
 teradownloader.com#%#//scriptlet('set-local-storage-item', 'showDownloadDialog', 'false')
@@ -20926,6 +20930,7 @@ virtualbrest.ru##body > div.rounded + div[style^="width:"] > a[target="_blank"] 
 virtualbrest.ru##img[width="330"][height="129"]
 virtualbrest.ru,virtualbrest.by##img[width="230"][height="90"]
 visj.pw,94lsj.com,liusiji.com##[class*="-top-adv"],[src*=".sinaimg.cn"],[class^="mobile-adv"]
+vistanet.it##.row-mobile-top
 visualcapitalist.com##div[id^="IC_"][id*="x"]
 vitaexpress.ru###installAppBanner
 vitaexpress.ru##.banner-desktop
