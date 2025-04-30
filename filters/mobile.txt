@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-30 00:27:55 RPC
+! Updated: 2025-04-30 09:47:06 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10622,6 +10622,7 @@ hentai2read.com##iframe[src*="?zoneid="]
 hentai89.com##iframe[width="308"][height="258"],[id^="dp-ad"]
 hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "document.write", "/\.(gif|php)/")
 hentaihaven.xxx##.adb
+hentaihere.com#$#.text-center:has(> a[href="/directory/staff-pick"]) { position: unset !important; }
 hentaiporno.xxx##div.mibanner
 hentairon.net##div.fluid-width-video-wrapper
 hentaitubeitalia.com##iframe
@@ -20512,6 +20513,7 @@ txxx.com##div[class^="rek-"]
 txxx.com#?#div[class^="video-conten"] > div[class] > div > div[class]:has(span:contains(AD))
 txxx.com,txxx.tube##.index-page > .wrapper > .row + div[class]
 txxx.com,txxx.tube##.pwa-ad
+txxxporn.tube##.hlmffrrzdrmfrzhzhddm
 txzqw.cc##.ad-text,.tac,#banner,[id^="ads_c_"],[id^="ads_"]
 txzqw.me##.tac[style="margin-bottom:5px;"]
 tyenews.com##div[id^="custom_html-"]
@@ -22109,6 +22111,7 @@ xdowns.com###tips.tips
 xdowns.com##DIV[id^="part_1"],DIV[id^="part_3"]
 xfastest.com##.vw-header-ads-wrapper
 xfastest.com##iframe[src*="//ads.xfastest.com/"]
+xfree.com##.mobile-wall-prbn
 xfreehd.com###wrapper > div.cp-7:has(iframe[src^="//a.magsrv.com/"])
 xfreehd.com##body .ad-body
 xfsub.com##.money
@@ -33812,6 +33815,7 @@ _zhike.htm
 ||cz-gmtdmp.mookie1.com^$important
 ||cz.gmads.mookie1.com^$important
 ||cz.ifeng0.com^
+||czechcash.com^$domain=xfree.com
 ||czsp12.com/api/*=advert&
 ||czsp12.com/api/*=announce&
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
