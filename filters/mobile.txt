@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-30 16:29:14 RPC
+! Updated: 2025-05-01 00:27:38 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14367,9 +14367,9 @@ m.vidio.com##div[data-testid="section-banner"]
 m.vidio.com##div[data-testid="shoppingBanner"]
 m.viptube.com###mobile-footer-1
 m.viptube.com#%#//scriptlet("set-constant", "player.postitialTimeout", "0")
-m.vk.com##.wall_item[data-ad-view]
-m.vk.com#?#.upanel > div.wall_item:has(> div.wi_body:contains(/Реклама.*erid:/i))
-m.vk.com#?#.wall_item > div.wi_head > div[class^="PostHeader"] span[class^="PostHeader"] > span:contains(/^Реклама( в сообществе)?/):upward(.wall_item)
+m.vk.com,m.vk.ru##.wall_item[data-ad-view]
+m.vk.com,m.vk.ru#?#.upanel > div.wall_item:has(> div.wi_body:contains(/Реклама.*erid:/i))
+m.vk.com,m.vk.ru#?#.wall_item > div.wi_head > div[class^="PostHeader"] span[class^="PostHeader"] > span:contains(/^Реклама( в сообществе)?/):upward(.wall_item)
 m.vlive.tv#$#.pop_banner { display: none!important; }
 m.vlive.tv#$#.pop_banner+#wrap .vlive_top { top: 0!important; }
 m.vlive.tv#$#.pop_banner+#wrap { padding-top: 0!important; }
@@ -22324,6 +22324,7 @@ ya.ru,yandex.*##.serp-list__page > div.serp-item:has(a[noredirecturl^="https://p
 ya.ru,yandex.*##div[class^="DistrSmartbanner"]
 ya.ru,yandex.*#$?##search-result > li:has(span:contains(/[PРeеkклaаmмaа]{7}/)) { remove: true; }
 ya.ru,yandex.*#?#.SearchBlock:has(> div.DirectStripe)
+yabancidizi.*##.player > div.flex
 yaerwen.com##table[height="250"]
 yahoo.co.jp###ad-mmon
 yahoo.co.jp###ad-sult
