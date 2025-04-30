@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-04-30 09:47:06 RPC
+! Updated: 2025-04-30 16:29:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -134,6 +134,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 &ad=*&referer=
 &adid=$third-party
 *$app=com.miui.systemAdSolution
+*$script,third-party,denyallow=mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|fastlycdn.com|doodcdn.co|intensedebate.com|vixcloud.co|cdn.plyr.io|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|69xx03608.xyz|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|sto.cx|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *-stats.jpush.cn^
 *.com/css/showfloatdiv^
@@ -1236,7 +1237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2253,7 +2254,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3567,8 +3568,8 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||lib.baomitu.com/axios/*/axios.min.js$domain=69xx03608.xyz
 @@||lib.baomitu.com/video.js/*/video.min.js$domain=69xx03608.xyz
 @@||lib.baomitu.com/vue/*/vue.global.prod.min.js$domain=69xx03608.xyz
-@@||libs.baidu.com^$domain=0794.org|12zw.net|1biqu.com|1kans.net|23hh.com|23sk.net|23wxx.com|33yq.org|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqiuge8.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biquka.com|aidu123.com|biqutsxs.com|biquzw.info|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|x81zw.co|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||libs.baidu.com^$domain=m.supfree.net
+@@||libs.baidu.com^$domain=xbotaodz.com|0794.org|12zw.net|1biqu.com|1kans.net|23hh.com|23sk.net|23wxx.com|33yq.org|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqiuge8.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biquka.com|aidu123.com|biqutsxs.com|biquzw.info|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|x81zw.co|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||linetv.tw/public/scripts/ads.js
 @@||linetv.tw^$generichide
 @@||linetv.tw^*/scripts/ads.js
@@ -10854,6 +10855,7 @@ homes.co.jp##.mod-smartAppBanner
 homes.co.jp##aside[aria-labelledby="app-guidance-heading"]
 hometheaterreview.com#$##div_block-5-101336 { height: auto !important; }
 homeworklib.com#?#.span4 > div.box:has(> a[href="https://www.homeworklib.com/links/homework-android-app"])
+homo.xxx,hello.porn##.top_spot
 hon-hikidashi.jp###contents_body_main > p > a[href^="https://www.nippan.co.jp/honlove/?utm_source=banner"]
 honeshabri.hatenablog.com###my-footer > p[style^="text-align:center; font-size:"]
 honestjohn.co.uk##div[id^="floatingBanner"]
@@ -17049,9 +17051,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -35697,6 +35699,7 @@ _zhike.htm
 ||enus.douyucdn.cn/venus/release/rn/checkPackage?
 ||enviousshape.com^
 ||enviousthread.com^
+||enwuamw.top^
 ||eol.cn/e_busi/
 ||eol.cn/e_images/gk/jnc
 ||eol.cn/images/*1000-
@@ -36825,6 +36828,7 @@ _zhike.htm
 ||fuzzyflavor.com^$important
 ||fuzzyweather.com^
 ||fvalid.appsflyer.com^$important
+||fvitteilse.com^
 ||fvl1f.pw^
 ||fvyqblc.icu^
 ||fw.adsafeprotected.com^$important
@@ -40092,6 +40096,7 @@ _zhike.htm
 ||iweizao.top^
 ||iwerilxo.top^
 ||iwerioo.top^
+||iwhp.cn^
 ||iwilmio.top^
 ||iwmigu.xyz^
 ||iwpkp.xyz^
@@ -43245,6 +43250,7 @@ _zhike.htm
 ||migo011.top^
 ||miguvideo.com/ad^
 ||miguyu.com/AD/
+||mihoutao1868.github.io^
 ||miidi.net^
 ||mijifen.com^
 ||mikanani.me/images/Masha/
@@ -43917,6 +43923,7 @@ _zhike.htm
 ||mvxz.com/boximg/
 ||mvxz.com/img/
 ||mw6.me/images/*.gif
+||mwcnmtx.top^
 ||mwerilxx.top^
 ||mweriox.top^
 ||mwilmix.top^
@@ -44865,6 +44872,8 @@ _zhike.htm
 ||ohkfmi.xyz^
 ||ohqp.cn^
 ||ohtusgy.icu^
+||oia04300klq.com^
+||oibihevlr.com^
 ||oieo.cn^
 ||oimsgad.qq.com^$important
 ||oiu09.cn^
@@ -47208,6 +47217,7 @@ _zhike.htm
 ||qs.lagowang.com^$object-subrequest
 ||qsearch.media.net^$important
 ||qservz.com^$important
+||qsoc.cn^
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||qss-client.qq.com^$important
 ||qsyliey.top^
@@ -51702,6 +51712,7 @@ _zhike.htm
 ||tgb1l.icu^
 ||tghrfv.icu^
 ||tgidskii.top^
+||tgjxzf.top^
 ||tgrpzl.xyz^
 ||tgt.mmtro.com^$important
 ||tgw-masdk.3g.qq.com^$important
@@ -54621,6 +54632,7 @@ _zhike.htm
 ||wnootzc.icu^
 ||wnstug.xyz^
 ||wnvu.cn^
+||wnwuame.top^
 ||wo685.com^
 ||woaidu.org/images/20180802/3.jpg
 ||wobo888.cc^
@@ -54815,6 +54827,8 @@ _zhike.htm
 ||wwilmie.top^
 ||wwjtdjj.cn^
 ||wwok04281kl.com^
+||wwok04291kl.com^
+||wwok04300kl.com^
 ||wwserch43.biz^$important
 ||wwtdd.tags.crwdcntrl.net^$important
 ||wwursere.top^

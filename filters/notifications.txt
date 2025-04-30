@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-04-30 09:47:06 RPC
+! Updated: 2025-04-30 16:29:14 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7796,7 +7796,6 @@ eplus.by#@#.cookies-container
 epo.org###matomoBanner
 epocacosmeticos.com##div[data-testid="politica-modal"]
 epochtimes.de###etd_cookie_alert
-eporn.xxx,okxxx3.com,okxxx2.com,okxxx1.com,perfektdamen.*,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,ok.porn,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx,perfectgirls.*,homo.xxx,ok.xxx,pornhat.*,pornhub.com,veepee.fr,dyson.com.ru,dyson.de,fonedog.com##.cookiesBanner
 epoznan.pl###rodo-info-box
 epravda.com.ua,pravda.com.ua###checkUPcookies
 epuap.gov.pl###rodo-modal
@@ -9597,10 +9596,11 @@ hipper.pl###page-content ~ div.modal:has(div.content > .consents)
 hirezstudios.com##.CookieOverlay
 hirezstudios.com##div[class*="CookiePolicycss__"]
 his-mobile.com##.cookieagree
-hisense.com##app-gg-cookie-consent-management-banner
 hisense.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 hisense.com#$?#ngb-modal-backdrop { display: none !important; }
 hisense.com#$?#ngb-modal-window { display: none !important; }
+hisense.com#%#//scriptlet('trusted-click-element', 'app-gg-cookie-consent-management-banner button.btn-accept')
+hisense.com#@#.cookie-content
 history.com##.policy-container
 hitdiscount.by,groshyk.by#@#.cookies-container
 hitman.com##.comp-flash-notice
@@ -14127,6 +14127,7 @@ pornhdlive.com###personalized-content-notification
 pornl.com,ooxxx.com,vjav.com,tubepornclassic.com,hclips.com,privatehomeclips.com##.cookies-policy-block
 pornone.com##.cbann
 pornpics.com###cookie-contract
+pornstars.tube,hello.porn,max.porn,eporn.xxx,okxxx3.com,okxxx2.com,okxxx1.com,perfektdamen.*,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,ok.porn,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx,perfectgirls.*,homo.xxx,ok.xxx,pornhat.*,pornhub.com,veepee.fr,dyson.com.ru,dyson.de,fonedog.com##.cookiesBanner
 pornxs.com###cookiePolicyNoticeBox
 pornxs.com##.notify_cookie
 porovnej24.cz##.cookie-agreement-large
@@ -16316,6 +16317,7 @@ sylt.de,gelbeseiten.de,gasag.de##div[class^="cmpbox"]
 symbl.cc,unicode-table.com###js-cookie
 symbolab.com##.nl-cookiepolicy
 sympla.com.br##div[class^="BannerPrivacystyle"]
+synevo.pl##cookieinfo
 synology.cn,synology.com##.syno_cookie_element
 synology.com###cookies_header
 sys-team-admin.ru###policy-cookie
