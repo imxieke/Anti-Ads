@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-01 09:56:18 RPC
+! Updated: 2025-05-01 16:28:31 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5738,8 +5738,6 @@ business.whatsapp.com#$#body > ._li._31e { position: sticky !important; }
 businessaccountingbasics.co.uk#@##cookie-law-info-bar
 businessaccountingbasics.co.uk,krotosaudio.com,textmaster.com#$#.cli-barmodal-open { overflow: visible !important; }
 businessaccountingbasics.co.uk,krotosaudio.com,textmaster.com#$#.wt-cli-cookie-bar-container { display: none !important; }
-businessinsider.com,discover.hubpages.com,freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.de,eatsmarter.de,inside-digital.de,vrt.be,manager-magazin.de,whats-on-netflix.com#$#.sp-message-open { overflow-y: visible !important; position: static !important; margin-top: 0 !important; }
-businessinsider.com,discover.hubpages.com,freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.de,eatsmarter.de,inside-digital.de,vrt.be,manager-magazin.de,whats-on-netflix.com#$#html.sp-message-open body { overflow-y: visible !important; position: static !important; margin-top: 0 !important; }
 businessinsider.in###newsletter_stick_widget
 businessnetwork.jp###cookieLicense
 businessnovinite.bg,btvplus.bg,ladyzone.bg,btvsport.bg,btvnovinite.bg#$#body .cc_banner-wrapper { display: none !important; }
@@ -6801,6 +6799,9 @@ danskeci.com,danskebank.dk,danskebank.com,danskebank.fi#@#.cookie-consent-banner
 darhouse.pl,flyingatom.gold,assimil.com##div[class^="lgcookieslaw-"]
 darkfans.com##.banner.pt-0
 darling.restaurant##.cookie-banner-outer-container
+darmarsklep.pl,zico-bike.pl,menland.pl,camoshop.pl,deltaoptical.pl,hurtowniakarm.pl,muzyka.sklep.pl#$##RodoCookiesInfo { display: none !important; }
+darmarsklep.pl,zico-bike.pl,menland.pl,camoshop.pl,deltaoptical.pl,hurtowniakarm.pl,muzyka.sklep.pl#$##RodoCookiesInfo ~ .modal-backdrop { display: none !important; }
+darmarsklep.pl,zico-bike.pl,menland.pl,camoshop.pl,deltaoptical.pl,hurtowniakarm.pl,muzyka.sklep.pl,steelseries.com#$#body { overflow: auto !important; }
 darnytsia.ua###main > div.a_aui_auj:has(> span > a[href="/cookies-policy"])
 darty.com,tf1.fr##.banner_cookies
 das-bier.com,bier-spezialitaeten.de###db-cookie-read
@@ -7097,6 +7098,7 @@ digaspi.com.br##.politica-cookies
 diggysadventure.com###gdpr-modal-backdrop
 digiforum.space##.wordpress-fire-push-popup
 digikey.com#%#//scriptlet("remove-class", "gdpr", "body.gdpr")
+digimobil.it,revealbi.io,yamaichi.co.jp,manda.co.jp,nipponsteel.com,novakidschool.com,novakid.*,bookmark.jpf.go.jp,atmmarketplace.com,zombit.info,digi.ro,freetour.com,digionline.ro,datatech.icu,occto.or.jp,rode.com,blockaway.net,nact.jp,gagaoolala.com,glasschain.org,tidesmarine.com,rentafont.com.ua,croxyproxy.net,croxyproxy.com,knoema.com,srilankan.com,werbemittel24.com,livemint.com,hindustantimes.com,bloomreach.com,esenbogaairport.com,fizzicseducation.com.au,branah.com,shellshock.io,fonts2u.com,otzyvua.net,velonews.com,wikihow.tech,bagdatbaharat.com.tr,escortbook.com,looper.com,fromdoctopdf.com,learnersdictionary.com,spanishdict.com,merriam-webster.com,antena3.ro,wikihow.com.tr,wikihow.cz,wikihow.it,wikihow.jp,wikihow.vn,wikihow.com,mobil.se,periscope-solutions.com,kyokuyo.co.jp###gdpr
 digimparosec2.capitello.it##.shb-accept-cookies-box
 digisport.ro#%#//scriptlet('set-cookie-reload', 'cmp_level', '5')
 digit-photo.be##p#messcookie
@@ -9596,6 +9598,8 @@ hisense.com#$?#ngb-modal-window { display: none !important; }
 hisense.com#%#//scriptlet('trusted-click-element', 'app-gg-cookie-consent-management-banner button.btn-accept')
 hisense.com#@#.cookie-content
 history.com##.policy-container
+historyextra.com,businessinsider.com,discover.hubpages.com,freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.de,eatsmarter.de,inside-digital.de,vrt.be,manager-magazin.de,whats-on-netflix.com#$#.sp-message-open { overflow-y: visible !important; position: static !important; margin-top: 0 !important; }
+historyextra.com,businessinsider.com,discover.hubpages.com,freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.de,eatsmarter.de,inside-digital.de,vrt.be,manager-magazin.de,whats-on-netflix.com#$#html.sp-message-open body { overflow-y: visible !important; position: static !important; margin-top: 0 !important; }
 hitdiscount.by,groshyk.by#@#.cookies-container
 hitman.com##.comp-flash-notice
 hitobuwie.pl###v-cookielaw-background
@@ -14779,7 +14783,6 @@ reuter-shop.com,reuter.de###bica
 reuter.com,golfhouse.de,deerberg.*,geliebtes-zuhause.de,eurotops.de,carlroth.com,hannovermesse.de,loberon.de,appelrath.com,emero.de,sonono.de,reuter.de###econda-pp2-banner
 revanced.app#%#//scriptlet('set-local-storage-item', 'analytics', 'false')
 reveal-sound.com###rs_cookie_declaration
-revealbi.io,yamaichi.co.jp,manda.co.jp,nipponsteel.com,novakidschool.com,novakid.*,bookmark.jpf.go.jp,atmmarketplace.com,zombit.info,digi.ro,freetour.com,digionline.ro,datatech.icu,occto.or.jp,rode.com,blockaway.net,nact.jp,gagaoolala.com,glasschain.org,tidesmarine.com,rentafont.com.ua,croxyproxy.net,croxyproxy.com,knoema.com,srilankan.com,werbemittel24.com,livemint.com,hindustantimes.com,bloomreach.com,esenbogaairport.com,fizzicseducation.com.au,branah.com,shellshock.io,fonts2u.com,otzyvua.net,velonews.com,wikihow.tech,bagdatbaharat.com.tr,escortbook.com,looper.com,fromdoctopdf.com,learnersdictionary.com,spanishdict.com,merriam-webster.com,antena3.ro,wikihow.com.tr,wikihow.cz,wikihow.it,wikihow.jp,wikihow.vn,wikihow.com,mobil.se,periscope-solutions.com,kyokuyo.co.jp###gdpr
 reverb.com##.intl-settings-nag
 reviews.org##.cl_gdpr_banner
 revistacromos.com.co##.Cookies-containerGeneral
@@ -18687,9 +18690,6 @@ zf-web.com,doodlr.io,contents.dentsu-pmp.co.jp###cookie_area
 zgrzyt.info###box-polityka-pr
 ziare.com##.modal-backdrop
 ziare.com##.modal__wp
-zico-bike.pl,menland.pl,camoshop.pl,deltaoptical.pl,hurtowniakarm.pl,muzyka.sklep.pl#$##RodoCookiesInfo { display: none !important; }
-zico-bike.pl,menland.pl,camoshop.pl,deltaoptical.pl,hurtowniakarm.pl,muzyka.sklep.pl#$##RodoCookiesInfo ~ .modal-backdrop { display: none !important; }
-zico-bike.pl,menland.pl,camoshop.pl,deltaoptical.pl,hurtowniakarm.pl,muzyka.sklep.pl,steelseries.com#$#body { overflow: auto !important; }
 zieleniec.pl##body #cliSettingsPopup
 zif-berlin.org##div[id="overlay"][class="cookie-consent-show"]
 ziggo.nl##.cookieWallWrapper

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-01 09:56:18 RPC
+! Updated: 2025-05-01 16:28:31 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1237,7 +1237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -5678,6 +5678,7 @@ besamex.de#%#//scriptlet('trusted-set-local-storage-item', 'popup-ad-data', '{"l
 besplatka.ua##.footer_bottom > div#applications
 besplatka.ua##.social-net
 bestbuy.com###smartbannerContainer
+bestbuy.com##.widget-container > .container > .row.contained-row:has(.shop-display-ad)
 bestcarweb.jp##.sp_CLS_100
 bestcclm.com##.wp.cl > a
 bestech.sk#@#img[width="320"][height="50"]
@@ -8704,7 +8705,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -13863,7 +13864,6 @@ m.galya.ru#?#.themes-block-cont > tbody > tr[class="tr-kind4"] > td:has(> div[st
 m.gameapps.hk##.ad-full-screen
 m.gamer.com.tw##div[class^="download-app_box"]
 m.gamer.com.tw#$?#.dialogify { remove: true; }
-m.gamer.com.tw,noin.shop,india.com##.open-app
 m.gazeta.ru###top-banner
 m.gazeta.ru##div[id^="gazeta-adv"]
 m.gazeta.ru##div[itemprop="articleBody"] > div[style^="min-height:"]
@@ -15870,6 +15870,7 @@ newduba.cn###jq_youxi
 newegg.com##.our-apps
 newgrodno.by##.main-nav-below > nav#top-nav > div.container > div.topbar-wrapper
 newhua.com##div.taobaoad,div.unionad,ins.adsbygoogle,div.adr,div.ad_center,div[class^="ad_ritht_"],DIV.ad_top,DIV.i1,DIV.i2,DIV.i3
+newindianexpress.com,m.gamer.com.tw,noin.shop,india.com##.open-app
 newluxe.jp##.post-content > div[style="height: 500px;"]
 newmatoan.com##.sirowaku
 newmatosoku.com##.side > div.stxt1
@@ -17056,9 +17057,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -17696,7 +17697,6 @@ quora.com##.q-box > div[class^="CssComponent-"][style*="height: 50px;"]
 quora.com##.ViewInAppLink
 quora.com#$#body.q-platform--mobile { position: static !important; }
 quotidiano.net#%#//scriptlet('set-local-storage-item', 'pwa_show', 'true')
-qushucheng.com,m.wanben.org,jingwuhotel.com##.appguide-wrap
 quwanshe.com##.vivo-search,[class^="guanggao"],[src="http://www.187sy.com/image/7788.jpg"],[class^="m_ad"],.dhxgg
 qwant.com#?##root > div[class^="_"] > div[class^="_"]:has(> div > div[class^="_"] > div[class^="_"] > a[data-testid^="downloadApp"])
 qxfun.com###beautiful-things
@@ -21536,6 +21536,7 @@ wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
 wnflb2023.com##.GzList
 woaimoon.com##div[id^="juan_"]
 wobuka2.com##.c-r
+wodeshucheng.com,qushucheng.com,m.wanben.org,jingwuhotel.com##.appguide-wrap
 woego.cn#@##topAds
 wofl86.com##.themeauthor,.HtmlMoKua
 wolepan.com##.gg-down-line
@@ -41154,6 +41155,7 @@ _zhike.htm
 ||koudaiyundong.com^$third-party
 ||koufqy.xyz^
 ||kovvild.com^
+||kowj.cn^
 ||kowqd7.top^
 ||kowqd9.top^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
@@ -44904,6 +44906,8 @@ _zhike.htm
 ||okmwfq.xyz^
 ||okokw.com^
 ||okooo.com/I/?method=system.data.ad&
+||okpl04301ai.com^
+||okpl05010ai.com^
 ||okpp01021.xyz^
 ||okpp01030.xyz^
 ||okpp01031.xyz^
@@ -47132,6 +47136,7 @@ _zhike.htm
 ||qnsr.com^$important
 ||qnvod.net/qna/
 ||qnvwjpr.icu^
+||qnwuamy.top^
 ||qnwxk.com^$third-party
 ||qo2.fun^
 ||qogonsuqq.com^
@@ -47827,6 +47832,7 @@ _zhike.htm
 ||rgju.cn^
 ||rgme.cn^
 ||rgmmeff.icu^
+||rgtghulduk.com^
 ||rgyun.com^
 ||rh.qq.com^$important
 ||rhdifs.top^
@@ -52037,6 +52043,7 @@ _zhike.htm
 ||tns.simba.taobao.com^
 ||tns.simba.taobao.com^$important
 ||tntclix.co.uk^$important
+||tnwuami.top^
 ||tnzjrj.xyz^
 ||to.redircdn.com/web/post.js
 ||to8to.com/assets/wap//common/widgets/appGuide/appGuide.
@@ -52091,6 +52098,7 @@ _zhike.htm
 ||tools.mgid.com^$important
 ||tools.pubmatic.com^$important
 ||toomanyalts.com^
+||tooreldretpl.com^
 ||toothbrushnote.com^
 ||toothpasterabbits.com^
 ||top-casting-termine.de^$important
@@ -52994,6 +53002,7 @@ _zhike.htm
 ||uaoaig.xyz^
 ||uapi.ads.oppomobile.com^$important
 ||uaqdgrfr.icu^
+||uaqe.cn^
 ||uarating.com^$important
 ||uas-api.inrix.com^$important
 ||uauniverse.com^$important
@@ -53969,6 +53978,7 @@ _zhike.htm
 ||vmed.vrtcal.com^$important
 ||vmindhls.tc.qq.com^
 ||vmjr.cn^
+||vmlrxs.top^
 ||vmonitor.ws.netease.com^
 ||vms-players.minutemediaservices.com^$script,third-party
 ||vms.bluebillywig.com^$important
