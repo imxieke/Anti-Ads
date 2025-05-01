@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-01 00:27:38 RPC
+! Updated: 2025-05-01 09:56:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4145,6 +4145,7 @@ aae3.com,qq.com###coo_qqBrowser
 aaieba.livedoor.biz#?#div[align="center"] > table:has(a[href*="amazon.co.jp/"])
 aajtak.in##.aapsection
 aajtak.in##.adsection
+aajtak.in##.itgdAdsPlaceholder
 aajtak.in##.mobileAd
 aaread.space##.navi
 aaread.space##div[style^="position: fixed; bottom:"]
@@ -15734,6 +15735,9 @@ natgeomedia.com##div[id^="AD-970x250"]
 natgeomedia.com,setn.com,eprice.com.tw##div[class^="ad-"]
 nation.africa##.ad-mobile-leaderboard_wrap
 nationalgeographic.com##.ad-holder
+nationalheraldindia.com##div[class^="header-m__ad-"]
+nationalheraldindia.com##div[class^="styles-m__dfp__"]
+nationalheraldindia.com##div[class^="styles-m__mobile-ad__"]
 nationalworld.com##body div[class^="Dailymotion__Wrapper-"]
 nau.ch##div[data-sticky-height="1px"]
 nau.ch##nau-advertisement-lazy
@@ -16098,6 +16102,7 @@ newyx.net,yxbao.com##.gs
 newzit.com##div[class^="staticMobileBanner"]
 nextapple.com###lrec01
 nextapple.com##div[class^="na-ad-"]
+nextdoordolls.com##.channel-adx-mobile
 nfl.com##.hp-tablet-cp-ad-row > div[class^="hp-tablet"]
 nfmovies.com##[onclick^="openurl()"]
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
@@ -33187,6 +33192,7 @@ _zhike.htm
 ||configs.nixozz.com^$important
 ||configuration.ttpsdk.info^
 ||configuration.ttpsdk.info^$important
+||configure.rayjump.com^
 ||confusedcart.com^
 ||congtad.com^
 ||connatix-supply-partners.tremorhub.com^$important
@@ -36953,6 +36959,7 @@ _zhike.htm
 ||gaandroid.talkingdata.net^$important
 ||gadgetsnow.com/ngwm/
 ||gads.pubmatic.com^$important
+||gadsme.com^
 ||gag.admulti.com^$important
 ||gaglxx.com/5_
 ||gahejiao.com^
@@ -48656,6 +48663,7 @@ _zhike.htm
 ||sdk-api-v1.singular.net^
 ||sdk-api-v1.singular.net^$important
 ||sdk-api.ing.indigitall.net^$important
+||sdk-api.kidoz.net^
 ||sdk-api.prod.veep.io^$important
 ||sdk-api.yozio.com^$important
 ||sdk-assets-zy8pe3h4v8msjk6x2sq4.stackpathdns.com^$important
@@ -53553,6 +53561,7 @@ _zhike.htm
 ||v.icbc.com.cn/userfiles/ADResources/$domain=icbc.com.cn
 ||v.irs01.com/hvt-cfg^$app=com.huawei.hwvplayer.youku
 ||v.irs01.com/hvt-cfg^$app=com.qiyi.video
+||v.kidoz.net^
 ||v.laogu.wang/template/*/images/g_js^
 ||v.lkqd.net^$important
 ||v.lvlt.crcdn.net^$important
