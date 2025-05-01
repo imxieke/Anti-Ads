@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-01 16:28:31 RPC
+! Updated: 2025-05-02 00:28:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19536,6 +19536,7 @@ t.cj.sina.com.cn##.yyy-wrap-2021
 t.livepocket.jp##div[style$="height:100px; text-align:center"]
 t.qq.com###homeBannerNew
 t.qq.com###talkList > li[ispopula="1"][tv="2"]
+t.shuqi.com##.ReaderFreeFixedGuideBtn
 t24.com.tr##div[style="margin-bottom:20px;min-height:120px"]
 t66y.com##.sptable_do_not_remove
 t66y.com##.tips

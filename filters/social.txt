@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-01 16:28:31 RPC
+! Updated: 2025-05-02 00:28:00 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11861,6 +11861,7 @@ archive.org#%#//scriptlet('hide-in-shadow-dom', 'button#share')
 archpaper.com##.article--social
 arcinfo.ch,lacote.ch,lenouvelliste.ch##button[aria-label^="Partager"]
 arcteryx.com##.qa--social-share
+arcticwolf.com##.zDocsTopicShare
 ardahanhaberi.com#$#.SocialTools > ul { background: #FFF !important; }
 ardahanhaberi.com#$?#.SocialTools > ul > li:not(:has(> a[href^="javascript:"])) { visibility: hidden !important; }
 arealme.com###btm-share
@@ -14708,6 +14709,7 @@ economictimes.indiatimes.com##.post-social-wdgt > .post-social-lst1 > li:not([cl
 economictimes.indiatimes.com#?#.shr_head:contains(Share)
 economist.com##.block-ec_facebook
 economist.com##.block-ec_social
+economist.com##.css-11yt5xn
 economist.com##.css-z11z87 > div:has(svg[data-testid="share-solid"])
 economist.com##.ds-actioned-link--share
 economist.com##.layout-article-sharing
@@ -15006,6 +15008,7 @@ enterprisezine.jp##.c-article_header_sns_list
 enterprisezine.jp##.c-article_sns
 enterprisezine.jp##button[class="c-article_popup_btn"]
 enterprisezine.jp,astv.ru,dp.ru,metanit.com,gorod48.ru##.socialBlock
+entrepreneur.com###nativeshare
 entrepreneur.com##li[data-ga-label^="share-"]
 enttechub.com###s9-share-floating
 environmentenergyleader.com,philosophia-perennis.com##.et_social_mobile
@@ -20666,6 +20669,7 @@ nikkei225jp.com##.snsTwV
 nikkeibp.co.jp,nikkei.com##.p-fixedShare
 nikopolnews.net#?##main-body > div#sp-right2 > div.module:has(> div > h2:contains(ИНСТАГРАМ))
 nikvesti.com##.info-line > .fa-telegram
+nimbusweb.me##.betterdocs-social-share
 nine.com.au##div[class*="__InfoShare-"]
 nintendo.com##.topics-snsBts
 nintendolife.com,pushsquare.com##.ui-share-page
@@ -23794,6 +23798,8 @@ strefaobrony.pl,shownews.pl,e-ogrodek.pl,gra.pl,stronakuchni.pl,stronapodrozy.pl
 strefaobrony.pl,shownews.pl,e-ogrodek.pl,gra.pl,stronakuchni.pl,stronapodrozy.pl,strefaedukacji.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,pomorska.pl,poranny.pl,to.com.pl,wspolczesna.pl,polskatimes.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,gol24.pl,gra.pl,naszemiasto.pl,miastakobiet.pl,stronazdrowia.pl##div[class*="ArticleFoot"] > div[class*="ArticleFoot"][class*="icons"] > button[title="Udostępnij!"]
 stripe-club.com##.cmn-share
 stroi.mos.ru##.news-wrapper__share
+stroki.mts.ru##.sharing-btn
+stroki.mts.ru##.sharing-position
 stroy-telo.com##.mc-share-toggle
 stsprachatice.antee.cz#@#.header-social
 studenti.it##a[href^="javascript:PopupSocial("]
