@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-02 09:47:47 RPC
+! Updated: 2025-05-02 16:28:46 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2789,6 +2789,7 @@
 @@||cdn.privacy-mgmt.com/mms/$domain=weather.com
 @@||cdn.privacy-mgmt.com/mms/$xmlhttprequest,domain=ccpa-notice.sp-prod.net
 @@||cdn.privacy-mgmt.com/mms/choice_select
+@@||cdn.privacy-mgmt.com/mms/v2/get_site_data$domain=aamulehti.fi
 @@||cdn.privacy-mgmt.com/mms/v2/get_site_data$domain=athlonsports.com
 @@||cdn.privacy-mgmt.com/mms/v2/get_site_data?$domain=discover.hubpages.com
 @@||cdn.privacy-mgmt.com/mms/v2/get_site_data?$domain=gamesradar.com
@@ -2804,6 +2805,7 @@
 @@||cdn.privacy-mgmt.com/unified/*/ccpa.*.bundle.js$domain=tomsguide.com
 @@||cdn.privacy-mgmt.com/unified/*/gdpr-tcf.*.bundle.js
 @@||cdn.privacy-mgmt.com/unified/*/usnat-uspapi.*.bundle.js$domain=gamesradar.com
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=aamulehti.fi
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=athlonsports.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=businessinsider.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=discover.hubpages.com
@@ -12926,7 +12928,6 @@ niko.eu#$#body.no-scroll { overflow: visible !important; }
 niko.eu#@#.c-cookie
 nikolnet.pl###x13pmcookiebar
 nikon.ru###cookie_consent_wall
-nimbusweb.me##.ncp1-message
 nimit.pl,pijkranowke.pl#%#//scriptlet('trusted-set-cookie-reload', 'cookies_and_content_security_policy', '[%22experience%22]')
 ninerocksgames.com,online-archive-extractor.com,rhymes-with.com,adjectives-for.com,find-words.com,word-count-tool.com,ocr-free.com,read-text.com,other-languages.com,how-to-say.com,online-screen-recorder.com,webcam-test.com,record-video-online.com,speaker-test.com,send-voice.com,share-my-location.com,online-mic-test.com,food-here.com,my-current-location.com,online-pdf-tools.com,voice-recorder.io,convertman.com,translated-into.com,versteigerungspool.de,comidoc.net#%#//scriptlet('set-cookie', 'consent', 'true')
 ning.com###banner_top_cookie
@@ -16715,6 +16716,7 @@ theenemy.com.br,omelete.com.br###lgpd-wrapper
 theenglishshavingcompany.com##.amgdpr-cookie
 theepochtimes.com##.app_promo
 thefastmode.com###ChromeAppPromotion
+thefusebase.com,nimbusweb.me##.ncp1-message
 thegadgetflow.com##.gfl-widget-gdpr-wrap
 thegameawards.com##.cookies-pop-up
 thegamingwatcher.com#%#//scriptlet('set-cookie', 'snc-cp', '2')
