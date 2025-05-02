@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-02 16:28:46 RPC
+! Updated: 2025-05-03 00:29:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12596,11 +12596,11 @@ blog.pcmbtoday.com##.egw_social_share_box
 blog.remarkable.com##button > svg[width="29"][height="29"]
 blog.resy.com##.socials2
 blog.screenweek.it###social_share_desk
+blog.simplecast.com,blog.talosintelligence.com##.social-media-wrapper
 blog.simplix.info###block-78
 blog.simplix.info###block-79
 blog.skillfactory.ru##.block__history-info > div.socials:has(> a[href^="https://t.me/share/"])
 blog.skillfactory.ru##.block__history-share
-blog.talosintelligence.com##.social-media-wrapper
 blog.themarfa.name##iframe[src^="https://tgwidget.com/"]
 blog.themarfa.name#?#.article > div.sidebar > div.sidebar__block:has(> div.addthis_inline_share_toolbox)
 blog.twitter.com##div[class*="share--icons"]
@@ -12834,6 +12834,7 @@ broadwayworld.com###foxsocial
 brobible.com##.follow-buttons-block
 brodude.ru##.social__panel-wrapper
 broncos.com.au##body .share-block__list
+brookings.edu##.social-icons-small
 brookings.edu##.tweet-it
 brother.co.jp##.mod-SNSButtons
 browserhow.com##.nv-post-share
@@ -15100,7 +15101,7 @@ estadao.com.br##.top-social-sharing
 estadao.com.br##svg[class^="styles__ShareIconContainer"]
 estadao.com.br,india.com,news18.com,recipetineats.com,wionews.com##.social-icon
 estadiodeportivo.com##.boton-share
-estore.ua,kyssfm.com,denofgeek.com,newsroom.pinterest.com,espreso.tv,twicomi.com,gap.co.jp,beautyhack.ru,rlsnet.ru,culture.pl,transfermarkt.de,pclab.pl,yeniakit.com.tr,calciomercato.it,ikinciyeni.com,outlookindia.com,dailymail.co.uk##.social-links
+estore.ua,kyssfm.com,denofgeek.com,newsroom.pinterest.com,espreso.tv,twicomi.com,gap.co.jp,beautyhack.ru,rlsnet.ru,culture.pl,transfermarkt.de,yeniakit.com.tr,calciomercato.it,ikinciyeni.com,outlookindia.com,dailymail.co.uk##.social-links
 estrelando.com.br##.compartilhar-interna
 estrelando.com.br##.compartilhar-noticia
 estudokids.com.br,radiorock.com.br##.compartilhe
@@ -17058,6 +17059,7 @@ hrpraktijk.nl##.socialmediabuttons
 hrt.hr##.h-screen
 hrt.hr#?#.mt-4 > .hidden > .h-screen:has(> a[title="E-mail"])
 hrw.org,lareviewofbooks.org##a[title^="Share"]
+hrw.org,news.un.org##.minimal-share
 hsbc.com,peoplesweather.com,project-syndicate.org,screendaily.com##.linkedin
 ht.kyodo-d.jp##.ht-sns
 htb.co.jp##.newsText > div:not([style]):not([class]) ~ p[style] + div[style^="margin:"]
@@ -17325,6 +17327,7 @@ indiabusinessjournal.com###cus-news-detail-sharing-icons
 indiabusinessjournal.com##.cus-sidebar-social-media-connect
 indiaforums.com##.shareIconText
 indiaforums.com##.socialMediaShareLinks
+indiaglitz.com##.commentsshare
 indiaglitz.com##.socialnetwork_counts
 indiamart.com##.FM_Social
 indianautosblog.com##.menu-fb a
@@ -20466,7 +20469,6 @@ news.tvbs.com.tw##.time_limit
 news.tvbs.com.tw#?#div[class^="newsdetail_"][class*="community"] ul > li:has(> a[href^="https://plus.google.com/share?"])
 news.tvbs.com.tw#?#div[class^="newsdetail_"][class*="community"] ul > li:has(> a[href^="https://www.facebook.com/sharer/sharer.php"])
 news.ubisoft.com##.social__title
-news.un.org##.minimal-share
 news.un.org##.minimal-share-wrapper
 news.usni.org##.component56--share
 news.warrington.ufl.edu###share-this-article

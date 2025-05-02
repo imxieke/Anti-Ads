@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-05-02 16:28:46 RPC
+! Updated: 2025-05-03 00:29:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26146,6 +26146,7 @@ aha.or.at#$#.cookie-consent { display: none !important; }
 aha.or.at#$#.cookie-consent ~ div.overlay { display: none !important; }
 aha.or.at#$#body { overflow: auto !important; }
 ahaan.co.uk##.MuiSnackbar-root
+ahbmedya.com##.policy
 ahbmedya.com,globfone.com,kotobank.jp,livebeaches.com,waifly.com,skrastas.lt,matricedigitale.it,onehack.us,compsmag.com,xranks.com,duplichecker.com,foromtb.com,dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
 ahlatciyatirim.com.tr,hix.ai#$##cc-main { display: none !important; }
 ahlatciyatirim.com.tr,hix.ai#$?#.show--consent { overflow: auto !important; }
@@ -27939,8 +27940,8 @@ avans.pl##div[data-component="cookieContent"]
 avanza.se##aza-cookie-message
 avast.com#@##onetrust-consent-sdk
 avast.com#@#.gdpr-container
-avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('trusted-click-element', '.message-component > button[title="Options"]')
-avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('trusted-click-element', '.message-component > button[title="Reject All"]')
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('trusted-click-element', '.message-component > button[title="Options"]')
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('trusted-click-element', '.message-component > button[title="Reject All"]')
 avec.fr##.ctw-bottom-4
 avell.com.br##+js(set-cookie, cookiesConsent, true)
 avell.com.br#%#//scriptlet('set-cookie', 'cookiesConsent', 'true')
@@ -28502,6 +28503,7 @@ bdsi.de,duh.de,hyle.appspot.com,johanneswerk.de,niederoesterreich-card.at,scoutc
 beaconstac.com,asics.com###privacy-policy-modal
 beamdog.com###gdpr-consent-form
 beamerleinwande.de##body > div[style*="z-index"]
+beamng.com,old-games.ru##.bottomFixer > div.Notices
 beamtic.com###notifications
 bearable.app##.elementor-popup-modal
 beardsmen.co.uk##body > div:not([id]):not([class])
@@ -35928,7 +35930,7 @@ foraum.de##.needsclick
 forbes.com###ketch-consent-overlay
 forbes.com##+js(trusted-click-element, [aria-labelledby="banner-title"] > div[class^="buttons_"] > button[class*="secondaryButton_"] + button, , 1500)
 forbes.com#%#//scriptlet('trusted-click-element', 'div[class*="ketch-"] button[aria-label="Accept All"]')
-forbes.pl,onet.pl,pclab.pl##.cmp-app_gdpr
+forbes.pl,onet.pl##.cmp-app_gdpr
 forbesafrica.com##[style*="position: fixed; left: 0px; top: 0px;"]
 forbesenespanol.com##.fixed[data-toast*="cookies"]
 forbesenespanol.com##[data-toast="f_cookies_acepted"]
@@ -42404,6 +42406,7 @@ m1cu.org##.alert-fixed[style]
 m2o.it,deejay.it,capital.it,ilmattino.it,leggo.it,libero.it,tiscali.it##+js(trusted-click-element, 'button.iubenda-cs-customize-btn, button.iub-cmp-reject-btn, button#iubFooterBtn')
 m2o.it,deejay.it,capital.it,ilmattino.it,leggo.it,libero.it,tiscali.it##+js(trusted-click-element, 'button.iubenda-cs-customize-btn, button.iub-cmp-reject-btn, button#iubFooterBtn', , 2000)
 m365.cloud.microsoft,visualstudio.com,office.com,microsoft365.com,skype.com,xbox.com,windows.com,microsoft.com###uhfCookieAlert
+m3datarecovery.com###user_popup
 m4sport.hu###cookie
 ma-calculatrice.fr###manger-des-minis-gateaux
 ma-shops.de###gdprInfo
@@ -45739,7 +45742,6 @@ olajonline.hu,lesmoutonsrebelles.com,onlinestreet.de#$?#body { overflow: auto !i
 olavshallen.no###cookies
 olb.de##.mod-cookiewarning
 old-games.ru##.bottomFixer > .Notices
-old-games.ru##.bottomFixer > div.Notices
 oldgoesyoung.com##.cookie
 oldrailwaylinegc.co.uk##.notice-wrap
 olesnica.pl,tvtrend.pl##.cookie__info
@@ -46249,6 +46251,9 @@ otoprzychodnie.pl##div[style^="position: fixed;"][style*="background-color: rgba
 otouczelnie.pl##.cookie
 otpbank.hu#$#body { overflow: visible !important; }
 otpbank.hu#$#gdpr-consent { display:none !important; }
+otpbank.md#$#.cookie-panel { display: none !important; }
+otpbank.md#$#body { overflow: auto !important; }
+otpbank.md#@#.cookie-panel:not(body):not(html)
 otpingatlanlizing.hu##.modal
 otpportalok.hu##.pop_up_bg
 otr-max.de##body > div[style*="scroll"]
@@ -52542,6 +52547,8 @@ tebilon.com##.cerezNotification
 tebilon.com,itopya.com##.cerezNotification
 tebkariyer.com,cepteteb.com.tr,teb.com.tr##.cookieMain
 tebozel.com###cookieMain
+tecadmin.net##a#manage-preferences
+tecadmin.net,voghion.com,madamecoco.com,businessinsider.in,gadgetsnow.com,indiatimes.com##.consent-popup
 tecchannel.de#%#//scriptlet("abort-on-property-read", "Object.prototype.waitForConsentData")
 tecedo.at##.msg-banner
 tecedo.at,tecedo.de##.msg-banner
@@ -53129,8 +53136,6 @@ thoughtco.com#@##onetrust-consent-sdk
 thousandeyes.com###custom-consent-sdk
 thousandeyes.com###EU-wrapper
 thread.com##thread-cookie-notice
-threads.com#%#//scriptlet('trusted-set-cookie-reload', 'cb', '1_2030_01_01_1')
-threads.net#%#//scriptlet('trusted-set-cookie-reload', 'cb', '1_2023_07_05_2-3')
 thriveglobal.com##div[class*="notificationBar"]
 throttleman.com,lanidor.com##+js(set-cookie, c_aceitaAnaliticos, false)
 throttleman.com,lanidor.com##+js(set-cookie, c_aceitaFuncionais, false)
@@ -55313,7 +55318,6 @@ voetbal.nu#@#.gdpr-notice
 voetbalnederland.nl###T1
 voetbalnederland.nl##body > div[style*="border"]
 voghion.com###app > .shade
-voghion.com,madamecoco.com,businessinsider.in,gadgetsnow.com,indiatimes.com##.consent-popup
 voglioviverecosi.com##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 vogue.com.cn,powercolor.com##.Privacy
 vogue.com.tr##.cookie-item
@@ -56139,6 +56143,7 @@ wissenschaft-shop.de#$##cookieNote { display: none !important; }
 wissenschaft-shop.de#$#body.modal-open { overflow: visible !important; padding-right: 0 !important; }
 wissensnetz.dosb.de###cookies
 wissenstexte.de##body > dialog
+wit.ai,threads.com#%#//scriptlet('trusted-set-cookie-reload', 'cb', '5_2030_01_01_1')
 witaminy-mineraly.choroby.biz###wcp
 withhive.com##.gdpr_cookie
 withings.com##+js(set-cookie, cookieconsent_advertising, false)
@@ -58178,6 +58183,7 @@ _eu_cookie_
 ||plugin.management^
 ||pmc-pp-tou.*.amazonaws.com/privacy-notice.js
 ||pnp.de/np-intern/js/Cookie.js
+||podname.com^
 ||polaris.truevault.com^$third-party
 ||policy*.cookieinformation.com^$third-party
 ||policy.app.cookieinformation.com^$domain=glamox.com|captureone.com
