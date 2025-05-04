@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-04 16:26:02 RPC
+! Updated: 2025-05-05 00:25:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15621,6 +15621,7 @@ focus.de###article-social > li.tw
 focus.de###article-social > li:not(.home):not(.feedback):not(.print):not(.reporterr)
 focus.de###singlepostSlideInBoxHoch
 focus.de###singlepostSlideInBoxQuer
+focus.de##.Article-Date-Socials-Container .Share-Link:not([href^="mailto"])
 focus.de##.socBmXing
 focus.de##.socFbLikeShare
 focus.it##.foc-footer-social
@@ -21318,6 +21319,7 @@ overwolf.com##.creator-social
 ovninavi.com,theplaylist.net,grandprix247.com,info-war.gr,whitemad.pl,sanatatak.com,comicbooks.world,digitalmusicnews.com,scotsman.com,kochfreunde.com##.cb-social-sharing
 ownly.jp##.cs-social-share-wrap
 oxfam.org##footer > div.container:has(> div.social-icons-share)
+oxfordamerican.org##.shareLinkContainer
 oxu.az##.subscribe-single-block
 oxu.az##body .social-block2
 oyunceviri.net##.widget_jnews_facebook_page

@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-05-04 16:26:02 RPC
+! Updated: 2025-05-05 00:25:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26022,6 +26022,7 @@ aeromexico.com##.PrivacyCookie
 aeromexico.com#%#//scriptlet('set-cookie', 'AgreeCookies', 'true')
 aeroport.fr###cookiesfr
 aeroports-voyages.fr###cookies-pane
+aeropress.com,alpkit.com,kijimea.it,movement-made.com,oliviavonhalle.com,pipliakauppa.fi###pandectes-banner
 aeropress.com,alpkit.com,kijimea.it,oliviavonhalle.com,pipliakauppa.fi###pandectes-banner
 aerored.es,biodramina.es,fisiocrem.es##.modalcookies
 aerospace-lab.de##.themify-popup
