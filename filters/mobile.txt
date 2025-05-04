@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-04 09:58:51 RPC
+! Updated: 2025-05-04 16:26:02 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8708,7 +8708,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -8802,7 +8802,6 @@ f2dsex1.com##div.link
 f2dsm7.com##a
 f2dsm7.com##div.wordurl
 f2movies.to##a[href="/android-movies-apk"]
-f95zone.to##.sidePanel__tabPanels ul.offCanvasMenu-list > li:has(> div.offCanvasMenu-linkHolder > a.offCanvasMenu-link[target="_blank"])
 faayoo.com###footer_fd
 faayoo.com##.qr_code
 facebook.com#$?#div[data-type="vscroller"] div[data-tracking-duration-id]:has(> div[data-focusable="true"] div[data-mcomponent*="TextArea"] .native-text > span:contains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|赞助内容|広告|സ്‌പോൺസർ ചെയ്‌തത്)/)) { position: absolute !important; left: -3000px !important; }
@@ -17064,9 +17063,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -30360,6 +30359,7 @@ _zhike.htm
 ||beautifulhobbies.com^
 ||bebi.com^
 ||bebo.crwdcntrl.net^$important
+||bebx.cn^
 ||bebxhcip.icu^
 ||becode.xiao84.com^
 ||bedsberry.com^
@@ -33541,6 +33541,7 @@ _zhike.htm
 ||crolerl.com^
 ||cronbaytech.g2afse.com^$important
 ||crookedcreature.com^
+||croqoltdp.com^
 ||cross-promo.mwx.ext.mobilityware.com^$important
 ||crossadsapi.ecomobileapp.com^
 ||crossboardmobile.com^
@@ -35315,6 +35316,7 @@ _zhike.htm
 ||ebocornac.com^$important
 ||ebooks.localytics.com^$important
 ||ebp.renren.com^
+||ebroktean.com^
 ||ebrun.com/jfile/position/js/*.js
 ||ebs.criteo.com^$important
 ||ebuzzing.com^$important
@@ -36300,6 +36302,7 @@ _zhike.htm
 ||ffmobi.com^
 ||fftf-host-counter.herokuapp.com^$important
 ||ffxcam.fairfax.com.au^$important
+||ffxe.cn^
 ||ffyoo.com^
 ||fgadsqdma.top^
 ||fgdkfr.xyz^
@@ -40329,6 +40332,7 @@ _zhike.htm
 ||jnlc.com/www/fund/newsmarket
 ||jnsz.net.cn^
 ||jnwuama.top^
+||jnwucna.top^
 ||jnyngg.cn^$third-party
 ||jo4.icu^
 ||joblessdrum.com^
@@ -44716,6 +44720,7 @@ _zhike.htm
 ||okpl05011ai.com^
 ||okpl05021ai.com^
 ||okpl05030ai.com^
+||okpl05040ai.com^
 ||okpp01021.xyz^
 ||okpp01030.xyz^
 ||okpp01031.xyz^
@@ -46978,6 +46983,8 @@ _zhike.htm
 ||qqosk05020llo.com^
 ||qqosk05021llo.com^
 ||qqosk05030llo.com^
+||qqosk05031llo.com^
+||qqosk05040llo.com^
 ||qqppz.com^
 ||qqq937.com^$third-party
 ||qqrp.adj.st^$important
@@ -55124,6 +55131,7 @@ _zhike.htm
 ||xjpmlf.xyz^
 ||xjtosdof.icu^
 ||xjuneuud.cn^
+||xjvunf.top^
 ||xjwhtz10.com^
 ||xjwhtz2.com^
 ||xjwhtz3.com^
@@ -55823,7 +55831,6 @@ _zhike.htm
 ||yxgfcj.com^$third-party
 ||yximgs.com/bs2/adcarsku/*.gif
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
-||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 ||yxjcyxy.icu^
 ||yxlady.com/cdd/201005/$script
 ||yxqmryq.top^
