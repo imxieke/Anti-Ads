@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-05 09:53:33 RPC
+! Updated: 2025-05-05 16:32:42 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1237,7 +1237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -1318,6 +1318,9 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 1geki.jp##.ad_sp_top_banner
 1geki.jp##div[ style^="width:98%;height:370px"]
 1haza.com##.ct,[height="100"],#buffer,[height="120"],.vmb_fix
+1ingatlan.net,xianguke.net###htmlContenthtml
+1ingatlan.net,xianguke.net##.app
+1ingatlan.net,xianguke.net##.dbfh
 1keydata.com#$##detect.ad-placement { display: block !important; }
 1keydata.com#%#//scriptlet('abort-current-inline-script', 'document.querySelector', 'window.getComputedStyle')
 1kkk.com##.adform_2,.adform_1
@@ -2254,7 +2257,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -3569,8 +3572,8 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 @@||lib.baomitu.com/axios/*/axios.min.js$domain=69xx03608.xyz
 @@||lib.baomitu.com/video.js/*/video.min.js$domain=69xx03608.xyz
 @@||lib.baomitu.com/vue/*/vue.global.prod.min.js$domain=69xx03608.xyz
+@@||libs.baidu.com^$domain=11bqg.com|xbotaodz.com|0794.org|12zw.net|1biqu.com|1kans.net|23hh.com|23sk.net|23wxx.com|33yq.org|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqiuge8.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biquka.com|aidu123.com|biqutsxs.com|biquzw.info|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|x81zw.co|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||libs.baidu.com^$domain=m.supfree.net
-@@||libs.baidu.com^$domain=xbotaodz.com|0794.org|12zw.net|1biqu.com|1kans.net|23hh.com|23sk.net|23wxx.com|33yq.org|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqiuge8.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biquka.com|aidu123.com|biqutsxs.com|biquzw.info|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|x81zw.co|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||linetv.tw/public/scripts/ads.js
 @@||linetv.tw^$generichide
 @@||linetv.tw^*/scripts/ads.js
@@ -8708,7 +8711,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -17065,7 +17068,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -22157,9 +22160,6 @@ xiachufang.com##div.apps-download
 xiadele.com##.details-small-carousel
 xiadele.com##.yun-advertisement
 xianbao5.com##div.bm.a_c,div.wp.a_h,ins.adsbygoogle,div.a_pt
-xianguke.net###htmlContenthtml
-xianguke.net##.app
-xianguke.net##.dbfh
 xianzhenyuan.cn##.sd_ad,[class="bm a_c"],.wp.a_t,.wp.a_f
 xianzhenyuan.cn##.sd_ad:not(#xztba)
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
@@ -37956,6 +37956,7 @@ _zhike.htm
 ||harrenmedianetwork.com^$important
 ||hartattenuate.com^
 ||hasdjksndjk.com^
+||hash.trafficmanager.net^
 ||hashicorp-fhh9vebjrx.xid.segment.com^$important
 ||hasmobi.net^$important
 ||hasofferstracking.betterhelp.com^$important
@@ -40976,6 +40977,7 @@ _zhike.htm
 ||knuinws.icu^
 ||knul.cn^
 ||knwuamd.top^
+||knwucnd.top^
 ||ko3aql2d.zczcjx.com^$script
 ||koaptouw.com^
 ||koauq.top^
@@ -44118,6 +44120,7 @@ _zhike.htm
 ||networld.hk^$important
 ||neudesicmediagroup.com^$important
 ||neuralstemcell.com.cn/img/js.js
+||nevtrelathgd.com^
 ||new-icon.ol-img.com/jslib/ad
 ||new-iq.adtech.de^$important
 ||new.afsanalytics.com^$important
@@ -44721,6 +44724,7 @@ _zhike.htm
 ||okpl05021ai.com^
 ||okpl05030ai.com^
 ||okpl05040ai.com^
+||okpl05041ai.com^
 ||okpp01021.xyz^
 ||okpp01030.xyz^
 ||okpp01031.xyz^
@@ -46845,6 +46849,7 @@ _zhike.htm
 ||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/Baojian/
 ||qiwo.cc^
+||qiwqaagnaell.com^
 ||qiximed.com^
 ||qixin007.com/webbanner/
 ||qixingquan.com/api.php?mod=ad&adid=
@@ -46985,6 +46990,7 @@ _zhike.htm
 ||qqosk05030llo.com^
 ||qqosk05031llo.com^
 ||qqosk05040llo.com^
+||qqosk05041llo.com^
 ||qqppz.com^
 ||qqq937.com^$third-party
 ||qqrp.adj.st^$important
@@ -55726,6 +55732,7 @@ _zhike.htm
 ||yqingge.com/wap.js
 ||yqlxkzs.cn^
 ||yqlzccxn.icu^
+||yqqv.cn^
 ||yqwu.jg-hoareau.fr^$important
 ||yrccils0spqnkc3.xyz^
 ||yrr56.com/mp4/pt_720.
@@ -56083,6 +56090,7 @@ _zhike.htm
 ||zhuys.com^*.php
 ||zhy333.com^$third-party
 ||zhzyw.com/js/InsertJS.js
+||zibjls.top^
 ||zichenit.com^$third-party
 ||ziffdavis-d.openx.net^$important
 ||ziffdavis.com^$important
@@ -56234,6 +56242,7 @@ _zhike.htm
 ||zx573.cn^
 ||zx98.com/mm/$script
 ||zxa4kxw2nvox.com^$important
+||zxiws.cn^
 ||zxpaa.xyz^
 ||zxptw.cn^$third-party
 ||zxqiwe.cn^
