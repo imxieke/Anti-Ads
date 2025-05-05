@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-05 16:32:42 RPC
+! Updated: 2025-05-06 00:28:42 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7924,6 +7924,9 @@ dongtw.com##.jeg_ad
 donnerwetter.de#?#div[class^="col-"] > div.prepend-top:has(> center > ins.adsbygoogle)
 dooland.com##div#adimage
 doope.jp,netgeek.biz,nikonrumors.com,szifon.com##.wptouch-showcase
+doordash.com##a[data-testid="openAppButton"]
+doordash.com##div[class]:has(> div[data-testid="appDownload"]:first-child + button[data-testid="appDownloadButton"]:last-child)
+doordash.com##main > main > div[class]:has(> div[class]:only-child > div[class]:only-child > div[class] > span:only-child > a[href*="adjust"])
 dop2p.com##div.brand
 dospara.co.jp##.p-footer-app
 dospy.com##div#ad,div#phoneimg,div.com-adm,.fixed
@@ -10115,6 +10118,7 @@ gptgo.ai#?#.results-content > div.chatgpt > center > a[href*="apps"]
 gptoday.net###gptoday_ros_bravo_mobile
 gptoday.net##.ad-placeholder-wrapper
 gptoday.net##.top-banner-leaderboard
+gqjapan.jp##.ad-stickyhero
 gqjapan.jp,vogue.co.jp##div[class^="TwoColumnsWithHorizontalAdMosaicWrapper"]
 gram.pl##.external-entity-container.adrino
 grapee.jp##.ba-area > a[href][target="_blank"] > img
@@ -13342,6 +13346,10 @@ lipscosme.com##.open-app-banner
 lipscosme.com##.welcome-index__hero
 lipscosme.com##div[id^="adslot-"]
 liquipedia.net###networknotice-71
+liquipedia.net#$#.mobile-sticky-ad { display: none !important; }
+liquipedia.net#$#.mobile-sticky-ad ~ #main-nav { top: 0 !important; }
+liquipedia.net#$#.mobile-sticky-ad ~ #wiki-nav { top: 3.125rem !important; }
+liquipedia.net#$#body:has(> .mobile-sticky-ad) { padding-top: 5.375rem !important; }
 liquipedia.net#%#//scriptlet('remove-class', 'mobile-sticky-ad-is-active', 'body')
 list.jd.com##.jdm-tbar-tab-qrcode
 listenradio.jp###fancybox-wrap
@@ -14467,6 +14475,9 @@ m.yelp.com##body > div[data-hypernova-key^="mobile_site_"] > div._2oFDT > div.u-
 m.yelp.com##div[class*="main-content__"] > div > ol > li:has(> div[class*="sponsored-icon__"])
 m.yelp.com##div[class*="main-content__"] > div > ol > li:has(div[data-traffic-crawl-id="SearchResultBizName"] > h3 > a[href^="/adredir?ad_business_id="])
 m.yelp.com##div[class*="yelp-ad"]
+m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"])
+m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"]) + li[class]
+m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[data-testid^="themed-ad-"])
 m.yelp.com##section[data-testid="BottomAdStandard"]
 m.yelp.com##section[data-testid="TopAdStandard"]
 m.yeniakit.com.tr##.sticky-mobil-new
@@ -15772,6 +15783,7 @@ navitime.co.jp##.app_dl_banner_frame
 navitime.co.jp##.button:has(> a[onclick*="app.adjust.com"]:only-child)
 navitime.co.jp##.footer-invite-app-section
 navitime.co.jp##.inview-m8iDqk1XV9
+navitime.co.jp##.japan-travel-banner
 navitime.co.jp##.kyujin-control-banner-container
 navitime.co.jp##.sales-area > img[src*="sp/bicycle/bicycle-"]
 navitime.co.jp##.sales-btn-area > a[href*="app"]
@@ -18853,6 +18865,7 @@ sn-jp.com##main > div[style*="height"]:has(> .parent:only-child > div[class^="ch
 snapchat.com##div[class^="CTAModal_"]
 snapchat.com##div[class^="Footer_baseMobile__"]
 snapdish.jp###popup-download
+snapedit.app##.hero-ads
 snapinst.app##.download-footer > .btn-app
 snapinsta.app##.btn-app
 snapsave.app###snapapp-top
@@ -19826,6 +19839,7 @@ thebrighterside.news#?#iframe[src*="usrfiles.com/"]:upward(1)
 thec64community.online##.middle-ad-mobile__wrapper
 thecatcity.com##.article-page__ad-block
 thechive.com##.phone-ad
+thecourier.co.uk###leaderboard-mobile-only
 theculturetrip.com##div[class^="download-bannerstyled"]
 thedailybeast.com###view-offer
 thedailystar.net##.app-link-wrapper a[href="https://play.google.com/store/apps/details?id=com.mcc.thedailystar"]

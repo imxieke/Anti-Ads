@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-05 16:32:42 RPC
+! Updated: 2025-05-06 00:28:42 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11738,6 +11738,7 @@ antena3.com##.article-author__social
 antenna.co.jp###comcon-snsbtn
 anti-malware.ru##.content > div#slidebox
 anti-malware.ru##.dialog-social-fb
+antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
 antonymorato.com##div[class^="jss"] > div:has(> svg > path[d^="M17.5 3c-1.1"])
 antt.vn##.circle_share
 antu.com##a[href^="javascript:paylas"]
@@ -13642,7 +13643,6 @@ comic.k-manga.jp#?##contents > section:has(> div.share-button)
 comic.pixiv.net##.cursor-pointer> span > img[src^="/static/images/share_black"]
 comic.pixiv.net#?#.justify-between > .flex > div[class="w-40"]:has(> div > .cursor-pointer > .icon > img[src^="/static/images/share_"])
 comic.pixiv.net#?#div[class="screen4:hidden"] > .bottom-16.fixed:has(> .bg-surface1-default > span > img[src^="/static/images/share_"])
-comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
 comicbook.com,hyperallergic.com,reneweconomy.com.au,vice.com##.wp-block-jetpack-sharing-buttons
 comicbook.com,semianalysis.com###jetpack-sharing-serivces-list
 comicbookmovie.com##div[data-testid="bookmarkSection"] + ul + div[class^="WidgetActionMenu_"]
@@ -14393,6 +14393,8 @@ discoverychannel.com.tr##.widget_bizi_takip_edin
 discoveryjapan.jp##.st-aa-sharewrap
 discudemy.com##section[class="thirteen wide column"] > div[class="ui attached segment"]:has(> div#shareIconsCounter)
 discuss.com.hk#?#.post-action-group > li:has(> a[onclick] > i.icon-share)
+discussingfilm.net,douglasnow.com##.post-share-bot
+discussingfilm.net,douglasnow.com,rockstarintel.com,watchinamerica.com##.post-share-float
 diskunion.net##.newsTitleArea__snsAreaUl
 diskunion.net##.sidenav__snsArea
 disntr.com#?##main-content div.et_pb_module:has(> div.et_pb_code_inner a#gab-share-btn)
@@ -14541,8 +14543,6 @@ dota2.ru##a[href^="//t.me/share/"]
 dotcom-tools.com##.report-generation > div.report-generation__holder + dm-button
 dotesports.com##body [id^="articleSocialWidget-"]
 douga.tv-asahi.co.jp##.c-addBtns-inBox-share
-douglasnow.com##.post-share-bot
-douglasnow.com,rockstarintel.com,watchinamerica.com##.post-share-float
 doujinhibiki.net##.sharBox
 down.mdiaload.com,down.fast-down.com#?#tbody > tr div.share:upward(2)
 down2hub.com##.bdaia-widget-facebook
@@ -19856,6 +19856,7 @@ moneyvox.fr##.reseau-soc-page
 monitorulsv.ro###fbcomment
 monitorulsv.ro###fblikemini
 monitorulsv.ro##div[class="footer_blocks"]
+monogatary.com##.story-section__social
 monomax.jp##.frameArea01 > p.mt20.center > strong
 monotaro.com##.SNSButton
 monsterenergy.com##.articleCon .share
@@ -20198,7 +20199,6 @@ nashvancouver.com###exit_content.modal
 nashvancouver.com###exit_content.modal ~ div.modal-backdrop
 nashvancouver.com##a[href^="https://nashvancouver.com/linkout/"] > img
 nashvillescene.com,stltoday.com##.social-share-links
-nasiloluyo.com,pixelo.net###floatingSocialShare
 nastroy.net##.btn_fb_like
 nastroy.net##.soc_image
 nastroy.net##.soc_kentr
@@ -24480,6 +24480,7 @@ theguardian.com##gu-island[name="ShareButton"]
 theguardian.com#?#.dcr-4gwv1z > ul:contains(Get our)
 theguardian.com,vpn-anbieter-vergleich-test.de##a[aria-label^="Share "]
 theguru.co.kr,medifonews.com##.btn_share_small
+thehackerblog.com,nasiloluyo.com,pixelo.net###floatingSocialShare
 thehackernews.com###mobile-share
 thehackernews.com##.float-share
 thehackernews.com##.follow-box
@@ -26281,6 +26282,7 @@ woodmac.com##.avatar.push--bottom
 woodmac.com##.nav-actions > .inline-block
 wooflix.tv,imgur.com,adultism.com,hyperwiki.jp,frag-mutti.de,atwiki.jp,netdoktor.de###share-button
 wordvbalab.com,ekilog.info,channel-jk.com###sns-group
+workenter.gr##.sharer-icons
 workingkeys.org##.onp-sl-outer-wrap
 workman.jp,parismatch.com,lejdd.fr,gelatopique.com,snidel.com,autosport.com.ru,sgpress.ru##.block-share
 world-nuclear-news.org##.share_buttons_cont
