@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-06 09:48:21 RPC
+! Updated: 2025-05-06 16:30:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9693,6 +9693,7 @@ hostinger.*##.h-cookie-consent
 hostings.info##.pop-up-text-footer
 hostixo.com###general-tos
 hostkey.ru###collectData
+hostzealot.*##div[x-data="gdprComponent"]
 hot.at###info-overlay
 hot.at#$##cookies-overlay { display: none!important; }
 hot.at#$#.modal-backdrop { display: none!important; }
@@ -16882,7 +16883,7 @@ tierarzt-onlineverzeichnis.de,vergleichen-und-sparen.de###vs-cookiehinweis
 tierarzt24.de##.vet_cookies
 tierchenwelt.de##div[class^="kick-kcm-"]
 tiermaker.com###agreementMessage
-tigo.com.co,tigo.com.pa##app-cookieconsent
+tigo.com.gt,tigo.com.hn,tigo.com.ni,tigo.com.bo,tigo.com.py,tigo.com.sv,tigo.cr,tigo.com.co,tigo.com.pa##app-cookieconsent
 tijd.be,lecho.be###react-cookie-bar
 tiktok.com##.cookie-banner-new
 tiktok.com##div[class*="DivCookieBannerContainer"]
@@ -17851,6 +17852,7 @@ vitalsource.com###cookiecat-host
 vitalsource.com###dismiss-cookie-message
 vitalsource.com##div[role="dialog"][aria-label="Cookie Policy"]
 vitalsource.com,inquest.net##.dismiss-cookie
+vitalvet.sk##.cm-cookie-block
 vitaminshoppe.com##vshoppe-gdpr-privacy-notice-component
 vitkac.com###cookiesModule
 vitra.com##a[class^="footerCookieSettings_"]
