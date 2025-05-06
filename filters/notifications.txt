@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-06 00:28:42 RPC
+! Updated: 2025-05-06 09:48:21 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9713,9 +9713,6 @@ hotscope.tv#?##__next > div > div[class]:has(> div[class] > p > a[href="/privacy
 hotscope.tv#?##__next > div[class^="jss"] > div.MuiGrid-root > p.MuiTypography-root > a[style][href="/privacy"]:upward(3)
 hotshops.pl,aldoshoes.com##.c-cookie-notice
 hotspotshield.com###AF_GDPR
-hotukdeals.com##.popover--layout-fixed
-hotukdeals.com#$#.popover-cover { display: none !important; }
-hotukdeals.com#$#body { overflow: visible !important; }
 hotukdeals.com,preisjaeger.at###softMessages-list
 house.goo.ne.jp##.smart_banner
 housebrand.com###display_cookie_message
@@ -9744,6 +9741,7 @@ hsbc.co.jp,plarium.com##.c-cookie-notification
 hsbc.com.tr,advantage.com.tr#%#//scriptlet('set-local-storage-item', 'cookiePolicy', 'true')
 hse.ru##.gdpr_bar
 hsl.fi#%#//scriptlet('trusted-set-cookie', 'notice_gdpr_prefs', '0,1,2:')
+hsn-tsn.de,myglo.com.ua,bo3.gg,speeddate.it,woodworkforinventor.com,maanimo.ua,namikoi.com,cvv.org.br,puttycolors.com,wokal.studio,tdk.com,globalpetrolprices.com,szukam-inwestora.com,hgspot.hr,drv.hu,genesis-zone.com,carlossainz.es,lordicon.com,farmako.net,theglobaleconomy.com,fakings.com,seg-social.gob.es,icu.ua,playretrogames.net,forum.selur.net,electronicfirst.com,jcarlosroldan.com,hostico.ro,filman.cc,mycoding.id,pixers.*,mapp.com,haylem.ca,bazar.club,79element.pl,apart.pl,gaygo.tv,activobank.pt,bagatela.pl,visitkrk.com,euroinnova.pe,iparts.pl,beltorgi.by,tion.ru,penny-arcade.com,zaluknij.cc,tranny.one,krakow.pl,ispsystem.ru,hdmecze.com,polskiprzemysl.com.pl,oley.com,rncb.ru,iplogger.org,ekino-tv.pl,muzo.fm,samcook.eu,tellows.it,banco.bradesco,yesvids.com,holaporno.xxx,ah-me.com,tryboobs.com,istanbulhomes.com,bursahomes.com,antalyahomes.com,spainhomes.com,bta.bg,rockserwis.fm,support.tonies.com,walbrzych24.com,mosir.sosnowiec.pl,pwsz-ns.edu.pl,cybusinessonline.co.uk,secure.ybonline.co.uk,secure.cbonline.co.uk,postnauka.ru,emiko.de,dachbaustoffe.de,kj.de,cyfrowe.pl,ezzocard.com,sunporno.com,banker.ua,any.run,advancedinstaller.com,aztecapornohd.xxx,teatroporno.com,elmundoporno.com,eporner.com,mitino-center.ru,polenghi.com.br,magnadijital.com.tr,touchvpn.net,postnauka.ru,sync.me,mulheresafoder.com,tellows.de,lot.com,essenjet.com,eurowag.com,inmotionhosting.com,private.com,cad-computer.de,ravenol.de,abload.de,secureage.com,gogalaxy.com,windworld.org,boettcher-fahrraeder.de,redshieldvpn.com,educalingo.com,theodora.com,windtre.it,filehorst.de###cookies
 hspv.nrw.de#$##cookiep { display: none !important; }
 hspv.nrw.de#$#body { overflow: auto !important; }
 hss.de,m.heute.at##.cookiemessage
@@ -11608,6 +11606,9 @@ m.twitch.tv#%#//scriptlet('set-cookie', 'tachyon-accepted-cookie-notice', 'true'
 m.webtoons.com##.downapp_area2
 m.webtoons.com##._appDownloadPopup
 m.yelp.com##.banner__09f24__A12gg
+m.yelp.com##[data-ga-label="Open in App"]
+m.yelp.com##[data-testid="OpenAppButton"]
+m.yelp.com##[data-testid="smart-banner-pitch"]
 m.youtube.com#%#//scriptlet('trusted-click-element', 'ytm-consent-bump-v2-renderer .dialog-scrollable-content > .one-col-dialog-buttons > ytm-button-renderer.eom-reject button.yt-spec-button-shape-next', '', '2000')
 m1cu.org##.alert-fixed[style]
 m365.cloud.microsoft,visualstudio.com,office.com,microsoft365.com,skype.com,xbox.com,windows.com,microsoft.com###uhfCookieAlert
@@ -12586,7 +12587,6 @@ myedit.online###gdpr_notes
 myfigurecollection.net,hootsuite.com##.gdpr-disclaimer
 myfilology.ru###alert-message
 myfxbook.com###gdprConsentBanner
-myglo.com.ua,bo3.gg,speeddate.it,woodworkforinventor.com,maanimo.ua,namikoi.com,cvv.org.br,puttycolors.com,wokal.studio,tdk.com,globalpetrolprices.com,szukam-inwestora.com,hgspot.hr,drv.hu,genesis-zone.com,carlossainz.es,lordicon.com,farmako.net,theglobaleconomy.com,fakings.com,seg-social.gob.es,icu.ua,playretrogames.net,forum.selur.net,electronicfirst.com,jcarlosroldan.com,hostico.ro,filman.cc,mycoding.id,pixers.*,mapp.com,haylem.ca,bazar.club,79element.pl,apart.pl,gaygo.tv,activobank.pt,bagatela.pl,visitkrk.com,euroinnova.pe,iparts.pl,beltorgi.by,tion.ru,penny-arcade.com,zaluknij.cc,tranny.one,krakow.pl,ispsystem.ru,hdmecze.com,polskiprzemysl.com.pl,oley.com,rncb.ru,iplogger.org,ekino-tv.pl,muzo.fm,samcook.eu,tellows.it,banco.bradesco,yesvids.com,holaporno.xxx,ah-me.com,tryboobs.com,istanbulhomes.com,bursahomes.com,antalyahomes.com,spainhomes.com,bta.bg,rockserwis.fm,support.tonies.com,walbrzych24.com,mosir.sosnowiec.pl,pwsz-ns.edu.pl,cybusinessonline.co.uk,secure.ybonline.co.uk,secure.cbonline.co.uk,postnauka.ru,emiko.de,dachbaustoffe.de,kj.de,cyfrowe.pl,ezzocard.com,sunporno.com,banker.ua,any.run,advancedinstaller.com,aztecapornohd.xxx,teatroporno.com,elmundoporno.com,eporner.com,mitino-center.ru,polenghi.com.br,magnadijital.com.tr,touchvpn.net,postnauka.ru,sync.me,mulheresafoder.com,tellows.de,lot.com,essenjet.com,eurowag.com,inmotionhosting.com,private.com,cad-computer.de,ravenol.de,abload.de,secureage.com,gogalaxy.com,windworld.org,boettcher-fahrraeder.de,redshieldvpn.com,educalingo.com,theodora.com,windtre.it,filehorst.de###cookies
 myguestaccount.com##.gdprBackgound
 mygwork.com##.app-banner--overlay
 myhealthchecked.com#%#//scriptlet('trusted-set-cookie', 'cookie_settings', '{%22functional%22:%22yes%22%2C%22essential%22:%22yes%22}')
@@ -14364,10 +14364,12 @@ psychol-ok.ru###cookie_agreement_div
 psychologies.ru##.cookies-popup-wrapper
 psychologytoday.com#@#.consent-container
 psyonix.com##body > #wrap ~ #message
+ptt.gov.tr##div[class^="styles_cookieBanner"]
 ptwm.org.pl###cookies-fixed
 pubg.com#$#body { overflow: auto !important; }
 pubg.com#$?#.layout > div.modal:has(> div.modal__inner > div.cookie) { display: none !important; }
 publikationen.dguv.de#%#//scriptlet('set-cookie', 'allowCookie', '1')
+publix.com##.tou-prompt-wrapper
 pubs.acs.org###gdpr-message-modal
 pucsp.br##.fundasp-lgpd-alert-wrapper
 pugski.com#?#.Panels > .Notice.DismissParent:has(> .noticeContent > .noticeCookiesContent)
