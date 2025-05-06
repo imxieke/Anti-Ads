@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-06 16:30:55 RPC
+! Updated: 2025-05-07 00:27:11 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6777,7 +6777,7 @@ chosun.com##div#top_ad
 chosun.com##iframe[title="Advertisement"]
 chosunonline.com##.wrap_ad_inner
 chromecj.com##.topblock
-chrono24.*##header > section.js-pre-header:has(a[href="/info/apps.htm"])
+chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl##header > section.js-pre-header:has(a[href="/info/apps.htm"])
 chsi.com.cn##.zx-axvert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
 chuandong.com##div[class*="-ad"]
@@ -13965,6 +13965,7 @@ m.iguides.ru##.top_container_in_detail_text
 m.iguides.ru#?#.news-list > article:has(> div.after-head:contains(Реклама))
 m.image.so.com##.waterfall > li[data-imgid] > a[href^="https://e.so.com/search/mclick?"]
 m.imdb.com##.imdb-footer > div[class^="_"]:not([class="container"])
+m.imdb.com##.imdb-header__app-button
 m.imdb.com##div[class^="mobile-upsell"]
 m.imdb.com##div[id^="IMDB_ADS_"]
 m.imdb.com#?#.col-xs-12 > span.ab_widget:has(> div.ab_ninja > span.widget_header:contains(Get More From IMDb))
@@ -16741,6 +16742,8 @@ pairs.lv#$##headerBanner { display: none !important; }
 pairs.lv#$##page_top[style="top: 64px;"] { top: 0 !important; }
 pairs.lv#$#.fixheader[style$="top: 64px;"] { top: 0 !important; }
 palcy.jp##.dl-area
+pampers.*##.get-app-cta
+pampers.*,trendyol.com,tripadvisor.ru,prog-8.com,spice.eplus.jp,catalog.onliner.by,hket.com,fashion-headline.com,momoshop.com.tw,ticketjam.jp,kompas.com,sevenbank.co.jp,booth.pm,reverso.net,bangumi.org,msn.com,m.investing.com,m.spiegel.de,mavcsoport.hu,m.trendyol.com,autobild.de,infranken.de,m.douglas.de,focus.de###smartbanner
 pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
 pan.baidu.com##.phone-banner
@@ -20298,7 +20301,6 @@ treccani.it###gmpSkinMobileSpacer
 treccani.it##.css-uwijew
 tree.tv###android_app
 trello.com#?##chrome-container > div[class]:has(> div[class]> a[href^="https://apps.apple.com/"])
-trendyol.com,tripadvisor.ru,prog-8.com,spice.eplus.jp,catalog.onliner.by,hket.com,fashion-headline.com,momoshop.com.tw,ticketjam.jp,kompas.com,sevenbank.co.jp,booth.pm,reverso.net,bangumi.org,msn.com,m.investing.com,m.spiegel.de,mavcsoport.hu,m.trendyol.com,autobild.de,infranken.de,m.douglas.de,focus.de###smartbanner
 trendyporn.com##div[style^="height:"][style$="width:auto"]
 trendyporn.com#?#.container > center:has(> div[style^="height:"][style$="width:auto"])
 trhaber.com##div[class^="align-items-center"][style^="height"]

@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-06 16:30:55 RPC
+! Updated: 2025-05-07 00:27:11 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11061,6 +11061,7 @@
 @@||s7.addthis.com^*/addthis_widget.js$domain=mediamatters.org|politico.com
 @@||schluetersche.de/global/js/libs/jquery/plugins/socialshareprivacy/jquery.socialshareprivacy.min.js
 @@||scontent-*.fbcdn.net^$domain=facebook.com
+@@||scotusblog.com/_static/??/wp-content/themes/*/public/assets/app.css,/wp-content/plugins/add-to-any/addtoany.min.css
 @@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||sharethis.com^$domain=amur.info
 @@||shiseido.co.jp/shared/assets/img/btn_sns_footer_$image,~third-party
@@ -11434,6 +11435,7 @@ al-watan.com,qatar-tribune.com##.sharingColumn
 alahlionline.com,citroenselect.it,elkhabar.com,nieuweoogst.nl,tilifony.com##.social-network
 alairelibre.cl##.botones-llevatelo
 alalam.ir##.social_icon_head
+alamy.com#?#.flex:has(> div.relative > button[type="button"]:contains(Share))
 alanam.com#?#.entry-content > div.film-content:has(> div.film-share)
 alaqsavoice.ps##.social-style-2
 alarabiya.net##.google-news-callout
@@ -12538,7 +12540,6 @@ bleepingcomputer.com#$#.cz-full-bio-wrapp { border-top: none !important; }
 bleepingcomputer.com#?#li > a.cz-news-link:upward(1)
 blesk.cz##div[class^="socialMedia"]
 blic.rs##.custom-shareFb
-blic.rs##button[data-cy="share-button"]
 blick.ch##.layout-multi-line--social-sharing
 blick.ch##.social-sharing--bottom
 blick.ch##.social-sharing--top
@@ -12765,7 +12766,6 @@ bostonglobe.com#$#body { overflow:visible!important; }
 bostonglobe.com#@#.sharebar
 botanica-media.jp##.p-post__sns__list
 botharetrue.substack.com##button[aria-label="Share Publication"]
-botharetrue.substack.com#?#.comment-actions  > span:has(> a[class] > div.pencraft > .lucide-share)
 botostore.com##.bot-share
 boursedirect.fr##.content-social
 boursedirect.fr##.slide-share
@@ -13327,6 +13327,8 @@ chip.com.tr,forum.xda-developers.com##.postbit-social
 chip.de###like-btn
 chip.de##.LikeButton
 chipsandcheese.com##.widget_block
+chipsandcheese.com,noahpinion.blog,newcomer.co,blog.corkmac.app,blog.sshh.io,hardcoresoftware.learningbyshipping.com,newsguardrealitycheck.com,newsletter.techworld-with-milan.com,newsletter.pragmaticengineer.com,substack.com,gamefile.news##span > a.pencraft:has(> div.pencraft > svg.lucide-share)
+chipsandcheese.com,noahpinion.blog,newcomer.co,blog.corkmac.app,blog.sshh.io,hardcoresoftware.learningbyshipping.com,newsguardrealitycheck.com,newsletter.techworld-with-milan.com,newsletter.pragmaticengineer.com,usermag.co,theolognion.com,substack.com,transformernews.ai##button[aria-label="View more"]:has(> svg.lucide-share)
 chita.ru##.article__links-line__share
 chitai-gorod.ru##.app-share
 chitubox.com###facebook-share
@@ -13350,7 +13352,7 @@ chromewebstore.google.com##.BTQQIf
 chroniclelive.co.uk##.sharebar > ul > .count-shares
 chroniclelive.co.uk##.sharebar > ul > .sharebar-provider
 chroniclelive.co.uk##.up-next--share
-chrono24.*##.wt-share-offer
+chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl##.wt-share-offer
 chudesa.site##ul[id^="menu-menyu-"] > li.menu-facebook
 chudesa.site#?#.sidebar-content > div.widget:has(> div.textwidget > a.twitter-follow-button)
 chudesa.site#?#.sidebar-content > div.widget:has(> div.textwidget > div.fb-page)
@@ -15850,6 +15852,7 @@ freepdfcomic.com##.snssharer
 freepik.com##.button--pinterest
 freepik.com##.button--share
 freepik.com##.popover--share
+freepik.com,blic.rs##button[data-cy="share-button"]
 freepng.ru##.pdt-share
 freepressjournal.in##.native-share
 freepressjournal.in##.social-account
@@ -15941,6 +15944,7 @@ futurism.com#?#main > div > div.text-center:has(> div.flex > button.react-share_
 futurism.com,eurosport.ru##.ShareIcons
 futurity.org##.sticy-share-block
 futuro.cl##.ssd
+fuwanovel.moe##.single-post-share
 fviewer.com,filesmerge.com##.cool-box
 fxhome.com#$##download > .steps > #step-claim { display: block!important; }
 fxhome.com#$##download > .steps > #step-share { display: none!important; }
@@ -16018,7 +16022,6 @@ gamefavo.com##ul[class^="sns-btn"]
 gamefile.news##.pencraft > button.pencraft:has(> svg > path[d^="M4 12v8a2"])
 gamefile.news##.pencraft > div.pencraft:has(> a.post-ufi-button > div.label:contains(Share))
 gamefile.news##.pencraft:has(> button.pencraft > div > svg[role="img"] > g > path[d^="M21.6608 8.55517H2.33838V5.9555H21"])
-gamefile.news##span > a.pencraft:has(> div.pencraft > svg.lucide-share)
 gamegaz.com##.snsb > li:not(.comments-balloon-btn)
 gamegaz.com#@#.social-count
 gamegrin.com##article > div.actions:has(> span.subshare)
@@ -18763,6 +18766,9 @@ liteapks.com,modyolo.com,thinkkers.com##.list-shares
 literaturus.ru##.PlusFollowers
 lithub.com##.widget_twitter_timeline
 litmind.es#@#.social_bar
+litres.ru##div[aria-modal][aria-label="Поделиться"] > div[class^="Modal_content__header"] > h3
+litres.ru##div[aria-modal][aria-label="Поделиться"] div[class^="Sharing_social-title_"]
+litres.ru##div[aria-modal][aria-label="Поделиться"] div[data-testid="referral__socnet--links"]
 litres.ru##div[class^="BookActionButtons_"] > button[aria-label="Поделиться"]
 litres.ru#?#ul[data-test-id="book-functional-block__wrapper"] > li > button:has(> div > div:contains(Поделиться))
 littleoslo.com###text-22
@@ -20541,7 +20547,6 @@ newser.com###lightbox
 newser.com##.socialButtons
 newsfs.com,bloter.net,comworld.co.kr,jejudomin.co.kr,kbmaeil.com,sports-g.com,chungnamilbo.co.kr,incheonilbo.com,newsnjoy.or.kr,digitaltoday.co.kr,slist.kr,dnainfo.com##.social-group
 newsfs.com,chungnamilbo.co.kr,newsnjoy.or.kr,techm.kr,ccdailynews.com,footballist.co.kr,hankooki.com,gametoc.hankyung.com,globale.co.kr##.quick-tool > button:not(.fontsise-btn)
-newsguardrealitycheck.com,pragmaticengineer.com##.pencraft > button:has(> svg.lucide-share)
 newshub.co.nz##.c-ArticleHeading-actions
 newsian.co.kr##.sns:not(.bookmark)
 newsis.com##.socialBox a > img[onclick^="snsSend"]
@@ -21870,7 +21875,6 @@ practicum.yandex.ru###share-block-title
 prad.de##.pd-social-buttons
 prad.de##.pd-sticky-buttons
 pragmaticengineer.com##.pencraft > div.pencraft:has(> a.post-ufi-button > div:contains(Share))
-pragmaticengineer.com##.pencraft > span:has(> a > div > svg.lucide-share)
 pramgnet.com###Share
 pramgnet.com##.sbnr
 pravda.com.ua##.footer_social
@@ -23879,14 +23883,12 @@ subs.ro###facebook-box
 subs4series.com###social-float
 subs4series.com##.right_menu_line_left td > div[style*="height: 175px; width: 300px; text-align:center"]
 subscity.ru#?#div:has(> .fa-share-alt)
-substack.com##.navbar-buttons div.pencraft  > span + button[aria-controls="dialog2"]
-substack.com##.pencraft  > div.style-compressed  > a.no-label.post-ufi-button[href^="javascript"] > svg
+substack.com##.pencraft > div.style-compressed > a.no-label.post-ufi-button[href^="javascript"] > svg
 substack.com##.post-ufi > a.post-ufi-comment-button + a[href^="javascript:void"]
 substack.com##.share-dialog a.pencraft[id^="trigger"][aria-label="View more"]
 substack.com#?#.button.share-action:not(:has(> div.pencraft:contains(Note)))
 substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to X/))
 substack.com#?#div > a[role="button"]:has(> div.label:contains(Share))
-substack.com,theolognion.com##.navbar-buttons > div > button.pencraft:has(> svg.lucide-share)
 substack.com,theolognion.com,blog.omnivore.app,read.engineerscodex.com##.pencraft + div.pencraft > a.no-icon[role="button"]
 substack.com,theolognion.com,read.engineerscodex.com##.like-button-container + a.post-ufi-comment-button + a[role="button"]
 substack.com,theolognion.com,read.engineerscodex.com#?#.comment-rest > div.pencraft > span:has(> a > div > div.pencraft:contains(Share))
@@ -24994,7 +24996,6 @@ transfermarkt.de###socialMediaLeisteMobilSticky
 transfermarkt.de##.news-header-social
 transfery.info##.news-social-media a.media-icon-container
 transformernews.ai##a[aria-label*="share"]
-transformernews.ai##button[aria-label="View more"]:has(> svg.lucide-share)
 translate.google.*##.share-translation-button
 translate.meta.ua###shareit_form
 translate.weblio.jp##a[href*="plus.google.com/share"]
@@ -25552,7 +25553,6 @@ usedoor.jp##.allcontsntsdivs > p[align="center"]
 user.17track.net#@#.social-btn-block
 userecho.com,hpplus.jp##.module-share
 userello.ru##.social-on-page
-usermag.co##.available-content > .pencraft:has(> div[class]:only-child > button > .lucide-share)
 userstyles.org###share_div
 userstyles.org##.style-image_shareStyleButtonWrapper__PwC0C
 userstyles.org##div[class^="style-image_shareStyleButtonWrapper_"]

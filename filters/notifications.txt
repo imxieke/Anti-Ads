@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-06 16:30:55 RPC
+! Updated: 2025-05-07 00:27:11 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1879,7 +1879,7 @@
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
 .cookie-law.$script
-.cookieconsent.
+.cookieconsent.$domain=~cookieconsent.io
 .cookiecuttr.^$domain=~argeweb.nl
 .cookielaw.js
 .cookienotice.
@@ -3966,6 +3966,7 @@ aeromexico.com#%#//scriptlet('set-cookie', 'AgreeCookies', 'true')
 aeroports-voyages.fr###cookies-pane
 aerotelegraph.com#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "#insiderflyin--blur")
 aerztezeitung.de,bbv-net.de,ruhrnachrichten.de,tagblatt.de###fi-cookieconsent
+aerztezeitung.de,netzwelt.de#%#//scriptlet('trusted-click-element', 'h2 ~ div[class^="_"] > div[class^="_"] > a[rel="noopener noreferrer"][target="_self"][class^="_"]:only-child')
 aeza.net###__next > section + div:has(> button)
 aeza.net#%#//scriptlet('trusted-set-local-storage-item', 'cookie', 'accepted')
 afaforsakring.se#@##CookieConsent
@@ -4461,6 +4462,10 @@ apply.workable.com##div[style*="cookie-consent"]
 applytojob.com###tracking-consent-banner
 appmagic.rocks##cookie-alert
 appnee.com###notification-6413
+apps.dirittopratico.it#$##contenitore { filter: none !important; }
+apps.dirittopratico.it#$##cookieChoiceInfo { display: none !important; }
+apps.dirittopratico.it#@##cookieChoiceInfo
+apps.dirittopratico.it#@##cookieinfo
 aps.org##div[class^="app__cookie-footer"]
 apsecosmetics.com.br,auchan.ro,wakacje.pl,commander.jeep.com.br##.cookiesContainer
 apteka-april.ru##.c-notices
@@ -5296,7 +5301,7 @@ bing.com##.hpn_top_container
 bing.com##.PopinAnimation
 bing.com##body.notif_top > header#b_header #bnp_ttc_div
 bing.com#%#(()=>{if(!location.pathname.includes("/search"))return;const t={attributes:!0,childList:!0,subtree:!0},e=(t,e)=>{for(const n of t){const t=n.target.querySelector(".privacy-statement + .get-started-btn-wrapper > button.inline-explicit");t&&(t.click(),e.disconnect())}},n={apply:(n,o,c)=>{const r=Reflect.apply(n,o,c);if(o&&o.matches("cib-muid-consent")){new MutationObserver(e).observe(r,t)}return r}};window.Element.prototype.attachShadow=new Proxy(window.Element.prototype.attachShadow,n)})();
-bing.com#%#//scriptlet('trusted-click-element', '#bnp_cookie_banner button#bnp_btn_reject', '', '1000')
+bing.com#%#//scriptlet('trusted-click-element', '#bnp_cookie_banner #bnp_btn_reject', '', '1000')
 bingen-ruedesheimer.de#@##cookieConsent
 binhantur.com,mapsofworld.com,moulinex.com.tr###dialog
 binnopharmgroup.ru###cookie_disclamer
@@ -6146,9 +6151,8 @@ chrome.google.com##[role="banner"] > div[class][role="dialog"][aria-labelledby="
 chromeactions.com##footer > div > div
 chromeenterprise.google##.ce-cookie-banner
 chroniclelive.co.uk,mirror.co.uk##.mod-cookiepolicy
-chrono24.*#$#.gdpr-layer { display: none; }
-chrono24.*#$#body:not(#style_important) { overflow: auto !important; padding-right: 0 !important; position: unset !important; }
-chrono24.*#%#//scriptlet('trusted-set-cookie', 'c24-consent', 'AAAAH0Eq')
+chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl#$#.gdpr-layer { display: none; }
+chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl#$#body:not(#style_important) { overflow: auto !important; padding-right: 0 !important; position: unset !important; }
 chsu.ru##.cookies-message-box
 ci.chromium.org###cookie-consent-prompt
 cialdnb.com,sfmlab.com,smutba.se,romatoday.it,digitech.news,passioneprofessionale.it,eurosneakers.shop,marlu.it,evilmartians.com,panizza1879.com,thatparkplace.com,meteo.it,superguidatv.it,ospedalecristore.it,jbweld.com,worx.com,iriparo.com,iubenda.com,desenhosecia.com.br,emporiokit.it,romevaticancard.com,itsagro.it,ilpost.it,lifeanalytics.it,formu1a.uno,daily.dev,bper.it,dilit.it,dryhop.it,otticamassidda.it,androidiani.com,tag24.it,gaspa-milano.it,salentoltremare.com,kfc.it,bialetti.com,b810group.it,maxfelicitasvideo.com,vanillaos.org,kisene.com,avpasion.com,aziendabanca.it,marionlatex.com,spectator.co.uk,indabox.it,edizionibd.it,105.net,abwab.eu,danielesubrizi.it,gelocal.it,today.it,radiomontecarlo.net,r101.it,villacavalierisrl.it,villabetaniaroma.it,villamafalda.com,ambulatoriovillachiara.it,ambulatoriovillachiara.it,tvtech.it,crai-supermercati.it,centromedicoarcidiacono.it,usi.it,laboratoriodiegoangeli.it,analisiroma.it,edizioni.multiplayer.it,pianteweb.com,cioccolatonippon.it,hwupgrade.it,iphoneitalia.com,mediaset.it,arduino.cc,virginradio.it,ilfront.it##body #iubenda-cs-banner
@@ -10364,6 +10368,7 @@ jardinierparesseux.com,maedchenmannschaft.net##.widget_eu_cookie_law_widget
 jarokelo.hu###cookieNoticeProContainer
 jatu.eu###prestapros-cookie-law-container
 jauns.lv##.gdpr-consent
+javmodel.com###example1
 javmodel.com##.m-fab-box
 jaworzynakrynicka.pl###cookies-consent__window
 jaybirdsport.com##.cGDPR_Notice_Community
@@ -11343,6 +11348,7 @@ linternasport.es,sportlampa.at,sportlampa.si,sportlampa.sk,sportlampa.hu,sportla
 linux-info.ru###trumpet_message
 linuxliteos.com###spopupCont
 linztourismus.at#%#//scriptlet('trusted-click-element', '.f__privacy-cookie-manager__actions a[href="privacymanager/acceptOnlyFunctional"]')
+lio-trafic-occitanie.fr##.cdk-overlay-container > div.cdk-overlay-backdrop-showing
 lionair.co.id##.applink
 lionsgateplus.com,starz.com#%#//scriptlet('trusted-click-element', 'button[class*="CookieBanner_accept-button"]')
 liontuning-carparts.de#$##cookie-banner { display: none !important; }
@@ -12816,7 +12822,6 @@ netto-online.de###cookie-stick2
 netto.de##.cookie-message-blocking-background
 netvagas.com.br##.wa
 netwrix.com##.cookie-information-cont
-netzwelt.de#%#//scriptlet('trusted-click-element', 'h2 ~ div[class^="_"] > div[class^="_"] > a[rel="noopener noreferrer"][target="_self"][class^="_"]:only-child')
 neuca.pl,aptekarski.com,swiatzdrowia.pl,komandacard.ru,mitele.es,mrfdev.com##.cookies-consent
 neuepresse.de#%#//scriptlet('trusted-click-element', 'button[title="Einwilligen und weiter"]')
 neural.love##.no-biscuit-wrapper
@@ -14750,6 +14755,7 @@ remarkable.com##div[data-cy="cookie-consent-banner-info-only"]
 remarkable.com##div[data-cy="cookiebar"]
 remarkable.com#$#body { overflow: auto !important; }
 remarkable.com#$#div[data-cy="cookie-consent-banner"] { display: none !important; }
+remarkable.com#$?#.ark-dialog--prevent-body-scroll { remove: true; }
 remember.de#$##trocookie-cookiebox { display: none !important; }
 remember.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 remitly.com#%#//scriptlet('trusted-set-cookie', 'cookie_consent', '000')
@@ -14829,6 +14835,7 @@ rhein-zeitung.de###mrvCookieBanner
 rheinbahn.de###cookiefrage
 rheuma-liga.de#@#.cc-window[aria-label="cookieconsent"]
 ria.com##.c-notifier-container
+riamoneytransfer.com##main > div[class]:has(> div[class][style*="opacity"]:only-child)
 riamoneytransfer.com#?#main > section + div[class^="sc-"][data-projection-id]:has(> div[class^="sc-"][data-projection-id] > div[class^="sc-"] > button[data-projection-id]:contains(cookie))
 riccos-camera.de###cookieholder
 ridestore.com##div[class^="CookieBanner-module--cookieBanner--"]
@@ -18974,7 +18981,6 @@ _eu_cookie_
 ||channelpartner.de/messaging.js
 ||check24.net/ajax/modal/cookie-wall/
 ||choices.consentframework.com^$third-party
-||chrono24.*/cookie/*
 ||citroen-club.it/forum/java/cookie.js
 ||cleverpush.com^$third-party
 ||clickio.mgr.consensu.org^$third-party
@@ -19140,6 +19146,7 @@ _eu_cookie_
 ||datasign.co/js/opnWidget.js
 ||dcnews.ro/sm-
 ||dealabs.com/assets/*/CookiesMessage
+||default.beam-emea.prd.api.max.com/legal/*/consentExperience?
 ||delivery.consentconverter.com/delivery/cmp.php
 ||delivery.consentmanager.net^
 ||deutsche-apotheker-zeitung.de/_Resources/Static/Packages/CRON.DazSite/js/cookie-approval.js
@@ -19208,6 +19215,7 @@ _eu_cookie_
 ||fumblingform.com^$third-party
 ||fundacjamare.pl/*/assets/javascripts/cookies.min.js
 ||fundingchoicesmessages.google.com^$domain=mobirank.pl|hotdeals.com|coderoad.ru|hardwaresfera.com|namba.keizai.biz|antik-war.lv|ipabox.net|nzherald.co.nz|nmac.to|smart-flash.jp|obserwatorgospodarczy.pl
+||fundingchoicesmessages.google.com^$domain=picmix.com
 ||fusacq.com/javascript/*/jquery.fancybox-*.js
 ||futura-sciences.com/clientscript/push.js
 ||ga.de/assets/consent/consent-page.js
