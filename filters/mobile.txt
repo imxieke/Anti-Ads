@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-07 16:30:55 RPC
+! Updated: 2025-05-08 00:29:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6169,6 +6169,7 @@ briian.com##.entry-data-wrapper > div[style="display:table; margin: 0 0 15px 0;"
 briian.com##.hentry-gad
 briian.com##.sidebar-widget-area > #custom_html-6
 briian.com##div[class^="hentry-gad-mobile"]
+bristol.ru##.first-order-modal
 broadwayworld.com##.disnep-area > div[style^="width:"]
 brow2ing.com##iframe[src*="//brow2ing.up.seesaa.net/image/loopadspone.html"]
 brow2ing.com##iframe[src^="//brow2ing.up.seesaa.net/"]
@@ -17865,6 +17866,7 @@ rat.xxx##.under-player-adv
 rat.xxx,zbporn.*##.mob-nat-spot
 rat.xxx,zbporn.*##.under-video-spot
 ratedxbiz.com##.ima,.rmedia,.sppc
+raycast.com##div[class^="GlobalBanner"]
 raysigorta.com.tr#$#.modal { display: none!important; }
 raysigorta.com.tr#$#.modal-backdrop { display: none !important; }
 raysigorta.com.tr#$#.modal[aria-labelledby="myModalLabel"] { display: none !important; }
@@ -21208,6 +21210,7 @@ wccftech.com##.bg-square-mobile
 wccftech.com##.bg-square-mobile-without-bg
 wcjbb.com###frame37boCx
 wcjbb.com###frameo834m9
+wco.tv###sidebar_today > div[style^="float:right;"]
 wd.znds.com##.dxb_bc
 wdzj.com###ggao-article-bottom
 wdzj.com##.ggao-everyone-rebeat

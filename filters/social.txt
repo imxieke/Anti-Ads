@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-07 16:30:55 RPC
+! Updated: 2025-05-08 00:29:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10871,6 +10871,7 @@
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co,searchengineland.com,spaceexplored.com##.google-news-link
 9to5google.com,9to5mac.com,dronedj.com,electrek.co###after_disclaimer_placement
 9to5linux.com##.bm-social-top
+9to5linux.com##article > div[class^="9to5-linux-social bm-social-top"]
 9xbuddy.com##div[dir="ltr"] > div > section.night-black.container.bg-grey-lighter.sm\:block
 @@/angular-facebook.js
 @@/cdn-cgi/pe/bag2?*connect.facebook.net$domain=forwardprogressives.com|onhax.net|opensubtitles.org|viralthread.com|youngcons.com
@@ -12421,7 +12422,6 @@ bie-dro.de#@#.header-social
 bier.by,aero.de,wrc.com,raetsel-loesungen.de,niederlausitz-aktuell.de,ffn.de,nordbayern.de,dlh.net###socialshareprivacy
 big.az,sonxeber.az##.fbbigshare
 bigbangnews.com##.follow-fb-fixed
-bigbangnews.com##.share-me
 bigbash.com.au##.social-block-news-page
 bigissue.com##.-article-social-container
 bigissue.com##.-tags-social
@@ -15268,6 +15268,7 @@ f1i.com##.footer-right
 f5.com##.addthis_share
 f5haber.com##.col-md-5 .social-icons
 faberlic.com#@#.fb-page
+facebook.com##._8_qt
 facebook.com#@##fb_header
 facebook.com#@##share_feed
 facebook.com#@#.post-fb-like
@@ -15409,7 +15410,7 @@ ffviiec.com##section[class^="detail_styles_share"]
 fia.com###page-pre-footer
 fiat.com.tr##.NoJSSMContainer
 fiba.basketball###social-promo-flyin
-fibery.io#@#.sharing_panel
+fibery.io#@#.sharing_button
 fibs.it##.pp-secondary-share-link
 ficbook.net###fanfic-author-actions
 ficbook.net#@#.social-networks
@@ -16663,7 +16664,6 @@ haberself.com##.share-box-new
 haberturk.com##.bottomSocialBtns
 haberturk.com##.news-detail-featured-social-icons
 haberturk.com##.socialBoxWrap
-haberturk.com##.widget-share
 haberturk.com##.widget-social-subscribe
 haberturk.com##div[id^="socialBox"] a[onclick^="window.open("]
 habr.com##.post-stats__item_share
@@ -18138,7 +18138,6 @@ kinoz.store,tehno-rating.ru##.fshare
 kinozal.me,kinozal.guru,kinozal.tv#?#.mn_wrap li.tp:contains(Опубликовать ссылку)
 kinro.ntv.co.jp###twitter_box
 kinsta.com##.share__text
-kinsta.com,bombardir.ru##.widget-share
 kion.ru#?#div.title:contains(/^Поделиться с друзьями$/)
 kioskpolis.pl#@#.footer__socials
 kirin.co.jp##.mod-box-share-sns
@@ -18174,7 +18173,6 @@ kleinlercher.me#@#.social_share
 kleo.ru###tabs_wrapper
 klerk.ru##.actions__share
 klerk.ru##.social-popup-backdrop
-klerk.ru,blog.domclick.ru##button[aria-label="Поделиться"]
 klick.ee##.web-share
 klix.ba##.grid.grid-cols-4.gap-0.border.mx-auto.dark\:border-gray-600
 klix.ba##.shareovanje > a.fb
@@ -19302,6 +19300,7 @@ marvel.com##div.social-links
 marvel.com##footer > .social-bar-container
 masala.com,koinfinans.com##.entry__share
 mash.ru##div[class*="styles_shares"]
+mash.ru##div[class^="styles_share_"]
 mashable.com##.article-shares-links
 mashable.com##.article-shares-stub
 mashable.com##.follow-channel
@@ -21128,6 +21127,7 @@ onlain-multiki.ru,tvfru.net##.fancybox-wrap
 online-bloknot.ru#?#.col-xs-12 > span:contains(/^Поделиться:$/)
 online-convert.com,hostinger.com.ua,gazetaprawna.pl,myseldon.com,forsal.pl,tengrinews.kz,ellegirl.ru,dziennik.pl,auto-swiat.pl,komputerswiat.pl,onet.pl,plejada.pl,przegladsportowy.pl,countrylife.co.uk,rt.com,haber365.com,haber365.com.tr,livewidget.net,donaukurier.de##.social-container
 online.fivefoxes.co.jp##.c-button-list
+online.metro-cc.ru##.product-page-social__button
 online.ua##.share-icons-sticky
 onlinefanatic.com##.sidebar > #text-17.widget
 onlinegamer.jp###pageToolbarBottom
@@ -21267,6 +21267,7 @@ otakomu.jp,sabah.com.tr,browserleaks.com##.twt
 otakumode.com##.p-product-detail__social-buttons
 otakustv.com#?#.mb-0 > span.ico-eps:has(> a[href="#VerifyShare"])
 otakuusamagazine.com###geekmag-go-to-share
+otakuusamagazine.com###geekmag-share-buttons
 otakuusamagazine.com##.geekmag-share-buttons
 otempo.com.br##.botao-google-news
 otempo.com.br##.btn-whatsapp
@@ -22402,6 +22403,7 @@ redhat.com##.rh-social-share--component
 redheadsound.studio#?#.col-side > div.side-block > div.side-block__title:has( > p:contains(МЫ ВКОНТАКТЕ))
 redice.tv###s1
 redice.tv###s2
+redis.io,haberturk.com,kinsta.com,bombardir.ru##.widget-share
 redkiwiapp.com##article > .hidden:has(#copy-link-button)
 redmondpie.com###likeThisPostProminent
 redpost.com.ua##.fb-share-button-custom
@@ -22628,6 +22630,7 @@ rollingstone.com.br##.social_content_article
 rollingstone.it##.l-article-header__block--share
 roma.bakeca.it###shareArea > div.share__social
 roma.bakeca.it###shareArea > h3[class]
+romaniatv.net,bigbangnews.com##.share-me
 romaniatv.net,space.com#@#.search-social
 romir.ru#?#.news-single-item > div:has(> b:contains(Поделиться в соцсетях:))
 romper.com##.qyh
@@ -23175,6 +23178,7 @@ shopstaff.jp##.mb-8.mt-6
 shorturl.at#?#body > main > section#content:has(> div.socialnetworkbox)
 shostka.info,sumypost.com##.ni-share
 shostka.info,sumypost.com##.to-telegram
+shot-news.ru,klerk.ru,blog.domclick.ru,wink.ru##button[aria-label="Поделиться"]
 shouginews.blog.jp,chansoku.com,kanpo-kanpo.blog.jp,yurukuyaru.com##.article-social-btn
 shoutmeloud.com##.sml_social_followers_count
 show-online.tv##.over_share
@@ -26213,7 +26217,6 @@ wine-searcher.com##span[data-target="#modal-share"]
 winfuture.de###socialprivacy
 winfuture.de##.social_link_share
 winfuture.de,fakty.ua,facenews.ua##.gnews
-wink.ru##button[aria-label="Поделиться"]
 winlined.ru##.article-detail-social
 winnipegfreepress.com##.interactive
 winnote.ru#?#article > .news-text > div:has(> .ya-share2)

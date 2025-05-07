@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-05-07 16:30:55 RPC
+! Updated: 2025-05-08 00:29:05 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -59,7 +59,7 @@ bjcathay.com
 btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
 cad.youku.com
 cctv.com###bgAd_div
-cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+cctv.com,douyin.com,douyu.com##+js(aeld,/visibilitychange|pagehide/)
 cdn.g2ak5.com[Adblock Plus 2.0]
 cm.l.qq.com
 dandanzan.*,nnyy.in,nunuyy5.com##video:style(max-height:100%!important)
@@ -77,7 +77,7 @@ douyu.com,huya.com##a[href^="https://g.wan."]
 g.huya.com
 gdt.qq.com
 go.sohu.com
-huya.com###hy-ad,#hy-ab,#huya-ab
+huya.com##.huya-ab,#hy-ad,#hy-ab,#huya-ab
 huya.com##a[href^="https://wan."]
 ipinyou.com
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
@@ -124,10 +124,10 @@ www.bilibili.com##.pop-live-small-mode
 www.douyu.com##.ChargeTask+div, .HeaderGif-right, .HeaderGif-left
 www.douyu.com##.is-fullScreenPage .ToTopBtn, .multiBitRate-da4b60
 www.huya.com###public-screen-ab
-www.huya.com##.huya-ab
 www.huya.com##.player-banner-gift,#player-marquee-wrap
 www.huya.com##.room-footer,#player-subscribe-wap,#player-gift-wrap
 www.huya.com##.sidebar-banner, a.J_g_resource
+www.iqiyi.com##div[class^="film-feed_filmFeed_"]:has(>div>a[href^="https://wy.668wan.com"])
 www.iyf.tv##.dabf,div.pggf,vg-pause-f
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
