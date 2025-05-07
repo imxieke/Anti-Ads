@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-07 00:27:11 RPC
+! Updated: 2025-05-07 09:49:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4137,8 +4137,7 @@ alibaba.com###GDPR-cookies-notice
 alibaba.com##.GDPR-cookies-notice-wrap
 aliexpress.*###gdpr-new-container
 aliexpress.com,aliexpress.us###header-float-banner
-aliexpress.ru###ae-ru-privacy-banner
-aliexpress.ru##.styles_wrapper__3isR2
+aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
 alimar.com.tr###terms-and-conditions
 aliorbank.pl###cookieId
 alivia.org.pl###elementor-popup-modal-1629
@@ -13326,7 +13325,7 @@ oneplus.com##.side-download-dialog
 onesports.ph##.cookies-notif
 onetwotrip.com##div[data-locator="cookie-policy"]
 onetwotrip.com#?#.container--inplace:has(> div > a[href*="-cookie-"])
-onexgroup.pl,aliexpress.ru##[class*="PrivacyPolicyBanner"]
+onexgroup.pl##[class*="PrivacyPolicyBanner"]
 oney.pt#$##cookies-flow-container { display: none !important; }
 oney.pt#$#body.prevent-scroll { overflow: auto !important; }
 oney.pt#@#.cookies-wrapper
@@ -14330,7 +14329,6 @@ promobit.com.br#?##__next > div > div:has(> p > a[href="https://www.promobit.com
 promod.de##.content_cookies
 promods.net##.tibrr-cookie-consent-container
 promospro.de,allecodes.de###closeGdprContent
-promotion.aliexpress.ru###policyContainer
 promotionbasis.de##body > #c_test_box
 pronews.com,pronews.jp##.cookieGate
 pronovabkk.de#%#//scriptlet('set-cookie', 'acceptCookieDisclaimer', 'true')

@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-07 00:27:11 RPC
+! Updated: 2025-05-07 09:49:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16064,6 +16064,7 @@ news18.com##.closestickybtn
 news18.com##.LiveBlog_outer > div[style]:has(> div[style] > div.nw18-dfp-ad)
 news18.com##.pwa_add
 news18.com##.topAddArticle
+news18.com##article > div.lazyload-wrapper:has(> div[data-lazy="ads"])
 news18.com##div[class*="Footer_closestickybtn_"]
 news18.com##div[class*="install_app"]
 news18.com##div[class*="_mobile_header_ad_"]
@@ -39053,6 +39054,7 @@ _zhike.htm
 ||ifwe-d.openx.net^$important
 ||ifxqubw.icu^
 ||ifyoucouldjobs.imgix.net^$important
+||ig-store.ru/publications/get-banners
 ||ig65.vip^
 ||ig66.vip^
 ||ig67.vip^

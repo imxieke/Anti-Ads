@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-05-07 00:27:11 RPC
+! Updated: 2025-05-07 09:49:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26448,8 +26448,6 @@ aliciagame.com##.region-inner > #block-system-main ~ .block
 aliexpress.*###gdpr-new-container
 aliexpress.com##.aliexpress-notice
 aliexpress.com##.ui-mask, .gdpr-dialog-class, #j-aliexpress-notice, #container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2), #voyager-gdpr, .site-notice-header
-aliexpress.ru###ae-ru-privacy-banner
-aliexpress.ru##.styles_wrapper__3isR2
 aliexpress.ru##div[class*="PrivacyPolicyBanner"]
 aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
 aliexpress.ru,bondfaro.com.br,buscape.com.br,ocean-archive.org,onexgroup.pl,quebarato.com.br,sketch.pixiv.net,zoom.com.br##div[class^="PrivacyPolicy"]
@@ -45851,7 +45849,7 @@ onet.pl#@#.cmp-app_gdpr
 onetravel.com##.gdpr-wraper
 onetwotrip.com##div[data-locator="cookie-policy"]
 onetwotrip.com#?#.container--inplace:has(> div > a[href*="-cookie-"])
-onexgroup.pl,aliexpress.ru##[class*="PrivacyPolicyBanner"]
+onexgroup.pl##[class*="PrivacyPolicyBanner"]
 onexstore.pl##+js(set-local-storage-item, marketing, false)
 onexstore.pl##+js(set-local-storage-item, technical, true, , reload, 1)
 onexstore.pl,revanced.app##+js(set-local-storage-item, analytics, false)
@@ -47938,7 +47936,6 @@ promod.de##.content_cookies
 promods.net##.tibrr-cookie-consent-container
 promosejours.com##.privacy
 promospro.de,allecodes.de###closeGdprContent
-promotion.aliexpress.ru###policyContainer
 promotionbasis.de###c_test_box
 promotionbasis.de##body > #c_test_box
 pronews.com,pronews.jp##.cookieGate
