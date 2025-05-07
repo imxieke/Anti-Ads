@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-07 09:49:01 RPC
+! Updated: 2025-05-07 16:30:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3819,6 +3819,7 @@ abetterrouteplanner.com##.r-13awgt0 > div[style].r-18u37iz.r-1awozwy.r-1dzdj1l
 abgreyd.servis2010.ru###uni-notification
 abi.de#$##mrm_gdpr { display: none !important; }
 abi.de#$#body { overflow-y: auto !important; }
+abinbevefes.ru,zuiderzeemuseum.nl,wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonStatistics, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 ableton.com##.test-cookie-banner
 ableton.com##.test-cookie-notification
 ably.com##.ui-cookie-message
@@ -10502,7 +10503,6 @@ jpf.go.jp###cookie_agreement_panel
 jpfbs.com,daicel.com##.js-gdpr-popup
 jpg2png.com,gtaweb.eu#$#body div.fc-message-root { display: none !important; }
 jpsearch.go.jp,rtl.hr,diggysadventure.com###gdpr-modal
-jrt.co.jp,fbc.jp,fct.co.jp,teny.co.jp,fmf.co.jp###gdpr_c
 jrtbinm.co.jp,mri.co.jp###gdprArea
 jtbank.cz###apploud-consent
 jti.co.jp##.p-top_cookie-agreement
@@ -12387,7 +12387,7 @@ mostwantedmodels.com###cookie-top
 motherless.com##.motherless-cookie-wrapper
 motherless.com,einprozent.de##.cookie-accept-wrapper
 motionarray.com##.site-accept-tos-warning
-moto100.de,gls-info.nl,abinbevefes.ru,intersporttwinsport.nl,bebetei.ro,promotion.teqcycle.com,evs.ee,abda.de,globetrotter.de,knappschaft.de,statisticshowto.com,lootboy.de,adventuregamers.com,benzinekosten-berekenen.nl,deine-tierwelt.de,jofogas.hu,wickr.com###CybotCookiebotDialog
+moto100.de,gls-info.nl,intersporttwinsport.nl,bebetei.ro,promotion.teqcycle.com,evs.ee,abda.de,globetrotter.de,knappschaft.de,statisticshowto.com,lootboy.de,adventuregamers.com,benzinekosten-berekenen.nl,deine-tierwelt.de,jofogas.hu,wickr.com###CybotCookiebotDialog
 motoblouz.com,zing.me,reformagkh.ru,aspiegel.com,swish.nu,coeur-de-lion.org,enroll.virginpulse.com,taschenkaufhaus.de,golotto.de##.cookie-banner-container
 motocms.com##.cookie_block
 motointegrator.de#$##fancybox-overlay { display: none !important; }
@@ -12415,6 +12415,7 @@ motorradonline.de,menshealth.de##.v-A_-cookie__monster
 motorsport.com##.ms-footer-message.active
 motorsport.uol.com.br##.ms-footer-messages
 motospartan.com.tr,maxrealt.ru,oneplus.com,pegem.net,download-manager.online##.cookie-bottom
+motostacja.com##div[x-data*="consentModal"]
 mous.co###cookies-banner-container
 movavi.com##.top-popup-gdpr
 movavi.com,movavi.ru###toppopupgdpr
@@ -14868,7 +14869,9 @@ riverisland.com#$#html { position: static !important; overflow: auto !important;
 riverisland.de###cookie-notifcation-banner
 rjwprm.ezdrowie.gov.pl#%#//scriptlet('trusted-set-cookie', 'user_cookie_consent', '2')
 rjwprm.ezdrowie.gov.pl#@##acceptCookie
+rkc-kochi.co.jp,jrt.co.jp,fbc.jp,fct.co.jp,teny.co.jp,fmf.co.jp###gdpr_c
 rkeeper.ru##.cookies-message-wrapp
+rkf.online##.cookie-modal
 rktbns.de#%#//scriptlet('prevent-setTimeout', 'arcticmodal')
 rlptoday.de,gutefrage.net#%#//scriptlet('trusted-click-element', '#cmpbntyestxt')
 rmf24.pl,rmfclassic.pl,rmfmaxx.pl,rmf.fm,rmfmaxxx.pl###gr-consent-layer-area
@@ -18776,7 +18779,6 @@ zsw-bw.de,daa-kassel.de,daskrankenhaus.de#$#body { overflow: visible !important;
 zte.com.cn,htm.sf-express.com##.cookieCon
 zuckerjagdwurst.com#$##gatsby-focus-wrapper > div[class^="index-module--backdrop"] { display: none!important; }
 zuckerjagdwurst.com#$?##gatsby-focus-wrapper > div[class^="index-module--wrapper"]:has(div:contains(/^Wir verwenden Cookies!$/)) { display: none!important; }
-zuiderzeemuseum.nl,wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonStatistics, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 zumub.com###bottom_cookie
 zurich.co.uk###static-cookie-policy-message
 zus.pl###main-cookie-dialog

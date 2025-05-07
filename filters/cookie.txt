@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-05-07 09:49:01 RPC
+! Updated: 2025-05-07 16:30:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25667,6 +25667,7 @@ abi.de#$#body { overflow-y: auto !important; }
 abi.de,studienwahl.de##+js(set-cookie, mrm_gdpr, 1)
 abi.de,studienwahl.de##+js(set-cookie, necessary_consent, accepted)
 abicrash.com###cookie
+abinbevefes.ru,zuiderzeemuseum.nl,wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonStatistics, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 ablebits.com,adsimple.at,aussenrollo.de,bund-naturschutz.de,cc-egov.de,e-infra.com,gesundheit-nds.de,goruck.com,ionos-group.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdorf.at,lightningmaps.org,malaysiaairlines.com,mingpao.com,na-bibb.de,rebinstitute.com,republicbharat.com,republicworld.com,sf311.org,tiom.pl,wedolit.eu,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
 ablefy.io###ps-cookie-banner-wrapper
 ableton.com###biscuits-overlay
@@ -40123,7 +40124,6 @@ jquery.cookie.policy.min.js^
 jquery.cookiepol.js^
 jquery.eu-cookie-consent.min.js^
 jquery.smartCookie.min.js^
-jrt.co.jp,fbc.jp,fct.co.jp,teny.co.jp,fmf.co.jp###gdpr_c
 jrtbinm.co.jp,mri.co.jp###gdprArea
 js.cookietagmanager.net
 js.driftt.com$domain=zenroom.org|ikonltd.co.uk
@@ -43971,7 +43971,7 @@ motionvfx.com##.cookies-modal
 moto-car.com.pl###privacy-info-container
 moto-opinie.info###colorbox, #cboxOverlay
 moto.com.br##.chakra-portal
-moto100.de,gls-info.nl,abinbevefes.ru,intersporttwinsport.nl,bebetei.ro,promotion.teqcycle.com,evs.ee,abda.de,globetrotter.de,knappschaft.de,statisticshowto.com,lootboy.de,adventuregamers.com,benzinekosten-berekenen.nl,deine-tierwelt.de,jofogas.hu,wickr.com###CybotCookiebotDialog
+moto100.de,gls-info.nl,intersporttwinsport.nl,bebetei.ro,promotion.teqcycle.com,evs.ee,abda.de,globetrotter.de,knappschaft.de,statisticshowto.com,lootboy.de,adventuregamers.com,benzinekosten-berekenen.nl,deine-tierwelt.de,jofogas.hu,wickr.com###CybotCookiebotDialog
 motoblouz.*##+js(set-cookie, accept_cookies_rgpd, 1, , reload, 1)
 motoblouz.com,zing.me,reformagkh.ru,aspiegel.com,swish.nu,coeur-de-lion.org,enroll.virginpulse.com,taschenkaufhaus.de,golotto.de##.cookie-banner-container
 motocms.com##.cookie_block
@@ -44021,6 +44021,7 @@ motorsportz.nl##.overlay_div, .alert_wrapper
 motorvision.tv##.notice
 motoscout24.ch##main ~ .global-banner
 motospartan.com.tr,maxrealt.ru,oneplus.com,pegem.net,download-manager.online##.cookie-bottom
+motostacja.com##div[x-data*="consentModal"]
 mots-croises.ch###askCk
 mottavisconti.mi.it##.wp-exclude-emoji
 motuk.com###csent10
@@ -49091,7 +49092,9 @@ riversidecompany.com,tcgplayer.com##.compliance-banner
 rjwprm.ezdrowie.gov.pl#%#//scriptlet('trusted-set-cookie', 'user_cookie_consent', '2')
 rjwprm.ezdrowie.gov.pl#@##acceptCookie
 rk.dk###lbmodal-overlay, #lbmodal
+rkc-kochi.co.jp,jrt.co.jp,fbc.jp,fct.co.jp,teny.co.jp,fmf.co.jp###gdpr_c
 rkeeper.ru##.cookies-message-wrapp
+rkf.online##.cookie-modal
 rktbns.de#%#//scriptlet('prevent-setTimeout', 'arcticmodal')
 rkw-kompetenzzentrum.de###rkw-infolayer
 rlptoday.de,gutefrage.net#%#//scriptlet('trusted-click-element', '#cmpbntyestxt')
@@ -52428,6 +52431,7 @@ taschenhirn.de#%#//scriptlet('remove-class', 'has-cookie-consent', 'body')
 taschenhirn.de#@#.cookie-notice:not(body):not(html)
 tase.co.il##tase-cookies-policy
 taskmanagement24.com###cookiesBlock
+taskus.com,xymogen-sa.co.za,prolocotarquinia.it,epochtimes.nl,chiashake.eu,wb.camra.org.uk,hagagruppen.se,equifab.es,casavaledalama.pt,benejamrefrigeracion.com,dublinhealthscreening.ie,eci.ie,wide-angle.nl,worldairlineawards.com,mailhilfe.de,lesfruitsetlegumesfrais.com,lbms.cz,atalmedial.nl,ahepaseniorliving.org,atw.jp,kallidus.com,abels.co.uk,mesterslagteren.dk,lyndonroofing.co.uk,raymond-weil.us,raymond-weil.com,ames-tools.co.uk,camra.org.uk,ukbrewerytours.com,sk-nic.sk,worldcupchampionships.com,arturofuente.com,protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi##+js(set-cookie, viewed_cookie_policy, yes, , reload, 1)
 tass.ru##.CookieAcceptance_container__DbL1S
 tass.ru##.Cookies_container__d0PFT
 tass.ru##div[class*="Cookies_container"]
@@ -54267,7 +54271,7 @@ ubs.com##.lightbox__container
 ubs.com##.privacysettings__banner
 ubuntu-it.org###\5f ubuntu-it_cookie_policy
 ubuntu-it.org###_ubuntu-it_cookie_policy
-ubuntu.com##+js(aeld, DOMContentLoaded, js-revoke-cookie-manager)
+ubuntu.com##+js(set-cookie,  _cookies_accepted, essential)
 ubuntu18.com##.footer > div.notice
 ubuntu18.com##.notice
 uc.pt##+js(set-local-storage-item, userDeniedCookies, 1)
@@ -56570,7 +56574,6 @@ xxxshemaleporn.com,gayhits.com,gaypornvideos.xxx,sextubespot.com##+js(set-cookie
 xxxshemaleporn.com,gayhits.com,gaypornvideos.xxx,sextubespot.com##+js(set-cookie, splash_Page_Accepted, true)
 xxxtik.com##.ad-modal__content
 xxxvogue.net##body > div:not([id]):not([class])
-xymogen-sa.co.za,prolocotarquinia.it,epochtimes.nl,chiashake.eu,wb.camra.org.uk,hagagruppen.se,equifab.es,casavaledalama.pt,benejamrefrigeracion.com,dublinhealthscreening.ie,eci.ie,wide-angle.nl,worldairlineawards.com,mailhilfe.de,lesfruitsetlegumesfrais.com,lbms.cz,atalmedial.nl,ahepaseniorliving.org,atw.jp,kallidus.com,abels.co.uk,mesterslagteren.dk,lyndonroofing.co.uk,raymond-weil.us,raymond-weil.com,ames-tools.co.uk,camra.org.uk,ukbrewerytours.com,sk-nic.sk,worldcupchampionships.com,arturofuente.com,protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javea.com,chinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi##+js(set-cookie, viewed_cookie_policy, yes, , reload, 1)
 y8.com###policy-validation
 ya.*##.gdpr-popup-v3-main
 yaani.com.tr##div[style^="align-items"][style*="z-index: 999;"][style*="background: rgb(255, 255, 255);"]
@@ -56997,7 +57000,6 @@ zuckerjagdwurst.com#$?##gatsby-focus-wrapper > div[class^="index-module--wrapper
 zuendstoff-clothing.de##.ConsentOverlay, .ModalBackground
 zuerichmarathon.ch##.div-block-165
 zuerilaufcup.ch##+js(set-cookie, disclaimeragreed, true)
-zuiderzeemuseum.nl,wells.pt,vcg.de,woolworth.de,woolworth.pl,woolworth.at#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonPreferences, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonStatistics, #CybotCookiebotDialog input#CybotCookiebotDialogBodyLevelButtonMarketing, #CybotCookiebotDialog button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 zumba.com##.privacy-policy
 zumub.com###bottom_cookie
 zurich.co.uk###opnotification

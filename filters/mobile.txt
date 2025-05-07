@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-07 09:49:01 RPC
+! Updated: 2025-05-07 16:30:55 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2257,7 +2257,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -5796,9 +5796,9 @@ bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
+bilibili.com#$#.container > .feed-card:has(>.bili-video-card.is-rcmd > div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text)  { position: absolute!important; left: -4000px!important; }
 bilibili.com#$#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { position: absolute !important; left: -3000px !important; }
 bilibili.com#$?#.container > .feed-card:has(> .bili-video-card.is-rcmd > div.bili-video-card__wrap .bili-video-card__stats--icon > path[d*="M16.9122 1.50323C17.4366 1.48358 17.99745 1.54938 18.4701 1.8207C18.9423 2.09168 19.28085"]) { remove: true; }
-bilibili.com#$?#.container > .feed-card:has(>.bili-video-card.is-rcmd > div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#%#//scriptlet('json-prune', 'data.cm_info.ads')
@@ -9321,6 +9321,7 @@ frankenpost.de,crictracker.com,www-kreiszeitung-de.cdn.ampproject.org,dnaindia.c
 frankfurt-airport.com##.fra_js_app_banner
 frdic.com,godic.net##a[onclick*="/ads/"]
 fredmeyer.com#%#//scriptlet('trusted-set-local-storage-item', 'modal_boost_free_trial_p4w1', 'true')
+free-codecs.com##.mobile-header-ad
 free-erobooks.*##.abox
 free-erobooks.*##.pbox
 free-url-shortener.rb.gy#$#body.ReactModal__Body--open { overflow-y: auto !important; }
@@ -12876,7 +12877,6 @@ koooragoal.com###postAD-top
 koreaporn.net##div[class^="bb_mobile"]
 koreatimes.co.kr##div[class^="Detail_ad-container"]
 koreatimes.co.kr##div[class^="Detail_ad-container_"]
-koreatimes.co.kr##div[class^="wrap DetailTaboola_only-"]
 korewaeroi.com##div[style^="margin-left:auto;margin-right:auto; width:300px"]
 koro-pokemon.com##.ad_int
 korrespondent.net##amp-embed[style^="height: 350px;"]
@@ -14907,6 +14907,7 @@ meijumi.net##.couplet_app
 meijumi.net##.widget_metaslider_widget
 meijuniao.com###widget-weixin
 meijuniao.com##.player-ad1
+meijutt.*/js/pcjs/
 meijutt.com##.a960_index
 meijutt.net##.widget-weixin
 meijutt.net#%#//scriptlet('trusted-set-cookie-reload', 'meijutt2024', 'meijutt2025')
@@ -15762,6 +15763,7 @@ nationalheraldindia.com##div[class^="styles-m__mobile-ad__"]
 nationalworld.com##body div[class^="Dailymotion__Wrapper-"]
 nau.ch##div[data-sticky-height="1px"]
 nau.ch##nau-advertisement-lazy
+naughtymachinima.com##.content-recom
 navbharattimes.indiatimes.com##div[id^="div-clmb-ctn"]
 naver.com##._promotionBanner,._banner
 navitime.co.jp###app-dl-frame
@@ -16254,6 +16256,7 @@ nodejs.cn###biz_center
 nodejs.cn###biz_nav
 nodejs.cn###pagead
 nodejs.cn###pagead0
+nodejs.cn#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyObj')
 nodejs.cn#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
@@ -16291,6 +16294,7 @@ novaposhta.ua##.b_banners
 novapost.com###app-header div.app-container.flex:has(> a[href="https://npost.page.link/app"])
 novel.prcm.jp##app-app-promotion-banner
 novel.prcm.jp##app-web-to-app-campaign-banner
+novelba.com##footer div[style^="padding:"]
 novelcool.com##.sus-download-app-box
 novelmultiverse.com##.adace-slideup-slot-wrap
 novinky.cz##.ogm-advert-static
@@ -17084,7 +17088,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -20586,6 +20590,7 @@ u8xs.com##[src^="http://news.9377bh.com/"],[src^="http://news.ja9377.com/"]
 u9yy.com##[width="280px"][heigth="180px"],[style^="height:90px;width:1540px;"],#box
 ua-cinema.com#$#.kinoWrapp { margin-top: 46px !important; }
 ua-football.com###main-menu > div[style^="width: 100%;"][style*="min-height: 90px;"]
+uaa.com##.place_holder_box
 uagna.it##.progressier-install-banner
 ubetween.com##.ast-recom-ad,[style^=" width:640px; height:90px;"],.ssId,div[style=" margin-top:10px;"],[class^="ad_"],.ad
 ubie.app##div[class^="Footer_appInstallBannerContainer"]
@@ -24334,6 +24339,7 @@ _zhike.htm
 ||555ppp777ppp.com^
 ||555x.org/Public/m/script/common.js
 ||55726zubo56686.com^
+||558158.xyz^
 ||5588.tv/js/piaofuImg.js
 ||5598tp.com^$domain=9xav.cc
 ||559gp.com^
@@ -31944,6 +31950,7 @@ _zhike.htm
 ||cdn.tremorhub.com^$important
 ||cdn.tsyndicate.com.fpbns.net^$important
 ||cdn.tsyndicate.com^$important
+||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.unid.go.com^$important
 ||cdn.unityads.unity3d.com^$important
 ||cdn.upthinking.cn^$third-party
@@ -31958,6 +31965,7 @@ _zhike.htm
 ||cdn.wootric.com^$important
 ||cdn.wpm.neustar.biz^$important
 ||cdn.wuyou.ca^
+||cdn.wwads.cn/js/makemoney.js$script,redirect=noopjs,domain=nodejs.cn,important
 ||cdn.xianliao.me^
 ||cdn.xiuting.cc/js/go016.js
 ||cdn.zampdsp.com/static/scripts/
@@ -33974,6 +33982,7 @@ _zhike.htm
 ||dajiadu8.com/17mb/script/gg.
 ||dajiahao10.top^
 ||dajiahao17.top^
+||dajiahao3.top^
 ||dajiahao8.top^
 ||dajiahao9.top^
 ||dajiazhao.com/login/reg.js
@@ -34734,6 +34743,7 @@ _zhike.htm
 ||dnd2.icu^
 ||dngz.net/x/
 ||dnhfi5nn2dt67.cloudfront.net^
+||dnjxds.top^
 ||dnm.scloud.lfengmobile.com^$important
 ||dnn506yrbagrg.cloudfront.net^$important
 ||dnpz123.com^$third-party
@@ -35115,6 +35125,7 @@ _zhike.htm
 ||dxg0070.top/img/
 ||dxp.baidu.com^
 ||dxpmedia.com^
+||dxvfdv.icu^
 ||dxwhyp.com^
 ||dxwksqa.icu^
 ||dxwpedu.me^
@@ -35334,6 +35345,7 @@ _zhike.htm
 ||ebocornac.com^$important
 ||ebooks.localytics.com^$important
 ||ebp.renren.com^
+||ebrid.cn^
 ||ebroktean.com^
 ||ebrun.com/jfile/position/js/*.js
 ||ebs.criteo.com^$important
@@ -35654,6 +35666,7 @@ _zhike.htm
 ||enviousshape.com^
 ||enviousthread.com^
 ||enwuamw.top^
+||enwucnw.top^
 ||eol.cn/e_busi/
 ||eol.cn/e_images/gk/jnc
 ||eol.cn/images/*1000-
@@ -39826,6 +39839,7 @@ _zhike.htm
 ||iqshw.com/d/js/m/thea
 ||iqtestsites.adtech.de^$important
 ||iqtfy.com/upload/vod/620.gif
+||iqtucudfff.com^
 ||iquue.com^
 ||iqz-rtb.startappnetwork.com^$important
 ||iqzn-apac.adnxs.com^$important
@@ -40977,6 +40991,7 @@ _zhike.htm
 ||klmohbk.icu^
 ||klog.hiido.com^$important
 ||kloojzn.icu^
+||klvt.cn^
 ||kmaa45.com^
 ||kmf.com/da/do
 ||kmgfjc.cn^
@@ -42908,7 +42923,6 @@ _zhike.htm
 ||meijucang.com/js/pop/
 ||meijuck.com/js/dfw.js
 ||meijumi.vip/wp-content/plugins/dreamgrow-scroll-triggered-box/
-||meijutt.*/js/pcjs/
 ||meijutt.com/xieziAD.jpg
 ||meijutt.tv/js/layer/mobile/layer.
 ||meijutt.tv/js/pcjs/alltop_960_1.js
@@ -43053,6 +43067,7 @@ _zhike.htm
 ||mfadsrvr.com^
 ||mfav88.com/yinzi/
 ||mfemiac.icu^
+||mfkfkhfhmfkfkhfh.top^
 ||mft1.inskinad.com^$important
 ||mg.32r.com^
 ||mg.glwxw.net^
@@ -44022,6 +44037,7 @@ _zhike.htm
 ||nativo.openadid.adnxs.com^$important
 ||naturalnews.com/Images/NaturalNews-App-
 ||naturheilkunde.cleverpush.com^$important
+||naughtymachinima.com/images/banners/
 ||naukreatn.com^
 ||naupsithizeekee.com^
 ||nav.browser.miui.com^
@@ -47041,6 +47057,7 @@ _zhike.htm
 ||qsearch.media.net^$important
 ||qservz.com^$important
 ||qsko05060mas.com^
+||qsko05061mas.com^
 ||qsoc.cn^
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||qss-client.qq.com^$important
@@ -47620,6 +47637,7 @@ _zhike.htm
 ||rewrwrt4.fun^
 ||rexuebi.com^
 ||reyun.com^
+||rfgsdgg.top^
 ||rfidworld.com.cn/js/a.js
 ||rfidworld.com.cn/js/b.js
 ||rfidworld.com.cn/js/c.html
@@ -54388,6 +54406,7 @@ _zhike.htm
 ||wnstug.xyz^
 ||wnvu.cn^
 ||wnwuame.top^
+||wnwucne.top^
 ||wo685.com^
 ||woaidu.org/images/20180802/3.jpg
 ||wobo888.cc^
@@ -54536,6 +54555,7 @@ _zhike.htm
 ||wtdome.com^$important
 ||wtlive.com^$important
 ||wtraff.com^
+||wtrotilloye.com^
 ||wtroytj33.fun^
 ||wucnmte.top^
 ||wucnwte.top^
@@ -55524,6 +55544,7 @@ _zhike.htm
 ||yg006.com/attachment/js/
 ||yg006.com/attachment/xjdb.jpg
 ||ygdy8.com/js$script
+||yghalathio.com^
 ||ygipjqf.icu^
 ||ygoibya.icu^
 ||ygshu.com/js/h
@@ -55538,6 +55559,7 @@ _zhike.htm
 ||yhdmk.com/111/222.js
 ||yhg28.xyz/js/tongji.js
 ||yhg28.xyz/templates/btbook/js/default.js
+||yhgfsdad.top^
 ||yhimpnr.icu^
 ||yhmeinv.com/mh/
 ||yht7.com/web/assets/js/right.js
