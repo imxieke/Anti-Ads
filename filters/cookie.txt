@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-05-08 09:49:37 RPC
+! Updated: 2025-05-08 16:30:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23647,7 +23647,7 @@
 10haber.net,tele1.com.tr###sa_cookie_wrapper
 10khits.com##cloudflare-app[app="welcome-bar"]
 112press.hu###cookie-law
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##+js(set-session-storage-item, UMP_CONSENT_NOTIFICATION, true)
+116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##+js(set-local-storage-item, UMP_CONSENT_NOTIFICATION, true)
 116.ru,14.ru,161.ru,164.ru,173.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#%#//scriptlet('set-local-storage-item', 'UMP_CONSENT_NOTIFICATION', 'true')
 116117.de,kbv.de###dialog_layer
 116117.de,kbv.de##.layer-cookie
@@ -29637,6 +29637,7 @@ brainhub.eu,invoke.com,whaletv.com##.fs-consent_component
 brainly.com.br##.brn-cookie-policy-wrapper
 brainly.com.br##.section--3Yobl
 brainpop.com###announcment_alert
+brainstation.io##div[data-cookie-notification]
 braintreepayments.com###gdprComponent
 brak.de###cookieman-modal
 brake-eng.com##.gl-cm
@@ -31035,6 +31036,7 @@ civetta.tv###ecl-notice
 civey.com###__next > div[class^="notifications"]
 civey.com##.notifications-module_notificationContainer_3zCTN
 civey.com##div[aria-live="polite"]
+civilim.com,slazenger.com.tr###ucookie-container
 civilpetition.de,freiewelt.net###cmmodal
 civilservicejobs.service.gov.uk###csr-cookie-message
 civilsociety.co.uk##.announcement-banner
@@ -31454,6 +31456,7 @@ commsec.com.au,soundcloud.com##.announcements
 community.creative-assembly.com###privacy-policy-20180518
 community.creative-assembly.com##+js(set-cookie, consent_cookies, 1)
 community.flutterflow.io##.cookie-concent-popup
+community.goodsam.com,netflix.com##div[data-testid="CookieBanner"]
 community.hero-wars.com##.disclaimer-overlay
 community.hubspot.com###hs-banner-parent
 community.icann.org###footer-banner
@@ -38076,7 +38079,6 @@ hellowatt.fr###cookie-modal__container
 helmet.fi##.notification, .notifier_warning
 helmut-fischer.com##+js(set-cookie, cookie-level-v4, 0)
 helmut-fischer.com#%#//scriptlet('trusted-set-cookie', 'cookie-level-v4', '3,2,1,0')
-helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
 help.cosmote.gr#$#body { overflow: auto !important; }
 help.cosmote.gr#$#cookie { display: none !important; }
 help.instagram.com###cookie-policy-banner
@@ -38823,6 +38825,7 @@ ibo.org##.CookieChecker
 iboysoft.com###user_popup
 iboysoft.com##.user_popup
 ibp.org.br###ibp-container-footer
+ibs.org.pl,helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
 ibutikk.no##.cookies-message_old
 ibuypower.com###cookies-notify
 ibuypower.com##+js(set-cookie, AcceptUseCookie, Accept)
@@ -44818,7 +44821,6 @@ netflix-nederland.nl##body > div[class^="app"]
 netflix.com###cookie-disclosure
 netflix.com###uma > div > .message
 netflix.com##.cookie-disclosure-visible
-netflix.com##div[data-testid="CookieBanner"]
 netflixinbelgie.be##body > div[class^="app"]
 netflixlovers.it###cs_container
 netgear.com##.ePTdMY
@@ -47364,6 +47366,7 @@ pocketgamer.biz###footer-mailer
 pocketnow.com##div[class^="a__sc"][style="z-index: 2147483647;"]
 pocketracy.com##.dsclmr
 poco.de,xxxlutz.se#%#//scriptlet('trusted-click-element', 'button[data-purpose="cookieBar.button.accept"]')
+podarkus.ru##div[class^="style_cookies"]
 podatnik.info##.p14-footer > div:not([class])
 podbean.com##body > div:not([id]):not([class])
 podbean.com##body > div[style="z-index: 999999; position: fixed; box-sizing: border-box; background: rgb(101, 101, 101); bottom: 0px; height: auto; color: rgb(255, 255, 255); padding: 8px 60px 8px 10px; width: 100%; font-size: 14px;"]
@@ -48654,6 +48657,7 @@ recordplanet.nl###WGbeshrkgj
 recordplanet.nl##body > div[id^="WG"]
 records.team##.sqs-announcement-bar
 recordsale.de##.personalization-request
+recraft.ai#%#//scriptlet('set-cookie', 'cookie-consent-accepted', 'true')
 recurly.com##.recurly-gdpr
 recycleapp.be##div[class^="Modal_modal_"]:has(> div > div[role="dialog"] > div[class^="Banner_actions_"] > a[href="/cookies"])
 recyclingproductnews.com##.card-cookie-notice
@@ -50738,7 +50742,6 @@ slackgreen.com##one-time-notice
 slantastoffe.de##.overlay
 slate.fr###cnilFooter
 slatersplastikard.com###cookies
-slazenger.com.tr###ucookie-container
 sleek-mag.com##.cookie
 sleep-hero.de###cc-card
 slepicar.*,tvgids24.nl###cbar
@@ -58209,6 +58212,7 @@ _eu_cookie_
 ||privacy-mgmt.com/mms^
 ||privacy-mgmt.com^$domain=anisearch.com|anisearch.de|anisearch.es|anisearch.fr|anisearch.it|anisearch.jp|consent-manager.ft.com|economist.com|idealo.co.uk|marketwatch.com|popsci.com|startsiden.no|sussexexpress.co.uk|taz.de|wsj.com
 ||privacy-sdk.talent-soft.com^
+||privacy.advancelocal.com/fides.js
 ||privacy.ariadneathome.nl/script/consent.js$script
 ||privacy.claytonhomes.com^
 ||privacy.clion.agency^$third-party

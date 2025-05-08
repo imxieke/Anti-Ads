@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-08 09:49:37 RPC
+! Updated: 2025-05-08 16:30:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5604,6 +5604,7 @@ br.de##div[class^="StyledComponents__CookieContainer-"]
 brain-effect.com###cookie-informations
 brain.fm##div[class^="CookiePopup__transparentWrapper"]
 brainandlife.org,thebaffler.com##.gdpr-alert
+brainstation.io##div[data-cookie-notification]
 braintreepayments.com###gdprComponent
 bramanminiofmiami.com##.consumer-privacy-banner
 brandcrowd.com,design.com#%#//scriptlet('trusted-set-cookie-reload', 'brandcrowd-cookie-consent', '%7B%22advertisingStorage%22%3Afalse%2C%22analyticsStorage%22%3Afalse%2C%22advertisingUserData%22%3Afalse%2C%22advertisingPersonalization%22%3Afalse%7D')
@@ -6210,6 +6211,7 @@ cityfalcon.com##.privacyNoticeContainer
 citynews.ca##.promo-module
 civetta.tv###ecl-notice
 civey.com##div[aria-live="polite"]
+civilim.com,slazenger.com.tr###ucookie-container
 civilpetition.de,freiewelt.net###cmmodal
 civilservicejobs.service.gov.uk###csr-cookie-message
 claravital.de,hampel-auctions.com,dondo.de###consentmanager
@@ -6407,6 +6409,7 @@ commerzbank.de,billiger-telefonieren.de###uc-central-banner-modal
 commonspace.eu##.typify-cookie-popup
 commsec.com.au#?#.announcements > .closeable.priority-2:has(> .container > span > p > a[href*="/cookies.html"])
 community.flutterflow.io##.cookie-concent-popup
+community.goodsam.com,netflix.com##div[data-testid="CookieBanner"]
 community.hero-wars.com##.disclaimer-overlay
 community.hubspot.com###hs-banner-parent
 community.nexthink.com##c-community-cookie-consent-banner
@@ -9500,7 +9503,6 @@ hellobank.fr###nextoutils_gestionCookies
 hellobank.fr###nextoutils_gestionCookies ~ div.popin-cache
 hellotv.nl#%#//scriptlet('set-cookie', 'cookieConsentClosed', 'true')
 helmut-fischer.com#%#//scriptlet('trusted-set-cookie', 'cookie-level-v4', '3,2,1,0')
-helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
 help.cosmote.gr#$#body { overflow: auto !important; }
 help.cosmote.gr#$#cookie { display: none !important; }
 help.instagram.com###cookie-policy-banner
@@ -9854,6 +9856,7 @@ ibispaint.com###agreementPane
 ibm.com##.ibm-canada-notice
 ibo.org##.CookieChecker
 iboysoft.com##.user_popup
+ibs.org.pl,helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
 ibuypower.com###cookies-notify
 ibuypower.com##div[class^="acceptcookie_"]
 icarros.com.br##.pagecontent > div#isView
@@ -12808,7 +12811,6 @@ netcraft.com###consent-form
 netent.com,ecco.com##.cookie_disclaimer
 netflix.com###cookie-disclosure
 netflix.com##.cookie-disclosure-visible
-netflix.com##div[data-testid="CookieBanner"]
 netia.pl,vitalia.pl,makeup.ru,skin.ru,doz.pl##.popup-cookies
 netidee.at#%#//scriptlet('trusted-click-element', '#sp-dsgvo-privacy-footer .sp-dsgvo-privacy-btn-accept-all', '', '2500')
 netio-products.com###warning-modal
@@ -14081,6 +14083,7 @@ pobeda.aero#?##__next > div[style]:has(> div > p > a[href$="/privacy_policy"])
 pocketnet.app##.popup
 pocketnow.com##div[class^="a__sc"][style="z-index: 2147483647;"]
 poco.de,xxxlutz.se#%#//scriptlet('trusted-click-element', 'button[data-purpose="cookieBar.button.accept"]')
+podarkus.ru##div[class^="style_cookies"]
 podbean.com##.download-dialog
 podbean.com##body > div[style="z-index: 999999; position: fixed; box-sizing: border-box; background: rgb(101, 101, 101); bottom: 0px; height: auto; color: rgb(255, 255, 255); padding: 8px 60px 8px 10px; width: 100%; font-size: 14px;"]
 podbean.com#?#body > div:not([id]):not([class]):has(> button#ok_use_cookie_warning)
@@ -14659,6 +14662,7 @@ rec.uk.com##.bar[data-behaviour="cookie-consent"]
 recantodasletras.com.br##.cookie-consent-dialog
 receitanatureba.com###myModalrgpd
 record.com.mx###block-cookiesactive-cookiesactive-blockcode
+recraft.ai#%#//scriptlet('set-cookie', 'cookie-consent-accepted', 'true')
 recycleapp.be##div[class^="Modal_modal_"]:has(> div > div[role="dialog"] > div[class^="Banner_actions_"] > a[href="/cookies"])
 recyclingproductnews.com##.modal-notifications
 red-by-sfr.fr,sfr.fr###CkC
@@ -15635,7 +15639,6 @@ skyscanner.ie,skyscanner.dk,skyscanner.pl,skyscanner.de,flinkster.de,baustoffind
 skysports.com##.android-banner
 slackgreen.com##one-time-notice
 slate.fr###cnilFooter
-slazenger.com.tr###ucookie-container
 sleep-hero.de###cc-card
 slepicar.*,tvgids24.nl###cbar
 slevomat.cz##.message-overlay--cookie

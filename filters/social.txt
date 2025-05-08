@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-08 09:49:37 RPC
+! Updated: 2025-05-08 16:30:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15860,7 +15860,6 @@ freepressjournal.in##.native-share
 freepressjournal.in##.social-account
 freepressjournal.in##.wrap_cont
 freeprojecttv.cyou##.content > div.sbox:has(> div.dt_social_single)
-freesoft-100.com###btn_share
 freesoft.ru###soc_right
 freesoftpdfdownload.blogspot.com###sidebar-two > #HTML2
 freesvg.org##.footer-social-big
@@ -24244,6 +24243,7 @@ tecmundo.com.br##.tec--article__share-grid
 tecmundo.com.br##.tec--didyouknow
 tecmundo.com.br##.tec--share
 tecmundo.com.br##.tec--share__container
+tecmundo.com.br,freesoft-100.com###btn_share
 tecmundo.com.br,m.k24klik.com,player.fm,line.do##share-button
 tecnoblog.net###tb-banner-whatsapp
 tecnologia.libero.it##.share-cont-art
