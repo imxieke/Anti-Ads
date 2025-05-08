@@ -1,6 +1,6 @@
 ! Title: Cookie Block filter
 ! Description: Blocks Cookie Filter,It may cause the webpage to malfunction
-! Updated: 2025-05-08 00:29:05 RPC
+! Updated: 2025-05-08 09:49:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28795,7 +28795,6 @@ bezux.com##.cookies
 bezuzyteczna.pl##.cookies
 bfh.ch##.comp-dsgvo-banner
 bfore.ai###cookies-form-container
-bfr.bund.de###bfr-cookielaw
 bg-gledai.*###cookie-notice
 bgasecurity.com,cool-mania.pl,forpro.pl,natterhub.com,grubytom.pl,kotas.com.br,kuchniapupila.pl,allnutrition.pl,elenovo.pl,facetaria.pl,cool-mania.de,inkbook.pl,rheumaliga.ch,medicshop.pl,cobbo.pl,pakomat.pl,rolnet.pl,petrostar.pl,atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl,erzeszow.pl,musiccenter.pl#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
 bgasecurity.com,cool-mania.pl,forpro.pl,natterhub.com,grubytom.pl,kotas.com.br,kuchniapupila.pl,allnutrition.pl,elenovo.pl,facetaria.pl,cool-mania.de,inkbook.pl,rheumaliga.ch,medicshop.pl,cobbo.pl,pakomat.pl,rolnet.pl,petrostar.pl,atmoskop.cz,pulser.hr,jesus.de,airindia.com,lovekrakow.pl,mediccentre.pl,giga-hamburg.de,gerth.de,erzeszow.pl,musiccenter.pl#$##cc--main { display: none !important; }
@@ -37063,6 +37062,7 @@ giveagradago.com,support.forzamotorsport.net##.ns-box
 givedirectly.org##.push-banner-consent
 givemesport.com##div[style^="background: blue;"][style*="position: fixed;"]
 givery.sk,givery.cz#$#.modal-backdrop { display: none !important; }
+givesendgo.com,workstreams.ai,trae.ai,jimms.fi,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,greptime.com###cc-main
 givingwhatwecan.org###cookie-consent-modal
 gjensidige.lv###cookie-consent-message
 gjirafa.com###iframe_cookie
@@ -37306,6 +37306,7 @@ gorodche.ru,om1.ru##.t-i-agree
 gorodkirov.ru,navigator-kirov.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progorodnsk.ru,progorodsamara.ru,progoroduhta.ru##div[class^="notifycation_notifycation__"]
 gorodperm.ru###cookb
 gorreri.com###loggedbar
+gorzdrav.org,rkf.online##.cookie-modal
 gosc.pl##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 gosch.de,ousuca.com#$#body > * { filter: unset !important; }
 gosch.de,ousuca.com#$#body > div[data-bg][style*="z-index: 99999; pointer-events: all; display: block; filter: none;"] { display: none !important; }
@@ -49096,7 +49097,6 @@ rjwprm.ezdrowie.gov.pl#@##acceptCookie
 rk.dk###lbmodal-overlay, #lbmodal
 rkc-kochi.co.jp,jrt.co.jp,fbc.jp,fct.co.jp,teny.co.jp,fmf.co.jp###gdpr_c
 rkeeper.ru##.cookies-message-wrapp
-rkf.online##.cookie-modal
 rktbns.de#%#//scriptlet('prevent-setTimeout', 'arcticmodal')
 rkw-kompetenzzentrum.de###rkw-infolayer
 rlptoday.de,gutefrage.net#%#//scriptlet('trusted-click-element', '#cmpbntyestxt')
@@ -54541,6 +54541,7 @@ unono.net##.mceRow--relative
 unopar.com.br##.banner-fixed-box
 unscreen.com##.banner.fixed-bottom
 unsee.cc#%#//scriptlet('set-cookie', 'targetedAds', 'false')
+unser-sicheres-essen.de,bfr.bund.de###bfr-cookielaw
 unsplash.com##body > dialog:has(> a[href="/cookies#manage-consent"])
 unsplash.com##body > dialog[class^="styles-module_dialog__"]
 unsplash.com##[open]:has(a[href="/cookies"])
@@ -56263,7 +56264,6 @@ works-hub.com##.tracking-popup
 worksheetcrafter.com###cookiesFormContainer
 worksmile.com##.cookies-component
 workspace.google.com##main > div:last-child:not(only-child)
-workstreams.ai,trae.ai,jimms.fi,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,greptime.com###cc-main
 workstyle.pl##.config-messages
 workupload.com###cookie_law_box
 workwide.de##+js(set-session-storage-item, cookieModal2, 1)
@@ -57459,6 +57459,7 @@ _eu_cookie_
 ||components2.gazzettaobjects.it/rcs_cpmt$domain=~video.gazzetta.it
 ||conclude.com/assets/build/combined.$script
 ||conclude.com/assets/build/combined.*.js
+||concord.tech^$domain=sheerid.com
 ||conductor.com/api/record-cookie-consent/
 ||confirmic.com^$third-party
 ||congstar-media.de/fileadmin/cpolicy/$script
