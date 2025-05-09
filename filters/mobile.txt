@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-09 16:30:01 RPC
+! Updated: 2025-05-10 00:27:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4917,6 +4917,7 @@ atyun.com###r_banner > ul > li > a[href^="http"]:not([href*="atyun."])
 atyun.com##.coupletbox
 au.ru##div[id^="au-mobile-app-teaser-modal"]
 aucfree.com##div[style="text-align: center; min-width: 320px; min-height: 180px; display:flex;"]
+auchan.ru##a[class^="styles_smartBanner"]
 auction.co.kr##[class*="app-install"]
 auctions.yahoo.co.jp###js-GoAppBtnCommonSAB
 auctions.yahoo.co.jp,myvidster.com,radio.de,radio.fr,radio.pl###app
@@ -11594,6 +11595,7 @@ instagram.com###react-root > section > nav > div > div > section.xZ2Xk
 instagram.com##a[href^="https://itunes.apple.com/app/instagram/id389801252?"][role="alert"]
 instagram.com##a[href^="https://www.microsoft.com"][href*="/store/apps"]
 instagram.com##a[role="alert"][href^="https://play.google.com/store/apps/details?id=com.instagram.android"]
+instagram.com##main + div:not([class]) > div[data-visualcompletion="ignore"] > div._abpk
 instagram.com##main ~ div:not([style]) > div[class] > div[style="width: 100%;"]
 instagram.com##main ~ nav > div > section.x1rozsjd
 instagram.com##main[role="main"] .APQi1
@@ -14891,6 +14893,7 @@ meetup.com##.z-modal.items-center > div[role="dialog"][draggable="false"][style=
 meetup.com##div[class="px-6 sm:px-4 xl:px-0 md:max-w-screen w-full space-y-20 py-20 pb-40 relative m-auto"]
 meetup.com##div[data-testid="MobileAppBanner"]
 meetup.com#%#//scriptlet('trusted-set-cookie', 'appbanner_accepted', 'dismissed=1')
+mega.lol###download-app-area
 mega.nz###mainlayout > .banner-rack
 megacurioso.com.br###slider-partner
 megacurioso.com.br##.ad-leaderboard-sm-fixed
@@ -18044,6 +18047,7 @@ republicworld.com,republicbharat.com###hellobar-bar
 republicworld.com,www-republicworld-com.cdn.ampproject.org##div[class^="ads_"]
 researchgate.net##.lite-page__footer-native-app
 restaurantij.com,hobbyhall.fi,plus.nhk.jp,rakuten-card.co.jp,sp.ch.nicovideo.jp,m.economictimes.com,skype.com###appBanner
+restaurantji.com###appBanner
 retail.ru##.markup__commercial
 retrip.jp##footer-induction:has( > div[class]:only-child > section:only-child > ul > li:only-child > a[href*="redirect_app"])
 retrip.jp,rtrp.jp#$##page[style^="padding-top"] { padding-top: 45px!important; }

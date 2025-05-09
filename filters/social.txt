@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-09 16:30:01 RPC
+! Updated: 2025-05-10 00:27:28 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12028,6 +12028,7 @@ au.ru##.au-item-page-reactions-shares
 auburnpub.com,azdailysun.com,beatricedailysun.com,billingsgazette.com,bismarcktribune.com,chippewa.com,columbustelegram.com,cumberlink.com,dailyjournalonline.com,democratherald.com,elkodaily.com,fremonttribune.com,gazettetimes.com,globegazette.com,hanfordsentinel.com,helenair.com,herald-review.com,jg-tc.com,journalstar.com,journaltimes.com,lacrossetribune.com,lebanon-express.com,lompocrecord.com,magicvalley.com,missoulanews.com,missoulian.com,mtstandard.com,muscatinejournal.com,napavalleyregister.com,nwitimes.com,pantagraph.com,poststar.com,qconline.com,qctimes.com,rapidcityjournal.com,ravallirepublic.com,santamariatimes.com,siouxcityjournal.com,stltoday.com,tdn.com,thesouthern.com,thetandd.com,theworldlink.com,trib.com,tucson.com,wcfcourier.com,winonadailynews.com,wiscnews.com###reaction-wrap
 aucfan.com##.searchResultsShareList span
 aucfan.com##.searchShareListType01
+auchan.ru##div[class*="shareTooltip_children"]
 auction.co.kr##.sare-sns
 aucview.aucfan.com,aucview.com##.itemsSnsBox
 audacy.com##.component--share
@@ -16959,6 +16960,7 @@ hlj.com#@#.social-media
 hmd.site###custom_html-23
 hmd.site#?#.clearfix > p:has(> span.clearfont:contains(torrent hentai magnet))
 hmv.co.jp##.newsDetailLeft
+hn.cz#@#.article-sharing
 hnn.us##.nav__socialz
 hobbyconsolas.com##div[class^="share-bar"]
 hobbyhall.fi###product-share
@@ -19453,6 +19455,7 @@ meetup.com##button[data-testid="share-btn"]
 meetup.com#?#.flex-item > div.flex--row:has(> div.event-share)
 meg-snow.com##.sns-list01
 mega-porno.me#?##oframemega-jwplayer > pjsdiv[style]:has(> pjsdiv[style]:contains(В ЭФИРЕ)) + pjsdiv[style]
+mega.lol###shareIconWrapper
 megacurioso.com.br##.gb_share_box
 megacurioso.com.br##div[class^="styles_shareLinks"]
 megacurioso.com.br##div[class^="styles_shareLinks_"]
@@ -26649,6 +26652,7 @@ zaytung.com#?#font > div:has(> div.twitter-timeline)
 zaytung.com#?#font > div:has(> iframe[src^="http://www.facebook.com/plugins/likebox.php"])
 zazoom.it##.post-metasocial
 zbporn.com##.js-view-share
+zcool.com.cn##.detailNavBox > div[wrap="initial"]:has(> span:contains(Share))
 zdnet.com##.c-contentHeader > div.c-socialSharebar
 zdnet.com##.fyre-share-button
 zdnet.com##.siu-btns-cont
