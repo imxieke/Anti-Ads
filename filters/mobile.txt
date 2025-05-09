@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-09 00:29:39 RPC
+! Updated: 2025-05-09 09:48:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4922,6 +4922,8 @@ auctions.yahoo.co.jp###js-GoAppBtnCommonSAB
 auctions.yahoo.co.jp,myvidster.com,radio.de,radio.fr,radio.pl###app
 aucview.aucfan.com###itembeltRakuten
 augsburger-allgemeine.de##.aa-ad-frame
+augsburger-allgemeine.de##.pt_onlinestory
+augsburger-allgemeine.de##div[data-ad-slot-native-mobile]
 augsburger-allgemeine.de##div[style="min-height:20338px;"]
 augsburger-allgemeine.de##main[role="main"] > div[style="min-height:20338px;"]
 aumo.jp###js-smartBanner-footer

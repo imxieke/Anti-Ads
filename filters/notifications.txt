@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-09 00:29:39 RPC
+! Updated: 2025-05-09 09:48:53 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9041,7 +9041,6 @@ gitpod.io##div[data-analytics*="cookie"]
 giveagradago.com,support.forzamotorsport.net##.ns-box
 givemesport.com##div[style^="background: blue;"][style*="position: fixed;"]
 givery.sk,givery.cz#$#.modal-backdrop { display: none !important; }
-givesendgo.com,workstreams.ai,trae.ai,jimms.fi,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,greptime.com###cc-main
 gjensidige.lv###cookie-consent-message
 gjirafa.com###iframe_cookie
 gkv-spitzenverband.de##.cb-banner
@@ -13409,6 +13408,7 @@ openreach.com#$#body { overflow: auto !important; }
 openreach.com#@#.cookie-popup:not(body):not(html)
 openrice.com##.facebook-floating-container
 openrice.com,aerobaticteams.net##.cookies-agreement
+openrouter.ai,sovcombank.ru,dinamikyatirim.com.tr,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,zenmarkai.com,home.id,metadefender.com,woltair.pl,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,truecar.com,csirt.gov.it,protipster.pl,institutoaocp.org.br,dashlane.com,versuni.com,sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 opensanctions.org##div[class^="Analytics_consentBox"]
 opensnow.com###site-alert-cookienotice
 opensource.fb.com##div[class^="cookieBannerContainer_"]
@@ -15813,7 +15813,6 @@ southernliving.com,thesprucecrafts.com,marthastewart.com#$#html { overflow-y: au
 southpark.cc.com###geoblockmsg
 southparkstudios.com##.module-container-bala
 sovcombank.ru##.CookieOffer__section
-sovcombank.ru,dinamikyatirim.com.tr,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,zenmarkai.com,home.id,metadefender.com,woltair.pl,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,truecar.com,csirt.gov.it,protipster.pl,institutoaocp.org.br,dashlane.com,versuni.com,sbertech.ru,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 sowafinansowa.pl##.r-cookie-bar
 soziales-studieren.de,studieren-berufsbegleitend.de,medien-studieren.net,bwl-studieren.com,ingenieurwesen-studieren.de,wegweiser-duales-studium.de,gesundheit-studieren.com,das-richtige-studieren.de###cookie-settings-wrapper
 sozialversicherung-kompetent.de#$#.cc-window[aria-label="cookieconsent"] { display: none !important; }
@@ -18579,6 +18578,7 @@ xxxlutz.de#%#//scriptlet('trusted-click-element', 'button[data-purpose="cookieBa
 xxxlutz.de#?#div[class^="_"]:has(> div[class^="_"] > div#jentis_consent)
 xxxlutz.ro##._v-qs6Y5hTXMmFt87
 xxxtik.com##.ad-modal__content
+xzone.pl,givesendgo.com,workstreams.ai,trae.ai,jimms.fi,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,greptime.com###cc-main
 y8.com###policy-validation
 ya.*##.gdpr-popup-v3-main
 yaani.com.tr##div[style^="align-items"][style*="z-index: 999;"][style*="background: rgb(255, 255, 255);"]
