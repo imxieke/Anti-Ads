@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-09 09:48:53 RPC
+! Updated: 2025-05-09 16:30:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1237,7 +1237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2257,7 +2257,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##div[class^="Ads_ads_"]
+720yun.com##DIV[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8719,7 +8719,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#amp-ad
+ettoday.net#@#AMP-AD
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -17095,7 +17095,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -18857,6 +18857,7 @@ smpt.webrental.org##.toppagefix
 sms-activate.org#$##popupDesctopApp { display: none !important; }
 sms-activate.org#$#.modal-backdrop { display: none !important; }
 sms-activate.org#$#body[class] { overflow: auto !important; padding-right: 0 !important; }
+smsonline.cloud##.css-17anw56
 smt.docomo.ne.jp###WrpAd
 smt.docomo.ne.jp##div[data-allox-placement]
 smule.com#?#div[class]:has(> button > span:contains(Get App))
@@ -20946,9 +20947,9 @@ vidhub.cc##div.player-info > div.module
 vidhub.me,vidhub.tv##.promotelink
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
-vidhub1.cc,vidhub.me,vidhub.tv##.promolnk
-vidhub1.cc,vidhub.me,vidhub.tv##.promotelink
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="ad"]:has(> div[class^="prom"][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class^="prom"][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][class*="nk"][style]
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][style] > img[onclick^="window.open"]
 viet-jo.com#?#.bd_bd > div[class^=text-top-tab1-] > div.bd > div.bd_left[name]:contains(PR):upward(2)
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vijaykarnataka.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
@@ -30167,6 +30168,7 @@ _zhike.htm
 ||bcmediagroup.com^$important
 ||bcnmonetize.go2affise.com^$important
 ||bcp.crwdcntrl.net^$important
+||bcpxll.icu^
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
@@ -34677,6 +34679,7 @@ _zhike.htm
 ||dlkoo.com/down/$subdocument
 ||dlkoo.com/down/copy
 ||dlkoo.com/down/js/index_top
+||dlngzx.top^
 ||dlog.hiido.com^$important
 ||dlswbr.baidu.com^
 ||dlt-beacon.dynatrace-managed.com^$important
@@ -36145,6 +36148,7 @@ _zhike.htm
 ||fadechildren.com^
 ||fadedprofit.com^
 ||fadedsnow.com^
+||fadjqqe.top^
 ||fafvvt.icu^
 ||fagrirtn.com^
 ||faintflag.com^
@@ -40205,6 +40209,7 @@ _zhike.htm
 ||jgjyxf.xyz^
 ||jgntjtyf.icu^
 ||jgstny.com^$third-party
+||jguhqbe.top^
 ||jgvkxp.xyz^
 ||jgxirv.icu^
 ||jheva.com^
@@ -46981,6 +46986,7 @@ _zhike.htm
 ||qnvod.net/qna/
 ||qnvwjpr.icu^
 ||qnwuamy.top^
+||qnwucny.top^
 ||qnwxk.com^$third-party
 ||qo2.fun^
 ||qogonsuqq.com^
@@ -52869,6 +52875,7 @@ _zhike.htm
 ||udoshbt.top^
 ||udp.push.mob.com^$important
 ||udswai.xyz^
+||udyi.cn^
 ||ue.flipboard.com^$important
 ||ue8im.com^
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
@@ -53139,6 +53146,7 @@ _zhike.htm
 ||upyzqf.cn^
 ||uqcktxp.icu^
 ||uqidian.com^
+||uqkcqk.icu^
 ||uqykeq.xyz^
 ||uranus.sogou.com^
 ||urbanityadnetwork.com^$important
@@ -53318,6 +53326,7 @@ _zhike.htm
 ||uuso05072qhs.xyz^
 ||uuso05080qhs.xyz^
 ||uuso05081qhs.xyz^
+||uuso05082qhs.xyz^
 ||uutytp.com^
 ||uuu9.com/photolog.html
 ||uuu9.tieba.com^$subdocument
@@ -53891,6 +53900,7 @@ _zhike.htm
 ||vtbkhl.icu^
 ||vtdgfisz.icu^
 ||vteam.focus.de^$important
+||vthruucceod.com^
 ||vtjbnb.xyz^
 ||vtqhelleano.com^
 ||vtrk.doubleverify.com^$important

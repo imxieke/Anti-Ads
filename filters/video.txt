@@ -1,6 +1,6 @@
 ! Title: Video Filters
 ! Description: Video website advertisement filtering.
-! Updated: 2025-05-09 09:48:53 RPC
+! Updated: 2025-05-09 16:30:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -47,14 +47,13 @@
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
 ad-survey.com
-age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 apisgame.iqiyi.com
 aty.sohu.com
 banana.le.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 bimiacg4.net##+js(acs,Object.defineProperty,location.href)
-bimiacg4.net##.tuiguang,#bkcl
+bimiacg4.net##.tuiguang,#bkcl,marquee
 bjcathay.com
 btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
 cad.youku.com
@@ -238,7 +237,7 @@ z4a.net
 ||staticfile.qq.com/qimei/$script
 ||stc.iqiyipic.com/js/sdkpack/barrage
 ||stc.iqiyipic.com/js/sdkpack/vippay.js
-||toutiaoimg.com/origin/$image,domain=agedm.org
+||toutiaoimg.com/origin/$image,domain=agefans.la
 ||trace.qq.com^$image,ping
 ||tracker.$xhr,websocket,script,ping
 ||tt27.tv/js/jsg/对联广告.js
