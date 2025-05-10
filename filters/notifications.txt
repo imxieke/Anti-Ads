@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-10 16:26:01 RPC
+! Updated: 2025-05-11 00:25:41 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8039,6 +8039,7 @@ expert-security.de#$#.modal-backdrop { display: none!important; }
 expert-security.de#$#body { overflow: visible!important; }
 expert-security.de#$#div[data-feature="Web.Core.Feature.PrivacyCategory.Dialog"] { display: none!important; }
 expert.de##div[data-subwidget-id="ca052b43-fab4-4ed0-a488-89925fd63657"]
+expert.ru,interactivebrokers.com,sygic.com###cookie-modal
 explorethearchive.com,theportalist.com##.cookiePolicyPopup
 explus.com.tw###amg-privacy-banner
 exponea.com##.ccpa-notice
@@ -10127,7 +10128,6 @@ intelligenceonline.com#$#.modal-cookie-consent { display: none !important; }
 intelligenceonline.com#$#body.modal-open { overflow: auto !important; }
 intensedebate.com,automattic.com,wordpress.com##.a8c-cookie-banner
 intent.msn.com,outlook.live.com,microsoft.com###msccBanner
-interactivebrokers.com,sygic.com###cookie-modal
 interactivebrokers.ie#%#//scriptlet('trusted-click-element', 'div[style*="block"]#cookie-modal #gdpr-reject-all')
 interamt.de#$#.ia-m-modal--cookie { display: none !important; }
 interamt.de#$#.ia-modal-opened { overflow: auto !important; }
