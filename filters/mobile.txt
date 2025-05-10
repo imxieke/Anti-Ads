@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-10 09:44:39 RPC
+! Updated: 2025-05-10 16:26:01 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1009,7 +1009,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 12306.cn###slideRBox
 12306.cn##.fix-yh
 12306.cn##div#myfix_yh,.adLoadError
-12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
+12306.cn,club.pchome.net,qinbing.cn###slideBox
 1234567.com.cn##.ulbugao
 123456bt.com##[height="70"][width="960"]
 12377.cn###notice
@@ -1237,7 +1237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adlink
+189.cn#@#.adLink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -2257,7 +2257,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 7060.la##.tuiguang
 70bt.cn###ShowAD
 720v8.com##.hidden-xs,[height="60"]
-720yun.com##DIV[class^="Ads_ads_"]
+720yun.com##div[class^="Ads_ads_"]
 724dinle.com#?#.dBlock > div.separate30:has(> div.mobileApp)
 728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
@@ -8467,7 +8467,7 @@ electrical4u.com###custom_html-24
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.doc-content-side
+element-plus.org##.doc-content-sidebar
 elespanol.com###homeMobileAdvertising2
 elespanol.com###sticky_container
 elespectador.com#?#.swiper-slide:has(> div.Widget-fullHeight > div[id^="Personalizado"])
@@ -8500,6 +8500,7 @@ en8848.com.cn##.adtexts
 en8848.com.cn##.list_adv
 en8848.com.cn#@#.adcenter
 encount.press##.ad--header
+enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,mysteel.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
 enews.tw##.divADFrame
 enews.tw##.gadRightP
 enews.tw##.newsCardForLeftAdGadCode
@@ -12706,13 +12707,8 @@ kdnet.net##.c_spread
 kdnet.net##.download-bar
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 kdocs.cn##.business-list-wrap
-kdslife.com###ad_swip
-kdslife.com###hb
-kdslife.com###mainRightTopAd
-kdslife.com###tao
-kdslife.com###youhui
 kdslife.com##.ad3,.mod_banner,.adsbygoogle
-kdslife.com##a[href*="kds.2144.cn"]
+kdslife.com##.header-swiper
 kdslife.com,pchome.net##.weixin
 ke.qq.com##.bottom-bar
 keaidian.com##.lanmu_di
@@ -17001,7 +16997,6 @@ php.cn##.layui-show > UL > .top-img
 php.cn##.wwads-cn
 php.cn##.zwwad
 php.cn##a[href*="/go."]:not([href*="Fwww.php"])
-php.cn,v2ex.com,233tw.com##.wwads-cn
 php1.cn##.baidu_ad_box
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
@@ -17098,7 +17093,7 @@ pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
 pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -17439,6 +17434,7 @@ purepc.pl##a[databx][href*="/red1r.php"]
 purepeople.com##.c-promo-app
 purepeople.com##.c-store-banner
 purepeople.com#$##wb_contents { margin-top: 0!important; }
+puresys.net##.sidebar > .widget:has(> .item > a[target="_blank"] > img)
 purexbox.com,thepopverse.com###sticky_leaderboard
 puri.sega.jp##.pri-header.floatmenu
 push.qq.com^
@@ -20161,7 +20157,7 @@ tmall.com###J_Recommend
 tmall.com##.app-download-popup
 tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 tmall.com##.mui-mbarp-qrcode
-tmioe.com##.ekxhn
+tmioe.com##.ekssxhn
 tmioe.com##.widget_image_img
 tmioe.com##a[href*=".zps.im"]
 tmtpost.com##.open-app
@@ -20948,7 +20944,7 @@ video.fc2.com#?#iframe[src^="/a/pagead/"]:upward(1)
 video.tv-tokyo.co.jp##.adApp-wrapper
 video4k.cc#@#a[href*="/?aff="][target="_blank"]
 vidhub.cc##div.player-info > div.module
-vidhub.me,vidhub.tv##.promotelink
+vidhub.me,vidhub.tv##.promonk
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
 vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class^="prom"][style] > img[onclick^="window.open"])
@@ -22787,8 +22783,10 @@ zb190.com##A[href^="http://www.hg90567.com/"]
 zbjxs.com##.ad
 zbporn.*##.head-spot
 zbporn.com##.b-spot
+zcool.com.cn##.advlongDefault
 zcool.com.cn##.main-wrapper-advlong-top
 zcool.com.cn#@#.advtop
+zcool.com.cn,php.cn,v2ex.com,233tw.com##.wwads-cn
 zdf.de#$#.smartbanner { display: none !important; }
 zdf.de#$#.smartbanner-show header.b-header { top: 0 !important; }
 zdf.de#$#.smartbanner-show { margin-top: 0 !important; }
@@ -36461,6 +36459,7 @@ _zhike.htm
 ||fkesfg.com^
 ||fkf5.com/public/js/static.js
 ||fkjdiefz.icu^
+||fktaxk.top^
 ||fkxs.net/tops/
 ||fl.a.ki^$important
 ||fl.adpxl.co^$important
@@ -40874,8 +40873,6 @@ _zhike.htm
 ||kdou.com/ad_js.php?adid=
 ||kdpic.pchome.com.tw^
 ||kds-pixel.kargo.com^$important
-||kdslife.com/kds_2023/kafu.
-||kdslife.com/ui/ad/
 ||kdw*.com/layer/layer.js
 ||kdyurlid.top^
 ||kdzgrvn.icu^
@@ -47008,6 +47005,7 @@ _zhike.htm
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
+||qpqp05100oki.com^
 ||qps.cint.com^$important
 ||qpyrqg.xyz^
 ||qq.com/bbs/bbs_topgg.htm
@@ -47380,6 +47378,7 @@ _zhike.htm
 ||rdrs.ad-score.com^$important
 ||rdsgick.icu^
 ||rdtuijian.com^
+||rdut.cn^
 ||rdxqbp.xyz^
 ||re.m.taobao.com^$important
 ||re.taobao.com^$important
@@ -48726,6 +48725,7 @@ _zhike.htm
 ||sdpg.ksapisrv.com^$important
 ||sdss99.fun^
 ||sdtieta.com^
+||sdwrghcv.top^
 ||sdyurlib.top^
 ||sdzbcg.com/images/sdfhyl
 ||se-02.adtomafusion.com^$important
@@ -49438,6 +49438,7 @@ _zhike.htm
 ||sinolub.com/index.php?m=poster&
 ||sinst.fwdcdn.com/_uploaded_files/ads/
 ||sinvideo.adsrvr.org^$important
+||sioq.cn^
 ||sirius.iad-03.braze.com^$important
 ||sirrors.com^
 ||sis.jpush.io^
@@ -50615,6 +50616,7 @@ _zhike.htm
 ||stewspiders.com^
 ||stg8.com^
 ||stgowan.com^$third-party
+||stgxau.icu^
 ||stheadline.com/images/heading-jm
 ||stickssheep.com^
 ||stickyadstv.com^$important
@@ -51871,6 +51873,7 @@ _zhike.htm
 ||tns.simba.taobao.com^$important
 ||tntclix.co.uk^$important
 ||tnwuami.top^
+||tnwucni.top^
 ||tnzjrj.xyz^
 ||to.redircdn.com/web/post.js
 ||to8to.com/assets/wap//common/widgets/appGuide/appGuide.
@@ -54026,6 +54029,7 @@ _zhike.htm
 ||wangzhan5.com^
 ||wangzhanmeng.com/link/link.html
 ||wanmei.la/a*.js
+||wanmeisxs.cc/js/m.
 ||wantaiss.com^
 ||wantgoo.com/wantgoofiles/banner/
 ||wantingwindow.com^
@@ -54600,6 +54604,7 @@ _zhike.htm
 ||wtraff.com^
 ||wtrotilloye.com^
 ||wtroytj33.fun^
+||wubizigeng.com^
 ||wucnmte.top^
 ||wucnwte.top^
 ||wudang05.com^
@@ -56378,7 +56383,6 @@ _zhike.htm
 ~allthingsopen.org##a[href*=".com?aff="]
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
-~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,mysteel.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 ~cityheaven.net###gg1
 ~daquandy.com##.m_acmsd
