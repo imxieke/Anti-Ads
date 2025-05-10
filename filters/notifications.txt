@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-10 00:27:28 RPC
+! Updated: 2025-05-10 09:44:39 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14624,7 +14624,6 @@ razer.com###cookies_popup_container
 razer.com##.component-sticky-dialog
 razer.com##tos-razer-cookies
 razer.com#@##onetrust-consent-sdk
-razoesparaacreditar.com###oPrivallyApp
 razpisanie.bdz.bg#$#.modal-backdrop:not(.modal-backdrop + .modal-backdrop) { display: none !important; }
 razpisanie.bdz.bg#$#body #cookieWarning { display: none !important; }
 razpisanie.bdz.bg#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -15507,6 +15506,7 @@ shopintab.com###js-cookies-terms
 shoplando.gr,evshop.com.tr,onb.ac.at##.notification-wrapper
 shoppers.media##div[class^="CookiePopup"]
 shoppersdrugmart.ca##.privacy-agreement
+shoppingcidadesp.com.br,razoesparaacreditar.com###oPrivallyApp
 shoppinglive.ru##.confirm-message-wrapper
 shopstyle.co.uk#%#//scriptlet('trusted-set-cookie', 'gdpr', '%7B%22types%22%3A%5B%22ESSENTIAL%22%5D%2C%22platform%22%3A%22web%22%7D')
 shoptime.com.br,submarino.com.br,americanas.com.br##div[class^="lgpd-message-box__"]
@@ -17541,6 +17541,7 @@ unileverfoodsolutions.com.tr#$#body.blurred > * { filter: none!important; }
 unileverfoodsolutions.com.tr#$#body.blurred { overflow: visible!important; }
 unileverfoodsolutions.com.tr#$#html.mobile > body.blurred { position: relative!important; }
 unimedbauru.com.br###protegON-full-content-cookies
+unimedsudoestepaulista.coop.br###dpoeasy-banner
 unimelb.edu.au##.tealium_privacy_prompt
 unina.it###infocookie
 unionpayintl.com##body > .popup_bot
