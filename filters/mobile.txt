@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-11 09:54:34 RPC
+! Updated: 2025-05-11 16:26:37 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17091,7 +17091,7 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-ad-"]
+pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="article-ad"]
 pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
@@ -36248,6 +36248,7 @@ _zhike.htm
 ||fbapi.dxsvr.com^$important
 ||fbapi.sd.duapps.com^$important
 ||fbhkxt.icu^
+||fbhorutgy.com^
 ||fbmjc.39yst.com^
 ||fbphnn.icu^
 ||fbqrt.cn^
@@ -38637,6 +38638,8 @@ _zhike.htm
 ||hupu.com^*/stream.js
 ||hur.cn/AhurD/*.gif
 ||hur05071kns.com^
+||hur05101kns.com^
+||hur05110kns.com^
 ||huresdu.top^
 ||hurricanedigitalmedia.com^$important
 ||hurtgrape.com^
@@ -43664,6 +43667,7 @@ _zhike.htm
 ||mpn56e.cn^
 ||mpnrs.com^$important
 ||mpp9h.cn^
+||mppanittie.com^
 ||mprezchc.com^$important
 ||mproxy.banner.linksynergy.com^$important
 ||mps.cnbc.com^$important
@@ -46791,6 +46795,7 @@ _zhike.htm
 ||qcjycg.com/template/conch/asset/js/hl
 ||qclimiy.top^
 ||qcmlw.com/js/service.js
+||qcogiellq.com^
 ||qctop.com^$important
 ||qcvf.ifeng.com^
 ||qcx.quantserve.com^$important
@@ -47007,6 +47012,7 @@ _zhike.htm
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
 ||qpqp05100oki.com^
+||qpqp05101oki.com^
 ||qps.cint.com^$important
 ||qpyrqg.xyz^
 ||qq.com/bbs/bbs_topgg.htm
@@ -53084,6 +53090,7 @@ _zhike.htm
 ||unwieldyplastic.com^
 ||unwrittenspot.com^
 ||unwuamt.top^
+||unwucnt.top^
 ||uodoo.com^
 ||uogo.net/uogoplus/
 ||uojx.cn^
@@ -55245,6 +55252,7 @@ _zhike.htm
 ||xkd*.com/layer/layer.js
 ||xkesqbp.icu^
 ||xkgttas.icu^
+||xklv.cn^
 ||xkp.cc^$third-party
 ||xkyn.com/imgs/js/al.js
 ||xkyn.com/imgs/js/xx.js
