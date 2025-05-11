@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-11 16:26:37 RPC
+! Updated: 2025-05-12 00:26:12 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2198,6 +2198,7 @@
 /mrf4u/cmp/*/*.js?autoinit=
 /mweb.cookie/*$script
 /newprivacypolicy.
+/notifee/notifee.js
 /notification-prod-sw.js
 /notification-sw.js
 /notification/notify.js
@@ -19419,6 +19420,7 @@ _eu_cookie_
 ||noterium.com^$third-party
 ||noticiasdatv.uol.com.br/static/js/ntv-policy-alert.min.js
 ||notifadz.com^$third-party
+||notifee-manager.cz^$third-party
 ||notification.tubecup.net^
 ||notifications.ltd^$third-party
 ||notifikuj.cz^$third-party
