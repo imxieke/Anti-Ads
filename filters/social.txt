@@ -1,6 +1,6 @@
 ! Title: Social Filters
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Updated: 2025-05-12 16:32:12 RPC
+! Updated: 2025-05-13 00:29:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15523,6 +15523,7 @@ findhard.ru###socialP
 findingtheuniverse.com##.FTU-social-floating
 findstack.com#?#.ct-sidebar .ugb-heading__title:contains(/^Share$/)
 fineartamerica.com###socialDivLeft
+finebooksmagazine.com##.social-tools
 fineboys-online.jp##.follow + div.sns > ul
 fineboys-online.jp##.post > div.sns
 finecooking.com##.article__actions__social
@@ -20417,6 +20418,7 @@ newmobility.com##.social-sharing-links
 newnoisemagazine.com##.elementor-element-c6f7bc9
 newrepublic.com##.footer__middleRow
 newrepublic.com,thetech.com##.article-social
+news-komi.ru##.article-footer__wrap-social
 news-postseven.com##.sns-sharemess
 news-postseven.com##.w-SnsCount
 news-pravda.com,computerra.ru##.article-soc
@@ -21957,6 +21959,7 @@ principal.cat##.ampliacio-noticia-compartir
 print-kids.net###sns-nav
 print-kids.net###topic-end
 print-kids.net,diziboxx.com###like-box
+prismmarketingco.com##.top-share-list
 privacysandbox.com,landing.google.*##.glue-social__group
 privacysavvy.com#?##ps-lrc_last_sections > div.mb-14 > span:contains(Share):upward(1)
 privacysavvy.com#?##sc-lrc_last_sections > div.mb-14:has(button[data-sharer])

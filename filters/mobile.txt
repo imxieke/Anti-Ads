@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-12 16:32:12 RPC
+! Updated: 2025-05-13 00:29:03 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17778,6 +17778,8 @@ qzwb.com##div.gg,div[style^="height:60px; padding-bottom:5px;"],.gg10,.gg11,.adv
 r.gnavi.co.jp###sub-ap
 r.gnavi.co.jp##div[class^="style_appAdvertise__"]
 r10.net##.container > div > a[target="_blank"] > img
+r10.net##.container > div[class^="r"]:has(> div[class] > a[href][target="_blank"])
+r10.net##.postList > div[class^="r"]:has(> a[href][target="_blank"])
 r18.clickme.net###app-load
 r1eadS= null;
 r25.jp##.AppDownload
@@ -18476,6 +18478,7 @@ senfun.net##.player-recommend
 sensatsiya.com#%#//scriptlet('remove-in-shadow-dom', '[data-container*="ScriptRoot"]')
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
 serengeseba.com##.content > li > a[href^="http"]
+serial.everyeye.it#$#.adv-spacer { padding-top: 0 !important; }
 serpadres.es##div[class^="button"][class*="_mobile"]
 service.smt.docomo.ne.jp###app_ad_bnr
 service.smt.docomo.ne.jp##.optimize__banner
@@ -33764,6 +33767,7 @@ _zhike.htm
 ||cvision.media.net^$important
 ||cvmuia.xyz^
 ||cvr.ad-brix.com^$important
+||cvt-s2.agl005.tech^
 ||cvt.mydas.mobi^$important
 ||cvujac.xyz^
 ||cw23.mta.exacttarget.com^$important
