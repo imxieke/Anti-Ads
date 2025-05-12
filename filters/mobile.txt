@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-12 09:52:57 RPC
+! Updated: 2025-05-12 16:32:12 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1237,7 +1237,7 @@ $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biq
 188soft.com##.down_gaosu
 188soft.com##.safety
 189.cn#@##linkShare
-189.cn#@#.adLink
+189.cn#@#.adlink
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 18av.mm-cg.com###main > #twcgUUU
@@ -4870,6 +4870,7 @@ asajo.jp###text-15
 asajo.jp##.ad-area-upper
 aseannow.com##div[id^="AA_article_"]
 asia.nikkei.com,trovo.live##.app-sidebar
+asianetnews.com##.mob-ad
 asianetnews.com##.mobileads
 asianetnews.com##.socialbtm > div.followright
 asiatvro.com##.wp.a_t,.a_pt
@@ -8721,7 +8722,7 @@ ettoday.net##amp-embed[type="dable"]
 ettoday.net##body a[href^="https://ad.ettoday.net/"]
 ettoday.net##div[id^="abp"]
 ettoday.net#@#.iframe-ad
-ettoday.net#@#AMP-AD
+ettoday.net#@#amp-ad
 etude000.com##.top-ad-sp
 eurasia.expert#$##page { padding-top: 0!important; }
 eurasia.expert#$#.content-page { padding-top: 0!important; }
@@ -12859,6 +12860,7 @@ koe-koe.com##.ad_list
 koe-koe.com##.ad_min_height
 koe-koe.com##div[style="min-height:250px"]
 kogan.com###kogan-ad-sidebar
+koimoi.com###after_featured_image
 koinmedya.com##.amp-sticky-ads
 koko-soccer.com##.bnr-overlay
 kokopyon.net##.entry-content > div[align="center"] > a[href^="https://www.amazon.co.jp"][target="_blank"] > img
@@ -17091,9 +17093,9 @@ pixnet.net##.octopus
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 pixnet.net##a[onmouseover^="MM_openBrWindow"]
 pixnet.net##body div[class*="-ad-"]:not(#style_important)
-pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 pixnet.net##div[class*="article-ad"]
-pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-AD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
@@ -21004,6 +21006,7 @@ viva.co.id###sticky-bottom
 vivareal.com.br#$#.app-smart-banner { display:none!important; }
 vivareal.com.br#$#.site-header[data-smart-banner] { margin-top:0px!important; }
 vivi.tv##.bannerArea
+vivo.com##.vep-head-download
 vivo.com.br##.barra-conversao--purple[data-settings='{"pagina": "Vivo Easy Prime: Plano de celular digital com Cashback"}']
 vjav.*##.video-page__adv
 vjav.*##.video-page__wrapper > div[class]:first-child:not([class^="video-page"]) > div[class]
@@ -30656,6 +30659,7 @@ _zhike.htm
 ||biquge96.com/123.
 ||biquger.net/donlod^
 ||biquger.net/ts^
+||biqugie.com/js/wap.
 ||biquguan.com/guan/
 ||biquw.com/6DAz2dRZ
 ||biquwx.la/1X0981DE/A81denn2m1.js
@@ -38335,6 +38339,7 @@ _zhike.htm
 ||hjimtyu.top^
 ||hjkhxfh.360doc.cn^
 ||hjrcjz.xyz^
+||hjvprx.top^
 ||hjvzfa.top^
 ||hk-gmtdmp.mookie1.com^$important
 ||hk-pub.com/forum/images/2009/gifbanner
@@ -39131,6 +39136,7 @@ _zhike.htm
 ||iiikefu.com/wp-content/plugins/halfdata-green-popups/js/lepopup.js
 ||iiilab.com/sponsor
 ||iis7.com/ys/css2018/ggw.js
+||iiwk.cn^
 ||iiyurraeoh.com^
 ||ijeujkdhnvb.top^
 ||ijimtyo.top^
@@ -40266,6 +40272,7 @@ _zhike.htm
 ||jiayu.net/comiis_ad/
 ||jiayuwl.com^
 ||jiazhua.com^
+||jibjpk.top^
 ||jibn12.jintang114.org^
 ||jibtdn.top^
 ||jice.admaster.com.cn^$important
@@ -41004,6 +41011,8 @@ _zhike.htm
 ||kkkjpg-522.cc^$third-party
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
+||kklq05111p0i.com^
+||kklq05120p0i.com^
 ||kkpgv2.xunlei.com^
 ||kladovonet.com.com^$important
 ||klandmart.com/K-Landmart_0011.jpg
@@ -43602,6 +43611,9 @@ _zhike.htm
 ||morefriendly.com^
 ||morgdm.ru^$important
 ||mortgagecentres.net/banner.gif
+||mos05110o9i.com^
+||mos05111o9i.com^
+||mos05120o9i.com^
 ||mosa86.com^
 ||mosflower.cn^
 ||moshouba.top^
@@ -45707,6 +45719,7 @@ _zhike.htm
 ||phainoirs.com^
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
+||pharoilrw.com^
 ||phazaeth.com^
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
@@ -45953,6 +45966,7 @@ _zhike.htm
 ||pjbbhj.icu^
 ||pjcijbv.icu^
 ||pjcn.org^$third-party
+||pjcqzm.cn^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjtime.com/js/show_ad
 ||pjwk.cn^
@@ -46986,6 +47000,7 @@ _zhike.htm
 ||qncye.com/templets/default/js/mb.js
 ||qndown.com^
 ||qnhi.cn^
+||qnhoqullbea.com^
 ||qnki.cn^
 ||qnqtgyq.icu^
 ||qnsb.com/news/index.php?m=poster&
@@ -47196,6 +47211,7 @@ _zhike.htm
 ||qvxtzi.xyz^
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcnmty.top^
+||qwcpme.icu^
 ||qwe0231141.bj.bcebos.com^
 ||qweisiy.top^
 ||qweizay.top^
@@ -53867,6 +53883,7 @@ _zhike.htm
 ||vqlwoy.xyz^
 ||vqnjrz.top^
 ||vqq.admaster.com.cn^$important
+||vqqf.cn^
 ||vraataidz.com^
 ||vragridsn.com^
 ||vraqnathr.com^
@@ -54437,6 +54454,7 @@ _zhike.htm
 ||wmhlch.com^$important
 ||wmirk.ru^$important
 ||wmol.cn^
+||wmykyw.icu^
 ||wn6y.cn^
 ||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
@@ -55675,6 +55693,7 @@ _zhike.htm
 ||yimg.com/cv/api/hk/fp_czy_ad/
 ||yimg.com/no/$domain=~yahoo.com
 ||yimg.jp/images/shp_app/flagship/web2app/smartappbnr/$domain=shopping.yahoo.co.jp
+||yimh.cn^
 ||yimuhe.com/n_ad/
 ||yin1.zgpingshu.com^
 ||yingav.net/images/content/spot01.jpg
