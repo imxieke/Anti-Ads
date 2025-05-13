@@ -1,6 +1,6 @@
 ! Title: Notices filter
 ! Description: Blocks Notifications on web pages.
-! Updated: 2025-05-13 00:29:03 RPC
+! Updated: 2025-05-13 09:50:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12141,6 +12141,7 @@ microsoft.com###cookie-consent-markup
 microsoft.com###cookie-prompt
 microsoft.com###ms-cookie-banner
 microsoft.com###wcp-consent-banner
+microsoft.design##div[data-m*="cookiebanner"]
 microstore.hu###cookielawdiv
 midasbuy.com###cookie-agreement-pop
 midasbuy.com##div[class^="PopCookie"]
@@ -17395,9 +17396,9 @@ tvplay.tv3.lt#?##__next > div[class^="sc-"] > div[class^="sc-"]:has(> button)
 tvprime.ig.com.br###message_lgpd
 tvprofil.com#%#//scriptlet('trusted-set-cookie-reload', 'gdpr_consent', 'necessary%3D1%26analytics%3D0')
 tvprofil.com#@#.gdpr-container
-tvpworld.com,tvp.info,belsat.eu,tvp.pl#$#.tvp-cookie-overlay { display: none !important; }
-tvpworld.com,tvp.info,belsat.eu,tvp.pl#$#html > body.tvp-cookie-scroll-lock { overflow: visible !important; }
-tvpworld.com,tvp.info,belsat.eu,tvp.pl#$#html.tvp-cookie-scroll-lock[class] { overflow: visible !important; }
+tvpworld.com,tvp.info,belsat.eu,tvp.pl,vot-tak.tv#$#.tvp-cookie-overlay { display: none !important; }
+tvpworld.com,tvp.info,belsat.eu,tvp.pl,vot-tak.tv#$#html > body.tvp-cookie-scroll-lock { overflow: visible !important; }
+tvpworld.com,tvp.info,belsat.eu,tvp.pl,vot-tak.tv#$#html.tvp-cookie-scroll-lock[class] { overflow: visible !important; }
 tvsmartgo.elsat.pl,tvsmart.elsat.pl,tvsmart.multimedia.pl,tvsmart.jambox.pl,tvsmart.vectra.pl,tvsmart.pl#%#//scriptlet('set-cookie', 'cookie-notice', '1')
 tvtropes.org#$#body { overflow: visible !important; }
 tvtv.ca,tvtv.us##div[class^="MuiSnackbar-root"][role="presentation"]
@@ -18218,7 +18219,7 @@ welcometothejungle.com##.axeptio_mount
 weleda.de##.mod-cookiebar
 wellaware.eu##.popup--cookies
 welt.de,cmp.bike-bild.de,cmp.autobild.de#%#//scriptlet('trusted-click-element', 'button[title="Alle akzeptieren"]')
-welt.de,player.pl,tvn24.pl##.cookie-notice
+welt.de,player.pl,tvn24.pl,ecosia.org##.cookie-notice
 weltexporte.de,unraid-guides.com,design-s.de,bobit.de##.cc-blockingScreen
 wempe.com##section[data-alert="cookie"]
 wempe.com#%#//scriptlet('prevent-setTimeout', 'typeof __cmp')

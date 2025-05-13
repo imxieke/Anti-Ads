@@ -1,6 +1,6 @@
 ! Title: Mobile Ads filter
 ! Description: Filter for all known mobile ad networks and Mobile App Banners.
-! Updated: 2025-05-13 00:29:03 RPC
+! Updated: 2025-05-13 09:50:18 RPC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/imxieke/Anti-Ads
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4991,6 +4991,8 @@ automaton-media.com##.code-block.ai-viewport-3
 autonet.com.tw##[src^="http://www.autonet.com.tw/90/"],[name="ntwad2"]
 autos-yahoo-com.cdn.ampproject.org,yahoo.com##.pencilad
 autos.goo.ne.jp##.cont_ad
+autotrader.com###hpSmartBanner
+autotrader.com##.app-store-bar
 autouncle.de##.autouncle-smart-banner
 autozeitung.de##body .adAnything.dikr-responsive-ads-mca
 av.movie##.adss-160x600
@@ -7270,7 +7272,6 @@ creaders.net##div[style="float:left;padding-right:.3em;width:300px;height:250px"
 creatur.io###mobile-download-panel
 crictracker.com##article > div[style="height:270px"]
 crictracker.com##div[class*="style_sticky__"][class*="position-fixed"]
-crictracker.com,reverso.net,wallpapers.ispazio.net,novosti.dn.ua,m.timesofindia.com##.downloadapp
 crmeb.com##.floatWindow
 crmeb.com##body > div#side
 crocotube.com##.ct-header-A-300x100
@@ -8188,7 +8189,6 @@ duplichecker.com#?#.data_inbox > div[class]:has(> script[src^="https://pagead2.g
 duplichecker.com#?#.data_inbox > div[style]:has(> div > span > ._ap_apex_ad)
 duplichecker.com#?#.main-content > div[class^="col-md"] > div[class]:has(> div[class^="adp-"])
 dutasex.info###promoapk
-duzcerota.com##.app-area
 dvbcn.com##.ad,div[class^="news_gg_"],div.itemFloat,DIV.wp.a_h,div.a_mu,DIV.a_pr
 dvtk.eu###app-downloader
 dxqck.com##.myadswiper
@@ -12922,6 +12922,7 @@ ksbbs.com,kshot.com##.slideAdvert
 ksbbs.com,kshot.com##div[id^="read_ad_"]
 ksbbs.com,kshot.com##[id^="ads_"]
 kshot.com##div[id^="read_m_yytf"]
+ksta.de###__nuxt > .fixed.bottom-0
 kstyle.com##.MdSP20Bnr
 kt.wowkorea.jp##a[href="https://wowkorea.page.link/Tn65"]
 kt.wowkorea.jp##div[style="background-color:#FFFFFF; border:1px solid #D4D4D4; width:95%;-webkit-border-radius:10px;-moz-border-radius:10px;"]
@@ -14519,6 +14520,8 @@ m.youtube.com#%#//scriptlet('trusted-click-element', '.ytm-bottom-sheet-overlay-
 m.youtube.com#@#a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 m.yuedu.163.com##.m-dl-tip
+m.zeelool.com,crictracker.com,reverso.net,wallpapers.ispazio.net,novosti.dn.ua,m.timesofindia.com##.downloadapp
+m.zeelool.com,duzcerota.com##.app-area
 m.zhanqi.tv##.footer
 m.zol.com.cn##SECTION[class="download-top"],A[href^="zolapp"]
 m24.ru###AndroidMobileAppBanner
@@ -22809,6 +22812,7 @@ ze.tt##.store-links
 zedge.net##.column.grid_12.leader
 zedge.net##.column.trailer.leader
 zeekmagazine.com##.td-all-devices
+zeelool.com##.tel-app
 zeenews.india.com##.ads-box-300x250::before
 zeenews.india.com##.ads-placeholder-internal
 zeenews.india.com##.appdownloadbanner
